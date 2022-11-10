@@ -1,0 +1,6 @@
+{
+["This function returns the bus that an&nbsp;{}audio emitter{}&nbsp;is connected to."]={new="此函数返回连接到{}音频发射器{}的总线。";old="This function returns the bus that an&nbsp;{}audio emitter{}&nbsp;is connected to."};
+["The emitter to get the bus for"]={new="总线的发射器";old="The emitter to get the bus for"};
+["By default audio emitters are connected to the main audio bus, accessed through&nbsp;{}{}audio_bus_main{}{}. If the emitter had a different audio bus assigned using {}{}audio_emitter_bus{}{}, it will return that bus's struct."]={old="By default audio emitters are connected to the main audio bus, accessed through&nbsp;{}{}audio_bus_main{}{}. If the emitter had a different audio bus assigned using {}{}audio_emitter_bus{}{}, it will return that bus's struct.";new="默认情况下，音频发射器被连接到主音频总线，通过&nbsp;{}{}audio_bus_main{}{}访问。 如果发射器使用{}{}audio_emitter_bus{}{}分配了不同的音频总线，它将返回该总线的结构。"};
+["The above code first stores the bus assigned to an emitter in a temporary variable {}bus{}. It then displays the contents of the returned&nbsp;{}AudioBus Struct{} struct in a debug message."]={new="以上代码首先将分配给发射器的总线存储在临时变量{}总线{}中。然后在调试消息中显示返回{}AudioBus Struct{}的内容。";old="The above code first stores the bus assigned to an emitter in a temporary variable {}bus{}. It then displays the contents of the returned&nbsp;{}AudioBus Struct{} struct in a debug message."}
+}

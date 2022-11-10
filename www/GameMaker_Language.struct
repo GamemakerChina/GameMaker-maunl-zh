@@ -1,0 +1,5 @@
+{
+["Creating Visual/Code Scripts"]={new="创建可视化/代码脚本";old="Creating Visual/Code Scripts"};
+["You are asked to choose between&nbsp;{}GML Code{}&nbsp;and&nbsp;{}GML Visual{}&nbsp;on creating a new Object event, a new Script asset, or anything else that results in the creation of a script:"]={old="You are asked to choose between&nbsp;{}GML Code{}&nbsp;and&nbsp;{}GML Visual{}&nbsp;on creating a new Object event, a new Script asset, or anything else that results in the creation of a script:";new="在创建一个新的对象事件、一个新的脚本资产或任何导致脚本创建的东西时，您需要在{} GML Code {}和{} GML Visual {}之间做出选择:"};
+["{}In addition to the choice between&nbsp;{}GML Code{}&nbsp;and&nbsp;{}GML Visual{}, this window contains two checkboxes:"]={new="{}除了在{} GML 代码{}和{} GML Visual {}之间进行选择之外，此窗口还包含两个复选框:";old="{}In addition to the choice between&nbsp;{}GML Code{}&nbsp;and&nbsp;{}GML Visual{}, this window contains two checkboxes:"}
+}

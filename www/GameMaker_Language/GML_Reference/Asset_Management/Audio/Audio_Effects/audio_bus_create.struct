@@ -1,0 +1,5 @@
+{
+["The sound will have any effects from&nbsp;{}emitter1_bus{}&nbsp;applied first and then the ones from{}{}audio_bus_main{}{}."]={new="声音将先应用{}emitter1_bus{}&nbsp;的任何效果，然后再应用{}{}audio_bus_main{}{}的效果。";old="The sound will have any effects from&nbsp;{}emitter1_bus{}&nbsp;applied first and then the ones from{}{}audio_bus_main{}{}."};
+["The above code first creates a new audio emitter and a new audio bus. It then assigns the emitter to the bus, and plays a sound on the emitter."]={new="上面的代码首先创建了一个新的音频发射器和一个新的音频总线。 然后它将发射器分配给总线，并在发射器上播放声音。";old="The above code first creates a new audio emitter and a new audio bus. It then assigns the emitter to the bus, and plays a sound on the emitter."};
+["This function creates a new audio bus and returns an&nbsp;{}AudioBus Struct{}&nbsp;through which you can access and modify it."]={old="This function creates a new audio bus and returns an&nbsp;{}AudioBus Struct{}&nbsp;through which you can access and modify it.";new="这个函数创建了一个新的音频总线，并返回一个&nbsp;{}AudioBus Struct{}&nbsp;通过它你可以访问和修改它。"}
+}

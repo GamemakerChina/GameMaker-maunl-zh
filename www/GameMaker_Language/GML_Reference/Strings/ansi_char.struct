@@ -1,0 +1,6 @@
+{
+["The above code creates a string from raw byte data and writes it to a (previously opened) file."]={old="The above code creates a string from raw byte data and writes it to a (previously opened) file.";new="上面的代码从原始字节数据创建一个字符串，并将其写入(先前打开的)文件。"};
+["The raw byte value."]={new="原始字节值。";old="The raw byte value."};
+["{}{}String{}{} (Single character)"]={new="{}{}字符串{}{}(单个字符)";old="{}{}String{}{} (Single character)"};
+["This function returns a string containing the character with raw BYTE value set. This will not, {}and should not{}, be displayed, but it will save correctly to disk for use in encoding."]={old="This function returns a string containing the character with raw BYTE value set. This will not, {}and should not{}, be displayed, but it will save correctly to disk for use in encoding.";new="该函数返回一个包含有原始BYTE值设置的字符的字符串。 这不会{}也不应该{}被显示出来，但它会正确地保存在磁盘上用于编码。"}
+}
