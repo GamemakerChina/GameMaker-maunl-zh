@@ -1,0 +1,8 @@
+{
+["The string to measure the width of."]={old="The string to measure the width of.";new="要测量的宽度的字符串。"};
+["This function will return the width (in pixels) of the input string, taking into account any line-breaks the text may have. It is very handy for calculating distances between text elements based on the total width of the letters that make up the string
+    as it would be drawn with {}{}draw_text(){}{} using the currently defined font."]={new="该函数将返回输入字符串的宽度 (以像素为单位)，同时考虑到文本可能具有的任何换行符。根据组成字符串的字母的总宽度来计算文本元素之间的距离非常方便
+因为它将使用 {}{} draw_text(){}{} 使用当前定义的字体绘制。";old="This function will return the width (in pixels) of the input string, taking into account any line-breaks the text may have. It is very handy for calculating distances between text elements based on the total width of the letters that make up the string
+    as it would be drawn with {}{}draw_text(){}{} using the currently defined font."};
+["The above code will get the width of the given string and then draw two lines of text, using the returned string width as a separator."]={new="上面的代码将获取给定字符串的宽度，然后绘制两行文本，使用返回的字符串宽度作为分隔符。";old="The above code will get the width of the given string and then draw two lines of text, using the returned string width as a separator."}
+}
