@@ -1,0 +1,8 @@
+{
+["The string to change the byte of."]={old="The string to change the byte of.";new="要更改的字节的字符串。"};
+["{}NOTE{} This function is incredibly slow so consider carefully whether it is necessary and where you use it."]={old="{}NOTE{} This function is incredibly slow so consider carefully whether it is necessary and where you use it.";new="{} 注意 {} 此功能非常慢，因此请仔细考虑是否有必要以及在何处使用它。"};
+["The new byte value."]={old="The new byte value.";new="新的字节值。"};
+["This function sets a byte directly in a string (based on the UTF8 format) and returns a copy of the string with the changes."]={new="此函数直接在字符串中设置一个字节 (基于UTF8格式)，并返回带有更改的字符串的副本。";old="This function sets a byte directly in a string (based on the UTF8 format) and returns a copy of the string with the changes."};
+["The position within the string (starting at 1) to change the byte of."]={new="字符串内的位置 (从1开始) 更改的字节。";old="The position within the string (starting at 1) to change the byte of."};
+['The above code would change the byte value of the second letter in the string, and so set the variable {}str{} to hold "hallo".']={new="上面的代码将更改字符串中第二个字母的字节值，因此将变量 {} str{} 设置为 “hallo”。";old='The above code would change the byte value of the second letter in the string, and so set the variable {}str{} to hold "hallo".'}
+}

@@ -1,0 +1,5 @@
+{
+["This will move the calling instance four pixels upwards if the key W is held down."]={old="This will move the calling instance four pixels upwards if the key W is held down.";new="如果按住键W，这将使调用实例向上移动四个像素。"};
+["This function takes a single character input string and returns the Unicode (UTF8) value for that character. Note that when used with the {}{}keyboard_check*{}{} functions, the input string can only be one character in length and can only be a number from 0 to 9 or a {}capitalised{} Roman character from A to Z."]={new="此函数采用单字符输入字符串并返回该字符的 Unicode (UTF8) 值。请注意，当与 {} {} keyboard_check* {} {} 函数一起使用时，输入字符串的长度只能为一个字符，并且只能是从 0 到 9 的数字或从 A 到 Z 的 {} 大写的 {} 罗马字符。";old="This function takes a single character input string and returns the Unicode (UTF8) value for that character. Note that when used with the {}{}keyboard_check*{}{} functions, the input string can only be one character in length and can only be a number from 0 to 9 or a {}capitalised{} Roman character from A to Z."};
+["The string with which to find the Unicode value."]={new="查找Unicode值的字符串。";old="The string with which to find the Unicode value."}
+}
