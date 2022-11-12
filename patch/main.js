@@ -105,8 +105,8 @@ qqq_translate=async function (engine){
 
 qqq_caiyun=async function (){
 
-		var a=await caiyun($(".qqq_menu .old").val()).catch((e) => {})
-		console.log(a)
+		var str=await caiyun($(".qqq_menu .old").val()).catch((e) => {})
+		console.log(str)
 		qqq_translate_set(str)
 
 }
@@ -273,13 +273,13 @@ window.setInterval(function(){
 
 	var iframe=$("iframe.topic").contents()
 	
-	iframe.find("p,h1,h2,td,li").each(function(){
+	iframe.find("p,h1,h2,td,li,a").each(function(){
 		var file=dir
 		add_translate($(this),file)
 		add_event($(this),file)
 	})
-	
-	iframe.find("h4,a,th,.warning,.important,.optional").each(function(){
+
+	iframe.find("h4,th,.warning,.important,.optional").each(function(){
 		var file="global"
 		add_translate($(this),file)
 		add_event($(this),file)

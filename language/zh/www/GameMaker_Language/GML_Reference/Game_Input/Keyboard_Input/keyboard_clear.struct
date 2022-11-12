@@ -1,0 +1,11 @@
+{
+["The above code clears the state of the spacebar."]={new="上面的代码清除了空格键的状态。";old="The above code clears the state of the spacebar."};
+["The key to clear."]={old="The key to clear.";new="清除的键。"};
+["With this function you can clear the current keyboard state, which essentially means that if the key is being held down, it will no longer be recognised until it is released again (which won't trigger the Keyboard Key Released event either on this
+    occasion) and pressed again.&nbsp;The function will take a keycode value as returned by the function {}{}ord(){}{} (only {}capital{} letters from A-Z or numbers from 0-9), or any of the {}vk_*{} constants listed
+    on the main {}Keyboard Input{} page."]={new="使用此功能，您可以清除当前的键盘状态，这基本上意味着，如果按键被按住，它将不再被识别，直到它再次释放 (这也不会触发键盘按键释放事件
+场合)，然后再次按下。该函数将采用函数{}{}ord(){}{}(仅{}a-Z的大写字母{}或0- 9的数字) 或列出的{}vk_*{}常量中的任何一个返回的keycode值
+在主{}键盘输入{}页面上。";old="With this function you can clear the current keyboard state, which essentially means that if the key is being held down, it will no longer be recognised until it is released again (which won't trigger the Keyboard Key Released event either on this
+    occasion) and pressed again.&nbsp;The function will take a keycode value as returned by the function {}{}ord(){}{} (only {}capital{} letters from A-Z or numbers from 0-9), or any of the {}vk_*{} constants listed
+    on the main {}Keyboard Input{} page."}
+}

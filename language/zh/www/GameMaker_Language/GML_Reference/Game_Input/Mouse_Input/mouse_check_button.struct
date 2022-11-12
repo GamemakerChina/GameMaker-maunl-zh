@@ -1,0 +1,14 @@
+{
+["The right mouse button"]={new="鼠标右键";old="The right mouse button"};
+["Any of the mouse buttons"]={old="Any of the mouse buttons";new="任何鼠标按钮"};
+["* {}{}NOTE{}{}&nbsp;The {}mb_side1{} and {}mb_side2 {}buttons are only for use on Windows, macOS, Ubuntu and HTML5."]={new="*{}{}注意{}{}{}mb_side1{}和{}mb_side2{}按钮仅用于Windows，macOS，Ubuntu和html5。";old="* {}{}NOTE{}{}&nbsp;The {}mb_side1{} and {}mb_side2 {}buttons are only for use on Windows, macOS, Ubuntu and HTML5."};
+["No mouse button"]={new="没有鼠标按钮";old="No mouse button"};
+["The middle mouse button (this may not be valid for all target platforms)"]={old="The middle mouse button (this may not be valid for all target platforms)";new="鼠标中键 (这可能不适用于所有目标平台)"};
+["Mouse side button 2"]={new="鼠标侧按钮2";old="Mouse side button 2"};
+["The left mouse button"]={new="鼠标左键";old="The left mouse button"};
+["Which mouse button constant to check for."]={old="Which mouse button constant to check for.";new="要检查哪个鼠标按钮常数。"};
+["Mouse Button Constant"]={new="鼠标按钮常数";old="Mouse Button Constant"};
+['The above code will check for the left mouse button and every step that it is held down will create an instance of the object indexed in "obj_Star".']={old='The above code will check for the left mouse button and every step that it is held down will create an instance of the object indexed in "obj_Star".';new="上面的代码将检查鼠标左键，并且按住它的每一步都将创建在 “obj_Star” 中索引的对象的实例。"};
+["This function will return {}true{} if the mouse button being checked is held down or {}false{} if it is not. You supply the mouse button to check from one of the following constants:"]={old="This function will return {}true{} if the mouse button being checked is held down or {}false{} if it is not. You supply the mouse button to check from one of the following constants:";new="如果按住鼠标按钮，此函数将返回{}true{}，如果不按住鼠标按钮，则返回{}false{}。您提供鼠标按钮以从以下常量之一进行检查:"};
+["Mouse side button 1"]={old="Mouse side button 1";new="鼠标侧按钮1"}
+}
