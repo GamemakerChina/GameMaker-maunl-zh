@@ -1,0 +1,5 @@
+{
+["The name of the global variable to check for (as a string)"]={old="The name of the global variable to check for (as a string)";new="要检查的全局变量的名称 (作为字符串)"};
+["With this function you can check whether a global scope variable exists or not. You supply the global variable name to check for {}as a string{} (see example code below) and the function will return {}true{} if a global variable with the given name exists or {}false{} otherwise."]={new="使用此函数，您可以检查全局范围变量是否存在。您提供全局变量名以字符串{}的形式检查{}(请参见下面的示例代码)，如果存在具有给定名称的全局变量，则函数将返回{}true{}，否则返回{}false{}。";old="With this function you can check whether a global scope variable exists or not. You supply the global variable name to check for {}as a string{} (see example code below) and the function will return {}true{} if a global variable with the given name exists or {}false{} otherwise."};
+['The above code will check to see if the global variable called "enemy_num" exists and if it does not it is created and set a value.']={new="上面的代码将检查是否存在名为 “enemy_num” 的全局变量，如果不存在，则创建并设置一个值。";old='The above code will check to see if the global variable called "enemy_num" exists and if it does not it is created and set a value.'}
+}

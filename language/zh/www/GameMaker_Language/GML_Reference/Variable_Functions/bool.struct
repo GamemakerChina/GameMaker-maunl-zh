@@ -1,0 +1,5 @@
+{
+["This function will attempt to convert a given value into a boolean data type, where the value will be returned as {}true{} if it is greater than or equal to 0.5, and {}false{} otherwise."]={new="此函数将尝试将给定的值转换为布尔数据类型，如果该值大于或等于0.5，则返回为{}true{}，否则返回为{}false{}。";old="This function will attempt to convert a given value into a boolean data type, where the value will be returned as {}true{} if it is greater than or equal to 0.5, and {}false{} otherwise."};
+["The value to convert."]={old="The value to convert.";new="要转换的值。"};
+['The above code checks the variable "val" to see if it is a boolean and if it is not then it is converted to one.']={new="上面的代码检查变量 “val” 以查看它是否是一个布尔值，如果不是，则将其转换为1。";old='The above code checks the variable "val" to see if it is a boolean and if it is not then it is converted to one.'}
+}

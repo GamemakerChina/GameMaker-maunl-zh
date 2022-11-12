@@ -1,0 +1,5 @@
+{
+['The above code checks the variable "val" to see if it contains a vec3 and if it is not then it shows a message in the debug console.']={new="上面的代码检查变量 “val” 以查看它是否包含vec3，如果不包含vec3，则在调试控制台中显示一条消息。";old='The above code checks the variable "val" to see if it contains a vec3 and if it is not then it shows a message in the debug console.'};
+["The argument to check."]={old="The argument to check.";new="要检查的参数。"};
+["In some cases you want to check and see what data type a variable holds in {}GameMaker{} and that's when you would use this function. It returns {}true{} or {}false{} depending on whether the value is a 3 value vector or not."]={new="在某些情况下，您想检查并查看变量在{}GameMaker{}中包含的数据类型，这就是您使用此函数的时间。根据值是否为3值向量，它返回{}true{}或{}false{}。";old="In some cases you want to check and see what data type a variable holds in {}GameMaker{} and that's when you would use this function. It returns {}true{} or {}false{} depending on whether the value is a 3 value vector or not."}
+}

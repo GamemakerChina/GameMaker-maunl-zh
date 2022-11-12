@@ -1,0 +1,5 @@
+{
+["The struct reference to check."]={old="The struct reference to check.";new="要检查的结构引用。"};
+["The above code will retrieve an array of the variable names for the given struct and then display these along with their values in the debug output."]={new="上面的代码将检索给定结构的变量名数组，然后在调试输出中显示这些变量名及其值。";old="The above code will retrieve an array of the variable names for the given struct and then display these along with their values in the debug output."};
+["With this function you can retrieve an array populated with the variable names from a struct. You pass in the struct reference to check, and each entry in the array will be a {}string{} of the variable names that the struct contains."]={new="使用此函数，您可以从结构中检索用变量名填充的数组。您传入struct引用以进行检查，并且数组中的每个条目都将是该struct包含的变量名称的{}字符串{}。";old="With this function you can retrieve an array populated with the variable names from a struct. You pass in the struct reference to check, and each entry in the array will be a {}string{} of the variable names that the struct contains."}
+}

@@ -1,0 +1,5 @@
+{
+["With this function you can retrieve the {}Script{} index for the script where the method was defined. If the method was not defined in a script then the function will return -1, otherwise it will return the index value for the script."]={new="使用此函数，您可以检索定义方法的脚本的{}脚本{}索引。如果该方法未在脚本中定义，则该函数将返回-1，否则它将返回脚本的索引值。";old="With this function you can retrieve the {}Script{} index for the script where the method was defined. If the method was not defined in a script then the function will return -1, otherwise it will return the index value for the script."};
+['The above code will check the script index for the method "light_setup" and then if it is not -1 it will output the script name to the console.']={new="上面的代码将检查方法 “light_setup” 的脚本索引，然后如果不是-1，则将脚本名称输出到控制台。";old='The above code will check the script index for the method "light_setup" and then if it is not -1 it will output the script name to the console.'};
+["The method variable to check"]={old="The method variable to check";new="要检查的方法变量"}
+}

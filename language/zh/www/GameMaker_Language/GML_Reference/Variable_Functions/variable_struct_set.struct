@@ -1,0 +1,7 @@
+{
+["The above code will check to see if the given variable exists in the given struct and if it does not then it is created and set to 0."]={new="上面的代码将检查给定的变量是否存在于给定的结构中，如果没有，则创建并设置为0。";old="The above code will check to see if the given variable exists in the given struct and if it does not then it is created and set to 0."};
+["With this function you can set the value of a given variable in a struct. You supply the struct reference as well as the name of the variable to set the value of {}as a string{} (see example code below), and then finally the value to set (can be any valid {}data type{}). If the variable does not exist already in the struct it will be created and then assigned the value."]={new="使用此函数，您可以在结构中设置给定变量的值。您提供struct引用以及变量的名称，以将{}的值设置为字符串{}(请参见下面的示例代码)，然后最后设置的值 (可以是任何有效的{}数据类型{})。如果变量在结构中不存在，则将创建该变量，然后分配该值。";old="With this function you can set the value of a given variable in a struct. You supply the struct reference as well as the name of the variable to set the value of {}as a string{} (see example code below), and then finally the value to set (can be any valid {}data type{}). If the variable does not exist already in the struct it will be created and then assigned the value."};
+["The struct reference to set"]={old="The struct reference to set";new="要设置的结构引用"};
+["The value to set the variable to"]={old="The value to set the variable to";new="将变量设置为"};
+["The name of the variable to set (as a string)"]={new="要设置的变量的名称 (作为字符串)";old="The name of the variable to set (as a string)"}
+}
