@@ -1,0 +1,5 @@
+{
+["The array to remove the last value from."]={old="The array to remove the last value from.";new="要从中删除最后一个值的数组。"};
+["This function will remove the last element in the given array, and return its value.&nbsp;If the array is empty,&nbsp;{}undefined{}&nbsp;is returned."]={new="此函数将删除给定数组中的最后一个元素，并返回其值。如果数组为空，则返回{} undefined{}。";old="This function will remove the last element in the given array, and return its value.&nbsp;If the array is empty,&nbsp;{}undefined{}&nbsp;is returned."};
+["The above code will pop the last value from the given array, and then draw it along with some text to the screen. The retrieved entry is also removed from the score array."]={new="上面的代码将从给定的数组中弹出最后一个值，然后将其与一些文本一起绘制到屏幕上。检索的条目也从分数数组中删除。";old="The above code will pop the last value from the given array, and then draw it along with some text to the screen. The retrieved entry is also removed from the score array."}
+}

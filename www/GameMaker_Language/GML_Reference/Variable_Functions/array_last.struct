@@ -1,0 +1,6 @@
+{
+['The array to get the last (or "top") value from']={new="从中获取最后一个 (或 “顶部”) 值的数组";old='The array to get the last (or "top") value from'};
+["The above code gets the last enemy instance added to the array {}enemies{}&nbsp;and stores it in a temporary variable&nbsp;{}last_added_enemy{}. It then lets that instance display a debug message with the id of the instance."]={new="上述代码将最后一个敌人实例添加到数组{}enemies{}，并将其存储在临时变量{}last_added_enemy{}中。 然后，它允许该实例显示带有该实例的id的调试消息。";old="The above code gets the last enemy instance added to the array {}enemies{}&nbsp;and stores it in a temporary variable&nbsp;{}last_added_enemy{}. It then lets that instance display a debug message with the id of the instance."};
+["This function returns the element at the top of the array, i.e. the last element at index {}{}array_length{}(array)-1{}."]={old="This function returns the element at the top of the array, i.e. the last element at index {}{}array_length{}(array)-1{}.";new="此函数返回数组顶部的元素，即在index {}{} array_length{}(array)-1{} 处的最后一个元素。"};
+["{}{}Any{}{} (Any valid data type that an array can hold)"]={old="{}{}Any{}{} (Any valid data type that an array can hold)";new="{}{} Any {}{} (数组可以容纳的任何有效数据类型)"}
+}

@@ -1,0 +1,7 @@
+{
+["With this function you can push a value (or values) onto the end of an array without having to know the length of the array. The function requires you to provide a variable that holds the array as well as at least&nbsp;{}one{}&nbsp;value to push, although you can optionally provide further arguments and they will all be pushed onto the array in consecutive order."]={old="With this function you can push a value (or values) onto the end of an array without having to know the length of the array. The function requires you to provide a variable that holds the array as well as at least&nbsp;{}one{}&nbsp;value to push, although you can optionally provide further arguments and they will all be pushed onto the array in consecutive order.";new="使用此函数，您可以将一个值 (或多个值) 推到数组的末尾，而不必知道数组的长度。该函数要求您提供一个变量，该变量保存数组以及至少 {} 一个 {} 值以推送，尽管您可以选择提供其他参数，并且它们都将按连续顺序推送到数组上。"};
+["{}OPTIONAL{}&nbsp;Further values to be pushed onto the array"]={old="{}OPTIONAL{}&nbsp;Further values to be pushed onto the array";new="{}可选{} 要推送到数组的其他值"};
+["The variable that holds the array."]={new="保存数组的变量。";old="The variable that holds the array."};
+["The above code will push four values onto the end of the given array."]={new="上面的代码将把四个值推到给定数组的末尾。";old="The above code will push four values onto the end of the given array."};
+["The value to push onto the end of the array"]={old="The value to push onto the end of the array";new="推送到数组末尾的值"}
+}

@@ -1,0 +1,9 @@
+{
+["The current array index"]={new="当前数组索引";old="The current array index"};
+["{}This function creates an array of the given size and calls the function to initialise each entry.{}"]={old="{}This function creates an array of the given size and calls the function to initialise each entry.{}";new="{} 此函数创建给定大小的数组，并调用该函数初始化每个条目。{}"};
+["The above code first creates a temporary function {}f{} that takes in an index as the first and only argument and returns that index with 1 added to it. It then uses&nbsp;{}{}array_create_ext{}{}&nbsp;with this function which creates an array filled with the integer numbers from 1 to 100."]={new="上面的代码首先创建了一个临时函数 {} f{}，该函数将索引作为第一个也是唯一的参数，返回该index，并加了1。然后，它使用 {}{}array_create_ext{}{} 此函数创建一个数组，该数组填充了从1到100的整数。";old="The above code first creates a temporary function {}f{} that takes in an index as the first and only argument and returns that index with 1 added to it. It then uses&nbsp;{}{}array_create_ext{}{}&nbsp;with this function which creates an array filled with the integer numbers from 1 to 100."};
+["The function used to initialize each entry."]={old="The function used to initialize each entry.";new="用于初始化每个条目的函数。"};
+["The function has to take 1 argument, which is the index, and return a value of type&nbsp;{}{}Any{}{}&nbsp;for that index, which is the value that is placed in the array at that index."]={old="The function has to take 1 argument, which is the index, and return a value of type&nbsp;{}{}Any{}{}&nbsp;for that index, which is the value that is placed in the array at that index.";new="函数必须采用1个参数，即索引，并为该索引返回一个类型为 {}{} Any {}{} 的值，该值是放置在该索引处的数组中的值。"};
+["Using this function you can initialise the array with values that depend on the array index."]={new="使用此函数，您可以使用依赖于数组索引的值初始化数组。";old="Using this function you can initialise the array with values that depend on the array index."};
+["The size of the array"]={new="数组的大小";old="The size of the array"}
+}
