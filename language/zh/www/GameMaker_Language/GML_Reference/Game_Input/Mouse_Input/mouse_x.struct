@@ -1,0 +1,4 @@
+{
+["The above code will maintain the instance at the mouse x position as long as it is within the limits of 64 pixels from either side of the room."]={new="上述代码将实例保持在鼠标x位置，只要该实例在距房间任一侧64像素的范围内。";old="The above code will maintain the instance at the mouse x position as long as it is within the limits of 64 pixels from either side of the room."};
+["This {}read-only{} variable returns the current x axis position of the mouse within the room."]={old="This {}read-only{} variable returns the current x axis position of the mouse within the room.";new="此{}只读{}变量返回鼠标在房间内的当前x轴位置。"}
+}

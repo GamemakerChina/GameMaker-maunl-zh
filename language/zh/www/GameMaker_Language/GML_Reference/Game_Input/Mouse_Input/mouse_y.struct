@@ -1,0 +1,4 @@
+{
+["The above code will maintain the instance at the mouse y position as long as it is within the limits of 64 pixels from the top and bottom of the room."]={new="上面的代码将使实例保持在鼠标y位置，只要它在房间顶部和底部64像素的限制内即可。";old="The above code will maintain the instance at the mouse y position as long as it is within the limits of 64 pixels from the top and bottom of the room."};
+["This {}read-only{} variable returns the current y axis position of the mouse within the room."]={old="This {}read-only{} variable returns the current y axis position of the mouse within the room.";new="此{}只读{}变量返回鼠标在房间内的当前y轴位置。"}
+}

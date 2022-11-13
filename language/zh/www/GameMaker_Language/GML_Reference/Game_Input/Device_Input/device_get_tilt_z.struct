@@ -1,0 +1,5 @@
+{
+['This function returns a value between -1 and 1 depending upon the angle of "tilt" of the device. The actual correlation between degrees of tilt and the value returned depends on the device and OS that it uses, but generally a value of 1 or\n    -1 is the same as +/-90°. The image below shows how each if the available functions relates to the device:']={old='This function returns a value between -1 and 1 depending upon the angle of "tilt" of the device. The actual correlation between degrees of tilt and the value returned depends on the device and OS that it uses, but generally a value of 1 or\n    -1 is the same as +/-90°. The image below shows how each if the available functions relates to the device:';new="此函数根据设备的 “倾斜” 角度返回-1到1之间的值。倾斜度与返回的值之间的实际相关性取决于它使用的设备和OS，但通常值为1或
+-1与/- 90 ° 相同。下图显示了每个可用功能与设备的关系:"};
+["The above code uses the tilt value to move the player along the y axis."]={new="上面的代码使用倾斜值沿y轴移动玩家。";old="The above code uses the tilt value to move the player along the y axis."}
+}

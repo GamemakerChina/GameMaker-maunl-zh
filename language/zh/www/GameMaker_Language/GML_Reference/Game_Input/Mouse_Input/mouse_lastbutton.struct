@@ -1,0 +1,5 @@
+{
+["This moves the current instance left if the last button pressed was the left mouse button."]={old="This moves the current instance left if the last button pressed was the left mouse button.";new="如果最后按下的按钮是鼠标左键，这将向左移动当前实例。"};
+["{}{}Mouse Button Constant{}{} (except mb_any)"]={new="{}{}鼠标按钮常数{}{}（mb_any除外）";old="{}{}Mouse Button Constant{}{} (except mb_any)"};
+["This variable returns the last mouse button that was pressed and can return any of the special {}mouse constants{} except {}mb_any{}&nbsp;(you may also set this variable to one of the constants)."]={new="此变量返回最后按下的鼠标按钮，并且可以返回除{}mb_any{}之外的任何特殊{}鼠标常量{}(您也可以将此变量设置为常量之一)。";old="This variable returns the last mouse button that was pressed and can return any of the special {}mouse constants{} except {}mb_any{}&nbsp;(you may also set this variable to one of the constants)."}
+}

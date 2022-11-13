@@ -1,0 +1,13 @@
+{
+["The right mouse button"]={old="The right mouse button";new="鼠标右键"};
+["Any of the mouse buttons"]={new="任何鼠标按钮";old="Any of the mouse buttons"};
+["* {}{}NOTE{}{}&nbsp;The {}mb_side1{} and {}mb_side2 {}buttons are only for use on Windows, macOS, Ubuntu and HTML5."]={new="*{}{}注意{}{}{}mb_side1{}和{}mb_side2{}按钮仅用于Windows，macOS，Ubuntu和html5。";old="* {}{}NOTE{}{}&nbsp;The {}mb_side1{} and {}mb_side2 {}buttons are only for use on Windows, macOS, Ubuntu and HTML5."};
+["No mouse button"]={old="No mouse button";new="没有鼠标按钮"};
+["The middle mouse button (this may not be valid for all target platforms)"]={new="鼠标中键 (这可能不适用于所有目标平台)";old="The middle mouse button (this may not be valid for all target platforms)"};
+["Mouse side button 2"]={old="Mouse side button 2";new="鼠标侧按钮2"};
+["Note that there are also a set of window functions related to using the mouse on desktop targets:"]={new="请注意，还有一组与在桌面目标上使用鼠标有关的窗口功能:";old="Note that there are also a set of window functions related to using the mouse on desktop targets:"};
+["The left mouse button"]={old="The left mouse button";new="鼠标左键"};
+["Mouse input is accepted on all platforms (on mobile devices it is accepted as a single screen touch - if you need to use multi-touch, you should be using the {}device specific functions{}) and has a few constants that are used to specify the buttons being pressed. These constants are shown in the following table:"]={new="所有平台都接受鼠标输入 (在移动设备上，它被接受为单屏触摸-如果您需要使用多点触摸，您应该使用{}设备特定功能{})，并且有一些常量，用于指定按下的按钮。这些常数如下表所示:";old="Mouse input is accepted on all platforms (on mobile devices it is accepted as a single screen touch - if you need to use multi-touch, you should be using the {}device specific functions{}) and has a few constants that are used to specify the buttons being pressed. These constants are shown in the following table:"};
+["The following functions exist for the standard mouse button controls:"]={old="The following functions exist for the standard mouse button controls:";new="标准鼠标按钮控件具有以下功能:"};
+["Mouse side button 1"]={new="鼠标侧按钮1";old="Mouse side button 1"}
+}
