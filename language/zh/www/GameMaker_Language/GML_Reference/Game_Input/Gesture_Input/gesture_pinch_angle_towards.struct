@@ -1,0 +1,4 @@
+{
+["This function is used to set the angle within which a touch must be moving towards another touch before a {}Pinch In Gesture{} may potentially be started. The angle is measured in degrees and has a default value of 45°."]={old="This function is used to set the angle within which a touch must be moving towards another touch before a {}Pinch In Gesture{} may potentially be started. The angle is measured in degrees and has a default value of 45°.";new="此功能用于设置在可能开始{}捏手势{}之前，触摸必须向另一触摸移动的角度。角度以度为单位测量，默认值为45 °。"};
+["The above code checks to see if the pinch in angle for gestures is set to 45° and if it is not it sets it to that value."]={new="上面的代码检查是否将手势的收缩角度设置为45 °，如果不是，则将其设置为该值。";old="The above code checks to see if the pinch in angle for gestures is set to 45° and if it is not it sets it to that value."}
+}

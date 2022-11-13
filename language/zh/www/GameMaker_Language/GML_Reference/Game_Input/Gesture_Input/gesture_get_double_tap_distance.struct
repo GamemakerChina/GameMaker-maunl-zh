@@ -1,0 +1,4 @@
+{
+["The above code checks to see if double tap distance for gestures is set to 0.1 inches and if it is not it sets it to that value."]={new="上面的代码检查手势的双击距离是否设置为0.1英寸，如果不是，则将其设置为该值。";old="The above code checks to see if double tap distance for gestures is set to 0.1 inches and if it is not it sets it to that value."};
+["This function is used to get the distance within which you have to touch/click the screen again after a single tap in order to trigger a {}Double Tap Gesture{}. The distance is measured in inches and has a default value of 0.1."]={old="This function is used to get the distance within which you have to touch/click the screen again after a single tap in order to trigger a {}Double Tap Gesture{}. The distance is measured in inches and has a default value of 0.1.";new="此功能用于获取单击后必须再次触摸/单击屏幕的距离，以触发{}双击手势{}。距离以英寸为单位，默认值为0.1。"}
+}

@@ -1,0 +1,4 @@
+{
+["This function is used to get the angle which a pair of touches must exceed in order to trigger a {}Rotate Start Gesture{}. The angle is measured in degrees and has a default value of 5°."]={old="This function is used to get the angle which a pair of touches must exceed in order to trigger a {}Rotate Start Gesture{}. The angle is measured in degrees and has a default value of 5°.";new="此功能用于获取一对触摸必须超过的角度才能触发{}旋转开始手势{}。角度以度为单位测量，默认值为5 °。"};
+["The above code checks to see if rotation angle for gestures is set to 5° and if it is not it sets it to that value."]={new="上面的代码检查是否将手势的旋转角度设置为5 °，如果不是，则将其设置为该值。";old="The above code checks to see if rotation angle for gestures is set to 5° and if it is not it sets it to that value."}
+}

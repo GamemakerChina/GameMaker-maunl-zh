@@ -81,6 +81,7 @@ qqq_translate_set=function(str){
 	var rc=str.split("{}").length-1 //右得分
 	var score="( "+lc+":"+rc+" )"
 	$(".qqq span.num").html(score)
+&nbsp;
 }
 
 qqq_translate=async function (engine){
@@ -98,7 +99,10 @@ qqq_translate=async function (engine){
 	//修正大括号
 	str=str.replace(/\） */g,")")
 	str=str.replace(/ *（/g,"(")
-
+	
+	//修正双引号
+	str=str.replace(/“/g,"\"")
+	str=str.replace(/”/g,"\"")
 	console.log(str)
 
 	qqq_translate_set(str)
