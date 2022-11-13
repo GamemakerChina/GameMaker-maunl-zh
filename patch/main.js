@@ -81,7 +81,6 @@ qqq_translate_set=function(str){
 	var rc=str.split("{}").length-1 //右得分
 	var score="( "+lc+":"+rc+" )"
 	$(".qqq span.num").html(score)
-&nbsp;
 }
 
 qqq_translate=async function (engine){
