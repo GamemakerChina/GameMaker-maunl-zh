@@ -1,0 +1,58 @@
+{
+['Array containing structs for each slot in this sprite&nbsp;(more information under "Spine Sprite Data")']={new="包含此sprite中每个槽的结构的数组（“ Spine Sprite数据”下的更多信息）";old='Array containing structs for each slot in this sprite&nbsp;(more information under "Spine Sprite Data")'};
+["The name of the sprite"]={new="精灵的名称";old="The name of the sprite"};
+['Array of broadcast messages for this sprite, where each broadcast message is a struct containing information on the message (more information under "General Sprite Data")']={old='Array of broadcast messages for this sprite, where each broadcast message is a struct containing information on the message (more information under "General Sprite Data")';new="此sprite的广播消息数组，其中每个广播消息都是一个包含有关该消息的信息的结构（“常规sprite数据”下的更多信息）"};
+["{}This additional variable is available only for Bitmap (regular)&nbsp;sprites:{}"]={old="{}This additional variable is available only for Bitmap (regular)&nbsp;sprites:{}";new="{}此附加变量仅适用于位图（常规）精灵：{}"};
+["The sprite's height (in pixels)"]={new="精灵的高度（以像素为单位）";old="The sprite's height (in pixels)"};
+["Array of texture IDs used for the atlas"]={old="Array of texture IDs used for the atlas";new="用于图集的纹理ID的数组"};
+["The sprite's Y offset/origin (in pixels)"]={new="精灵的Y偏移/原点（以像素为单位）";old="The sprite's Y offset/origin (in pixels)"};
+['Array of frames for this sprite, where each frame is a struct containing information on its timing&nbsp;(more information under "General Sprite Data")']={new="此sprite的帧数组，其中每个帧都是一个包含其计时信息的结构（“常规sprite数据”下的更多信息）";old='Array of frames for this sprite, where each frame is a struct containing information on its timing&nbsp;(more information under "General Sprite Data")'};
+["The type of the sprite:{}
+          {}0{} - Bitmap (Regular sprites){}
+          {}1{} - SWF{}
+          {}2{} - Spine
+        "]={old="The type of the sprite:{}
+          {}0{} - Bitmap (Regular sprites){}
+          {}1{} - SWF{}
+          {}2{} - Spine
+        ";new="sprite的类型：{}
+{}0{}-Bitmap（常规子画面）{}
+{}1{}-SWF{}
+{}2{}-Spine"};
+["This function is used to retrieve information for the given sprite. You supply a sprite index (which can be an asset added through the {}Asset Browser{} or a sprite&nbsp;{}added{} at runtime) and the function returns a {}struct{} with the following variables:"]={new="此函数用于检索给定子画面的信息。您提供一个sprite索引（可以是通过{}Asset Browser{}添加的资源，也可以是在运行时添加的sprite{}），该函数将返回包含以下变量的{}struct{}：";old="This function is used to retrieve information for the given sprite. You supply a sprite index (which can be an asset added through the {}Asset Browser{} or a sprite&nbsp;{}added{} at runtime) and the function returns a {}struct{} with the following variables:"};
+['Array of frames for this sprite, where each frame is a struct containing information on its texture&nbsp;(more information under "Bitmap Sprite Data")']={old='Array of frames for this sprite, where each frame is a struct containing information on its texture&nbsp;(more information under "Bitmap Sprite Data")';new="此精灵的帧数组，其中每个帧都是一个包含其纹理信息的结构（“位图精灵数据”下的更多信息）"};
+["The function will return {}undefined{} if the given sprite doesn't exist. Also note that information returned in this struct should be considered {}read-only{} as modifying any of these variables will not affect the sprite."]={old="The function will return {}undefined{} if the given sprite doesn't exist. Also note that information returned in this struct should be considered {}read-only{} as modifying any of these variables will not affect the sprite.";new="如果给定的sprite不存在，该函数将返回{}undefined{}。另请注意，此结构中返回的信息应被视为{}只读{}，因为修改这些变量中的任何一个都不会影响sprite."};
+["Array containing the names of each animation in this sprite"]={old="Array containing the names of each animation in this sprite";new="数组，包含此精灵中每个动画的名称。"};
+["The number of masks in this sprite (will be greater than 1 if the sprite uses per-frame masks)"]={old="The number of masks in this sprite (will be greater than 1 if the sprite uses per-frame masks)";new="此子画面中的遮罩数（如果子画面使用每帧遮罩，则大于1）"};
+["The number of atlas textures used"]={new="使用的图集纹理的数量";old="The number of atlas textures used"};
+["Position of the right edge of the bounding box (in pixels)"]={new="边界框右边缘的位置（以像素为单位）";old="Position of the right edge of the bounding box (in pixels)"};
+["Position of the top edge of the bounding box (in pixels)"]={old="Position of the top edge of the bounding box (in pixels)";new="边界框上边缘的位置（以像素为单位）"};
+["The number of sub-images (or frames) in the sprite"]={old="The number of sub-images (or frames) in the sprite";new="精灵中的子图像（或帧）数"};
+["{}true{} if the sprite is marked as smooth, otherwise {}false{}{}
+          {}{}(This can only be specified through {}{}sprite_add(){}{}&nbsp;or similar functions, and will be {}false{} for sprites created in the IDE){}{}{}{}
+        "]={new="如果精灵标记为平滑，则为{}true{}，否则为{}false{}{}
+{}{}（这只能通过{}{}sprite_add（）{}{）或类似的函数来指定，并且对于在IDE中创建的sprite将为{}False{}）";old="{}true{} if the sprite is marked as smooth, otherwise {}false{}{}
+          {}{}(This can only be specified through {}{}sprite_add(){}{}&nbsp;or similar functions, and will be {}false{} for sprites created in the IDE){}{}{}{}
+        "};
+["Array containing the names of each skin in this sprite"]={new="数组，包含此sprite中每个皮肤的名称。";old="Array containing the names of each skin in this sprite"};
+["Position of the bottom edge of the bounding box (in pixels)"]={old="Position of the bottom edge of the bounding box (in pixels)";new="边界框下边缘的位置（以像素为单位）"};
+["The above code gets the info struct for the instance's sprite,&nbsp;and then checks if it's not {}undefined{} and that its type is 0 (meaning that it's a bitmap sprite). In that case, it gets the broadcast message&nbsp;array for that sprite and then runs a for loop to print each broadcast message (along with its frame) to the output log."]={new="上面的代码获取实例的sprite的信息结构，然后检查它是否不是{}undefined{}并且它的类型是0（意味着它是一个位图sprite）。在这种情况下，它获取该sprite的广播消息数组，然后运行for循环以将每个广播消息（及其帧）打印到输出日志。";old="The above code gets the info struct for the instance's sprite,&nbsp;and then checks if it's not {}undefined{} and that its type is 0 (meaning that it's a bitmap sprite). In that case, it gets the broadcast message&nbsp;array for that sprite and then runs a for loop to print each broadcast message (along with its frame) to the output log."};
+["{}true{} if this sprite is marked as premultiplied, otherwise {}false{}"]={new="如果此sprite标记为预乘，则为{}true{}，否则为{}false{}";old="{}true{} if this sprite is marked as premultiplied, otherwise {}false{}"};
+["Sprite Info Struct"]={new="精灵信息结构";old="Sprite Info Struct"};
+["The sprite's X offset/origin (in pixels)"]={old="The sprite's X offset/origin (in pixels)";new="精灵的X偏移/原点（以像素为单位）"};
+["{}true{} if the sprite is marked as transparent, otherwise {}false{}{}
+          {}(This can only be specified through {}{}sprite_add(){}{}&nbsp;or similar functions, and will be {}false{} for sprites created in the IDE){}
+        "]={old="{}true{} if the sprite is marked as transparent, otherwise {}false{}{}
+          {}(This can only be specified through {}{}sprite_add(){}{}&nbsp;or similar functions, and will be {}false{} for sprites created in the IDE){}
+        ";new="如果sprite标记为透明，则为{}true{}，否则为{}false{}{}
+{}（这只能通过{}{}sprite_add（）{}{}或类似的函数来指定，并且对于在IDE中创建的sprite将为{}false{}）{}"};
+["{}General Sprite Data{}{}General Sprite Data{}"]={old="{}General Sprite Data{}{}General Sprite Data{}";new=""};
+["The {}Nine Slice struct{} for this sprite, or {}undefined{} if it has no nine slice data"]={new="此sprite的{}九宫格结构{}，或者{}undefined{}（如果它没有九宫格数据）";old="The {}Nine Slice struct{} for this sprite, or {}undefined{} if it has no nine slice data"};
+["Position of the left edge of the bounding box (in pixels)"]={new="边界框左边缘的位置（以像素为单位）";old="Position of the left edge of the bounding box (in pixels)"};
+["The index of the sprite to get the information for."]={old="The index of the sprite to get the information for.";new="要获取其信息的sprite的索引。"};
+["The sections below contain information on the arrays and structs included in the returned struct based on the sprite type:"]={new="以下部分包含有关基于Sprite类型返回的结构中包含的数组和结构的信息：";old="The sections below contain information on the arrays and structs included in the returned struct based on the sprite type:"};
+['Array containing structs for each bone in this sprite&nbsp;(more information under "Spine Sprite Data")']={old='Array containing structs for each bone in this sprite&nbsp;(more information under "Spine Sprite Data")';new="包含此精灵中每个骨骼的结构的数组（“脊椎精灵数据”下的更多信息）"};
+["{}true{} if this sprite uses a collision mask, otherwise {}false{}"]={new="如果此精灵使用碰撞遮罩，则为{}true{}，否则为{}false{}";old="{}true{} if this sprite uses a collision mask, otherwise {}false{}"};
+["{}Bitmap Sprite Data{}{}Bitmap Sprite Data{}"]={new="";old="{}Bitmap Sprite Data{}{}Bitmap Sprite Data{}"};
+["The sprite's width (in pixels)"]={old="The sprite's width (in pixels)";new="精灵的宽度（以像素为单位）"}
+}
