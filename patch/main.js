@@ -89,13 +89,16 @@ qqq_translate=async function (engine){
 
 	//翻译前转义空格的转义
 	old=old.replace(/\&nbsp\;/g," ")
-	
 	var json=await translate(old,engine).catch((e) => {})
 	var str=json.data.target
 
 	//翻译后的内容清除{}周遭空格
 	str=str.replace(/\} */g,"}")
 	str=str.replace(/ *{/g,"{")
+
+	//修正大括号
+	str=str.replace(/\） */g,")")
+	str=str.replace(/ *（/g,"(")
 
 	console.log(str)
 
