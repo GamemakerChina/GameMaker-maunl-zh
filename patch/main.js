@@ -103,6 +103,12 @@ qqq_translate=async function (engine){
 	//修正双引号
 	str=str.replace(/“/g,"\"")
 	str=str.replace(/”/g,"\"")
+
+	//修正狗屎转义
+	str=str.replace(/ ?；/g,";")
+	str=str.replace(/& ?/g,"&")
+	
+
 	console.log(str)
 
 	qqq_translate_set(str)
@@ -214,6 +220,7 @@ add_translate=function(ele,file){
 		
 		//在翻译上还原标签
 		var f=retHtml(v.html())
+		
 		if(f)f.forEach(function(v,k){
 			result=result.replace("{}",v)
 		})
