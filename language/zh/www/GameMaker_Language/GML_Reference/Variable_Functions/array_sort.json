@@ -10,6 +10,7 @@
     "The sort type ({}{}true{} for ascending or {}false{} for descending) or a function reference to use for sorting.{}":"排序类型（{} {} true {} 表示升序或 {} false {} 表示降序）或用于排序的函数引用。{}",
     "The variable that holds the array.":"保存数组的变量。",
     "This function will modify the contents of the original array that was supplied. To create a sorted copy, use {}{}array_copy(){}{} to duplicate the array first, and then pass that into this function.":"此函数将修改提供的原始数组的内容。要创建排序副本，请使用 {}{} array_copy(){}{} 先复制数组，然后将其传递到此函数中。",
+    "Using a custom function":"使用自定义函数",
     "With this function you can sort an array in ascending order or descending order or using a custom function to define the sort order. The function requires you to provide the array to sort, and then either of the following:":"使用此函数，您可以按升序或降序对数组进行排序，或者使用自定义函数定义排序顺序。该函数要求您提供要排序的数组，然后执行以下操作之一：",
     "{}&gt;= 1{} (positive integer): if {}elm1{} goes after {}elm2{}":"{}&gt;=1{} (正整数): 如果 {} elm1{} 在 {} elm2{} 之后",
     "{}&lt;= -1{} (negative integer): if {}elm1{} goes before {}elm2{}":"{}&lt;=-1{}(负整数)：如果{}elm1{}在{}elm2{}之前",

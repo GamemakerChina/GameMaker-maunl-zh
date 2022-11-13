@@ -5,7 +5,7 @@
     "If you choose the \"removeback\" option, you may also want {}GameMaker{} to smooth the edges of the sprite by setting the \"smooth\" argument to {}true{}. All this does is create a semi-transparent border around the edges of the sprite after it has had its background removed.":"如果您选择“ RemoveBack ”选项，您可能还希望{}GameMaker{}通过将“ Smooth ”参数设置为{}true{}来平滑精灵的边缘。所有这些都是在精灵的背景被移除后，在精灵的边缘创建一个半透明的边界。",
     "Indicates whether to make all pixels with the background colour (left-bottom pixel) transparent.":"指示是否将具有背景色的所有像素（左下像素）设置为透明。",
     "Indicates whether to smooth the edges.":"指示是否平滑边缘。",
-    "The above code will replace the image asset indexed in \"spr_banner\" with another one loaded from an external source.":"上面的代码将“ SPR_横幅”中索引的图像资产替换为从外部源加载的另一个图像资产。",
+    "The above code will replace the image asset indexed in \"spr_banner\" with another one loaded from an external source.":"上面的代码将“ SPR_横幅”中索引的图像资源替换为从外部源加载的另一个图像资源。",
     "The filename of the image to make the new sprite.":"要创建新子画面的图像的文件名。",
     "The image file to be loaded should {}always{} be in {}*.png{} format and all images that are to be turned into animated sprites should have a \"strip\" format (see the image below). They will be split into the number of sub-images specified following the rule {}sprite width = strip width / sub images{}.":"要加载的图像文件应{}始终{}在{}*中。PNG{}格式和所有要转换为动画精灵的图像都应该具有“条带”格式（见下图）。它们将按照规则{}Sprite Width=Strip Width/Sub Images{}分割为指定数量的子图像。",
     "The index of the sprite to permanently replace.":"要永久替换的sprite的索引。",

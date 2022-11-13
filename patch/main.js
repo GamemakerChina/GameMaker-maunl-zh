@@ -287,7 +287,7 @@ window.setInterval(function(){
 
 	var iframe=$("iframe.topic").contents()
 	
-	iframe.find("p,h1,h2,td,li,a").each(function(){
+	iframe.find("p,h1,h2,h3,td,li,a").each(function(){
 		var file=dir
 		add_translate($(this),file)
 		add_event($(this),file)
