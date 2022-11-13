@@ -1,0 +1,5 @@
+{
+['Which gamepad device "slot" to check.']={old='Which gamepad device "slot" to check.';new="要检查哪个游戏设备“插槽”。"};
+['The above code will return the number of buttons available on the gamepad plugged into device "slot" 0 and store the value in the variable "b_num".']={new="上面的代码将返回插入设备 “插槽” 0的游戏手柄上可用的按钮数量，并将该值存储在变量 “b_num” 中。";old='The above code will return the number of buttons available on the gamepad plugged into device "slot" 0 and store the value in the variable "b_num".'};
+['This function will return the {}total{} number of buttons available for the gamepad connected to the given device "slot".']={new="此函数将返回连接到给定设备“插槽”的游戏板可用的按钮总数{}。";old='This function will return the {}total{} number of buttons available for the gamepad connected to the given device "slot".'}
+}
