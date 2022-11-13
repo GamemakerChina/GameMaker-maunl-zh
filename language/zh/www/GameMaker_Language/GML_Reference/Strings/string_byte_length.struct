@@ -1,5 +1,0 @@
-{
-["This function returns the number of bytes in a string. Due to their being held as UTF8, this will {}not{} be equal to the {}number of characters{} in the string."]={new="该函数返回字符串中的字节数。由于它们被保留为UTF8，这将 {} 不 {} 等于字符串中 {} 字符 {} 的数量。";old="This function returns the number of bytes in a string. Due to their being held as UTF8, this will {}not{} be equal to the {}number of characters{} in the string."};
-['This would set bytesize to the number of bytes in "Hello World".']={new="这将bytesize设置为 “Hello World” 中的字节数。";old='This would set bytesize to the number of bytes in "Hello World".'};
-["The string to measure the number of bytes of."]={old="The string to measure the number of bytes of.";new="要测量的字节数的字符串。"}
-}

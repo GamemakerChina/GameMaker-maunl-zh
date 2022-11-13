@@ -1,0 +1,4 @@
+{
+    "This function will return the amount of times the given substring appears within a specific string. In this way you can check for how many times a single letter or a phrase is repeated in a section of stored text.":"此函数将返回给定子字符串在特定字符串中出现的次数。通过这种方式，您可以检查单个字母或短语在存储的文本部分中重复多少次。",
+    "This will set the variable {}ocount{} to the number of \"o\"s in {}str1{}, in this case 2.":"这将变量 {} ocount{} 设置为 {} str1 {}中 “o” 的数量，在本例中为2。"
+}

@@ -1,5 +1,0 @@
-{
-["With this function you can find the total number number of variables defined for an instance. You supply the instance ID to check, and the function will return an integer value for the number of variables encountered, or (if no instance of the given ID exists) -1."]={new="使用此函数，您可以找到为实例定义的变量总数。您提供了要检查的实例ID，该函数将返回一个整数值，用于遇到的变量数，或者 - 1(如果不存在给定ID的实例)。";old="With this function you can find the total number number of variables defined for an instance. You supply the instance ID to check, and the function will return an integer value for the number of variables encountered, or (if no instance of the given ID exists) -1."};
-["The above code will retrieve the number of variables in the given instance and show a debug message in the console output with that value."]={new="上面的代码将检索给定实例中的变量数，并在控制台输出中显示带有该值的调试消息。";old="The above code will retrieve the number of variables in the given instance and show a debug message in the console output with that value."};
-["The unique ID value of the instance to check."]={old="The unique ID value of the instance to check.";new="要检查的实例的唯一ID值。"}
-}

@@ -1,0 +1,4 @@
+{
+    "The above code checks to see if the lastkey variable is not equal to -1, and if it is it adds whatever the last key was as a string to the variable \"str\", then it resets the {}keyboard_lastkey{} variable to accept further input.":"上面的代码检查是否lastkey变量不等于-1，如果是，它将最后一个键作为字符串添加到变量 “str”，然后重置{}keyboard_lastkey{}变量以接受进一步的输入。",
+    "This variable refers to the value that {}{}keyboard_key{}{} was in the previous frame, returning the keycode of that key (all standard keycode constants are returned). This variable is {}not{} read only and you can change it, for example to set it to -1 if you handled it already.":"这个变量是指{}{}keyboard_key{}{}在上一帧中的值，返回该键的键码 (返回所有标准键码常量)。此变量是{}不是{}只读的，您可以更改它，例如，如果您已经处理了它，则将其设置为-1。"
+}

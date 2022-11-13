@@ -1,0 +1,4 @@
+{
+    "The above code checks to see if the pinch distance for gestures is set to 0.1 inches and if it is not it sets it to that value.":"上述代码检查手势的捏距离是否设置为0.1英寸，如果不是，则将其设置为该值。",
+    "This function is used to set the distance within which you have to touch/click the screen and move with two fingers before you trigger a {}Pinch Gesture{}. The distance is measured in inches and has a default value of 0.1.":"此功能用于设置在触发{}捏手势{}之前，您必须触摸/单击屏幕并用两根手指移动的距离。距离以英寸为单位，默认值为0.1。"
+}

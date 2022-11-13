@@ -1,5 +1,0 @@
-{
-["The variable to check."]={old="The variable to check.";new="要检查的变量。"};
-["This function can be used to check and see if a variable holds an array (it will return {}true{}) or not (in which case it will return {}false{})."]={new="此函数可用于检查变量是否保存数组 (它将返回{}true{}) 或不保存 (在这种情况下，它将返回{}false{})。";old="This function can be used to check and see if a variable holds an array (it will return {}true{}) or not (in which case it will return {}false{})."};
-["The above code checks a variable to see if it is an array, and if the function returns {}true{}, the array is deleted by setting the variable to -1."]={new="上面的代码检查一个变量以查看它是否为数组，并且如果函数返回{}true{}, 则通过将变量设置为-1来删除该数组。";old="The above code checks a variable to see if it is an array, and if the function returns {}true{}, the array is deleted by setting the variable to -1."}
-}

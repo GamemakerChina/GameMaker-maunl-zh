@@ -1,5 +1,0 @@
-{
-["This function returns whether a given variable is {}NaN{} (not a number) or not, returning {}true{} if it is, and {}false{} if it is not."]={new="此函数返回给定变量是否为{}NaN{}(不是数字)，如果是，则返回{}true{}，如果不是，则返回{}false{}。";old="This function returns whether a given variable is {}NaN{} (not a number) or not, returning {}true{} if it is, and {}false{} if it is not."};
-["The argument to check."]={old="The argument to check.";new="要检查的参数。"};
-['The above code checks the global variable "value" to see if it is a number or not and shows a debug message if it isn\'t.']={new="上面的代码检查全局变量 “value” 以查看它是否是一个数字，如果不是，则显示调试消息。";old='The above code checks the global variable "value" to see if it is a number or not and shows a debug message if it isn\'t.'}
-}

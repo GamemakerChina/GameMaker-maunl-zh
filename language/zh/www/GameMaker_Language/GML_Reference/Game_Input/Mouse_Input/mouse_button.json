@@ -1,0 +1,5 @@
+{
+    "This moves the current instance left if the left mouse button is down.":"如果鼠标左键向下，这将向左移动当前实例。",
+    "This {}read only{} variable returns the mouse button that is currently being pressed (currently, as in, this step) and can return any of the special {}mouse constants{} except {}mb_any{}.":"此{}只读{}变量返回当前正在按下的鼠标按钮 (当前，如此步骤)，并且可以返回除{}mb_any{}之外的任何特殊{}鼠标常量{}。",
+    "{}{}Mouse Button Constant{}{} (except mb_any)":"{}{}鼠标按钮常量{}{}(mb_any除外)"
+}

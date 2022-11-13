@@ -1,0 +1,4 @@
+{
+    "The Path Editor":"路径编辑器",
+    "{}At some point while creating your games you may need one of your instances to follow a path through a level. Now, this can be done in code by simply creating an array of positions within the room and then having an instance move between them, but that can be a chore to set up and is difficult to change, test and adapt for different instances. For this reason {}GameMaker{} has path resources and a dedicated path editor.":"{}在创建游戏的某个时刻，您可能需要一个实例来遵循通过某个级别的路径。现在，这可以在代码中完成，只需在房间内创建一个位置数组，然后让一个实例在它们之间移动，但是这可能是一个繁琐的设置，并且很难更改、测试和适应不同的实例。因此{} GameMaker {}有路径资源和专用的路径编辑器。"
+}

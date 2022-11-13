@@ -1,0 +1,12 @@
+{
+    "Animation Curve Channel Struct":"动画曲线通道结构",
+    "As with channels, the points on a single channel are stored as structs in an array, where each item in the array is a single point struct. The point struct is explained {}on this page{}.":"与通道一样，单个通道上的点存储为数组中的结构，其中数组中的每个项目都是单点结构。在本页{}中解释了点结构{}。",
+    "Note that if the function fails (e.g. the given Animation Curve asset does not exist) then the function will return -1.":"请注意，如果函数失败 (例如给定的动画曲线资产不存在)，则函数将返回-1。",
+    "The above code retrieves the animation curve struct for the curve asset \"ac_ButtonTween\", then checks the curve type for the first channel, and if it\u0027s not linear it sets it to linear.":"上面的代码检索曲线资产 “ac_ButtonTween” 的动画曲线结构，然后检查第一个通道的曲线类型，如果它不是线性的，它将其设置为线性。",
+    "The asset browser ID (index) of the animation curve to get.":"要获取的动画曲线的资产浏览器ID (索引)。",
+    "This function will return a {}struct{} containing all the data for the given animation curve. You supply the animation curve asset ID (as defined in the Asset Browser), and the function will return a struct with the following variables:":"该函数将返回一个{}struct{}，其中包含给定动画曲线的所有数据。您提供动画曲线资产ID (在资产浏览器中定义)，该函数将返回一个包含以下变量的结构:",
+    "This is an array, where each item in the array is a channel struct.":"这是一个数组，其中数组中的每个项目都是一个通道结构。",
+    "This is the name of the animation curve.":"这是动画曲线的名称。",
+    "{}\n    The {}channels{}&nbsp;variable in the struct is an&nbsp;{}array{}&nbsp;where each array item is an&nbsp;{}{}Animation Curve Channel Struct{}{} with data relating to a channel within the curve. The channel struct is explained {}on this page{}.":"{}\n结构中的{}channels{}变量是一个{}数组{}，其中每个数组项目是一个{}{}动画曲线通道结构{}{}，其中数据与曲线中的通道有关。在本页{}中解释了通道结构{}。",
+    "{}{}Array{}{}&nbsp;of&nbsp;{}{}Animation Curve Channel Struct{}{}s":"{}{}Array{}{}或者{}{}Animation Curve Channel Structs{}{}"
+}

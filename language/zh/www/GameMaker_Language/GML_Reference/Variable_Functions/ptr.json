@@ -1,0 +1,5 @@
+{
+    "The above code checks the variable \"val\" to see if it contains a pointer and if it does not then one is assigned to it.":"上面的代码检查变量 “val” 以查看它是否包含一个指针，如果没有，则将一个分配给它。",
+    "The value to convert.":"要转换的值。",
+    "This function will attempt to convert a given value into a pointer data type, where the value {}must{} be either a {}real{}, a {}string{}, an {}int64{}, an {}int32{}, or a {}ptr{}. Anything else will cause the game to crash with an error message.":"此函数将尝试将给定值转换为指针数据类型，其中值{}必须为{}real{},{}字符串{},{}int64{},{}int32{}, 或{}ptr{}。其他任何事情都会导致游戏崩溃并显示错误消息。"
+}

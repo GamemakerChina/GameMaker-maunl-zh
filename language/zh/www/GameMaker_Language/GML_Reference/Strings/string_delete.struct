@@ -1,7 +1,0 @@
-{
-["The position of the first character to remove (from 1)."]={old="The position of the first character to remove (from 1).";new="要删除的第一个字符的位置 (从1开始)。"};
-['This will set {}str2{} to "Hello World", as it removes the extra "o" from "Hello" (which is present at position 5).']={old='This will set {}str2{} to "Hello World", as it removes the extra "o" from "Hello" (which is present at position 5).';new="这将 {} str2{} 设置为 “Hello World”，因为它从 “Hello” (位于位置5) 中删除了多余的 “o”。"};
-["This function is used to remove a part of the given string. You supply the input string, the starting position within that string to remove characters from (the index starts at 1) and the number of characters to remove. The function will return a new string without that part in it."]={new="该函数用于删除给定字符串的一部分。您提供输入字符串，该字符串中要从中删除字符的起始位置 (索引从1开始) 以及要删除的字符数。函数将返回一个新字符串，其中没有该部分。";old="This function is used to remove a part of the given string. You supply the input string, the starting position within that string to remove characters from (the index starts at 1) and the number of characters to remove. The function will return a new string without that part in it."};
-["The string to copy and delete from."]={new="要复制和删除的字符串。";old="The string to copy and delete from."};
-["The number of characters to remove."]={new="要删除的字符数。";old="The number of characters to remove."}
-}

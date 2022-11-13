@@ -1,0 +1,5 @@
+{
+    "The above code checks the height of the sprite as it is in the current instance and if there is a difference between that and the original base sprite, it resets the y axis scale.":"上面的代码检查了sprite在当前实例中的高度，如果该高度与原始基础sprite之间存在差异，则会重置Y轴比例。",
+    "The index of the sprite to find the height of.":"要查找高度的sprite的索引。",
+    "With this function you can find the height of the base sprite asset, with no transforms, in pixels.":"使用此功能，您可以找到基本精灵资产的高度，没有变换，以像素为单位。"
+}

@@ -1,0 +1,5 @@
+{
+    "The Animation Curve that will be checked.":"将要检查的动画曲线。",
+    "The above code checks if the Animation Curve stored in the custom {}spring_curve{} variable exists. If it does, it runs a custom method to use that Animation Curve.":"上述代码检查存储在自定义{}spring_curve{}变量中的动画曲线是否存在。如果是这样，它将运行一个自定义方法来使用该动画曲线。",
+    "This function will return {}true{} if the given&nbsp;{}{}Animation Curve Asset{}{}&nbsp;or {}{}Animation Curve Struct{}{}&nbsp;exists and is a valid Animation Curve, or {}false{} if it isn\u0027t.":"如果给定的{}{}动画曲线资产{}{}或{}{}动画曲线结构{}{}存在并且是有效的动画曲线，则此函数将返回{}true{}，如果不是，则返回{}false{}。"
+}

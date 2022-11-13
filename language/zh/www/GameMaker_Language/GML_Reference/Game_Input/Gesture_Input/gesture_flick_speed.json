@@ -1,0 +1,5 @@
+{
+    "The above code checks to see if the flick speed for gestures is set to 2 inches per second and if it is not it sets it to that value.":"上述代码检查手势的轻弹速度是否设置为每秒2英寸，如果不是，则将其设置为该值。",
+    "The speed (in inches per second) to set for flick gesture event detection.":"为轻弹手势事件检测设置的速度 (以每秒英寸为单位)。",
+    "This function is used to set the speed required for a {}Flick Gesture{} event to be triggered when a touch or click is released. The speed is measured in inches per second and has a default value of 2.0.":"此功能用于设置释放触摸或单击时触发{}轻弹手势{}事件所需的速度。速度以英寸每秒为单位，默认值为2.0。"
+}

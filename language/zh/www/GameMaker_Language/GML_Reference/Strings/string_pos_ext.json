@@ -1,0 +1,7 @@
+{
+    "The above code searches the string stored in the variable \"text\" for a comma after the 20th character, and if it finds one it inserts the substring \"name\" at that position.":"上述代码在变量“文本”中存储的字符串中搜索第20个字符之后的逗号，如果找到一个，则在该位置插入子字符串“名称”。",
+    "The starting position to search from.":"搜索的起始位置。",
+    "The string.":"字符串。",
+    "The substring to look for in the string.":"在字符串中寻找的子字符串。",
+    "This function will return the character position of an instance of a sub-string within a string, searching forwards through the string from the position given as the starting position. The function will return 0 if the search string is not found, or the position of the first character of the search string if it is. Keep in mind that for legacy support strings are indexed from 1, so 1 is the first position in the string, not 0 as you may expect.":"此函数将返回字符串中子字符串实例的字符位置，从给定的起始位置向前搜索字符串。如果没有找到搜索字符串，函数将返回0，如果是，则返回搜索字符串的第一个字符的位置。记住，对于遗留支持字符串的索引从1开始，因此1是字符串中的第一个位置，而不是您所期望的0。"
+}

@@ -1,0 +1,6 @@
+{
+    "The above code will detect whether the \"select\" button of the gamepad connected to device \"slot\" 0 has been pressed or not and toggle the global \"Pause\" variable.":"上述代码将检测连接到设备“插槽”0的游戏手柄的“选择”按钮是否被按下，并切换全局“暂停”变量。",
+    "This function will return {}true{} or {}false{} depending on whether the given gamepad button is detected as having been released or not. Note that this function will only trigger {}once{} for the button the moment it has been released. For it to trigger again the button must first be pressed and then released once more.&nbsp;If you are checking an analogue button, then the check will take into consideration the {}threshold setting{} and only return {}true{} when the raw input value goes under the given threshold (you can get this raw value using the function {}{}gamepad_button_value(){}{}).":"此函数将返回{}true{}或{}false{}，具体取决于是否检测到已释放给定的 gamepad 按钮。请注意，该功能仅在按钮释放时触发{}一次{}次。要再次触发，必须首先按下按钮，然后再释放一次。如果您正在检查模拟按钮，则检查将考虑{}阈值设置{}，并仅在原始输入值低于给定阈值时返回{}真{}(您可以使用函数{}{}gamepad_button_value(){}{}获得该原始值)。",
+    "Which gamepad button {}constant{} to check for.":"要检查哪个 gamepad 按钮{}常量{}。",
+    "Which gamepad device \"slot\" to check.":"要检查哪个游戏设备“插槽”。"
+}

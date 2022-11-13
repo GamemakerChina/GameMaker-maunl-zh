@@ -1,0 +1,4 @@
+{
+    "The above code uses the value of the {}keyboard_key{} variable to set a variable to the same value as an array.":"上面的代码使用{}keyboard_key{}变量的值将变量设置为与数组相同的值。",
+    "With this variable you can get the keycode of the key that is currently being pressed and it will return 0 if no key is being pressed when the check is done.":"有了这个变量，你可以得到当前被按下的键的键码，如果检查完成时没有键被按下，它将返回0。"
+}

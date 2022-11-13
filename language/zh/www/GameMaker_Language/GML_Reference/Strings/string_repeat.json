@@ -1,0 +1,6 @@
+{
+    "The above code will set {}str2{} to \"Hello WorldHello WorldHello World\".":"上面的代码将{}str2{}设置为“ Hello WorldHello WorldHello World ”。",
+    "The number of times to repeat the string.":"重复字符串的次数。",
+    "The string to repeat.":"要重复的字符串。",
+    "This function simply returns the same string repeated a given number of times over itself.":"此函数仅返回相同的字符串，该字符串在自身上重复了给定的次数。"
+}

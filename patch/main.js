@@ -81,7 +81,6 @@ qqq_translate_set=function(str){
 	var rc=str.split("{}").length-1 //右得分
 	var score="( "+lc+":"+rc+" )"
 	$(".qqq span.num").html(score)
-&nbsp;
 }
 
 qqq_translate=async function (engine){
@@ -90,6 +89,7 @@ qqq_translate=async function (engine){
 	//翻译前转义空格的转义
 	old=old.replace(/\&nbsp\;/g," ")
 	var json=await translate(old,engine).catch((e) => {})
+	if(!json){alert("接口报空,请检查token")}
 	var str=json.data.target
 
 	//翻译后的内容清除{}周遭空格
@@ -112,6 +112,7 @@ qqq_translate=async function (engine){
 qqq_caiyun=async function (){
 
 		var str=await caiyun($(".qqq_menu .old").val()).catch((e) => {})
+		if(!str){alert("接口报空,请检查token")}
 		console.log(str)
 		qqq_translate_set(str)
 
@@ -201,12 +202,12 @@ $("body").after(html)
 add_translate=function(ele,file){
 	if ($(ele).hasClass("isTranslate"))return 0
 	
-	var form=group+"/"+file+".struct"
+	var form=group+"/"+file+".json"
 	var html=ele.html()
 	var key=removeHtml(html)
 
 	L(form,key).then(function(result,v=ele){
-		if (result.new.length<1)return null
+		if (result.length<1)return null
 
 		v.addClass("isTranslate")
 		v.attr("bak",v.html())
@@ -214,10 +215,10 @@ add_translate=function(ele,file){
 		//在翻译上还原标签
 		var f=retHtml(v.html())
 		if(f)f.forEach(function(v,k){
-			result.new=result.new.replace("{}",v)
+			result=result.replace("{}",v)
 		})
 
-		v.html(result.new)
+		v.html(result)
 	})
 }
 add_event=function(ins,file){
@@ -229,7 +230,7 @@ add_event=function(ins,file){
 		target=$(this)
 		
 		//设置路径
-		var form=group+"/"+file+".struct"
+		var form=group+"/"+file+".json"
 		$(".qqq_menu .form").val(form)
 
 		//如果被翻译过了,则获取原文
@@ -247,8 +248,8 @@ add_event=function(ins,file){
 		console.log(str)
 
 		L(form,key).then(function(result,v=ele){
-			if (result.new.length<1)return null
-			v.val(removeHtml(result.new))
+			if (result.length<1)return null
+			v.val(removeHtml(result))
 		})
 
 		layer.open({

@@ -1,0 +1,9 @@
+{
+    "Note that if the given index is outside of the length of the array, the values will be added at the given index, and any empty slots in the array between its last value and the inserted values will be set to a default value of 0.":"请注意，如果给定的索引超出了数组的长度，则将在给定的索引处添加值，并且数组中最后一个值和插入的值之间的任何空槽都将设置为默认值0。",
+    "The above code will insert the current score into the score array,&nbsp;at the index defined by the {}score_rank{} variable.":"上面的代码将把当前得分插入到得分数组中由{}score_rank{}变量定义的索引处。",
+    "The index (position) in the array to insert the value(s)&nbsp;":"数组中要插入值的索引（位置）",
+    "The value to insert":"要插入的值",
+    "The variable that holds the array.":"保存数组的变量。",
+    "With this function you can insert a value (or values) into an array at any given position. The function requires you to provide a variable that holds the array, the index (position) in the array to insert at, as well as at least&nbsp;{}one{}&nbsp;value to insert, although you can optionally provide further arguments and they will all be inserted into the array in consecutive order from the given index.":"使用此函数，您可以在数组中的任何给定位置插入一个值（或多个值）。该函数要求您提供一个保存数组的变量、数组中要插入的索引（位置）以及至少{}一个要插入的{}值，尽管您可以选择提供更多的参数，它们都将从给定的索引开始按连续顺序插入到数组中。",
+    "{}OPTIONAL{} Further values to insert into the array":"{}可选{}要插入到数组中的其他值"
+}

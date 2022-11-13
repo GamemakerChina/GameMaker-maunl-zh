@@ -1,5 +1,0 @@
-{
-["The value to check."]={old="The value to check.";new="要检查的值。"};
-["Note that {}method variables{} will also return {}true{}, and&nbsp;{}object instances{} will return {}false{}."]={new="注意{}方法变量{}也会返回{}true{}, 而{}对象实例{}会返回{}false{}。";old="Note that {}method variables{} will also return {}true{}, and&nbsp;{}object instances{} will return {}false{}."};
-["The above code checks a variable to see if it is a struct, and if the function returns {}true{}, the struct is deleted."]={new="上面的代码检查一个变量以查看它是否是一个struct，并且如果函数返回{}true{}, 则删除该struct。";old="The above code checks a variable to see if it is a struct, and if the function returns {}true{}, the struct is deleted."}
-}

@@ -1,0 +1,4 @@
+{
+    "This function returns {}true{} if the mouse wheel is being rotated downwards and {}false{} otherwise.":"如果向下旋转鼠标滚轮，则此函数返回{}true{}，否则返回{}false{}。",
+    "This moves the current instance down the screen if the mouse wheel is rotated upwards.":"如果鼠标滚轮向下旋转，则会将当前实例向下移动。"
+}

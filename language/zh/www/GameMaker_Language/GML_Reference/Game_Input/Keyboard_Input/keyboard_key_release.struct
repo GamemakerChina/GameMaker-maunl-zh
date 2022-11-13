@@ -1,8 +1,0 @@
-{
-["The key to simulate a release of."]={old="The key to simulate a release of.";new="模拟释放的键。"};
-["This will simulate a spacebar release."]={new="这将模拟空格键释放。";old="This will simulate a spacebar release."};
-["With this function you can simulate the release of any key on the keyboard. The function will take a keycode value as returned by the function {}{}ord(){}{} (only {}capital{} letters from A-Z or numbers from 0-9),
-    or any of the {}vk_*{} constants listed on the main {}Keyboard Input{} page."]={new="有了这个功能，你可以模拟键盘上任何键的释放。该函数将采用函数{}{}ord(){}{}返回的keycode值 (仅{}a-Z的大写字母{}或0- 9的数字)，
-或主{}键盘输入{}页面上列出的{}vk_ *{}常量中的任何一个。";old="With this function you can simulate the release of any key on the keyboard. The function will take a keycode value as returned by the function {}{}ord(){}{} (only {}capital{} letters from A-Z or numbers from 0-9),
-    or any of the {}vk_*{} constants listed on the main {}Keyboard Input{} page."}
-}

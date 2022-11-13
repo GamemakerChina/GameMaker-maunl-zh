@@ -1,0 +1,13 @@
+{
+    "The above code first creates an array {}values{}&nbsp;with a couple of numbers. It then applies the built-in&nbsp;{}{}sqr{}{}&nbsp;function to a range of the array using&nbsp;{}{}array_map_ext{}{}.&nbsp;After the function has executed the array {}values{}&nbsp;will hold&nbsp;in indices 2 to 6 the square of the values that were originally there.":"上面的代码首先创建一个数组{}values{}，其中包含几个数字。然后，它将内置的{}{}sqr{}{}函数应用于使用{}{}array_map_ext{}{}的数组范围。函数执行后，数组{}values{}将在索引2到6中保存最初存在的值的平方。",
+    "The array to use":"要使用的数组",
+    "The current array element":"当前数组元素",
+    "The current array index":"当前数组索引",
+    "The first element for which the predicate function returns true is written to the index given by&nbsp;{}offset{}, others are written to subsequent indices (with the direction given by the sign of the&nbsp;{}length{} parameter).":"谓词函数返回true的第一个元素被写入由{}offset{}给出的索引，其他元素被写入后续索引 (由{}length{}参数的符号给出方向)。",
+    "The function to use for each element":"用于每个元素的函数",
+    "This mutates the input array resulting in (part of) the array\u0027s elements being modified according to the predicate function.":"这会改变输入数组，从而导致数组的 (部分) 元素根据谓词函数进行修改。",
+    "{}{}IMPORTANT{}{}&nbsp;This function {}mutates{}&nbsp;the input array, i.e. changes it directly. Existing array elements in the range given by the offset and length parameter might be overwritten. For performance reasons the array is {}not{} resized and the new number of {}valid{} elements, starting at the offset position and in the direction given by the sign of the length parameter, is returned instead.":"{}{}重要{}{}此函数{}改变{}输入数组，即直接更改它。偏移量和长度参数指定的范围内的现有数组元素可能会被覆盖。由于性能原因，数组的大小{}不{}调整，而是返回新的{}有效{}元素，这些元素从偏移位置开始，方向由长度参数的符号给定。",
+    "{}{}OPTIONAL{}{}&nbsp;The number of elements to traverse. A negative value will traverse the array backwards (i.e. in descending order of indices, e.g. 2 &gt; 1 &gt; 0 instead of 0 &gt; 1 &gt; 2).":"{}{}可选{}{}要遍历的元素数。负值将向后遍历数组（即按索引的降序排列，例如2&gt; 1> 0 而不是0&gt; 1> 2）.",
+    "{}{}OPTIONAL{}{}&nbsp;The offset, or the starting index, in the array. Setting a negative value will count from the end of the array. The starting index will then be {}array_length(array) + offset{}.":"{}{}可选{}{}数组中的偏移量或起始索引。设置负值将从数组的末尾开始计数。然后，起始索引将为{}array_length(array) + offset{}.",
+    "{}{}Real{}{}&nbsp;(the number of valid elements in the array)":"{}{}实数{}{}（数组中有效元素的数量）"
+}

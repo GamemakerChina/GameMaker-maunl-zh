@@ -1,4 +1,0 @@
-{
-['This variable stores a string of the last key pressed. This variable is {}not{} read only and you can change it, for example to set it to "" (an empty string) if you handled it already.']={old='This variable stores a string of the last key pressed. This variable is {}not{} read only and you can change it, for example to set it to "" (an empty string) if you handled it already.';new="此变量存储最后按下的键的字符串。此变量是{}不是{}只读的，您可以更改它，例如，如果您已经处理过它，则将其设置为 “” (空字符串)。"};
-['The above code checks to see if the lastkey variable is greater than -1, and if it is it adds whatever the last key was as a string to the variable "str".']={new="上面的代码检查lastkey变量是否大于-1，如果是，它将最后一个键作为字符串添加到变量 “str” 中。";old='The above code checks to see if the lastkey variable is greater than -1, and if it is it adds whatever the last key was as a string to the variable "str".'}
-}

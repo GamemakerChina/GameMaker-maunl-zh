@@ -1,5 +1,0 @@
-{
-['Which gamepad device "slot" to check.']={old='Which gamepad device "slot" to check.';new="要检查哪个游戏设备“插槽”。"};
-['This function will return the number of "axis" controls on the device being checked. These controls are the analogue direction "thumbsticks" on most controllers.']={new="此功能将返回正在检查的设备上的“轴”控件数量。这些控件是大多数控制器的模拟方向“拇指棒”。";old='This function will return the number of "axis" controls on the device being checked. These controls are the analogue direction "thumbsticks" on most controllers.'};
-['The above code stores the number of axes available for the gamepad connected to device "slot" 0 in the variable "axis".']={new="上述代码存储与变量“轴”中的设备“插槽”0连接的游戏板可用的轴数。";old='The above code stores the number of axes available for the gamepad connected to device "slot" 0 in the variable "axis".'}
-}

@@ -1,0 +1,14 @@
+{
+    "Boolean&nbsp;(whether the condition checked in the {}function{} is {}true{} {}or{} {}false{})":"布尔值（在{}函数{}中检查的条件是{}true{}{}还是{}{}false{}）",
+    "The above code first defines a function {}passed_the_test{}&nbsp;that takes in an {}element{}&nbsp;and {}index{} parameter. The function returns {}true{} if the value of {}element{} is greater than or equal to 50 or {}false{} if it is not. It then creates an array {}scores{}&nbsp;with various values between 0 and 100. Finally it calls {}array_filter{} on this array and stores the new array in a variable {}passed{}.":"上面的代码首先定义了一个函数{}passed_the_test{}，它包含一个{}element{}和{}index{}参数。如果{}element{}的值大于或等于50，则该函数返回{}true{}，如果不是，则返回{}false{}。然后，它创建一个数组{}scores{}与0到100之间的各种值。最后，它在此数组上调用{}array_filter{}，并将新数组存储在变量{}passed{}中。",
+    "The array to use":"要使用的数组",
+    "The current array element":"当前数组元素",
+    "The current array index":"当前数组索引",
+    "The function to use for each element":"用于每个元素的函数",
+    "The predicate function is called for each element in the range that you provide to the function.":"为您提供给函数的范围内的每个元素调用谓词函数。",
+    "{}It only keeps those elements {}of the original array for which the predicate function returns {}true{}{}. Elements for which the predicate function returns {}false{}&nbsp;are {}not{} added to the new array.{}":"{}它只保留原数组中{}谓词函数返回{}true{}{}的元素。 谓词函数返回{}false{}的元素{}未{}添加到新数组。{}",
+    "{}This function returns a {}new{} array that is the {}filtered{} version of the array (or a range of it) that you pass into it.{}":"{}此函数返回一个{}新{}数组，该数组是您传递给它的数组（或数组的范围）的{}筛选{}版本。",
+    "{}{}NOTE{}{}&nbsp;See&nbsp;{}{}array_copy_while{}{}&nbsp;for the function that stops execution after the first {}false{} value of the predicate function.":"{}{}注意{}{}请参见{}{}array_copy_while{}{}有关在谓词函数的第一个{}false{}值之后停止执行的函数，。",
+    "{}{}OPTIONAL{}{}&nbsp;The number of elements to traverse. A negative value will traverse the array backwards (i.e. in descending order of indices, e.g. 2 &gt; 1 &gt; 0 instead of 0 &gt; 1 &gt; 2).":"{}{}可选{}{}要遍历的元素数。负值将向后遍历数组（即按索引的降序排列，例如2&gt; 1> 0 而不是0&gt; 1> 2）.",
+    "{}{}OPTIONAL{}{}&nbsp;The offset, or the starting index, in the array. Setting a negative value will count from the end of the array. The starting index will then be {}array_length(array) + offset{}.":"{}{}可选{}{}数组中的偏移量或起始索引。设置负值将从数组的末尾开始计数。然后，起始索引将为{}array_length(array) + offset{}。"
+}

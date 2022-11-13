@@ -1,7 +1,0 @@
-{
-["The substring within the string to be replaced."]={new="要替换的字符串中的子字符串。";old="The substring within the string to be replaced."};
-["You can use this function to parse a string looking for a specific part, which can then be replaced by the new string that you have specified."]={new="您可以使用此函数来解析查找特定部分的字符串，然后可以将其替换为您指定的新字符串。";old="You can use this function to parse a string looking for a specific part, which can then be replaced by the new string that you have specified."};
-["The new substring to replace the previous one."]={old="The new substring to replace the previous one.";new="新的子字符串来替换前一个。"};
-['This will set {}str2{} to {}str1{}, but with its instance of "Earth" replaced with "World", resulting in {}str2{} being "Hello World".']={new="这将把{}str2{}设置为{}str1{}，但其“ Earth ”实例替换为“ World ”，导致{}str2{}为“ Hello World ”。";old='This will set {}str2{} to {}str1{}, but with its instance of "Earth" replaced with "World", resulting in {}str2{} being "Hello World".'};
-["The string to be copied."]={old="The string to be copied.";new="要复制的字符串。"}
-}

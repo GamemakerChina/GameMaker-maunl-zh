@@ -1,0 +1,5 @@
+{
+    "In some cases you want to check and see what data type a variable holds in {}GameMaker{} and that\u0027s when you would use this function. It returns {}true{} or {}false{} depending on whether the value is a 4 value vector or not.":"在某些情况下，您希望检查并查看变量在{}GameMaker{}中保存的数据类型，那时您将使用此函数。它返回{}true{}或{}false{}，这取决于该值是否为4值向量。",
+    "The above code checks the variable \"val\" to see if it contains a vec4 and if it is not then it shows a message in the debug console.":"上面的代码检查变量 “val” 以查看它是否包含vec4，如果不包含vec4，则在调试控制台中显示消息。",
+    "The argument to check.":"要检查的参数。"
+}

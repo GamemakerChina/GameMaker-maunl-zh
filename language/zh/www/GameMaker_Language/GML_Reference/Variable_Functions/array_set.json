@@ -1,0 +1,7 @@
+{
+    "The above code will set the first 10 items in the given array to a value.":"上面的代码会将给定数组中的前10个项目设置为一个值。",
+    "The index of the array element to set the value for.":"要设置的值的数组元素的索引。",
+    "The value to set.":"要设置的值。",
+    "The variable that holds the array.":"保存数组的变量。",
+    "With this function you can set the value of an index in an array to a value. The function requires you to provide a variable that holds the array as well as the index to set and the value to set it to. This function can also be used for multi-dimension arrays, as long as you specify which dimension you want to set when you supply the array index, following this pattern:":"使用此函数，您可以将数组中索引的值设置为值。该函数要求您提供一个变量，该变量保存数组以及要设置的索引和要设置的值。该函数也可以用于多维数组，只要您在提供数组索引时指定要设置的维度，就可以按照以下模式进行:"
+}

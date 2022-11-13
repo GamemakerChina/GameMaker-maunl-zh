@@ -1,0 +1,5 @@
+{
+    "The above code will loop through all the gamepad slots to check for connected devices and then draw some text to the screen based on whether a gamepad is connected to the slot or not.":"上面的代码将循环遍历所有游戏手柄插槽，以检查连接的设备，然后根据游戏手柄是否连接到插槽，在屏幕上绘制一些文本。",
+    "This function will return a string with the description of the given gamepad, for example, a PS3 controller may return a string similar to \"PLAYSTATION(R)3 Controller\", or an XBox360 controller could return \"Xbox 360 Controller (XInput STANDARD GAMEPAD)\". This string is hardware dependant and the returned value will depend on the gamepad plugged into the device \"slot\" that is being checked.":"此函数将返回带有给定游戏手柄说明的字符串，例如，PS3 控制器可以返回类似于“PLAYSTATION(R)3 Controller”的字符串，或者 XBox360 控制器可以返回“Xbox 360 Controller(XInput STANDARD GAMPAD)”。此字符串与硬件相关，返回值将取决于正在检查的设备“插槽”中插入的游戏板。",
+    "Which gamepad \"slot\" to get the name of.":"哪个“插槽”的游戏手柄名称。"
+}

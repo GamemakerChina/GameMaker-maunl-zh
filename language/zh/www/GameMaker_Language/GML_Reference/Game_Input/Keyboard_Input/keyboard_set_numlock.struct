@@ -1,6 +1,0 @@
-{
-["{}{}NOTE{} {}This functionality is only available in the Windows target builds and will not function on any other device."]={new="{}{}注意{}{}此功能仅在Windows目标版本中可用，并且在任何其他设备上都不起作用。";old="{}{}NOTE{} {}This functionality is only available in the Windows target builds and will not function on any other device."};
-["You can use this function to switch the keypad number-lock on or off (set to {}true{} for on, and {}false{} for off)."]={old="You can use this function to switch the keypad number-lock on or off (set to {}true{} for on, and {}false{} for off).";new="您可以使用此功能打开或关闭键盘数字锁定 (设置为{}true{}为on，设置为{}false{}为off)。"};
-["The above example code will get the state of the numberlock key and if it is on (true) it will set it to off (false) and vice-versa."]={new="上面的示例代码将获取numberlock键的状态，如果它是on( true)，则将其设置为off( false)，反之亦然。";old="The above example code will get the state of the numberlock key and if it is on (true) it will set it to off (false) and vice-versa."};
-['Set this to true for "on" and false for "off"']={old='Set this to true for "on" and false for "off"';new="true为on，false为off"}
-}

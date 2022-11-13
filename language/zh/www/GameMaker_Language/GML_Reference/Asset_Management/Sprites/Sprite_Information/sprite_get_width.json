@@ -1,0 +1,5 @@
+{
+    "The above code checks the width of the sprite as it is in the current instance and if there is a difference between that and the original base sprite, it resets the x axis scale.":"上面的代码检查精灵的宽度，因为它在当前实例中，如果它与原始基础精灵之间存在差异，它将重置x轴比例。",
+    "The index of the sprite to find the width of.":"精灵的索引，以找到的宽度。",
+    "With this function you can find the width of the base resource sprite, with no transforms, in pixels.":"使用此功能，您可以找到基本资源精灵的宽度，没有变换，以像素为单位。"
+}

@@ -1,4 +1,0 @@
-{
-["The above code will check the status of the OS virtual keyboard, and if it's visible set a variable to the height of the keyboard.{}{}"]={new="上面的代码将检查操作系统虚拟键盘的状态，如果可见，则将一个变量设置为键盘的高度。{}{}";old="The above code will check the status of the OS virtual keyboard, and if it's visible set a variable to the height of the keyboard.{}{}"};
-["This function will return the current height in pixels of the virtual keyboard, based on the size of the {}display{}. If the keyboard is not visible, 0 will be returned."]={old="This function will return the current height in pixels of the virtual keyboard, based on the size of the {}display{}. If the keyboard is not visible, 0 will be returned.";new="此函数将根据{}显示{}的大小返回虚拟键盘的当前高度(以像素为单位)。如果键盘不可见，则返回0。"}
-}
