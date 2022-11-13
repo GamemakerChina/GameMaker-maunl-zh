@@ -1,0 +1,4 @@
+{
+    "The above code will slowly reduce the image_alpha until it reaches 0.":"上面的代码将缓慢地减小图像_Alpha，直到它达到0。",
+    "This variable is used to get or to set the alpha value for the sprite. Alpha is always calculated as a value between 0 and 1 where 0 is completely transparent and 1 is completely opaque. Please note that for changes in this variable to be visible, the instance should have either {}no{} draw event (and so {}GameMaker{} will default draw the sprite) or be drawn using one of the extended drawing functions like {}{}{}{} {}{}draw_self(){}{}{}{}{}{}&nbsp;or {}{}draw_sprite_ext(){}{}.":"此变量用于获取或设置sprite的alpha值。Alpha始终计算为介于0和1之间的值，其中0表示完全透明，1表示完全不透明。请注意，要使此变量中的更改可见，该实例应该{}没有{}绘制事件(因此{}GameMaker{}将默认绘制精灵)，或者使用扩展的绘制函数之一进行绘制，如{}_draw_self()绘制，或者{}draw_sprite_ext()绘制。"
+}
