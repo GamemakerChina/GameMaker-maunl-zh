@@ -1,0 +1,8 @@
+{
+["The above code calculates the width and height of the collision mask based on the relative bounding box side positions."]={new="上面的代码基于相对的边界框侧位置计算碰撞遮罩的宽度和高度。";old="The above code calculates the width and height of the collision mask based on the relative bounding box side positions."};
+["The index of the sprite to check."]={old="The index of the sprite to check.";new="要检查的sprite的索引。"};
+["This function returns the relative position of the bottom of the sprite bounding box. This value is given as a relative value based on the upper left corner of the base sprite asset being (0,0). it is the same value as can be found in the sprite editor
+    for the {}collision mask properties{}. The image below shows how it is calculated:"]={new="此函数用于返回精灵边界框底部的相对位置。该值是基于基础精灵资源左上角的相对值（0，0）给出的。它与在精灵编辑器中找到的值相同。
+对于{}碰撞遮罩属性{}。下图显示了它的计算方法：";old="This function returns the relative position of the bottom of the sprite bounding box. This value is given as a relative value based on the upper left corner of the base sprite asset being (0,0). it is the same value as can be found in the sprite editor
+    for the {}collision mask properties{}. The image below shows how it is calculated:"}
+}
