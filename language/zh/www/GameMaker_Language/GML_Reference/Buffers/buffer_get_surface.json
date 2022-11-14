@@ -1,0 +1,9 @@
+{
+    "Note that the function writes each pixel of the surface to the buffer using an&nbsp;{}RGBA{} formatting on the Windows target, but on other targets it may be different depending on the OS or even the device.":"请注意，该函数在Windows目标上使用{}Rgba{}格式将曲面的每个像素写入缓冲区，但在其他目标上，该函数可能会有所不同，具体取决于O甚至设备。",
+    "The data offset value (in bytes).":"数据偏移值(以字节为单位)。",
+    "The index of the buffer to use.":"要使用的缓冲区的索引。",
+    "The index of the surface to use.":"要使用的曲面的索引。",
+    "The information for the surface will always be written to the start of the buffer (regardless of the seek position) but you can choose an offset value (in bytes) to move the write position from the start of the buffer.":"曲面的信息将始终写入缓冲区的起始位置(无论寻道位置如何)，但您可以选择偏移值(以字节为单位)，以便从缓冲区的起始位置移动写入位置。",
+    "This code will create a fixed-size buffer which has the capacity to store 4 bytes per pixel (for the R, G, B and A components) based on the exact size of the surface, and then copy the surface data into it.":"此代码将创建一个固定大小的缓冲区，该缓冲区具有根据曲面的确切大小存储每像素4字节(R、G、B和A分量)的容量，然后将曲面数据复制到该缓冲区中。",
+    "With this function you can write information from a surface to a given buffer. The buffer must have been created previously and should be a 1-byte aligned buffer large enough to store data for the surface you are going to write (if unsure, use a {}grow{}&nbsp;buffer&nbsp;or see the example at the bottom of this page).":"使用此函数，您可以将信息从曲面写入给定缓冲区。缓冲区必须是以前创建的，并且应该是一个1字节对齐的缓冲区，足够大，可以存储要写入的曲面的数据(如果不确定，请使用{}增长{}缓冲区或参阅本页底部的示例)。"
+}

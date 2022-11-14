@@ -1,0 +1,22 @@
+{
+    "A 16bit float. This can be a positive or negative value within the same range as a 16 bit signed integer.":"16位浮点数。在与16位有符号整数相同的范围内，它可以是正值或负值。",
+    "A 32bit float. This can be a positive or negative value within the same range as a 32 bit signed integer.":"32位浮点数。在与32位有符号整数相同的范围内，它可以是正值或负值。",
+    "A 64bit float.":"64位浮点数。",
+    "A boolean value. Can only be either 1 or 0 ({}true{} or {}false{})":"布尔值。只能是1或0({}true{}或{}false{})",
+    "A signed, 16bit integer. This can be a positive or negative value from -32,768 to 32,767 (0 is classed as positive).":"一个有符号的16位整数。这可以是-32，768到32，767之间的正值或负值(0被归类为正值)。",
+    "A signed, 32bit integer. This can be a positive or negative value from -2,147,483,648 to 2,147,483,647 (0 is classed as positive).":"一个有符号的32位整数。这可以是从-2，147，483，648到2，147，483，647的正值或负值(0被归类为正值)。",
+    "A signed, 8bit integer. This can be a positive or negative value from -128 to 127 (0 is classed as positive).":"有符号的8位整数。这可以是-128到127之间的正值或负值(0被归类为正值)。",
+    "A string of any size, finalized with a null terminating character.":"任意大小的字符串，以空终止字符结束。",
+    "A string of any size, without the final null terminating character.":"任意大小的字符串，没有最终的空终止字符。",
+    "An unsigned 64bit integer.":"无符号64位整数。",
+    "An unsigned, 16bit integer. This is a positive value from 0 - 65,535.":"无符号的16位整数。这是一个介于0-65，535之间的正值。",
+    "An unsigned, 32bit integer. This is a positive value from 0 to 4,294,967,295.":"无符号的32位整数。这是一个从0到4，294，967，295的正值。",
+    "An unsigned, 8bit integer. This is a positive value from 0 to 255.":"无符号的8位整数。这是一个从0到255的正值。",
+    "The above code finds the start of the buffer with the id stored in the variable \"buff\" them writes a series of signed 16bit integer values to it.":"上面的代码使用存储在变量\" buff \"中的ID找到缓冲区的开始，然后将一系列有符号的16位整数值写入其中。",
+    "The data to write.":"要写入的数据。",
+    "The function will return 0 if it succeeds or -1 if it fails.":"如果成功，函数将返回0;如果失败，则返回-1。",
+    "The index of the buffer to write to.":"要写入的缓冲区的索引。",
+    "The type of data that is to be written to the buffer (see the list of constants above).":"要写入缓冲区的数据类型(请参阅上面的常量列表)。",
+    "This function can be used to write data to a previously created buffer. The data you write must be in agreement with the \"type\" argument of this function, meaning that you can\u0027t try to write a string as an unsigned 16bit integer, for example. The following constants can be used to define the data type:":"此函数可用于将数据写入先前创建的缓冲区。例如，您写入的数据必须与此函数的\" type \"参数一致，这意味着您不能尝试将字符串写为无符号16位整数。以下常量可用于定义数据类型：",
+    "{}{}Real{}{} (0 if success, or -1 if it fails)":"{}{}Real{}{}(成功为0，失败为-1)"
+}

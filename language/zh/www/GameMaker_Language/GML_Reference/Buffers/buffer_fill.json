@@ -1,0 +1,9 @@
+{
+    "The above code finds the start of the buffer with the id stored in the variable \"buff\" them writes a series of signed 16bit integer values to it.":"上面的代码找到缓冲区的开始，ID存储在变量\"buffe\"中，它们向其写入一系列有符号的16位整数值。",
+    "The data offset value (in bytes).":"数据偏移值(以字节为单位)。",
+    "The data to write.":"要写入的数据。",
+    "The index of the buffer to fill.":"要填充的缓冲区的索引。",
+    "The size of the buffer (in bytes) that you wish to fill.":"要填充的缓冲区大小(以字节为单位)。",
+    "The type of data that is to be written to the buffer (see the list of constants {}here{}).":"要写入缓冲区的数据类型(请参阅{}此处{}的常量列表)。",
+    "This function can be used to fill a previously created buffer with a given data type and value. The data you fill the buffer with must be in agreement with the \"type\" argument of this function, meaning that you can\u0027t try to fill with a\n    string and use the unsigned 16bit integer type, for example. The type constants are the same as those used by the {}{}buffer_read(){}{} and {}{}buffer_write(){}{} functions. The \"size\"\n    is the size of the buffer (in bytes) that you wish to fill, while the offset is the offset value (also in bytes) from the start of the buffer to start the fill from.":"此函数可用于使用给定的数据类型和值填充先前创建的缓冲区。填充缓冲区的数据必须与此函数的\"type\"参数一致，这意味着您不能尝试使用\n字符串，并使用无符号16位整数类型。类型常量与{}{}buffer_read(){}{}和{}{}buffer_write(){}{}函数使用的类型常量相同。\"大小\"\n是要填充的缓冲区的大小(以字节为单位)，而偏移量是要从中开始填充的缓冲区开始的偏移值(也以字节为单位)。"
+}

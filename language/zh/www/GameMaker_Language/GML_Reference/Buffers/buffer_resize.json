@@ -1,0 +1,6 @@
+{
+    "The above code will check the size of the buffer indexed in the variable \"buff\" and if it is less than the given value, the buffer is resized.":"上面的代码将检查变量 \"buff\" 中索引的缓冲区的大小，如果它小于给定值，则调整缓冲区的大小。",
+    "The index of the buffer to change the size of.":"要更改大小的缓冲区的索引。",
+    "The new size of the buffer (in bytes).":"缓冲区的新大小(以字节为单位)。",
+    "With this function you can resize a given buffer to be the size (in bytes) that you specify.":"使用此函数，您可以将给定缓冲区的大小调整为指定的大小(以字节为单位)。"
+}

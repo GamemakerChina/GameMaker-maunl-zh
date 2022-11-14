@@ -1,0 +1,21 @@
+{
+    "A 16bit float. This can be a positive or negative value within the range of +/- 65504. {}(Not currently supported!){}":"16位浮点数。这可以是+/-65504范围内的正值或负值。{}(当前不支持！){}",
+    "A 32bit float. This can be a positive or negative value within the range of +/-16777216.":"32位浮点数。这可以是+/-16777216范围内的正值或负值。",
+    "A 64bit float.":"64位浮点数。",
+    "A boolean value. Can only be either 1 or 0 ({}true{} or {}false{})":"布尔值。只能是1或0({}true{}或{}false{})",
+    "A signed, 16bit integer. This can be a positive or negative value from -32,768 to 32,767 (0 is classed as positive).":"一个有符号的16位整数。这可以是-32，768到32，767之间的正值或负值(0被归类为正值)。",
+    "A signed, 32bit integer. This can be a positive or negative value from -2,147,483,648 to 2,147,483,647 (0 is classed as positive).":"一个有符号的32位整数。这可以是从-2，147，483，648到2，147，483，647的正值或负值(0被归类为正值)。",
+    "A signed, 8bit integer. This can be a positive or negative value from -128 to 127 (0 is classed as positive).":"有符号的8位整数。这可以是-128到127之间的正值或负值(0被归类为正值)。",
+    "A string of any size, without the final null terminating character.":"任意大小的字符串，没有最终的空终止字符。",
+    "A string of any size.":"任意大小的字符串。",
+    "An unsigned 64bit integer.":"无符号64位整数。",
+    "An unsigned, 16bit integer. This is a positive value from 0 - 65,535.":"无符号的16位整数。这是一个介于0-65，535之间的正值。",
+    "An unsigned, 32bit integer. This is a positive value from 0 to 4,294,967,295.":"无符号的32位整数。这是一个从0到4，294，967，295的正值。",
+    "An unsigned, 8bit integer. This is a positive value from 0 to 255.":"无符号的8位整数。这是一个从0到255的正值。",
+    "If the function succeeds it will return a value of the given type, however if it fails then it will cause a runner error.":"如果函数成功，它将返回给定类型的值，但是如果失败，则将导致Runner错误。",
+    "The above code reads from the buffer with the id stored in the variable \"buff\" a signed 16bit value into the local variable \"cmd\".":"上面的代码使用存储在变量\" buff \"中的ID从缓冲区中读取一个有符号的16位值到局部变量\" cmd \"中。",
+    "The index of the buffer to read from.":"要从中读取的缓冲区的索引。",
+    "The type of data that is to be read from the buffer (see the list of constants above).":"要从缓冲区读取的数据类型(请参阅上面的常量列表)。",
+    "This function can be used to read data from a previously created buffer. The return value will depend on the type of data that you are reading, which in itself is defined by the following constants:":"此函数可用于从先前创建的缓冲区中读取数据。返回值将取决于您正在读取的数据类型，该类型本身由以下常量定义：",
+    "{}NOTE{}&nbsp;Using the incorrect data type for the data being read will result in erroneous values being returned.":"{}注意{}对正在读取的数据使用不正确的数据类型将导致返回错误的值。"
+}

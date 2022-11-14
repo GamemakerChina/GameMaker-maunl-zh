@@ -1,0 +1,15 @@
+{
+    "A position relative to the current read/write position":"相对于当前读/写位置的位置。",
+    "Buffer Seek Constant":"缓冲区寻道常量",
+    "If the buffer is not of the \"wrap\" type, the seek will clamp to the beginning or end of the buffer, even when the offset would take the seek outside of the buffer limits.":"如果缓冲器不是\"包裹\"类型，则寻道将钳制到缓冲器的开始或结束，即使偏移将使寻道超出缓冲器限制。",
+    "If the buffer is of the \"wrap\" type and you offset past the end of the buffer, the seek position will also wrap.":"如果缓冲区是\"包裹\"类型，并且您偏移超过缓冲区的末端，则查找位置也将包裹。",
+    "The above code finds the start of the buffer with the id stored in the variable \"buff\" them writes a series of signed 16bit integer values to it.":"上面的代码找到缓冲区的开始，ID存储在变量\"buffe\"中，它们向其写入一系列有符号的16位整数值。",
+    "The base position to seek.":"寻求的基础位置。",
+    "The data offset value.":"数据偏移值。",
+    "The end of the buffer":"缓冲区的末端",
+    "The following constants are accepted as the \"base\" argument for seeking to:":"接受以下常量作为\"base\"参数来寻求：",
+    "The index of the buffer to use.":"要使用的缓冲区的索引。",
+    "The start of the buffer":"缓冲区的开始",
+    "This function can be used to move through a buffer, finding the start, the end, or a position relative to that which was last used when reading or writing data. The \"offset\" value is the offset (in bytes) to add to the given seek position, for example, if the base is relative and the offset is 4, then the buffer position will move along 4 bytes from its current position. Please note the following:":"此函数可用于在缓冲区中移动，查找开始、结束或相对于上次读取或写入数据时使用的位置。\"偏移量\"值是要添加到给定寻道位置的偏移量(以字节为单位)，例如，如果基数是相对的，偏移量是4，则缓冲区位置将从其当前位置沿4字节移动。请注意以下事项：",
+    "You can use negative values for the offset to seek back through the buffer as well as positive values.":"您可以使用偏移的负值通过缓冲区以及正值进行查找。"
+}

@@ -1,0 +1,5 @@
+{
+    "The above code checks to see if the variable \"{}buff{}\" holds a buffer ID and if it does, the buffer is deleted.":"上面的代码检查变量 \"{}buff{}\" 是否包含缓冲区ID，如果包含，则删除缓冲区。",
+    "The index of the buffer to check.":"要检查的缓冲区的索引。",
+    "This function can be used to check a variable to see if it holds a valid buffer ID value or not. If it does the function will return {}true{} otherwise it will return {}false{}.":"此函数可用于检查变量，以查看其是否保存有效的缓冲区ID值。如果这样做，函数将返回{}true{}，否则将返回{}false{}。"
+}

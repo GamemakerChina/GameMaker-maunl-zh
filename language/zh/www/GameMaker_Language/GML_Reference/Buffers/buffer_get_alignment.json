@@ -1,0 +1,5 @@
+{
+    "The above code will get the alignment of the buffer from the value indexed in the variable \"buff\" and store it in a variable.":"上面的代码将从变量\"buff\"中索引的值获取缓冲区的对齐，并将其存储在变量中。",
+    "The index of the buffer to check.":"要检查的缓冲区索引。",
+    "With this function you can get the a {}byte alignment{} for the given buffer ID.":"使用此函数，您可以获得给定缓冲区 ID 的 a{}字节对齐{}。"
+}

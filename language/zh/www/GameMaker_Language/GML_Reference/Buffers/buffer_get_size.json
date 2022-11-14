@@ -1,0 +1,5 @@
+{
+    "The above code will create a new buffer and store its index in the local variable \"_temp\", with size of this new buffer being the same as that of the buffer indexed in the variable \"player_data\".":"上述代码将创建一个新的缓冲区并将其索引存储在本地变量\"_temp\"中，该新缓冲区的大小与变量\"player_data\"中索引的缓冲区的大小相同。",
+    "The index of the buffer to get the size of.":"要获取大小的缓冲区的索引。",
+    "With this function you can get the size of the given buffer in bytes.":"使用此函数，您可以获取给定缓冲区的大小(以字节为单位)。"
+}

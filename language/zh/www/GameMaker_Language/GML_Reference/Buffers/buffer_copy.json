@@ -1,0 +1,10 @@
+{
+    "The above code will copy the data stored in the buffer indexed in the variable \"buff1\", and then paste it into the buffer indexed in the variable \"buff2\", but offset by 2048 bytes.":"上述代码将复制存储在变量 \"buff1\" 中索引的缓冲区中的数据，然后将其粘贴到变量 \"buff2\" 中索引的缓冲区中，但偏移量2048年字节。",
+    "The data offset to start copying from (in bytes).":"开始复制的数据偏移量(以字节为单位)。",
+    "The index of the buffer to copy {}from{}.":"要从{}复制{}的缓冲区的索引。",
+    "The index of the buffer to copy {}to{}.":"要复制{}到{}的缓冲区索引。",
+    "The offset position to copy the data to (in bytes).":"要将数据复制到的偏移位置(以字节为单位)。",
+    "The size of the data to copy (in bytes).":"要复制的数据的大小(以字节为单位)。",
+    "This function can be used to copy a segment (or all) of the data stored in one buffer to another. When using two buffers and copying from one to the other, both buffers must have previously been created using the {}{}buffer_create(){}{}    function (for example), and you can specify a data offset (in bytes) for the start point of the data to be copied from the source buffer relative to the start of the buffer, as well as another data offset to define the position to copy the data to\n    in the destination buffer.":"此函数可用于将存储在一个缓冲区中的一段(或全部)数据复制到另一个缓冲区。使用两个缓冲区并从一个缓冲区复制到另一个时，两个缓冲区必须事先使用{}{}buffer_create (){}{}函数(例如)创建，并且您可以为要从源缓冲区复制的数据起点指定相对于缓冲区起点的数据偏移量(以字节为单位)，以及另一个数据偏移量来定义要将数据复制到的位置\n在目标缓冲区中。",
+    "{}NOTE{}: You cannot copy to the same buffer.":"{}注意{}：您不能复制到同一个缓冲区。"
+}
