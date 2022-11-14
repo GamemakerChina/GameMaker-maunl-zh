@@ -1,0 +1,5 @@
+{
+    "The above code checks to see if an emitter exists, indexed in the (previously initialised) variable \"s_emit\". If it does then a sound is played through it, but if it does not, it is created and then the sound is played.":"上面的代码检查发射器是否存在，索引在(先前初始化的)变量\"s_emit\"中。如果有，则通过它播放声音，但如果没有，则创建该声音，然后播放该声音。",
+    "The index of the emitter to check the existence of.":"发射器的索引检查是否存在。",
+    "This function returns whether an audio emitter exists ({}true{}) or not ({}false{}). Note that if the index you search for has not been initialised previously, this function will cause an error as it is searching for non-existent indices.":"此函数返回是否存在音频发射器({}true{})({}false{})。 请注意，如果您搜索的索引之前尚未初始化，该函数将导致错误，因为它正在搜索不存在的索引。"
+}

@@ -1,0 +1,5 @@
+{
+    "The above code checks to see if the instance speed is over 0 and if it is it updates the audio emitter indexed in the variable \"s_emit\" to the current x/y position.":"上面的代码检查实例速度是否超过0，如果是，它将变量\"s_emit\"中索引的音频发射器更新到当前x/y位置。",
+    "The index of the emitter to change.":"要改变的发射器的指数。",
+    "With this function you can change the position of an audio emitter within the 3D audio space. The position will affect the sound in different ways depending on where the {}listener{} is positioned within the audio space too (default position is (0, 0, 0). See {}{}audio_listener_position(){}{} for more information), so for example if the emitter position is set to (100, 0, 0) and the current listener is at (200, 0, 0) the audio streamed from the emitter will appear to be on the left of the audio field. The image below shows a visual representation of emitters and their relative positions to the listener:":"使用此功能，您可以更改音频发射器在 3D 音频空间中的位置。根据{}收听者{}在音频空间内的位置(默认位置为(0，0，0))，该位置将以不同方式影响声音。有关详细信息，请参阅{}{}audio_listener_position(){}{})，例如，如果发射器位置设置为(100， 0， 0)，且当前侦听器为(200， 0， 0)，则从发射器流送的音频将出现在音频字段的左侧。下图显示了发射器的视觉表示以及发射器与收听者的相对位置："
+}

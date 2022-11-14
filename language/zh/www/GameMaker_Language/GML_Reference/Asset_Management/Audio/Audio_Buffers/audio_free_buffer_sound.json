@@ -1,0 +1,5 @@
+{
+    "The above code frees the buffered sound indexed in the variable \"soundID\".":"上面的代码释放了在变量\" soundid \"中索引的缓冲声音。",
+    "The index of the buffered sound to free.":"要释放的缓冲声音的索引。",
+    "With this function you can free up the pointer index value associated with the sound ID. Freed sounds will not be available for playing, and if multiple instances of the sound are being played they will all be stopped. Note that before you can delete\n    the buffer itself, you must first free all sound ID\u0027s associated with it.":"使用此函数，您可以释放与声音ID关联的指针索引值。释放的声音将无法播放，并且如果正在播放该声音的多个实例，则它们将全部停止。请注意，在删除之前\n缓冲区本身，您必须首先释放与其关联的所有声音ID."
+}

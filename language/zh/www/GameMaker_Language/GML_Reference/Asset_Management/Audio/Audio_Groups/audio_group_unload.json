@@ -1,0 +1,5 @@
+{
+    "The above code checks to see if an audio group has been loaded and if it has it unloads it.":"上面的代码检查是否已加载音频组，以及是否已卸载音频组。",
+    "The index of the audio group to unload (as defined in the {}Audio Groups Window{})":"要卸载的音频组的索引(在{}音频组窗口{}中定义)",
+    "This function will unload all the sounds that are flagged as belonging to the given Audio Group into memory. The function will return {}true{} if unloading is initiated and {}false{} if the group ID is invalid, or it has already been flagged for unloading. Note that any audio currently being played when this function is called will be stopped.":"此函数将把标记为属于给定音频组的所有声音卸载到内存中。如果卸载已启动，该函数将返回{}true{}，如果组ID无效或已标记为卸载，则返回{}false{}。请注意，调用此函数时，当前正在播放的任何音频都将停止。"
+}

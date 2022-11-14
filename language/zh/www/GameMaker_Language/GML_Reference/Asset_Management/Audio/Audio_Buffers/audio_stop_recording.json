@@ -1,0 +1,6 @@
+{
+    "The above code tells {}GameMaker{} to stop recording on the given audio channel index.":"上面的代码告诉{}GameMaker{}在给定的音频通道索引上停止录制。",
+    "The index of the recorder channel to stop.":"要停止的记录器通道的索引。",
+    "This function will stop recording on the given recorder channel (the channel index is returned when you call the function {}{}audio_start_recording(){}{}). When you stop recording, no further {}Audio Recording Asynchronous Events{} will be triggered for the given recorder channel, so you would normally use this function in the actual asynchronous event to ensure that you have captured all the data.":"此函数将停止在给定录制器通道上录制(调用函数{}{}audio_start_recording(){}{}时返回通道索引)。 停止录制时，不会针对给定录制器通道进一步触发{}音频录制异步事件{}，因此您通常在实际异步事件中使用此功能，以确保已捕获所有数据。",
+    "{}{}NOTE{} {}Most platforms support recording audio in some form, but that does not mean that all devices will permit it, even if the platform does, so you should always check that the {}{}{}audio_get_recorder_count(){}{}{} function returns a value greater than 0 to verify that recording devices are available before using the rest of the recording functions.":"{}{}注意{}{}大多数平台支持以某种形式录制音频，但这并不意味着所有设备都会允许录制，即使平台允许，因此您应始终检查{}{}{}audio_get_recorder_count(){}{}{}函数返回大于0的值，以验证在使用其余录制函数之前录音设备是否可用。"
+}

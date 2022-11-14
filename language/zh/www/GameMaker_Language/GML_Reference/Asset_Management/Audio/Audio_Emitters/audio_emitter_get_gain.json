@@ -1,0 +1,5 @@
+{
+    "The above code checks the current gain of a given emitter and if it is less than 1 it is set to 1.":"上述代码检查给定发射器的当前增益，如果它小于1，则设置为1。",
+    "The index of the emitter to use.":"要使用的发射器的索引。",
+    "This function returns the current gain (volume) set for the given audio emitter, normally between 0 and 1, where 0 is silent and 1 is full volume. Note that on some platforms you can have a gain of greater than 1, although a value of 1 is considered \"full volume\" and anything greater may introduce audio clipping.":"此函数返回为给定音频发射器设置的当前增益(音量)，通常在0和1之间，其中0为静音，1为全音量。请注意，在某些平台上，增益可以大于1，但1被视为\"全音量\"，任何更大的值都可能引入音频削波。"
+}

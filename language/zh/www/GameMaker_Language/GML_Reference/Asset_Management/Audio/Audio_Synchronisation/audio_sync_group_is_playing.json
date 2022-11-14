@@ -1,0 +1,6 @@
+{
+    "The above code checks to see if the sync group {}group_one{} is currently playing and if it is, the group is stopped.":"上述代码检查同步组{}group_one{}当前是否正在播放，如果正在播放，则组停止。",
+    "The group index to check.":"要检查的组索引。",
+    "This function can be used to check if any audio in a synchronised group is playing. You are required to supply the sync group ID as returned by the function {}{}audio_create_sync_group(){}{}.":"此功能可用于检查同步组中是否有音频正在播放。您需要提供函数{}{}audio_create_sync_group(){}{}返回的同步组 ID。",
+    "{}{}NOTE{}{}&nbsp;This functionality is not available for the HTML5 target platform.":"{}{}注意{}{}此功能不适用于HTML5目标平台。"
+}

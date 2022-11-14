@@ -1,0 +1,5 @@
+{
+    "The above code checks the audio recorders available and if there are 1 or more, it starts recording from the first one indexed (source 0).":"上面的代码检查可用的音频记录器，如果有1个或多个，则从索引的第一个(源0)开始记录。",
+    "This function will return the number of audio recording sources (like microphones, etc...) currently available to your game. So, if you have a return value of, for example, four, then you will have audio input on the sources 0, 1, 2 and 3, with one of these values being that which you use to start recording from using the function {}{}audio_start_recording(){}{}. This value can change at any time as people plug/unplug microphones or other input sources to the device. Note that you can use the function {}{}audio_get_recorder_info(){}{} to get information on each device connected.":"此功能将返回录音源的数量(如麦克风等...)当前可用于您的游戏。因此，如果您的返回值为4，则源0、1、2和3上将有音频输入，其中一个值是使用函数{}{}audio_start_recording(){}{}开始录制的值。 当人们将麦克风或其他输入源插入/拔出设备时，此值随时可能改变。请注意，您可以使用函数{}{}audio_get_recorder_info(){}{}获取每个连接设备的信息。",
+    "{}IMPORTANT{}&nbsp;This function will always return 1 on the GX.games target.":"{}重要{}此函数将始终在GX.Games目标上返回1。"
+}

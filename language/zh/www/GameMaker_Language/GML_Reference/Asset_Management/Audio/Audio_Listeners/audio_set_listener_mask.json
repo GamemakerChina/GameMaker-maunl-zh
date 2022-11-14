@@ -1,0 +1,5 @@
+{
+    "The above code checks the number of listeners available then loops through them gets their mask bits, which are then combined to create a single bit mask which is applied to the global listener.":"上面的代码检查可用的侦听器的数量，然后循环通过它们，得到它们的掩码位，然后组合这些掩码位以创建应用于全局侦听器的单个位掩码。",
+    "The bit-mask data to set for the listeners":"为侦听器设置的位掩码数据",
+    "When using multiple listeners on a system, you can set the bit-mask for a sound and have it heard from the flagged listener only. However, you can also set the {}global{} mask using this function and all sounds played normally will be heard from the listeners flagged by this mask, without the need to set the mask for each sound individually.":"当在系统上使用多个监听器时，您可以为声音设置位掩码，并使其仅从标记的监听器听到。但是，您也可以使用此函数设置{}全局{}掩码，正常播放的所有声音都将从此掩码标记的收听者中听到，而无需单独为每个声音设置掩码。"
+}

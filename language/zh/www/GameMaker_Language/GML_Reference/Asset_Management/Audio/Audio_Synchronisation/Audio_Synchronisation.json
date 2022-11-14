@@ -1,0 +1,5 @@
+{
+    "The audio sync group functions let you play multiple sounds that start at exactly the same time and stay in sync (on a per sample level). This enables you to (for example) add various tracks for a single song and then fade in and out sections without having to worry about whether there will be any delay between them. Note that these functions currently only work with {}compressed{} audio, ie. {}*.ogg{} and {}*.mp3{} format files.":"音频同步组功能可让您播放多个声音，这些声音在完全相同的时间开始并保持同步(在每个采样级别上)。这使您能够(例如)为单首歌曲添加各种音轨，然后淡入和淡出部分，而不必担心它们之间是否会有任何延迟。请注意，这些函数目前仅适用于{}压缩{}音频，即{}*.Ogg{}和{}*.MP3{}格式文件。",
+    "The following functions exist to deal with synchronising audio tracks:":"以下功能用于处理同步音轨：",
+    "{}{}NOTE{}{}&nbsp;This functionality is not available for the HTML5 target platform.":"{}{}注意{}{}此功能不适用于HTML5目标平台。"
+}

@@ -1,0 +1,8 @@
+{
+    "The above code would be called in the asynchronous {}Audio Recording{} event and assigns some recorded data to a buffer, which is then added to an audio queue. This is then played.":"上述代码将在异步{}音频记录{}事件中调用，并将一些记录数据分配给缓冲器，然后将其添加到音频队列中。然后播放。",
+    "The buffer to add to the queue.":"要添加到队列中的缓冲区。",
+    "The index of the queue to add to.":"要添加到的队列的索引。",
+    "The length of the buffer (the number of the bytes in the buffer).":"缓冲区的长度(缓冲区中的字节数)。",
+    "The offset within the source buffer to start from.":"要开始的源缓冲区中的偏移量。",
+    "This function will add the data from a buffer into the audio queue that you previously created using the function {}{}audio_create_play_queue(){}{}. You specify the queue index to add to, and the buffer ID to get the data from as well as the position (offset) within the buffer and the number of bytes to add. Once you have added audio from a buffer to a queue, the buffer cannot be deleted until you have first freed the queue using the function {}{}audio_free_play_queue(){}{}, and the buffer properties should match those of the the queue that you are adding the sound to.":"此函数将从缓冲区将数据添加到您先前使用函数{}{}audio_create_play_queue(){}{}创建的音频队列中。 您可以指定要添加到的队列索引、从中获取数据的缓冲区 ID、缓冲区内的位置(偏移)和要添加的字节数。将音频从缓冲区添加到队列后，在您首先使用函数{}{}audio_free_play_queue(){}{}释放队列之前，无法删除该缓冲区，并且缓冲区属性应与要添加声音的队列属性匹配。"
+}

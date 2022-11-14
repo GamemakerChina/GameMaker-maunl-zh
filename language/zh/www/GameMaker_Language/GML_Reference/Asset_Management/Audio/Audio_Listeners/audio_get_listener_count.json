@@ -1,0 +1,4 @@
+{
+    "Certain target platforms permit more than one listener, so it is important that you know how many the target has before changing or using different listeners. This function will return the number of listeners available.":"某些目标平台允许多个侦听器，因此在更改或使用不同的侦听器之前，了解目标具有多少个侦听器是很重要的。此函数将返回可用侦听器的数量。",
+    "The above code gets the number of available listeners and stores the return value in a global variable.":"上面的代码获取可用侦听器的数量，并将返回值存储在全局变量中。"
+}

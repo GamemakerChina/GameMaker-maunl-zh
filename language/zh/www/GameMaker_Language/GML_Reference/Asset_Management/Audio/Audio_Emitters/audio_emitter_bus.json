@@ -1,0 +1,9 @@
+{
+    "The above code first creates an audio emitter, and then an audio bus using {}{}audio_bus_create{}{}. It assigns the emitter to the new bus using&nbsp;{}{}audio_emitter_bus{}{}.":"上面的代码首先创建一个音频发射器，然后使用{}{}audio_bus_create{}{}创建音频总线。 它使用{}{}audio_emitter_bus{}{}将发射器分配给新总线。",
+    "The audio bus to which the emitter is assigned":"分配给发射器的音频总线",
+    "The audio emitter":"音频发射器",
+    "This function connects an&nbsp;{}audio emitter{}&nbsp;to a bus.":"此函数将{}音频发射器{}连接到总线。",
+    "This will cause all output of the emitter to be sent to the given bus. All effects on the bus will be applied to the emitter\u0027s output.":"这将导致发射器的所有输出被发送到给定的总线。总线上的所有效果都将应用于发射器的输出。",
+    "You can assign any number of emitters to a bus.":"可以将任意数量的发射器指定给总线。",
+    "You can reset an emitter\u0027s bus configuration by assigning it back to&nbsp;{}{}audio_bus_main{}{}.":"通过将发射器的总线配置分配回{}{}audio_bus_main{}{}，可以重置该发射器的总线配置。"
+}

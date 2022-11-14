@@ -1,0 +1,5 @@
+{
+    "The above code checks the current pitch of a given emitter and if it is not equal to 1 it is set to 1.":"上述代码检查给定发射器的当前间距，如果它不等于1，则将其设置为1。",
+    "The index of the emitter to use.":"要使用的发射器的索引。",
+    "This function returns the current pitch value set for the given audio emitter.":"此函数返回为给定音频发射器设置的当前音调值。"
+}

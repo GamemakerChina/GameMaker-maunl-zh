@@ -24,6 +24,7 @@
     "Audio Emitter ID":"音频发射器 ID",
     "Audio Emitters":"音频发射器",
     "Audio Groups":"音频组",
+    "Audio Listeners":"音频监听器",
     "AudioBus Struct":"音频总线结构",
     "AudioEffect Struct":"音效结构",
     "AudioEffectType Enum":"类型枚举",

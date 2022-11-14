@@ -1,0 +1,12 @@
+{
+    "\"{}channels{}\" - the constant {}audio_mono{} (further constants for stereo and 3D may be supported in the future)":"\"{}channels{}\"常量{}audio_mono{}(将来可能支持立体声和3D的更多常量)",
+    "\"{}data_format{}\" - the format data will be returned in (this is currently always {}buffer_s16{} but other formats may be supported in the future)":"\"{}data_format{}\"格式数据将返回(当前始终为{}buffer_s16{}，但将来可能支持其他格式)",
+    "\"{}index{}\" - the index to be used to record":"\"{}index}\"-用于记录的索引",
+    "\"{}name{}\" - a name to describe the device":"\"{}name{}\"用于描述设备的名称",
+    "\"{}sample_rate{}\" - the sample rate (in Hz) of the data returned (currently clamped to 16000hz but this may change in future)":"\"{}sample_rate{}\"返回数据的采样速率(单位：Hz)(当前被箝位至16000Hz，但以后可能会改变)",
+    "Note that while the function creates a DS map for you, it does {}not{} remove it again later and so you should be destroying the map yourself when it is no longer needed to prevent any memory leaks.":"请注意，虽然该函数为您创建了一个DS map，但它不会在以后{}{}再次删除它，因此当不再需要它时，您应该自己销毁该映射，以防止任何内存泄漏。",
+    "The above code would be called in the asynchronous {}Audio Recording{} event and assigns some recorded data to a buffer, which is then added to an audio queue. This is then played.":"上述代码将在异步{}音频记录{}事件中调用，并将一些记录数据分配给缓冲器，然后将其添加到音频队列中。然后播放。",
+    "The index of the recorder source to get the information from.":"要从中获取信息的记录器源的索引。",
+    "This function will return a {}DS Map{}&nbsp;with information about the given recorder source index. You can find out how many recorder sources are available using the function {}{}audio_get_recorder_count(){}{}, and the map returned will contain the following key/value pairs:":"此函数将返回{}DS map{}，其中包含有关给定记录器源索引的信息。您可以使用函数{}{}audio_get_recorder_count(){}{}来查找有多少录音机源可用，返回的映射将包含以下键/值对：",
+    "{}{}NOTE{} {}Most platforms support recording audio in some form, but that does not mean that all devices will permit it, even if the platform does, so you should always check that the {}{}{}audio_get_recorder_count(){}{}{} function returns a value greater than 0 to verify that recording devices are available before using the rest of the recording functions.":"{}{}注意{}{}大多数平台支持以某种形式录制音频，但这并不意味着所有设备都会允许录制，即使平台允许，因此您应始终检查{}{}{}audio_get_recorder_count(){}{}{}函数返回大于0的值，以验证在使用其余录制函数之前录音设备是否可用。"
+}

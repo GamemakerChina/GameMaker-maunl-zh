@@ -1,0 +1,7 @@
+{
+    "The above code first checks to see if the audio sync group {}sync_group{} is paused. If that is the case, it resumes playing the sync group using&nbsp;{}{}audio_resume_sync_group{}{}.":"上述代码首先检查音频同步组{}sync_group{}是否暂停。如果是这种情况，则使用{}{}audio_resume_sync_group{}{}恢复播放同步组。",
+    "The function takes in a sync group ID as returned by the function {}{}audio_create_sync_group{}{}.":"函数接收函数{}{}audio_create_sync_group{}{}返回的同步组ID。",
+    "The group index to check.":"要检查的组索引。",
+    "This function can be used to check if audio in a synchronised group is paused.":"此功能可用于检查同步组中的音频是否暂停。",
+    "{}{}NOTE{}{}&nbsp;This functionality is not available for the HTML5 target platform.":"{}{}注意{}{}此功能不适用于HTML5目标平台。"
+}

@@ -1,0 +1,5 @@
+{
+    "The above code creates an emitter then checks the listener mask data for it, and if it\u0027s not the same as that which is stored in a global variable, it sets the listener(s) to play from using the mask data stored in the global variable.":"上面的代码创建一个发射器，然后为它检查监听器掩码数据，如果它与存储在全局变量中的数据不同，则它设置监听器从使用存储在全局变量中的掩码数据播放。",
+    "The unique ID of the emitter to get the mask of":"要获取掩码的发射器的唯一ID",
+    "This function will return the bit-mask data that defines which audio listeners an emitter should play sounds from. For more information see the section on {}Audio Listeners{}.":"此函数将返回位掩码数据，该数据定义发射器应该从哪些音频侦听器播放声音。有关更多信息，请参阅{}音频监听器{}部分。"
+}

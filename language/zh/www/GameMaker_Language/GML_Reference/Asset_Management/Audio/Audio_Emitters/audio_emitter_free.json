@@ -1,0 +1,5 @@
+{
+    "The above code checks the value of the global variable \"lives\" and if it returns 0, it will destroy the emitter indexed in the variable \"s_emit\" and then go to the room indexed in the variable \"rm_Menu\".":"上面的代码检查全局变量\"life\"的值，如果它返回0，它将销毁变量\"s_emit\"中索引的发射器，然后转到变量\"rm_Menu\"中索引的房间。",
+    "The index of the emitter to free.":"释放发射器的索引。",
+    "With this function you can remove the given emitter from memory. This should always be done whenever the emitter is not going to be used further in the room or the game, ie: in the {}Destroy Event{} of the instance or in the {}Room End Event{}, otherwise you may end up with a memory leak that will slow down and eventually crash your game.":"使用该功能，您可以从内存中删除给定的发射器。当发射器在房间或游戏中不再使用时(即：在实例的{}销毁事件{}中或在{}房间结束事件{}中)，应始终执行此操作，否则，您可能会出现内存泄漏，从而减慢并最终导致游戏崩溃。"
+}

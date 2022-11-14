@@ -1,0 +1,15 @@
+{
+    "\"{}buffer_id{}\" - the buffer that is no longer being played from":"\"{}buffer_id{}\"不再播放的缓冲区",
+    "\"{}queue_id{}\" - the queue that has finished playing data":"\"{}queue_id{}\"已完成播放数据的队列",
+    "\"{}queue_shutdown{}\" - this is set to 0 during normal playback and 1 when the event is received because {}{}audio_free_play_queue(){}{} has been called. When this is set to 1, you don\u0027t want to queue up any further data.":"\"{}queue_shutdown{}\"在正常播放期间设置为 0，当收到事件时设置为 1，因为已调用{}{}audio_free_play_queue(){}{}。将其设置为 1 时，您不想将任何进一步数据排队。",
+    "3D (5.1) audio.":"3D(5.1)音频。",
+    "Mono (single channel) audio.":"单声道(单通道)音频。",
+    "Stereo (dual channel) audio.":"立体声(双通道)音频。",
+    "The above code creates a new audio queue and assigns its ID to a variable for future reference.":"上面的代码创建了一个新的音频队列，并将其ID分配给一个变量，以供将来参考。",
+    "The channels to use from one of the constants listed above.":"使用上述常数之一的通道。",
+    "The format of the buffer data to use ({}buffer_u8{} or {}buffer_s16{}).":"要使用的缓冲区数据格式({}buffer_u8{}或{}buffer_s16{})。",
+    "The sample rate of the data in the buffer queue.":"缓冲区队列中数据的采样速率。",
+    "This function prepares a buffer queue for audio. You pass data format (only {}buffer_u8{} or {}buffer_s16{} are currently supported), the sample rate (which can be between 1000hz and 48000hz), and the channels that the audio requires from one of the constants listed below:":"这个函数为音频准备一个缓冲队列。您可以从下面列出的常量之一传递数据格式(当前仅支持{}缓冲_U8{}或{}缓冲_S16{})、采样率(可以介于1000Hz和48000Hz之间)以及音频所需的通道：",
+    "This function will trigger an {}Audio Playback Asynchronous Event{} when the queue has reached the end, and in this event a special {}DS&nbsp;map{}&nbsp;will be created in the variable {}{}async_load{}{} with the following key/value pairs:":"当队列到达末尾时，此函数将触发{}音频回放异步事件{}，在该事件中，将在变量{}async_load{}中创建具有以下键/值对的特殊{}{}DS map{}{}：",
+    "{}\n    Note that you should free up any audio queues created with this function when no longer required to prevent memory leaks using the function {}{}audio_free_play_queue(){}{}.":"{}\n请注意，当不再需要使用函数{}{}audio_free_play_queue(){}{}防止内存泄漏时，应释放使用此函数创建的任何音频队列。"
+}

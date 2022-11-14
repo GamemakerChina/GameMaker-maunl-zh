@@ -1,0 +1,4 @@
+{
+    "The following functions exist to deal with using audio groups:":"以下功能用于处理音频组的使用：",
+    "Your audio assets can be grouped together from the IDE so they can be loaded and unloaded into memory as required by your game. You can create these&nbsp;{}audio groups{} from the {}Audio Groups{} window - which can be opened from the {}{}Tools{}{} menu at the top of the IDE -&nbsp;and you can assign your audio assets to a specific group from the {}Sound Properties Window{}.":"可以从IDE中将音频资源分组在一起，以便根据游戏要求将它们加载和卸载到内存中。可以从 IDE 顶部的{}{}工具{}{}菜单打开的{}音频组{}窗口创建这些{}音频组{}，还可以从{}声音属性窗口{}将音频资源分配给特定组。"
+}

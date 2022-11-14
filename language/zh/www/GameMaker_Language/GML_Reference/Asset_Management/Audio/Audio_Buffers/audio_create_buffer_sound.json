@@ -1,0 +1,18 @@
+{
+    "3D (5.1) audio":"3D(5.1)音频",
+    "Adding anything to the buffer, or changing the buffer size, after it has had a sound created from it, will give unexpected results and is not recommended - once you have started creating sounds from any buffer you should not manipulate it in any other way afterwards.":"在从缓冲区创建声音后，向缓冲区添加任何内容或更改缓冲区大小都会产生意外的结果，不建议这样做-一旦您开始从任何缓冲区创建声音，之后就不应以任何其他方式对其进行操作。",
+    "Mono (single channel) audio":"单声道音频",
+    "Note that after you have created a sound, you should free the pointer index associated with it when it is no longer required using the function {}{}audio_free_buffer_sound(){}{}. If you fail to do this and then re-assign the variable or change rooms etc. the sound ID will be lost and you will have a memory leak.":"请注意，创建声音后，当不再需要使用函数{}{}audio_free_buffer_sound(){}{}时，应释放与之关联的指针索引。 如果您没有这样做，然后重新分配变量或更改房间等。 声音ID将丢失，您将发生内存泄漏。",
+    "Stereo (dual channel) audio":"立体声(双声道)音频",
+    "The ID of the buffer to use.":"要使用的缓冲区的ID.",
+    "The above creates a buffer and then procedurally fills it with data. This data is then used to create a new sound, which is stored in the variable \"soundId\".":"上面的代码创建了一个缓冲区，然后按程序用数据填充它。然后，该数据用于创建新的声音，该声音存储在变量\" soundid \"中。",
+    "The buffer should have been created previously (see the {}buffer functions{}&nbsp;for details on how to do this), and have had data added or loaded into it. You then pass it to this function with the data format (only {}buffer_u8{} or {}buffer_s16{} are currently supported), the sample rate (which can be between 8000hz and 48000hz), and an offset into the buffer to get the data from.":"缓冲区应以前创建过(有关如何执行此操作的详细信息，请参阅{}缓冲区函数{})，并已添加或加载数据到缓冲区中。然后使用数据格式(当前仅支持{}buffer_u8{}或{}buffer_s16{})、采样速率(可以介于 8000hz 和 48000hz 之间)和缓冲区中的偏移量将其传递给此函数，以便从中获取数据。",
+    "The channels to use from one of the constants listed above.":"要使用的通道来自上面列出的常量之一。",
+    "The format of the data in the buffer ({}buffer_u8{} or {}buffer_s16{}).":"缓冲区中数据的格式({}buffer_u8{}或{}buffer_s16{})。",
+    "The length of the buffer (the number of bytes of audio data, excluding the header).":"缓冲区的长度(音频数据的字节数，不包括报头)。",
+    "The offset into the buffer to read the sample data from (in bytes).":"要从中读取样本数据的缓冲区的偏移量(以字节为单位)。",
+    "The sample rate of the data in the buffer.":"缓冲区中数据的采样率。",
+    "With this function you can create a new sound from the contents of a buffer.":"使用此函数，您可以从缓冲区的内容创建新的声音。",
+    "You also need to supply the number of samples in the buffer and the channels that the sound requires. These channels are defined by one of the following constants:":"您还需要提供缓冲区中的采样数和声音所需的通道。这些通道由以下常数之一定义：",
+    "You can\u0027t delete the buffer if any sound has been created from it and the sound has not been freed up first. So you would free the sound(s) first, and&nbsp;{}then{} delete the buffer.":"如果已从缓冲区中创建了任何声音，并且该声音尚未首先释放，则无法删除该缓冲区。所以你应该先释放声音，然后{}再{}删除缓冲区。"
+}

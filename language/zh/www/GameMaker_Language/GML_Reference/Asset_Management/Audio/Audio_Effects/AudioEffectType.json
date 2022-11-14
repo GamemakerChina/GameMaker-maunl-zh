@@ -1,0 +1,23 @@
+{
+    "A high-pass filter lets higher frequencies pass and mutes lower frequencies. The frequency at which this happens is called the {}cutoff{} frequency. All frequencies below this frequency are filtered.":"高通滤波器允许较高的频率通过，并使较低的频率静音。发生这种情况的频率称为{}截止{}频率。低于此频率的所有频率都会被过滤。",
+    "A low-pass filter lets lower frequencies pass and mutes higher frequencies.&nbsp;The frequency at which this happens is called the {}cutoff{} frequency. All frequencies above this frequency are filtered.":"低通滤波器允许较低的频率通过，并使较高的频率静音。发生这种情况的频率称为{}截止{}频率。高于该频率的所有频率都会被过滤。",
+    "A reverb effect is typically used to change the environment in which the audio is heard. You can configure reverb to make the environment appear anywhere between a small room and a grand hall or a vast open space.":"混响效果通常用于改变听到音频的环境。您可以配置混响，使环境出现在小房间和大厅或广阔的开放空间之间的任何地方。",
+    "A whistle at a high pitch is an example of a high frequency.":"高音的哨声是高频的一个例子。",
+    "Bass and drum kicks are typically low frequencies in audio.":"低音和鼓声通常是音频中的低频。",
+    "Below is a list of audio effects that are currently available to choose from.":"以下是当前可供选择的音频效果列表。",
+    "Resolution reduction reduces the quality of the audio by decreasing the number of bits to represent a sample. As there are less bits to store the same value, some information is lost. This also leads to distortion.":"分辨率降低通过减少表示样本的位数来降低音频的质量。由于存储相同值的位数较少，因此会丢失一些信息。这也会导致失真。",
+    "Sample rate reduction reduces the quality of the audio by {}downsampling{}&nbsp;it. This leads to distortion.":"采样率降低通过{}下采样{}来降低音频的质量。这会导致失真。",
+    "See {}Delay (AudioEffectType.Delay){}&nbsp;for the full list of properties that you can adjust for this effect type.":"请参阅{}Delay(AudioEffectType.Delay){}了解可针对此效果类型调整的完整属性列表。",
+    "See {}Distortion (AudioEffectType.Bitcrusher){}&nbsp;for the full list of properties that you can adjust for this effect type.":"请参阅{}Distortion( AudioEffectType.Bitcrusher){}了解可针对此效果类型调整的完整属性列表。",
+    "See {}Gain (AudioEffectType.Gain){}&nbsp;for the full list of properties that you can adjust for this effect type.":"请参阅{}Gain( AudioEffectType.Gain){}了解可针对此效果类型调整的完整属性列表。",
+    "See {}HPF (AudioEffectType.HPF2){}&nbsp;for the full list of properties that you can adjust for this effect type.":"请参见{}HPF(AudioEffectType.HPF2){}了解可针对此效果类型调整的完整属性列表。",
+    "See {}LPF (AudioEffectType.LPF2){}&nbsp;for the full list of properties that you can adjust for this effect type.":"请参阅{}LPF( AudioEffectType.LPF2){}了解可针对此效果类型调整的完整属性列表。",
+    "See {}Reverb (AudioEffectType.Reverb1){}&nbsp;for the full list of properties that you can adjust for this effect type.":"请参阅{}Reverb( AudioEffectType.Reverb1){}了解可针对此效果类型调整的完整属性列表。",
+    "This is a gain effect, which amplifies the input signal by the given gain factor.":"这是一种增益效应，将输入信号放大给定的增益系数。",
+    "This is a {}bitcrusher{} effect to create {}distortion{}. It does this in two ways: using sample rate reduction and resolution reduction.":"这是一个{}BitCrusher{}效果，用于创建{}扭曲{}。它通过两种方式实现这一点：使用采样率降低和分辨率降低。",
+    "This is a {}delay{} effect, which delays the input signal by a given amount of time and mixes this delayed version with the original signal.":"这是一种{}延迟{}效应，将输入信号延迟给定时间，并将此延迟版本与原始信号混频。",
+    "This is a {}high-pass filter{} (shortened to {}HPF{}). A filter is used for filtering out certain frequencies.":"这是{}高通滤波器{}(简称为{}HPF{})。 滤波器用于滤除某些频率。",
+    "This is a {}low-pass{} filter (shortened to {}LPF{}). A filter is used for filtering out certain frequencies.":"这是一个{}低通滤波器(简称为{}LPF{})。 滤波器用于滤除某些频率。",
+    "This is a {}reverb{} effect. It combines the original signal with a reverberated version of it. High frequencies can be {}dampened{}&nbsp;(reduced).":"这是{}混响{}效果。它将原始信号与混响信号组合在一起。高频可以衰减{}(降低)。",
+    "This is one of the built-in&nbsp;{}Enums{}&nbsp;that&nbsp;{}GameMaker{}&nbsp;provides. Pass a value of this enum to&nbsp;{}{}audio_effect_create{}{}&nbsp;to determine the type of audio effect that you want to create.":"这是{}GameMaker{}提供的内置{}枚举{}之一。将此枚举的值传递给{}{}audio_effect_create{}{}以确定要创建的音频效果的类型。"
+}

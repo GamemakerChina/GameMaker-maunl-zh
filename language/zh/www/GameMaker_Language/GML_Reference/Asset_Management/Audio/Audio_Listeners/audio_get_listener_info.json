@@ -1,0 +1,10 @@
+{
+    "\"{}index{}\" - The unique index value of the listener":"\"{}index{}\"-侦听器的唯一索引值",
+    "\"{}mask{}\" - The bit-mask for the listener":"\"{}mask{}\"-侦听器的位掩码",
+    "\"{}name{}\" - The name of the listener, as a string, with \"default\" being the standard listener name on most target platforms":"\"{}name{}\"-侦听器的名称，作为字符串，\" default \"是大多数目标平台上的标准侦听器名称",
+    "The DS map&nbsp;will contain the following keys:":"DS映射将包含以下密钥：",
+    "The above code checks the number of listeners available then loops through them gets their mask bits, which are then combined to create a single bit mask which is applied to the global listener.":"上面的代码检查可用的侦听器的数量，然后循环通过它们，得到它们的掩码位，然后组合这些掩码位以创建应用于全局侦听器的单个位掩码。",
+    "The listener number to get the data for.":"要为其获取数据的侦听器编号。",
+    "The mask value can be used to set a sound or emitter to play from multiple listeners at once, simply using the bitwise {}or{} \"|\" to generate a mask for the sound (see the example code below), while the index is used to set the properties like position or velocity for a given listener using functions like {}{}audio_listener_set_position(){}{}.":"掩码值可用于将声音或发射器设置为一次从多个侦听器播放，只需使用按位{}或{}\"|\"为声音生成掩码(请参阅下面的示例代码)，而索引可用于使用{}{}audio_listener_set_position(){}{}等函数为给定侦听器设置位置或速度等属性。",
+    "This function will create a {}DS map{} and populate it with information for the given listener.":"此函数将创建一个{}DS map{}，并用给定侦听器的信息填充它。"
+}

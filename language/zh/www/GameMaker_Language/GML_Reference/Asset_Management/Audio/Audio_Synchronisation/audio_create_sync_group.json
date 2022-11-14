@@ -1,0 +1,6 @@
+{
+    "Creates a sync group and returns a unique ID value for it which should then be used in all further audio function calls for this group. If you want the group to loop then pass in {}true{}, otherwise pass in {}false{}, but note that if you want them to loop, {}all the tracks added later need to be the same length{}. Note that when you create a sync group, you will need to free the memory and sounds associated with it when not in use using the {}{}audio_destroy_sync_group(){}{} function - for example, in the {}Room End{} or {}Destroy{} events.":"创建一个同步组，并返回一个唯一的ID值，然后该值应用于该组的所有后续音频函数调用中。如果您希望组循环，则传入{}true{}，否则传入{}false{}，但请注意，如果您希望它们循环，{}之后添加的所有曲目必须具有相同的长度{}。 请注意，创建同步组时，需要使用{}房间结束{}或{}销毁{}事件中的{}{}audio_destroy_sync_group(){}{}函数释放未使用时与其关联的内存和声音。",
+    "The above creates a new sync group and assigns the index of the group to the variable \"sg\". Four sounds are then added to the group, with the gain for three of them set to 0. Finally the sync group is played.":"上面创建了一个新的同步组，并将该组的索引分配给变量\" SG \"。然后将四个声音添加到组中，其中三个声音的增益设置为0。最后播放同步组。",
+    "Whether the tracks in the group should loop ({}true{}) or not ({}false{}).":"组中的轨道是否应循环({}true{})或不循环({}false{})。",
+    "{}{}NOTE{}{}&nbsp;This functionality is not available for the HTML5 target platform.":"{}{}注意{}{}此功能不适用于HTML5目标平台。"
+}

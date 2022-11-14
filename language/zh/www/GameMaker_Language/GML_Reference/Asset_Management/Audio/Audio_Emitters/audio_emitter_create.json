@@ -1,0 +1,9 @@
+{
+    "A gain and pitch of 1":"增益和螺距为1",
+    "A listener mask set to only the default listener (1)":"侦听器掩码仅设置为默认侦听器(1)",
+    "A position of&nbsp;{}(0, 0, 0){}":"位置{}(0，0，0){}",
+    "A speed of 0 (vx = 0, vy = 0, vz = 0)":"速度为0(vx= 0，vy= 0，vz= 0)",
+    "The above code creates a new audio emitter and assigns its index to the variable \"s_emit\".":"上面的代码创建一个新的音频发射器，并将其索引分配给变量\"s_emit\"。",
+    "The audio emitter is created with the following default settings:&nbsp;":"音频发射器的默认设置如下：",
+    "This function creates a new audio emitter and returns the index for it. This index should be stored in a variable for all further functions that relate to this emitter, and then when it is no longer needed it should be removed from memory using the function {}{}audio_emitter_free(){}{} to prevent memory leaks which may eventually crash your game.":"此函数创建新的音频发射器并返回该发射器的索引。此索引应存储在与此发射器相关的所有其他函数的变量中，然后当不再需要它时，应使用函数{}{}audio_emitter_free(){}{}将其从内存中删除，以防止内存泄漏，以免最终导致游戏崩溃。"
+}

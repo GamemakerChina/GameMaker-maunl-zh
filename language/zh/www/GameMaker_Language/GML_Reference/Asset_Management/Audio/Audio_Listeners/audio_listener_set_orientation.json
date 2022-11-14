@@ -1,0 +1,9 @@
+{
+    "Changing the given listener orientation with this function will change how sound created by audio emitters around the game room are perceived by the player of your game. In the example below, sounds created by the emitter when the listener is at the default position would appear to be coming from below and to the right of the listener, but with the new position and orientation of the listener they will now be perceived as coming from {}above{} and to the right.":"使用此功能更改给定的收听者方向将改变游戏室周围的音频发射器产生的声音被游戏玩家感知的方式。在下面的示例中，当收听者位于默认位置时，发射器产生的声音似乎来自收听者的右下方，但在收听者的新位置和方向下，它们现在将被感知为来自{}右上方。",
+    "The above code retrieves the view matrix for camera view [0] and then uses it to set the audio listener position and orientation for the listener with the ID stored in the global variable \"Player_Listener\".":"上面的代码检索摄像机视图[0]的视图矩阵，然后使用它来设置音频侦听器的位置和方向，该侦听器的ID存储在全局变量\"播放器_侦听器\"中。",
+    "The listener to set the orientation of.":"要设置其方向的侦听器。",
+    "The x look vector (default 0).":"X环视矢量(默认值为0)。",
+    "The x up vector (default 0).":"X上方向向量(默认值为0)。",
+    "The {}look at{} vector and {}up{} vector are based on the values that are resolved from the given relative x, y and z positions, and default to {}(0, 0, 1){} for the look at vector and {}(0, 1, 0){} for the up vector, as shown in the illustration below:":"{}观察{}矢量和{}up{}矢量基于从给定的相对X、Y和Z位置解析的值，默认情况下，观察矢量为{}(0，0，1){}，上方向矢量为{}(0，1，0){}，如下图所示：",
+    "With this function you can change the orientation of the given {}listener{} within the 3D audio space. The default listener index is 0, but you can use the function {}{}audio_get_listener_info(){}{} to get the different indices available for the target platform.":"使用此功能，您可以更改 3D 音频空间内给定{}收听者{}的方向。默认监听器索引为0，但可以使用函数{}{}audio_get_listener_info(){}{}获取目标平台可用的不同索引。"
+}

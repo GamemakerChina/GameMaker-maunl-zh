@@ -1,0 +1,10 @@
+{
+    "\"{}buffer_id{}\" - the ID of the temporary buffer you can use to retrieve the audio data":"\"{}buffer_id{}\"可用于检索音频数据的临时缓冲区的 ID",
+    "\"{}channel_index{}\" - the recording channel index (as returned by the function) this data came from":"\"{}channel_index{}\"记录通道索引(由函数返回)，此数据来自",
+    "\"{}data_len{}\" - the length of data (in bytes) you\u0027ve received":"\"{}data_len{}\"您接收到的数据长度(以字节为单位)",
+    "Note that after the asynchronous event has been triggered, the audio in the temporary buffer will be wiped, so you should be copying it\u0027s data into a custom buffer that you have previously created.":"请注意，在触发异步事件后，临时缓冲区中的音频将被擦除，因此您应该将其数据复制到先前创建的自定义缓冲区中。",
+    "The above code starts recording from the recorder source 0, storing the channel index of the recording in the variable \"audio_record\" for use in the asynchronous {}Audio Recording{} event.":"上面的代码从记录器源0开始记录，将记录的通道索引存储在变量\"音频_记录\"中，以便在异步{}音频记录{}事件中使用。",
+    "The index of the recorder source to use.":"要使用的记录器源的索引。",
+    "This function will start recording audio from the recorder source indexed. You can get the number of recorder sources using the function {}{}audio_get_recorder_count(){}{}, and once you start recording the audio will be stored in a temporary buffer and start triggering an {}Audio Recording Asynchronous Event{}. This event is triggered every step that recording takes place and will create the special {}DS map{}&nbsp;in the variable {}{}async_load{}{} with the following key/value pairs:":"此功能将从已索引的录音器源开始录制音频。您可以使用函数{}{}audio_get_recorder_count(){}{}获得录音机源数，开始录制后，音频将存储在临时缓冲区中，并开始触发{}音频录制异步事件{}。 此事件会在记录的每个步骤触发，并将在变量{}async_load{}中创建具有以下键/值对的特殊{}{}DS map{}{}：",
+    "{}{}NOTE{} {}Most platforms support recording audio in some form, but that does not mean that all devices will permit it, even if the platform does, so you should always check that the {}{}{}audio_get_recorder_count(){}{}{} function returns a value greater than 0 to verify that recording devices are available before using the rest of the recording functions.":"{}{}注意{}{}大多数平台支持以某种形式录制音频，但这并不意味着所有设备都会允许录制，即使平台允许，因此您应始终检查{}{}{}audio_get_recorder_count(){}{}{}函数返回大于0的值，以验证在使用其余录制函数之前录音设备是否可用。"
+}

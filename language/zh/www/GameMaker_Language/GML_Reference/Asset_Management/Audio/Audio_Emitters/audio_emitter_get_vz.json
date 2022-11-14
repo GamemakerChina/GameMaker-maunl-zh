@@ -1,0 +1,5 @@
+{
+    "The above code checks the current z velocity of a given emitter and if it is not equal to 0, it is set to 0.":"上述代码检查给定发射器的当前z速度，如果它不等于0，则将其设置为0。",
+    "The index of the emitter to use.":"要使用的发射器的索引。",
+    "This function returns the current velocity along the z axis for the given audio emitter.":"此函数返回给定音频发射器沿 z 轴的当前速度。"
+}

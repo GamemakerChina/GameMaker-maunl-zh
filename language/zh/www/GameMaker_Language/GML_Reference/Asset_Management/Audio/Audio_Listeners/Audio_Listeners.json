@@ -1,0 +1,8 @@
+{
+    "As well as for getting and setting mask data on emitters:":"以及用于获取和设置发射器上的遮罩数据：",
+    "Audio Listeners":"Audio Listeners",
+    "By default, there is one listener automatically created in the game, which uses the ID&nbsp;{}0{} (for reference in listener functions).{}\n    {}\n    {}GameMaker{} provides the following listener functions:\n  ":"默认情况下，游戏中有一个自动创建的监听器，该监听器使用ID{}0{}(作为监听函数的参考)。{}\n{}\n{}GameMaker{}提供以下侦听器功能：",
+    "Certain target platforms can permit more than one listener, with each one corresponding to a different output device, ie: your target platform could permit two listeners, one for the headphones and one for the monitor. Therefore {}GameMaker{} provides you with a number of extra functions with which you can find the available listeners as well as set them for sounds being played:":"某些目标平台可以允许多个收听者，每个目标平台对应不同的输出设备，即：目标平台可以允许两个收听者，一个用于耳机，一个用于监视器。因此{}GameMaker{}为您提供了许多附加功能，您可以通过这些功能找到可用的收听者，并为播放的声音设置它们：",
+    "There are also functions for getting and setting mask data on individual sounds:":"还有用于获取和设置单个声音的掩码数据的功能：",
+    "When dealing with complex audio situations it can be useful to define where in the audio environment the listener should be situated. When working with the simple audio functions, it is not normally necessary for the listener to be changed in any way, however when using emitters to generate realistic audio within the 3D audio space, it is important that the listener be changed and moved correctly, or else the sound will be in the wrong {}position{} for the person playing your game.":"处理复杂的音频情况时，确定收听者在音频环境中的位置可能很有用。使用简单音频功能时，通常不需要以任何方式更改收听者，但是当使用发射器在 3D 音频空间内生成真实音频时，必须正确更改和移动收听者，否则声音会对玩游戏的人造成错误{}位置{}。"
+}

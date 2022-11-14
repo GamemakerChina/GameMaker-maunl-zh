@@ -1,0 +1,6 @@
+{
+    "Audio sync groups need to be destroyed when not in use to free up the memory and sound resources associated with them using this function. It takes the group index as returned when the group was created using the function {}{}audio_create_sync_group(){}{}, and frees all resources used by the group.":"音频同步组在不使用时需要销毁，以释放与此功能相关的内存和声音资源。使用函数{}{}audio_create_sync_group(){}{}创建组时返回的组索引，并释放组使用的所有资源。",
+    "The above code destroys the sync group indexed in the variable \"sg\", and would probably be used in the {}destroy{} or {}Room End{} events.":"上面的代码破坏变量\"sg\"中索引的同步组，并可能用于{}destore{}或{}Room End{}事件。",
+    "The group index to be destroyed.":"要销毁的组索引。",
+    "{}{}NOTE{}{}&nbsp;This functionality is not available for the HTML5 target platform.":"{}{}注意{}{}此功能不适用于HTML5目标平台。"
+}

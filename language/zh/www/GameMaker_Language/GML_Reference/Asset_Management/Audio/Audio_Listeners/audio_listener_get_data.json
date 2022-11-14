@@ -1,0 +1,10 @@
+{
+    "\"{}lookat_x{}\" - The x component of the look at vector of the listener":"\"{}lookat_x{}\"侦听器的 look at 向量的 x 分量",
+    "\"{}up_x{}\" - The x component of the up vector of the listener":"\"{}up_x{}\"侦听器向上向量的 x 分量",
+    "\"{}vx{}\" - The x axis velocity of the listener":"\"{}vx{}\"收听者的 x 轴速度",
+    "The DS map&nbsp;will contain the following keys:":"DS map将包含以下密钥：",
+    "The above code checks the number of listeners available then loops through them and if their x position is not 0, it sets their position to 0, 0, 0.":"上面的代码检查可用侦听器的数量，然后遍历它们，如果它们的X位置不是0，则将它们的位置设置为0，0，0。",
+    "The listener to get the data for (default is 0).":"要为其获取数据的侦听器(默认值为0)。",
+    "This function will create a&nbsp;{}DS map{}&nbsp;and populate it with the position, velocity and orientation values for the given listener. The default listener index is 0, but you can use the function {}{}audio_get_listener_info(){}{} to get the different indices available for the target platform. If you provide an incorrect listener index then the function will return -1.":"此函数将创建{}DS map{}，并用给定侦听器的位置、速度和方向值填充该映射。默认监听器索引为0，但可以使用函数{}{}audio_get_listener_info(){}{}获取目标平台可用的不同索引。如果您提供的侦听器索引不正确，则函数将返回-1。",
+    "{}{}NOTE{} {}You are responsible for the destruction of the returned{}&nbsp;DS map&nbsp;{}using the appropriate function.":"{}{}注意{}{}您负责使用相应功能销毁返回的{}DS map{}。"
+}

@@ -1,0 +1,8 @@
+{
+    "The above code sets the variable \"gain\" to different values and then uses that same variable to set the gain of the emitter indexed in the variable \"s_emit\".":"上述代码将变量\" Gain \"设置为不同的值，然后使用相同的变量来设置发射器的增益，该发射器在变量\" S_Emit \"中索引。",
+    "The index of the emitter to change.":"要更改的发射器的索引。",
+    "The maximum gain (default 1).":"最大增益(默认值为1)。",
+    "This function sets the maximum gain (volume) for the sound. The perceived volume for a sound can change depending on the {}fall-off value{} and the position it has relative to the {}listener{}, but by setting the gain with this function, the full volume will never exceed the specified gain value. The image below illustrates how gain affects the volume of the emitter when fall-off is greater than 0:":"此功能设置声音的最大增益(音量)。声音的感知音量可以根据{}衰减值{}及其相对于{}listener{}的位置而变化，但通过使用此功能设置增益，最大音量将永远不会超过指定的增益值。下图说明了当衰减大于0时，增益如何影响发射器的音量：",
+    "{}This function will change the volume of the sound while it is being played as well all subsequent sounds played through the given emitter. Note that on some platforms you can have a gain of greater than 1, although a value of 1 is considered \"full volume\" and anything greater may introduce audio clipping or distortion.":"{}此功能将改变播放时声音的音量，以及通过给定发射器播放的所有后续声音。请注意，在某些平台上，增益可以大于1，但1被视为\"全音量\"，任何较大值都可能导致音频削波或失真。",
+    "{}{}NOTE{} {}the final volume will also be influenced by the global audio gain that has been set by the function {}{}{}audio_master_gain(){}{}{}.":"{}{}注意{}{}最终音量也将受到函数{}{}{}audio_master_gain(){}{}{}{}设置的全局音频增益的影响。"
+}
