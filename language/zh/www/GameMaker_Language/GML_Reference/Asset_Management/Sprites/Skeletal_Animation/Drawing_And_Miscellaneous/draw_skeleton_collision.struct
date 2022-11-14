@@ -1,0 +1,14 @@
+{
+["This function will draw the collision masks associated with the given skeletal animation. You supply the base sprite, the animation set to use and the frame to get the information from, and you can also set the transform properties to suit."]={old="This function will draw the collision masks associated with the given skeletal animation. You supply the base sprite, the animation set to use and the frame to get the information from, and you can also set the transform properties to suit.";new="此函数将绘制与给定骨骼动画关联的碰撞遮罩。您可以提供基础精灵、要使用的动画设置和从中获取信息的帧，还可以设置变换属性以适应。"};
+["The colour with which to blend the sprite."]={old="The colour with which to blend the sprite.";new="用于混合精灵的颜色。"};
+["The name of the animation to get the frame from (a string)."]={new="要从中获取帧的动画的名称(字符串)。";old="The name of the animation to get the frame from (a string)."};
+["The animation frame to draw (from 0 to image_number - 1)."]={old="The animation frame to draw (from 0 to image_number - 1).";new="要绘制的动画帧(从0到图像_数字-1)。"};
+["The horizontal scaling of the sprite, as a multiplier: 1 = normal scaling, 0.5 is half etc..."]={new="精灵的水平缩放，作为乘数：1=正常缩放，0.5为一半等。";old="The horizontal scaling of the sprite, as a multiplier: 1 = normal scaling, 0.5 is half etc..."};
+["{}NOTE{}&nbsp;The bounding box of a Spine sprite is set up in Spine itself, not in {}GameMaker{}."]={new="{}注意{}Spine Sprite的边界框是在Spine本身中设置的，而不是在{}GameMaker{}中。";old="{}NOTE{}&nbsp;The bounding box of a Spine sprite is set up in Spine itself, not in {}GameMaker{}."};
+["The x coordinate of where to draw the sprite."]={new="绘制精灵的位置的X坐标。";old="The x coordinate of where to draw the sprite."};
+["The y coordinate of where to draw the sprite."]={old="The y coordinate of where to draw the sprite.";new="绘制精灵的位置的Y坐标。"};
+["The rotation of the sprite. 0=normal, 90=turned 90 degrees counter-clockwise etc."]={new="精灵的旋转。0=正常，90=逆时针旋转90度等。";old="The rotation of the sprite. 0=normal, 90=turned 90 degrees counter-clockwise etc."};
+['The above code will draw the collision mask data for the current sprite, using the current transforms, for the animation set "jump".']={new='上面的代码将使用当前变换为动画集"跳转"绘制当前精灵的碰撞遮罩数据。';old='The above code will draw the collision mask data for the current sprite, using the current transforms, for the animation set "jump".'};
+["The index of the sprite to draw."]={old="The index of the sprite to draw.";new="要绘制的精灵的索引。"};
+["The vertical scaling of the sprite, as a multiplier: 1 = normal scaling, 0.5 is half etc..."]={old="The vertical scaling of the sprite, as a multiplier: 1 = normal scaling, 0.5 is half etc...";new="精灵的垂直缩放，作为乘数：1=正常缩放，0.5为一半等。"}
+}

@@ -1,0 +1,5 @@
+{
+["This function will return the frame number of the animation on the specified animation track. The function will return -1 if no animation is assigned to the specific track given."]={new="此函数将返回指定动画轨迹上的动画的帧数。如果给定的特定轨迹没有指定动画，函数将返回-1。";old="This function will return the frame number of the animation on the specified animation track. The function will return -1 if no animation is assigned to the specific track given."};
+["The animation track to get the frame of."]={old="The animation track to get the frame of.";new="要获取帧的动画轨迹。"};
+["The above code will check the current frame of the animation assigned to track 0 and then burst some particles from a point in the middle of the total bounding box for the sprite."]={new="上面的代码将检查指定给轨迹0的动画的当前帧，然后从精灵的总边界框中间的一个点爆发一些粒子。";old="The above code will check the current frame of the animation assigned to track 0 and then burst some particles from a point in the middle of the total bounding box for the sprite."}
+}
