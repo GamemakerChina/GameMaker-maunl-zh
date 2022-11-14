@@ -1,0 +1,5 @@
+{
+    "The above code enables per-slot blend modes for skeletal sprites.":"上面的代码为骨架子画面启用了每槽混合模式。",
+    "This function is used to enable ({}true{}) or disable ({}false{}) per-slot blend modes for skeletal sprites.":"此函数用于启用({}true{})或禁用({}false{})骨骼精灵的每槽混合模式。",
+    "Whether to enable or disable blend modes":"是否启用或禁用混合模式"
+}

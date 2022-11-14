@@ -1,0 +1,13 @@
+{
+    "Advanced {}array functions{}":"高级 {} 数组函数 {}",
+    "Basic {}array functions{}":"基本 {} 数组函数 {}",
+    "Extended {}array functions{}":"扩展 {} 数组函数 {}",
+    "Predicate functions":"谓词函数",
+    "The output is most often a&nbsp;{}{}Boolean{}{}, as this kind of function usually checks whether an element \"qualifies\". Sometimes it can return a&nbsp;{}{}Any{}{}&nbsp;value as well, in cases where the function does a mapping (e.g.&nbsp;{}array_map{}).":"输出通常是{}{}Boolean{}{}，因为这种函数通常检查元素是否“符合条件”。有时，在函数执行映射的情况下，它也可以返回{}{}任何{}{}值。（例如，{}array_map{}）",
+    "The output is most often a&nbsp;{}{}Boolean{}{}, as this kind of function usually checks whether an element \"qualifies\". Sometimes it can return a&nbsp;{}{}Boolean{}{}&nbsp;value as well, in cases where the function does a mapping (e.g.&nbsp;{}array_map{}).":"输出通常为{}{}布尔值{}{}，因为此类函数通常检查元素是否“合格”。有时，在函数执行映射的情况下，它也可以返回{}{}布尔值{}{}。（例如{}array_map{}）",
+    "There are a few functions associated with the use of&nbsp;{}Arrays{} too. These are designed to give you flexibility in your code, and will permit you to create more functional and dynamic arrays when making your games.":"还有一些与使用 {} 数组 {} 相关的功能。这些旨在为您提供代码的灵活性，并允许您在制作游戏时创建更多功能和动态的数组。",
+    "These are functions that you define in&nbsp;{}GameMaker{}&nbsp;and pass as an argument to one of the functions below. You don\u0027t execute this function yourself directly,&nbsp;{}GameMaker{}&nbsp;executes it for every array element in the range that you provide using the {}offset{} and {}length{} arguments.":"这些是您在 {} GameMaker{} 中定义的函数，并作为参数传递给以下函数之一。您不会直接自己执行此函数 ，{} GameMaker{} 使用 {} offset{} 和 {} length{} 参数为您提供的范围内的每个数组元素执行它。",
+    "{}array_height_2d{}&nbsp;{}(deprecated){}":"{}array_height_2d {}{} (已弃用){}",
+    "{}array_length_1d{} {}(deprecated){}":"{}array_length_1d {}{} (已弃用){}",
+    "{}array_length_2d{}&nbsp;{}(deprecated){}":"{}array_length_2d {}{} (已弃用){}"
+}

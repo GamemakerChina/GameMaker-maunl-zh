@@ -1,0 +1,7 @@
+{
+    "The new substring to replace the previous one.":"新的子字符串来替换前一个。",
+    "The string to be copied.":"要复制的字符串。",
+    "The substring within the string to be replaced.":"要替换的字符串中的子字符串。",
+    "This will set {}str2{} to {}str1{}, but with its instance of \"Earth\" replaced with \"World\", resulting in {}str2{} being \"Hello World\".":"这将把{}str2{}设置为{}str1{}，但其“ Earth ”实例替换为“ World ”，导致{}str2{}为“ Hello World ”。",
+    "You can use this function to parse a string looking for a specific part, which can then be replaced by the new string that you have specified.":"您可以使用此函数来解析查找特定部分的字符串，然后可以将其替换为您指定的新字符串。"
+}

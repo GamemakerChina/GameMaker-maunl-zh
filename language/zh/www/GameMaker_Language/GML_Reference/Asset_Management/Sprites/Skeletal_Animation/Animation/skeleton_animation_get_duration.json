@@ -1,0 +1,6 @@
+{
+    "The above code will draw the given skeletal animation sprite using delta-time to set the frame being drawn.":"上面的代码将使用delta-time来绘制给定的骨骼动画精灵，以设置正在绘制的帧。",
+    "The above code will set the {}image_index{} to the correct value for the currently assigned skeletal animation sprite.":"上面的代码将把{}image_index{}设置为当前指定的骨骼动画精灵的正确值。",
+    "The name (a string) of the animation set to use.":"要使用的动画集的名称(字符串)。",
+    "This function will return the time required for the given animation set to run before looping back to the beginning. The return value is in seconds.":"此函数将返回给定动画设置在循环返回到开始之前运行所需的时间。返回值以秒为单位。"
+}

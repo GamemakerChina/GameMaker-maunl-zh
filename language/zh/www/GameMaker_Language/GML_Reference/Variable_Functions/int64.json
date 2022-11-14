@@ -1,0 +1,5 @@
+{
+    "The above code converts the value held in the global variable to a 64bit integer.":"上面的代码将全局变量中保存的值转换为64位整数。",
+    "The value to convert.":"要转换的值。",
+    "This function will attempt to convert a given value into a signed 64-bit integer, where the value {}must{} be either a real, a string, an {}int64{}, an {}int32{}, or a {}ptr{}. Anything else will cause the game to crash with an error message. You can check to see if a variable holds an int64 using the function {}{}is_int64(){}{}.":"此函数将尝试将给定值转换为带符号的64位整数，其中值{}必须{}是实数，字符串，{}int64{},{}int32{}, 或{}ptr{}。其他任何事情都会导致游戏崩溃并显示错误消息。您可以使用函数{}{}is_int64(){}{}检查变量是否持有int64。"
+}

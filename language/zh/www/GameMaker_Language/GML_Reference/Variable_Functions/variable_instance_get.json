@@ -1,0 +1,8 @@
+{
+    "The above code will check to see if a variable exists and if it does then the value it holds is retrieved and stored in a local variable. If it does not exist, the local variable is set to -1.":"上面的代码将检查是否存在变量，如果存在，则检索并存储在局部变量中。如果不存在，则将局部变量设置为-1。",
+    "The name of the variable to get (as a string)":"要获取的变量的名称 (作为字符串)",
+    "The unique ID value of the instance to use":"要使用的实例的唯一ID值",
+    "With this function you can get the value from a given named variable. You supply the unique instance ID value (which can be found from the {}Instance Properties{} in the room editor, or is returned when you call the function {}{}instance_create_layer(){}{}) as well as the name of the variable to get the value of {}as a string{} (see example code below). The function will return the value held by the variable, or {}undefined{} if the variable does not exist.":"使用此函数，您可以从给定的命名变量中获取值。您提供唯一的实例ID值 (可以从房间编辑器中的{}实例属性{}中找到该值，或者在调用函数{}{}instance_create_layer(){}{}以及变量的名称以获取{}的值作为字符串{}时返回 (请参见下面的示例代码)。函数将返回变量持有的值，如果变量不存在，则返回{}undefined{}。",
+    "{}IMPORTANT!{} If the variable you are getting does not exist then the function will return the keyword {}undefined{} and you may get errors that will stop the game from functioning, so if in doubt use the function {}{}variable_instance_exists{}{} first.":"{}重要!{}如果您获取的变量不存在，则函数将返回关键字{}undefined{}，并且您可能会收到错误，这些错误将使游戏无法正常运行，因此，如果有疑问，请首先使用函数{}{}variable_instance_exists{}{}。",
+    "{}{}Any{}{}&nbsp;(any data type) or&nbsp;{}{}undefined{}{} (if the named variable does not exist)":"{}{}Any{}{}(任何数据类型) 或{}{}undefined{}{}(如果命名变量不存在)"
+}

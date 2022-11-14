@@ -1,6 +1,0 @@
-{
-["The above code creates a DS list then populates it with the bone names for later use."]={new="上面的代码创建了一个DS list ，然后用骨骼名称填充它以供以后使用。";old="The above code creates a DS list then populates it with the bone names for later use."};
-["With this function you can populate a (pre-created) {}DS list{} with all the names of the bones used as part of the skeletal animation sprite. The names will be strings and can then be used in the other skeleton animation bone functions for these types of sprite."]={old="With this function you can populate a (pre-created) {}DS list{} with all the names of the bones used as part of the skeletal animation sprite. The names will be strings and can then be used in the other skeleton animation bone functions for these types of sprite.";new="使用此功能，您可以使用作为骨骼动画精灵的一部分的所有骨骼的名称来填充(预先创建的){}DS list{}。名称将是字符串，然后可以在这些类型的精灵的其他骨骼动画骨骼功能中使用。"};
-["The sprite index of the Spine skeletal animation to get the list from."]={new="要从中获取列表的脊椎骨骼动画的精灵索引。";old="The sprite index of the Spine skeletal animation to get the list from."};
-["The ID of the DS list to populate with the bone names."]={old="The ID of the DS list to populate with the bone names.";new="要用骨骼名称填充的DS列表的ID."}
-}

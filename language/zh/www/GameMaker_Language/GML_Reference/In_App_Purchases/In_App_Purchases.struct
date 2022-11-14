@@ -1,5 +1,0 @@
-{
-['You can add In App Purchases to your games using the extensions available from the Marketplace and following the setup guides listed below (each extension comes with its own "mini-manual" that explains how to use it and lists all of the functions it contains):']={old='You can add In App Purchases to your games using the extensions available from the Marketplace and following the setup guides listed below (each extension comes with its own "mini-manual" that explains how to use it and lists all of the functions it contains):';new='你可以使用市场上提供的扩展程序并按照下面列出的设置指南在你的游戏中添加应用内购买（每个扩展程序都有自己的 "迷你手册"，解释如何使用它并列出它包含的所有功能）。'};
-["In App Purchases"]={new="应用内购买";old="In App Purchases"};
-["Previous versions of GameMaker had the In App Purchase functions built into the runner, however these functions have now been deprecated and will no longer work:"]={new="以前的GameMaker版本在运行器中内置了应用内购买功能，但是这些功能现在已经被废弃，不再起作用了。";old="Previous versions of GameMaker had the In App Purchase functions built into the runner, however these functions have now been deprecated and will no longer work:"}
-}

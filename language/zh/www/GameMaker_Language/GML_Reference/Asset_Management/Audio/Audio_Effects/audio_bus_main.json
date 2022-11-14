@@ -1,0 +1,6 @@
+{
+    "Any audio effect that you apply to the main bus will be heard on all sounds, as all buses are routed to this one.":"您应用于主总线的任何音频效果将在所有声音中被听到，因为所有总线都被路由到这一个。",
+    "The above code first creates a new audio effect and stores it in a temporary variable {}_ef_reverb{}. It then assigns this new effect as the first effect on the main audio bus\u0027s {}effects{} array.":"上述代码首先创建了一个新的音频效果，并将其存储在一个临时变量{}_ef_reverb{}中。 然后它把这个新的效果分配给主音频总线的{}effects{}阵列的第一个效果。",
+    "The main bus represents the main mix in {}GameMaker{}\u0027s audio, which is the combination of all currently active sound sources after they have been processed (to apply effects, positioning, doppler effect etc.) and all emitters. All of GM\u0027s audio ends up on this bus.":"主总线代表游戏制作者音频中的主要混音，它是所有当前活动声源经过处理后(应用效果、定位、多普勒效果等)和所有发射器的组合。GM的所有的音频都在这个总线上。",
+    "This built-in struct represents the main audio bus used by&nbsp;{}GameMaker{}.":"此内置结构表示{} GameMaker {}使用的主音频总线。"
+}

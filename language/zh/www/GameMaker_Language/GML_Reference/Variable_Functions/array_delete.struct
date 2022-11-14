@@ -1,7 +1,0 @@
-{
-["The above code will delete the first 10 values&nbsp;in the given array starting at index 0 (so indices 0 to 9 will be removed from the array)."]={new="上面的代码将删除给定数组中从索引0开始的前10个值（因此索引0到9将从数组中删除）。";old="The above code will delete the first 10 values&nbsp;in the given array starting at index 0 (so indices 0 to 9 will be removed from the array)."};
-["With this function you can delete a value (or values) from an array at any given position. The function requires you to provide a variable that holds the array, the index (position) in the array to delete from, as well as the number of values to delete."]={new="使用此函数，您可以从数组中的任何给定位置删除一个值（或多个值）。该函数要求您提供保存数组的变量、要从中删除的数组中的索引（位置）以及要删除的值的数量。";old="With this function you can delete a value (or values) from an array at any given position. The function requires you to provide a variable that holds the array, the index (position) in the array to delete from, as well as the number of values to delete."};
-["The number of values to delete."]={old="The number of values to delete.";new="要删除的值的数目。"};
-["The variable that holds the array."]={old="The variable that holds the array.";new="保存数组的变量。"};
-["The index (position) in the array to delete the value(s) from."]={new="要从中删除值的数组中的索引（位置）。";old="The index (position) in the array to delete the value(s) from."}
-}

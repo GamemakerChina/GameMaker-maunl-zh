@@ -1,0 +1,4 @@
+{
+    "The above code checks to see if the bounding box of the instance is outside the room and if it is it sets the instance to a new position.":"上面的代码检查实例的边界框是否在房间外，如果是，则将实例设置到新位置。",
+    "This {}read only{} variable returns the position (along the x-axis) within the room of the left hand bounding box for the instance, where the bounding box is defined by the maximum width and height of the mask for the instance (as set by the&nbsp;{}{}sprite_index{}{} or by the {}{}mask_index{}{}). Even when a sprite has a precise collision mask, the bounding box exists and is used for certain things, and so you can use this variable to find it. Please note that when the instance has no sprite assigned the value returned will be the same as the instance X&nbsp;position.":"此{}只读{}变量返回实例的左侧边界框在空间内的位置(沿X轴)，其中边界框由实例的遮罩的最大宽度和高度定义(由{}{}sprite_index{}{}或由{}({})mask_index{{}{)设置)。即使精灵具有精确的碰撞遮罩，边界框也会存在并用于某些事情，因此您可以使用此变量来查找它。请注意，当实例未分配sprite时，返回的值将与实例X位置相同。"
+}

@@ -1,6 +1,0 @@
-{
-['The above code will set {}str2{} to "Hello WorldHello WorldHello World".']={new="上面的代码将{}str2{}设置为“ Hello WorldHello WorldHello World ”。";old='The above code will set {}str2{} to "Hello WorldHello WorldHello World".'};
-["The string to repeat."]={new="要重复的字符串。";old="The string to repeat."};
-["This function simply returns the same string repeated a given number of times over itself."]={old="This function simply returns the same string repeated a given number of times over itself.";new="此函数仅返回相同的字符串，该字符串在自身上重复了给定的次数。"};
-["The number of times to repeat the string."]={old="The number of times to repeat the string.";new="重复字符串的次数。"}
-}

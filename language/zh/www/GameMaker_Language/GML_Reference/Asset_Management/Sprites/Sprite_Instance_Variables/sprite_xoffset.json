@@ -1,0 +1,4 @@
+{
+    "The above code checks to see if the left edge of the sprite of the instance is outside the room and if it is it moves the instance so that the whole sprite is visible.":"上面的代码检查实例的sprite的左边缘是否在房间外，如果在房间外，则移动实例以使整个sprite可见。",
+    "This {}read only{} variable returns the local xoffset (the x component of the origin as defined in the sprite editor) of the sprite that has been assigned to the instance. This xoffset is returned in pixels and will be dependent on the {}{}image_xscale{}{}, so that (for example) if a square 32x32 sprite is defined as having the x origin at 16, when that sprite is scaled by 2 this variable will return 32. If you need the un-scaled xoffset you should use {}{}sprite_get_xoffset(){}{}.":"此{}只读{}变量返回已分配给实例的Sprite的局部xOffset(Sprite编辑器中定义的原点的X组件)。此XOffset以像素为单位返回，并将依赖于{}{}图像_XScale{}{}，因此(例如)如果将正方形32x32 sprite定义为X原点为16，则当该sprite缩放2倍时，此变量将返回32。如果你需要未缩放的xoffset，你应该使用{}{}sprite_get_xoffset(){}{}。"
+}

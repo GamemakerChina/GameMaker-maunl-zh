@@ -1,0 +1,5 @@
+{
+    "The above example code will get the state of the numberlock key and if it is on (true) it will set it to off (false) and vice-versa.":"上面的示例代码将获取numberlock键的状态，如果它是on( true)，则将其设置为off( false)，反之亦然。",
+    "You can use this function to find the status of the keypad number lock with {}true{} being returned for on, and {}false{} returned for off.":"您可以使用此功能查找键盘数字锁的状态，其中{}true{}返回为on，而{}false{}返回为off。",
+    "{}{}NOTE{} {}This functionality is only available in the Windows exe builds and will not function on any other device.":"{}{}注意{}{}此功能仅在Windows exe版本中可用，并且在任何其他设备上都不起作用。"
+}

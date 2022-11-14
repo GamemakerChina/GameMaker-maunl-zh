@@ -1,0 +1,6 @@
+{
+    "The above code will set the frame index for the animation in track 0 to the negative image speed when the global \"pause\" variable is {}true{} (essentially pausing the animation).":"当全局\"暂停\"变量为{}true{}(实质上是暂停动画)时，上面的代码将把轨道0中的动画的帧索引设置为负图像速度。",
+    "The animation track to set the frame of.":"要设置帧的动画轨迹。",
+    "The new index for the animation frame.":"动画帧的新索引。",
+    "This function will set the animation assigned to the given track to the frame you supply. The frame index should be an real value between 0 and the number of frames for the animation (which you can get using the function {}{}skeleton_animation_get_frames{}{}). If you supply a value outside of this range, the animation will be looped to make up the difference, for example if the animation has 5 frames and you set the frame to 8, the actual frame shown will be 3.":"此函数将指定给给定轨迹的动画设置为您提供的帧。帧索引应该是一个介于0和动画帧数之间的实数值(可以使用函数{}{}skeleton_animation_get_frames{}{})。如果提供的值超出此范围，则将循环动画以弥补差异，例如，如果动画有5帧，而您将帧设置为8，则实际显示的帧将为3。"
+}

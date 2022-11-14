@@ -1,0 +1,7 @@
+{
+    "The ID of the DS list to populate with the DS maps.":"要用DS map填充的DS list的ID.",
+    "The above code creates a DS list and then populates it with the slot names found at the position of the mouse in the room.":"上面的代码创建了一个DS list，然后用鼠标在房间中的位置找到的插槽名称填充它。",
+    "The x position in the room to check.":"要检查的房间中的X位置。",
+    "The y position in the room to check.":"要检查的房间中的Y位置。",
+    "With this function you can find which slots are at a specified room-space position in the Spine sprite associated with the current instance. You create a {}DS list{} and supply its ID along with an x/y position to check and the list will be populated with name string for each of the available attachment slots for the sprite (including any attachment modifications). Note that the list is always sorted in descending order starting from the top-most slot.":"使用此功能，您可以在与当前实例关联的Spine Sprite中找到位于指定房间空间位置的插槽。您创建一个{}DS list{}并提供其ID以及要检查的X/Y位置，该列表将使用sprite的每个可用附件槽的名称字符串填充(包括任何附件修改)。注意，列表总是从最上面的槽开始按降序排序。"
+}

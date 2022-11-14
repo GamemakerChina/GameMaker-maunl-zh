@@ -1,0 +1,3 @@
+{
+    "As the name implies, skeleton animation sprites are comprised of a series of \"bones\", over which a {}skin{} is added to create the final character animation. Normally you\u0027d want to set these bones up in the animation software (Spine) and then export the sprite with a set of animations already preset so you can simply {}switch between{} them as required. However, there are times when you may want to intercept the bone data and manually manipulate it or get information about the position of specific bones, and in these cases you can use the following functions:":"顾名思义，骨骼动画精灵由一系列\"骨骼\"组成，在其上添加{}皮肤{}以创建最终的角色动画。通常你会想要在动画软件(脊椎)中设置这些骨骼，然后导出已经预设了一组动画的精灵，这样你就可以根据需要在它们之间进行简单的切换。但是，有时您可能需要截取骨骼数据并手动操作它或获取有关特定骨骼位置的信息，在这些情况下，您可以使用以下函数："
+}

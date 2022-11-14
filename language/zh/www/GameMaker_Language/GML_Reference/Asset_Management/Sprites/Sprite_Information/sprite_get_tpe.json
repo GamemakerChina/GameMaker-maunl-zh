@@ -1,0 +1,8 @@
+{
+    "Texture Page Entry":"Texture Page Entry纹理页面条目",
+    "The above code creates a DOM button at the position (32, 32) of the page that the game canvas is running on. The button uses the sprite referenced from the texture page as \"spr_MS_Home\" and when clicked the button will open a new window for the specified URL and with the defined properties for that window.":"上面的代码在运行游戏画布的页面的位置（32，32）创建了一个DOM按钮。该按钮使用从纹理页面引用的sprite作为“ SPR_MS_主页”，单击该按钮时，将为指定的URL打开一个新窗口，并具有该窗口的已定义属性。",
+    "The image index of the sprite.":"精灵的图像索引。",
+    "The index of the sprite to find the texture page entry of.":"要查找其纹理页面条目的sprite的索引。",
+    "This function will return a special value that relates to the position of the given sprite and sub-image on the texture page used by your game. In this way you can pass the value to extensions for use outside of the compiled game, effectively bypassing the {}GameMaker{} drawing functions and permitting the sprite to be used in DOM content which can then be drawn anywhere within the window that contains the game canvas. This function is of particular interest to those that wish to create buttons and other interactive media outside of the {}GameMaker{} canvas element on their host page using the function {}{}clickable_add(){}{}.":"此函数将返回一个特殊值，该值与游戏所使用的纹理页面上给定的精灵和子图像的位置相关。通过这种方式，您可以将值传递给扩展，以便在编译的游戏之外使用，从而有效地绕过{}GameMaker{}绘图函数，并允许在DOM内容中使用sprite，然后可以在包含游戏画布的窗口中的任何位置绘制这些内容。对于那些希望使用函数{}{}clickable_add（）{}{}在其主机页面上的{}GameMaker{}画布元素之外创建按钮和其他交互式媒体的人来说，此函数特别有趣。",
+    "{}NOTE{}: This function is for HTML5 only.":"{}注意{}：此函数仅适用于HTML5。"
+}

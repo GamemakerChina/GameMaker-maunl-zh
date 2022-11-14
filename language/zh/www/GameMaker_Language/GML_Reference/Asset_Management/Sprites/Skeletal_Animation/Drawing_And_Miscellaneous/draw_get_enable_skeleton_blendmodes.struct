@@ -1,4 +1,0 @@
-{
-["The above code enables per-slot blend modes for skeletal sprites, if they are disabled."]={new="上面的代码为骨骼精灵启用了每槽混合模式，如果它们被禁用的话。";old="The above code enables per-slot blend modes for skeletal sprites, if they are disabled."};
-["This function returns whether per-slot blend modes for skeletal sprites are enabled ({}true{}) or disabled ({}false{})."]={old="This function returns whether per-slot blend modes for skeletal sprites are enabled ({}true{}) or disabled ({}false{}).";new="此函数用于返回是启用({}true{})还是禁用({}false{})骨骼精灵的每槽混合模式。"}
-}

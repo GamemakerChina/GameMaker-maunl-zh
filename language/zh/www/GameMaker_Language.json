@@ -1,0 +1,9 @@
+{
+    "Creating Visual/Code Scripts":"创建可视化/代码脚本",
+    "The first option,&nbsp;{}GML Visual{}, is best suited for beginners and hobbyists who want to get started making their own games quickly.":"第一个选项 &nbsp; {} GML Visual {} 最适合想要快速开始制作自己的游戏的初学者和业余爱好者。",
+    "The second option,&nbsp;{}GML Code{}, allows you to harness the full power of GameMaker Language by writing your code manually.":"第二个选项&nbsp;{} Gml代码 {}允许您通过手动编写代码来充分利用GameMaker语言的强大功能。",
+    "While&nbsp;{}GML Visual{}&nbsp;is easier to start with,&nbsp;{}GML Code{}&nbsp;is still an easy-to-use programming language with powerful features ({}Functions{},&nbsp;{}Methods{},&nbsp;{}Structs &amp; Constructors{}, etc.).":"虽然{} Gml Visual{}&nbsp;更易于开始使用，但{} Gml Code{}&nbsp;仍然是一种易于使用的编程语言，具有强大的功能（{}函数{}、{}方法{}、{}结构和构造函数{}等）。",
+    "You are asked to choose between&nbsp;{}GML Code{}&nbsp;and&nbsp;{}GML Visual{}&nbsp;on creating a new Object event, a new Script asset, or anything else that results in the creation of a script:":"在创建一个新的对象事件、一个新的脚本资源或任何导致脚本创建的东西时，您需要在{} GML Code {}和{} GML Visual {}之间做出选择:",
+    "You can use GameMaker Language to program your games in two different ways: by placing blocks to \"write\" code visually, or by writing code manually.":"您可以使用GameMaker Language通过两种不同的方式对游戏进行编程：通过放置方块来直观地 “写入” 代码，或者手动编写代码。",
+    "{}In addition to the choice between&nbsp;{}GML Code{}&nbsp;and&nbsp;{}GML Visual{}, this window contains two checkboxes:":"{}除了在{} GML 代码{}和{} GML Visual {}之间进行选择之外，此窗口还包含两个复选框:"
+}

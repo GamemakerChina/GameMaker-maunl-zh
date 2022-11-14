@@ -1,0 +1,6 @@
+{
+    "The above code will create a new array of 100 entries, each one set to the keyword {}noone{}, and then assign it to the variable \"instance_array\".":"上面的代码将创建一个新的100条目数组，每个条目都设置为关键字 {} noone{}，然后将其分配给变量 “instance_array”。",
+    "The size of the array to create.":"要创建的数组的大小。",
+    "With this function you can create a 1D array of a given size. You tell the function the length of the array to create, and it will return the \"handle\" for the array which you can then assign to a variable. Arrays created in this way will have each entry initialised to 0 unless you specify an (optional) initialisation value. If you do supply the extra value for initialising the array, then all indices within the new array will be set to that instead of 0, but note that the function will have a greater performance overhead in this case.":"使用此函数，您可以创建给定大小的1D数组。您告诉函数要创建的数组的长度，它将返回数组的 “句柄”，然后您可以将其分配给变量。除非您指定 (可选) 初始化值，否则以这种方式创建的数组将使每个条目初始化为0。如果您提供用于初始化数组的额外值，那么新数组中的所有索引都将设置为该值，而不是0，但请注意，在这种情况下，该函数将具有更大的性能开销。",
+    "{}OPTIONAL{} The value to use to initialise all array indices.":"{}可选{}用于初始化所有数组索引的值。"
+}

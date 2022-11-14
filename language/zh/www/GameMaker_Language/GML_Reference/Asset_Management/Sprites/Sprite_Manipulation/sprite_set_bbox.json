@@ -1,0 +1,10 @@
+{
+    "The above code will check the bounding box mode of the sprite assigned to the {}sprite_index{}, and if it is set to {}manual{} then it will have its bounding box changed.":"上面的代码将检查指定给{}sprite_索引{}的sprite的边界框模式，如果设置为{}手动{}，则将更改其边界框。",
+    "The bottom of the bounding box.":"边界框的底部。",
+    "The index of the sprite to set the bounding box on.":"要设置边界框的sprite的索引。",
+    "The left side of the bounding box":"边界框的左侧",
+    "The right side of the bounding box":"边界框的右侧",
+    "The top of the bounding box.":"边界框的顶部。",
+    "This function can be used to set the bounding box values for a sprite. You supply the sprite index to use and then the left, top, right and bottom values for the bounding box positions. The positions are {}absolute{} values, where the (0, 0) position corresponds to the top left corner of the sprite, regardless of the offset for the sprite, any \"empty\" pixels the sprite may have, or where it is being drawn in the room.":"此函数可用于设置sprite的边界框值。提供要使用的sprite索引，然后提供边界框位置的左侧、顶部、右侧和底部值。位置是{}绝对{}值，其中（0，0）位置对应于sprite的左上角，与sprite的偏移、sprite可能具有的任何“空”像素或在房间中绘制的位置无关。",
+    "{}NOTE{}&nbsp;This function affects the sprite {}asset&nbsp;{}so that all further instances with this sprite will have the same bounding box.":"{}注意{}此函数影响sprite{}资源{}，以便此sprite的所有其他实例将具有相同的边界框。"
+}

@@ -1,3 +1,0 @@
-{
-["When working with skeletal animation sprites created using Spine, you can have multiple&nbsp;{}animations{}&nbsp;per-sprite, and as such you need to be able to switch between them at appropriate times in your game. To help you do that, {}GameMaker{} provides the following functions:"]={new="在处理使用Spine创建的骨骼动画精灵时，每个精灵可以有多个{}动画{}，因此您需要能够在游戏中的适当时间在它们之间切换。为了帮助您做到这一点，{}GameMaker{}提供了以下功能：";old="When working with skeletal animation sprites created using Spine, you can have multiple&nbsp;{}animations{}&nbsp;per-sprite, and as such you need to be able to switch between them at appropriate times in your game. To help you do that, {}GameMaker{} provides the following functions:"}
-}

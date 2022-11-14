@@ -1,0 +1,7 @@
+{
+    "The above code creates a DS list and then populates it with the slot names found at the position of the mouse in the room. It then loops through the slot list and resets the colour for the found slots to white with an alpha of 1 if the colour is not already white.":"上面的代码创建了一个DS list，然后用鼠标在房间中的位置找到的插槽名称填充它。然后，它在插槽列表中循环，并将找到的插槽的颜色重置为白色，如果颜色还不是白色，则将alpha设置为1。",
+    "The alpha to set from 0 to 1.":"要设置的alpha(从0到1)。",
+    "The colour to set, either an integer, a constant, or a hex value.":"要设置的颜色，可以是整数、常量或十六进制值。",
+    "The slot name to set, a string":"要设置的插槽名称，字符串",
+    "With this function you can set an attachment slot colour and alpha so all sprites attached to it will be drawn with these blend values. Keep in mind that the instance sprite can have a blend colour and alpha setting ({}{}image_blend{}{}&nbsp;and {}{}image_alpha{}{}), as can the attachment (see the function&nbsp;{}{}skeleton_attachment_create_colour(){}{}), and so the final colour and alpha that the assigned attachment sprite for the slot will have will be a composite of all these values.":"使用此功能，您可以设置附件槽的颜色和Alpha，以便使用这些混合值绘制附加到它的所有精灵。请记住，实例Sprite可以具有混合颜色和Alpha设置({}{}image_blend{}{}和{}{}image_alpha{}{}，附件也可以(请参阅函数{}{}skeleton_attachment_create_colour(){}{}因此，为该插槽分配的附件精灵将具有的最终颜色和阿尔法将是所有这些值的合成。"
+}

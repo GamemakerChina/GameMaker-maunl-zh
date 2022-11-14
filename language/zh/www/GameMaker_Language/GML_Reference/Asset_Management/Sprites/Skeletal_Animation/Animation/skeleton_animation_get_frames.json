@@ -1,0 +1,5 @@
+{
+    "The above code will get the number of frames in the animation and then set the sprite to the last frame and stop animating.":"上面的代码将获取动画中的帧数，然后将精灵设置为最后一帧并停止动画。",
+    "The animation name to get the frames of.":"要获取其帧的动画名称。",
+    "This function can be used to retrieve the number of frames that any given skeleton animation has. You supply the skeleton animation name (as a string, as defined in the program used to make the animation, or as returned by using the function {}{}skeleton_animation_get(){}{}) and the function returns the frames that it has as an integer value. The function will return 0 if the specified animation does not exist.":"此函数可用于检索任何给定骨骼动画的帧数。您提供骨骼动画名称(作为字符串，在用于制作动画的程序中定义，或使用函数{}{}skeleton_animation_get(){}{}返回)，该函数将以整数值的形式返回它具有的帧。如果指定的动画不存在，函数将返回0。"
+}

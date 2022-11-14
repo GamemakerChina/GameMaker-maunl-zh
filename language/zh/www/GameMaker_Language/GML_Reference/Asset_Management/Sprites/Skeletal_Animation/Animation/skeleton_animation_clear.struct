@@ -1,5 +1,0 @@
-{
-["The above code will clear the animation track 1 if the right mouse button is pressed."]={new="如果按下鼠标右键，上面的代码将清除动画轨迹1。";old="The above code will clear the animation track 1 if the right mouse button is pressed."};
-["This function will clear the specified animation track of all animations, ready to be re-assigned."]={new="此功能将清除所有动画的指定动画轨迹，准备重新分配。";old="This function will clear the specified animation track of all animations, ready to be re-assigned."};
-["The animation track to clear."]={old="The animation track to clear.";new="要清除的动画轨迹。"}
-}

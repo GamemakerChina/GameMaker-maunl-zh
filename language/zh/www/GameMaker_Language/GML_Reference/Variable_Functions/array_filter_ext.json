@@ -1,0 +1,14 @@
+{
+    "Boolean&nbsp;(whether the condition checked in the {}function{} is {}true{} {}or{} {}false{})":"布尔值（在{}函数{}中检查的条件是{}true{}{}还是{}{}false{}）",
+    "The above code first defines a function {}greater_than_5{}&nbsp;that takes in an element and index parameter and returns {}true{} when the element is greater than 5. An array {}values{} is then initialised with the digits from 1 to 9. Finally&nbsp;{}{}array_filter_ext{}{}&nbsp;is called on this array with the function. It takes a starting index of -2 (the {}one before last{} index) and a length of {}{}infinity{}{}. 8 is the value at the starting index and 9 the value after that. Both are greater than 5 so the function will return a value of 5 and store it in the temporary variable&nbsp;{}valid_elements{}.":"上面的代码首先定义了函数{}begree_than_5{}，该函数接收元素和索引参数，当元素大于5时返回{}true{}。数组{}values{}随后以数字1到9初始化。最后，使用函数在此数组上调用{}{}array_filter_ext{}{}。其起始索引为-2（最后一个{}索引之前的{}索引），长度为{}{}无限{}{}。 8 为起始指数值，9为起始指数后的值。两者都大于5，因此函数将返回5并将其存储在临时变量{}valid_elements{}中。",
+    "The array to use":"要使用的数组",
+    "The current array element":"当前数组元素",
+    "The current array index":"当前数组索引",
+    "The first element for which the predicate function returns {}true{} is written to the index given by&nbsp;{}offset{}, others are written to subsequent indices (with the direction given by the sign of the&nbsp;{}length{} parameter).":"谓词函数返回{}true{}的第一个元素被写入{}offset{}给出的索引，其他元素被写入后续索引（方向由{}length{}参数的符号给出）。",
+    "The function to use for each element":"用于每个元素的函数",
+    "{}This mutates the input array resulting in an array with only the elements for which&nbsp;{}the predicate function&nbsp;{}returns&nbsp;{}true{}.{}":"{}这会改变输入数组，导致数组仅包含{}谓词函数{}返回{}true{}的元素。{}",
+    "{}{}IMPORTANT{}{}&nbsp;This function {}mutates{}&nbsp;the input array, i.e. changes it directly. Existing array elements in the range given by the offset and length parameter might be overwritten. For performance reasons the array is {}not{} resized and the new number of {}valid{} elements, starting at the offset position and in the direction given by the sign of the length parameter, is returned instead.":"{}{}重要{}{}此函数{}改变{}输入数组，即直接更改它。偏移量和长度参数指定的范围内的现有数组元素可能会被覆盖。由于性能原因，数组的大小{}不{}调整，而是返回新的{}有效{}元素，这些元素从偏移位置开始，方向由长度参数的符号给定。",
+    "{}{}OPTIONAL{}{}&nbsp;The number of elements to traverse. A negative value will traverse the array backwards (i.e. in descending order of indices, e.g. 2 &gt; 1 &gt; 0 instead of 0 &gt; 1 &gt; 2).":"{}{}可选{}{}要遍历的元素数量。负值将向后遍历数组 (即按索引的降序排列，例如2 &gt; 1 &gt; 0而不是0 &gt; 1 &gt; 2)。",
+    "{}{}OPTIONAL{}{}&nbsp;The offset, or the starting index, in the array. Setting a negative value will count from the end of the array. The starting index will then be {}array_length(array) + offset{}.":"{}{}可选{}{}数组中的偏移量或起始索引。设置负值将从数组的末尾开始计数。然后，起始索引将为 {}array_length(array) + offset{}.",
+    "{}{}Real{}{}&nbsp;(the number of valid elements in the array)":"{}{}实数{}{}（数组中有效元素的数量）"
+}

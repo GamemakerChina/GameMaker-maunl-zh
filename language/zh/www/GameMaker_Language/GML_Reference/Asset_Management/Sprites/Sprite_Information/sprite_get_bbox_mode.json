@@ -1,0 +1,8 @@
+{
+    "Automatic - The bounding box will be calculated automatically, based on the tolerance setting for the sprite":"自动-将根据精灵的公差设置自动计算边界框",
+    "Full Image - The bounding box will be set to use the full width and height of the sprite, regardless of the tolerance and \"empty\" pixels":"完整图像-边界框将被设置为使用精灵的完整宽度和高度，而不考虑公差和“空”像素",
+    "Manual - The bounding box has been set manually to user defined values (either in the sprite editor, or using the function {}{}sprite_set_bbox(){}{})":"手动-边界框已手动设置为用户定义的值（在Sprite编辑器中，或使用函数{}{}Sprite_设置_bbox（）{}{}））",
+    "The above checks the bbox mode for the current sprite and if it\u0027s not {}automatic{}, then it is sets it to that value.":"上面检查了当前sprite的bbox模式，如果它不是{}自动{}，则将其设置为该值。",
+    "The index of the sprite to check.":"要检查的sprite的索引。",
+    "This function will return the current \"mode\" for the bounding box calculations. You supply the sprite index of the sprite to check, and the function will return one of the constants shown below.":"此函数将返回边界框计算的当前“模式”。您提供要检查的sprite的sprite索引，该函数将返回如下所示的常量之一。"
+}

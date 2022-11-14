@@ -1,0 +1,6 @@
+{
+    "Note that there are some constants that may not be equal&nbsp;to themselves, which can make this function fail. Here is an example:":"请注意，有一些常数可能不等于它们自己，这会使此函数失败。下面是一个例子:",
+    "See the&nbsp;{}Equality Table{}&nbsp;for more information.":"有关更多信息，请参见 {} 相等表 {}。",
+    "The above code will check two arrays to see if they hold equivalent values, and if they do not then the code will copy the entire contents of the array \"inventory_array\" to the array \"item_array\".":"上面的代码将检查两个数组以查看它们是否保存等效的值，如果它们不保存，则代码将把数组 “inventory_array” 的全部内容复制到数组 “item_array” 中。",
+    "With this function you can check to see if two arrays are equal (equivalent or the same). You give the two arrays to check, and the function will return {}true{} if they are equal (either equivalent or the same) or {}false{} if they are not. Note that this is {}not{} the same as checking if two arrays are the same using ==, which will not check to see if the two arrays hold equivalent values, but only to see if the arrays are referencing the same initial array. For example:":"使用此功能，您可以检查两个数组是否相等 (等效或相同)。您给两个数组进行检查，如果它们相等 (相等或相同)，函数将返回 {} true{}，如果它们不相等，则返回 {} false{}。请注意，这与使用 === 检查两个数组是否相同是 {} 不相同的，这不会检查两个数组是否保持等效值，而只是查看数组是否引用相同的初始数组。例如:"
+}

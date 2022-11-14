@@ -1,0 +1,5 @@
+{
+    "The above code will retrieve the number of variables in the given struct and show a debug message in the console output with this value.":"上面的代码将检索给定结构中的变量数，并在控制台输出中显示带有此值的调试消息。",
+    "The unique ID value of the struct to check.":"要检查的结构的唯一ID值。",
+    "With this function you can find the total number number of variables defined for a struct. You supply the struct ID to check, and the function will return an integer value for the number of variables encountered, or (if no struct of the given ID exists)\n    -1.":"使用此函数，您可以找到为结构定义的变量总数。您提供要检查的struct ID，并且该函数将为遇到的变量数返回一个整数值，或者 (如果不存在给定ID的struct)\n-1。"
+}

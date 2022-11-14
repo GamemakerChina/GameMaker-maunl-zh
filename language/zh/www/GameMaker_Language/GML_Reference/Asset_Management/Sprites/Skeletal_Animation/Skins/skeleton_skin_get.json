@@ -1,0 +1,4 @@
+{
+    "The above code would check the currently assigned skin for the animation and if it is \"skin_Enemy1\", it chooses and sets a new skin from one of three options.":"上面的代码会检查当前为动画分配的皮肤，如果是\"skin_Enemy1 \"，它会从三个选项中选择并设置一个新的皮肤。",
+    "With skeletal animation sprites, you can assign separate textures (called \"skins\") to the animation, thereby using one animation for multiple different things. This function will return the name of the skin (as a string) that is currently assigned to the skeletal animation sprite your instance is using. The name returned is that which you set when you created the sprite in your animation program.":"使用骨骼动画精灵，可以将单独的纹理(称为\"skins\")指定给动画，从而将一个动画用于多个不同的事物。此函数将返回当前指定给您的实例正在使用的骨骼动画精灵的皮肤名称(作为字符串)。返回的名称是您在动画程序中创建精灵时设置的名称。"
+}

@@ -1,9 +1,0 @@
-{
-["[0] - the minimum x position for all bounding boxes"]={old="[0] - the minimum x position for all bounding boxes";new="[0]-所有边界框的最小X位置"};
-["The above code will check the current frame of the animation assigned to track 0 and then burst some particles from a point in the middle of the total bounding box for the sprite."]={new="上面的代码将检查指定给轨迹0的动画的当前帧，然后从精灵的总边界框中间的一个点爆发一些粒子。";old="The above code will check the current frame of the animation assigned to track 0 and then burst some particles from a point in the middle of the total bounding box for the sprite."};
-["This function will return an array with the total bounding box value for all the individual bounding boxes assigned to a skeleton animation sprite. The returned array will have 4 elements:"]={new="此函数将返回一个数组，其中包含分配给骨骼动画精灵的所有单个边界框的总边界框值。返回的数组将有4个元素：";old="This function will return an array with the total bounding box value for all the individual bounding boxes assigned to a skeleton animation sprite. The returned array will have 4 elements:"};
-["[1] - the minimum y position for all bounding boxes"]={new="[1]-所有边界框的最小Y位置";old="[1] - the minimum y position for all bounding boxes"};
-["[3] - the maximum y position for all bounding boxes"]={new="[3]-所有边界框的最大Y位置";old="[3] - the maximum y position for all bounding boxes"};
-["[2] - the maximum x position for all bounding boxes"]={old="[2] - the maximum x position for all bounding boxes";new="[2]-所有边界框的最大X位置"};
-["{}NOTE{}&nbsp;The bounding box of a Spine sprite is set up in Spine itself, not in {}GameMaker{}."]={old="{}NOTE{}&nbsp;The bounding box of a Spine sprite is set up in Spine itself, not in {}GameMaker{}.";new="{}注意{}Spine Sprite的边界框是在Spine本身中设置的，而不是在{}GameMaker{}中。"}
-}

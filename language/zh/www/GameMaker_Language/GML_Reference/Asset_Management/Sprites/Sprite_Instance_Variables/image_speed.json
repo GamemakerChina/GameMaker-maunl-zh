@@ -1,0 +1,4 @@
+{
+    "The above code creates an instance of the object \"obj_Explosion\" and sets its image_speed to 0.5 (effectively halving the running speed).":"上面的代码创建了对象“ OBJ_爆炸”的实例，并将其图像_速度设置为0.5(有效地将运行速度减半)。",
+    "This variable determines the speed in which {}GameMaker{} will cycle through the sub-images for the current instance sprite. The speed value given is a {}multiplier{}, with 1 being the default value, and setting it to 0.5 will half the animation speed - as set in the {}Sprite Editor{} or {}Image Editor{}- while setting it to 2 will double it. If the sprite used has no sub-images, this variable will have no effect.":"这个变量决定了{}GameMaker{}在当前实例精灵的子图像中循环的速度。给定的速度值是一个{}乘数{}，1是默认值，将其设置为0.5将使动画速度减半-如在{}精灵编辑器{}或{}图像编辑器{}中设置的-而将其设置为2将使其加倍。如果所使用的sprite没有子图像，则此变量将不起作用。"
+}

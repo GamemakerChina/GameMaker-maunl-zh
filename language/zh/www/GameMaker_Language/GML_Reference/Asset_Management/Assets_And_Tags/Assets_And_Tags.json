@@ -1,0 +1,6 @@
+{
+    "Assets And Tags":"资源和标签",
+    "For assets in general we have the following functions:":"对于一般资源，我们具有以下功能:",
+    "For dealing with the Asset browser \"tags\" system, we have the following functions:":"对于处理资源浏览器 “标签” 系统，我们具有以下功能:",
+    "The functions listed here are specifically designed for getting information from any of the assets defined in the {}Asset Browser{}, as well as the tags that have been assigned to them. Tags are a very powerful tool, both in the Asset Browser and in your actual game code, as they can be read and created at run time, giving you additional ways to filter assets when your game is running and create conditional checks or \"parent\"-type systems outside of the object-based system.":"此处列出的功能是专门为从{}资源浏览器{}中定义的任何资源以及已分配给它们的标记中获取信息而设计的。标签是一个非常强大的工具，无论是在资源浏览器中还是在您的实际游戏代码中，因为它们可以在运行时读取和创建，为您提供其他方法来过滤游戏运行时的资源，并在基于对象的系统之外创建条件检查或 “父” 类型的系统。"
+}

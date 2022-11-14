@@ -1,0 +1,5 @@
+{
+    "Sometimes you may wish to get the ascii code for a mapped key (to see if it is already mapped, for example) which is what this function returns.&nbsp;The function will take a keycode value as returned by the function {}{}ord(){}{} (only {}capital{} letters from A-Z or numbers from 0-9), or any of the {}vk_*{} constants listed on the main {}Keyboard Input{} page.":"有时您可能希望获取映射键的ascii代码 (例如，查看它是否已经映射)，这是此函数返回的内容。该函数将采用函数{}{}ord(){}{}返回的keycode值 (仅{}a-Z的大写字母{}或0- 9的数字)，或主{}键盘输入{}页面上列出的{}vk_ *{}常量中的任何一个。",
+    "The above example code will first check and see if \"A\" has been mapped to another key, and if it hasn\u0027t it will map it to the last key that the user has pressed.":"上面的示例代码将首先检查并查看 “A” 是否已映射到另一个键，如果没有，则将其映射到用户按下的最后一个键。",
+    "This is the key that you wish to get the mapped value from":"这是您希望从中获取映射值的键"
+}

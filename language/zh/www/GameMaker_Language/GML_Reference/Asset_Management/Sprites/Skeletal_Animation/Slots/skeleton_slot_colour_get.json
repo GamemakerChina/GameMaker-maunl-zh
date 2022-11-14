@@ -1,0 +1,5 @@
+{
+    "The above code creates a DS list and then populates it with the slot names found at the position of the mouse in the room. It then loops through the slot list and resets the colour for the found slots to white with an alpha of 1 if the colour is not already white.":"上面的代码创建了一个DS list，然后用鼠标在房间中的位置找到的插槽名称填充它。然后，它在插槽列表中循环，并将找到的插槽的颜色重置为白色，如果颜色还不是白色，则将alpha设置为1。",
+    "The slot name to check, a string":"要检查的插槽名称，字符串",
+    "With this function you can get an attachment slot colour. You supply the slot name (a string) and the function will return an integer value for the colour.":"使用此功能，您可以获得附件插槽颜色。您提供插槽名称(字符串)，该函数将返回颜色的整数值。"
+}

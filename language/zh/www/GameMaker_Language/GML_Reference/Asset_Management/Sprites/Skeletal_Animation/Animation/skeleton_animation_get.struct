@@ -1,4 +1,0 @@
-{
-["With this function you can get the current animation set being used by your skeletal animation sprite. The return value is a string, which will be the name of the set as you defined it in your skeletal animation program."]={old="With this function you can get the current animation set being used by your skeletal animation sprite. The return value is a string, which will be the name of the set as you defined it in your skeletal animation program.";new="使用此功能，您可以获取骨骼动画精灵正在使用的当前动画集。返回值是一个字符串，它将是您在骨骼动画程序中定义的集的名称。"};
-['The above code will change the animation set being used to the "jump" set when the space key is pressed, but only if the current set being used is not already "jump".']={new='当按下空格键时，上面的代码会将正在使用的动画集更改为"跳转"集，但前提是当前正在使用的集尚未"跳转"。';old='The above code will change the animation set being used to the "jump" set when the space key is pressed, but only if the current set being used is not already "jump".'}
-}

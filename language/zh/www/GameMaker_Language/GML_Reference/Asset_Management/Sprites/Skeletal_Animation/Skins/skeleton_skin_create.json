@@ -1,0 +1,10 @@
+{
+    "An array of names (as&nbsp;{}{}String{}{}) of existing skins in the skeletal animation sprite that will be used in the new skin.":"将在新皮肤中使用的骨骼动画精灵中现有皮肤的名称数组(as{}{}String{}{})。",
+    "Creating a skin in this way corresponds visually to {}pinning{} a combination of existing skins in the {}Skins view{} of the animation tool.":"以这种方式创建皮肤在视觉上对应于{}pinning{}动画工具的{}Skins view{}中现有皮肤的组合。",
+    "It then sets the skin of the skeletal animation sprite of the current instance to this new skin.":"然后，它将当前实例的骨骼动画精灵的蒙皮设置为此新蒙皮。",
+    "The above code first calls&nbsp;{}{}skeleton_skin_create{}{}&nbsp;to add a new runtime skin called \"new_skin\". The skin is created from three existing skins in the skeletal animation sprite: \"hat/red\", \"shirt/green\" and \"trousers/blue\". The result is stored in a temporary variable {}skin{}.":"上面的代码首先调用{}{}skeleton_skin_create{}{}来添加一个新的称为\"new_skin\"的运行时皮肤。皮肤由骨骼动画精灵中的三个现有皮肤创建：\"hat/red色\"、\"shirt/green\"和\"trousers/blue\"。结果存储在临时变量{}skin{}中。",
+    "The name of the new skin":"新皮肤的名称",
+    "The new skin is created with the name that you provide and takes a list of existing skins in the skeletal animation sprite. The attachments that are linked to these skins are included in the new skin. By combining existing skins in this way you can create custom characters (by {}grouping attachments{}).":"新蒙皮使用您提供的名称创建，并采用骨骼动画精灵中的现有蒙皮列表。链接到这些外观的附件将包含在新外观中。通过以这种方式组合现有皮肤，您可以创建自定义角色(通过{}grouping attachments{})。",
+    "This function creates a new {}runtime skin{} for skeletal animation sprites through code.":"此函数通过代码为骨骼动画精灵创建新的{}runtime skin{}。",
+    "{}{}IMPORTANT{}{}&nbsp;For skins created using this function you have to pass the struct that it returns&nbsp;to&nbsp;{}skeleton_skin_set{}&nbsp;instead of the skin name.":"{}{}要点{}{}对于使用此函数创建的皮肤，必须将它返回的结构传递给{}skeleton_skin_set{}，而不是皮肤名称。"
+}

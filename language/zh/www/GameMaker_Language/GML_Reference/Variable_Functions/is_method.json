@@ -1,0 +1,5 @@
+{
+    "The above code checks a variable to see if it is a method, and if the function returns {}true{}, then a debug message is output to the console.":"上面的代码检查一个变量以查看它是否为方法，并且如果函数返回{}true{}, 则将调试消息输出到控制台。",
+    "The variable to check.":"要检查的变量。",
+    "This function can be used to check and see if a variable is a method variable (it will return {}true{}) or not (in which case it will return {}false{}).":"此函数可用于检查并查看变量是否是方法变量 (它将返回{}true{}) 或不返回 (在这种情况下，它将返回{}false{})。"
+}

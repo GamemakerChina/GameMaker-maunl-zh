@@ -1,0 +1,5 @@
+{
+    "The above code checks the variable \"val\" to see if it contains a pointer and if it is not then it shows a message in the debug console.":"上面的代码检查变量 “val” 以查看它是否包含指针，如果不包含指针，则在调试控制台中显示消息。",
+    "The argument to check.":"要检查的参数。",
+    "This function returns whether a given variable is a pointer or not. In some cases you want to check and see what data type a variable holds in {}GameMaker{} and that\u0027s when you would use this function. It returns {}true{} or {}false{} depending on whether the value is a pointer or not.":"此函数返回给定变量是否是指针。在某些情况下，您想检查并查看变量在{}GameMaker{}中包含的数据类型，这就是您使用此函数的时间。根据值是否为指针，它返回{}true{}或{}false{}。"
+}

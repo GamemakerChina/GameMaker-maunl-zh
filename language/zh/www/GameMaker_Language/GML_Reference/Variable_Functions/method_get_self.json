@@ -1,0 +1,5 @@
+{
+    "The above code gets the self context for the given method variable and outputs it to the console.":"上面的代码获取给定方法变量的自我上下文，并将其输出到控制台。",
+    "The method variable to check.":"要检查的方法变量。",
+    "With this function you can retrieve the instance ID or struct reference which is the {}{}self{}{} context used when the method is called. If the variable is {}not{} a method then the function will return {}undefined{}. Please note that the function may also return the constant {}pointer_null{}, in which case the current self is being used at the time of the call.":"使用此函数，您可以检索实例ID或struct引用，该引用是调用该方法时使用的{}{}self{}{}上下文。如果变量是{}不是{}一个方法，则函数将返回{}未定义{}。请注意，该函数还可能返回常量{}pointer_null{}，在这种情况下，在调用时正在使用当前self。"
+}

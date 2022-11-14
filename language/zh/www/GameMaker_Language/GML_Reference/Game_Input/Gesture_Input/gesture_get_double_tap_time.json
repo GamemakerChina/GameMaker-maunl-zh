@@ -1,0 +1,4 @@
+{
+    "The above code checks to see if double tap time for gestures is set to 0.16 seconds and if it is not, it sets it to that value.":"上面的代码检查手势的双击时间是否设置为0.16秒，如果不是，则将其设置为该值。",
+    "This function is used to get the time it takes between two touches/clicks to trigger a {}Double Tap Gesture{} event. The time is measured in seconds and has a default value of 0.10.":"此函数用于获取两次触摸/点击之间触发{}双击手势{}事件所需的时间。时间以秒为单位，默认值为0.10。"
+}

@@ -1,0 +1,14 @@
+{
+    "Note that you can use the same map you filled out using the {}{}skeleton_bone_state_get(){}{} function, even though it contains the additional \"World\" keys and values. Since these refer to {}read-only{} values, setting them with this function will have no affect.":"请注意，您可以使用通过{}{}skeleton_bone_state_get(){}{}函数填写的相同贴图，即使它包含其他\" world \"键和值。由于这些引用的是{}只读{}值，因此使用此函数设置它们不会产生任何影响。",
+    "The (previously created) DS map that stores the bone data.":"存储骨骼数据的(先前创建的)DS贴图。",
+    "The above code creates a DS map and then populates it with the data from the bone named \"head\". It then extracts the world position for the bone, and uses that data to set the \"angle\" of the bone to track the mouse position in the game.":"上面的代码创建了一个DS映射，然后用名为\" Head \"的骨骼中的数据填充它。然后，它提取骨骼的世界位置，并使用该数据来设置骨骼的\"角度\"，以跟踪游戏中的鼠标位置。",
+    "The name (as a string) of the bone.":"骨骼的名称(作为字符串)。",
+    "This function is provided so that you can \"intercept\" animation data and modify it before it is drawn on the screen, and as such you would want to use it in the {}Other - Animation Update{} event, since this event is triggered just before the Draw Events.":"提供此函数是为了让您可以\"拦截\"动画数据，并在将其绘制到屏幕上之前对其进行修改，因此您可能希望在{}Other-Animation Update{}事件中使用它，因为此事件恰好在绘制事件之前触发。",
+    "Your skeletal animation is made up of a number of \"bones\", which you will have defined and given names to in your animation program, and this function can be used to set certain data for the named bone at any time. Note that this data will set the {}current{} pose for the skeleton, depending on the animation set used, and the function requires a previously created {}DS&nbsp;map{}, which should have the following keys and their required values:{}{}":"骨骼动画由许多\"骨骼\"组成，您将在动画程序中定义这些骨骼并为其命名，此函数可用于随时为命名的骨骼设置某些数据。请注意，此数据将设置骨骼的{}当前{}姿势，具体取决于所使用的动画集，并且该函数需要以前创建的{}DS map{}，该贴图应具有以下关键帧及其所需的值：{}{}",
+    "{}\"angle\":{} The local rotation of the bone relative to the parent bone.{}\n      {}{}\n    ":"{}\"angle\"：{}骨骼相对于父骨骼的局部旋转。{}\n{}{}",
+    "{}\"parent\":{} The name (a string) of the parent bone.":"{}\" parent \"：{}父骨骼的名称(字符串)。",
+    "{}\"x\":{} The local x position of the bone relative to the parent bone.{}\n      {}{}\n    ":"{}\" X \"：{}骨骼相对于父骨骼的局部X位置。{}\n{}{}",
+    "{}\"xscale\":{} The local horizontal scale of the bone.{}\n      {}{}\n    ":"{}\" xScale \"：{}骨骼的局部水平比例。{}\n{}{}",
+    "{}\"y\":{} The local y position of the bone relative to the parent bone.{}\n      {}{}\n    ":"{}\" Y \"：{}骨骼相对于父骨骼的局部Y位置。{}\n{}{}",
+    "{}\"yscale\":{} The local vertical scale of the bone.{}\n      {}{}\n    ":"{}\" yScale \"：{}骨骼的局部垂直比例。{}\n{}{}"
+}

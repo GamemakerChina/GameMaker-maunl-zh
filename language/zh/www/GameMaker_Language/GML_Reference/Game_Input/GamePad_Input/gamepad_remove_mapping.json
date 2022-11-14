@@ -1,0 +1,5 @@
+{
+    "The above code will remove the mapping from the given gamepad index slot based on the value of a variable.":"上面的代码将根据变量的值从给定的游戏手柄索引槽中删除映射。",
+    "This function can be used to remove the current device mapping from the given gamepad slot index. Once called, the slot index will need to be remapped using the {}{}gamepad_test_mapping(){}{} function if you want to be able to be able to use the gamepad constants to detect input correctly (direct input can always be retrieved using the {}{}gamepad_axis{}/{}button{}/{}hat_count(){}{}&nbsp;and {}{}gamepad_axis{}/{}button{}/{}hat_value(){}{} functions together).":"此函数可用于从给定的游戏手柄时隙索引中删除当前设备映射。调用后，如果您希望能够使用游戏手柄常量正确检测输入，则需要使用{}{}gamepad_test_mapping(){}{}函数重新映射插槽索引(始终可以使用{}{}gamepad_axis{}/{}button{}/{}hat_count(){}{}和{}{}gamepad_axis{}/{}button{}/{}hat_value(){}{}函数一起检索直接输入)。",
+    "Which gamepad index \"slot\" to remove the mapping from.":"要从哪个游戏手柄索引 “插槽” 中移除映射。"
+}

@@ -1,0 +1,7 @@
+{
+    "OPTIONAL! The type of asset to get the tags for, only used when supplying an index for the first argument.":"可选!要获取标签的资源类型，仅在为第一个参数提供索引时使用。",
+    "The above code will retrieve all the tags assigned to the object that the instance running the code has been created from.":"上面的代码将检索分配给运行代码的实例已从中创建的对象的所有标记。",
+    "The given name refers to an {}object{}.":"给定的名称指的是一个{}object{}。",
+    "The name of the asset (a string) or its index.":"资源的名称 (字符串) 或其索引。",
+    "With this function you can retrieve all the tags assigned to an asset from the Asset Browser. You supply either the asset name (as a string) or it\u0027s asset index, and the function will return an {}array{} of tags for that asset. If no tags are found or there is an error (ie: the name string given doesn\u0027t exist) then the returned array will be empty. If you supply an asset index value, then you will need to supply the optional asset type argument (a constant), as assets of different types can have the same index, even though they cannot have the same name. The available asset types are listed in the table below:":"使用此功能，您可以从资源浏览器检索分配给资源的所有标记。您可以提供资源名称 (作为字符串) 或它的资源索引，该函数将返回该资源的标签{}数组{}。如果找不到任何标签或有错误 (即: 给定的名称字符串不存在)，则返回的数组将为空。如果提供资源索引值，则需要提供可选的资源类型参数 (常量)，因为不同类型的资源可以具有相同的索引，即使它们不能具有相同的名称。下表列出了可用的资源类型:"
+}
