@@ -1,0 +1,4 @@
+{
+    "The above code checks the global variable \"SFX\" and if it returns {}false{}, it will stop all sounds that are currently playing.":"上述代码检查全局变量\"SFX\"，如果返回{}false{}，它将停止当前播放的所有声音。",
+    "This function will stop {}all{} sounds that are currently playing.":"此函数将停止{}当前播放的所有{}声音。"
+}

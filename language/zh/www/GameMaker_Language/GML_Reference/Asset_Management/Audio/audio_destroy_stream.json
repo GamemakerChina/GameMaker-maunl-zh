@@ -1,0 +1,6 @@
+{
+    "If you have previously created an audio stream from a file using the function {}{}audio_create_stream(){}{} and no longer need that sound, you can call this function to delete it from memory. Any further calls to the sound index after it has been destroyed will give an error. It should be noted that this will free up the stream but on the target platform this may not show up in a memory manager. This is because {}GameMaker{} pools memory resources to prevent memory allocation overhead, and so the memory will remain allocated until required for something else or re-used for a new stream.":"如果您以前使用函数{}{}audio_create_stream(){}{}从文件中创建了音频流，并且不再需要该声音，则可以调用该函数将其从内存中删除。声音索引被破坏后，任何进一步调用都将产生错误。应当注意，这将释放流，但是在目标平台上，这可能不显示在存储器管理器中。这是因为{}GameMaker{}会汇集内存资源以防止内存分配开销，因此内存将保持分配状态，直到需要用于其他内容或重新用于新流。",
+    "Path to the audio file that was streamed.":"流传输的音频文件的路径。",
+    "The above code removes the sound indexed in the variable \"snd\" from memory.":"上面的代码从内存中删除变量\"snd\"中索引的声音。",
+    "{}NOTE{}: This functionality is not available for the HTML5 target platform.":"{}注意{}： 此功能不适用于 HTML5 目标平台。"
+}
