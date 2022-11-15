@@ -99,6 +99,8 @@ qqq_translate=async function (engine){
 	//修正大括号
 	str=str.replace(/\） */g,")")
 	str=str.replace(/ *（/g,"(")
+	//修正小括号
+	str=str.replace(/ *\(/g,"(")
 	
 	//修正双引号
 	str=str.replace(/“/g,"\"")
