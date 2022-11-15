@@ -1,0 +1,5 @@
+{
+    "The above code disables garbage collection if the given global variable is {}true{}.":"如果给定的全局变量为{}true{}，上述代码将禁用垃圾收集。",
+    "With this function you can enable or disable the garbage collector. Calling the function with {}true{} as the argument enables it and using {}false{} disables it (not recommended). It is enabled by default.":"使用此函数，您可以启用或禁用垃圾回收器。使用{}true{}作为参数调用函数将启用它，使用{}false{}将禁用它(不推荐)。默认情况下，它处于启用状态。",
+    "enable ({}true{}) or disable ({}false{}) the garbage collector.":"启用({}true{})或禁用({}false{})垃圾回收器。"
+}

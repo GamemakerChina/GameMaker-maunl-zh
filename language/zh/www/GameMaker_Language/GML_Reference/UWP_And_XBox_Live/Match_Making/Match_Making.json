@@ -1,0 +1,3 @@
+{
+    "Matchmaking (multiplayer) for Xbox Live and UWP requires a bit of configuration, via setup of session templates and matchmaking hoppers on the Xbox Developer Portal. {}GameMaker{} supports this through the use of the UWP target and permits you to do the following:":"Xbox Live和UWP的匹配(多人游戏)需要一些配置，通过在Xbox开发者门户网站上设置会话模板和匹配跳板。{}GameMaker{}通过使用UWP目标支持这一点，并允许你做以下事情。"
+}

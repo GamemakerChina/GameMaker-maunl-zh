@@ -1,0 +1,15 @@
+{
+    "GC Stats Struct":"GC 统计结构",
+    "The above code checks a global variable and if it is {}true{} it gets information from the garabge collector and outputs it to the console as debug messages.":"上面的代码检查一个全局变量，如果它是{}true{}，它将从 garabge 收集器获取信息并将其作为调试消息输出到控制台。",
+    "The number of objects which the garbage collector determined weren\u0027t active in the previous frame, and which could therefore be deleted.":"垃圾回收器确定在前一帧中未处于活动状态的对象数量，因此可以将其删除。",
+    "This is a counter which is incremented every time a garbage collection pass occurs. If garbage collection is disabled this will not increase.":"这是一个计数器，每次发生垃圾收集传递时都会递增。如果禁用垃圾收集，则不会增加。",
+    "This is an array (of size {}num_generations{}) containing the number of objects in each generation.":"这是一个数组(大小为{}num_generations{})，包含每代对象的数量。",
+    "This is the index of the generation that was collected last. 0 is the youngest generation and 3 is currently the oldest.":"这是上次收集的那一代的索引。0 是最年轻的一代，3 是目前最古老的一代。",
+    "This is the number of active objects the garbage collector found in the previous frame. This will vary depending on which generation was collected.":"这是垃圾回收器在前一帧中找到的活动对象的数量。这将根据收集的世代而有所不同。",
+    "This is the time in microseconds (on a separate thread) which the garbage collector took to clean up the objects deemed inactive.":"这是垃圾收集器清理被视为不活跃的对象所花费的时间(以微秒为单位)(在单独的线程上)。",
+    "This is the time in microseconds (on the main thread) which the garbage collector took to figure out which objects were active.":"这是垃圾收集器找出哪些对象处于活动状态所花费的时间(在主线程上)。",
+    "This is the total number of garbage collection generations.":"这是垃圾收集的总次数。",
+    "When using this function, please note that the information shown for the objects {}is only updated when a full generation is finished processing{}, which may take several frames depending on frame time setting (see {}here{} for more information on frame timing).":"使用此功能时，请注意，显示的对象{}信息仅在完整生成处理完毕后才会更新{}，这可能需要几帧时间，具体取决于帧时间设置(有关帧时序的更多信息，请参阅{}here{})。",
+    "With this function you can retrieve information about the current state of the garbage collector. The function will return a {}struct{} which will have the following member variables (note that \"objects\" here refers to anything that can be garbage collected and {}not{} general object instances as defined in the Asset Browser):":"使用此功能，您可以检索有关垃圾收集器当前状态的信息。该函数将返回一个{}struct{}，它将包含以下成员变量(请注意，这里的 \"对象\" 是指任何可以被垃圾回收的东西，{}不是资产浏览器中定义的{}个通用对象实例)：",
+    "{}NOTE{}: On the HTML5 target platform garbage collection is handled by the JavaScript engine and therefore the member variables in the above struct will all return 0 if this function is used on that platform.":"{}注意{}：在 HTML5 目标平台上，垃圾回收由 JavaScript 引擎处理，因此，如果在该平台上使用此函数，则上述结构中的成员变量都将返回 0。"
+}
