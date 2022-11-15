@@ -1,0 +1,57 @@
+
+
+
+import inet.http;
+var http =inet.http();
+//禁止自动添加管理cookie
+http.disableCookies() 
+
+
+translate=function(str="test",engine="lang-x"){
+
+	token=eval(string.load(path+"/token.struct"))
+	if !token return null
+	if !token.languagex return null
+	
+	http.addHeaders = `Cookie: token=`+token.languagex;
+	
+	var url=//https://app.languagex.com/api/translation/text
+	var json=//{"domain":"general","engine":"aws","engineKey":"aws","sourceLang":"en","sourceText":"hello world","targetLang":"zh","terms":[]}
+	var json=web.json.parse(json)
+	
+	json.engine=engine
+	json.engineKey=engine
+	json.sourceText=str
+	var ret=http.post(url,web.json.stringify(json))
+	if !ret return null
+	return web.json.parse(ret)
+
+}
+
+
+
+//彩云翻译翻译
+import web.rest.jsonCaiYun;
+var http = web.rest.jsonCaiYun("aabbcc")
+caiyun = http.api();
+
+translate_caiyun=function(str){
+	
+	token=eval(string.load(path+"/token.struct"))
+	if !token return null
+	if !token.caiyun return null
+	
+	http.addHeaders={
+        ["x-authorization"]="token "+token.caiyun
+    };
+    
+	var result = caiyun.translator(
+		source = str;
+		trans_type = "auto2zh";
+		request_id = "demo";
+		detect = true;
+	)
+	
+	if !result return null
+	return result[["target"]]
+}

@@ -1,0 +1,35 @@
+var hot_key=eval(string.load(path+"/hotkey.struct"))
+if !hot_key return 0
+
+	
+key_state={}
+
+import key
+按键触发=function(str){
+	if !string.len(str) return 0;
+	
+	var t = string.split(str," ");
+	for k,v in t{
+		if !string.len(v) return 0;
+		if !key.getStateX(v) return 0;
+	}
+	return 1;
+}
+
+mainForm.setInterval(100,function(){try{
+
+	for(k,v in hot_key){
+		var state=按键触发(k)
+		if state{
+			if !key_state[k]{
+				//触发
+				theView.doScript(v)
+				key_state[k]=true
+			}
+		}else{
+			if key_state[k] key_state[k]=false
+		}
+		
+	}
+
+}})
