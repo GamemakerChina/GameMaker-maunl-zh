@@ -1,0 +1,7 @@
+{
+    "Note that the returned array will always contain 0 in its last position, after listing the callstack scripts.":"请注意，在列出调用堆栈脚本后，返回的数组在其最后一个位置始终包含0。",
+    "The above code checks to see if debug mode is enabled and if it is, checks to see if a key is being held down. In that case, it&nbsp;outputs the current call stack to the console, with a maximum depth of 4.":"上述代码检查调试模式是否启用，如果启用，则检查键是否被按下。在这种情况下，它将当前调用栈输出到控制台，最大深度为4。",
+    "The function allows for an optional argument to be passed in, which is&nbsp;the maximum depth of the returned callstack.&nbsp;This value is the number of scripts that are included in the returned array&nbsp;starting from the current script. If this&nbsp;argument is not specified, then the full callstack will be returned.":"该函数允许传入一个可选参数，该参数是返回的调用堆栈的最大深度。此值是从当前脚本开始返回的数组中包含的脚本数。如果未指定此参数，则将返回完整的调用堆栈。",
+    "This function generates an array of strings as the \"callstack\" where the current script is listed first, and then&nbsp;all the other scripts that were run in order for the current script to be executed. The exact string format will vary depending on the target platform chosen, but it will mostly have the script/event name, then a colon :&nbsp;and the line number, similar to this:":"此函数生成一个字符串数组作为\" callstack \"，其中首先列出当前脚本，然后列出为执行当前脚本而运行的所有其他脚本。确切的字符串格式将根据所选的目标平台而有所不同，但大多数情况下，它将具有脚本/事件名称，然后是冒号：和行号，类似于：",
+    "{}OPTIONAL{} The maximum depth of the callstack that is returned":"{}OPTIONAL{}返回的调用栈的最大深度"
+}

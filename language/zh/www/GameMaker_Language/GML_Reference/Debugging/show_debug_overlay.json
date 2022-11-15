@@ -1,0 +1,17 @@
+{
+    "The above code will toggle the debug on or off depending on the value of a global variable.":"上面的代码将根据全局变量的值打开或关闭调试。",
+    "This function can be used to switch on and off the standard debug overlay when testing your game and is disabled by default. The debug overlay shows a graphic CPU/GPU usage bar in the actual game window itself along with the current real fps value, number of texture swaps and the number of vertex batches (note that texture swaps and vertex batches will never be zero and will normally show values of 2 or 3, since even with an empty room an no objects {}GameMaker{} still has to draw and batch things).":"此功能可用于在测试游戏时打开和关闭标准调试覆盖，默认情况下处于禁用状态。调试覆盖在实际游戏窗口本身中显示图形CPU/GPU使用栏，以及当前实际FPS值、纹理交换数量和顶点批次数量(请注意，纹理交换和顶点批次永远不会为零，并且通常会显示2或3的值，因为即使有一个空房间，没有对象{}GameMaker{}仍然必须绘制和批处理内容)。",
+    "Using this function you can add the overlay whether in debug mode or not, and in this way, you can see how efficiently your game runs and get a visual cue as to how it is using the available resources, without the over-head of having the debugger running alongside.":"使用此函数，无论是否处于调试模式，您都可以添加覆盖，通过这种方式，您可以看到游戏运行的效率，并获得有关如何使用可用资源的视觉提示，而无需同时运行调试器。",
+    "switch on ({}true{}) or off ({}false{}) the debug overlay.{}{}":"打开({}true{})或关闭({}false{})调试覆盖。",
+    "{}Blue{} - The time required for the {}Garbage Collector{} to run":"{}蓝色{}-运行{}垃圾回收器{}所需的时间",
+    "{}Cyan{} - The text rendering time":"{}青色{}-文本渲染时间",
+    "{}Dark Red{} - The GPU flush, which is how long the GPU takes to clear images from memory":"{}暗红色{}-GPU刷新，即GPU从内存中清除图像所需的时间",
+    "{}Green{} - Input / Output processing (ie: keyboard, mouse, gamepad, networking etc...)":"{}绿色{}-输入/输出处理(即：键盘，鼠标，游戏手柄，网络等..)",
+    "{}Grey{} - The time required to clear screen each draw step":"{}灰色{}-每个绘图步骤清除屏幕所需的时间",
+    "{}NOTE{}: This function will not work on the HTML5 target due to the different way it works compared to all the other targets.":"{}注意{}：此函数不适用于HTML5目标，因为它的工作方式与所有其他目标不同。",
+    "{}Orange{} -Debug update time, which is only normally visible when you use the debug module":"{}橙色{}-调试更新时间，通常只有在使用调试模块时才可见",
+    "{}Red{} - The update speed of the step event":"{}红色{}-步骤事件的更新速度",
+    "{}This bar is split into sections, with each section being 1/60th of a second. As you can see from the image above, the bar is made up of various colours:":"{}这个条被分成几个部分，每个部分是1/60秒。如上图所示，条形由各种颜色组成：",
+    "{}White{} - GPU left over time, which is the time spent waiting for the GPU to finish the rendering of the frame before the next one can start":"{}白色{}-GPU剩余时间，即在下一帧开始之前等待GPU完成该帧渲染所花费的时间",
+    "{}Yellow{} - The time required for the draw event":"{}黄色{}-绘制事件所需的时间"
+}

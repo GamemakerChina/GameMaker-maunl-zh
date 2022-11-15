@@ -1,0 +1,4 @@
+{
+    "The above code checks to see if the game was compiled using the YoYo Compiler and shows a debug message if it was.":"上面的代码检查游戏是否是使用YoYo编译器编译的，如果是，则显示调试消息。",
+    "This function will return {}true{} if the platform compiles outside of the virtual machine, such as for the YYC and JS platforms.":"如果平台在虚拟机外部编译，例如YYC和JS平台，此函数将返回{}true{}。"
+}

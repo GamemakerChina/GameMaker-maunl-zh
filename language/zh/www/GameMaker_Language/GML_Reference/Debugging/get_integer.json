@@ -1,0 +1,7 @@
+{
+    "The above code will display a message prompting the user to select a level for testing. The return value will be stored in the global variable \"global.level\".":"上面的代码将显示一条消息，提示用户选择要测试的级别。返回值将存储在全局变量global.level中。",
+    "The default value in the text box.":"文本框中的默认值。",
+    "The string to show in the pop-up message.":"要在弹出消息中显示的字符串。",
+    "This creates a pop-up window showing a custom message, with a button labelled \"Ok\", and prompts the user to input an integer value. The function will return the typed in integer, or the default value if nothing has been entered.":"这将创建一个显示自定义消息的弹出窗口，其中有一个标记为\" OK \"的按钮，并提示用户输入整数值。该函数将返回键入的整数，如果未输入任何内容，则返回默认值。",
+    "{}{}NOTE{}{} This function is for {}debug use only{} on the Windows target, but is {}deprecated{} on all other targets.":"{}{}注意{}{}此函数仅在Windows目标上{}用于调试{}，但在所有其他目标上{}已弃用{}。"
+}

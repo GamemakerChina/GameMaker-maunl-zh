@@ -1,0 +1,6 @@
+{
+    "The above code will loop through the values stored in the array \"inv\" and add them to the variable \"tot\" before showing a message with the total.":"上面的代码将遍历存储在数组\" inv \"中的值，并将它们添加到变量\" tot \"中，然后显示带有总数的消息。",
+    "The string to show in the pop-up message.":"要在弹出消息中显示的字符串。",
+    "This function creates a pop-up message box which displays the given string and a button marked \"Ok\" to close it.":"这个函数创建一个弹出消息框，显示给定的字符串和一个标记为\" OK \"的按钮来关闭它。",
+    "{}{}NOTE{}{} This function is for {}debug use only{} on the Windows target, but is {}deprecated{} on all other targets.":"{}{}注意{}{}此函数仅在Windows目标上{}用于调试{}，但在所有其他目标上{}已弃用{}。"
+}

@@ -1,0 +1,6 @@
+{
+    "The above code will check the score and if it is over 500, it will ask the user if they wish to continue or not and if the \"yes\" button is clicked it will go to another room, but if the \"no\" button is selected it will end the game.":"上面的代码将检查分数，如果分数超过500，它将询问用户是否希望继续，如果点击\"是\"按钮，它将转到另一个房间，但如果选择\"否\"按钮，它将结束游戏。",
+    "The string to show in the pop-up question.":"要在弹出问题中显示的字符串。",
+    "This function creates a pop-up message box with two buttons for \"Yes\" and \"No\". It returns {}true{} or {}false{} depending on which one of the two buttons the user presses.":"此函数创建一个带有\"是\"和\"否\"两个按钮的弹出消息框。根据用户按下两个按钮中的哪一个，它返回{}true{}或{}false{}。",
+    "{}{}NOTE{}{} This function is for {}debug use only{} on the Windows target, but is {}deprecated{} on all other targets.":"{}{}注意{}{}此函数仅在Windows目标上{}用于调试{}，但在所有其他目标上{}已弃用{}。"
+}

@@ -1,0 +1,7 @@
+{
+    "The above code will prompt the user to give a name which will then be stored in the global variable \"test_name\". If nothing is entered and the user just presses \"Ok\" then the default value, \"Anonymous\", will be returned.":"上面的代码将提示用户给出一个名称，然后将其存储在全局变量\"test_name\"中。如果没有输入任何内容，并且用户只按\" OK \"，则将返回默认值\" Anonymous \"。",
+    "The default string in the text box.":"文本框中的默认字符串。",
+    "The string to show in the pop-up message.":"要在弹出消息中显示的字符串。",
+    "This creates a pop-up window showing a standard message, with a button labelled \"Ok\", that prompts the user to input a string. The function will return the input string, {}or{} the default value if nothing has been entered.":"这将创建一个显示标准消息的弹出窗口，其中有一个标记为\" OK \"的按钮，提示用户输入字符串。如果没有输入任何内容，该函数将返回输入字符串{}或{}默认值。",
+    "{}{}NOTE{}{} This function is for {}debug use only{} on the Windows target, but is {}deprecated{} on all other targets.":"{}{}注意{}{}此函数仅在Windows目标上{}用于调试{}，但在所有其他目标上{}已弃用{}。"
+}

@@ -1,0 +1,11 @@
+{
+    "\"{}BreakOnError{}\" - This option is for {}Windows YYC{} builds only, and means that projects will {}not{} display the usual code error screen if the runtime detects an error, but instead just carry on and crash. This allows you to see the stacktrace within Visual Studio if debugging.":"\"{}BreakOnError{}\"-此选项仅用于{}Windows YYC{}构建，这意味着如果运行时检测到错误，项目将不会{}显示通常的代码错误屏幕，而只是继续并崩溃。如果调试，这允许您在Visual Studio中查看stacktrace。",
+    "\"{}DumpMemory{}\" - Gives information on the current memory usage.":"\"{}DumpMemory{}\"-提供有关当前内存使用情况的信息。",
+    "\"{}OutputDebugOff{}\" - Disables the behaviour described above.":"\"{}OutputDebugOff{}\"-禁用上述行为。",
+    "\"{}OutputDebugOn{}\" - This enables a call to {}OutputDebugString{} for the {}Windows{} target, which means that all debug output - everything you see in the Output window - can be viewed by Visual Studio or by 3rd party apps.":"\"{}OutputDebugOn{}\"-这启用了对{}Windows{}目标的{}OutputDebugString{}的调用，这意味着所有调试输出-您在输出窗口中看到的所有内容-都可以通过Visual Studio或第三方应用程序查看。",
+    "\"{}ResourceCounts{}\" - Lists all the currently active resources, such as Data Structures, Time Sources, Surfaces, etc.":"\"{}ResourceCounts{}\"-列出所有当前活跃的资源，例如数据结构、时间源、表面等。",
+    "The above code checks to see if an surface exists and if it does not, a debug event is triggered in the graph view of the debugger (the game must have been run in Debug Mode for this to be visible) and the surface is recreated.":"上面的代码检查表面是否存在，如果不存在，则在调试器的图形视图中触发调试事件(游戏必须在调试模式下运行才能可见)，并重新创建表面。",
+    "The custom debug event string to use.":"要使用的自定义调试事件字符串。",
+    "The function will also take two reserved strings to help perform debugging using external applications like Visual Studio. These strings are:":"该函数还将接受两个保留字符串，以帮助使用外部应用程序(如Visual Studio)执行调试。这些字符串是：",
+    "This function generates a custom debug event that will be shown in the Graph View of the debugger when a game is being run in {}Debug Mode{}. If you require messages to be displayed when {}not{} in debug mode, use&nbsp;{}{}show_debug_message(){}{}.":"此函数生成一个自定义调试事件，当游戏在{}调试模式{}下运行时，该事件将显示在调试器的 Graph View 中。如果您需要在调试模式下在{}而不是{}时显示消息，请使用{}{}show_debug_message(){}{}。"
+}

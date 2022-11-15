@@ -1,0 +1,16 @@
+{
+    "A longer message for the exception":"异常的较长消息",
+    "A short message for the exception":"异常的短消息",
+    "A string that describes where the exception came from":"描述异常来源的字符串",
+    "An array of strings that is the {}callstack{} for the frame when the exception was generated":"生成异常时作为帧的{}调用栈{}的字符串数组",
+    "Exception Struct":"异常结构",
+    "Note that if you use the {}return{} statement in the supplied method, then the given value will be converted to an integer and used as the exit code from the runner.":"请注意，如果在提供的方法中使用{}return{}语句，则给定值将转换为整数，并用作运行程序的exit代码。",
+    "Note that the context for running the method is {}not{} in an event, so nothing can be rendered to the screen at this time. In general, the safest thing that could be done at this point is to save a file with the exception context information so it could be - for example - parsed and processed on the next run of the game and then dealt with.":"请注意，运行方法的上下文在事件中{}不是{}，因此此时无法向屏幕呈现任何内容。一般来说，此时可以做的最安全的事情是保存一个包含异常上下文信息的文件，以便在下一次运行游戏时对其进行分析和处理，然后进行处理。",
+    "Passing a method to this function&nbsp;means that no error message will be shown to the user, and you will be allowed to handle the exception yourself. However you cannot use this to \"break out\" of the exception to continue your game, as the game will still close after the exception handler is called. You also cannot call functions that keep the game running for longer than the final frame (e.g.&nbsp;{}{}game_restart(){}{}) as the game needs to close after the crash.":"向该函数传递方法意味着不会向用户显示错误消息，并且您将被允许自己处理异常。但是，您不能用这个\"突破\"异常来继续游戏，因为在调用异常处理程序之后游戏仍将关闭。当游戏在崩溃后需要关闭时，您也不能调用使游戏运行时间长于最终帧的函数(例如{}{}game_restart(){}{})。",
+    "The above code will create an exception handler method and use it to save a file with the exception data; it will also show the long error message in a new pop-up window for debug purposes.":"上面的代码将创建一个异常处理程序方法，并使用它来保存包含异常数据的文件。出于调试目的，它还将在新的弹出窗口中显示长错误消息。",
+    "The line number where the exception came from":"异常来源的行号",
+    "The method (user-defined function) to use as the exception handler, or {}undefined{} to reset it to default.":"要用作异常处理程序的方法(用户定义的函数)，或{}undefined{}将其重置为默认值。",
+    "This runtime function can be used to \"take over\" the default {}GameMaker{} error message when a runtime exception occurs. You supply a method or function which is called when the exception occurs, and its first argument will be a struct (known as the {}{}{}Exception Struct{}{}{}) containing information about the exception.&nbsp;This struct has the following format:":"当运行时异常发生时，此运行时函数可用于 \"接管\" 默认的{}GameMaker{}错误消息。您提供了一个在异常发生时调用的方法或函数，其第一个参数将是包含异常信息的结构(称为{}{}{}异常结构{}{}{})。此结构具有以下格式:",
+    "This&nbsp;function will return the previously set exception handler method, however if it was never changed or&nbsp;it was previously&nbsp;reset using {}undefined{}, then it will simply return {}undefined{}.":"此函数将返回先前设置的异常处理程序方法，但如果它从未更改或之前使用{}undefined{}重置，则它将仅返回{}undefined{}。",
+    "You can also supply {}undefined{} as the argument, which will remove the custom exception handler (if set) and revert to&nbsp;{}GameMaker{}\u0027s default error message.":"您还可以提供{}undefined{}作为参数，这将删除自定义异常处理程序(如果已设置)并恢复为{}GameMaker{}的默认错误消息。"
+}

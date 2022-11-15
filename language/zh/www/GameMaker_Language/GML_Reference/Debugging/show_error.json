@@ -1,0 +1,8 @@
+{
+    "The above code will check if the current room is {}rm_Dungeon{}, and if it\u0027s not, it will show an error message.":"上面的代码将检查当前房间是否是{}RM_Dungeon{}，如果不是，将显示一条错误消息。",
+    "The string to show in the pop-up message.":"要在弹出消息中显示的字符串。",
+    "This function will show a custom string as an error message.":"此函数将自定义字符串显示为错误消息。",
+    "{}IMPORTANT{} The second argument only exists for backwards compatibility with older projects and will have no effect on the error dialog shown.":"{}重要{}第二个参数仅用于向后兼容旧项目，对显示的错误对话框没有影响。",
+    "{}UNUSED{} Whether the error should abort the game (true) or allow the player to ignore it (false).":"{}未使用{}错误是否应中止游戏(true)或允许玩家忽略它(false)。",
+    "{}{}NOTE{}{}&nbsp;This function is for debug use {}only{}.":"{}{}注意{}{}此函数仅供调试使用{}。"
+}
