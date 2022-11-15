@@ -1,0 +1,5 @@
+{
+    "The above code will create a path and store its index in a local variable. This path is then used to store an {}{}mp_grid_path(){}{}&nbsp;generated path which, if it succeeds in finding its way to the target, is then assigned to the path indexed in \"mypath\". Finally the \"t_path\" is deleted.":"上面的代码将创建一个路径并将其索引存储在局部变量中。然后，此路径用于存储{}{}mp_grid_path(){}{}生成的路径，如果成功找到通向目标的路径，则将其分配给在\"mypath\"中索引的路径。最后删除\"t_path\"。",
+    "The index of the path to delete.":"要删除的路径的索引。",
+    "You can use this code to remove a path from memory. If this path has been created dynamically using {}{}path_add(){}{}, the variable that holds the path index will no longer be valid for accessing the path as it no longer exists, and if the path was created using the {}Path Editor{} that path can no longer be accessed in the {}whole game{} as you are permanently deleting it.":"可以使用此代码从内存中删除路径。如果此路径已使用{}{}path_add(){}{}动态创建，则保存路径索引的变量将不再对访问该路径有效，因为它不再存在;如果路径是使用{}路径编辑器{}创建的，则无法在{}整个游戏{}中访问该路径，因为您将永久删除该路径。"
+}

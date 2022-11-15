@@ -1,0 +1,6 @@
+{
+    "The index of the path to change.":"要更改的路径的索引。",
+    "This function can be used to flag a given path as being open (false) or closed (true). A closed path has its start point connected to its end point, forming a loop, and an open path has a definitive, unconnected start and finish. {}This function changes the actual path asset{}, and so will permanently affect how the path is used by all instances in the game from the moment the function is used until the end of the game.If this is not what you require, then you should use a function like {}{}path_duplicate(){}{} to create a copy of the path first, then call this function on the duplicated asset (don\u0027t forget to call {}{}path_delete(){}{} on the asset when it is no longer required).":"此函数可用于将给定路径标记为 open(false)或 closed(true)。闭合路径的起点与终点相连，形成一个循环，而开放路径有一个确定的、不连通的起点和终点。{}此函数更改了实际路径资产{}，因此将永久影响从函数被使用到游戏结束时游戏中所有实例使用路径的方式。如果这不是您需要的，那么您应该使用像{}{}path_duplicate(){}{}这样的函数来首先创建路径的副本，然后在复制的资产上调用此函数(不要忘记在不再需要时在资产上调用{}{}path_delete(){}{})。",
+    "This will set the given path to&nbsp;be a closed path.":"这会将给定路径设置为闭合路径。",
+    "Whether the path is closed (true) or not (false).":"路径是否关闭(true)或不关闭(false)。"
+}

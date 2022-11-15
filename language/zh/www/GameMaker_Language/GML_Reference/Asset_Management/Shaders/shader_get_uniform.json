@@ -1,0 +1,7 @@
+{
+    "Since you cannot change the value of a shader constant within the shader itself, you have to set it before calling the shader using one of the available {}uniform set{} functions. However, to be able to do that you must first call this function to get the \"handle\" of the shader constant that you will want to change.":"由于不能在着色器本身内更改着色器常量的值，因此在使用可用的{}uniform set{}函数之一调用着色器之前必须设置它。但是，要做到这一点，您必须首先调用这个函数来获取要更改的着色器常量的\"句柄\"。",
+    "The above code will get the handle of the shader constant \"u_vRefractColour\".":"上面的代码将获得着色器常量\"u_vRefractColour\"的句柄。",
+    "The index of the shader to use.":"要使用的着色器的索引。",
+    "The shader constant to get the handle of (a string).":"获取(字符串)句柄的着色器常量。",
+    "{}NOTE{}: Although a shader is made up of two discreet programs (vertex and fragment) this function will not differentiate between the two and will return the handle of the shader constant from either of them.":"{}注释{}：虽然着色器由两个离散程序(顶点和片段)组成，但该函数不会区分这两个程序，并将从其中任一程序返回着色器常数的句柄。"
+}

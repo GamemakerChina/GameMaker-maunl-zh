@@ -1,0 +1,5 @@
+{
+    "The index of the path to check for.":"要检查的路径的索引。",
+    "This code checks to see if the given variable stores a path index and if it does, then the path is deleted from memory.":"这段代码检查给定的变量是否存储了路径索引，如果是，则从内存中删除该路径。",
+    "This function returns whether a path with the given index exists or not. Note that if you check for the existence of a path through a variable that has yet to have been declared, this will throw an error.":"此函数返回具有给定索引的路径是否存在。请注意，如果您检查是否存在尚未声明的变量的路径，这将抛出一个错误。"
+}

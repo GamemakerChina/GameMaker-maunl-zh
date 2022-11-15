@@ -1,0 +1,6 @@
+{
+    "How far through the path to check. Between 0 (start) and 1 (end).":"通过路径检查有多远。介于0(开始)和1(结束)之间。",
+    "The index of the path to check.":"要检查的路径的索引。",
+    "This will set the calling instance\u0027s x to the x coordinate of the point at exactly halfway through the given path.":"这会将调用实例的X设置为给定路径中间的点的X坐标。",
+    "With this function you can get the x coordinate of a position on any given path. 0 is the start of the path, 1 is the end of the path, and anything in between equates to that far through the path. This needn\u0027t be a defining point of the path, it can be anywhere on it.":"使用此函数，您可以获得任何给定路径上某个位置的X坐标。0是路径的起点，1是路径的终点，两者之间的任何值都等于通过路径的距离。这不一定是路径的定义点，它可以是路径上的任何位置。"
+}

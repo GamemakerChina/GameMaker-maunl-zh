@@ -1,0 +1,6 @@
+{
+    "How far through the path to check. Between 0 (start) and 1 (end).":"通过路径检查有多远。介于0(开始)和1(结束)之间。",
+    "The index of the path to check.":"要检查的路径的索引。",
+    "This will set the calling instance\u0027s y to the y coordinate of the point at exactly halfway through the given path.":"这会将调用实例的y设置为给定路径中间的点的y坐标。",
+    "With this function you can get the y coordinate of a position on any given path. 0 is the start of the path, 1 is the end of the path, and anything in between equates to the normalised distance along the length of the path. This value needn\u0027t be a defining point of the path, it can be anywhere on it.":"使用此函数，您可以获取任何给定路径上某个位置的y坐标。0是路径的起点，1是路径的终点，两者之间的距离等于沿路径长度的归一化距离。这个值不必是路径的定义点，它可以是路径上的任何地方。"
+}

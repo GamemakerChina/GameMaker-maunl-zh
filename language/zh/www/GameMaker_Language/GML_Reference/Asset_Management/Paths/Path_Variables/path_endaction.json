@@ -1,0 +1,8 @@
+{
+    "Continue from start position, jumping to the start if the path is not closed":"从开始位置继续，如果路径未闭合，则跳到开始位置",
+    "Reverse the speed of the path (run the path in reverse)":"倒转路径速度(反向运行路径)",
+    "Start the path again from the current position":"从当前位置重新开始路径",
+    "Stop the path":"停止路径",
+    "The above code will check the path end action and if it\u0027s set to stop, then the end action will be changed to reverse.":"上面的代码将检查路径结束操作，如果设置为停止，则结束操作将更改为反向。",
+    "This variable can be used to get or to change the reaction of an instance when it reaches the end of the current path. Normally you would set this when you start the path using {}{}path_start(){}{} but you may wish to change this behaviour depending on any number of events in your game. The available values are expressed using the following constants:":"当实例到达当前路径的末尾时，此变量可用于获取或更改实例的反应。通常，当您使用{}{}path_start(){}{}启动路径时会设置此值，但您可能希望根据游戏中的任何事件数来更改此行为。可用值用以下常数表示："
+}

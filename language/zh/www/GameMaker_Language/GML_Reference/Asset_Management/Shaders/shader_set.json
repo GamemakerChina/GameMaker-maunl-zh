@@ -1,0 +1,5 @@
+{
+    "The above code will set a shader to be used for drawing, then draw the current sprite used for the instance using it.":"上面的代码将设置用于绘制的着色器，然后绘制用于使用它的实例的当前精灵。",
+    "The index of the shader to use.":"要使用的着色器的索引。",
+    "With this function you can set the drawing target to the given shader and all further drawing will be done using that. You can end shader use with the function {}{}shader_reset(){}{}.":"使用此功能，您可以将绘图目标设置为给定着色器，所有进一步的绘制都将使用该函数完成。可以使用函数{}{}shader_reset(){}{}结束着色器使用。"
+}

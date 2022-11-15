@@ -1,0 +1,6 @@
+{
+    "How far through the path to check. Between 0 (start) and 1 (end), can be decimal.":"通过路径检查有多远。在0(开始)和1(结束)之间，可以是十进制。",
+    "The index of the path to check.":"要检查的路径的索引。",
+    "This function returns the speed factor of any given position on a path. The position should be a value between 0 and 1 (you can use {}{}path_position{}{}, for example, if you need the current position of the instance) with 0 being the start position and 1 being the end. The value returned will be the factor by which the actual {}{}path_speed{}&nbsp;{}is being set. For example, on a path with only two points, 0 and 1, where the point 0 speed factor is 100 and point 1 speed factor is 0, the function {}path_get_speed(path, 0.5){} will return 50.":"此函数返回路径上任何给定位置的速度系数。位置应介于 0 和 1 之间(例如，如果需要实例的当前位置，可以使用{}{}path_position{}{})，0 为起始位置，1 为结束。返回的值是设置实际{}{}path_speed{}{}的系数。例如，在仅具有两点0和1的路径上，其中点0速度因子是100，点1速度因子是0，函数{}path_get_speed(path，0.5){}将返回50。",
+    "This will set the calling instance\u0027s speed to the speed factor of the point at exactly halfway through the given path, divided by 20. So if the speed factor found is the default 100, it will set the speed of the calling instance to 5.":"这会将调用实例的速度设置为给定路径中点的点的速度因子除以20。因此，如果找到的速度因子是默认的100，它会将调用实例的速度设置为5。"
+}

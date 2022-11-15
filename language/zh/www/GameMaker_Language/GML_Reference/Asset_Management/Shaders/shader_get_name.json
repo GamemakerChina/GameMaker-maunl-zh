@@ -1,0 +1,5 @@
+{
+    "The above code will get the name of the given shader and draw it to the screen.":"上面的代码将获取给定着色器的名称，并将其绘制到屏幕上。",
+    "The index of the shader to get the name of.":"要获取其名称的着色器的索引。",
+    "With this function you can retrieve the name of a shader resource. You supply the unique ID value for the shader to get the name of and the function will return the name of the resource as a string.":"使用此函数，您可以检索着色器资源的名称。您为着色器提供唯一的ID值以获取的名称，该函数将以字符串形式返回资源的名称。"
+}

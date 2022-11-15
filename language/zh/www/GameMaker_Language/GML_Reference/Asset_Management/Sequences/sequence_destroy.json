@@ -1,0 +1,5 @@
+{
+    "The above code checks to see if the given sequence object exists and if it does it is destroyed.":"上面的代码检查给定的序列对象是否存在，如果存在，则将其销毁。",
+    "The sequence object struct or ID to destroy":"要销毁的序列对象结构或ID",
+    "With this function you can destroy a sequence object that has been created dynamically. You supply either the sequence object struct (as returned by the function {}{}sequence_create(){}{}) or the sequence ID (as returned by the function {}{}layer_sequence_get_sequence(){}{}&nbsp;or from the sequence instance struct property {}sequence{}). This function should be used whenever a dynamically created sequence is no longer required to free up the memory associated with it.":"使用此函数可以销毁已动态创建的序列对象。您可以提供序列对象结构(由函数{}{}sequence_create(){}{}返回)或序列ID(由函数{}{}layer_sequence_get_sequence(){}{}或序列实例结构属性{}sequence{}返回)。 当不再需要动态创建的序列来释放与其关联的内存时，应使用此函数。"
+}

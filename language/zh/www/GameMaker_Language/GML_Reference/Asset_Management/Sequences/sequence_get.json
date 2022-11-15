@@ -1,0 +1,5 @@
+{
+    "The above code retrieves the sequence object struct from the sequence object \"seq_Loop\" and then sets the loop mode for the sequence (all subsequently created sequence instances will now use this loop mode).":"上面的代码从序列对象\"seq_Loop\"中检索序列对象结构，然后设置序列的循环模式(所有随后创建的序列实例现在将使用此循环模式)。",
+    "The sequence asset as defined in the Asset Browser.":"在资源浏览器中定义的序列资源。",
+    "With this function you can retrieve the {}Sequence Object Struct{} from a sequence asset index. You supply the asset index for the sequence as defined in the asset browser, and the function will return the sequence object struct that can then be accessed, or -1 if the sequence doesn\u0027t exist or the asset index given is not a sequence.":"使用此函数，可以从序列资源索引中检索{}序列对象结构{}。为在资源浏览器中定义的序列提供资源索引，函数将返回然后可以访问的序列对象结构，或者如果序列不存在或给定的资源索引不是序列，则返回-1。"
+}

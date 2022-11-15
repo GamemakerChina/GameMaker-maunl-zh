@@ -1,0 +1,8 @@
+{
+    "Each track (as defined on the page covering {}track structs{}) will have one or more keyframe {}structs{} assigned to it (which you can get from the {}keyframes{} property of the track struct), and each one will have the following properties:":"每个轨迹(如页面覆盖{}轨迹结构{}所定义)将分配一个或多个关键帧{}结构{}(可以从轨迹结构的{}关键帧{}属性获得)，每个轨迹将具有以下属性：",
+    "If this property is set to {}true{} then the keyframe stretches to either the next keyframe for the track or to the end of the track if it\u0027s the last keyframe. You can get or set this value, and the default value is {}false{}.":"如果此属性设置为{}true{}，则关键帧将扩展到轨迹的下一个关键帧，或者延伸到轨迹的末尾(如果是最后一个关键帧)。您可以获取或设置此值，默认值为{}false{}。",
+    "Sequence Keyframe Struct":"序列关键帧结构",
+    "The length of the keyframe. Default value is 1, and when set to larger values then the track property that the keyframe refers to will be maintained at the initial value for the duration of the length given. Note that the {}stretch{} property will override this if set to {}true{}.":"关键帧的长度。默认值为1，当设置为更大的值时，关键帧引用的轨迹属性将在给定长度的持续时间内保持初始值。请注意，如果设置为{}true{}，则{}stretch{}属性将覆盖此属性。",
+    "The position (in frames) along the timeline for the keyframe. Default value is 0.":"关键帧沿时间线的位置(以帧为单位)。默认值为0。",
+    "This property allows access to the list of {}keyframe data structs{} for the channels of the track. When getting this property an {}array{} of keyframe data structs is returned, and when setting this property an array of keyframe data structs should be specified.":"此属性允许访问轨道通道的{}关键帧数据结构列表{}。获取此属性时，返回关键帧数据结构的{}数组{}，设置此属性时，应指定关键帧数据结构数组。"
+}

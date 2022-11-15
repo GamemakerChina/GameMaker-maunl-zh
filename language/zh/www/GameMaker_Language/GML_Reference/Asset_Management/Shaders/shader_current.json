@@ -1,0 +1,4 @@
+{
+    "The above code will check to see what the current shader is and if it returns -1 (no shader being used) then a shader is set.":"上面的代码将检查当前着色器是什么，如果它返回-1(未使用着色器)，则设置着色器。",
+    "This function will return the index ID value of the shader currently being used for rendering, or it will return -1 if no shader is being used.":"此函数将返回当前用于渲染的着色器的索引 ID 值，或者如果未使用着色器，则返回 - 1。"
+}

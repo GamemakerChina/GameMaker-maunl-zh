@@ -1,0 +1,6 @@
+{
+    "The above code generates a loop that checks the points on a backwards from the end for a collision with the given object. If a collision is found, a path point is deleted, until there is no collision, or the path is only 2 points long.":"上面的代码生成一个循环，该循环从末端向后检查A上的点是否与给定对象发生碰撞。如果发现碰撞，则删除路径点，直到没有碰撞或路径长度仅为2个点。",
+    "The defining point to delete.":"要删除的定义点。",
+    "The index of the path to delete a point from.":"要从中删除点的路径的索引。",
+    "With this function you can remove a point from the specified path. Path points are numbered from 0 so the first point is always the 0th point and the last path point will be {}{}path_get_number(){}{} - 1. If you call this function on a path asset, {}then the removal of the point will be permanent{} and all instances assigned the path in the future will be missing the point that was removed.&nbsp;If this is not what you require, then you should use a function like {}{}path_duplicate(){}{} to create a copy of the path first, then call this function on the duplicated asset (don\u0027t forget to call {}{}path_delete(){}{} on the asset when it is no longer required).":"使用此函数，可以从指定路径中删除点。路径点从0开始编号，因此第一个点总是第0个点，最后一个路径点将是{}{}path_get_number(){}{}-1。如果您在路径资源上调用此函数，{}则点的删除将是永久的{}，将来分配路径的所有实例都将丢失已删除的点。如果这不是您需要的，那么您应该使用像{}{}path_duplicate(){}{}这样的函数来首先创建路径的副本，然后在复制的资产上调用该函数(不要忘记在不再需要资产时调用{}{}path_delete(){}{})。"
+}

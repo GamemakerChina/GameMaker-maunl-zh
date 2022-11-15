@@ -1,0 +1,5 @@
+{
+    "The above code chooses one of four path resources and duplicates it, storing the index of the new path in the variable \"mypath\".":"上面的代码从四个路径资源中选择一个并复制它，将新路径的索引存储在变量\" myPath \"中。",
+    "The index of the existing path to duplicate.":"要复制的现有路径的索引。",
+    "This function takes a path and copies it into a new path. The new path is created in the process, and its index is returned to be used in all further calls to use this new path.":"此函数获取路径并将其复制到新路径中。在进程中创建新路径，并返回其索引，以便在使用此新路径的所有进一步调用中使用。"
+}

@@ -1,0 +1,4 @@
+{
+    "The above code sets the instance to a random position anywhere on the current path.":"上面的代码将实例设置为当前路径上的任意位置。",
+    "This function can be used to get or to set the position of an instance along a path. The value is normalised from 0 - 1, so if you set it to, for example, 0.5, the instance will be moved to exactly the middle of the path.":"此函数可用于获取或设置实例沿路径的位置。该值从0-1标准化，因此如果将其设置为0.5，则实例将精确移动到路径的中间。"
+}

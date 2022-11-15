@@ -1,0 +1,10 @@
+{
+    "The above example code will use {}script_execute_ext{} to call the given function, supplying an array of four arguments, but only using one of them at random.":"上面的示例代码将使用{}script_execute_ext{}调用给定函数，提供四个参数的数组，但随机仅使用其中一个参数。",
+    "The array containing the arguments for the function/script":"包含函数/脚本的参数的数组",
+    "The function/script that you want to call":"要调用的函数/脚本",
+    "This function works similarly to the function&nbsp;{}script_execute(){}&nbsp;only you can supply an {}array{} that contains the arguments required for the function/script being called. You may also supply two optional arguments to the function to specify an offset into the array to get the arguments from, as well as the number of arguments to use from the array (this must be a maximum of&nbsp;array_length - offset).&nbsp;":"此函数的工作方式与函数{}script_execute(){}相似，但只能提供一个{}数组{}，其中包含调用函数/脚本所需的参数。还可以为函数提供两个可选参数，以指定数组的偏移量以从中获取参数，以及要从数组使用的参数数(必须是 array_lengthoffset 的最大值)。",
+    "{}NOTE{}&nbsp;This function cannot be used with built-in functions.":"{}注意{}此函数不能与内置函数一起使用。",
+    "{}OPTIONAL{}&nbsp;The number of arguments to use (from the offset onwards)":"{}OPTIONAL{}要使用的参数数(从偏移量开始)",
+    "{}OPTIONAL{}{}&nbsp;{}The offset into the argument array":"{}OPTIONAL{}{}{}参数数组的偏移量",
+    "{}{}Any{}{}&nbsp;(Will depend on the return value from the function/script being called)":"{}{}Any{}{}(将取决于正在调用的函数/脚本的返回值)"
+}

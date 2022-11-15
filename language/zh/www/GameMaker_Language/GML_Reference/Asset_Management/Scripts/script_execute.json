@@ -1,0 +1,10 @@
+{
+    "The above example code will use {}script_execute{} to choose one of four user defined functions (in this case related to movement) and pass a random integer to it as the first argument.":"上面的示例代码将使用{}脚本_执行{}来选择四个用户定义函数中的一个(在本例中与移动相关)，并将一个随机整数作为第一个参数传递给它。",
+    "The different arguments that you want to pass through to the function/script":"要传递给函数/脚本的不同参数",
+    "The first way is to support {}legacy{} scripts, where each script was a single function and the title of the script was also the name of the function. Used in this way, it will work as before and It will run a user created script asset and pass the given arguments into it. Note that it isn\u0027t actually calling the {}script{} in this case but, the {}script function{} of the same name within the script. {}{}":"第一种方式是支持{}legacy{}脚本，其中每个脚本都是单个函数，脚本的标题也是函数的名称。以这种方式使用，它将像以前一样工作，它将运行用户创建的脚本资源，并将给定的参数传递到其中。请注意，本例中实际调用的不是{}脚本{}，而是脚本中同名的{}脚本函数{}。{}{}",
+    "The function/script that you want to call":"要调用的函数/脚本",
+    "This function was originally designed for calling script {}assets{} in a dynamic way, but with the introduction of user-defined functions it can now be used in two ways:":"此函数最初设计用于以动态方式调用脚本{}资产{}，但是引入用户定义的函数后，现在可以以两种方式使用：",
+    "{}NOTE{}&nbsp;This function cannot be used with built-in functions.":"{}注意{}此函数不能与内置函数一起使用。",
+    "{}The second way is to call a function from a script asset that contains multiple functions. In this case you would provide the function name and the arguments it requires rather than the script asset name. Note that this will only work for {}script functions{} and not for {}methods{}, as only script functions have a script ID assigned to them.{}":"{}第二种方式是从包含多个函数的脚本资源中调用函数。在这种情况下，您将提供函数名称及其所需的参数，而不是脚本资产名称。请注意，这只适用于{}脚本函数{}，不适用于{}方法{}，因为只有脚本函数具有分配给它们的脚本ID。{}",
+    "{}{}While this function is designed primarily for legacy support it is not deprecated as it still has it\u0027s place in networking and remote procedure call situations. It is also worth noting that this function is slow, and using it a lot may adversely affect performance.":"{}{}虽然此函数主要设计用于旧式支持，但它并不受欢迎，因为它在网络和远程过程调用情况下仍有其位置。还值得注意的是，该功能很慢，使用它可能会对性能产生不利影响。"
+}

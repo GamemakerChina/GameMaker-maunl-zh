@@ -1,0 +1,6 @@
+{
+    "The above code will check to see if an instance is at the end of a path. If it is it will then choose a random point on the path and move the instance to that point.":"上面的代码将检查实例是否位于路径的末尾。如果是，它将在路径上选择一个随机点，并将实例移动到该点。",
+    "The index of the path to check.":"要检查的路径的索引。",
+    "The point number to check.":"要检查的点编号。",
+    "This function will return the y position (in room coordinates) of the point that you input for the path that you index. If the point is outside of the range of the path (ie: a path has 8 points and you ask for the y position of point 10) then a value of 0 will be returned.":"此函数将返回为索引路径输入的点的 y 位置(房间坐标中)。如果点在路径范围之外(即：路径有8个点，您要求点10的y位置)，则返回值0。"
+}

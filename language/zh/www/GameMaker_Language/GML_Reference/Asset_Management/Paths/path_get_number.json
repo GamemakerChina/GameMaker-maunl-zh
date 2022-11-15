@@ -1,0 +1,5 @@
+{
+    "The above code checks to see if a path has more than one point on it and if so it starts the instance moving along that path.":"上面的代码检查路径上是否有多个点，如果有，则启动沿该路径移动的实例。",
+    "The index of the path to check.":"要检查的路径的索引。",
+    "This function can be used to return the number of points on a path.":"此函数可用于返回路径上的点数。"
+}

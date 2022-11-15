@@ -1,0 +1,5 @@
+{
+    "Paths can be either {}smooth{} or {}straight{} (a smooth path calculates a curved path around the defining points, whereas a straight path just goes straight from one point to another). This\n    function can be used to find out whether the given path is smooth ({}true{}) or not ({}false{}).":"路径可以是{}平滑{}或{}直{}(平滑路径计算围绕定义点的弯曲路径，而直线路径只是从一个点直到另一个点)。这个\n函数可以判断给定路径是否平滑({}true{})或不({}false{})。",
+    "The index of the path to check.":"要检查的路径的索引。",
+    "This will set the \"path_kind\" variable to {}true{}&nbsp;or {}false{} depending on the kind of path the given path index is.":"这会将\"路径_种类\"变量设置为{}true{}或{}false{}，具体取决于给定路径索引的路径种类。"
+}

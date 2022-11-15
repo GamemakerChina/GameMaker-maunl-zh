@@ -1,0 +1,5 @@
+{
+    "The index of the path to check.":"要检查的路径的索引。",
+    "This function can be used to return whether the path is flagged as closed (true) or open (false), ie whether the path loops or if it has a definitive beginning and end.":"此函数可用于返回路径是否标记为关闭(true)或打开(false)，即路径是否循环或是否具有明确的开始和结束。",
+    "This will set \"state\" to either {}true{} or {}false{} depending on the closed state of the path indexed in \"pth_Patrol\".":"这将根据在\"pth_Patrol\"中索引的路径的关闭状态，将\"state\"设置为{}true{}或{}false{}。"
+}

@@ -1,0 +1,5 @@
+{
+    "The above example adds two script functions and a value into an array, then proceeds to get a random number and use that to choose a script function to run, unless the -1 is chosen in which case nothing will happen.":"上面的示例将两个脚本函数和一个值添加到一个数组中，然后继续获取一个随机数，并使用该随机数选择要运行的脚本函数，除非选择-1，在这种情况下不会发生任何事情。",
+    "The script index that you want to check.":"要检查的脚本索引。",
+    "This function will return {}true{} or {}false{} depending on whether the script or {}script function{} with the given index exists. Note, that this is {}not{} a string, but rather the asset name which holds the unique index for each script (as it would appear in the IDE) or the named script function, as defined within the script asset (note that this will not work for {}method variables{}). For more information on scripts, see {}The Script Editor{}.":"此函数将返回{}true{}或{}false{}，具体取决于具有给定索引的脚本或{}脚本函数{}是否存在。请注意，这不是{}字符串，而是保存每个脚本的唯一索引的资产名称(如IDE中显示的)或脚本资产中定义的命名脚本函数(请注意，这不适用于{}方法变量{})。 有关脚本的更多信息，请参阅{}脚本编辑器{}。"
+}

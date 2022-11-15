@@ -1,0 +1,6 @@
+{
+    "The above code creates a new sequence and then creates a graphic asset track and sets some keyframe data on the track. This track is then assigned to the instance.":"上面的代码创建了一个新的序列，然后创建了一个图形资源轨迹，并在轨迹上设置了一些关键帧数据。然后将此轨迹分配给实例。",
+    "The function will return a sequence {}track struct{} which can then have data added to it before being assigned to a {}sequence object{}.":"函数将返回序列{}轨迹结构{}，然后可以在分配给{}序列对象{}之前将数据添加到该序列{}轨道结构。",
+    "The type of track to create.":"要创建的轨迹类型。",
+    "With this function you can create a new sequence track {}struct{}, supplying the type of track that you wish to make. The {}type{} argument can be any one of the&nbsp;{}{}Sequence Track Type Constant{}{}s {}listed on this page{}.":"使用此函数，可以创建新的序列曲目{}结构{}，提供要制作的曲目类型。{}type{}参数可以是本页{}上列出的{}{}序列轨迹类型常数{}中的任意一个。"
+}

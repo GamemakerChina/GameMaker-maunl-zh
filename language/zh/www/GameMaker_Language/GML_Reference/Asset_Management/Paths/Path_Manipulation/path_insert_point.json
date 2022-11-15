@@ -1,0 +1,9 @@
+{
+    "The defining point to insert the new point BEFORE.":"要在之前插入新点的定义点。",
+    "The index of the path to insert the point into.":"要将点插入其中的路径的索引。",
+    "The speed factor of the point.":"点的速度因子。",
+    "The x coordinate (relative to the path) of the new point.":"新点的X坐标(相对于路径)。",
+    "The y coordinate (relative to the path) of the new point.":"新点的Y坐标(相对于路径)。",
+    "This will insert a point at the very beginning of the path indexed in the variable \"mypath\", at (50,50), with a speed factor of 100%.":"这将在变量\"mypath\"中索引的路径的起点插入一个点(50，50)，速度因子为100%。",
+    "With this function you can insert a new point into a path (the path can have been created in the path editor or through code using {}{}path_add(){}{}). The point will be added into the path before the point \"n\" that is specified in the function.":"使用此函数，您可以在路径中插入新点(路径可以在路径编辑器中创建或通过使用{}{}path_add(){}{}的代码创建)。 点将添加到函数中指定的点\"n\"之前的路径中。"
+}

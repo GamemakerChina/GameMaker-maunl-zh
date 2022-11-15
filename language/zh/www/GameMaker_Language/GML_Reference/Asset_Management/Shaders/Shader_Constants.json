@@ -1,0 +1,22 @@
+{
+    "Apart from the shader functions and constants defined in the OpenGL ES Shading Language (GLSL ES) {}Reference Pages{}, there are also a number of shader constants available to you that are unique to {}GameMaker{}.":"除了在 OpenGL ES 着色语言(GLSL ES){}参考页{}中定义的着色器函数和常量之外，还有许多可用于{}GameMaker{}的着色器常量。",
+    "The following display matrix constants can be used as array indices when using the shader array constant&nbsp;{}gm_Matrices{}:":"使用着色器数组常量{}GM_矩阵{}时，可以将以下显示矩阵常量用作数组索引：",
+    "The maximum number of point and directional lights available in the shader":"材质球中可用的点光源和平行光的最大数量",
+    "This array constant returns a transform matrix and is one of the available pre-defined uniforms that {}GameMaker{} creates for you to use within the shader code editor. The array index is chosen from one of the above listed constants.":"此数组常量返回变换矩阵，是{}GameMaker{}为您在着色器代码编辑器中使用而创建的可用预定义制服之一。数组索引选自上述常数之一。",
+    "This array index constant holds the index to the current projection matrix. The index returned would be used as an array value when calling the {}gm_Matrices{} constant within the shader code.":"此数组索引常数保存当前投影矩阵的索引。当调用着色器代码中的{}gm_Matrices{}常量时，返回的索引将用作数组值。",
+    "This array index constant holds the index to the current view matrix. The index returned would be used as an array value when calling the {}gm_Matrices{} constant within the shader code.":"此数组索引常量保存当前视图矩阵的索引。当调用着色器代码中的{}gm_Matrices{}常量时，返回的索引将用作数组值。",
+    "This array index constant holds the index to the current world matrix. This can be used for things like lighting if you have light information in world-space. The index returned would be used as an array value when calling the {}gm_Matrices{} constant within the shader code.":"此数组索引常数保存当前世界矩阵的索引。如果世界空间中有灯光信息，这可以用于照明之类的事情。当调用着色器代码中的{}gm_Matrices{}常量时，返回的索引将用作数组值。",
+    "This array index constant holds the index to the result of the world and view matrices multiplied together. This is often used for things like fog. The index returned would be used as an array value when calling the {}gm_Matrices{} constant within the shader code.":"此数组索引常量保存世界结果的索引，并查看相乘在一起的矩阵。这经常用于雾之类的事情。当调用着色器代码中的{}gm_Matrices{}常量时，返回的索引将用作数组值。",
+    "This array index constant holds the index to the result of the world, view and projection matrices multiplied together. This is the normal transformation matrix used for vertex positions. The index returned would be used as an array value when calling the {}gm_Matrices{} constant within the shader code.":"此数组索引常量将世界、视图和投影矩阵结果的索引相乘在一起。这是用于顶点位置的法线变换矩阵。当调用着色器代码中的{}gm_Matrices{}常量时，返回的索引将用作数组值。",
+    "This can be used to get alpha testing in the shader. See {}{}gpu_set_alphatestenable(){}{}&nbsp;for more information on alpha testing.":"这可用于在着色器中进行 Alpha 测试。有关 alpha 测试的更多信息，请参见{}{}gpu_set_alphatestenable(){}{}。",
+    "This can be used to get or set the {}GameMaker{} lighting when using 3D.":"这可用于在使用3D时获取或设置{}GameMaker{}照明。",
+    "This can be used to get the current alpha testing reference value. See {}{}gpu_set_alphatestref(){}{}&nbsp;for more information on the alpha test reference.":"这可用于获取当前alpha测试参考值。有关 alpha 测试参考的更多信息，请参见{}{}gpu_set_alphatestref(){}{}。",
+    "This can be used to get the distance at which fog is maximal and nothing can be seen anymore.":"这可以用来获得雾最大并且什么都看不见的距离。",
+    "This can be used to get the distance where polygons start to be blended with the fog colour.":"这可用于获取多边形开始与雾颜色混合的距离。",
+    "This can be used to get the fog colour used by {}GameMaker{}.":"这可用于获取{}GameMaker{}使用的雾色。",
+    "This is a 2D sampler constant that returns the texture of the current object, as set by {}GameMaker{}. So it would be the current sprite, surface or texture that would normally be used when drawing without the shader being called.":"这是返回当前对象的纹理的二维采样器常量，由{}GameMaker{}设置。 因此，在不调用着色器的情况下绘制时，通常使用的是当前精灵、表面或纹理。",
+    "This is not an array index, but rather returns the number of the lights in the vertex shader.":"这不是数组索引，而是返回顶点着色器中的灯光数量。",
+    "This is not an array index, but rather returns the size of the matrix array in the vertex shader.":"这不是数组索引，而是返回顶点着色器中矩阵数组的大小。",
+    "This will return {}true{} or {}false{} if the GPU has pixel fog enabled or not.":"如果 GPU 启用或未启用像素雾，这将返回{}true{}或{}false{}。",
+    "This will return {}true{} or {}false{} if the GPU has vertex fog enabled or not.":"如果 GPU 启用或未启用顶点雾，这将返回{}true{}或{}false{}。"
+}
