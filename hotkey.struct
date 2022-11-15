@@ -1,0 +1,13 @@
+{
+	"esc"=//layer.closeAll()
+	
+	,"1"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('彩云')").click()
+	,"2"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('deepl')").click()
+	,"3"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('lang-x')").click()
+	,"4"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('aws')").click()
+	,"5"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('ali')").click()
+	,"6"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('xinyi')").click()
+	,"7"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('xunfei')").click()
+	
+	,"space"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('Ok!')").click()
+}
