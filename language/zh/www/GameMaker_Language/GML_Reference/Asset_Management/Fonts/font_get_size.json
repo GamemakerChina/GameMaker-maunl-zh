@@ -1,0 +1,5 @@
+{
+    "Index of the font to get the size of.":"要获取大小的字体的索引。",
+    "This will get the size of the font indexed by the \"font0\" variable and store it in the variable \"sz\".":"这将获取由\" font0 \"变量索引的字体大小，并将其存储在变量\" SZ \"中。",
+    "With this function you can get the size of any font resource, which is the point value shown by the font resource dialogue.":"使用此函数，您可以获得任何字体资源的大小，即字体资源对话框中显示的点值。"
+}

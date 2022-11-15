@@ -1,0 +1,5 @@
+{
+    "The above code checks to see if a time line exists and is indexed in the global variable \"tl\" and if so it then deletes that time line.":"上面的代码检查时间线是否存在并在全局变量\" TL \"中索引，如果存在，则删除该时间线。",
+    "The index of the time line to check for.":"要检查的时间线的索引。",
+    "With this function you can check and see whether a time line exists (returns {}true{}) or not (returns {}false{}). This is particularly useful when creating Timelines dynamically using the {}{}timeline_add(){}{} function, but you should note that if you search for an uninitialised variable (that would otherwise be assigned to a time line\u0027s index) an error will be thrown.":"使用此功能，您可以检查并查看时间线是否存在 (返回{}true{}) 或不存在 (返回{}false{})。当使用{}{}timeline_add(){}{}函数动态创建时间线时，这特别有用，但是您应该注意，如果搜索未初始化的变量 (否则将分配给时间线的索引)，则会引发错误。"
+}

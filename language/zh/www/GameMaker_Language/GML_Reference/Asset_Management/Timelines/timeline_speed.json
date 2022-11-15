@@ -1,0 +1,4 @@
+{
+    "Normally, in each step the position in the time line is increased by 1, however you can change this amount by setting this variable to a different value. You can use real numbers (like 0.5, or 2.4 for example) and if the value is larger than one, several moments can happen within the same time step (they will all be performed in the same order as defined for the time line, so no actions will be skipped).":"通常，在每个步骤中，时间线中的位置增加1，但是您可以通过将此变量设置为不同的值来更改此量。您可以使用实数 (例如0.5或2.4)，如果该值大于1，则可以在同一时间步长内发生多个时刻 (它们都将按照时间线定义的相同顺序执行，因此不会跳过任何操作)。",
+    "The above code will check and see if the instance is running its associated time line and if it is not, it will start the time line running at half speed.":"上面的代码将检查并查看实例是否正在运行其关联的时间线，如果没有，它将以一半的速度启动时间线。"
+}

@@ -1,0 +1,5 @@
+{
+    "The above code will check the current timeline position against the maximum active moment, and if it is greater the timeline will be stopped.":"上面的代码将根据最大活动时刻检查当前时间轴位置，如果最大活动时刻更大，则将停止时间轴。",
+    "The index of the timeline to get the last moment of.":"获取最后时刻的时间线的索引。",
+    "This function will return the value of the moment in which the timeline performs its final action. So, if you have a timeline with 8 different actions placed 20 moments apart, this function would return the moment value of the last action in that timeline, which would be 160. This function is a good way to test whether a timeline has passed the last active moment when running, since the timeline position will continue incrementing every step of the game whether there are further actions or not.":"此函数将返回时间线执行其最终操作的时刻的值。因此，如果您有一个时间线，其中8个不同的动作相距20个时刻，则此函数将返回该时间线中最后一个动作的时刻值，这将是160的。此功能是一个很好的方法来测试时间线是否已经通过了运行时的最后一个活动时刻，因为时间线位置将继续递增游戏的每一步，无论是否有进一步的动作。"
+}

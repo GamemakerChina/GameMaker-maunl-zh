@@ -1,0 +1,4 @@
+{
+    "The above code will check to see if the instance is running a time line, and if it is not then it resets the assigned time line to start at the first moment and then starts it.":"上面的代码将检查实例是否正在运行时间线，如果不是，则将分配的时间线重置为在第一时刻启动，然后启动它。",
+    "This variable holds current state of the assigned time line and will return {}true{} if it is running and false if it is not. You can also set this variable to either {}true{} or {}false{} to start and stop the time line at any time. it should be noted that a stopped time line is {}not{} reset, and so starting it again at a later time will start it from the exact moment that it was stopped at.":"此变量保留分配的时间线的当前状态，如果正在运行，则返回{}true{}，如果不运行，则返回false。您也可以将此变量设置为{}true{}或{}false{}，以随时启动和停止时间线。应该注意的是，停止的时间线是{}不{}重置的，因此在以后的时间再次启动它将从停止的确切时刻开始。"
+}

@@ -1,0 +1,7 @@
+{
+    "The font to cache a character or glyph from":"要缓存字符或字形的字体",
+    "The index (or character code) of the glyph to cache (see {}{}ord{}{}/{}{}string_ord_at{}{})":"要缓存的字形的索引 (或字符代码) (参见{}{}ord{}{}/{}{}string_ord_at{}{})",
+    "This can be useful for reasons of performance. If you don\u0027t pre-cache a character using this function it is automatically cached before it\u0027s drawn for the first time.":"出于性能原因，这可能很有用。如果不使用此函数预缓存字符，在第一次绘制字符之前会自动缓存该字符。",
+    "This function lets you pre-cache a character or glyph from a font.":"此函数允许您预先缓存字体中的字符或字形。",
+    "{}{}NOTE{}{}&nbsp;This function returns a struct with the x and y position of the glyph on the font\u0027s texture page, e.g.&nbsp;{}{ x : 208, y : 62 }{}. To get a handle to the texture page that the cached glyph is on you can use&nbsp;{}{}font_get_texture{}{}.":"{}{}注释{}{}此函数返回具有字体纹理页面上字形的 x 和 y 位置的结构，例如{}{ x： 208，y： 62}{}。 要获取缓存字形所在的纹理页的句柄，可以使用{}{}font_get_texture{}{}。"
+}

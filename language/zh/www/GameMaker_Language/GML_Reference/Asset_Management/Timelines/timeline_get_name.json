@@ -1,0 +1,5 @@
+{
+    "The above code get the name of the currently assigned timeline and output it to the console.":"上面的代码获取当前分配的时间线的名称，并将其输出到控制台。",
+    "The index of the time line to check the name of.":"要检查其名称的时间线的索引。",
+    "This function can be used to get the name of a time line as a string. if the time line has been created dynamically using the {}{}timeline_add(){}{} function, the name returned will have the\n    format \"__newtimeline{}N{}\" where \"{}N{}\" is the number of the time line (starting from 0). Please note that this is {}only{} a string and cannot be used to reference the timeline directly - for\n    that you would need the {}timeline index{}. You can, however, use this string to get the {}timeline index{} using the returned string along with the function {}{}asset_get_index(){}{}.":"此函数可用于以字符串形式获取时间线的名称。如果时间线是使用{}{}timeline_add (){}{}{}函数动态创建的，则返回的名称将包含\nformat\u0027__newtimeline{}N{}\" 其中 \"{}N{}\" 是时间线的编号(从 0 开始)。请注意，这只是{}一个字符串，不能直接用于引用时间轴-\n你需要{}时间轴索引{}。但是，您可以使用此字符串使用返回的字符串以及函数{}{}asset_get_index (){}{}来获取{}时间轴索引{}。"
+}

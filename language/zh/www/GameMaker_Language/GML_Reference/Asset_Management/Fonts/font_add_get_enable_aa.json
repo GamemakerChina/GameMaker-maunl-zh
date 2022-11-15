@@ -1,0 +1,4 @@
+{
+    "The above code checks the status of anti-aliasing for added fonts and if it not enabled, then we enable it.":"上面的代码检查添加字体的抗锯齿状态，如果未启用，则启用它。",
+    "This function can be used to check whether anti-aliasing (AA) is enabled for fonts added using {}{}font_add(){}{}. The function will return {}true{} if AA is enabled, and {}false{} if it is not. Note that AA is enabled by default, but you can change the AA state for added fonts using the function {}{}font_add_enable_aa(){}{}, as long as it is called {}before{} adding the font.":"该功能可用于检查使用{}{}font_add(){}{}添加的字体是否启用了抗锯齿 (AA)。如果启用了AA，该函数将返回{}true{}，如果未启用，则返回{}false{}。注意，AA是默认启用的，但是您可以使用函数{}{}font_add_enable_aa(){}{}更改添加字体的AA状态，只要在{}添加字体之前调用{}即可。"
+}

@@ -1,0 +1,5 @@
+{
+    "Index of the font to check.":"要检查的字体的索引。",
+    "This will set the active drawing font to {}fnt_Main{} if it is set as italic in its font properties.":"如果在其字体属性中将其设置为斜体，则此操作会将活动图形字体设置为{}fnt_main{}。",
+    "With this function you can check any font asset to see if it has the {}italic{} flag or not. If it does the function will return {}true{}, otherwise it will return {}false{}.":"使用此函数，您可以检查任何字体资源，以查看其是否具有{}斜体{}标志。如果执行，函数将返回{}true{}，否则返回{}false{}。"
+}

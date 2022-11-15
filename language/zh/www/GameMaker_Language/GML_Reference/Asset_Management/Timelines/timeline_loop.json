@@ -1,0 +1,4 @@
+{
+    "The above code checks to see of the time line currently assigned to an instance will loop or not and if it doesn\u0027t it sets it to true.":"上面的代码检查当前分配给实例的时间线是否会循环，如果不循环，则将其设置为true.",
+    "This variable will return whether the time line is looping (true) or not (false). You can change this variable to switch looping on or off and it works with a negative time line speed (if the time line position goes below 0 it will start again at the last defined moment).":"此变量将返回时间线是否循环(true)或不循环(false)。您可以更改此变量以打开或关闭循环，它以负时间线速度工作(如果时间线位置低于0，它将在最后定义的时刻重新开始)。"
+}

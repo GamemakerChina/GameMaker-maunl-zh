@@ -1,0 +1,5 @@
+{
+    "The above code will clear the specified time line indexed by the variable \"global.tl\" of all moments when a specific moment has been passed.":"上面的代码将清除由变量\" global.tl \"索引的所有时刻的指定时间线，当特定时刻已经过去。",
+    "The index of the timeline to clear.":"要清除的时间线的索引。",
+    "With this function you can clear a specific time line of \"moments\", removing all codes and actions for that time line and leaving it empty.":"使用此功能，您可以清除 \"时刻\" 的特定时间线，删除该时间线的所有代码和操作，并将其留空。"
+}

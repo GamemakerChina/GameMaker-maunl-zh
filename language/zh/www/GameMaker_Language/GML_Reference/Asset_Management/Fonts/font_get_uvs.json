@@ -1,0 +1,6 @@
+{
+    "The above code will store the UV coordinates for the given background in a local array and then assign the values to instance variables.":"上面的代码将在局部数组中存储给定背景的UV坐标，然后将值分配给实例变量。",
+    "The index of the font to use.":"要使用的字体的索引。",
+    "This function returns an {}array{} with the UV coordinates for the font texture on the texture page, filling in the array with the following values:":"此函数返回具有纹理页面上字体纹理的 UV 坐标的{}数组{}，并用以下值填充数组：",
+    "This value can then be used in other draw functions, particularly in general drawing when using {}primitives{}&nbsp;as well as the {}Shader{} functions.":"然后，此值可用于其他绘制函数，特别是在使用{}基元{}以及{}着色器{}函数的一般绘图中。"
+}

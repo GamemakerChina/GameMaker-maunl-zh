@@ -1,0 +1,6 @@
+{
+    "The above code will clear the specified moment of the time line indexed by the variable \"global.tl\".":"上述代码将清除由变量 \"global.tl\" 索引的时间线的指定时刻。",
+    "The index of the timeline to clear.":"要清除的时间线的索引。",
+    "The moment to clear.":"清除的时刻。",
+    "With this function you can clear a specific moment of any previously defined time line of all codes and actions.":"使用此功能，您可以清除所有代码和操作的任何先前定义的时间线的特定时刻。"
+}

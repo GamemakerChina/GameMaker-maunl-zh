@@ -1,0 +1,5 @@
+{
+    "Index of the font to check.":"要检查的字体的索引。",
+    "This will set the active drawing font to {}fnt_Main{} if it is set as bold in its font properties.":"如果在字体属性中将其设置为粗体，则将活动图形字体设置为{}fnt_Main{}。",
+    "With this function you can check any font asset to see if it has the {}bold{} flag or not. If it does the function will return {}true{}, otherwise it will return {}false{}.":"使用此函数，您可以检查任何字体资源，以查看其是否具有{}bold{}标志。如果执行，函数将返回{}true{}，否则返回{}false{}。"
+}
