@@ -1,0 +1,5 @@
+{
+    "The above code will check the instance running it to see if it is persistent or not as well as check the object index of the instance to see if it is flagged as persistent or not. If the instance is {}not{} persistent yet the object index is flagged as persistent, it will set \"persistent\" to true for that instance.":"上面的代码将检查运行它的实例，以查看它是否持久，以及检查实例的对象索引，以查看它是否被标记为持久。如果实例{}不是{}持久的，但对象索引被标记为持久的，那么它会将该实例的\"持久\"设置为true.",
+    "The index of the object to check.":"要检查的对象的索引。",
+    "This function will tell you whether the object you are checking has been flagged as \"persistent\" or not. A persistent object is one that will cause any instances of it to be carried through from room to room unless they are explicitly destroyed. Please note that this is not an instance function! So, you can have a persistent object and a non-persistent instance of the same object and vice-versa. You can set an individual instances persistent flag using the {}{}persistent{}{}&nbsp;instance variable.":"此函数将告知您正在检查的对象是否已标记为\"持久\"。持久对象是将导致其任何实例在房间之间执行的对象，除非它们被明确销毁。请注意这不是实例函数！因此，您可以有一个持久对象和同一对象的非持久性实例，反之亦然。您可以使用{}{}持久{}{}实例变量设置单个实例持久标记。"
+}

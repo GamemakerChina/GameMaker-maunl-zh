@@ -1,0 +1,4 @@
+{
+    "An instance can be flagged as {}solid{} through the object properties in the {}Object Editor{}, or by changing the value of this built-in variable. If {}solid{} is set to {}true{} then, when a collision is detected, the colliding instance is returned automatically to the position it was at in the step previous to the collision (and then any code or actions are run in the collision event). If it is set to {}false{}, all positioning must be dealt with through the collision event.":"可以通过{}对象编辑器{}中的对象属性，或通过更改此内置变量的值，将实例标记为{}实体{}。如果{}solid{}设置为{}true{}，则当检测到冲突时，碰撞实例将自动返回到冲突前步骤中的位置(然后冲突事件中运行任何代码或操作)。如果设置为{}false{}，所有定位必须通过碰撞事件处理。",
+    "The above code will check the solid flag of the \"other\" instance in a collision and if it is set to {}true{} move that instance back to its previous position.":"上面的代码将检查冲突中\"另一个\"实例的实线标志，如果它被设置为{}true{}，则将该实例移回其先前的位置。"
+}

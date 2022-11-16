@@ -1,0 +1,5 @@
+{
+    "The above code will get the parent of the object index for the instance running the code and store the return value in the variable \"par\".":"上面的代码将获取运行该代码的实例的对象索引的父对象，并将返回值存储在变量\" par \"中。",
+    "The index of the object to check":"要检查的对象的索引",
+    "This function will get you the object index of any parent that has been assigned to the specified object, or else return -100 to show that the object has no parent assigned to it, or -1 if the object being checked does not exist. For more information on parents see the section on the {}Object Editor{}.":"此函数将获取已分配给指定对象的任何父对象的对象索引，或者返回-100以显示对象没有父对象，或返回-1(如果检查的对象不存在)。有关父对象的更多信息，请参阅{}对象编辑器{}部分。"
+}

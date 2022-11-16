@@ -1,0 +1,4 @@
+{
+    "The above code activates all instances within the room and then deactivates those that are 64px outside of the limits of the current camera view.":"上面的代码激活房间内的所有实例，然后取消激活那些超出当前相机视图限制的64px的实例。",
+    "With this function you can tell {}GameMaker{} to activate all instances that have been previously deactivated in a room. Note that activation is not instantaneous, and an instance that has been activated in this way will not be considered\n    to be active until the end of the event in which the function was called.":"使用此功能，您可以通知{}GameMaker{}激活房间中先前已停用的所有实例。请注意，激活不是瞬时的，并且不会考虑以这种方式激活的实例\n直到函数被调用的事件结束。"
+}

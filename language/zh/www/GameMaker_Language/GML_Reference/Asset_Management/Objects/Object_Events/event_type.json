@@ -1,0 +1,5 @@
+{
+    "The above code will show a debug message with the event type currently being performed.":"上面的代码将显示当前正在执行的事件类型的调试消息。",
+    "This {}read-only{} variable returns the type of event currently being executed, which can be one of the following constants:":"此{}只读{}变量返回当前正在执行的事件类型，可以是以下常量之一：",
+    "{}\n    For a full list of the constants that are related to the different events see {}{}event_perform(){}{}, and if you should need the event number (ie: the sub event), you should be checking the {}{}event_number{}{}.":"{}\n有关与不同事件相关的常数的完整列表，请参见{}{}event_perform(){}{}，如果需要事件编号(即：子事件)，则应检查{}{}event_number{}{}。"
+}

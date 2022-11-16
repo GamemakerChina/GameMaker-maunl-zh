@@ -1,0 +1,7 @@
+{
+    "The above code move the current instance 10000 pixels then check its previous position to find the nearest instance of the same object type. If that instance is itself, it will do nothing more than move back to its original position, but should the instance found be different, it will draw a line between the two.":"上面的代码将当前实例移动10000个像素，然后检查其以前的位置，以查找同一对象类型的最近实例。如果该实例是其自身，则它只会移动回其原始位置，但如果找到的实例不同，它将在两者之间画一条线。",
+    "The object to check for instances of.":"要检查其实例的对象。",
+    "The x position to check from.":"要检查的X位置。",
+    "The y position to check from.":"要检查的Y位置。",
+    "This function will check all the instances of the given object to see which is nearest to the given x/y point. All checks will be from the given x/y position to the {}origin{} (the x/y position) of instances of the object specified. If no instances of the object exist, the function will return the keyword {}{}noone{}{}, but if there are instances then it will return the {}{}id{}{} of the instance found. Please note that if the instance running the code has the same object index as the object being checked, then it will be included in the check (this includes checks for parent objects if the calling instance is also a child of the parent).":"此函数将检查给定对象的所有实例，以查看哪个最接近给定 x/ y 点。所有检查将从给定的x/ y位置到指定对象的实例的{}原点{}(x/ y位置)。如果对象的实例不存在，则函数将返回关键字{}{}noone{}{}，但如果存在实例，则函数将返回找到的实例的{}{}id{}{}。请注意，如果运行代码的实例与被检查的对象具有相同的对象索引，那么它将包括在检查中(如果调用实例也是父对象的子对象，则包括父对象的检查)。"
+}

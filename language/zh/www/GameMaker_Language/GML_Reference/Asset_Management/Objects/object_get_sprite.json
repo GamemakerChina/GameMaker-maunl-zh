@@ -1,0 +1,5 @@
+{
+    "The above example will check the {}sprite_index{} of the instance against the sprite of the {}object_index{} of the instance. If they are not the same, then it will assign the same sprite as that of the object index to the instance.":"上面的示例将对照实例的{}对象_索引{}的sprite来检查实例的{}sprite_索引{}。如果它们不相同，那么它将把与对象索引相同的sprite分配给实例。",
+    "The index of the object to check":"要检查的对象的索引",
+    "This function will tell you whether the object you are checking has a sprite or not, and if it does then it will return the index of that sprite, or -1 if it does not. Please note that this is not an instance function! You can have an object with no sprite while an instance of that same object can have one and vice-versa, or they can even have different sprites. You can set an individual instances sprite using the {}{}sprite_index{}{} instance variable.":"此函数将告诉您正在检查的对象是否具有sprite，如果有，则返回该sprite的索引，如果没有则返回-1。请注意这不是实例函数！可以有一个没有sprite的对象，而同一个对象的实例可以只有一个，反之亦然，或者它们甚至可以有不同的sprite。您可以使用{}{}sprite_index{}{}实例变量设置单个实例 sprite。"
+}

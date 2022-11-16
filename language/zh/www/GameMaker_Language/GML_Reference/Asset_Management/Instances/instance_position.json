@@ -1,0 +1,7 @@
+{
+    "The above code will check for a collision with an instance of \"obj_Pause_Button\" at the mouse position, and if there is one it will then use the returned id to set its image_index to a new value before creating a new instance of the object \"obj_Menu\".":"上述代码将检查与鼠标位置\"obj_Pause_Button\"实例的冲突，如果存在冲突，则在创建对象\"obj_Menu\"的新实例之前，它将使用返回的id将其image_index设置为新值。",
+    "The object to check for instances of.":"要检查其实例的对象。",
+    "The x position to check for instances.":"要检查实例的X位置。",
+    "The y position to check for instances.":"要检查实例的Y位置。",
+    "With this function you can check a position for a collision with another instance or all instances of an object. When you use this you are checking a single point in the room for an instance or an object. This check will be done against the bounding box of the instance or against the mask of the instance if that instance has precise collisions checked and will return the unique instance {}{}id{}{}. If you do not need the id of the colliding instance you should consider using {}{}position_meeting(){}{}&nbsp;instead. This function also accepts the special {}keywords{} {}{}all{}{} and {}{}other{}{} and will return the keyword {}{}noone{}{} if no collision occurs or the unique ID value of the instance found if a collision does occur.":"使用此函数，可以检查与对象的另一个实例或所有实例碰撞的位置。使用该选项时，将检查房间中的实例或对象的单个点。如果已检查实例的精确冲突，则将针对实例的边界框或实例的掩码执行此检查，并将返回唯一实例{}{}id{}{}。 如果您不需要冲突实例的id，应该考虑使用{}{}position_meeting(){}{}。此函数还接受特殊{}关键字{}{}{}all{}{}和{}{}other{}{}，如果没有发生冲突，将返回关键字{}{}noone{}{};如果确实发生冲突，则返回找到的实例的唯一 ID 值。"
+}

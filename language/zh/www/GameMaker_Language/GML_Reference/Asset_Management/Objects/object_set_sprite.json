@@ -1,0 +1,7 @@
+{
+    "Please note that this is not an instance function! You can set the sprite index of individual instances using the {}{}sprite_index{}{} variable and so have ten instances all with a different sprite to the object they are created from, and even if you change the sprite index of the object using this function, all instances that are currently in the room will remain as they were, and only instances created after calling the function will start with the new sprite.":"请注意这不是实例函数！您可以使用{}{}sprite_index{}{}变量设置单个实例的 sprite 索引，因此有十个实例与创建它们的对象的 sprite 都不同，即使使用此函数更改对象的 sprite 索引，当前在房间中的所有实例都将保持原样，只有调用函数后创建的实例才会以新 sprite 开始。",
+    "The above code will set the object \"obj_Player\" sprite index to different values depending on the room that the instance running the code is currently in. It then creates an instance of \"obj_Player\".":"上述代码将根据运行代码的实例当前所在的空间，将对象\"obj_Player\"sprite索引设置为不同的值。然后创建\"obj_Player\"实例。",
+    "The index of the object to change.":"要更改的对象的索引。",
+    "The sprite to assign to the object.":"要分配给对象的精灵。",
+    "With this function you can set the sprite index of a specific object. This means that all instances of this object that are created {}after the sprite_index has been changed{} will be created with this new sprite_index, while instances that are already in the room may not be affected.":"使用此函数，可以设置特定对象的精灵索引。这意味着在 sprite_index 已更改{}后创建{}的此对象的所有实例将使用此新的 sprite_index 创建，而房间中的实例可能不会受到影响。"
+}

@@ -1,0 +1,4 @@
+{
+    "The above code will change the gravity_direction if the player object meets an instance of \"obj_switch\".":"如果玩家对象遇到\"obj_switch\"实例，上述代码将改变重力方向。",
+    "{}gravity_direction{} is one of the \"built in\" properties all instances have and can be used to set the direction of movement when the instances {}{}gravity{}{} is greater than 0. Note that directions in {}GameMaker{} are usually calculated as 0° being right, 90° being up, 180° being left and 270° being down.":"{}gravity_direction{}是所有实例具有的\"内置\"属性之一，当实例{}{}重力{}{}大于 0 时，可用于设置移动方向。请注意，{}GameMaker{}中的方向通常计算为 0° 为右、90° 为上、180° 为左、270° 为向下。"
+}

@@ -1,0 +1,5 @@
+{
+    "The above code will loop through all instances within the room and add 0.1 to their speed.":"上面的代码将遍历房间内的所有实例，并将它们的速度增加0.1。",
+    "The index within the instance list from {}0{} to {}instance count - 1{}.":"实例列表中从{}0{}到{}实例计数-1{}的索引。",
+    "With this function you can get the unique ID value of any instance from the currently active instance list. You give the index in the instance list to get the ID from and the function will return the value for storing in a variable.":"使用此函数，您可以从当前活动实例列表中获取任何实例的唯一ID值。您在实例列表中给出索引以从中获取ID，函数将返回用于存储在变量中的值。"
+}

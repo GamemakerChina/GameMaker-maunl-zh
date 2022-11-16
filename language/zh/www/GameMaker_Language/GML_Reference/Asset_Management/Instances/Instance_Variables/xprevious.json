@@ -1,0 +1,4 @@
+{
+    "The above code checks to see if there is any difference between the {}xprevious{} and {}yprevious{} values and the current x and y values. If there is it sets a variable to true.":"上面的代码检查{}xPrevious{}和{}yPrevious{}值与当前的X和y值之间是否存在任何差异。如果有，则将变量设置为true.",
+    "This built-in variable returns the {}previous{} x position for the instance. This variable will be set just before the start of the {}begin step event{} but it can also be set through code at any time, meaning you can give it your own custom value should that be necessary.":"此内置变量返回实例的{}previous{}x 位置。此变量将在{}开始步骤事件{}之前设置，但也可以随时通过代码设置，这意味着如有必要，您可以为它指定自己的自定义值。"
+}

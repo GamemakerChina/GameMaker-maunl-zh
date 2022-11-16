@@ -1,0 +1,7 @@
+{
+    "Please note that this is not an instance function! You can set the solid flag of individual instances using the {}{}solid{}{}&nbsp;variable and so have ten instances all flagged as solid even though the object in question has the flag set to false in the IDE, and even if you change the solid flag of the object to true using this function, all instances that currently in the room will remain as they were, and only instances created after calling the function will start with solid flagged as true.":"请注意这不是实例函数！您可以使用{}{}solid{}{}变量设置单个实例的实体标志，因此即使相关对象在 IDE 中将标记设置为 false，仍有 10 个实例全部标记为实体，即使使用此函数将对象的实体标志更改为 true，房间中当前的所有实例仍会保持原样，只有调用函数后创建的实例才会以标记为 true 的实体开始。",
+    "The above code checks the solid flag of the object \"obj_Block\" and if it is false then it is changed to be flagged as true.":"上述代码检查对象\"obj_Block\"的实体标志，如果为false，则将其更改为标记为true。",
+    "The index of the object to change.":"要更改的对象的索引。",
+    "The new solidity of the object ({}true{}=solid, {}false{}=not solid).":"对象的新实体({}true{}=实体，{}false{}=非实体)。",
+    "With this function you can flag a specific object as being solid or not (for more information on the \"solid\" flag see the section on the&nbsp;{}Object Editor{}). This means that all instances of this object that are created {}after solid has been changed{} will be created with this new state, while instances that are already in the room may not be affected.":"使用此函数，您可以将特定对象标记为实体或非实体(有关\"实体\"标志的详细信息，请参阅{}对象编辑器{}上的部分)。 这意味着实体更改{}后创建{}的该对象的所有实例都将使用此新状态创建，而房间中已存在的实例可能不会受到影响。"
+}

@@ -1,0 +1,5 @@
+{
+    "The number of User Event to call, between 0 and 15.":"要调用的用户事件数，介于0和15之间。",
+    "This would call User Defined Event 4.":"这将调用用户定义的事件4。",
+    "With this function you tell the instance to run the actions or code that has been placed within one of the 16 user defined events. These events can {}only{} be called in this way, or using the {}{}event_perform{}{} function.":"使用此函数，您可以告诉实例运行已放置在16个用户定义事件之一中的操作或代码。这些事件只能{}以这种方式调用{}，或使用{}{}event_perform{}{}函数调用。"
+}

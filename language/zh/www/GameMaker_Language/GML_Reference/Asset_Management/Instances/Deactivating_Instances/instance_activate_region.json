@@ -1,0 +1,10 @@
+{
+    "The above code deactivates all instances except the one that is running the code and then activates a region within the room.":"上面的代码取消激活除运行代码的实例之外的所有实例，然后激活房间内的区域。",
+    "The height of the region to activate.":"要激活的区域的高度。",
+    "The width of the region to activate.":"要激活的区域的宽度。",
+    "The x coordinate of the left of the rectangular region to activate.":"要激活的矩形区域左侧的X坐标。",
+    "The y coordinate of the top of the rectangular region to activate.":"要激活的矩形区域顶部的Y坐标。",
+    "Whether to activate instances on the inside of the region (true) or the outside (false).":"是激活区域内部(True)还是外部(False)的实例。",
+    "With this function you can define a region within the room to activate instances that have previously been deactivated. This region can either be flagged as \"inside\" or \"outside\" as demonstrated in the following image:":"使用此功能，您可以在房间内定义一个区域，以激活先前已停用的实例。此区域可以标记为\"内部\"或\"外部\"，如下图所示：",
+    "{}You can see in the image above that the \"apple\" instance is always active because, even if the sprite itself doesn\u0027t overlap the region, the bounding box does. So, instances are considered to be within the region specified when their {}bounding box{} overlaps with it, and the state of the collision mask (precise or not) is not taken into consideration. Note that activation is not instantaneous, and an instance that has been activated in this way will not be considered to be active until the end of the event in which the function was called.":"{}在上图中可以看到，\"apple\"实例始终处于活动状态，因为即使sprite本身不与区域重叠，边界框也是如此。因此，当实例的{}边界框{}与其重叠时，实例被视为在指定区域内，并且不考虑碰撞掩码(精确与否)的状态。请注意，激活不是瞬时的，在调用函数的事件结束之前，以这种方式激活的实例将被视为处于活动状态。"
+}

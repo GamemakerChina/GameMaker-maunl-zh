@@ -1,0 +1,21 @@
+{
+    "Audio Playback event":"音频播放事件",
+    "Audio Recording event":"录音事件",
+    "Cloud event":"云事件",
+    "Dialog event":"对话事件",
+    "HTTP event":"HTTP 事件",
+    "Image Loaded event":"图像加载事件",
+    "In-App Purchase event":"应用内购买事件",
+    "Networking event":"网络事件",
+    "Non-asynchronous events can be called using {}{}event_perform(){}{}.":"可以使用{}{}event_perform(){}{}调用异步事件。",
+    "Note that the DS map specified in the second argument does not have to be destroyed manually as it will automatically be destroyed by the function after the Async event has been performed.":"请注意，在第二个参数中指定的DS map不必手动销毁，因为它将在执行异步事件后由函数自动销毁。",
+    "Push Notification event":"推送通知事件",
+    "Save/Load Event":"保存/加载事件",
+    "Social event":"社交活动",
+    "Steam event":"steam事件",
+    "System event":"系统事件",
+    "The DS map to use as {}async_load{}&nbsp;in the called event.":"DS 映射在被调用事件中使用 as{}async_load{}。",
+    "The above code creates a DS map and populates it with custom entries to be read in the Async event. It then performs the Async Social event with the newly created map passed in as {}async_load{} for the called event.":"上面的代码创建了一个DS map，并用要在异步事件中读取的自定义条目填充它。然后，它执行异步社交事件，并将新创建的映射作为被调用事件的{}async_load{}传入。",
+    "The type of event to perform (see the table above).":"要执行的事件类型(请参阅上表)。",
+    "This function is used to perform any one of the {}Asynchronous Events{} provided in {}GameMaker{}. You supply the Async event constant (shown in the table below) and a DS map which will be available in the called Async event in the {}async_load{} variable.":"此函数用于执行{}GameMaker{}中提供的任一{}异步事件{}。 提供 Async 事件常量(如下表所示)和 DS 映射，该映射将在{}async_load{}变量中的被调用的 Async 事件中可用。"
+}

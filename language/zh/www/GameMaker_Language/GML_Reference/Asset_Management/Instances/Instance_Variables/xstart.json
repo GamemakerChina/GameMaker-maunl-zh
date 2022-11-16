@@ -1,0 +1,4 @@
+{
+    "The above code will check for a collision with an instance of \"obj_spike\" and if there is one, it deducts 100 from the score and moves the instance back to its starting position.":"上述代码将检查与\"obj_spike\"实例的冲突，如果存在冲突，则从分数中扣除100，并将该实例移回其起始位置。",
+    "This variable stores the initial x position of the instance when it is first created in the room. This is not a read-only variable and can be set as well as read.":"此变量存储实例在房间中首次创建时的初始 x 位置。这不是只读变量，可以设置也可以读取。"
+}

@@ -1,0 +1,5 @@
+{
+    "The above code will check the instance running it to see if it is visible or not as well as check the object index of the instance to see if it is flagged as visible or not. If the instance is {}not{} visible yet the object index is flagged as on, it will set \"visible\" to true for that instance.":"上面的代码将检查运行它的实例以查看它是否可见，以及检查实例的对象索引以查看它是否被标记为可见。如果实例{}不{}可见，但对象索引标记为ON，则会将该实例的\" visible \"设置为true.",
+    "The index of the object to check.":"要检查的对象的索引。",
+    "This function will tell you whether the object you are checking has been flagged as \"visible\" (runs its draw event) or not (does not run its draw event). Please note that this is not an instance function! So, you can have a visible object and an invisible instance of the same object and vice-versa. You can set an individual instances visibility using the {}{}visible{}{}&nbsp;instance variable.":"此函数将通知您正在检查的对象是否已标记为\"可见\"(运行其绘制事件)或未(不运行其绘制事件)。请注意这不是实例函数！因此，您可以拥有一个可见对象和同一对象的不可见实例，反之亦然。您可以使用{}{}可见{}{}实例变量设置单个实例可见性。"
+}

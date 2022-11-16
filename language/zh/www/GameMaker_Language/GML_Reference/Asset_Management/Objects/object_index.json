@@ -1,0 +1,4 @@
+{
+    "The above code will use the {}object_index{} to find the name of the object that the current instance has been created from.":"上面的代码将使用{}对象_索引{}来查找创建当前实例的对象的名称。",
+    "This {}read only{} variable returns the index of the object that the instance has been created from. This is {}not{} the same as the object name, which is a string and can be found using {}{}object_get_name(){}{}, as this function returns the index number, which is a unique value that {}GameMaker{} assigns to every object at the time of creation.":"此{}只读{}变量返回从中创建实例的对象的索引。{}不是{}与对象名称相同，它是一个字符串，可以使用{}{}object_get_name(){}{}找到，因为此函数返回索引号，它是{}GameMaker{}在创建时分配给每个对象的唯一值。"
+}

@@ -1,0 +1,5 @@
+{
+    "The above code will check the instance running it to see if the object it is created from is physics enabled, and if it is it activates the physics simulation for the instance.":"上面的代码将检查运行它的实例，以查看从中创建它的对象是否启用了物理，如果启用了，则激活实例的物理模拟。",
+    "The index of the object to check.":"要检查的对象的索引。",
+    "This function will tell you whether the object you are checking has been flagged as \"physics enabled\"&nbsp; - in which case it\u0027ll return {}true{}, - or not - in which case it will return&nbsp;{}false{}.":"此函数将告诉您正在检查的对象是否已标记为\"物理已启用\"，在这种情况下它将返回{}true{}，否则将返回{}false{}。"
+}

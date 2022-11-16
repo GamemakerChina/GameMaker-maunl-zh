@@ -1,0 +1,4 @@
+{
+    "The above code will create multiple instances of the object \"obj_Star\" until the total instance count reaches 100.":"上述代码将创建对象\"obj_Star\"的多个实例，直到实例总数达到100。",
+    "With this {}read only{} variable you can get a count of all active instances that are in the room. This will include the instance running the code, but does {}not{} include those instances that have been deactivated using the {}instance deactivate{} functions. Note that this variable will only give you the number of instances at the {}start{} of the step, so any changes to the instances in the room made after the step has started will not be taken into consideration.":"使用此{}只读{}变量，您可以获得房间中所有活动实例的计数。这将包括运行代码的实例，但{}不包括{}已使用{}实例去激活{}函数停用的实例。请注意，此变量将只提供步骤{}start{}的实例数，因此在步骤启动后对房间中的实例所做的任何更改将不予考虑。"
+}

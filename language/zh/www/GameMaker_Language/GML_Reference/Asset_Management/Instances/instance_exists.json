@@ -1,0 +1,6 @@
+{
+    "Please note that this function does {}not{} take into account those instances that have been deactivated using the {}instance deactivate{} functions.":"请注意，该函数{}并未{}考虑使用{}实例去激活{}函数已停用的实例。",
+    "The above code checks to see if any instances of the object \"obj_Enemy\" exist and if not it adds to the variable \"score\" and changes room.":"上述代码检查对象\"obj_Enemy\"是否存在任何实例，如果不存在，则添加到变量\"score\"并更改空间。",
+    "The object or instance to check for the existence of.":"要检查是否存在的对象或实例。",
+    "This function can be used in two ways depending on what you wish to check. You can give it an object_index to check for, in which case this function will return {}true{} if any active instances of the specified object exist in the current room, or you can also supply it with an instance id, in which case this function will return {}true{} if that specific instance exists and is active in the current room.":"根据您想要检查的内容，此功能有两种使用方式。您可以为它指定一个 object_index 进行检查，在这种情况下，如果当前房间中存在指定对象的任何活动实例，则此函数将返回{}true{}，或者还可以为它提供实例 ID，在这种情况下，如果特定实例存在且在当前房间中处于活动状态，则此函数将返回{}true{}。"
+}

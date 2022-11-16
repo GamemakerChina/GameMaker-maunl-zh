@@ -1,0 +1,4 @@
+{
+    "The above code stores the current action number in the variable \"num\".":"上述代码将当前操作编号存储在变量\" num \"中。",
+    "This {}read-only{} variable returns the index of the action currently being executed, starting at 0 on previous versions of GameMaker. However, this is {}now an obsolete variable&nbsp;{}in {}GameMaker{}. It has been left in for legacy support only, and will {}always return 0{} as all actions are concatenated together to improve execution speed.":"此{}只读{}变量返回当前正在执行的操作的索引，在以前版本的 GameMaker 上从 0 开始。然而，现在{}是{}GameMaker{}中的过时变量{}。 它只留作遗留支持，并且{}始终返回0{}，因为所有操作都连接在一起以提高执行速度。"
+}

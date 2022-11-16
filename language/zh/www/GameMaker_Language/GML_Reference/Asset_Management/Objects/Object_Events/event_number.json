@@ -1,0 +1,4 @@
+{
+    "The above code could be called form a script and used to show debug messages informing you which event is being currently triggered.":"上面的代码可以从脚本中调用，并用于显示调试消息，通知您当前正在触发哪个事件。",
+    "This {}read-only{} variable returns the number of the event currently being called, where the number is actually referring to the \"sub event\" of the event, ie: for the step event the event number could be any one of the constants {}ev_step_normal{}, {}ev_step_begin{}, or {}ev_step_end{}. For a full list of constants that are available for the specific sub-events see {}{}event_perform(){}{}, and if you should need to know the main event itself, you should be checking the {}{}event_type{}{}.":"此{}只读{}变量返回当前正在调用的事件的编号，其中该编号实际上是指事件的\"子事件\"，即：对于步骤事件，事件编号可以是常数{}ev_step_normal{}、{}ev_step_begin{}或{}ev_step_end{}中的任何一个。 有关可用于特定子事件的完整常量列表，请参见{}{}event_perform(){}{}，如果需要了解主事件本身，则应检查{}{}event_type{}{}。"
+}

@@ -1,0 +1,6 @@
+{
+    "The above code checks to see if the instance running the code is a child of the object \"obj_Enemy\", and if so it is destroyed.":"上面的代码检查运行该代码的实例是否是对象\" obj_敌人\"的子对象，如果是，则将其销毁。",
+    "The object that is being checked as the ancestor (parent).":"作为祖先(父代)检查的对象。",
+    "The object that is being checked as the child.":"作为子对象检查的对象。",
+    "This function can be used to check an object and see if it is an ancestor or not of another object. So, both arguments need to be object indices and {}not{} the instance ids, and the first one is always the object that you want to find out if it is a child of the second argument, which is always the object that want to check as the ancestor (parent).":"此功能可用于检查一个对象，并查看它是否是另一个对象的祖先。因此，这两个参数都需要是对象索引，{}而不是{}是实例id，第一个参数始终是您想要查找的对象，如果它是第二个参数的子参数，则第二个参数始终是作为祖先(parent)检查的对象。"
+}
