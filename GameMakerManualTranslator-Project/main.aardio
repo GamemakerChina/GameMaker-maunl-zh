@@ -1,14 +1,31 @@
+import win.ui;
+import win.ui.menu;
+/*DSG{{*/
+mainForm = win.form(text="GameMaker Manual";right=1379;bottom=959)
+mainForm.add()
+/*}}*/
+
+
+import console
+import fsys;
+
+
 debug=io.exist("debug")
 
 robohelp=//GMS2-Robohelp-en
 mainfile=//index.htm
 if debug{
-	path=//F:/Users/yunzl/Desktop/gamemaker-maunl-zh
+	path=//../
 }else{
 	path=""
 }
 
-mainPath=path+"/"+robohelp+"/"+mainfile
+
+mainPath=fsys.path.canonicalize(path+"\"+robohelp+"\"+mainfile)
+
+//console.log(mainPath)
+
+setting=eval(string.load(path+"setting.struct"))
 
 //当目录出现变更,直接一个刷的新
 import fsys.dirWatcher;
@@ -17,14 +34,8 @@ win.thrdWatcher = fsys.dirWatcher.thread(function(filename,action,actionText){
 }, path+"/patch");
 
 loadcodex("\res\翻译.aardio");
-1111111111111111111
 
-import win.ui;
-import win.ui.menu;
-/*DSG{{*/
-mainForm = win.form(text="GameMaker Manual";right=1379;bottom=959)
-mainForm.add()
-/*}}*/
+
 
 import web.view;
 theView  = web.view(mainForm,,"-disable-web-security --disable-features=site-per-process");
@@ -34,8 +45,6 @@ loadcodex("\res\热键设置.aardio");
 //关闭右键菜单
 theView.enableDefaultContextMenus(false) 
 
-import console
-import fsys;
 
 //检测hack
 mainForm.setInterval(100,function(){
@@ -58,7 +67,7 @@ try{
 		//标正,并运行主js
 		theView.eval("hackState=true")
 		theView.doScript(string.load(path+"/patch/main.js"))
-
+		theView.doScript(`group="`+setting.group+`"`)
 	}
 }
 catch(e){
@@ -99,7 +108,7 @@ theView.external = {
 	property = "这是 aardio 对象的属性值";
 	methodWithParametersAndReturnValue = function(a,b){
 		return a + b
-	} 
+	}
 	//aardio 函数如果抛出异常，网页 DevTools 调试工具可查看错误信息
 }
 //前端函数

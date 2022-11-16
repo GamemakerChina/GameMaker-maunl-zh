@@ -1,5 +1,6 @@
 
-group="zh"
+group="def"
+
 target=null
 
 //删除跳过啥啥玩意

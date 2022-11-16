@@ -1,0 +1,50 @@
+<script type="text/javascript" src="{path}jquery-3.6.1.min.js"></script>
+<script>
+
+	removeHtml=function(str){
+		var regex = /(<([^>]+)>)/ig
+		return str.replace(regex, "{}");
+	}
+	retHtml=function(str){
+		var regex = /(<([^>]+)>)/ig
+		return str.match(regex);
+	}
+	setTranslator=function(ele,json){
+		var html=ele.html()
+		var key=removeHtml(html)
+		var val=json[key]
+		if(val!=undefined && val.length){
+			var f=retHtml(html)
+			if(f)f.forEach(function(v,k){
+				val=val.replace("{}",v)
+			})
+			ele.html(val)
+		}
+	}
+
+	var json_global={global}
+	var json={json}
+
+	$(function(){
+
+		$("p,h1,h2,h3,td,li,a").each(function(){
+			setTranslator($(this),json)
+		})
+		$("h4,th,.warning,.important,.optional").each(function(){
+			setTranslator($(this),json_global)
+		})
+
+		if($(".header").length){
+			window.setInterval(function(){
+				$("#toc-panel a:not('isTranslate')").each(function(){
+					//区别于main.js,这个不管有没有翻译都将添加标记
+					$(this).addClass("isTranslate")
+					setTranslator($(this),json_global)
+				})
+			},250)
+			console.log("成功啦!现在正在疯狂翻译菜单中!")
+		}
+
+	})
+
+</script>
