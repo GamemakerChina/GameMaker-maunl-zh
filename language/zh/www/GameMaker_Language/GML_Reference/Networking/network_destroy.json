@@ -1,0 +1,6 @@
+{
+    "The above code will check to see if there is a data connection and if none is found, destroy the socket with the id \"sock\".":"以上代码将检查是否存在数据连接，如果未找到任何连接，则销毁ID为\"sock\"的套接字。",
+    "The id of the socket to remove.":"要删除的套接字的ID。",
+    "With this function you can remove a network socket connection from your game.":"使用此功能，您可以从游戏中删除网络套接字连接。",
+    "{}NOTE{}: This function will not work when used in a project running on the HTML5 target.":"{}注意{}:在HTML5目标上运行的项目中使用时，此函数将不起作用。"
+}

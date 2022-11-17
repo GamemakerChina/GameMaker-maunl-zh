@@ -1,0 +1,5 @@
+{
+    "The URL to get the IP of (a string).":"获取(字符串)的Ip的网址。",
+    "The above code will return the IP address of the given URL and store it in the variable \"game_ip\".":"上述代码将返回给定URL的Ip地址并将其存储在变量\"game_ip\"中。",
+    "This function will return the IP address of the given URL.":"此函数将返回给定URL的IP地址。"
+}

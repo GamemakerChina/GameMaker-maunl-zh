@@ -1,0 +1,7 @@
+{
+    "The above information loads a previously saved buffer data into memory and returns the buffer id to be stored in the variable \"buff\". This complete buffer is then send as a packet over the network using the socket identified by the variable \"sock\".":"上述信息将先前保存的缓冲区数据加载到内存中，并返回要存储在变量\"buffe\"中的缓冲区ID。然后，使用由变量\"sock\"标识的套接字，将该完整缓冲区作为数据包通过网络发送。",
+    "The id of the buffer to get the data from.":"从中获取数据的缓冲区的ID。",
+    "The id of the socket to use.":"要使用的套接字的ID。",
+    "The size (in bytes) of the data.":"数据的大小(以字节表示)。",
+    "With this function you can send a data \"packet\" through the network. The function takes the {}socket id{} to connect through and then you must supply the {}buffer id{} which contains the data to be sent (for more information on buffers see {}Reference - Buffers{}) and finally the size (in bytes) of the data packet. Packets sent with this function are formatted such that the {}GameMaker{} game receiving the data can \"split\" the packets correctly, and the function will return the number of bytes of data sent, or a number less than 0 if the send has failed. It is worth noting that the final size of the data being sent that is returned by this function will also include the GameMaker header information, which is an additional 12 bytes.":"通过此功能，您可以通过网络发送数据\"数据包\"。该函数使用{}套接字ID{}进行连接，然后必须提供包含要发送的数据的{}缓冲区ID{}(有关缓冲区的详细信息，请参阅{}参考-缓冲区{})，最后是数据包的大小(以字节为单位)。使用此函数发送的数据包将被格式化，以便接收数据的{}GameMaker{}游戏可以正确\"拆分\"数据包，并且此函数将返回发送的数据的字节数，如果发送失败，则返回小于0的数字。值得注意的是，该函数返回的正在发送的数据的最终大小还将包括GameMaker头信息，即额外的12个字节。"
+}

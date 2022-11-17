@@ -1,0 +1,10 @@
+{
+    "The above code will send a raw UDP packet to the server defined by the URL on the port 6510. The data is taken from the buffer indexed in the variable \"buff\".":"上述代码将向由端口6510上的URL定义的服务器发送原始UDP分组。数据取自变量\"buff\"中索引的缓冲区。",
+    "The id of the buffer to get the data from.":"缓冲区的ID。",
+    "The id of the socket to use.":"要使用的套接字的ID。",
+    "The port to connect to.":"要连接到的端口。",
+    "The size (in bytes) of the data.":"数据的大小(以字节表示)。",
+    "The url or IP to connect to (a string).":"连接到(字符串)的url或Ip。",
+    "With this function you can send data over the network using UDP to a server. The function takes the {}socket id{} to connect through, the URL to connect to and the port to use. You must then supply the {}buffer id{} which contains the data to be sent (for more information on buffers see {}Reference - Buffers{}) and finally the size (in bytes) of the data. UDP is \"connectionless\" in that you don\u0027t actually do a connect, you just send a packet directly to an IP, and the server gets incoming data from an IP address and has to deal with it \"as is\". The data sent is not formatted by {}GameMaker{} in any way and the receiving devices will get the data as a stream which means you will have to handle it yourself. The function will return the number of bytes of data sent, or a number less than 0 if the send has failed.":"使用此功能，您可以使用Udp通过网络将数据发送到服务器。此函数使用{}套接字ID{}进行连接，使用要连接的URL和要使用的端口。然后必须提供包含要发送的数据的{}缓冲区ID{}(有关缓冲区的详细信息，请参阅{}参考-缓冲区{})，最后是数据的大小(以字节为单位)。Udp是\"无连接\"的，因为你实际上没有进行连接，你只是直接发送一个数据包到一个Ip，服务器从一个Ip地址获得传入的数据，并且必须按原样处理它。\"{}GameMaker{}不会以任何方式对发送的数据进行格式化，接收设备将以流的形式获取数据，这意味着您必须自行处理这些数据。该函数将返回发送的数据的字节数，如果发送失败，则返回小于0的数字。",
+    "{}NOTE{}&nbsp;This function will not work when used in a project running on the HTML5 target, and neither will HTML5 projects be able to receive UDP.":"{}注意{}在HTML5目标上运行的项目中使用此函数时将不起作用，HTML5项目也无法接收Udp。"
+}
