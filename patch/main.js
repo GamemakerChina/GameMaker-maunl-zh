@@ -142,6 +142,15 @@ qqq_hight_light=async function(){
 	left=left.replace(reg,rs)
 	right=right.replace(reg,rs)
 
+	for (let i = 0; i < lc; i++) {
+		console.log(left)
+		left=left.replace('{}',"{"+i+"}")
+	}
+	for (let i = 0; i < rc; i++) {
+		right=right.replace('{}',"{"+i+"}")
+	}
+	
+
 	$(".hl_old").html(left)
 	$(".hl_new").html(right)
 
@@ -154,6 +163,7 @@ qqq_hight_light=async function(){
 		,content: $(".qqq_hightlight")
 		,resize:false
 		,shadeClose :true
+		,id:"distinction"
 	});
 
 }

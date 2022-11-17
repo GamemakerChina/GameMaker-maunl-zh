@@ -9,5 +9,7 @@
 	,"6"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('xinyi')").click()
 	,"7"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('xunfei')").click()
 	
+	,"`"=//layer.close("distinction");if(!$('textarea:focus').length)$(".layui-layer button:contains('distinction')").click()
+	
 	,"space"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('Ok!')").click()
 }
