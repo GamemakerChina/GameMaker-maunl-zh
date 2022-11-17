@@ -1,0 +1,5 @@
+{
+    "The above code gets the IDs for all the layers in the room and then loops though them checking to see if any are named layers. If they are they are then their ID is added to a list.":"上面的代码获取房间中所有层的ID，然后循环检查是否有任何命名的层。如果是，则将其ID添加到列表中。",
+    "The unique ID value of the layer to get the name of":"要获取其名称的层的唯一ID值",
+    "You can use this function to get the {}name{} of the given layer. You supply the unique layer ID value and if the layer is one of the named layers created in the room editor, then the function will return a string with the layer name. If the layer is not one of the room editor ones (ie: it was created using {}{}layer_create(){}{}) then an empty string will be returned.":"可以使用此函数获取给定层的{}名称{}。提供唯一的图层 ID 值，如果图层是在房间编辑器中创建的命名图层之一，则函数将返回具有图层名称的字符串。如果层不是房间编辑器的层(即：使用{}{}layer_create(){}{}创建)，则将返回空字符串。"
+}

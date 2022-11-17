@@ -1,0 +1,5 @@
+{
+    "The above code gets the tile map ID from the given layer and then gets the x and y cell position for the tile under the mouse. This position is then used to get the tile-data which is mirrored and then used to set the tile again.":"上述代码从给定层获取块映射ID，然后在鼠标下获取块的x和y单元位置。然后，此位置用于获取镜像的平铺数据，然后用于再次设置平铺。",
+    "This function can be used to check whether in a given set of tile-data the tile has been mirrored or not. You give the tile-data, which can be retrieved using the function {}{}tilemap_get(){}{}, and the function will return {}true{} if the tile is mirrored, or {}false{} if not.":"此功能可用于检查在给定的平铺数据集中，平铺是否已镜像。提供了可使用函数{}{}tilemap_get(){}{}检索的分块数据，如果分块被镜像，则函数将返回{}true{}，否则返回{}false{}。",
+    "the tile-data to check":"要检查的瓦片数据"
+}

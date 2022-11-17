@@ -1,0 +1,5 @@
+{
+    "The above code checks if the sequence element ID stored in the variable \"title_sequence\" is paused, and if it is it starts it playing.":"上述代码检查存储在变量\"title_sequence\"中的序列元素ID是否暂停，如果是，则开始播放。",
+    "The unique ID value of the sequence element to target":"序列元素到目标的唯一ID值",
+    "With this function you supply the sequence element ID - as returned by {}{}layer_sequence_create(){}{} or by one of the {}layer element functions{} - and it will check if the sequence is currently paused or not, returning {}true{} if it is paused, and {}false{} if it is not.":"使用此函数，您可以提供由{}{}layer_sequence_create(){}{}或{}层元素函数{}之一返回的序列元素ID，它将检查当前是否暂停序列，如果序列暂停，则返回{}true{};如果未暂停，则返回{}false{}。"
+}

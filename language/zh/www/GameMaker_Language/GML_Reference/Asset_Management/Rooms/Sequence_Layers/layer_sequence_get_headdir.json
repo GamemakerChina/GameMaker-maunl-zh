@@ -1,0 +1,7 @@
+{
+    "The above code checks the the current playhead direction of the sequence element ID stored in the variable {}title_sequence{}, and if it\u0027s not set to {}seqdir_left{}, it is set to this value.":"上述代码检查存储在变量{}title_sequence{}中的序列元素ID的当前播放头方向，如果未设置为{}seqdir_left{}，则设置为该值。",
+    "The sequence will play frames in a decremental order from right to left":"该序列将以从右到左的递减顺序播放帧",
+    "The sequence will play frames in an incremental order from left to right":"该序列将按从左到右递增的顺序播放帧",
+    "The unique ID value of the sequence element to target":"序列元素到目标的唯一ID值",
+    "With this function you supply the sequence element ID - as returned by&nbsp;{}{}layer_sequence_create{}{}&nbsp;or by one of the {}layer element functions{} - and it will return the current {}playhead{}&nbsp;direction, which will be one of the constants listed below.":"使用此函数，您可以提供{}{}layer_sequence_create{}{}或{}层元素函数{}之一返回的序列元素 IDas，它将返回当前{}播放头{}方向，这是下列常量之一。"
+}

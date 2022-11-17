@@ -1,0 +1,6 @@
+{
+    "The above code will check the sprite element assigned to the layer the instance running the code is on and if its angle is not 0 it will set it to 0.":"上面的代码将检查分配给运行代码的实例所在的层的sprite元素，如果其角度不是0，则将其设置为0。",
+    "The angle of the sprite (default is 0)":"精灵的角度(默认为0)",
+    "The unique ID value of the sprite element to change":"要更改的sprite元素的唯一ID值",
+    "Using this function you can change the angle for the given sprite element on a layer. You give the sprite element ID (which you get when you create a sprite element using {}{}layer_sprite_create(){}{} or when you use the function {}{}layer_sprite_get_id(){}{}), and then set the angle value, from 0 to 359 anti-clockwise, where 0 is to the right, 90 is to the top, 180 is to the left and 270 is to the bottom. If you set a value greater than 360 this will be looped to bring it within the 0 - 359 range.":"使用此函数可以更改图层上给定精灵元素的角度。指定 sprite 元素 ID(使用{}{}layer_sprite_create(){}{}或使用函数{}{}layer_sprite_get_id(){}{}创建 sprite 元素时得到的 ID)，然后将角度值从 0 设置为逆时针 359，其中 0 位于右侧，90 位于顶部，180 位于左侧，270 位于底部。如果设置值大于360，则将循环，使其在0-359范围内。"
+}

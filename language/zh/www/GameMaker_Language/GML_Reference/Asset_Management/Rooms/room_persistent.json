@@ -1,0 +1,4 @@
+{
+    "The above code checks the variable \"lives\" and if it is less than 1, it will set the room persistence to {}false{} and then change rooms.":"上面的代码检查变量\" lives \"，如果它小于1，则将房间持久性设置为{}false{}，然后更改房间。",
+    "This variable can be used to get and to set the persistent flag for the current room. If set to {}true{} the room is considered persistent, in which case each time you leave the room and come back again the state of the instances within that room will have been maintained. However if it is flagged as {}false{}, each time you return to the room it will be reset to its initial state. You should note that a persistent room uses considerably more memory than a normal room and it is not recommended to have too many of them in your game.":"此变量可用于获取和设置当前房间的持久标志。如果设置为{}true{}，则房间被认为是持久的，在这种情况下，每次您离开房间并再次返回时，该房间内实例的状态都将保持不变。但是，如果它被标记为{}false{}，则每次您返回房间时，它都将被重置为其初始状态。您应该注意到，永久房间比普通房间使用的内存要多得多，不建议在游戏中使用太多的永久房间。"
+}

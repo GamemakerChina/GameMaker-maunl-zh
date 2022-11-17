@@ -1,0 +1,4 @@
+{
+    "The above code checks to see if the layer Z depth is forced to a value of 0 or not and if it is not, it sets the layer Z depth to 0.":"上述代码检查层Z深度是否被强制为0，如果不是，则将层Z深度设置为0。",
+    "This function can be used to retrieve the Z depth set for rendering layers within the room. See {}{}layer_force_draw_depth(){}{} for more information.":"此功能可用于检索房间内渲染图层的 Z 深度集。有关详细信息，请参阅{}{}layer_force_draw_depth(){}{}。"
+}

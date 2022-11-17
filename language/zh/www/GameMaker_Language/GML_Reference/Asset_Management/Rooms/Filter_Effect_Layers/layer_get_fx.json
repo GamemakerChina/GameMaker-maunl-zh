@@ -1,0 +1,6 @@
+{
+    "If the specified layer has no filters/effects applied to it, the function will return -1.":"如果指定层没有应用滤镜/效果，则函数将返回-1。",
+    "The above code runs a {}for{}&nbsp;loop through all the layers present in the room, and checks each layer for an&nbsp;FX struct. If a layer has an FX struct, it checks the name of that filter/effect by calling {}{}fx_get_name(){}{}&nbsp;on it; if it\u0027s equal to&nbsp;{}\"_filter_tintfilter\"{} meaning that it\u0027s a \"Colour Tint\" filter, it changes its tint colour to blue.":"上面的代码运行{}for{}循环遍历房间中的所有层，并检查每个层的FX结构。如果层具有FX结构，则调用{}{}fx_get_name(){}{}来检查该过滤器/效果的名称; 如果它等于{}\"_filter_tintfilter\"{}，意思是它是\"着色\"滤镜，则它将其色调颜色更改为蓝色。",
+    "The name or ID of the layer to read":"要读取的层的名称或ID",
+    "This function is used to retrieve the FX struct for a layer. You specify either the ID or the name of the layer you want to target and the function will return a struct containing information on its applied effect. This struct will be similar to the struct you get from {}{}fx_create(){}{},&nbsp;and the functions {}{}fx_get_parameter{}{}/{}{}s{}{}&nbsp;and {}{}fx_set_parameter{}{}/{}{}s{}{}&nbsp;can be used on it to read and modify its parameters.":"此函数用于检索图层的 FX 结构。可以指定要目标的层的 ID 或名称，函数将返回包含其应用效果信息的结构。此结构与您从{}{}fx_create(){}{}中获得的结构类似，函数{}{}fx_get_parameter{}{}/{}{}s{}{}和{}{}fx_set_parameter{}{}/{}{}s{}{}可用于读取和修改其参数。"
+}

@@ -1,0 +1,6 @@
+{
+    "The above code gets the ID value of the background assigned to the layer \"Background_sky\" and then sets its alpha to a random value between 0 and 1.":"上述代码获得分配给层\"Background_sky\"的背景的ID值，然后将其α设置为0和1之间的随机值。",
+    "The alpha for background sprite, from 0 to 1 (default is 1)":"背景精灵的alpha，从0到1(默认值为1)",
+    "The unique ID value of the background element to change":"要更改的背景元素的唯一ID值",
+    "This function controls the alpha (transparency) of the background sprite. You give the background element ID (which you get when you create a background element using {}{}layer_background_create(){}{} or when\n    you use the function {}{}layer_background_get_id(){}{}), and then set the alpha value to use. Alpha can be between 0 (fully transparent) and 1 (fully opaque) with the default alpha value for the background\n    element being 1. Note that if the layer the background element has been assigned to is not visible - or the element itself has been made invisible - you will not see any difference with this function until the layer or element has been made visible\n    again.":"此函数控制背景子画面的 alpha(透明度)。提供了背景元素 ID(当使用{}{}layer_background_create(){}{}创建背景元素时或当\n您使用函数{}{}layer_background_get_id(){}{})，然后设置要使用的alpha值。Alpha可以在0(完全透明)和1(完全不透明)之间，背景的默认alpha值\n元素为1。请注意，如果背景元素已分配到的层不可见，或者元素本身已不可见，则在层或元素变得可见之前，您将不会看到与此功能的任何差异\n再一次。"
+}

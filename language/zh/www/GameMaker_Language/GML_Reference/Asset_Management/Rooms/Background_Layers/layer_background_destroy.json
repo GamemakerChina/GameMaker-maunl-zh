@@ -1,0 +1,5 @@
+{
+    "The above code checks the layer \"Background_trees\" to see if the given background element exists and if it does, then it is destroyed (but not the layer).":"上面的代码检查层\"Background_trees\"以查看给定背景元素是否存在，如果存在，则它被销毁(但不是层)。",
+    "The unique ID value of the background element to be destroyed":"要销毁的背景元素的唯一ID值",
+    "This function will destroy the given background element. You supply the background ID (which you get when you create the background using {}{}layer_background_create(){}{} or when you use the layer ID along with {}{}layer_get_background_id(){}{}) and this will remove it. Note that this does {}not{} remove the layer, only the background from it, and if the background is one that has been added in the room editor, then the next time you leave the room and then return, the background will be recreated again. However if the room is persistent, the background will be removed unless room persistence is switched off again.":"此函数将销毁给定的背景元素。提供背景 ID(使用{}{}layer_background_create(){}{}创建背景时获得，或将层 ID 与{}{}layer_get_background_id(){}{}一起使用时获得此 ID)，这将删除它。请注意，这{}不会{}删除层，只删除背景，如果背景已添加到房间编辑器中，则下次离开房间并返回时，将再次重新创建背景。然而，如果房间是持久性的，背景将被移除，除非再次关闭房间持久性。"
+}

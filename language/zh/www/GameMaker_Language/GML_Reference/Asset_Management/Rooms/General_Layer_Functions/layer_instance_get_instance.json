@@ -1,0 +1,5 @@
+{
+    "The above code will check get all the instance elements on a layer, then get their unique ID value and use that to move them 10px to the right.":"上面的代码将检查获取一个层上的所有实例元素，然后获取其唯一ID值，并使用它将它们向右移动10px。",
+    "The unique ID value of the instance element to get the ID of":"获取实例元素ID的唯一ID值",
+    "This function can be used to get the unique instance ID of the given instance element. You give the instance {}element{} ID (see the code example below for how to get this), and the function will return a real value that represents the unique {}instance id{} for the element. If the element is not an instance, the function will return -1.":"此函数可用于获取给定实例元素的唯一实例 ID。您指定了实例{}元素{}ID(有关如何获得该ID，请参见下面的代码示例)，函数将返回一个代表元素的唯一{}实例id{}的真实值。如果元素不是实例，函数将返回-1。"
+}

@@ -1,0 +1,6 @@
+{
+    "The above code will add a new room to the game and then copy the contents of the room indexed as \"rm_Base\" into it.":"上面的代码将给游戏添加一个新房间，然后复制被索引为\"rm_Base\"的房间的内容。",
+    "The index of the room to be {}copied from{}.":"要从{}复制{}的文件室的索引。",
+    "The index of the room to be {}copied to{}.":"要将{}复制到{}的文件室的索引。",
+    "This function will copy one room to another, removing all instances, tiles etc... from the room that is being copied to and replacing them completely with the new room contents. You supply the index to for the room to be copied to (either as defined in the asset browser or as returned by the function {}{}room_add(){}{}) as well as the index of the source room.&nbsp;Note that calling this function on a room asset created in the Asset Browser {}will permanently change the contents of the room{}, and even calling {}game_restart(){} will not return the room to it\u0027s original state (only ending the game and opening it again will start with the room in its original state again).":"此功能将将一个房间复制到另一个房间，删除所有实例、平铺等... 从正在复制到的房间，并完全用新房间内容替换。提供要复制到的房间的索引(在资源浏览器中定义或由函数{}{}room_add(){}{}返回)以及源房间的索引。请注意，在资产浏览器{}中创建的房间资源上调用此函数将永久更改房间{}的内容，甚至调用{}game_restart(){}也不会使房间返回到其原始状态(只有结束游戏并再次打开它，房间才会再次处于原始状态)。"
+}

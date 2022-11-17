@@ -1,0 +1,5 @@
+{
+    "The above code gets layer ID for the element with the ID stored in the variable \"asset_1\" and stores it in a variable.":"上面的代码获取元素的层ID，其ID存储在变量\"asset_1\"中，并将其存储在变量中。",
+    "The unique ID value of the element to get the layer of":"要获取其层的元素的唯一ID值",
+    "You can use this function to get the {}Layer ID{} that the given element is on. You supply the unique element ID value (for example, as returned by the function that created the element or from the room editor) and the function will return the unique ID of the layer that the element is found on. If the element ID given is not a valid one, then the function will return -1.":"您可以使用此函数获取给定元素所在的{}层 ID{}。提供唯一元素 ID 值(例如，由创建图元的函数或从房间编辑器返回的值)，该函数将返回元素所在图层的唯一 ID。如果给定的元素ID无效，则函数将返回-1。"
+}

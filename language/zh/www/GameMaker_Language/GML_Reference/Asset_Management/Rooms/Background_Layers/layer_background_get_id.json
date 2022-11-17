@@ -1,0 +1,5 @@
+{
+    "The above code will get the layer ID for the layer named \"Background_trees\" and then use that to get the ID of the background element on that layer. This ID is then used to change the element sprite.":"上面的代码将获取名为\"Background_trees\"的层的层ID，然后使用该层来获取该层上的背景元素的ID。然后，此 ID 用于更改元素 sprite。",
+    "The unique ID value of the layer to target":"目标层的唯一ID值",
+    "This function can be used to retrieve the unique ID value of the background element on a layer. You supply the layer ID (which you get when you use the layer name along with {}{}layer_get_id(){}{}) and the function will return the ID value associated with the background element on the layer. Note that this function is specifically designed for use with backgrounds that have been added in the IDE, as if you add a background to a layer through code using the function {}{}layer_background_create(){}{}, then it will return the unique ID for the background element added.":"此函数可用于检索图层上背景元素的唯一 ID 值。提供层 ID(与{}{}layer_get_id(){}{}一起使用层名时获得)，函数将返回与层上背景元素关联的 ID 值。请注意，此函数专门设计用于在 IDE 中添加的背景，就好像您使用函数{}{}layer_background_create(){}{}通过代码将背景添加到层，那么它将返回所添加的背景元素的唯一ID。"
+}

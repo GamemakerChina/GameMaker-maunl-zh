@@ -1,0 +1,5 @@
+{
+    "The above code creates a new sequence element and then retrieves its sequence instance ID. This is then used to change the playback speed scale property of the sequence instance.":"上面的代码创建一个新的序列元素，然后检索其序列实例ID。然后用于更改序列实例的回放速度比例属性。",
+    "The unique ID value of the sequence element to target":"序列元素到目标的唯一ID值",
+    "With this function you supply the sequence element ID - as returned by {}{}layer_sequence_create(){}{} or by one of the {}layer element functions{} - and it will return the sequence {}instance{} {}struct{}. You can find out more about the format of the sequence instance struct&nbsp;on {}this page{}.":"使用此函数，您可以提供由{}{}layer_sequence_create(){}{}或{}层元素函数{}之一返回的序列元素ID，它将返回序列{}实例{}{}结构{}。 您可以在{}此页{}上找到有关序列实例结构格式的更多信息。"
+}

@@ -1,0 +1,7 @@
+{
+    "The above code uses the retrieved tile map ID to get the cell position from a set of room coordinates and then store the data for any tile found there in an instance variable.":"上面的代码使用检索到的平铺贴图ID从一组房间坐标中获取单元位置，然后在实例变量中存储在其中找到的任何块的数据。",
+    "The unique ID value of the tile map element to get the cell y position of":"块映射元素的唯一ID值，用于获取",
+    "The x position within the room to use for getting the cell":"房间内用于获取细胞的x位置",
+    "The y position within the room to use for getting the cell":"房间内用于获取细胞的y位置",
+    "Using this function you can retrieve the y-axis position of an individual tile map cell by giving the relative y-axis position within the room. You give the tile map element ID (which you get when you create a tile map element using {}{}layer_tilemap_create(){}{}    or when you use the function {}{}layer_tilemap_get_id(){}{}), as well as the x and y position {}within the room{} and the function will return the y position of the cell within the tile map for that point.\n    Note that if the value is outside of the tile map area, and no cell is available, it will return -1.":"使用此函数，可以通过给出房间内的相对y轴位置来检索单个贴图单元的y轴位置。给定平铺贴图元素 ID(使用{}{}layer_tilemap_create(){}{}或使用函数{}{}layer_tilemap_get_id(){}{}时获得的 ID)以及房间{}内的 x 和 y 位置{}，该函数将返回该点平铺贴图内单元格的 y 位置。\n请注意，如果值在平铺映射区域之外，且没有可用的单元格，则返回-1。"
+}

@@ -1,0 +1,8 @@
+{
+    "The above code creates a new layer and then adds 10 new sprite elements to it, storing the ID of each element to an array.":"上面的代码创建一个新层，然后添加10个新的sprite元素，将每个元素的ID存储到一个数组中。",
+    "The sprite index to be used":"拟使用的Sprite指数",
+    "The unique ID value of the layer to target":"目标层的唯一ID值",
+    "The x position to use":"要使用的x位置",
+    "The y position to use":"要使用的y位置",
+    "With this function you can assign a sprite resource to a layer to be used in your project. You supply the layer ID (which you get when you create the layer using {}{}layer_create(){}{} or when you use the layer name along with {}{}layer_get_id(){}{}), a position within the room, and a sprite index (which would be the name of the sprite as shown in the Asset Browser), and it will be added to the layer. The function returns the unique ID value for the element, which can then be used in further layer functions for sprites.":"使用此函数，可以将精灵资源分配给要在项目中使用的层。提供层 ID(使用{}{}layer_create(){}{}创建层时获得，或将层名与{}{}layer_get_id(){}{}一起使用时获得)、房间内的位置和 sprite 索引(如\"资源浏览器\"中显示的 sprite 的名称)，并将其添加到层中。函数返回元素的唯一ID值，然后可用于sprites的其他层函数。"
+}

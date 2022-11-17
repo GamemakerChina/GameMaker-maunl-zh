@@ -1,0 +1,6 @@
+{
+    "The above code \"respawns\" the instance, by moving it to its original position and refilling its HP. It then checks if the Desaturate FX layer is enabled, and if it is, disables it.":"上面的代码通过将实例移动到其原始位置并填充其HP来\"重新生成\"实例。然后检查是否启用了去饱和FX层，如果启用，则禁用它。",
+    "The name or ID of the layer to check":"要检查的层的名称或ID",
+    "This function returns whether the filter/effect for a layer is enabled.":"此函数返回是否启用图层的过滤器/效果。",
+    "You specify either the ID or the name of the layer you want to target, and the function returns a boolean value indicating whether the layer\u0027s FX is enabled ({}true{}) or disabled ({}false{}).":"可以指定要目标的层的 ID 或名称，函数将返回一个布尔值，指示层的 FX 是已启用({}true{})还是禁用({}false{})。"
+}

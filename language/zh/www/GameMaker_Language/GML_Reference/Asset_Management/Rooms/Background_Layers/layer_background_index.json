@@ -1,0 +1,6 @@
+{
+    "The above code will get the layer ID for the layer named \"Background_trees\" and then use that to get the ID of the background element on that layer. This ID is then used to change the element image index.":"上面的代码将获取名为\"Background_trees\"的层的层ID，然后使用该层来获取该层上的背景元素的ID。然后，此 ID 用于更改元素图像索引。",
+    "The image index to use for the background":"用于背景的图像索引",
+    "The unique ID value of the background element to change":"要更改的背景元素的唯一ID值",
+    "This function can be used to set the image index of the background sprite which has multiple sub-images. You give the background element ID (which you get when you create a background element using {}{}layer_background_create(){}{} or when you use the function {}{}layer_background_get_id(){}{}), and then set the image index to use. If you set a value outside of the range of sub-images, then the image index will loop around.":"此功能可用于设置具有多个子图像的背景子画面的图像索引。给定背景元素 ID(当使用{}{}layer_background_create(){}{}创建背景元素时或使用函数{}{}layer_background_get_id(){}{}时获得)，然后设置要使用的图像索引。如果将值设置在子图像范围之外，则图像索引将循环。"
+}

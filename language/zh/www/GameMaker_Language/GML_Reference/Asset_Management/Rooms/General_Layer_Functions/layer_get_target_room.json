@@ -1,0 +1,4 @@
+{
+    "The above code checks the current target room and if it is not the current room then the layer target room is reset.":"上述代码检查当前目标房间，如果不是当前房间，则重置层目标房间。",
+    "This function will return the current room being targeted by the layer functions. See {}{}layer_set_target_room(){}{} for more information.":"此函数将返回层函数目标的当前房间。有关详细信息，请参见{}{}layer_set_target_room(){}{}。"
+}

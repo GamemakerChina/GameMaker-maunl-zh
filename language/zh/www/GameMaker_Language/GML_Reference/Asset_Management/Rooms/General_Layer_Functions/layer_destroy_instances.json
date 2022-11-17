@@ -1,0 +1,5 @@
+{
+    "The above code will check a global variable and if it\u0027s {}true{} then all instances that are on the layer of the calling instance will be destroyed (including the calling instance).":"上面的代码将检查一个全局变量，如果它为{}真{}，则位于调用实例层上的所有实例将被销毁(包括调用实例)。",
+    "The unique ID value of the layer (or the layer name as a string)":"层的唯一ID值(或作为字符串的层名称)",
+    "This function can be used to destroy all the instances assigned to the given layer. You supply the layer ID (which you get when you create the layer using {}{}layer_create(){}{}) or the layer name (as a string - this will have a performance impact), and then all instances that are on the layer will be removed from the game, triggering their {}Destroy{} and {}Clean Up{} events.":"此功能可用于销毁指定给给定层的所有实例。提供层 ID(使用{}{}layer_create(){}{}创建层时获得的 ID)或层名称(作为字符串，这将对性能产生影响)，然后层上的所有实例将从游戏中删除，触发其{}销毁{}和{}清除{}事件。"
+}

@@ -1,0 +1,5 @@
+{
+    "The above code gets the tile map ID from the given layer and then checks the mask value associated with it. If it is not the same as the value defined in the variable \"new_mask\", then it is set to that value.":"上述代码从给定层获取瓦片映射ID，然后检查与其相关联的掩码值。如果它与变量\"new_mask\"中定义的值不同，则将其设置为该值。",
+    "The unique ID value of the tile map element to get the mask of":"平铺映射元素的唯一ID值，用于获取的掩码",
+    "This function can be used to retrieve the bit mask value for the given tile map. You give the tile map element ID (which you get when you create a tile map element using {}{}layer_tilemap_create(){}{} or when you use the function {}{}layer_tilemap_get_id(){}{}), and the function will return the current mask value or -1 if there is an error or 0 if no mask is specified. For further information on tile map bit masks, see the function {}{}tilemap_set_mask(){}{}.":"此函数可用于检索给定平铺贴图的位掩码值。指定平铺贴图元素 ID(使用{}{}layer_tilemap_create(){}{}或使用函数{}{}layer_tilemap_get_id(){}{}创建平铺贴图元素时获得)，如果出现错误，则函数将返回当前掩码值或 - 1;如果未指定掩码，则返回 0。有关平铺映射位掩码的更多信息，请参见函数{}{}tilemap_set_mask(){}{}。"
+}

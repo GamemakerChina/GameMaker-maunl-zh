@@ -1,0 +1,6 @@
+{
+    "The index of the room to set.":"要设置的房间的索引。",
+    "This will enable views in the room indexed in \"global.myroom\".":"这将在\"global.myroom\"中索引的房间中启用视图。",
+    "Whether to enable ({}true{}) or disable ({}false{}) views in the given room.":"是在给定房间中启用({}true{})还是禁用({}false{})视图。",
+    "With this function you can enable ({}true{}) or disable ({}false{}) the view of any room within your game {}except the current one{}.":"使用此功能，您可以启用({}true{})或禁用({}false{})游戏内任何房间的视图{}，当前房间{}除外。"
+}

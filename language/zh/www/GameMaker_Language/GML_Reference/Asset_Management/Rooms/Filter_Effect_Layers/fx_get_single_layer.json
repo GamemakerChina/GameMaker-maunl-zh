@@ -1,0 +1,6 @@
+{
+    "The FX struct to read":"要读取的FX结构",
+    "The above code gets the FX struct from a layer called {}\"Distort\"{} and checks if Single Layer mode is enabled on it. If it isn\u0027t, it&nbsp;enables Single Layer mode for that FX.":"上述代码从名为{}\"Distort\"{}的层获取FX结构，并检查其上是否启用了单层模式。如果不是，它将启用该FX的单层模式。",
+    "This function returns whether the supplied filter/effect is using Single Layer mode ({}true{}) or not ({}false{}). See {}{}fx_set_single_layer(){}{} for information on Single Layer mode.":"此函数返回提供的过滤器/效果是否使用单层模式({}true{})({}false{})。 有关单层模式的信息，请参见{}{}fx_set_single_layer(){}{}。",
+    "You specify&nbsp;an FX struct (as returned from {}{}fx_create(){}{} or {}{}layer_get_fx(){}{}) and the function returns a&nbsp;{}boolean{} that tells whether&nbsp;Single Layer mode is enabled or not for the FX.":"指定 FX 结构(如从{}{}fx_create(){}{}或{}{}layer_get_fx(){}{}返回)，并且该函数返回{}布尔{}，该布尔{}指示 FX 是否启用单层模式。"
+}

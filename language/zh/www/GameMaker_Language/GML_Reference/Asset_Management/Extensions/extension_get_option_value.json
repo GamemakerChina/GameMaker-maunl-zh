@@ -1,0 +1,7 @@
+{
+    "The function will return {}undefined{} if the provided extension name is invalid.":"如果提供的扩展名无效，函数将返回{}undefined{}。",
+    "The name of the option to read":"要读取的选项名称",
+    "The name of your extension asset as a string":"作为字符串的扩展资产的名称",
+    "This code gets the value of the {}enabled{} option in the {}MyExtension{} extension.":"此代码获取{}MyExtension{}扩展中的{}已启用{}选项的值。",
+    "This function returns the value of the given {}option{} in the extension with the given name.":"此函数返回具有给定名称的扩展中给定{}选项{}的值。"
+}

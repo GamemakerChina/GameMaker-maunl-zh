@@ -1,0 +1,5 @@
+{
+    "The above code checks the given layer horizontal and vertical speeds and if they are not both set to 0 then it is sets them to 0.":"上面的代码检查给定层的水平和垂直速度，如果它们没有都设置为0，则将它们设置为0。",
+    "The unique ID value of the layer to get the horizontal speed from":"要从中获取水平速度的层的唯一ID值",
+    "You can use this function to retrieve the horizontal speed (in pixels per game frame) of the layer within the currently scoped room. You supply the layer ID (which you get when you create the layer using {}{}layer_create(){}{}) or the layer name (as a string - this will have a performance impact) and the function returns a real number for the horizontal speed, where a positive value is to the right and a negative value to the left. Default is 0 (unless set in the room editor).":"您可以使用此功能来检索当前范围房间内图层的水平速度(每游戏帧的像素数)。提供层 ID(使用{}{}layer_create(){}{}创建层时获得的 ID)或层名称(作为字符串，这将对性能产生影响)，并且该函数返回水平速度的实数，其中正值位于右侧，负值位于左侧。默认值为0(除非在房间编辑器中设置)。"
+}

@@ -1,0 +1,4 @@
+{
+    "The above code retrieves all the layers in a room and adds their ID values to an array. This array is then parsed to destroy or the room layers.":"上面的代码检索房间中的所有层，并将它们的ID值添加到数组中。然后解析此数组以销毁或房间层。",
+    "This function will return an {}array{} populated with the unique ID values of each layer in the room.":"此函数将返回一个{}数组{}，其中填充了房间中每个层的唯一ID值。"
+}

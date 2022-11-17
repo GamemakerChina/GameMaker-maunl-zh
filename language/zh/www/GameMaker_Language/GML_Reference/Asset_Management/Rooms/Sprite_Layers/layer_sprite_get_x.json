@@ -1,0 +1,5 @@
+{
+    "The above code will get the layer ID for the layer named \"sprite_sky\" and then use that to get the ID of the sprite element on that layer. This ID is then used to check the element x position and if it is less than 0, then the layer element is moved to a different x position.":"上面的代码将获取名为\"sprite_sky\"的层的层ID，然后使用该代码来获取该层上的sprite元素的ID。然后使用此 ID 检查元素 x 位置，如果它小于 0，则层元素移动到不同的 x 位置。",
+    "The unique ID value of the sprite element to get the information from":"获取信息的sprite元素的唯一ID值",
+    "This function can be used to get the x position of the sprite element in the room. You give the sprite element ID (which you get when you create a sprite element using {}{}layer_sprite_create(){}{} or when you use the function {}{}layer_sprite_get_id(){}{}), and the function will return the x position value.":"此函数可用于获取 sprite 元素在房间中的 x 位置。给定 sprite 元素 ID(使用{}{}layer_sprite_create(){}{}或使用函数{}{}layer_sprite_get_id(){}{}创建 sprite 元素时得到的 ID)，函数将返回 x 位置值。"
+}

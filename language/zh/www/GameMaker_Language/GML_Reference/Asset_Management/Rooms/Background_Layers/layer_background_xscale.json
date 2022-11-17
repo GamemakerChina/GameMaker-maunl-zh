@@ -1,0 +1,6 @@
+{
+    "The above code will get the layer ID for the layer named \"Background_water\" and then use that to get the ID of the background element on that layer. This ID is then used to change the element xscale.":"上面的代码将获取名为\"Background_water\"的层的层ID，然后使用该层来获取该层上的背景元素的ID。然后，此 ID 用于更改元素 xscale。",
+    "The scale value to use (1 is no scaling)":"要使用的标度值(1 为无缩放)",
+    "The unique ID value of the background element to change":"要更改的背景元素的唯一ID值",
+    "This function can be used to set the scale along the x-axis of a background element. You give the background element ID (which you get when you create a background element using {}{}layer_background_create(){}{}    or when you use the function {}{}layer_background_get_id(){}{}), and then set the scale value. The scale value you give is a multiplier that will be used to change the way the background element is displayed,\n    where a value of 0.5 would display the element at half scale, and a value of 2 would display at double scale. Note that negative values are valid, and will \"flip\" the element around the (0,0) position, so an x scale of -1 would show the\n    image reversed.":"此功能可用于设置沿背景元素的 x 轴的比例。给定背景元素 ID(当使用{}{}layer_background_create(){}{}创建背景元素时或使用函数{}{}layer_background_get_id(){}{}时获得)，然后设置比例值。您给出的比例值是一个乘数，用于更改背景元素的显示方式，\n其中，值0.5将显示半刻度的元素，数值2将以双刻度显示。请注意，负值是有效的，并将\"翻转\"元素围绕(0，0)位置，因此- 1的x标度将显示\n图像反转。"
+}

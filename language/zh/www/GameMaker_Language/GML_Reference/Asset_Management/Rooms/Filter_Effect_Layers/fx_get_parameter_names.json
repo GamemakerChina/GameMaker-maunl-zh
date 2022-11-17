@@ -1,0 +1,5 @@
+{
+    "The FX struct to get the parameter names of":"FX 结构用于获取参数名称",
+    "The above code retrieves the FX struct for a layer and gets its parameter names in an array. It then runs a {}for{} loop on that array and prints each parameter to the output log.":"上面的代码检索层的FX结构，并在数组中获取其参数名称。然后，它在该数组上运行{}for{}循环，并将每个参数打印到输出日志中。",
+    "This function is used to retrieve the names of all parameters present in a filter/effect. You specify the FX struct to read&nbsp;(as returned from {}{}fx_create(){}{} or {}{}layer_get_fx(){}{}) and&nbsp;the function returns an array containing the names of the filter\u0027s parameters as strings.":"此函数用于检索过滤器/效果中存在的所有参数的名称。指定要读取的 FX 结构(从{}{}fx_create(){}{}或{}{}layer_get_fx(){}{}返回)，并且该函数将返回一个数组，其中以字符串形式包含过滤器参数的名称。"
+}

@@ -1,0 +1,4 @@
+{
+    "The above code checks to see if the current instance\u0027s sprite bounding box is greater than the width of the room, and if it is it moves the instance up.":"上面的代码检查当前实例的Sprite边界框是否大于房间的宽度，如果是，则将实例向上移动。",
+    "This variable holds the width of the current room in pixels. You can change this variable to change the width of the room at any time.":"此变量以像素为单位保存当前房间的宽度。您可以随时更改此变量以更改房间的宽度。"
+}

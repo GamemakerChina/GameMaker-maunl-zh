@@ -1,0 +1,9 @@
+{
+    "A&nbsp;{}boolean{} value to enable ({}true{}) or disable ({}false{}) Single Layer Mode":"用于启用({}真{})或禁用({}假{})单层模式的{}布尔值{}",
+    "The FX struct to modify":"要修改的FX结构",
+    "The above code creates a new screenshake FX, enables Single Layer mode on it and then applies it to a room layer. This means that the screenshake filter will only be applied to the {}\"ShakeyThings\"{} layer.":"上面的代码创建一个新的屏幕交换FX，在它上启用单层模式，然后应用到房间层。这意味着屏幕切换过滤器将只应用于{}\"ShakeyThings\"{}层。",
+    "The following visual shows a filter being used with Single Layer mode disabled (which is the default behaviour for all FX layers) and the same filter with Single Layer mode enabled:":"下图显示了在禁用单层模式(这是所有FX层的默认行为)和启用单层模式时使用同一过滤器的过滤器：",
+    "This function is used to enable or disable \"Single Layer\" mode&nbsp;for a filter/effect. By default, a filter/effect is applied&nbsp;to the&nbsp;layer that it is {}assigned to{}&nbsp;and all layers below that layer, however you can enable Single Layer mode on an FX struct to make sure that it\u0027s only applied to the layer that it is assigned to.":"此功能用于启用或禁用滤镜/效果的\"单层\"模式。默认情况下，过滤器/效果将应用于{}指定给{}的层以及该层下的所有层，但是，您可以在FX结构上启用单层模式，以确保它仅应用于它指定给的层。",
+    "You specify&nbsp;an FX struct (as returned from {}{}fx_create(){}{} or {}{}layer_get_fx(){}{}) and a&nbsp;{}boolean{} value to enable ({}true{}) or disable ({}false{}) Single Layer mode.":"指定 FX 结构(从{}{}fx_create(){}{}或{}{}layer_get_fx(){}{}返回)和{}布尔{}值以启用({}true{})或禁用({}false{})单层模式。",
+    "{}NOTE{} When you enable Single Layer mode for an FX, make sure that you apply it to a layer that is not an {}FX layer{}, because an FX layer by itself contains nothing and so no filter/effect will be visible.":"{}注意{}为 FX 启用单层模式时，请确保将其应用于不是{}FX 层{}的层，因为 FX 层本身不包含任何内容，因此看不到过滤器/效果。"
+}

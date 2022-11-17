@@ -1,0 +1,5 @@
+{
+    "The above code checks to see if the variable \"lives\" is less than 1 and if it is it will restart the room.":"上面的代码检查变量\" lives \"是否小于1，如果小于1，它将重新启动房间。",
+    "This function will restart the current room, as if it had just been entered. Note that the room will not restart until the end of the event where the function was called, so any code after this has been called will still run if in the same event. This function will also trigger the {}Room End{} event.":"此功能将重新启动当前房间，就像刚刚进入一样。请注意，在调用函数的事件结束之前，房间不会重新启动，因此，如果在同一事件中，调用此函数之后的任何代码仍将运行。此函数还将触发{}房间结束{}事件。",
+    "{}NOTE{}&nbsp;You will not be able to create new instances in the same event after this function has been called.":"{}注意{}调用此函数后，您将无法在同一事件中创建新的实例。"
+}

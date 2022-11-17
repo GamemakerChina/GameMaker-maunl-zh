@@ -1,0 +1,6 @@
+{
+    "The function will return {}undefined{} if the provided extension name is invalid.":"如果提供的扩展名无效，函数将返回{}undefined{}。",
+    "The name of your extension asset as a string":"作为字符串的扩展资产的名称",
+    "This code gets the options struct for an extension and reads a value from it.":"此代码获取扩展的选项结构并从中读取值。",
+    "This function returns a struct containing all the {}options{}, and their values, for the extension with the given name.":"此函数返回一个结构，该结构包含具有给定名称的扩展的所有{}选项{}及其值。"
+}

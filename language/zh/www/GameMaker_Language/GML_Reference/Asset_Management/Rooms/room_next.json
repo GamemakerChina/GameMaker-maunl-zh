@@ -1,0 +1,5 @@
+{
+    "The above code will check to see if the next room exists and if so, it will go to it.":"上面的代码将检查下一个房间是否存在，如果存在，它将转到该房间。",
+    "The index of the room to get the next one after.":"获得下一个房间的索引后。",
+    "With this function you can retrieve the index of the room {}after{} the room input into the function. For example you can use the variable {}{}room{}{} to get the index of the current room and then use this function to find the room that follows it, as listed in the {}Room Manager{}. If there is no room after the one you input then -1 is returned.&nbsp;Note that this function will not recognise or take into consideration rooms that have been added dynamically using&nbsp;{}{}room_add(){}{}&nbsp;or&nbsp;{}{}room_duplicate(){}{}.":"使用此函数，可以在{}房间输入函数后检索房间{}的索引。例如，可以使用变量{}{}room{}{}获取当前房间的索引，然后使用此函数查找其后面的房间，如{}房间管理器{}中所列。 如果输入后没有空间，则返回-1。请注意，该函数不会识别或考虑使用{}{}room_add(){}{}或{}{}room_duplicate(){}{}动态添加的房间。"
+}

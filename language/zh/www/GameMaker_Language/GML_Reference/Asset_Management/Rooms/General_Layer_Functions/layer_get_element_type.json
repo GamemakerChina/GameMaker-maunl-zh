@@ -1,0 +1,14 @@
+{
+    "Layer Element Type Constant":"层元素类型常量",
+    "Note that this function is most useful when you have multiple different element types assigned to the one layer, and that you can get a list of all the elements on any given layer using the function {}{}layer_get_all_elements(){}{}.":"请注意，当有多个不同的元素类型分配给一个层时，此函数非常有用，并且可以使用函数{}{}layer_get_all_elements(){}{}获得任何给定层上所有元素的列表。",
+    "The above code gets the IDs for all the instance elements assigned to the layer of the instance running the code. The code then checks to see if any of the returned elements are sprite assets and if they then they are destroyed.":"上面的代码获取分配给运行代码的实例层的所有实例元素的ID.然后，代码检查是否有任何返回的元素是Sprite资产，如果有，则将其销毁。",
+    "The element is a background.":"元素是背景。",
+    "The element is a legacy background tile (this is only valid for projects that have been imported from previous versions of GameMaker).":"该元素是传统背景图块(这仅对从GameMaker以前版本导入的项目有效)。",
+    "The element is a particle system.":"该元素是一个粒子系统。",
+    "The element is a sequence asset.":"元素是序列资产。",
+    "The element is a sprite asset.":"该元素是\"精灵\"资源。",
+    "The element is a tilemap.":"该元素是一个TileMap.",
+    "The element is an instance.":"元素是一个实例。",
+    "The unique ID value of the element to get the type of":"要获取类型的元素的唯一ID值",
+    "You can use this function to get the {}element type{} for the given element. You supply the unique element ID value (for example, as returned the function that created the element or from the room editor) and the function will return one of the following constants (or -1 if the element does not exist or the ID value is erroneous):":"您可以使用此函数获取给定元素的{}元素类型{}。提供唯一的元素 ID 值(例如，如创建该元素的函数或从房间编辑器返回的函数)，该函数将返回以下常量之一(如果元素不存在或 ID 值错误，则返回 - 1)："
+}

@@ -1,0 +1,5 @@
+{
+    "The above code will get the layer ID for the layer named \"Background_sky\" and then use that to get the ID of the background element on that layer. This ID is then used to check the sprite assigned to the element, setting it to the sprite \"spr_Clouds\" if it is not already.":"上面的代码将获取名为\"Background_sky\"的层的层ID，然后使用该层来获取该层上的背景元素的ID。然后，此 ID 用于检查分配给元素的子画面，如果尚未设置，则将其设置为 sprite\" spr_Clouds\"。",
+    "The unique ID value of the background element to get the information from":"获取信息的背景元素的唯一ID值",
+    "This function can be used to get the current sprite index value of the background element. You give the background element ID (which you get when you create a background element using {}{}layer_background_create(){}{} or when you use the function {}{}layer_background_get_id(){}{}), and the function will return a real value that represents the sprite index being shown. If the element has no sprite assigned, the function will return -1.":"该函数可用于获取背景元素的当前sprite索引值。给定背景元素 ID(当使用{}{}layer_background_create(){}{}创建背景元素时或使用函数{}{}layer_background_get_id(){}{}时获得该 ID)，该函数将返回表示显示的 sprite 索引的真实值。如果元素没有指定sprite，则函数将返回-1。"
+}

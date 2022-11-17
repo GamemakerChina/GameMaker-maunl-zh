@@ -1,0 +1,6 @@
+{
+    "The above code checks for a mouse button press and if one is detected it will toggle the background visibility of the background element assigned to the layer the instance running the code is on.":"上述代码检查是否按下鼠标按钮，如果检测到鼠标按钮按下，它将切换分配给运行代码的实例所在的层的背景元素的背景可见性。",
+    "The unique ID value of the background element to change":"要更改的背景元素的唯一ID值",
+    "The visibility toggle, which can be {}true{} or {}false{}":"可见性切换，可以是{}真{}或{}假{}",
+    "Using this function you can toggle a background elements visibility. You supply the background element ID (which you get when you create a background element using {}{}layer_background_create(){}{} or when you use the function {}{}layer_background_get_id(){}{}), and then set the visible argument to {}true{} or {}false{}. When set to {}true{} the element will be displayed, and when set to {}false{}, the element will not be displayed. Note that this is dependent on the layer visibility, and even if the background element is flagged as visible, it will not be drawn if the layer it is on is flagged as not visible.":"使用此函数可以切换背景元素可见性。提供背景元素 ID(当使用{}{}layer_background_create(){}{}创建背景元素时或使用函数{}{}layer_background_get_id(){}{}时获得)，然后将可见参数设置为{}true{}或{}false{}。 当设置为{}true{}时，将显示元素，当设置为{}false{}时，将不显示该元素。请注意，这取决于层可见性，即使背景元素被标记为可见，如果其上的层被标记为不可见，也不会绘制背景元素。"
+}
