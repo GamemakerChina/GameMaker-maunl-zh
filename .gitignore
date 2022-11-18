@@ -2,3 +2,5 @@ GMS2-Robohelp-en/*
 build/*
 token.struct
 hotkey.struct
+node_modules
+package-lock.json

@@ -1,0 +1,18 @@
+{
+  "name": "gamemaker-manual-export",
+  "version": "1.0.0",
+  "description": "Export translated to manual",
+  "main": "importManual.js",
+  "author": "LiarOnce",
+  "license": "MIT",
+  "scripts": {
+    "start:all": "node deleteTempJSON.js && node importManual.js && node importTOC.js",
+    "clean:json": "node deleteTempJSON.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "glob": "^8.0.3",
+    "js-beautify": "^1.14.7",
+    "readline": "^1.3.0"
+  }
+}
