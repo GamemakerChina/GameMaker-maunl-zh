@@ -1,0 +1,6 @@
+{
+    "The above code checks all instances of \"obj_Pieces\" to see if they are snapped to a grid of 32x32 pixels, and if they are not it snaps them to the nearest position in that grid.":"上述代码检查\"obj_Pieces\"的所有实例，以查看它们是否捕捉到32 x 32像素的网格，如果它们不捕捉，则将它们捕捉到该网格中最近的位置。",
+    "The horizontal snapping to check.":"要检查的水平捕捉。",
+    "The vertical snapping to check.":"要检查的垂直捕捉。",
+    "With this function you can check and see if the origin of an instance (its x and y position) is aligned to a grid with the hsnap and vsnap values specified by you.":"使用此函数，您可以检查并查看实例的原点(其x和y位置)是否与具有您指定的hsnap和vsnap值的栅格对齐。"
+}

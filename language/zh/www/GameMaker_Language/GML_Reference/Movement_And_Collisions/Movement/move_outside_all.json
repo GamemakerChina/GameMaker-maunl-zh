@@ -1,0 +1,6 @@
+{
+    "The above code will move the instance up 1 pixel each step that it is in collision with any other instance.":"上述代码将实例与任何其他实例碰撞的每一步向上移动1个像素。",
+    "The direction to move in.":"移入的方向。",
+    "The maximum distance the object can travel (-1 or 0 a default value of 1000 pixels).":"对象可以移动的最大距离(默认值为1000像素-1或0)。",
+    "With this function you can tell an instance to move out of a collision in any direction and any number of pixels each step, with a value of -1 or 0 for the maxdist being a default 1000px, ie: {}GameMaker{} will move the instance continually up 1000 pixels until it is out of collision.":"使用此函数，您可以告诉实例沿任意方向和每个步骤的任意数量的像素移出碰撞，maxdist的值为-1或0是默认的1000 px，即：{}GameMaker{}将继续向上移动实例1000像素，直到它脱离冲突。"
+}

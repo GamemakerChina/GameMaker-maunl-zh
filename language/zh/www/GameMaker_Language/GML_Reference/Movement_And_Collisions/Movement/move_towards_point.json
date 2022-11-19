@@ -1,0 +1,8 @@
+{
+    "The above code will move the instance towards the position of the instance indexed in the variable \"target\" at a speed of 5 pixels per step. Once it reaches that position the speed is set to 0.":"上述代码将以每步5个像素的速度将实例移动到变量\"目标\"中索引的实例的位置。一旦到达该位置，速度设置为0。",
+    "The speed to move at in pixels per step.":"以每步像素为单位的移动速度。",
+    "The x position of the point to move towards.":"朝向移动的点的x位置。",
+    "The y position of the point to move towards.":"要移向的点的y位置。",
+    "This function simply tells the instance running the code to move towards a set point at a set speed. Bear in mind that it is up to you to tell it what to do once it gets there, as it won\u0027t just stop by itself. This means that you can get a \"vibrating\" instance as it moves (for example) 3 pixels forward, overshoots the x/y target position by 2, then moves 3 pixels back again, overshooting the target point by one and so on... There are a number of ways that this can be avoided, for example using {}{}distance_to_point(){}{} to see how far from the specified location the instance is before moving.":"此函数只是告诉运行代码的实例以设定的速度向设定点移动。请记住，一旦它到达那里，你就要告诉它该怎么做，因为它不会自己停下来。这意味着，当它向前移动(例如)3个像素时，您可以获得\"振动\"实例，将x/y目标位置过冲2个像素，然后再次向后移动3个像素，将目标点过冲1个像素，依此类推。可以通过多种方法避免这种情况，例如，在移动之前，使用{}{}distance_to_point(){}{}查看实例离指定位置有多远。",
+    "{}NOTE{}: this function sets the speed of the instance, so even if you stop using this code, the instance will keep moving in the previous direction, so it is necessary to set the instance {}{}speed{}{} to 0 if you wish it to stop. See the code example below.":"{}注意{}：此函数设置实例的速度，因此即使停止使用此代码，实例也将继续沿前一个方向移动，因此如果希望实例停止，必须将实例{}{}speed{}{}设置为0。请参见下面的代码示例。"
+}

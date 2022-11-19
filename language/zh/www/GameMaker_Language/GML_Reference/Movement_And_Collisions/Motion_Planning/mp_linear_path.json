@@ -1,0 +1,10 @@
+{
+    "The index of the path to be used.":"要使用的路径的索引。",
+    "The speed the instance moves in pixels per step.":"实例每步移动的速度(以像素为单位)。",
+    "The target x position.":"目标x位置。",
+    "The target y position.":"目标y位置。",
+    "This function computes a straight line path from the current instance position to the point specified by the \"xgoal\" and \"ygoal\" values. It uses the indicated step size, the same as in the function {}{}mp_linear_step(){}{}. The indicated path must already exist and will be overwritten by the new path and the function will return if a complete path was found (true) or not (false). If false is returned then a path is still generated, but it will only run up to the position where the path was blocked.":"此函数计算从当前实例位置到\"xgoal\"和\"ygoal\"值指定的点的直线路径。它使用指定的步骤大小，与函数{}{}mp_linear_step(){}{}中的大小相同。指定的路径必须已经存在，并且将被新路径覆盖，如果找到完整路径(true)或未找到完整路径(false)，则函数将返回。如果返回false，则仍会生成路径，但只会运行到路径被阻止的位置。",
+    "This gets the object to check and see if there is a linear path from its current position to the position of \"obj_Player\". If there is then it starts the path.":"这将获取要检查的对象，并查看从其当前位置到\"obj_Player\"位置是否存在线性路径。如果存在，则路径由它开始。",
+    "Whether to check for collisions with all instances (true) or just solid ones (false).":"是检查所有实例的碰撞(true)还是仅检查实例的碰撞(false)。",
+    "{}NOTE{}: This function does not move the instance. It sets a path only, and you must use the {}Path{} functions for movement.":"{}注意{}:此函数不会移动实例。它只设置路径，您必须使用{}Path{}函数进行移动。"
+}

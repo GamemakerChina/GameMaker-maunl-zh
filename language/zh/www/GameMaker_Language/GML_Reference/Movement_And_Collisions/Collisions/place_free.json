@@ -1,0 +1,8 @@
+{
+    "Note that the given x/y coordinates will be floored to the nearest integer before the check is performed.":"请注意，在执行检查之前，给定的x/y坐标将泛洪到最近的整数。",
+    "The above code will check for a collision with any solid flagged instance if the calling instance were to be placed at the same position as the mouse. If there is no collision detected, then the instance has its x/y coordinates set to those of the mouse.":"如果要将调用实例放置在与鼠标相同的位置，则上述代码将检查是否与任何实体标记的实例发生冲突。如果未检测到碰撞，则将实例的x/y坐标设置为鼠标的坐标。",
+    "The function itself basically works by taking the instance and testing for collisions with only solid flagged instances when placed at the position specified by the x/y arguments. The collision checking can be either precise or based on the bounding box of the instance, depending on what kind of collision mask has been selected.":"当放置在x/y参数指定的位置时，该函数本身基本上通过获取实例并测试仅具有实体标记实例的碰撞来工作。碰撞检查可以是精确的，也可以基于实例的边界框，具体取决于选择了哪种碰撞遮罩。",
+    "The x position to check.":"要检查的x位置。",
+    "The y position to check.":"要检查的y位置。",
+    "You can use this function to check and see if the calling instance would collide with any instance {}flagged as {}solid{}{} in your game. Now, it should be noted that for this to work, the instance running the code must have a valid collision mask (either for the sprite itself, or through the {}{}mask_index{}{}) and it will only register collisions with those solid flagged instances that also have a valid mask.":"您可以使用此函数检查调用实例是否会与游戏中标记为{}固体{}{}的任何实例{}发生冲突。现在，需要注意的是，运行代码的实例必须具有有效的冲突掩码(对于sprite本身，或者通过{}{}mask_index{}{})，并且它只会注册与那些也具有有效掩码的实体标记实例的冲突。"
+}

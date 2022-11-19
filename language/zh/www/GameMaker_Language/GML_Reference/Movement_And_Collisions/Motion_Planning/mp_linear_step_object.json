@@ -1,0 +1,8 @@
+{
+    "The above code will make the object move towards the mouse at a speed of 5 pixels per step, only checking for collisions with the object \"obj_Wall\". Once it reaches the mouse position it will create an object \"obj_Explosion\" and destroy itself.":"上述代码将使对象以每步5像素的速度向鼠标移动，仅检查是否与对象\"obj_Wall\"发生碰撞。一旦到达鼠标位置，它将创建一个对象\"obj_Explosion\"并自行销毁。",
+    "The object that is to block the path. Can be an object index, an instance id or the special keyword, {}all{}":"要阻止路径的对象。可以是对象索引、实例ID或特殊关键字，{}全部{}",
+    "The speed the instance moves in pixels per step.":"实例每步移动的速度(以像素为单位)。",
+    "The target x position.":"目标x位置。",
+    "The target y position.":"目标y位置。",
+    "With this function you tell an instance to take a \"step\" towards a specific point, specified by the xgoal and ygoal values. The size of the step (which is how many pixels the instance should move each step) is indicated by the stepsize, and if the instance is already at the position it will stop and not move any further, contrary to other, simpler functions like {}{}move_towards_point(){}{}. The stepsize is also the distance \"ahead\" that the object will check each step for a collision, and you can choose whether the instance stops at a collision with an object or instance of your choice.":"使用此函数，您可以告诉实例朝向由xgoal和ygoal值指定的特定点采取\"步骤\"。步骤的大小(即实例每个步骤应移动的像素数)由步骤大小指示，如果实例已经位于该位置，则它将停止而不再继续移动，这与其他更简单的函数相反，如{}{}move_towards_point(){}{}。步骤大小也是对象将检查每个步骤是否存在冲突的\"前方\"距离，您可以选择实例是在与您选择的对象或实例发生冲突时停止。"
+}

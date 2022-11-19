@@ -1,0 +1,11 @@
+{
+    "Any asset from the Asset Browser that has been changed at run time within the game - for example if you change the origin for a sprite resource or shift the position of a path resource - will {}not{} be reset.":"资源浏览器中在游戏中运行时更改的任何资源(例如，如果更改精灵资源的原点或移动路径资源的位置)将不会{}重置。",
+    "Dynamic resources like buffers, surfaces, data-structures or imported sprites will also not be cleaned up or removed (although you may lose references to them, so take care when using this function to either use global references for the dynamic resource, or to clean them up before the function is called).":"动态资源(如缓冲区、曲面、数据结构或导入的精灵)也不会被清理或删除(尽管您可能会丢失对它们的引用，因此在使用此函数时，请注意要么对动态资源使用全局引用，要么在调用此函数之前清理它们)。",
+    "Global variables will not be re-initialised unless explicitly coded as such - for example, the built-in global variable {}score{} will not start at zero after a game restart if it has been modified in the game already.":"除非明确编码为全局变量，否则不会重新初始化全局变量-例如，内置全局变量{}score{}在游戏重新启动后不会从零开始，如果它已在游戏中修改。",
+    "It should be noted that certain things will {}not{} be reset when this function is called:":"应该注意，调用此函数时，某些事项不会{}重置：",
+    "The GPU state will not be changed (so if you have set the draw colour or alpha, for example, it will remain at the changed value).":"GPU 状态不会改变(因此，例如，如果您设置了绘制颜色或 Alpha，它将保持更改后的值)。",
+    "The game speed will remain at whatever you set it in your game code (if you changed it this change will be perpetuated).":"game_speed将保持您在游戏代码中设置的任何值(如果您对其进行了更改，则此更改将永久生效)。",
+    "This would restart the game when the player presses the \"R\" key.":"这将在玩家按下\"R\"键时重新启动游戏。",
+    "With this function you can restart the game. This is essentially the same as running the game for the first time and so the {}Game Start Event{} will be triggered, {}as well as{} the {}Game End Event{}.":"使用此功能，您可以重新启动游戏。这与首次运行游戏基本相同，因此将触发{}游戏开始事件{}、{}以及{}游戏结束事件{}。",
+    "{}NOTE{}&nbsp;You will not be able to create new instances in the same event after this function has been called.":"{}注意{}调用此函数后，将无法在同一事件中创建新实例。"
+}

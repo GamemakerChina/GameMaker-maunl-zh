@@ -1,0 +1,9 @@
+{
+    "The above code uses the {}point_in_circle{} function to check if the mouse position falls within the defined circular area, setting the variable \"over\" to {}true{} if it does, or {}false{} otherwise.":"以上代码使用{}point_in_circle{}函数检查鼠标位置是否落在定义的圆形区域内，如果是，则将变量over\"设置为{}真{}，否则设置为{}假{}。",
+    "The radius of the circle.":"圆的半径。",
+    "The x coordinate of the circle centre.":"圆心的x坐标。",
+    "The x coordinate of the point to check.":"要检查的点的x坐标。",
+    "The y coordinate of the circle centre.":"圆心的y坐标。",
+    "The y coordinate of the point to check.":"要检查的点的y坐标。",
+    "When using this function, you define a circular area and {}GameMaker{} will work out whether the given point falls within its bounds or not. If the point falls within the defined circle the function will return {}true{} otherwise the function will return {}false{}.":"使用此函数时，定义一个圆形区域，{}GameMaker{}将确定给定点是否在其范围内。如果点落在定义的圆内，则函数将返回{}true{}，否则函数将返回{}false{}。"
+}
