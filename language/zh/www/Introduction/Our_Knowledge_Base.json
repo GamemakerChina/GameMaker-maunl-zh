@@ -1,0 +1,14 @@
+{
+    "Accounts":"帐户",
+    "Education":"教育",
+    "Free Licence":"免费许可",
+    "GameMaker Knowledge Base":"GameMaker知识库",
+    "GameMaker Marketplace":"GameMaker 市场",
+    "Introduction To {}GameMaker{}":"{}GameMaker 简介{}",
+    "Our Knowledge Base":"我们的知识库",
+    "Our Social Links":"我们的社交链接",
+    "Required SDKs":"所需的 SDK",
+    "The {}GameMaker{} manual that you are reading now has all the information that you need to use the product and start making games. However,&nbsp;it does not include information on setting up for the various different platforms that {}GameMaker{} can make games for, nor does it include any guides or help for the various extensions that are available to extend functionality for some platforms.&nbsp;It also doesn\u0027t contain any last-minute information that may be relevant to the product or to specific platforms that hasn\u0027t been able to be included in this manual. However, all this information and more is available from the {}GameMaker{}{}{}&nbsp;{}Knowledge Base{}&nbsp;and below you can find links to various sections of the website that you may find useful:":"您现在正在阅读的 GameMaker 手册中包含了使用该产品并开始制作游戏所需的所有信息。但是，它并没有包含为各种不同的平台设置游戏的信息，也没有包含为某些平台扩展功能的各种扩展的指南或帮助。它也不包含任何可能与产品相关的最后一分钟的信息，也不包含任何尚未包含在本手册中的特定平台的信息。但是，所有这些信息以及更多的信息都可以在{} GameMaker {}{}{}{}知识库{}和下面的链接中找到，这些链接可以指向网站的各个部分，你可能会发现这些部分很有用:",
+    "Which Licence Is Right For Me?":"哪个许可适合我？",
+    "{}GameMaker{}":""
+}
