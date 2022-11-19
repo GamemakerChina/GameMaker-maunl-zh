@@ -1,0 +1,5 @@
+{
+    "The above code will get the red component of the colour constant \"c_teal\" and store the value in the variable \"r_comp\".":"上述代码将获得颜色常量\"c_teal\"的红色分量，并将该值存储在变量\"r_com\"中。",
+    "The colour to check":"要检查的颜色",
+    "This function returns the amount of red used to make the given colour, with the value being between 0 and 255, where 0 is no red and 255 is all red. The following image illustrates this:":"此函数返回用于生成给定颜色的红色量，该值介于0和255之间，其中0表示无红色，255表示全部为红色。下图说明了这一点："
+}

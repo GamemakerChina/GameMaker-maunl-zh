@@ -1,0 +1,16 @@
+{
+    "For blending images using special {}blend modes{} and other GPU specific functions, see the section on the {}GPU Control{}.":"有关使用特殊{}混合模式{}和其他Gpu特定功能混合图像的信息，请参阅{}Gpu控件{}一节。",
+    "Functions":"函数",
+    "Here,&nbsp;{}FF{} is the blue component, {}CC{} is the green component and {}11{} is the red component.":"此处，{}F{}是蓝色分量，{}Cc{}是绿色分量，{}11{}是红色分量。",
+    "Hex Colours":"十六进制颜色",
+    "The following functions can be used to get the component hues, compound hue, saturation and luminosity of a selected colour as well as the alpha and other properties:":"以下函数可用于获取选定颜色的分量色调、复合色调、饱和度和亮度，以及Alpha和其他属性：",
+    "The following functions can be used to set the various different options for drawing to the screen, including alpha, colour and blending:":"以下功能可用于设置各种不同的绘制到屏幕的选项，包括Alpha、颜色和混合：",
+    "There are also a number of constants that can be used as base colours in these (and other) functions:":"还有许多常量可用作这些(和其他)函数的基色：",
+    "These functions can be used to create colours from raw input values for colour components:":"这些函数可用于从颜色分量的原始输入值创建颜色：",
+    "This is the same colour as shown in the previous code block, only the {}RR{} and {}BB{} values are swapped to match the format.":"此颜色与上一个代码块中显示的颜色相同，只有{}Rr{}和{}Bb{}值被交换以匹配格式。",
+    "You can also use \"CSS colours\" that begin with a hash/pound sign ({}#{}). This uses a {}Red{}/{}Green{}/{}Blue{} format (or {}#RRGGBB{}) which is more widely used and is compatible with various other applications.":"您还可以使用以哈希/磅符号({}#{})开头的\"Css color\"。这将使用{}红{}/{}绿{}/{}蓝{}格式(或{}# Rrggbb{})，该格式使用的范围更广，并且与各种其他应用程序兼容。",
+    "You can create colours from hexadecimal values using the {}${} symbol beforehand, and these values can also be used with various colour functions to get component values separately. The hexadecimal value for a colour is split into three parts, with the format being:&nbsp;{}Blue{}/{}Green{}/{}Red{} (or {}$BBGGRR{}), so, for example, to define a light blue/aqua colour you could use:":"您可以事先使用{}${}符号从十六进制值创建颜色，这些值也可以与各种颜色函数一起使用，以分别获取分量值。颜色的十六进制值分为三部分，格式为：{}蓝色{}/{}绿色{}/{}红色{}(或{}$ Bbggrr{})，例如，要定义浅蓝色/浅蓝色，您可以使用：",
+    "{}GameMaker{} has a comprehensive selection of functions to manipulate the colour and alpha of what is drawn on the screen. Using these functions you can separate colours into their component parts, create new colours and manipulate the draw alpha to change how different things in your game are drawn together.":"{}GameMaker{}具有全面的功能选项，可以操纵屏幕上绘制内容的颜色和Alpha。使用这些功能，您可以将颜色分成各自的组成部分，创建新颜色并操纵绘制Alpha以更改游戏中的不同内容的绘制方式。",
+    "{}NOTE{}&nbsp;GML also supports the {}$AABBGGRR{} format (with the alpha hex value in the beginning) however most GML colour functions will only be able to make use of the colour part and ignore the alpha.":"{}注意{}Gml还支持{}$ Aabbggrr{}格式(开头带有Alpha十六进制值)，但是大多数Gml颜色函数只能使用颜色部分而忽略Alpha。",
+    "{}{}IMPORTANT{}{}&nbsp;Avoid using hex codes (starting with {}${} or {}#{}) after an opening bracket&nbsp;{}[{}, as GameMaker might interpret that as an&nbsp;{}accessor{}.":"{}{}重要信息{}{}避免在左括号{}[{}后使用十六进制代码(以{}${}或{}#{}开头)，因为GameMaker可能会将其解释为{}访问器{}。"
+}

@@ -1,0 +1,4 @@
+{
+    "The above code stores the current draw colour into a local variable, and changes the draw colour&nbsp;based on an instance variable. After drawing some text, it resets the colour back to the value stored in the local variable.":"上述代码将当前绘图颜色存储到局部变量中，并根据实例变量更改绘图颜色。绘制某些文本后，它会将颜色重置为存储在局部变量中的值。",
+    "This function returns the current draw colour which is used for drawing forms, text, primitives and un-textured 3D models. This can be set with the {}{}draw_set_colour(){}{} function.":"此函数返回当前绘图颜色，该颜色用于绘图形式、文本、基本体和未纹理的3D模型。这可以使用{}{}draw_set_colour(){}{}函数进行设置。"
+}
