@@ -50,14 +50,10 @@ glob(manual_directory_toc + "toc*.new.js", {}, (err, files) => {
             if (fs.existsSync(toc_write_json)) {
                 let toc_json = require(toc_write_json)
                 for (let j = 0; j < toc_json.length; j++) {
-                    if (json_global[toc_json[j].name]) {
-                        if (toc_json[j].name !== json_global[toc_json[j].name]) {
-                            toc_json[j].name = json_global[toc_json[j].name]
-                        }
-                    }
-                    if (json_global_no_transferred[toc_json[j].name]) {
-                        if (toc_json[j].name !== json_global_no_transferred[toc_json[j].name]) {
-                            toc_json[j].name = json_global_no_transferred[toc_json[j].name]
+                    // 匹配到转义字符
+                    if (json_global[toc_json[j].name.replace("&", "&amp;")]) {
+                        if (toc_json[j].name !== json_global[toc_json[j].name.replace("&", "&amp;")]) {
+                            toc_json[j].name = json_global[toc_json[j].name.replace("&", "&amp;")].replace("&amp;", "&")
                         }
                     }
                 }
