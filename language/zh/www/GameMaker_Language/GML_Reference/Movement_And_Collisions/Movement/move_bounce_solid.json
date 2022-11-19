@@ -1,0 +1,5 @@
+{
+    "This will enable non-precise bouncing off instances flagged as \"solid\".":"这将启用对标记为\"实体\"的实例的非精确反弹。",
+    "Whether to enable advanced bouncing (true) or not (false).":"是否启用高级退回(true)或否(false)。",
+    "With this function you can command an instance to bounce off only those instances marked as {}solid{} within the room. You can also tell it to use precise collision checking when enabled, but be aware that this requires all instances to have precise\n    masks enabled and will greatly slow down your game when many instances are involved due to the amount of processing that has to be done. This should normally go in the step event of an instance, but can be used selectively in a collision event too.":"使用此函数，您可以命令实例仅从房间内标记为{}实体{}的实例中反弹。您还可以告诉它在启用时使用精确的碰撞检查，但请注意，这需要所有实例都具有精确的\n掩码已启用，并且由于必须进行大量处理，当涉及到许多实例时，会大大降低游戏速度。这通常应该在实例的步进事件中进行，但也可以在碰撞事件中选择性地使用。"
+}

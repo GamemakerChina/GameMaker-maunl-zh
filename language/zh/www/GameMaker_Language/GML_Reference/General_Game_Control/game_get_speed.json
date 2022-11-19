@@ -1,0 +1,9 @@
+{
+    "Game Speed Constant":"游戏速度常数",
+    "Gets the game speed using frames per second.":"使用每秒帧数获取游戏速度。",
+    "Gets the game speed using microseconds per frame.":"使用每帧的微秒获取游戏速度。",
+    "So, for example, if the game speed is set at 30 in the Game Options and you use the FPS type, then the function will return 30, but if you use the MPF then the function will return 33333.":"因此，例如，如果在\"游戏选项\"中将游戏速度设置为30，并且您使用Fps类型，则该函数将返回30，但如果您使用Mpf，则该函数将返回3333。",
+    "The above code checks to see if the game is running with a game speed of 60 FPS and if not it is set to 60 FPS.":"以上代码检查游戏是否以60 Fps的游戏速度运行，如果不是，则设置为60 Fps。",
+    "The type of method used to get the game speed (see the constants above).":"用于获取游戏速度的方法类型(参见上面的常量)。",
+    "This function can be used to get the game speed as either the number of game frames to run per second or as the number of micro seconds per game frame. Note that this is {}not{} the actual running speed FPS value (for that use the {}{}fps_real{}{}&nbsp;variable) but rather the number of game frames (FPS) that the game will attempt to maintain each second, or the length of each game frame in microseconds that the game will try to maintain (MPF). When you use this function you need to give one of the following constants which will determine the type of the return value:":"该函数可用于获取游戏速度，既可以是每秒运行的游戏帧数，也可以是每个游戏帧的微秒数。请注意，这{}不是{}实际运行速度Fps值(对于该值，使用{}{}fps_real{}{}变量)，而是游戏将尝试保持每秒的游戏帧数(Fps)，或者游戏将尝试保持的每个游戏帧的长度(以微秒为单位)(Mpf)。使用此函数时，需要给出以下常量之一，以确定返回值的类型："
+}

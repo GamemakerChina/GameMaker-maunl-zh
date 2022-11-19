@@ -1,0 +1,6 @@
+{
+    "The x coordinate of where to destroy colliding instances.":"销毁碰撞实例的位置的x坐标。",
+    "The y coordinate of where to destroy colliding instances.":"销毁碰撞实例的位置的y坐标。",
+    "This function simply destroys all instances that are found to be in collision with the specified position. Collisions are based on the mask of the instances, and if any part of the mask over-laps with the target point it then the function will destroy that instance. Instances destroyed in this way will trigger their {}Destroy{} and {}Clean Up{} events.":"此函数只是销毁发现与指定位置冲突的所有实例。冲突基于实例的掩码，如果掩码的任何部分与目标点重叠，则函数将销毁该实例。以这种方式销毁的实例将触发其{}销毁{}和{}清理{}事件。",
+    "This will destroy all instances that collide with the position of the mouse cursor when the left mouse button is pressed.":"这将在按下鼠标左键时销毁与鼠标光标位置碰撞的所有实例。"
+}

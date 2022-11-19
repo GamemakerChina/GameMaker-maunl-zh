@@ -1,0 +1,8 @@
+{
+    "If you wish to simply set a speed instead of accelerating gradually, use&nbsp;{}{}motion_set(){}{}.":"如果要简单地设置速度而不是逐渐加速，请使用{}{}motion_set(){}{}。",
+    "The above code would be called in the collision event with another object. It adds to the direction of motion and the speed of the instance a vector based on the position and speed of the other instance involved in the collision. It then limits the speed if it goes over 8 (pixels per step).":"在与另一个对象的碰撞事件中将调用上述代码。它根据碰撞中涉及的其他实例的位置和速度向实例的运动方向和速度添加向量。如果速度超过8(每步像素数)，它就会限制速度。",
+    "The added direction.":"增加的方向。",
+    "The added speed.":"增加的速度。",
+    "This function accelerates the instance with the given speed in the given direction.&nbsp;":"此函数在给定方向上以给定速度加速实例。",
+    "This is the equivalent of calculating the {}x component{} and {}y component{} of the given speed in the given direction, and then adding them to {}{}hspeed{}{} and {}{}vspeed{}{} respectively.":"这相当于计算给定方向上给定速度的{}x分量{}和{}y分量{}，然后将它们分别添加到{}{}hspeed{}{}和{}{}vspeed{}{}。"
+}

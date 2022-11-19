@@ -1,0 +1,7 @@
+{
+    "The above code checks for the left mouse button, and if it is pressed it checks the mouse x/y position for a collision with any instance. If there is none, then an instance of \"obj_Wall\" is created.":"上面的代码检查鼠标左键，如果按下它，将检查鼠标x/y位置是否与任何实例发生冲突。如果没有，则创建\"obj_Wall\"的实例。",
+    "The object (or instance id, or the keywords \"all\" or \"other\") to check for a collision with.":"要检查是否与之冲突的对象(或实例ID，或关键字\"all\"或\"other\")。",
+    "The x position to check.":"要检查的x位置。",
+    "The y position to check.":"要检查的y位置。",
+    "With this function you can check a position for a collision with another instance or all instances of an object. When you use this you are checking a single point in the room for an instance or an object. This check will be done against the bounding box of the instance or against the mask of the instance if that instance has precise collisions checked. If you need to get the unique instance {}{}id{}{} if the object being collided with you should use {}{}instance_position(){}{}. This function also accepts the special {}keywords{} {}all{} and {}other{}.":"使用此函数，可以检查某个位置是否与另一个实例或对象的所有实例发生碰撞。使用此选项时，将检查房间中某个实例或对象的单个点。将针对实例的边界框执行此检查，或者针对实例的遮罩执行此检查(如果该实例已选中精确碰撞)。如果需要获取唯一实例{}{}id{}{}(如果要与其冲突的对象发生冲突)，则应使用{}{}instance_position(){}{}。此函数还接受特殊{}关键字{}{}all{}和{}other{}。"
+}

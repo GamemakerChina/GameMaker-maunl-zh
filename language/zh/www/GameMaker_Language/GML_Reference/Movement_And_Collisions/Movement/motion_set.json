@@ -1,0 +1,6 @@
+{
+    "The new direction.":"新的方向。",
+    "The new speed.`":"新的速度。",
+    "This above code will make the instance change speed and direction at random intervals.":"上述代码将使实例以随机间隔更改速度和方向。",
+    "This function sets a new direction of movement and a new speed to the instance running the code. Note that this {}does not{} add to the instances current speed and direction (for that you would use {}{}motion_add(){}{}) but rather forces it to the new settings.":"此函数为运行代码的实例设置新的移动方向和新的速度。请注意，此{}不会将{}添加到实例的当前速度和方向(因为您将使用{}{}motion_add(){}{})，而是将其强制添加到新设置。"
+}

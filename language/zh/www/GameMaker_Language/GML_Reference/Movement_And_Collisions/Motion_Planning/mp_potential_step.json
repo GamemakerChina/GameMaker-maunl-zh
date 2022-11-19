@@ -1,0 +1,8 @@
+{
+    "The above code first checks to see if there are any instances of \"obj_Enemy\" in the room. If there are it then finds the nearest one and stores its id in a variable. This variable is then used to tell {}mp_potential_step{} to move the instance with the code towards the x/y position of the object that was found at a speed of 5 pixels per step while avoiding only instances flagged as solid.":"上述代码首先检查房间中是否存在\"obj_Enemy\"的实例。如果存在，则找到最近的一个并将其ID存储在变量中。然后使用此变量指示{}mp_potential_step{}将带有代码的实例移动到以每步5像素的速度发现的对象的x/y位置，同时避免仅标记为实体的实例。",
+    "The speed the instance moves in pixels per step.":"实例每步移动的速度(以像素为单位)。",
+    "The target x position.":"目标x位置。",
+    "The target y position.":"目标y位置。",
+    "This function lets the instance take a step towards a particular position defined by xgoal/ygoal, all the while trying to avoid obstacles. When the instance would run into a solid instance (or any instance when checkall is true) it will change the direction of motion to try to avoid that instance and move around it. This approach is not guaranteed to work but in most easy cases it will effectively move the instance towards the goal. The function returns whether the goal was reached or not.":"此函数允许实例向由xgoal/ygoal定义的特定位置迈进一步，同时尽量避免障碍。如果实例将运行到实体实例(或任何检查全部为真时的实例)中，则会更改运动方向，以尝试避开该实例并绕其移动。这种方法不能保证有效，但在最简单的情况下，它会有效地将实例推向目标。该函数返回是否达到目标。",
+    "Whether to check all instances (true) or just solid ones (false).":"是检查所有实例(真)还是只检查实例(假)。"
+}

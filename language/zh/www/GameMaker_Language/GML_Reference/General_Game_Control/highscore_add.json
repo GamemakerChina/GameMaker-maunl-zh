@@ -1,0 +1,6 @@
+{
+    "The above code will check the lives and if they are set to 0, it will add the current score and the string held in the global variable \"Name\" into the high score list, before finally setting the score to 0 and sending the player to the room indexed in \"rm_MainMenu\".":"上述代码将检查生活，如果设置为0，则会将当前分数和全局变量\"Name\"中保留的字符串添加到高分列表中，然后最终将分数设置为0，并将播放器发送到rm_MainMenu中索引的房间。",
+    "The number (score) to add.":"要加的数字(分数)。",
+    "The string (name) to attribute the score to.":"要将分数归属到的字符串(名称)。",
+    "With this function you can add a name and a score to the internal global high score list. There is no need to check the value to see if it is high enough to enter into the score list as {}GameMaker{} will only store those values that are greater than the tenth position stored.":"使用此功能，您可以将名称和分数添加到内部全局高分列表中。无需检查该值是否足够高，即可进入分数列表，因为{}GameMaker{}只会存储那些大于存储的第十位的值。"
+}

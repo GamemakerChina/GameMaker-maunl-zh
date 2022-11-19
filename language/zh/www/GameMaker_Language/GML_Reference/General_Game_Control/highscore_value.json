@@ -1,0 +1,5 @@
+{
+    "The above code will loop through the high score list and store all the scores in an array.":"以上代码将循环浏览高分列表，并将所有分数存储在一个数组中。",
+    "The place on the table (1-10).":"桌上的位置(1-10 )。",
+    "With this function you can retrieve the score value that has been stored in the high score list at the given position. If no score has been entered, the function will return 0.":"使用此函数，您可以检索已存储在给定位置的高分列表中的分数值。如果未输入分数，则函数将返回0。"
+}

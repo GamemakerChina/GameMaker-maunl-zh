@@ -1,0 +1,6 @@
+{
+    "The above code checks all instances of \"obj_Pieces\" to see if they are snapped to a grid of 32x32 pixels, and if they are not it snaps them to the nearest position in that grid.":"上述代码检查\"obj_Pieces\"的所有实例，以查看它们是否捕捉到32 x 32像素的网格，如果它们不捕捉，则将它们捕捉到该网格中最近的位置。",
+    "The horizontal snapping (the size in pixels between \u0027cells\u0027).":"水平捕捉(\"单元格\"之间的像素大小)。",
+    "The vertical snapping (the size in pixels between \u0027cells\u0027).":"垂直捕捉(\"单元格\"之间的像素大小)。",
+    "This function is used to \"snap\" the instance to a grid of a given size. It will be snapped to the nearest corresponding position on the \"invisible\" grid that the hsnap and vsnap values define.":"此函数用于将实例\"捕捉\"到给定大小的网格。它将被捕捉到hsnap和vsnap值定义的\"不可见\"网格上最近的相应位置。"
+}

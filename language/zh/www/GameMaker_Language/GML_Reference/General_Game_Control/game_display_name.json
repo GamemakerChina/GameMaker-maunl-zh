@@ -1,0 +1,4 @@
+{
+    "The above code gets the display name and the version number of the game and draws them.":"以上代码获取游戏的显示名称和版本号并绘制。",
+    "This {}read only{} variable returns the display name of your game for the target platform, as set in the {}Game Options{}.":"此{}只读{}变量返回在{}游戏选项{}中设置的目标平台的游戏显示名称。"
+}

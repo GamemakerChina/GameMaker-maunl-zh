@@ -1,0 +1,8 @@
+{
+    "The new object the calling object will change into.":"调用对象将更改为的新对象。",
+    "The x coordinate of where to change colliding instances.":"要更改碰撞实例的位置的x坐标。",
+    "The y coordinate of where to change colliding instances.":"要更改碰撞实例的位置的y坐标。",
+    "This function will check a position for a collision with {}any instances{} at the given point, and if there is one, it will change {}all{} instances in collision to be instances of the chosen object. You can set the \"perf\" argument to {}true{} which will force {}GameMaker{} to perform the {}Destroy{} and {}Clean Up{} events of the found instance as well as the {}Create{} event of the new instance, or {}false{} to not perform any of these events. Please note, that if you choose not to perform the Destroy, Clean Up and Create events, any instance created that uses a variable normally defined in the create event will crash the game as that variable will no longer exist.":"此函数将检查某个位置是否在给定点与{}个实例{}发生碰撞，如果存在碰撞，则会将碰撞中的{}个全部{}实例更改为所选对象的实例。您可以将\"perf\"参数设置为{}true{}，这将强制{}GameMaker{}对找到的实例执行{}销毁{}和{}清理{}事件，以及新实例的{}创建{}事件，或者{}假{}不执行这些事件中的任何一个。请注意，如果您选择不执行\"销毁\"、\"清理\"和\"创建\"事件，则任何使用\"创建\"事件中通常定义的变量创建的实例都将导致游戏崩溃，因为该变量将不再存在。",
+    "This will change all instances colliding at point (200,200) into an instance of \"obj_Bird\", performing \"obj_Bird\"s Create event for each of them in the process.":"这将把在点(200, 200 )处发生碰撞的所有实例更改为\"obj_Bird\"的实例，在此过程中为每个实例执行\"obj_Bird\"的Create事件。",
+    "Whether to perform that new object\u0027s Create event (true) or not (false).":"是否执行该新对象的Create事件(true)或(false)。"
+}

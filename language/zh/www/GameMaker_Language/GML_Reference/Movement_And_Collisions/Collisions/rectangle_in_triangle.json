@@ -1,0 +1,14 @@
+{
+    "The above code uses the {}rectangle_in_triangle{} function as a \"cone of vision\" to check for an instance of \"obj_player\". If the full bounding box is within the given triangular area, it will set a variable to {}true{}.":"上述代码使用{}矩形in_triangle{}函数作为\"视锥\"来检查\"obj_player\"的实例。如果完整边界框在给定的三角形区域内，则会将变量设置为{}true{}。",
+    "The x coordinate of the first side of the triangle to check.":"要检查的三角形第一侧的x坐标。",
+    "The x coordinate of the left side of the source rectangle.":"源矩形左侧的x坐标。",
+    "The x coordinate of the right side of the source rectangle.":"源矩形右侧的x坐标。",
+    "The x coordinate of the second side of the triangle to check.":"要检查的三角形第二条边的x坐标。",
+    "The x coordinate of the third side of the triangle to check.":"要检查的三角形第三条边的x坐标。",
+    "The y coordinate of the bottom side of the source rectangle.":"源矩形底侧的y坐标。",
+    "The y coordinate of the first side of the triangle to check.":"要检查的三角形第一侧的y坐标。",
+    "The y coordinate of the second side of the triangle to check.":"要检查的三角形第二条边的y坐标。",
+    "The y coordinate of the third side of the triangle to check.":"要检查的三角形第三条边的y坐标。",
+    "The y coordinate of the top side of the source rectangle.":"源矩形顶边的y坐标。",
+    "This function will check a rectangular area that you define to see if it is either not in collision, completely within the destination bounds, or if it is simply touching, a defined triangular area. If they are not touching at all the function will return 0, if the source is completely within the destination it will return 1, and if they are simply overlapping then it will return 2. The image below illustrates this:":"此函数将检查您定义的矩形区域，以查看它是否完全不在目标边界内，或者它是否只是接触定义的三角形区域。如果它们完全不接触，则函数将返回0;如果源完全在目标范围内，则返回1;如果它们只是重叠，则返回2。下图说明了这一点："
+}

@@ -1,0 +1,4 @@
+{
+    "The above code performs a very basic encryption on the score by adding the game_id to it before saving. On reading it back into the game you would deduct the game_id to get the correct value again.":"以上代码通过在保存之前向分数添加game_id来对分数执行非常基本的加密。在将其读回游戏中时，您将扣除game_id以再次获得正确的值。",
+    "This {}read only{} variable returns the unique identifier for the game you have created. You can use this if you need a unique file name, or anything else that needs something to identify your game only. This can be set in the {}Game Options{}.":"此{}只读{}变量返回您创建的游戏的唯一标识符。如果您需要一个唯一的文件名，或者需要其他任何东西来识别您的游戏，则可以使用此选项。这可以在{}游戏选项{}中设置。"
+}
