@@ -300,12 +300,21 @@ window.setInterval(function(){
 
 	var iframe=$("iframe.topic").contents()
 	
+	//页脚
+	iframe.find("div.footer a").each(function(){
+		var file="global"
+		add_translate($(this),file)
+		add_event($(this),file)
+	})
+
+	//页内
 	iframe.find("p,h1,h2,h3,td,li,a,div.dropspotnote").each(function(){
 		var file=dir
 		add_translate($(this),file)
 		add_event($(this),file)
 	})
 
+	//页内通用
 	iframe.find("h4,th,.warning,.important,.optional").each(function(){
 		var file="global"
 		add_translate($(this),file)
