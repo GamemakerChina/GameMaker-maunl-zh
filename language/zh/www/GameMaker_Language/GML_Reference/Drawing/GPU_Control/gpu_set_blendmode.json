@@ -1,0 +1,12 @@
+{
+    "Additive blending. Luminosity values of light areas are added.":"添加剂混合。将添加灯光区域的亮度值。",
+    "As you can see from the above table, these four blend modes are really composites of {}extended{} blend modes which can be found on the page describing {}{}gpu_set_blendmode_ext(){}{}.":"如上表所示，这四种混合模式实际上是{}扩展{}混合模式的组合，可在描述{}{}gpu_set_blendmode_ext(){}{}的页面上找到。",
+    "Max blending. Similar to additive blending.":"最大混合。类似于添加剂混合。",
+    "Normal blending (the default blend mode).":"正常混合(默认混合模式)。",
+    "Subtractive blending. Luminosity values of light areas are subtracted.":"减法混合。减去灯光区域的亮度值。",
+    "The blend mode to use (see the table above)":"要使用的混合模式(请参见上表)",
+    "This function permits you to set the blend mode in four basic ways using the following constants:":"此函数允许您使用以下常量以四种基本方式设置混合模式：",
+    "This will turn the black into transparency, creating a \u0027glow\u0027 effect from the white being strong on the outside and gradually weakening further from the circle centre. The blend mode is reset after the circle is drawn to ensure additive blending is not also applied to everything else after it.":"这将使黑色变成透明，从白色在外面强烈到从圆心逐渐减弱的\u0027发光\u0027效果。绘制圆之后将重置混合模式，以确保在绘制圆之后不会将添加混合应用于其他任何对象。",
+    "To help you get the most from blend modes and to help understand how they work and how they affect the final image being drawn to the screen, we recommend that you read the following guide:":"为了帮助您充分利用混合模式，并帮助您了解它们如何工作以及它们如何影响绘制到屏幕的最终图像，建议您阅读以下指南：",
+    "When {}GameMaker{} goes to draw a pixel there is a source colour (the colour of the pixel we\u0027re going to draw) and a destination colour(the colour that\u0027s already in the pixel we\u0027re drawing to), so when determining the new colour of the pixel, the source and destination colours are calculated according to the chosen blend mode. Each component of the colours is stored as a floating point value between 0 and 1, and the new colour is calculated by multiply each component of the source colour by some factor and by multiplying each component of destination colour by some other factor and then adding the results together component by component.":"{}GameMaker{}在绘制像素时，会显示源颜色(我们要绘制的像素的颜色)和目标颜色(我们要绘制的像素中已有的颜色)，因此在确定像素的新颜色时，会根据所选的混合模式计算源颜色和目标颜色。将颜色的每个分量存储为介于0和1之间的浮点值，并且通过将源颜色的每个分量乘以某个因子，并通过将目标颜色的每个分量乘以某个其他因子，然后将结果与分量相加来计算新颜色。"
+}

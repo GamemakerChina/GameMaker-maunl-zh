@@ -1,0 +1,10 @@
+{
+    "The x coordinate of the left of the button":"按钮左侧的x坐标",
+    "The x coordinate of the right of the button":"按钮右侧的x坐标",
+    "The y coordinate of the bottom of the button":"按钮底部的y坐标",
+    "The y coordinate of the top of the button":"按钮顶部的y坐标",
+    "This function will draw a very simple, rectangular \"button\" using the currently selected draw colour and alpha where the {}up{} argument defines how the beveled edge effect looks, as shown in the image below:":"此函数将使用当前选定的绘制颜色和Alpha绘制一个非常简单的\"矩形\"按钮，其中{}up{}参数定义斜边效果的外观，如下图所示：",
+    "This will draw a button which will appear pressed if the left mouse button is held down.":"这将绘制一个按钮，如果按住鼠标左键，该按钮将显示为按下。",
+    "Whether the button is up ({}true{}) or down ({}false{})":"按钮是向上({}true{})还是向下({}false{})",
+    "{}{}NOTE{}: If you are wanting to draw a shape using a shader, you should be aware that most shaders expect the following inputs: vertex, texture, Colour. However, when using this function, only vertex and colour data are being passed in, and so the shader may not draw anything (or draw something but not correctly). If you need to draw shapes in this way then the shader should be customised with this in mind.":"{}{}注意{}：如果要使用着色器绘制形状，请注意，大多数着色器都需要以下输入：顶点、纹理、颜色。但是，使用此函数时，仅传入顶点和颜色数据，因此着色器可能无法绘制任何内容(或绘制某些内容但不正确)。如果需要以这种方式绘制形状，则应考虑到这一点对着色器进行自定义。"
+}

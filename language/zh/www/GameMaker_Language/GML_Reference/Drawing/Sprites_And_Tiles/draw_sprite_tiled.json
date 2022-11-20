@@ -1,0 +1,8 @@
+{
+    "The index of the sprite to draw.":"要绘制的子画面的索引。",
+    "The subimg (frame) of the sprite to draw (image_index or -1 correlate to the current frame of animation in the object).":"要绘制的sprite的subimg(帧)(image_index或-1)与对象中动画的当前帧相关联。",
+    "The x coordinate of where to draw the sprite.":"绘制精灵的位置的x坐标。",
+    "The y coordinate of where to draw the sprite.":"绘制精灵的位置的y坐标。",
+    "This function will take a sprite and then repeatedly tile it across the whole view (or room if no view is defined), starting from the coordinates that you give in the function. Tiling is based on the width and height of the sprite as defined by the\n    {}sprite variables{} of the instance running the code. This function is for 2D (orthographic) projections&nbsp;only, and will not work correctly when a 3D\n    camera projection is used.":"此函数将获取一个精灵，然后从您在函数中给出的坐标开始在整个视图(如果没有定义视图时，则覆盖房间)上重复地平铺它。平铺基于由\n运行代码的实例的{}sprite 变量{}。此功能仅适用于 2D(正交)投影，在 3D 投影时不能正常工作\n使用摄像机投影。",
+    "This will draw the instances assigned sprite (sprite_index) and its current frame of animation (image_index) at the instances own x and y position, and tiled horizontally and vertically across the view.":"这将在实例自己的x和y位置绘制指定了sprite(sprite_index)的实例及其当前动画帧(image_index)，并在整个视图中水平和垂直平铺。"
+}

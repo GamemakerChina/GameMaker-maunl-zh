@@ -1,0 +1,8 @@
+{
+    "The above code sets the mip filter mode to {}tf_point{} (disabling mipmapping) for the given shader texture sampler if it has not already been set.":"以上代码将给定着色器纹理采样器的mip过滤器模式设置为{}tf_point{}(禁用mipmapping)(如果尚未设置)。",
+    "The index of the shader sampler to get":"要获取的着色器采样器的索引",
+    "This means that anisotropic filtering is enabled, which greatly improves texture transition quality and can reduce the blurring visible with other filtering modes, but it has the highest hit on performance.":"这意味着启用了各向异性过滤，大大提高了纹理过渡质量，可以减少与其他过滤模式一起可见的模糊，但对性能的命中率最高。",
+    "This means that blending between mipmap levels is disabled, which can cause visible texture transitions, but gives the best performance.":"这意味着禁用mipmap级别之间的混合，这可能会导致可见纹理过渡，但会提供最佳性能。",
+    "This means that blending between mipmap levels is enabled (this is also known as {}trilinear filtering{}), which smooths the texture transitions, but it will give a minor hit to performance.":"这意味着启用了mipmap级别之间的混合(这也称为{}三线性过滤{})，它可以平滑纹理过渡，但对性能的影响较小。",
+    "With this function you can get the current mip filter mode for a given shader sampler. You supply the index value for the shader sampler (as returned by the function {}{}shader_get_sampler_index(){}{}, and the function will return one of the mode value constants listed below.":"使用此函数，可以获取给定着色器采样器的当前mip过滤器模式。为着色器采样器提供索引值(由函数{}{}shader_get_sampler_index(){}{}返回)，该函数将返回下面列出的模式值常量之一。"
+}

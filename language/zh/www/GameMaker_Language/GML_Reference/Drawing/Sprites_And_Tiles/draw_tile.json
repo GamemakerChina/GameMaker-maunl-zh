@@ -1,0 +1,15 @@
+{
+    "A special constant that is for \"and\"-ing with the tile data blob to extract the tile index.":"一个特殊常量，用于\"和\"-ing以及区块数据blob，以提取区块索引。",
+    "The ID of the tile set to use":"要使用的分幅集的ID",
+    "The above code simply creates a local variable to store the tiledata for the tile with the index of 8 on the tile set, and it is rotated and flipped. This can then be used to draw the tile at that index from the tile set that you specify. this is not linked to any tilemap layer and the tile will be drawn at the layer depth of the instance doing the drawing, at the x/y position that you specify in the room. Note that you can also set the frame to draw too. If the indexed tile is part of an animation set, then you can set the frame number here (from 0 to the number of frames - 1) and the indexed tile will simply be the indicator for which animated tile set you are using while it will be the given frame that is drawn. If the tile is not part of an animated set then frame should be set to 0.":"上述代码只需创建一个局部变量，即可将索引为8的互动程序的互动程序数据存储在互动程序集上，并进行旋转和翻转。然后，可以使用此选项从指定的分幅集中在该索引处绘制分幅。此选项不会链接到任何分幅图层，并且将在执行绘图的实例的图层深度处、在房间中指定的x/ y位置处绘制分幅。请注意，也可以设置要绘制的框架。如果索引互动程序是动画集的一部分，则可以在此处设置帧编号(从0到帧数-1)，索引互动程序将只是指示您正在使用哪个动画互动程序集，而它将是绘制的给定帧。如果平铺不是动画集的一部分，则帧应设置为0。",
+    "The above code will get the data on a tile from the given tilemap, then set the \"flip\" flag and use this data to draw the tile flipped at the instance position.":"上述代码将从给定的平铺图获取平铺图上的数据，然后设置\"翻转\"标志，并使用该数据绘制在实例位置翻转的平铺图。",
+    "The frame number for the animated tile to use (default 0 for non-animated tiles)":"要使用的动画互动程序的帧编号(非动画互动程序的默认值为0)",
+    "The tile data to use":"要使用的平铺数据",
+    "The x position within the room to draw at":"房间内要绘制的x位置",
+    "The y position within the room to draw at":"房间内要绘制的y位置",
+    "Used to set/get the flip bit of a tile data blob.":"用于设置/获取互动程序数据点的翻转位。",
+    "Used to set/get the mirror bit of a tile data blob.":"用于设置/获取平铺数据斑点的镜像位。",
+    "Used to set/get the rotate bit of a tile data blob.":"用于设置/获取平铺数据斑点的旋转位。",
+    "With this function you can draw any given tile from a tile set - compete with rotations, flips and mirrors - setting the frame (if animated) and the position within the room. The tile set ID value is the tile set index as set in the IDE and the tile data is the data \"blob\" that contains all the information about the tile index and the transformations that have been applied. You can use the function {}{}tilemap_get(){}{} to get the tile data which can then be manipulated using the {}Tile Functions{}, or you can construct it yourself using the following tile constants along with the index value of the tile to create:":"使用此功能，您可以从瓷砖集中绘制任何给定的瓷砖-与旋转、翻转和镜像竞争-设置帧(如果已设置动画)和房间内的位置。区块集Id值是IdE中设置的区块集索引，区块数据是包含有关区块索引和已应用的转换的所有信息的数据\"斑点\"。您可以使用函数{}{}tilemap_get(){}{}获取瓷砖数据，然后可以使用{}瓷砖函数{}操作这些数据，也可以使用以下瓷砖常量以及要创建的瓷砖的索引值自行构造该数据：",
+    "{}\n    You would bitwise \"or\" these constants with the tile index value to get the final tiledata:":"{}\n要获得最终的平铺数据，可以使用平铺索引值按位\"\"或以下常量："
+}

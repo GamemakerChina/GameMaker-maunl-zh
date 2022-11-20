@@ -1,0 +1,4 @@
+{
+    "The above code checks to see if texture repeating is on or off and switches it accordingly.":"上述代码检查纹理重复是打开还是关闭，并相应地将其切换。",
+    "With this function you can check to see whether texture repeating is enabled (returns {}true{}) or not (returns {}false{}). For more information on texture repeating, see the function {}{}gpu_set_texrepeat(){}{}.":"使用此函数，您可以检查是否启用纹理重复(return{}true{})或不启用(return{}false{})。有关纹理重复的详细信息，请参阅函数{}{}gpu_set_texrepeat(){}{}。"
+}

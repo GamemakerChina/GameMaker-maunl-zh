@@ -1,0 +1,4 @@
+{
+    "The above code will \"save\" the current GPU state on the stack, then change certain GPU settings and draw a group of instances before resetting the GPU state to what it was previously.":"上述代码将在堆栈上\"保存\"当前Gpu状态，然后更改某些Gpu设置并绘制一组实例，然后将Gpu状态重置为以前的状态。",
+    "This function pops the previous GPU state from the stack and applies it. See {}{}gpu_push_state(){}{}&nbsp;for more information.":"此函数从堆栈中弹出先前的Gpu状态并应用它。有关详细信息，请参阅{}{}gpu_push_state(){}{}。"
+}

@@ -1,0 +1,5 @@
+{
+    "Enable ({}true{}) or disable ({}false{}) AA for all SWF sprites.":"对所有Swf精灵启用({}真{})或禁用({}假{}) Aa。",
+    "The above code will check the AA value for SWF format sprites, and if it is 0 it enables AA and sets the value to 0.5.":"上述代码将检查Swf格式精灵的Aa值，如果为0，则启用Aa并将该值设置为0.5。",
+    "With this function you can enable or disable anti-aliasing (AA) for SWF format vector sprites. AA simply smooths the edges of vector images to give them a nicer look. The amount of AA used will depend on the value set using the function {}{}draw_set_swf_aa_level(){}{}. By default this is disabled.":"使用此函数，您可以为Swf格式的矢量精灵启用或禁用抗锯齿(Aa)。Aa只是简单地平滑矢量图像的边缘，以给它们更好的外观。使用的Aa数量取决于使用函数{}{}draw_set_swf_aa_level(){}{}设置的值。默认情况下，此选项处于禁用状态。"
+}

@@ -1,0 +1,9 @@
+{
+    "All clockwise triangles will be culled":"所有顺时针三角形都将被剔除",
+    "All counter-clockwise triangles will be culled":"将剔除所有逆时针三角形",
+    "No culling will be done":"不会进行扑杀",
+    "The above code gets the current cull mode and if it is not {}cull_clockwise{} it is set to that constant.":"以上代码获取当前剔除模式，如果不是{}cull_clockwise{}，则将其设置为该常量。",
+    "The cull mode to use (see list above)":"要使用的剔除模式(请参阅上面的列表)",
+    "The cull mode value used must be one of the following constants (the default value is {}cull_noculling{}):":"使用的剔除模式值必须是以下常量之一(默认值为{}cull_noculling{})：",
+    "This function can be used to set the backface culling mode. A polygon (primitive) has a {}front{} and a {}back{} side. The front side is said to be the side where the vertices are defined in {}counter-clockwise{} order. Normally both sides are drawn, but if you make a closed shape (like a pyramid) then this is a waste of processing power because the back side of the triangle can never be seen. It\u0027s in these cases that you can switch on backface culling, as this saves about half the amount of drawing time, although it means you have the task of defining your polygons in the correct way to prevent issues.":"此功能可用于设置背面剔除模式。多边形(基元)具有{}前{}和{}后{}侧。正面被认为是以{}逆时针{}顺序定义顶点的一侧。通常两边都是绘制的，但是如果你做一个封闭的形状(像一个金字塔)，那么这是浪费处理能力，因为三角形的背面永远看不到。在这些情况下，您可以打开背面消隐，因为这样可以节省大约一半的绘图时间，尽管这意味着您需要以正确的方式定义多边形以防止出现问题。"
+}

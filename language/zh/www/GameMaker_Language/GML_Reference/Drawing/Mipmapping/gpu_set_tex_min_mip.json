@@ -1,0 +1,5 @@
+{
+    "The above code will check the current minimum mipmap level and if it is not 0 it is set to 0.":"上述代码将检查当前最小mipmap级别，如果不是0，则设置为0。",
+    "The minimum mipmap level to use":"要使用的最低mipmap级别",
+    "With this function you can set the minimum mipmap level which is currently used, where a value of 0 is the highest resolution, 1 is to use the first mipmap, 2 is the second etc...":"使用此函数，您可以设置当前使用的最小mipmap级别，其中值0表示最高分辨率，1表示使用第一个mipmap，2表示第二个mipmap，等等..."
+}

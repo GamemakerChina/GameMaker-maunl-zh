@@ -1,0 +1,13 @@
+{
+    "Always":"总是",
+    "Comparison Function Constant":"",
+    "Equal":"相等",
+    "Greater":"大于",
+    "Greater or Equal":"大于或等于",
+    "Less":"更少",
+    "Less or Equal":"小于或等于",
+    "Never":"从不",
+    "Not Equal":"不等于",
+    "The above code checks to see if the z-testing method is set to {}cmpfunc_greater{} and if not then it is set to that constant.":"以上代码检查z-测试方法是否设置为{}cmpfunc_greater{}，如果不是，则将其设置为该常量。",
+    "This function can be used to retrieve the z comparison mode. The value returned will be one of the following constants (the default value is {}cmpfunc_lessequal{}):":"此函数可用于检索z比较模式。返回的值将是以下常量之一(默认值为{}cmpfunc_lessequal{})："
+}

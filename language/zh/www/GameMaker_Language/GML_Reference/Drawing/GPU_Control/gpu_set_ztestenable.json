@@ -1,0 +1,6 @@
+{
+    "By default z-buffer testing is off ({}false{}).":"默认情况下，z缓冲区测试处于关闭状态({}false{})。",
+    "Enable or disable z-buffer testing ({}true{} or {}false{}).":"启用或禁用z缓冲区测试({}true{}或{}false{})。",
+    "The above code switches on z-buffer testing to draw a background sprite and then switches it back off again to continue drawing.":"上述代码打开z缓冲区测试以绘制背景子画面，然后再次将其关闭以继续绘制。",
+    "This function can be used to toggle z-buffer testing on or off, affecting how things will be drawn (in general only of use when working with 3D projects). Essentially, by default when z-testing is off and you have two objects drawing to the same space,\n    {}both{} objects will be rendered regardless of whether one will over-draw the other, resulting in unnecessary draw calls. If you switch this on then the z-buffer is tested to see whether an object will be \"visible\" and not drawn if it\u0027s\n    not. Note that this is the {}default{} behaviour, but you can change this by changing the type of comparison used for z-buffer testing (see the function {}{}gpu_set_zfunc(){}{}.":"此函数可用于打开或关闭z缓冲区测试，从而影响绘制内容的方式(通常仅在使用3D项目时使用)。实际上，默认情况下，如果禁用了z-测试，并且有两个对象绘制到同一个空间，\n{}两个{}对象都将呈现，无论其中一个是否会透支另一个，都会导致不必要的绘制调用。如果打开此选项，则会测试z-缓冲区，以确定对象是否\"可见\"并且不会被绘制\n没有。请注意，这是{}默认的{}行为，但您可以通过更改用于z-缓冲区测试的比较类型来更改此行为(请参见函数{}{}gpu_set_zfunc(){}{})。"
+}

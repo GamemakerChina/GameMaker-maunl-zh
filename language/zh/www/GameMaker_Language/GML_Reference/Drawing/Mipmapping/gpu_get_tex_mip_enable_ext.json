@@ -1,0 +1,8 @@
+{
+    "Mipmapping for all textures is enabled.":"已启用所有纹理的Mipmap。",
+    "Mipmapping is disabled.":"Mipmap已禁用。",
+    "Mipmapping is enabled for textures that have it enabled in the Texture Group options.":"对于在\"纹理组\"选项中启用了纹理贴图的纹理，将启用贴图。",
+    "The above code enables mipmapping for the given shader texture sampler if it has not already been enabled.":"如果尚未启用给定着色器纹理采样器，则上述代码将为其启用mipmap。",
+    "The index of the shader sampler to get":"要获取的着色器采样器的索引",
+    "With this function you can get whether mipmapping is switched off, switched on for everything or switched on only for texture groups selected in the {}Texture Group Manager{} on a shader sampler. You supply the index value for the shader sampler (as returned by the function {}{}shader_get_sampler_index(){}{}, and the function will return one of the constants listed below.":"使用此功能，您可以了解是关闭mipmap、为所有内容启用mipmap还是仅为着色器采样器上的{}纹理组管理器{}中选定的纹理组启用mipmap。为着色器采样器提供索引值(由函数{}{}shader_get_sampler_index(){}{}返回)，该函数将返回下面列出的常量之一。"
+}

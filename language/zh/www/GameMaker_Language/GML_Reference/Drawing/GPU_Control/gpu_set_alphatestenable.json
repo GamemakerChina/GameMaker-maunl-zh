@@ -1,0 +1,6 @@
+{
+    "Enable or disable alpha testing ({}true{} / {}false{})":"启用或禁用Alpha测试({}true{}/{}false{})",
+    "The above code will check to see if alpha testing is enabled and if not it will switch on alpha testing and set the test threshold to 128 (only pixels with an alpha over 0.5 will be drawn).":"上述代码将检查Alpha测试是否已启用，如果未启用，将打开Alpha测试并将测试阈值设置为128(仅绘制Alpha大于0.5的像素)。",
+    "This function will enable or disable alpha testing for your game (by default this is disabled). By switching alpha testing on you can then use the companion function {}{}gpu_set_alphatestref(){}{} to set the \"cut-off\" value at which all alpha values will be set to 0. The image below shows the difference that can be seen when alpha testing is switched on or off:":"此功能将启用或禁用游戏的Alpha测试(默认情况下禁用)。通过打开Alpha测试，您可以使用伴随函数{}{}gpu_set_alphatestref(){}{}来设置\"截止\"值，在该值处所有Alpha值都将设置为0。下图显示了Alpha测试打开或关闭时可以看到的差异：",
+    "{}NOTE{}: This function may negatively affect performance on iOS and&nbsp;Android devices.":"{}注意{}：此功能可能会对iOS和Android设备的性能产生负面影响。"
+}

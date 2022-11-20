@@ -1,0 +1,4 @@
+{
+    "The above code will check the current maximum mipmap level and if it is not 4 it is set to 4.":"上述代码将检查当前最大mipmap级别，如果不是4，则设置为4。",
+    "With this function you can get the currently set maximum mipmap level which is to be used, where a value of 0 is the highest resolution, 1 is to use the first mipmap, 2 is the second etc... Note that this can be quite useful for avoiding bleeding artifacts when rendering textures, for example, setting the texture page border to 8px and then setting the max mipmap level to 3 will ensure you don\u0027t get any bleeding problems at greater render distances.":"使用此函数，您可以获得当前设置的要使用的最大mipmap级别，其中值0表示最高分辨率，1表示使用第一个mipmap，2表示第二个mipmap，等等...请注意，这对于在渲染纹理时避免出血瑕疵非常有用，例如，将纹理页面边界设置为8 px，然后将最大mipmap级别设置为3将确保在较大的渲染距离下不会出现任何出血问题。"
+}

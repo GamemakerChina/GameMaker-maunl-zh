@@ -1,0 +1,8 @@
+{
+    "All clockwise triangles will be culled":"所有顺时针三角形都将被剔除",
+    "All counter-clockwise triangles will be culled":"将剔除所有逆时针三角形",
+    "Culling Mode Constant":"消隐模式常量",
+    "No culling will be done":"不会进行扑杀",
+    "The above code gets the current cull mode and if it is not {}cull_clockwise{} it is set to that constant.":"以上代码获取当前剔除模式，如果不是{}cull_clockwise{}，则将其设置为该常量。",
+    "This function can be used to retrieve the backface culling mode. The returned value will be one of the following constants (the default value is {}cull_noculling{}):":"此函数可用于检索背面消隐模式。返回的值将是以下常量之一(默认值为{}cull_noculling{})："
+}
