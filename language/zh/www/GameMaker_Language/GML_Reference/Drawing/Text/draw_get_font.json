@@ -1,0 +1,4 @@
+{
+    "The above code gets the currently applied font and runs a switch statement on it, applying a different Y offset value depending on the font. It then uses that offset value while drawing some text.":"以上代码获取当前应用的字体并在其上运行switch语句，根据字体应用不同的Y偏移值。然后在绘制某些文字时使用该偏移值。",
+    "This function will get the font currently assigned for drawing text. The function will return -1 if no font is set, or the ID value (a positive integer) for the font asset assigned.":"此函数将获取当前为图形文本指定的字体。如果未设置字体，或者分配了字体资产的Id值(正整数)，则函数将返回-1。"
+}

@@ -1,0 +1,11 @@
+{
+    "The above code will draw a 4 vertex triangle strip (making a rectangle) textured with the texture held in the \"tex\" variable, and the whole texture will be used to cover the completed primitive.":"上面的代码将绘制一个4顶点三角形条纹(制作一个矩形)，纹理保持在\"tex\"变量中，并且整个纹理将用于覆盖完成的基本体。",
+    "The height of the texture sample to use.":"要使用的纹理采样的高度。",
+    "The width of the texture sample to use.":"要使用的纹理采样的宽度。",
+    "The x coordinate of the vertex.":"顶点的x坐标。",
+    "The y coordinate of the vertex.":"顶点的y坐标。",
+    "This function defines the position of a textured vertex for a primitive. The final look of the primitive will depend on the primitive type chosen to draw (See {}{}draw_primitive_begin(){}{} for more information), the order with which you add the vertexes to it and the position of the start point you set for the texture. To end and draw the primitive you must call {}{}draw_primitive_end(){}{}.":"此函数定义基本体的纹理顶点的位置。基本体的最终外观取决于选择要绘制的基本体类型(有关详细信息，请参见{}{}draw_primitive_begin(){}{})、向其添加顶点的顺序以及为纹理设置的起点位置。要结束并绘制基元，必须调用{}{}draw_primitive_end(){}{}。",
+    "When drawing a textured primitive, the texture will be blended with the colour set by {}{}draw_set_colour{}. This means that to draw the texture with no blending this should be set to {}c_white{}, as shown in the example below.{}":"绘制带纹理的基本体时，纹理将与{}{}draw_set_colour{}设置的颜色混合。这意味着要绘制不带混合的纹理，应将其设置为{}c_white{}，如下例所示。{}",
+    "You can also choose to draw only {}part{} of the texture over the surface of the primitive by setting the appropriate xtex/ytex position to sample to (these coordinates are also known as the {}UV{} points). This point is defined by a value between 0 and 1 with the top left corner of the image to use being the (0,0) point and the bottom right corner being the (1,1) point. In this way you can texture a primitive with only a part of the source image asset.":"也可以通过设置要采样到的相应xtex/ytex位置(这些坐标也称为{}Uv{}点)来选择在基本体曲面上仅绘制纹理的{}部分{}。该点由介于0和1之间的值定义，要使用的图像的左上角为(0,0 )点，右下角为(1,1 )点。通过这种方式，可以仅使用源图像资源的一部分对基本体进行纹理。",
+    "{}{}NOTE{}{} For a texture to repeat it must be a power of two in size, ie: 32x32, 128x128, etc...":"{}{}注意{}{}要重复纹理，其大小必须为2的幂，即：32 x 32、128 x 128等..."
+}

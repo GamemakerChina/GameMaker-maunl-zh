@@ -1,0 +1,5 @@
+{
+    "The above code will draw the score centered around the very center of the text.":"上述代码将绘制以文本中心为中心的分数。",
+    "This function is used to align text along the vertical axis and changing the vertical alignment will change the position and direction in which all further text is drawn, with the default value being {}fa_top{}. The following constants are accepted:":"此函数用于沿垂直轴对齐文本，更改垂直对齐将更改绘制所有其他文本的位置和方向，默认值为{}fa_top{}。接受以下常量：",
+    "Vertical alignment constant (from the table above).":"垂直对齐常量(来自上表)。"
+}

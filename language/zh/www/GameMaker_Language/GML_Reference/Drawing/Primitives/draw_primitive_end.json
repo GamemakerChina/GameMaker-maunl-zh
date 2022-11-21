@@ -1,0 +1,4 @@
+{
+    "The above code will draw a 4 vertex triangle strip textured with the texture held in the \"tex\" variable.":"以上代码将绘制一个带有纹理的4顶点三角形条纹，该纹理保持在\"tex\"变量中。",
+    "This function must be called when you have finished defining the points of your primitive. If you do not call this function, {}nothing will be drawn{} as this effectively tells {}GameMaker{} that you have finished and that it can now\n    draw the defined primitive.":"定义完基本体的点后，必须调用此函数。如果不调用此函数，{}将不会绘制任何内容{}，因为这将有效地告诉{}GameMaker{}您已完成并且它现在可以\n绘制定义的基本体。"
+}

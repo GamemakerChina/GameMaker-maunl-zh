@@ -1,0 +1,5 @@
+{
+    "The above code saves the currently applied \"halign\" and \"valign\" values to local variables, and then changes the alignments to draw some text. After drawing it, it resets the alignments back to the values stored in the local variables.":"上述代码将当前应用的\"Halign\"和\"valign\"值保存到局部变量，然后更改对齐方式以绘制某些文本。绘制之后，它会将路线重置回存储在局部变量中的值。",
+    "This function is used to get the text alignment setting along the vertical axis, and will return one of the constants listed below.":"此函数用于沿垂直轴获取文本对齐设置，并将返回下面列出的常量之一。",
+    "Vertical Alignment Constant":"垂直对齐常量"
+}

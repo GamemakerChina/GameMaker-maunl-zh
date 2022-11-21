@@ -1,0 +1,5 @@
+{
+    "The above code will store the number of vertices stored in the given vertex buffer to a variable.":"上述代码将把存储在给定顶点缓冲区中的顶点数存储到变量中。",
+    "The vertex buffer to check.":"要检查的顶点缓冲区。",
+    "With this function you can find out the number of individual vertices defined in any given vertex buffer.":"使用此函数可以查找在任何给定顶点缓冲区中定义的单个顶点的数量。"
+}
