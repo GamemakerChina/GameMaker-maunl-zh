@@ -1,0 +1,4 @@
+{
+    "Tell {}GameMaker{} to accept colour data as part of the new vertex format being created.":"通知{}GameMaker{}接受颜色数据作为正在创建的新顶点格式的一部分。",
+    "The above code will create a new vertex format with just colour and position values and then store the format id in the variable \"my_format\".":"上述代码将创建一个只有颜色和位置值的新顶点格式，然后将格式ID存储在变量\"my_format\"中。"
+}

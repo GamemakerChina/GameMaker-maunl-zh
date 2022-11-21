@@ -1,0 +1,4 @@
+{
+    "The above code checks to see if alpha testing is enabled, and if it is, it then checks the current alpha test reference value and sets it if it is less than 254.":"上述代码检查Alpha测试是否启用，如果启用，则检查当前Alpha测试参考值，如果小于254，则设置该参考值。",
+    "You can use this function to find the current value for the alpha test reference (default is 0, but you can use {}{}gpu_set_alphatestref(){}{} to set this value to something other than this).":"您可以使用此函数查找Alpha测试引用的当前值(默认值为0，但可以使用{}{}gpu_set_alphatestref(){}{}将此值设置为非此值)。"
+}

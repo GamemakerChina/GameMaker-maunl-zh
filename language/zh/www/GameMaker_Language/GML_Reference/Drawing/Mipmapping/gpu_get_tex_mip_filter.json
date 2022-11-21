@@ -1,0 +1,8 @@
+{
+    "Mipmapping Filter Constant":"Mipmap过滤器常量",
+    "The above code checks the keyboard and if the specified key is pressed it will then get the current mip filter and toggle the value to the next one, cycling through the different modes.":"上面的代码检查键盘，如果按下指定的键，它将获得当前的mip过滤器，并将值切换到下一个，在不同的模式之间循环。",
+    "This means that anisotropic filtering is enabled, which greatly improves texture transition quality and can reduce the blurring visible with other filtering modes, but it has the highest hit on performance.":"这意味着启用了各向异性过滤，大大提高了纹理过渡质量，可以减少与其他过滤模式一起可见的模糊，但对性能的命中率最高。",
+    "This means that blending between mipmap levels is disabled, which can cause visible texture transitions, but gives the best performance.":"这意味着禁用mipmap级别之间的混合，这可能会导致可见纹理过渡，但会提供最佳性能。",
+    "This means that blending between mipmap levels is enabled (this is also known as {}trilinear filtering{}), which smooths the texture transitions, but it will give a minor hit to performance.":"这意味着启用了mipmap级别之间的混合(这也称为{}三线性过滤{})，它可以平滑纹理过渡，但对性能的影响较小。",
+    "With this function you can get the current mip filter mode. The mode value returned by the function will be one of the constants listed below.":"使用此功能，您可以获得当前的mip滤波器模式。函数返回的模式值将是下面列出的常量之一。"
+}

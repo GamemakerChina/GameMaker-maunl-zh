@@ -1,0 +1,4 @@
+{
+    "The above code creates a local array and gets the current source and destination blending factors. This array is then used to manipulate the alpha component of the blending factors.":"以上代码创建本地数组并获取当前源和目标混合因子。然后使用该数组来操纵混合因子的Alpha分量。",
+    "This function can be used to retrieve the current {}source{} extended blend mode factor being used for drawing. The value returned will be one of the following constants (\"s\" denotes a value taken from the source while a \"d\" denotes a value from the destination):":"此函数可用于检索用于绘图的当前{}源{}扩展混合模式因子。返回的值将是以下常量之一(\"s\"表示从源获取的值，而\"d\"表示从目标获取的值)："
+}

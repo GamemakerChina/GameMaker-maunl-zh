@@ -1,0 +1,6 @@
+{
+    "The functions listed below can be used to get the different values associated with mipmapping in&nbsp;{}GameMaker{}:":"下面列出的函数可用于获取{}GameMaker{}中与mipmap关联的不同值：",
+    "The functions listed below can be used to set the different values associated with mipmapping in {}GameMaker{}:":"下面列出的函数可用于在{}GameMaker{}中设置与mipmap关联的不同值：",
+    "This section contains all the functions related to using the {}mipmapping{} functions. Before using these functions you should have enabled mipmapping for the required texture pages in the {}Texture Group Editor{} and/or enabled mipmapping for those sprites that have been set to use only a single texture page from the {}General Game Options{}. The image below shows the difference mipmapping can make when rendering your project:":"本节包含与使用{}mipmapping{}函数相关的所有函数。在使用这些函数之前，您应该在{}纹理组编辑器{}中为所需的纹理页面启用mipmap，或者为那些已设置为仅使用{}常规游戏选项{}中的单个纹理页面的精灵启用mipmap。下图显示了mipmap在渲染项目时可以产生的差异：",
+    "{}Once you have enabled mipmapping for the project or a texture page, you can then use the following functions to get and set values which will change how things will look in your project when run.":"{}为项目或纹理页面启用mipmap后，可以使用以下函数获取和设置值，这些值将更改项目运行时的外观。"
+}

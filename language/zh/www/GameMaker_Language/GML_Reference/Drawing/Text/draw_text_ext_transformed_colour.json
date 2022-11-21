@@ -1,0 +1,18 @@
+{
+    "The alpha for the text.":"文本的Alpha。",
+    "The angle of the text.":"文本的角度。",
+    "The colour for the bottom left of the drawn text.":"绘制文本左下角的颜色。",
+    "The colour for the bottom right of the drawn text.":"绘制文本右下角的颜色。",
+    "The colour for the top left of the drawn text.":"绘制文本左上角的颜色。",
+    "The colour for the top right of the drawn text.":"绘制文本右上角的颜色。",
+    "The distance in pixels between lines of text.":"文本行之间的距离，以像素为单位。",
+    "The horizontal scale.":"水平刻度。",
+    "The maximum width in pixels of the string before a line break.":"换行前字符串的最大宽度(以像素为单位)。",
+    "The string to draw.":"绘制的字符串。",
+    "The vertical scale.":"垂直比例尺。",
+    "The x coordinate of the drawn string.":"绘制字符串的x坐标。",
+    "The y coordinate of the drawn string.":"绘制字符串的y坐标。",
+    "This function is a combination of the base {}{}draw_text{}{}(){}{}{}{} function with the {}{}draw_text_ext{}{}(){}{}{}{}, {}{}draw_text_transformed{}{}(){}{}{}{}    and {}{}draw_text_colour{}{}(){}{}{}{} functions. As such, this is the most general of all functions for drawing text and gives a large amount of flexibility when drawing. Note that the \"width\"\n    argument is based on a scale of 1, so if the scale is different, this value should be changed proportionally. For example, if the base width for a line break is 300 and you set the scale to 2, then the text will appear wrong, over-running the given\n    width. Instead you should have set the width to 150 to compensate the scaling.":"此函数是基本{}{}draw_text{}{}{}(){}{}{}{}{}函数与{}{}draw_text_ext{}{}(){}{}{}{}{}}{}、{}{}draw_text_transformed{}{}(){}{}{}{}和{}{}draw_text_color{}{}(){}}{}}{}{}函数的组合。因此，这是所有绘图文本功能中最常用的功能，并且在绘图时具有很大的灵活性。请注意\"宽度\"\n参数基于小数位数1，因此如果小数位数不同，则应按比例更改此值。例如，如果换行符的基准宽度为300，并且将比例设置为2，则文本将显示错误，超出给定的\n宽度。相反，应该将宽度设置为150以补偿缩放。",
+    "This will draw the given text with a blue to dark blue downward gradient, at position (200,200) in the room, rotated to be upside down and at half the normal point size of the font. There will be 20 pixels between each line should there be more than\n    one line drawn and each line will have a maximum width of 200 pixels.":"这将在房间中的位置(200,200 )使用蓝色到深蓝色的向下渐变绘制给定文本，并将其旋转为倒置，并使其大小为字体的正常磅值的一半。每行之间将有20个像素，如果超过\n画一条线，每条线的最大宽度为200像素。",
+    "{}NOTE{}: Gradient blending is not available for the HTML5 target unless WebGL is enabled, although you can still set the blending colours and it will blend the font with the first given colour. However all blending in this way creates a duplicate\n    font which is then stored in the cache and used when required, which is far from optimal and if you use multiple colour changes it will slow down your games performance. You can set the font cache size to try and limit this should it be necessary\n    using the function {}{}font_set_cache_size(){}{}.":"{}注意{}：除非启用了WebGL，否则HTML5目标不能使用渐变混合，尽管您仍然可以设置混合颜色，并且它会将字体与第一种给定颜色混合。但是，以这种方式进行的所有混合都会创建一个副本\n字体，然后将其存储在高速缓存中并在需要时使用，这远远不是最佳的，如果您使用多种颜色更改，则会降低游戏性能。您可以将字体缓存大小设置为尝试，并在必要时对此进行限制\n使用函数{}{}font_set_cache_size(){}{}。"
+}

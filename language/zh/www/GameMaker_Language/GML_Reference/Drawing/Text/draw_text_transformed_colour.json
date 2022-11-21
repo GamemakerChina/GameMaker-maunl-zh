@@ -1,0 +1,16 @@
+{
+    "The above code will draw the given text in the middle of the room, spinning round and scaled to twice its original size, with a colour gradient going from yellow to red as well as an alpha of 0.5.":"上述代码将在房间中间绘制给定的文本，旋转并缩放为原始大小的两倍，颜色梯度从黄色变为红色，Alpha为0.5。",
+    "The alpha for the text.":"文本的Alpha。",
+    "The angle of the text.":"文本的角度。",
+    "The colour for the bottom left of the drawn text.":"绘制文本左下角的颜色。",
+    "The colour for the bottom right of the drawn text.":"绘制文本右下角的颜色。",
+    "The colour for the top left of the drawn text.":"绘制文本左上角的颜色。",
+    "The colour for the top right of the drawn text.":"绘制文本右上角的颜色。",
+    "The horizontal scale.":"水平刻度。",
+    "The string to draw.":"绘制的字符串。",
+    "The vertical scale.":"垂直比例尺。",
+    "The x coordinate of the drawn string.":"绘制字符串的x坐标。",
+    "The y coordinate of the drawn string.":"绘制字符串的y坐标。",
+    "This function is a combination of the base {}{}draw_text(){}{} function with the {}{}draw_text_transformed(){}{} and {}{}draw_text_colour(){}{}    functions, permitting you to scale and rotate text as well as colour it with a gradient fill and change its alpha value, ignoring the base alpha and colour settings for drawing.":"此函数是base{}{}draw_text(){}{}函数与{}{}draw_text_transformed(){}{}和{}{}draw_text_colour(){}{}函数的组合，允许您缩放和旋转文本以及使用渐变填充为文本着色并更改其Alpha值，忽略绘图的基本Alpha和颜色设置。",
+    "{}{}NOTE{} {}Gradient blending is not available for the HTML5 target unless WebGL is enabled, although you can still set the blending colours and it will blend the font with the first given colour. However all blending in this way creates a duplicate\n    font which is then stored in the cache and used when required, which is far from optimal and if you use multiple colour changes it will slow down your games performance. You can set the font cache size to try and limit this should it be necessary\n    using the function {}{}font_set_cache_size(){}{}.":"{}{}注意{}{}除非启用了WebGL，否则HTML5目标不能使用渐变混合，尽管您仍然可以设置混合颜色，并且它会将字体与第一种给定颜色混合。但是，以这种方式进行的所有混合都会创建一个副本\n字体，然后将其存储在高速缓存中并在需要时使用，这远远不是最佳的，如果您使用多种颜色更改，则会降低游戏性能。您可以将字体缓存大小设置为尝试，并在必要时对此进行限制\n使用函数{}{}font_set_cache_size(){}{}。"
+}

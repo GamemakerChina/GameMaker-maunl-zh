@@ -1,0 +1,8 @@
+{
+    "As with the function {}{}vertex_create_buffer(){}{}, this function will create a new vertex buffer, only now the vertex data it stores is copied from the regular buffer that is specified as the source. The buffer is pre-formatted with the vertex format for building primitives for use with (for example) shaders, and you can also supply an offset within the source buffer to copy from and the number of vertices that the final buffer should have. Note that if the number of vertices does not match those being copied you may get corrupted vertex data.":"与函数{}{}vertex_create_buffer(){}{}一样，此函数将创建一个新的顶点缓冲区，只是现在它存储的顶点数据是从指定为源的常规缓冲区复制的。缓冲区使用顶点格式进行预设，用于构建用于(例如)着色器的基本体，您还可以在源缓冲区内提供要从中复制的偏移和最终缓冲区应具有的顶点数。请注意，如果顶点数与要复制的顶点数不匹配，则可能会得到损坏的顶点数据。",
+    "The above code will create a new vertex format then create a new vertex buffer from a previously created regular buffer, applying the custom vertex format to it with 0 offset. The function tells the new vertex buffer that it should expect 512 vertices.":"上述代码将创建一个新的顶点格式，然后从先前创建的常规缓冲区创建一个新的顶点缓冲区，以0的偏移对其应用自定义顶点格式。该函数告诉新的顶点缓冲区，它应该有512个顶点。",
+    "The buffer to create the vertex buffer from.":"用于创建顶点缓冲区的缓冲区。",
+    "The number of vertices the buffer should have.":"缓冲区应具有的顶点数。",
+    "The offset within the the source buffer to copy from.":"要从中复制的源缓冲区内的偏移量。",
+    "The primitive vertex format to use.":"要使用的基本体顶点格式。"
+}

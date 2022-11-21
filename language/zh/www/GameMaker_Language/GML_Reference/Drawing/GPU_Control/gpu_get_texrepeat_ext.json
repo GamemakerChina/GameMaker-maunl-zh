@@ -1,0 +1,5 @@
+{
+    "The above code checks to see if texture filtering off for a specific sampler ID (stored in a local variable) and switches it on if it\u0027s not.":"上述代码检查特定采样器ID(存储在局部变量中)的纹理过滤是否关闭，如果不关闭，则将其打开。",
+    "The sampler id from the shader.":"着色器中的采样器ID。",
+    "With this function you can check to see whether texture repeating is enabled (returns {}true{}) or not (returns {}false{}) for a given shader sampler texture.":"使用此函数，可以检查是否对给定着色器采样器纹理启用了纹理重复(return{}true{})或不启用(return{}false{})。"
+}

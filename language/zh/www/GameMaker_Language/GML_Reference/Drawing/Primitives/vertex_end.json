@@ -1,0 +1,5 @@
+{
+    "The above code will end the defining of a custom primitive.":"上述代码将结束自定义基元的定义。",
+    "The buffer to end writing to.":"要结束写入的缓冲区。",
+    "With this function you end the building of the custom primitive. Once you call this command the primitive can be used in the {}{}vertex_submit(){}{} function for use in a shader or you can freeze the buffer (making the vertex buffer used read-only and much faster) using {}{}vertex_freeze(){}{}.":"使用此函数可以结束自定义基本体的构建。调用此命令后，可以在{}{}vertex_submit(){}{}函数中使用基元，以便在着色器中使用，或者可以使用{}{}vertex_freeze(){}{}冻结缓冲区(使顶点缓冲区使用只读且速度更快)。"
+}

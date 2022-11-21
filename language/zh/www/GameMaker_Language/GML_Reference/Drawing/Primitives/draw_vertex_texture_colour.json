@@ -1,0 +1,11 @@
+{
+    "The above code will draw a 4 vertex triangle strip (making a rectangle) textured with the texture held in the \"tex\" variable, and the whole texture will be used to cover the completed primitive, and it will be blended with four different colours.":"上面的代码将绘制一个4顶点三角形条(制作一个矩形)纹理与\"text\"变量中保持的纹理，并且整个纹理将被用来覆盖完整的基元，并且它将与四种不同的颜色混合。",
+    "The alpha to draw this vertex with (0-1).":"使用(0-1 )绘制此顶点的Alpha。",
+    "The colour to blend with the texture at this vertex (-1 or {}c_white{} for no blending).":"与此顶点处的纹理混合的颜色(对于不混合，为-1或{}c_white{})。",
+    "The x coordinate of the vertex.":"顶点的x坐标。",
+    "The x coordinate within the texture.":"纹理中的x坐标。",
+    "The y coordinate of the vertex.":"顶点的y坐标。",
+    "The y coordinate within the texture.":"纹理内的y坐标。",
+    "This function defines the position of a textured vertex for a primitive. The final look of the primitive will depend on the primitive type chosen to draw (See {}{}draw_primitive_begin(){}{} for more information),\n    the order with which you add the vertices to it, the position of the start and end points that you give for the texture sample and the colour and alpha values that you have set. To maintain the texture appearance while changing only the alpha, a value\n    of -1 (or {}c_white{}) may be used for the colour argument. To end and draw the primitive you must call {}{}draw_primitive_end(){}{}.":"此函数定义基本体的纹理顶点的位置。基本体的最终外观将取决于选择要绘制的基本体类型(有关详细信息，请参阅{}{}draw_primitive_begin(){}{})。\n添加顶点的顺序、为纹理采样提供的起点和终点的位置以及已设置的颜色和Alpha值。要在仅更改Alpha的同时保持纹理外观，请输入值\nof-1(或{}c_white{})可用于颜色参数。要结束并绘制基元，必须调用{}{}draw_primitive_end(){}{}。",
+    "{}{}NOTE{}{} For a texture to repeat it must be a power of two in size, ie: 32x32, 128x128, etc...":"{}{}注意{}{}要重复纹理，其大小必须为2的幂，即：32 x 32、128 x 128等..."
+}

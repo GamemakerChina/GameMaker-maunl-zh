@@ -1,0 +1,8 @@
+{
+    "The above code gets the current colour write values and then sets the alpha component to {}false{}.":"以上代码获取当前颜色写入值，然后将Alpha组件设置为{}假{}。",
+    "This function can be used to retrieve the current colour write-enable values. The function returns a 4 element 1D array with the following elements in it which will be either {}true{} (enabled) or {}false{} (disabled). By default all colour writing is set to {}true{}:":"此函数可用于检索当前彩色写入使能值。函数返回一个4元素1D数组，其中包含以下元素：{}true{}(已启用)或{}false{}(已禁用)。默认情况下，所有彩色书写均设置为{}真{}：",
+    "[0] = Red channel enabled/disabled":"[ 0 ]=红色通道使能/禁用",
+    "[1] = Green channel enabled/disabled":"[ 1 ]=绿色通道使能/禁用",
+    "[2] = Blue channel enabled/disabled":"[ 2 ]=蓝色通道使能/禁用",
+    "[3] = Alpha channel enabled/disabled":"[ 3 ]= Alpha通道使能/禁用"
+}

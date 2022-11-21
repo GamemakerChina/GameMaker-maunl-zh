@@ -1,0 +1,17 @@
+{
+    "The above code uses the percentage value that you get from the variables \"hp\" and \"hp_max\" to draw a standard red/green healthbar.":"上述代码使用从变量\"hp\"和\"hp_max\"中获得的百分比值绘制标准红色/绿色健康条。",
+    "The colour of the background for the bar":"条形背景的颜色",
+    "The colour of the bar when at full health (100)":"完全健康时条形的颜色(100 )",
+    "The colour of the bar when at no health (0)":"不健康时条形的颜色(0 )",
+    "The variable which defines total health (between 0 and 100)":"定义总运行状况的变量(介于0和100之间)",
+    "The x coordinate of the left of the healthbar":"健康栏左侧的x坐标",
+    "The x coordinate of the right of the healthbar":"健康栏右侧的x坐标",
+    "The y coordinate of the bottom of the healthbar":"健康栏底部的y坐标",
+    "The y coordinate of the top of the healthbar":"健康栏顶部的y坐标",
+    "Where the bar is \"anchored\" (0 = left, 1 = right, 2 = top, 3 = bottom)":"其中\"锚定\"栏(0 =左侧，1 =右侧，2 =顶部，3 =底部)",
+    "Whether the bar\u0027s background is drawn ({}true{}) or not ({}false{}). If false, the backcol argument is disregarded.":"是否绘制条形的背景({}true{})或不绘制({}false{})。如果为false，则忽略backcol参数。",
+    "Whether the bar\u0027s elements have a 1px wide black border ({}true{}) or not ({}false{}).":"条形的元素是否具有1 px宽的黑色边框({}true{})或不具有({}false{})。",
+    "With this function you can draw a coloured bar to show a constant value. Although the function uses the word \"healthbar\" you can use this to display anything you wish as long as the amount to be displayed is a percentage value between 0 and 100 (a percentage of any value can be calculated with the formula {}(CURRENT_Value / MAXIMUM_value) * 100{}), so, for example, you can use this to display power, health, mana, time or anything else that would benefit from a bar display.":"使用此函数，可以绘制一个彩色条以显示常量值。尽管该函数使用\"health bar\"一词，但只要要要显示的数量是介于0和100之间的百分比值，您就可以使用它来显示任何您希望显示的内容(任何值的百分比都可以使用公式{}(当前值/最大值)* 100{}计算)，因此，例如，您可以使用它来显示功率、运行状况、法力、时间或任何其他可能受益于条形图显示的内容。",
+    "You can set various different things that change the visual aspect of the bar and these are illustrated in the image below (note that the colours used here are {}c_green{} for the maximum value and {}c_red{} for the minimum value, but you can use the colours that you wish):":"您可以设置各种不同的更改条形视觉方面的内容，如下图所示(请注意，此处使用的颜色为{}c_green{}表示最大值，{}c_red{}表示最小值，但您可以使用所需颜色)：",
+    "{}NOTE{}: If you are wanting to draw a shape using a shader, you should be aware that most shaders expect the following inputs: vertex, texture, Colour. However, when using this function, only vertex and colour data are being passed in, and so the shader may not draw anything (or draw something but not correctly). If you need to draw shapes in this way then the shader should be customised with this in mind.":"{}注意{}：如果要使用着色器绘制形状，请注意，大多数着色器都需要以下输入：顶点、纹理、颜色。但是，使用此函数时，仅传入顶点和颜色数据，因此着色器可能无法绘制任何内容(或绘制某些内容但不正确)。如果需要以这种方式绘制形状，则应考虑到这一点对着色器进行自定义。"
+}

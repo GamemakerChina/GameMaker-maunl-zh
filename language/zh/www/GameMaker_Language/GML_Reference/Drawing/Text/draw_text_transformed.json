@@ -1,0 +1,10 @@
+{
+    "The above code will draw the given text in the middle of the room, spinning round and scaled to twice its original size.":"上述代码将在房间中间绘制给定的文本，旋转并缩放为原始大小的两倍。",
+    "The angle of the text.":"文本的角度。",
+    "The horizontal scale (default 1).":"水平比例(默认为1)。",
+    "The string to draw.":"绘制的字符串。",
+    "The vertical scale(default 1).":"垂直比例(默认为1)。",
+    "The x coordinate of the drawn string.":"绘制字符串的x坐标。",
+    "The y coordinate of the drawn string.":"绘制字符串的y坐标。",
+    "This function will draw text in a similar way to {}{}draw_text{}{}(){}{}{}{} only now you can choose to scale the text along the horizontal or vertical axis (effectively stretching or shrinking it) and also have\n    {}GameMaker{} draw it at an angle (where 0 is normal and every degree over 0 rotates the text anti-clockwise).":"此函数将以类似于{}{}draw_text{}}{}(){}{}{}{}的方式绘制文本，只有现在您可以选择沿水平轴或垂直轴缩放文本(有效地拉伸或收缩文本)，并且还具有\n{}GameMaker{}以某个角度(其中0为正常值，每超过0度将逆时针旋转文本)绘制该图标。"
+}

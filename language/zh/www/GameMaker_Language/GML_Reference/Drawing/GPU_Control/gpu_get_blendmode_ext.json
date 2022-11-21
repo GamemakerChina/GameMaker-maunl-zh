@@ -1,0 +1,7 @@
+{
+    "Blend Mode Factor Constant":"混合模式因子常数",
+    "Note that you can change these values and pass the full array to the {}{}gpu_set_blendmode_ext(){}{} function as a single argument.":"请注意，您可以更改这些值并将完整数组作为单个参数传递给{}{}gpu_set_blendmode_ext(){}{}函数。",
+    "The above code gets the current extended blend mode, modifies the source, and then sets the extended blend mode again.":"以上代码获取当前扩展混合模式，修改源，然后再次设置扩展混合模式。",
+    "The values of the array will be one of the following constants (\"s\" denotes a value taken from the source while a \"d\" denotes a value from the destination):":"数组的值将是以下常量之一(\"s\"表示从源获取的值，而\"d\"表示从目标获取的值)：",
+    "This function can be used to retrieve the current extended blend mode being used for drawing. The function returns a 2 element 1D array with the following elements in it:":"此函数可用于检索用于绘图的当前扩展混合模式。函数返回一个2 element 1D数组，其中包含以下元素："
+}

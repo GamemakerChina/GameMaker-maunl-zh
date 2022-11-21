@@ -1,0 +1,4 @@
+{
+    "The above code stores the current GPU state in a variable.":"上述代码将当前Gpu状态存储在变量中。",
+    "This function will get the current GPU state, returning it as a {}DS Map{}. This can then be manipulated or even saved, and you can return this map to the GPU using the function {}{}gpu_set_state(){}{}.":"此函数将获取当前 GPU 状态，将其作为{}DS 映射{}返回。 然后可以操作甚至保存此映射，并且可以使用函数{}{}gpu_set_state(){}{}将此映射返回GPU。"
+}

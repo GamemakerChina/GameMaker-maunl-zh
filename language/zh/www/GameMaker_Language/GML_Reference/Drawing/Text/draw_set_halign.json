@@ -1,0 +1,5 @@
+{
+    "Horizontal alignment constant (from the table above).":"水平对齐常量(来自上表)。",
+    "The above code will draw two strings on the same line, with the score being left-hand aligned and the health being right-hand aligned.":"上述代码将在同一行上绘制两个字符串，分数左对齐，运行状况右对齐。",
+    "This function is used to align text along the horizontal axis and changing the horizontal alignment will change the position and direction in which all further text is drawn with the default value being {}fa_left{}. The following constants are accepted:":"此函数用于沿水平轴对齐文本，更改水平对齐方式将更改绘制所有其他文本的位置和方向，默认值为{}fa_left{}。接受以下常量："
+}

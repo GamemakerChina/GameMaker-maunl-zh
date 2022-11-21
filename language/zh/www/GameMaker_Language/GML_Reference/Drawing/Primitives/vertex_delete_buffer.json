@@ -1,0 +1,5 @@
+{
+    "The above code will delete from memory the buffer indexed in the variable \"v_buff\".":"上述代码将从内存中删除在变量\"v_buffs\"中编入索引的缓冲区。",
+    "The vertex buffer to be removed.":"要删除的顶点缓冲区。",
+    "This function can be used to remove a previously created vertex buffer (see {}{}vertex_create_buffer(){}{}) from system memory. This will also remove all vertex data for any custom primitives that it contained.":"此函数可用于从系统内存中删除以前创建的顶点缓冲区(请参见{}{}vertex_create_buffer(){}{})。这还将删除包含的所有自定义基本体的所有顶点数据。"
+}
