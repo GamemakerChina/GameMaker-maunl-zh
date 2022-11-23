@@ -1,0 +1,6 @@
+{
+    "The above code will check to see if the particle emitter indexed in the variable \"p_emit\" exists in the give particle system and if it does it is destroyed.":"上面的代码将检查在给定粒子系统中是否存在变量\"p_emit\"中索引的粒子发射器，以及它是否被销毁。",
+    "The index of the emitter to destroy.":"要销毁的发射器的索引。",
+    "The particle system to destroy the emitter from.":"从中销毁发射器的粒子系统。",
+    "This function will remove the specified emitter from the given system and clear it from memory (this will also stop any particles from being produced by the given emitter, but it does {}NOT{} remove them from the room). This function should always be called when the given emitter is no longer needed for the system to prevent memory leaks and errors.":"此功能将从给定系统中删除指定的发射器并将其从内存中清除(这也将阻止给定发射器产生任何粒子，但不会{}不{}将其从房间中移除)。当系统不再需要给定的发射器来防止内存泄漏和错误时，应始终调用此函数。"
+}

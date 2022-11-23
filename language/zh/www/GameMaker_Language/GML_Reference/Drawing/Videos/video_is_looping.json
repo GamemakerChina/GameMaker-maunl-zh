@@ -1,0 +1,4 @@
+{
+    "The above code checks if the currently loaded video is looping, and in that case, disables the player\u0027s controls, by setting a custom instance variable to {}false{}.":"上述代码通过将自定义实例变量设置为{}false{}来检查当前加载的视频是否正在循环，并在这种情况下禁用玩家的控件。",
+    "This function returns whether the currently loaded video is set to loop ({}true{}) or not ({}false{}). You can set a video to loop by calling {}{}video_enable_loop(){}{}.":"此函数返回当前加载的视频是否设置为loop({}true{})或not({}false{})。您可以通过调用{}{}video_enable_loop(){}{}将视频设置为循环。"
+}

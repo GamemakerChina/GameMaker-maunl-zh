@@ -1,0 +1,5 @@
+{
+    "A texel, or {}texture element{} is the fundamental unit of texture space used in computer graphics. Textures are represented by arrays of texels, just as pictures are represented by arrays of pixels, and this function returns the width of a single texel from the texture page of the image asset used.":"纹理或{}纹理元素{}是计算机图形中使用的纹理空间的基本单位。纹理由文本数组表示，就像图片由像素数组表示一样，此函数从使用的图像资源的纹理页面返回单个文本的宽度。",
+    "The above code will get the texel width and height of the texture taken from a sprite asset.":"以上代码将获取从精灵资源获取的纹理的纹理宽度和高度。",
+    "The texture page asset pointer to use":"要使用的纹理页面资源指针"
+}

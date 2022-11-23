@@ -1,0 +1,5 @@
+{
+    "The above code will check the value of the variable \"lives\" and if it is equal to 0, it clears all particles from the system and then changes room.":"上面的代码将检查变量\"life\"的值，如果它等于0，则清除系统中的所有粒子，然后更改空间。",
+    "The index of the particle system.":"粒子系统的索引。",
+    "With this function you can clear all the particles currently created by the system from the room. It does {}not{} reset or remove the particle types themselves, just their visual representation, and if you have any object streaming particles from an emitter, these particles disappear but will begin to appear again the next step after calling this code.":"使用此功能，可以从房间中清除系统当前创建的所有粒子。它不会{}重置或移除粒子类型本身，只是重置或移除粒子类型本身的可视表示形式，如果有来自发射器的任何对象流式粒子，这些粒子将消失，但在调用此代码后的下一步中将再次出现。"
+}

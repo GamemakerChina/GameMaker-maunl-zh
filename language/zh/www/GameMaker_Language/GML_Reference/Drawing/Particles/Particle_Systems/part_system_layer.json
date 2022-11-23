@@ -1,0 +1,6 @@
+{
+    "The above code will check a particle system to see what layer it is on and if it is not on the given layer it will be changed.":"上面的代码将检查粒子系统，以查看粒子系统位于哪个层上，如果粒子系统不位于给定层上，则粒子系统将被更改。",
+    "The new layer ID":"新图层ID",
+    "The particle system ID":"粒子系统Id",
+    "This function can be used to switch a particle system from its current layer to a new one. You supply the particle system ID value (as returned by the function {}{}part_system_create_layer(){}{}) and then the unique layer ID (as returned by the function {}{}layer_create(){}{} or the name of the layer to use as a string - for example \"instance_layer\" - as defined in the room editor), and the system will be moved to the new layer.":"此功能可用于将粒子系统从其当前图层切换到新图层。提供粒子系统ID值(由函数{}{}part_system_create_layer(){}{}返回)，然后提供唯一的层ID(由函数{}{}layer_create(){}{}返回)，或者提供要用作字符串的层的名称(例如，在文件室编辑器中定义的\"instance_layer\")，系统将移动到新层。"
+}

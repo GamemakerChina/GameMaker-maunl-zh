@@ -1,0 +1,7 @@
+{
+    "For information on its use, see:&nbsp;{}Dynamic Textures{}":"有关其使用的信息，请参阅：{}动态纹理{}",
+    "The name of the Texture Group as a string. These are defined in the&nbsp;{}Texture Groups{}&nbsp;window.":"作为字符串的纹理组的名称。这些在{}\"纹理组\"{}窗口中定义。",
+    "This function is used to unload a loaded&nbsp;{}Dynamic Texture Group{} from memory back into disk, in its original, compressed form.":"此函数用于将加载的{}动态纹理组{}以其原始压缩形式从内存中卸载回磁盘。",
+    "This will unload the Dynamic Texture Group with the name \"{}tg_UI{}\".":"这将卸载名为\"{}tg_UI{}\"的动态纹理组。",
+    "You can\u0027t unload a default (non-dynamic) Texture Group.":"不能卸载默认(非动态)纹理组。"
+}

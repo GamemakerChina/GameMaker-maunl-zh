@@ -1,0 +1,13 @@
+{
+    "The height of the part to be drawn, from top.":"要绘制的零件的高度(从顶部开始)。",
+    "The left position in the surface of the part to be drawn.":"要绘制的零件曲面中的左侧位置。",
+    "The top position in the surface of the part to be drawn.":"要绘制的零件曲面中的顶部位置。",
+    "The unique ID value of the surface to draw.":"要绘制的曲面的唯一Id值。",
+    "The width of the part to be draw, from left.":"要绘制的零件的左侧宽度。",
+    "The x position of where to draw the surface.":"绘制曲面的x位置。",
+    "The y position of where to draw the surface.":"绘制曲面的y位置。",
+    "This will draw a 32x32 area 8px by 8px in from the top left of the surface indexed in \"surf\", at the instances (x,y) position.":"这将在实例(x,y)位置从冲浪中步进的曲面左上角绘制一个32 x 32区域8 px乘以8 px英寸。",
+    "With this function you can draw part of any surface at a given position within the room. As with {}{}draw_surface(){}{}&nbsp;you can specify a surface, but you then need to specify the {}relative coordinates{} within the surface of an area to select for drawing. This means that a left position of 0 and a top position of 0 would be the top left corner of the surface and all further coordinates should be taken from that position.":"使用此功能，可以在房间内的给定位置绘制任何曲面的一部分。对于{}{}draw_surface(){}{}，可以指定一个曲面，但随后需要在要绘制的区域的曲面内指定{}个相对坐标{}。这意味着，左侧位置0和顶部位置0将是曲面的左上角，并且应从该位置获取所有进一步的坐标。",
+    "{}TIP{}&nbsp;How a surface appears depends on its contents, especially the alpha values inside the surface. A surface {}cleared{} with an alpha of 0 may appear different from a surface cleared with an alpha of 1, due to the way they blend with the background. Take care of this whenever you notice a difference in the way something renders on a custom surface as opposed to the {}{}application_surface{}{}.":"{}提示{}曲面的显示方式取决于其内容，尤其是曲面内部的Alpha值。Alpha为0的{}清除曲面{}可能与Alpha为1的清除曲面不同，因为它们与背景混合的方式不同。只要您注意到自定义曲面上的渲染方式与{}{}application_surface{}{}的渲染方式有所不同，就要注意这一点。",
+    "{}{}{}NOTE{}&nbsp;When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}{}{}注意{}使用曲面时，由于曲面存储在纹理内存中，因此曲面可能随时停止存在。在直接引用曲面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查曲面是否存在。"
+}

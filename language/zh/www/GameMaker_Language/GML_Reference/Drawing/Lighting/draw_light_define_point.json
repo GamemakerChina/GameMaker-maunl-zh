@@ -1,0 +1,11 @@
+{
+    "The above code will enable lighting for the whole scene, then define a white light at a specific point in the room space, and then finally turn that light on.":"上述代码将为整个场景启用照明，然后在房间空间的特定点定义白光，然后最终打开该灯光。",
+    "The colour to use for the light (either a constant, a real or a hex value).":"用于灯光的颜色(常数、实数或十六进制值)。",
+    "The index number of the light (arbitrary)":"光源的索引号(任意)",
+    "The light range (in pixels)":"光线范围(以像素为单位)",
+    "The x position of the light":"灯光的x位置",
+    "The y position of the light":"灯光的y位置",
+    "The z position of the light":"灯光的z位置",
+    "This function is for defining a positional light, where you can define the x, y and z position of the light, the light range and its colour (which will also affect the perceived intensity of the light as certain colours appear \"darker\" than\n    others). You must also give the light an index number which what will be used in other functions to reference it.{}{}":"此功能用于定义位置灯光，您可以在其中定义灯光的x、y和z位置、灯光范围及其颜色(当某些颜色比\n其他)。您还必须为灯光提供一个索引号，其他函数将使用该索引号来引用它。{}{}",
+    "{}NOTE{}: There are only 8 hardware lights available, so only 8 defined lights can be enabled at any one time (although more can be defined).":"{}注意{}：只有8个硬件指示灯可用，因此任何时候只能启用8个定义的指示灯(尽管可以定义更多)。"
+}

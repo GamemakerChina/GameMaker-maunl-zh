@@ -1,0 +1,10 @@
+{
+    "The above code first retrieves the texture for the surface stored in {}surf_back{}, and then gets the UV coordinates for that texture. It then retrieves the left, top, right and bottom UV coordinates from the returned array and stores them in local variables.":"以上代码首先检索存储在{}surfac_back{}中的曲面的纹理，然后获取该纹理的Uv坐标。然后从返回的数组中检索左侧、顶部、右侧和底部的Uv坐标，并将其存储在局部变量中。",
+    "The texture pointer to get the UVS for":"用于获取UV的纹理指针",
+    "This function returns a 1D {}array{} with 4 elements representing the UV coordinates for the given texture pointer, filling in the array with the following values:":"此函数返回一个1D{}数组{}，其中包含4个元素，表示给定纹理指针的Uv坐标，并使用以下值填充数组：",
+    "This value can then be used in other draw functions, particularly in general 3D and some of the 2D primitive functions, as well as the Shader functions. If you need the UVS for a sprite then you can use the {}{}sprite_get_uvs(){}{}&nbsp;and for a font, {}{}font_get_uvs(){}{}.":"然后可以在其他绘制函数中使用该值，特别是在常规3D和某些2D基本体函数以及着色器函数中。如果您需要sprite的紫外线，则可以使用{}{}sprite_get_uvs(){}{}和字体，{}{}font_get_uvs(){}{}。",
+    "[4] = amount of pixels the asset compiler has trimmed from the sprites left side (sprite assets only)":"[ 4 ]=资产编译器从精灵左侧修剪的像素量(仅限精灵资产)",
+    "[5] = amount of pixels the asset compiler has trimmed from the sprites top side&nbsp;(sprite assets only)":"[ 5 ]=资产编译器从精灵顶端修剪的像素量(仅限精灵资产)",
+    "[6] = normalised percentage of pixel data from the original sprites width that has been saved to the texture page&nbsp;(sprite assets only)":"[ 6 ]=已保存到纹理页面的原始精灵宽度中像素数据的标准化百分比(仅限精灵资源)",
+    "[7] = normalised percentage of pixel data from the original sprites height that has been saved to the texture page&nbsp;(sprite assets only)":"[ 7 ]=已保存到纹理页面的原始精灵高度像素数据的标准化百分比(仅限精灵资源)"
+}

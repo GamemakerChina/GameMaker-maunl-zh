@@ -1,0 +1,5 @@
+{
+    "The above code checks a particle system to see if any particles are currently visible in the room and if not, the particles, the system and the instance are destroyed.":"上述代码检查粒子系统以查看当前是否有任何粒子在房间中可见，如果没有，则粒子、系统和实例将被破坏。",
+    "The index of the particle type to destroy.":"要销毁的粒子类型的索引。",
+    "With this function you can remove the specified particle type from the game. When you use this function, all particles of the given type will disappear from the room and the particle itself is removed form memory, so this function should be used only when you no longer need the particle.":"使用此功能，可以从游戏中删除指定的粒子类型。使用此功能时，给定类型的所有粒子都将从房间中消失，粒子本身也将从内存中移除，因此只有在不再需要粒子时才应使用此功能。"
+}

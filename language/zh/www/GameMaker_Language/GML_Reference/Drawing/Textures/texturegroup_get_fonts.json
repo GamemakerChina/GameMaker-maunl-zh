@@ -1,0 +1,5 @@
+{
+    "The above code will retrieve the font indexes for the texture group \"MainMenu\", then display those IDs in the console output window.":"以上代码将检索纹理组\"MainMenu\"的字体索引，然后在控制台输出窗口中显示这些ID。",
+    "The name of the texture group to check (a string)":"要检查的纹理组的名称(字符串)",
+    "With this function you can retrieve the font index of each of the fonts assigned to texture pages within the given texture group. You supply the texture group ID string (as defined in the texture Group Editor) and the function will return a 1D array where each entry contains the font index for a font resource. If the function fails - ie: an invalid group is given, or the group has no texture assigned to it - then the array will be empty (0 length).":"使用此函数，可以检索指定给给定纹理组内纹理页面的每种字体的字体索引。提供纹理组Id字符串(在纹理组编辑器中定义)，函数将返回一个1D数组，其中每个条目都包含字体资源的字体索引。如果函数失败，即给定了无效的组，或者该组没有指定纹理，则数组将为空(长度为0)。"
+}

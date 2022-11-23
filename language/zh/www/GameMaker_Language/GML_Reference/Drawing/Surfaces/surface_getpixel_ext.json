@@ -1,0 +1,8 @@
+{
+    "The ID of the surface to use.":"要使用的曲面的ID。",
+    "The above code will get the 32bit colour value at the position of the mouse and then split it into its component values, storing them in variables.":"上述代码将在鼠标位置获取32位颜色值，然后将其拆分为组件值，并将其存储在变量中。",
+    "The x coordinate of the pixel to check":"要检查的像素的x坐标",
+    "The y coordinate of the pixel to check":"要检查的像素的y坐标",
+    "With this function you can get the full {}abgr 32bit{} value of any pixel of a (previously created) surface.":"使用此函数，您可以获取(以前创建的)曲面的任何像素的完整{}abgr 32 bit{}值。",
+    "{}NOTE{}: This function will have a huge performance hit and so should only be used when absolutely necessary.":"{}注意{}：此函数将具有巨大的性能冲击，因此应仅在绝对必要时使用。"
+}

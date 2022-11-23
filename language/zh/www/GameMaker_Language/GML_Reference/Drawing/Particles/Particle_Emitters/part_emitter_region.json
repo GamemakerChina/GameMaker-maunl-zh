@@ -1,0 +1,23 @@
+{
+    "A Linear distribution where all particles have an equal chance of appearing anywhere in the area.":"线性分布，其中所有粒子在区域中的任何位置出现的几率相等。",
+    "A diamond shape with the points at half width and half height.":"一种菱形形状，点的宽度为一半，高度为一半",
+    "A gaussian distribution where more particles are generated in the center rather than the edges.":"一种高斯分布，其中在中心而不是边上生成更多粒子。",
+    "A rectangular shape that fills the given area.":"填充给定区域的矩形形状。",
+    "A single line, where the start point is the left and top and the end point is the right and bottom.":"单线，其中起点为左上角，终点为右下角。",
+    "An ellipse, with the width and height defined by the area.":"一个椭圆，其宽度和高度由区域定义。",
+    "An inverse gaussian distribution where more particles are generated at the edges than center.":"反高斯分布，其中在边缘生成的粒子多于中心。",
+    "Particle Emitter Distribution Constant":"粒子发射器分布常数",
+    "Particle Emitter Shape Constant":"粒子发射器形状常量",
+    "The above code will set an emitter to the a 100px tall and 100px wide elliptical shape around the current (x,y) position of the instance running the code.":"上述代码将在运行代码的实例的当前(x,y)位置周围将发射器设置为100 px高和100 px宽的椭圆形状。",
+    "The distribution style of the particles.":"粒子的分布样式。",
+    "The index of the emitter to set.":"要设置的发射器的索引。",
+    "The particle system that the emitter is in.":"发射器所在的粒子系统。",
+    "The shape of the region.":"区域的形状。",
+    "The x coordinate of the left side of the region.":"区域左侧的x坐标。",
+    "The x coordinate of the right side.":"右侧的x坐标。",
+    "The y coordinate of the bottom of the region.":"区域底部的y坐标。",
+    "The y coordinate of the top of the region.":"区域顶部的y坐标。",
+    "This function is used to set their position of a particle emitter within the current room. You specify the bounding box of the area within the function and then use any of a series of constants to define the final emitter shape within this bounding box as well as the distribution of particles within the shape. The available constants for distribution shapes are listed below:":"此功能用于设置粒子发射器在当前房间中的位置。指定函数内区域的边界框，然后使用一系列常量中的任何一个来定义此边界框内的最终发射器形状以及形状内的粒子分布。下面列出了分布形状的可用常量：",
+    "{}Apart from the distribution shapes, you can also define the distribution curve for the particles that are to be emitted. The available constants for distribution curves are listed below:":"{}除了分布形状之外，还可以定义要发射的粒子的分布曲线。下面列出了分布曲线的可用常量：",
+    "{}NOTE{}: If you need the emitter to move with an instance, you will have to use this function in the step event and update the emitter position that way. It is also worth noting that for point emissions where you do not need to create particles over an area or with a specific distribution, it is often easier to use {}{}{}part_particles_create(){}{}{}.":"{}注意{}：如果需要发射器随实例一起移动，则必须在步骤事件中使用此函数，并以此方式更新发射器位置。另外值得注意的是，对于不需要在区域上创建粒子或具有特定分布的点发射，通常更容易使用{}{}{}part_particles_create(){}{}{}。"
+}

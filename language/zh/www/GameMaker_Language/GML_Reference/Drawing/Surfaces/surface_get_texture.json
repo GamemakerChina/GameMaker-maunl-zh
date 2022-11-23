@@ -1,0 +1,7 @@
+{
+    "The ID of the surface to get the width of.":"要获取宽度的曲面的Id。",
+    "The above code will draw a 4 vertex triangle strip textured with the texture held in the \"tex\" variable, which is itself taken from a previously created surface.":"以上代码将绘制一个带有纹理的4顶点三角形条纹，该纹理保持在\"tex\"变量中，该变量本身取自以前创建的曲面。",
+    "This function returns a special {}pointer{} for the surface\u0027s texture. This value can then be used in other draw functions, particularly in general 3D and some of the 2D primitive functions.":"此函数返回曲面纹理的特殊{}指针{}。然后，该值可用于其他绘制函数，特别是在常规3D和某些2D基本体函数中。",
+    "{}NOTE{} On HTML5, this returns a struct instead of a texture pointer, as a pointer cannot be used on that platform. However this does not change the use of the returned value, as its usage in {}texture functions{} still remains the same.":"{}注意{}在HTML5上，这将返回结构而不是纹理指针，因为指针不能在该平台上使用。但是，这不会更改返回值的使用，因为其在{}纹理函数{}中的用法仍然保持不变。",
+    "{}{}{}NOTE{}&nbsp;When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}{}{}注意{}使用曲面时，由于曲面存储在纹理内存中，因此曲面可能随时停止存在。在直接引用曲面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查曲面是否存在。"
+}

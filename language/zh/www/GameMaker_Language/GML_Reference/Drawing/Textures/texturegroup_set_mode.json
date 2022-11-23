@@ -1,0 +1,10 @@
+{
+    "The mode used for Dynamic Texture Groups: Implicit ({}false{}), or Explicit ({}true{})":"用于动态纹理组的模式：隐式({}假{})或显式({}真{})",
+    "This function allows you to set three things:":"此功能允许您设置三件事：",
+    "This will enable Explicit mode, disable debugging and set {}spr_fallback{} as the fallback sprite for unloaded textures.":"这将启用\"显式\"模式，禁用调试，并将{}spr_fallback{}设置为卸载纹理的回退子程序。",
+    "{}Debug{}: You can enable debugging, which will show you all of your game\u0027s Texture Pages along with their {}status{}&nbsp;in-game.{}\n      {}\n    ":"{}调试{}：您可以启用调试，这将显示游戏中的所有纹理页面以及游戏中的{}状态{}。{}\n{}",
+    "{}Default Sprite{}: This is the default sprite that appears when the mode is set to Explicit, and the texture you\u0027re drawing to draw has not been loaded.{}\n      {}\n      For more information, see:&nbsp;{}Explicit{}\n    ":"{}默认Sprite{}：当模式设置为\"显式\"，并且要绘制的纹理尚未加载时，将显示默认sprite。{}\n{}\n有关详细信息，请参阅：{}显式{}",
+    "{}Mode{}: You can set whether Dynamic Texture Groups use {}Implicit{} (default) or {}Explicit{} loading, by using {}false{} for Implicit and {}true{} for Explicit.{}\n      {}\n      For information on modes, see:&nbsp;{}Dynamic Group Modes{}\n    ":"{}模式{}：您可以设置动态纹理组是使用{}隐式{}(默认值)还是{}显式{}加载，方法是：对隐式使用{}假{}，对显式使用{}真{}。{}\n{}\n有关模式的信息，请参阅：{}动态组模式{}",
+    "{}{}OPTIONAL{}{}&nbsp;Enable/disable Texture Group debugging":"{}{}可选{}{}启用/禁用纹理组调试",
+    "{}{}OPTIONAL{}{}&nbsp;Only used in Explicit mode: The sprite used as the \"fallback\" texture when another texture is not loaded (the whole texture page is drawn)":"{}{}可选{}{}仅在显式模式下使用：未加载另一个纹理时用作\"回退\"纹理的sprite(绘制整个纹理页面)"
+}

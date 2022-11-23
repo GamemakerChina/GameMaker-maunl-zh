@@ -1,0 +1,4 @@
+{
+    "The above code will check to see if lighting is enabled for the scene, and if not it enables it.":"以上代码将检查是否为场景启用了照明，如果未启用照明，则会启用照明。",
+    "This function will return whether lighting is enabled ({}true{}) or not ({}false{}) for the whole scene.":"此函数将返回是否为整个场景启用照明({}true{})或不启用({}false{})。"
+}

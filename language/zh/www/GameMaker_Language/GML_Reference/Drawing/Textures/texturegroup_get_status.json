@@ -1,0 +1,10 @@
+{
+    "For information on its use, see:&nbsp;{}Dynamic Textures{}":"有关其使用的信息，请参阅：{}动态纹理{}",
+    "The Texture Group has been loaded and fetched into VRAM, ready for use":"纹理组已加载并提取到Vram中，可供使用",
+    "The Texture Group has been loaded into RAM":"纹理组已加载到Ram中",
+    "The Texture Group is currently being loaded from disk":"当前正在从磁盘加载纹理组",
+    "The Texture Group is still on disk and not in memory":"纹理组仍在磁盘上，不在内存中",
+    "The name of the Texture Group as a string. These are defined in the&nbsp;{}Texture Groups{}&nbsp;window.":"作为字符串的纹理组的名称。这些在{}\"纹理组\"{}窗口中定义。",
+    "This function returns the status of the given Dynamic Texture Group. The status will be one of the following constants:":"此函数返回给定\"动态纹理组\"的状态。状态将是以下常量之一：",
+    "This gets the status of the \"{}tg_UI{}\" Texture Group, and if it\u0027s unloaded, it loads it.":"这将获取\"{}tg_UI{}\"纹理组的状态，如果它已卸载，则会加载它。"
+}

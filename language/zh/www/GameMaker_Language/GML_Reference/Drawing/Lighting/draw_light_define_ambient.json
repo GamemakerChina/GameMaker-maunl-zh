@@ -1,0 +1,5 @@
+{
+    "The above code will define the ambient lighting as being white.":"上述代码将环境照明定义为白色。",
+    "The colour to use (either a constant, a real or a hex value).":"要使用的颜色(常数、实数或十六进制值)。",
+    "This function is used to control the ambient light of a scene, which is the light that you have in a scene even without having defined any point or directional light sources. It is effectively the overall colour and brightness (or darkness) of a scene.\n    The default colour is {}c_black{}.":"此功能用于控制场景的环境光，即场景中即使未定义任何点或平行光源也具有的光。它实际上是场景的整体颜色和亮度(或暗度)。\n默认颜色为{}c_black{}。"
+}

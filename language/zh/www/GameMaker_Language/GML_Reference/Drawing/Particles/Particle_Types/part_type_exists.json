@@ -1,0 +1,5 @@
+{
+    "The above code checks to see if the global variable \"p1\" stores the index of a particle type and if it does not it creates one.":"上面的代码检查全局变量\"p 1\"是否存储粒子类型的索引，以及是否创建索引。",
+    "The index of the particle type to check for.":"要检查的粒子类型的索引。",
+    "With this function you can check to see if the given particle type indexed exists in the game or not. Note that if the variable being checked is an uninitialised variable (that a particle type would otherwise have its index assigned to) this will throw an error.":"使用此函数，可以检查游戏中是否存在给定的粒子类型索引。请注意，如果要检查的变量是未初始化的变量(否则粒子类型会将其索引指定给该变量)，则会引发错误。"
+}

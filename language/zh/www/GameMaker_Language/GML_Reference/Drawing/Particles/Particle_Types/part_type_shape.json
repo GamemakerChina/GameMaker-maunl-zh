@@ -1,0 +1,21 @@
+{
+    "A 1x1 pixel. (This is the default setting.)":"1 x 1像素。(这是默认设置。)",
+    "A 3px outlined circle.":"一个3 px的轮廓圆。",
+    "A circle with an inward glow (looks like a bubble).":"向内发光的圆圈(看起来像一个泡沫)。",
+    "A circle with an outward glow \u0027 solid in the middle, glowing outwards.":"向外发光的圆：中间有向外发光的实心圆，向外发光",
+    "A filled circle.":"一个填满的圆。",
+    "A filled square.":"一个被填满的广场",
+    "A five-point filled star.":"一颗满分5分的星星。",
+    "A generic snowflake shape.":"一般的雪花形状。",
+    "A harshly glowing point (looks like an actual star in the night).":"一个刺眼的发光点(看起来像夜间的真正星星)。",
+    "A smooth version of the explosion effect. Use multiple to create a smoke cloud.":"平滑版的爆炸效果。使用\"多个\"创建烟云。",
+    "A spark effect \u0027 like a star with multiple points fading out.":"像恒星一样的火花效应，有多个点渐渐消失。",
+    "A squarish cloud of smoke \u0027 requires multiple colours to resemble an explosion.":"方形的烟雾云需要多种颜色才能像爆炸一样。",
+    "A thin cloud, requires up scaling and multiple particles to resemble a cloud.":"薄云，需要向上缩放和多个粒子才能类似于云。",
+    "An 8px wide horizontal line.":"8 px宽的水平线。",
+    "Particle Shape Constant":"粒子形状常量",
+    "The above code sets the particle type indexed in the global variable \"p1\" to the shape of a square, then sets various other particle properties.":"上述代码将全局变量\"p 1\"中索引的粒子类型设置为正方形，然后设置其他各种粒子属性。",
+    "The index of the particle type to set.":"要设定的粒子类型的索引。",
+    "The shape to choose.":"要选择的形状。",
+    "With this function you can set the sprite shape to use for the particle type, with the following constants being acceptable:":"使用此功能，可以设置要用于粒子类型的sprite形状，并且以下常量是可接受的："
+}

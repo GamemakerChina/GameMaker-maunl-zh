@@ -1,0 +1,5 @@
+{
+    "In this example, {}video_get_position(){} is used to return the position of the video that is playing.":"在此示例中，{}video_get_position(){}用于返回正在播放的视频的位置。",
+    "The above code moves the playing video 2 seconds ahead, when the right arrow key is pressed, and the new position is smaller than the video\u0027s duration. However if it\u0027s not within the duration, the video is closed.":"当按下右箭头键并且新位置小于视频的持续时间时，上述代码会提前2秒钟移动播放视频。但是，如果不在持续时间内，视频将关闭。",
+    "This function returns the current position of the loaded video, in milliseconds. This indicates how much the video has played, out of its whole {}duration{}.":"此函数返回加载视频的当前位置(以毫秒为单位)。这表示视频在整个{}持续时间{}内播放了多少。"
+}

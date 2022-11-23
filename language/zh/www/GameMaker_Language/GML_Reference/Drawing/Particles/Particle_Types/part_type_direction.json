@@ -1,0 +1,11 @@
+{
+    "Finally, you can set the \"wiggle\" factor. This is a value that will be added or subtracted randomly to the direction each step of the particles lifetime. Obviously larger values are more pronounced than smaller ones, and this value can even be a negative with the maximum range being between -20 and 20.":"最后，您可以设置\"摆动\"因子。该值将随机添加或减去到粒子寿命的每个步骤的方向。显然，较大的值比较小的值更明显，此值甚至可以是负值，最大范围在-20和20之间。",
+    "How much should randomly be added or subtracted from the particle\u0027s direction per step.":"每个步骤应从粒子的方向随机添加或减少多少。",
+    "How much the particle direction should increase or decrease per step.":"粒子方向每步应增加或减少多少。",
+    "The above code will set various particle values including the direction which will be random value between 0 and 359 degrees. It will also go up by 1 degree each step and has a random amount added to it of anywhere between 0 and 20 each step too.":"上述代码将设置各种粒子值，包括0到359度之间的随机值的方向。每个步骤还将上升1度，并且每个步骤还将随机添加0到20之间的任意数量。",
+    "The index of the particle type to change.":"要更改的粒子类型的索引。",
+    "The maximum direction the particle can start at.":"粒子可以开始的最大方向。",
+    "The minimum direction the particle can start at.":"粒子可以开始的最小方向。",
+    "This function is used to determine the direction of the particle when it is created and can also be used to make the particle increase or decrease its direction over its lifetime. The minimum and maximum direction values default at 0, which means that the particle will move to the right with no variation, but these values can be changed to limit the direction of movement following the standard {}GameMaker{} directions of 0 being right, 90 being up, 180 being left and 270 being down. If you set them to the same value the particles will only move in one direction.":"该函数用于确定粒子创建时的方向，也可用于使粒子在其寿命期间增加或减少其方向。最小和最大方向值默认为0，这意味着粒子将向右移动而没有任何变化，但是可以更改这些值以限制沿标准{}GameMaker{}方向移动的方向，即0向右，90向上，180向左，270向下。如果将它们设定为相同的值，粒子将仅沿一个方向移动。",
+    "You can also set an increment value which will add (if a positive number) or subtract (if a negative number) an amount of degrees to the direction over its lifetime. This value can be a minimum of (+/-) 0.01.":"您还可以设置一个增量值，该值将在其使用寿命期间向方向添加(如果为正数)或减去(如果为负数)度数。此值最小可为(+/-) 0.01。"
+}
