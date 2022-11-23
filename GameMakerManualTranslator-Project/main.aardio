@@ -5,12 +5,12 @@ mainForm = win.form(text="GameMaker Manual";right=1379;bottom=959)
 mainForm.add()
 /*}}*/
 
-
 import console
 import fsys;
 
 
 debug=io.exist("debug")
+
 
 robohelp=//GMS2-Robohelp-en
 mainfile=//index.htm

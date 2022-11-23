@@ -7,6 +7,17 @@ var http =inet.http();
 http.disableCookies() 
 
 
+//自动生成token文件
+token_str=`{
+"languagex"=""
+,"caiyun"=""
+}`
+
+if !io.exist(path+"/token.struct"){
+	string.save(path+"/token.struct", token_str)
+}
+
+
 translate=function(str="test",engine="lang-x"){
 
 	token=eval(string.load(path+"/token.struct"))
