@@ -302,22 +302,27 @@ window.setInterval(function(){
 
 	var iframe=$("iframe.topic").contents()
 	
-	//页内通用
-	iframe.find("div.footer a,h4").each(function(){
+	//这么做只是为了方便移植修改
+	var css1="div.footer a,h4"
+	var css2="p,h1,h2,h3,td,li,a,div.dropspotnote"
+	var css3="th,.warning,.important,.optional"
+
+	//页内第一次全局替换
+	iframe.find(css1).each(function(){
 		var file="global"
 		add_translate($(this),file)
 		add_event($(this),file)
 	})
 
-	//页内
-	iframe.find("p,h1,h2,h3,td,li,a,div.dropspotnote").each(function(){
+	//页内替换
+	iframe.find(css2).each(function(){
 		var file=dir
 		add_translate($(this),file)
 		add_event($(this),file)
 	})
 
-	//页内通用
-	iframe.find("th,.warning,.important,.optional").each(function(){
+	//页内第二次全局替换
+	iframe.find(css3).each(function(){
 		var file="global"
 		add_translate($(this),file)
 		add_event($(this),file)
