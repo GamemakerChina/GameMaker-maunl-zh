@@ -1,0 +1,3 @@
+{
+    "The {}window{}&nbsp;is where {}GameMaker{} displays your game, and, depending on the target device, there are different things that can be done with it, like set it to fullscreen or not, for example. {}Cameras{} (and {}view ports{}), however, govern {}what{} you see within that window, and so have another series of functions dedicated to them. The following two sections deal with these two aspects of displaying your game:":""
+}
