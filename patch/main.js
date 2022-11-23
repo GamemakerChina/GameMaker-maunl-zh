@@ -185,13 +185,15 @@ html=`<div class="hide">
 		<div class="layui-col-md6">
 		old(content)
 		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_caiyun()>彩云</button>
-		<br>
 		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("deepl")>deepl</button>
 		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("lang-x")>langx</button>
+		<br>
 		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("aws")>aws</button>
 		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("ali")>ali</button>
 		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("xinyi")>xinyi</button>
 		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("xunfei")>xunfei</button>
+		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("modern-mt")>modern-mt</button>
+		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("huoshan")>huoshan</button>
 		<textarea class="lr input old"contenteditable="true"></textarea>
 		</div>
 
