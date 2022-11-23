@@ -60,3 +60,11 @@ glob(manual_directory + '**/*.htm', {}, (err, files) => {
         }
     }
 })
+
+let content = fs.readFileSync(export_directory + "Content.htm").toString()
+let team_patch = fs.readFileSync("../patch/team.htm").toString()
+let $ = cheerio.load(content)
+
+$('p').eq(3).empty().addClass('team').append(team_patch)
+
+fs.writeFileSync(export_directory + "Content.htm", $.html())
