@@ -1,0 +1,8 @@
+{
+    "The above code creates and defines two particles and sets the particle indexed in the variable \"particle1\" to create 1 particle of \"particle2\" at the end of its lifetime.":"上述代码创建并定义了两个粒子，并将在可变\"粒子1\"中索引的粒子设置为在其寿命结束时创建1个\"粒子2\"粒子。",
+    "The index of the particle type to change.":"要更改的粒子类型的索引。",
+    "The index of the particle type to create at death.":"死亡时要创建的粒子类型的索引。",
+    "The quantity of the new particle to create at the particle death. If a negative value, it will instead create a fraction chance one is created (eg -3 would mean that one is created every 3 or so steps).":"粒子死亡时要创建的新粒子的数量。如果为负值，则会创建一个很小的几率值(例如3表示每3步左右创建一个)。",
+    "This function can be used to make your particle burst another type of particle at the end of its lifetime.":"此函数可用于使粒子在其寿命结束时爆发另一种类型的粒子。",
+    "{}NOTE{}: NEVER use the same particle type as this will cause an infinite loop and can crash the game in seconds! Also, be very careful when using this as it can greatly increase the number of particles on-screen at a time and cause your games to slow down noticeably.":"{}注意{}：切勿使用与此相同的粒子类型，否则将导致无限循环，并可能在几秒钟内使游戏崩溃！此外，使用时要非常小心，因为它会大大增加屏幕上的粒子数量，并导致游戏速度明显减慢。"
+}

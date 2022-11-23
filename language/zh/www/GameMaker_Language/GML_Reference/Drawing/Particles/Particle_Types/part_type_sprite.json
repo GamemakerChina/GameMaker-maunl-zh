@@ -1,0 +1,9 @@
+{
+    "The above code sets the particle type indexed in the global variable \"p1\" to the shape of the sprite indexed in \"spr_Coins\", and then sets various other particle properties.":"上述代码将全局变量\"p 1\"中索引的粒子类型设置为spr_Coins中索引的sprite的形状，然后设置各种其他粒子属性。",
+    "The index of the particle type to change.":"要更改的粒子类型的索引。",
+    "The index of the sprite to set the particle type to.":"要将粒子类型设置为的子画面的索引。",
+    "This function can be used to set a particle type to use a custom sprite from the game assets. You can select the sprite and then tell {}GameMaker{} to use the sprite and animate it or not, and if you choose animated, then you can also choose to have the sub-images changed at an interval such that the animation will begin and end at the beginning and end of the lifetime of each particle created (so that if you have a lifetime set to a 15 step minimum and a 30 step maximum, no matter what value the lifetime has the animation will be made to fit, with it running faster for the shorter lifetimes and slower for the longer). You can also select to choose a random sub-image so that if the sprite is not animated, a different image will be chosen at random to create the sprite, or if the particle is animated it will start the animation at a random point.":"此函数可用于设置粒子类型以使用游戏资源中的自定义sprite。您可以选择子画面，然后告诉{}GameMaker{}使用子画面并设置其动画或不设置其动画，如果选择动画，则还可以选择以一定的间隔更改子图像，以便动画在创建的每个粒子的生命周期的开始和结束时开始和结束(因此，如果将生命周期设置为最小15步和最大30步，则无论生命周期的值如何，都将使动画适合，并且在较短的生命周期内运行得更快，在较长的生命周期内运行得更慢)。也可以选择选择随机子图像，以便如果子画面未设置动画，则将随机选择不同的图像来创建精灵，或者如果粒子已设置动画，则将从随机点开始动画。",
+    "Whether to choose a random sub-image (true) or not (false).":"是否选择随机子图像(真)或不选择(假)。",
+    "Whether to follow the sprite\u0027s animation normally (true) or not (false).":"是否正常跟随精灵的动画(真)或不跟随精灵的动画(假)。",
+    "Whether to stretch the sprite\u0027s animation to match the particle lifespan (true) or not (false).":"是否拉伸精灵的动画以匹配粒子寿命(true)或不匹配(false)。"
+}

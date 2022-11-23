@@ -371,6 +371,9 @@
     "{}Introduction to {}GameMaker{}{}{}Introduction to {}GameMaker{}{}":"{}{}GameMaker{}的介绍{}{}{}GameMaker{}的介绍{}",
     "{}Quick Start Guide{}{}Quick Start Guide{}":"{}快速入门指南{}{}快速入门指南{}",
     "{}Setting Up And Version Information{}{}Setting Up And Version Information{}":"{}设置和版本信息{}{}设置和版本信息{}",
+    "{}Texture Group Status Constant{}":"{}纹理组状态常量{}",
+    "{}Video Format Constant{}":"{}视频格式常量{}",
+    "{}Video Status Constant{}":"{}视频状态常量{}",
     "{}{}Mouse Button Constant{}{}":"{}{}鼠标按钮常量{}{}",
     "网格数据结构":"网格"
 }

@@ -1,0 +1,10 @@
+{
+    "By default, it will also decompress and fetch the group into VRAM. This can be disabled by setting the second argument to {}false{}, which will leave you to manually {}pre-fetch{} it later or have it fetched automatically when an image is drawn from it.":"默认情况下，它还会解压缩并将组读取到Vram中。可以通过将第二个参数设置为{}false{}来禁用此功能，这将使您稍后手动{}预取{}它，或者在从中绘制图像时自动读取它。",
+    "For information on its use, see:&nbsp;{}Dynamic Textures{}":"有关其使用的信息，请参阅：{}动态纹理{}",
+    "If the Texture Group was loaded successfully, the function returns 0, otherwise it returns -1.":"如果纹理组加载成功，则函数返回0，否则返回-1。",
+    "If the Texture Group wasn\u0027t loaded, it prints a message to the output log.":"如果未加载\"纹理组\"，则会将消息打印到输出日志中。",
+    "The name of the Texture Group as a string. These are defined in the&nbsp;{}Texture Groups{}&nbsp;window.":"作为字符串的纹理组的名称。这些在{}\"纹理组\"{}窗口中定义。",
+    "This function is used to load a {}Dynamic Texture Group{} from disk into RAM.":"此函数用于将{}动态纹理组{}从磁盘加载到RAM中。",
+    "This will attempt to load the Dynamic Texture Group with the name \"{}tg_UI{}\" into memory and also pre-fetch it.":"这将尝试将名为\"{}tg_UI{}\"的动态纹理组加载到内存中，并且还会预取它。",
+    "{}{}OPTIONAL{}{}&nbsp;If {}true{} (default), the group is decompressed and fetched into VRAM. If {}false{}, it\u0027s only loaded into RAM, remaining compressed.":"{}{}可选{}{}如果{}为真{}(默认值)，则组将被解压缩并提取到Vram中。如果{}为假{}，则仅将其加载到RAM中，并保持压缩状态。"
+}

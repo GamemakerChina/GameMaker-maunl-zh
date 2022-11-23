@@ -1,0 +1,7 @@
+{
+    "Strength of the gravity.":"重力的强度。",
+    "The above code will set various particle values including the gravity which will add 0.2 to the speed each step with a direction of 270º, so will pull the particle \"down\" towards the bottom of the screen.":"上述代码将设置包括重力在内的各种粒子值，这将使每个步骤的速度增加0.2，方向为270 º,因此将粒子\"向下\"拉向屏幕底部。",
+    "The direction of the gravity.":"重力的方向。",
+    "The index of the particle type to change.":"要更改的粒子类型的索引。",
+    "This function will set the gravity that is to affect each particle of the given type that is created. The gravity strength value is added to the particle speed every step and is usually a small value like 0.5, while the direction is the direction of the gravity \"pull\" and follows the standard {}GameMaker{} directions of 0° being right, 90° being up, 180° being left and 270° being down.":"该功能将设置影响创建的给定类型的每个粒子的重力。重力强度值每一步都添加到粒子速度中，并且通常是一个小值，如0.5，而方向是重力\"拉\"的方向，并遵循{}GameMaker{}的标准{}方向，0 °是右边，90 °是上边，180 °是左边，270 °是下边。"
+}

@@ -1,0 +1,7 @@
+{
+    "The above code will set various particle values including the scale which sets the xscale to eight times the size and the yscale to half the size.":"上述代码将设置各种粒子值，包括将xscale设置为大小的八倍的比例和将yscale设置为大小的一半的比例。",
+    "The horizontal scaling of the base particle.":"基础粒子的水平缩放。",
+    "The index of the particle type to change.":"要更改的粒子类型的索引。",
+    "The vertical scaling of the base particle.":"基础粒子的垂直缩放。",
+    "This function will set the horizontal and vertical scale of the particle before any other size changes are made. This function works on the ratio of the sprite size, so a value of 1 (the default value) is a 1:1 ratio, meaning that 0.5 would be half and 2 double.":"此功能将在进行任何其他尺寸更改之前设置粒子的水平和垂直比例。此函数适用于子画面大小的比率，因此值1(默认值)是1:1比率，这意味着0.5将是半倍和2倍。"
+}

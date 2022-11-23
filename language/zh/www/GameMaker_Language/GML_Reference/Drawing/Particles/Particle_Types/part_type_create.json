@@ -1,0 +1,4 @@
+{
+    "This will create a new particle type, storing its index in the variable \"mypart\".":"这将创建一个新的粒子类型，将其索引存储在可变的\"mypart\"中。",
+    "With this function you can create a new particle type and the return value should be stored in a variable for use in all subsequent particle functions.":"使用此函数可以创建新的粒子类型，并且返回值应存储在变量中，以便在所有后续粒子函数中使用。"
+}

@@ -1,0 +1,4 @@
+{
+    "The above code closes the video when the Escape key is pressed.":"按下Escape(退出)键时，上述代码将关闭视频。",
+    "This function closes the video file that is currently loaded. Ensure that this is only called after a {}{}video_open(){}{} call, otherwise it will not do anything.":"此功能可关闭当前加载的视频文件。请确保仅在{}{}video _open(){}{}呼叫之后调用此功能，否则不会执行任何操作。"
+}

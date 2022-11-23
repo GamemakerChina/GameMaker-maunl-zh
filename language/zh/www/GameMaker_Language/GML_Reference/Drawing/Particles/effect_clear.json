@@ -1,0 +1,4 @@
+{
+    "Calling this will clear the room of any particles made with the {}effect_create_*{} functions.":"调用此选项将清除使用{}effect_create_*{}函数生成的任何粒子的房间。",
+    "This will clear all particles that are currently visible in the room which have been made using either {}{}effect_create_above(){}{} or {}{}effect_create_below(){}{}.":"这将清除房间中当前可见的所有粒子，这些粒子使用{}{}effect_create_above(){}{}或{}{}effect_create_below(){}{}。"
+}

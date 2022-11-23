@@ -1,0 +1,6 @@
+{
+    "The above code will check for the emitter indexed in the variable \"permit\" and if it exists, it will burst 30 particles from it.":"上面的代码将检查变量\"permit\"中索引的发射器，如果它存在，它将从中爆发30个粒子。",
+    "The index of the emitter to search for.":"要搜索的发射器的索引。",
+    "The particle system to check for an emitter.":"用于检查发射器的粒子系统。",
+    "With this function you can check to see if the given particle emitter indexed exists in the given system or not. Note that if the variable being checked is an uninitialised variable (that a particle emitter would otherwise have its index assigned to) this will throw an error.":"使用此函数，可以检查给定系统中是否存在索引的给定粒子发射器。请注意，如果要检查的变量是未初始化的变量(否则粒子发射器会将其索引指定给该变量)，则会引发错误。"
+}

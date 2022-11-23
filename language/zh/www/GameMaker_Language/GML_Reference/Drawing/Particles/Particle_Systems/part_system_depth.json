@@ -1,0 +1,6 @@
+{
+    "The above code will create a particle system and store its index in the global variable \"Sname\". this system is then given a low depth of -1000, meaning that it will appear above everything with a higher draw depth.":"上述代码将创建一个粒子系统，并将其索引存储在全局变量\"Sname\"中，然后赋予这个系统-1000的低深度，这意味着它将以更高的绘制深度出现在任何东西之上。",
+    "The depth at which to set the particle system.":"设置粒子系统的深度。",
+    "The index of the particle system to change.":"要更改的粒子系统的索引。",
+    "With this function you can set the draw depth for the particle system, much the same as you can set the {}render depth{} of different layers within the room, where a low draw depth means that it will appear on top of all things drawn with a higher depth, and a high draw depth placing it below everything with a lower draw depth.":"使用此功能，可以设置粒子系统的绘制深度，这与可以设置房间内不同层的{}渲染深度{}非常相同，其中较低的绘制深度意味着它将出现在较高深度绘制的所有内容之上，而较高的绘制深度则将其放置在较低绘制深度的所有内容之下。"
+}

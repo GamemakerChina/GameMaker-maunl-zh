@@ -1,0 +1,7 @@
+{
+    "The above code will set all particles created of the particle type indexed in the global variable \"Snow_Part\" to have an alpha value of 0 (transparent) and then fade in to have an alpha of 1 (opaque) at the end of their lifetime.":"上述代码将在全局变量\"Snow_Part\"中为粒子类型创建索引的所有粒子设置为Alpha值为0(透明)，然后在其生命周期结束时淡入淡出为Alpha值为1(不透明)。",
+    "The end alpha of the particle.":"粒子的末端Alpha。",
+    "The index of the particle type to change.":"要更改的粒子类型的索引。",
+    "The start alpha of the particle.":"粒子的起始Alpha。",
+    "This function can be used to set an alpha value (transparency) gradient for each particle created of the given type. The first alpha is that which all particles will start with, and the second alpha is the one on with which the particle will end with, and a smooth gradient change will occur to the alpha over the particles lifetime from one to the other. This can be from 0 (transparent) to 1 (opaque).":"此函数可用于为给定类型创建的每个粒子设置Alpha值(透明度)渐变。第一个Alpha是所有粒子将开始的，第二个Alpha是粒子将结束的那个，并且在粒子从一个到另一个的寿命期间，Alpha将发生平滑的梯度变化。这可以是从0(透明)到1(不透明)。"
+}

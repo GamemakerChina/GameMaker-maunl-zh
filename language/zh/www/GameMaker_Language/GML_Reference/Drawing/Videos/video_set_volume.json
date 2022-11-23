@@ -1,0 +1,7 @@
+{
+    "Ensure that this is only called after a {}{}video_open(){}{} call but before a {}{}video_close(){}{} call, otherwise it will not do anything (as there will not be a video loaded).":"请确保仅在{}{}video_open(){}{}呼叫之后但在{}{}video_close(){}{}呼叫之前调用此功能，否则它将不执行任何操作(因为不会加载视频)。",
+    "On some platforms, this function will only work after the video has been loaded completely, so use {}Async Callbacks{} to find out when the video is ready and then change the volume.":"在某些平台上，此功能只能在视频完全加载后才能工作，因此请使用{}异步回叫{}查看视频何时准备就绪，然后更改音量。",
+    "The code above loads {}splash.mp4{} from the Included Files of the game, and changes its volume to {}0.5{} (50% of its maximum volume).":"上面的代码从游戏的\"包含的文件\"中加载{}splash.mp 4{}，并将其卷更改为{}0.5{}(最大卷的50%)。",
+    "This function changes the audio volume of the video that is currently loaded. It takes a value between {}0{}&nbsp;and {}1{}, where {}0{} is silent and {}1{} is the maximum volume.":"此功能可更改当前加载的视频的音频音量。它采用介于{}0{}和{}1{}之间的值，其中{}0{}是静默的，{}1{}是最大卷。",
+    "Volume value between 0 and 1":"卷值介于0和1之间"
+}

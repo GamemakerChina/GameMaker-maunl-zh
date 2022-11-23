@@ -1,0 +1,10 @@
+{
+    "The above code will generate a single particle every step that the instance with the code has a speed greater than one. These particles will be of a random colour.":"上述代码将在具有该代码的实例的速度大于1的每个步骤中生成单个粒子。这些粒子将是随机的颜色。",
+    "The colour blending for the particles.":"颗粒混合的颜色。",
+    "The index (type) of the particles to be created.":"要创建的粒子的索引(类型)。",
+    "The index of the particle system.":"粒子系统的索引。",
+    "The number of particles to create.":"要创建的粒子数。",
+    "The x coordinate of where to create the particles.":"创建粒子的位置的x坐标。",
+    "The y coordinate of where to create the particles.":"创建粒子的位置的y坐标。",
+    "This function is ideal for those effects that do not require any of the functionality offered by {}particle emitters{} (for example, to create smoke from a missile, or a simple explosion effect) as it permits you to quickly and easily create particles at any position in the game room. You can also colour the particles \"on the fly\" as they are created with this function, and this colour will over-ride the predefined colour of the particle, but it does not blend this colour over the particles lifetime. Note that you must have created the particle system and the particle type previously for this function to be used.":"此功能非常适合那些不需要{}粒子发射器{}提供的任何功能(例如，通过导弹产生烟雾或简单的爆炸效果)的效果，因为它允许您在游戏室的任何位置快速轻松地创建粒子。也可以在\"飞行中\"着色粒子，因为它们是使用此功能创建的，并且此颜色将覆盖粒子的预定义颜色，但是它不会在粒子的整个寿命期间混合此颜色。请注意，必须先创建粒子系统和粒子类型，然后才能使用此功能。"
+}

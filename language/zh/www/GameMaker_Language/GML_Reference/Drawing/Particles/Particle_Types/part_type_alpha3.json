@@ -1,0 +1,8 @@
+{
+    "The above code will make all particles created of the type indexed in the variable \"part_Health\" have an alpha blend from 0.5 to 1 to 0 over their lifetime.":"上述代码将使在变量\"part_Health\"中创建的索引类型的所有粒子在其生存期内具有从0.5到1到0的Alpha混合。",
+    "The ending alpha of the particle.":"粒子的末端α。",
+    "The halfway point alpha of the particle.":"粒子的中点Alpha。",
+    "The index of the particle type to change.":"要更改的粒子类型的索引。",
+    "The starting alpha of the particle.":"粒子的起始Alpha。",
+    "This function can be used to set a three alpha (transparency) value gradient for each particle created of the given type. The first alpha is that which all particles will start with, and the second alpha is the one that will be blended to half way through its lifetime and the third alpha is the one with which the particle will end with. A smooth gradient change will occur through the alphas over the particles lifetime from one to the other.":"此函数可用于为给定类型创建的每个粒子设置三个alpha(透明度)值梯度。第一个阿尔法是所有粒子开始的阿尔法，第二个阿尔法是在其寿命中混合到一半的阿尔法，第三个阿尔法是粒子结束的阿尔法。从一个粒子到另一个粒子的整个生命周期内，通过阿尔卑斯山脉会发生平滑的梯度变化。"
+}

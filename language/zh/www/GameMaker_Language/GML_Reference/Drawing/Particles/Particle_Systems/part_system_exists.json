@@ -1,0 +1,5 @@
+{
+    "The above code checks to see if the particle system referenced in the global variable exists and if it does not it is created.":"以上代码检查全局变量中引用的粒子系统是否存在，以及是否创建了该粒子系统。",
+    "The index of the particle system to check for.":"要检查的粒子系统的索引。",
+    "With this function you can check to see if the given particle system indexed exists in the game or not. Note that if the variable being checked is an uninitialised variable (that a particle system would otherwise have its index assigned to) this will throw an error.":"使用此功能，可以检查游戏中是否存在给定的粒子系统索引。请注意，如果要检查的变量是未初始化的变量(否则粒子系统会将其索引指定给该变量)，则会引发错误。"
+}

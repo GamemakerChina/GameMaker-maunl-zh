@@ -1,0 +1,6 @@
+{
+    "If no custom surface is set and the default application_surface has also been disabled, then the function will return -1.":"如果未设置自定义曲面，并且也禁用了默认的application_surface，则函数将返回-1。",
+    "If no custom surface is set, but the default application_surface is still enabled, then the function will typically return 0. However, if you have been manipulating the application_surface previously you might wish to check that the ID you got does not match the current value of the application_surface variable, in case this is no longer 0.":"如果未设置自定义曲面，但仍启用默认application_surface，则该函数通常将返回0。但是，如果您以前一直在操作application_surface，则可能希望检查所获得的ID是否与application_surface变量的当前值不匹配(如果该值不再为0)。",
+    "The above code will check to see if the current render target is a surface or not, and if it is, it resets the target then draws a surface.":"上述代码将检查当前渲染目标是否为曲面，如果是，则会重置目标，然后绘制曲面。",
+    "With this function you can get the ID of the current surface being targeted for drawing to. If you created that surface using {}{}surface_create(){}{}, then this will be the positive integer which is the unique ID for that surface":"使用此函数，可以获取要绘制到的当前曲面的Id。如果使用{}{}surface_create(){}{}创建了该曲面，则这将是正整数，它是该曲面的唯一ID"
+}

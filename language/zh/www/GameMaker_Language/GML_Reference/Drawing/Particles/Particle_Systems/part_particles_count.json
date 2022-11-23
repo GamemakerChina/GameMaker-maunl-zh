@@ -1,0 +1,5 @@
+{
+    "The above code will check the number of particles in the local particle system indexed in the variable \"Sname\" and if there are none, it will destroy the system and then the instance.":"以上代码将检查在变量\"Sname\"中索引的局部粒子系统中的粒子数，如果没有，则会破坏系统，然后破坏实例。",
+    "The index of the particle system.":"粒子系统的索引。",
+    "With this function you can check to see if a particle system currently has any particles created in the room, and it will return the number of them too.":"使用此功能，可以检查粒子系统当前是否在房间中创建了任何粒子，并且粒子系统还将返回粒子的数量。"
+}

@@ -1,0 +1,4 @@
+{
+    "The above code would run in a Step event. It gets the volume for the video that is currently playing, and if it\u0027s lower than 1, it will increase it by 0.02, gradually increasing the volume until it\u0027s at the maximum level.":"上述代码将在Step事件中运行。它获取当前正在播放的视频的音量，如果低于1，将增加0.02，逐渐增加音量，直到达到最大音量水平。",
+    "This function returns the volume of the currently loaded video, which is a value between 0 and 1. You can change the volume of the loaded video using {}{}video_set_volume(){}{}.":"此函数返回当前加载的视频的音量，该值介于0和1之间。您可以使用{}{}video _set_volume(){}{}更改加载的视频的音量。"
+}

@@ -1,0 +1,8 @@
+{
+    "The above code creates and defines two particles and sets the particle indexed in the variable \"particle2\" to create 2 particles of \"particle3\" every step of its lifetime.":"上述代码创建并定义了两个粒子，并将在可变\"粒子2\"中索引的粒子设置为在其生命周期的每一步创建2个\"粒子3\"粒子。",
+    "The index of the particle type to change.":"要更改的粒子类型的索引。",
+    "The index of the particle type to create per step.":"每个步骤要创建的粒子类型的索引。",
+    "The quantity of the new particle to create per step.":"每步要创建的新粒子的数量。",
+    "This function can be used to make your particle type stream another type each step until the end of its lifetime. You can set a negative value for the step number and a particle will be emitted at a random interval based on that, so that, for example, a value of -3 will have a 1:3 chance of emitting a particle each step.":"此函数可用于使粒子类型流在每个步骤中成为另一种类型，直到其生命周期结束。可以为步长编号设置负值，粒子将基于该值以随机间隔发射，这样，例如，值为-3时，每个步长发射粒子的几率为1:3。",
+    "{}NOTE{}: NEVER use the same particle type as this will cause an infinite loop and can crash the game in seconds! Also, be very careful when using this as it can greatly increase the number of particles on-screen at a time and cause your games to slow down noticeably.":"{}注意{}：切勿使用与此相同的粒子类型，否则将导致无限循环，并可能在几秒钟内使游戏崩溃！此外，使用时要非常小心，因为它会大大增加屏幕上的粒子数量，并导致游戏速度明显减慢。"
+}

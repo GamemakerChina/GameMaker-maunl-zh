@@ -1,0 +1,11 @@
+{
+    "Finally, you can set the \"wiggle\" factor. This is a value that will be added or subtracted randomly to the speed each step of the particles lifetime. Obviously larger values are more pronounced than smaller ones, and this value can even be a negative with the maximum range being between -20 and 20.":"最后，您可以设置\"摆动\"因子。该值将随机添加或减去到粒子寿命的每个步骤的速度中。显然，较大的值比较小的值更明显，此值甚至可以是负值，最大范围在-20和20之间。",
+    "How much should randomly be added or subtracted from the particle\u0027s speed per step.":"应该从粒子每步的速度中随机添加或减去多少。",
+    "How much the particle speed should increase or decrease per step.":"粒子速度每步应增加或减少多少。",
+    "The above code will set various particle values including the speed which sets a minimum speed of five and a maximum speed of ten, with the speed slowing down by a value of -0.2 each step. The speed will also wiggle by a random value between 0 and 20 each step.":"上述代码将设置各种粒子值，包括设置最小速度为5和最大速度为10的速度，每个步骤的速度减慢值为-0.2。每个步骤的转速也会随机摆动0到20之间的值。",
+    "The index of the particle type to change.":"要更改的粒子类型的索引。",
+    "The maximum speed the particle can start at.":"粒子可以开始的最大速度。",
+    "The minimum speed the particle can start at.":"粒子可以开始的最小速度。",
+    "This function is used to set the movement speed of the particle when it is created and can also be used to make the particle increase or decrease its speed over its lifetime. The minimum and maximum speed values default at 1, which means that the particle will move 1 pixel each step, and if they are set to the same value, the initial speed for all particles will be the same, but if set to different values, each particle will start with a random speed from within the given range. For example if you have a minimum of 3 and a maximum of 6, all particles will be created with a speed between three and six pixels per step.":"该函数用于在创建粒子时设置粒子的移动速度，也可用于使粒子在其寿命期间提高或降低其速度。最小和最大速度值默认为1，这意味着粒子将每步移动1个像素，如果它们设置为相同的值，则所有粒子的初始速度将相同，但如果设置为不同的值，则每个粒子将从给定范围内的随机速度开始。例如，如果最小值为3，最大值为6，则将以每步3到6个像素之间的速度创建所有粒子。",
+    "You can also set an increment value that will make the particle move faster (if a positive number) or slower (if a negative number) over its lifetime, with the given amount being added to the particle speed each and every step. This value can be a minimum of (+/-)0.01.":"还可以设置一个增量值，使粒子在其生存期内移动更快(如果为正数)或更慢(如果为负数)，并且每一步都将给定的量添加到粒子速度中。此值最小可为(+/-) 0.01。"
+}
