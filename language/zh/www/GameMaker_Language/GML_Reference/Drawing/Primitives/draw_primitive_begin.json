@@ -5,9 +5,10 @@
     "A triangle fan":"三角形风扇",
     "A triangle list":"三角形列表",
     "A triangle strip":"三角形条",
+    "Primitive Type Constant":"基元类型常量",
     "The above code will draw three quarters of a circle made from primitives.":"上述代码将绘制由基元组成的圆的四分之三。",
     "The following image illustrates basically how these should look and also the order in which you should define the vertexes:":"下图基本上说明了这些顶点的外观以及定义顶点的顺序：",
-    "The kind of primitive you are going to draw.":"你要画的那种原始人。",
-    "This function must be called before you can define any primitives. There are 6 types of primitives you can define as the following constants:":"必须先调用此函数，然后才能定义任何基元。有6种类型的原语可以定义为以下常量：",
-    "{}Please note that on some platforms (Windows, Xbox) the {}pr_trianglefan{} type is not natively supported and so {}GameMaker{} does a conversion when the game is compiled to make them work. This means that on those platforms the {}pr_trianglefan{} type will be much slower to use than the others. This Also note that to use this function on HTML5, you {}must{} enable WebGL in the Game Options.":"{}请注意，在某些平台(Windows、Xbox)上，{}pr_trianglefan{}类型不受本机支持，因此{}GameMaker{}在编译游戏以使其正常运行时执行转换。这意味着在这些平台上，{}pr_trianglefan{}类型的使用速度将比其他类型慢得多。另请注意，要在HTML5上使用此功能，{}必须在\"游戏选项\"中启用{}WebGL。"
+    "The kind of primitive you are going to draw.":"你要绘制的基元类型。",
+    "This function must be called before you can define any primitives. There are 6 types of primitives you can define as the following constants:":"必须先调用此函数，然后才能定义任何基元。有6种类型的基元可以定义为以下常量：",
+    "{}Please note that on some platforms (Windows, Xbox) the {}pr_trianglefan{} type is not natively supported and so {}GameMaker{} does a conversion when the game is compiled to make them work. This means that on those platforms the {}pr_trianglefan{} type will be much slower to use than the others. This Also note that to use this function on HTML5, you {}must{} enable WebGL in the Game Options.":"{}请注意，在某些平台(Windows、Xbox)上，{}pr_trianglefan{} 类型不受支持，因此 {}GameMaker{} 在编译游戏以使其正常运行时执行转换。这意味着在这些平台上，{}pr_trianglefan{} 类型的使用速度将比其他类型慢得多。另请注意，要在HTML5上使用此功能，必须在{}\"游戏选项\"{}中启用WebGL。"
 }

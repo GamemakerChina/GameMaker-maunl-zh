@@ -1,6 +1,6 @@
 {
-    "The above code will define a new vertex format, create a new buffer and start the definition process of a new primitive.":"上述代码将定义一个新的顶点格式，创建一个新的缓冲区，并启动新基本体的定义过程。",
+    "The above code will define a new vertex format, create a new buffer and start the definition process of a new primitive.":"上述代码将定义一个新的顶点格式，创建一个新的缓冲区，并启动新基元的定义过程。",
     "The buffer to be written to.":"要写入的缓冲区。",
     "The vertex format to use.":"要使用的顶点格式。",
-    "With this function you begin the definition of a custom primitive. You assign a buffer to write the primitive to, and the vertex format to use (previously defined using the vertex format functions). You would then define the necessary points for each vertex of the primitive before calling {}{}vertex_end(){}{} to finalise the primitive creation.":"使用此函数，可以开始定义自定义基本体。指定要将基本体写入的缓冲区和要使用的顶点格式(以前使用顶点格式函数定义)。然后，在调用{}{}vertex_end(){}{}以最终创建基本体之前，需要为基本体的每个顶点定义必要的点。"
+    "With this function you begin the definition of a custom primitive. You assign a buffer to write the primitive to, and the vertex format to use (previously defined using the vertex format functions). You would then define the necessary points for each vertex of the primitive before calling {}{}vertex_end(){}{} to finalise the primitive creation.":"使用此函数，可以开始定义自定义基元。指定要将基元写入的缓冲区和要使用的顶点格式(以前使用顶点格式函数定义)。然后，在调用{}{}vertex_end(){}{}以最终创建基元之前，需要为基元的每个顶点定义必要的点。"
 }

@@ -2,5 +2,5 @@
     "The above code will draw a simple triangle primitive.":"上述代码将绘制一个简单的三角形基元。",
     "The x coordinate of the vertex.":"顶点的x坐标。",
     "The y coordinate of the vertex.":"顶点的y坐标。",
-    "This function defines the position of a vertex for a primitive. The final look of the primitive will depend on the primitive type chosen to draw and the order with which you add the vertexes to it. See {}{}draw_primitive_begin(){}{}&nbsp;for\n    more information. To end and draw the primitive you must call {}{}draw_primitive_end(){}{}.":"此函数定义基本体的顶点位置。基本体的最终外观将取决于选择要绘制的基本体类型以及向其添加顶点的顺序。有关的信息，请参见{}{}draw_primitive_begin(){}{}\n更多信息。要结束并绘制基元，必须调用{}{}draw_primitive_end(){}{}。"
+    "This function defines the position of a vertex for a primitive. The final look of the primitive will depend on the primitive type chosen to draw and the order with which you add the vertexes to it. See {}{}draw_primitive_begin(){}{}&nbsp;for\n    more information. To end and draw the primitive you must call {}{}draw_primitive_end(){}{}.":"此函数定义基元的顶点位置。基元的最终外观将取决于选择要绘制的基元类型以及向其添加顶点的顺序。有关的信息，请参见{}{}draw_primitive_begin(){}{}\n更多信息。要结束并绘制基元，必须调用{}{}draw_primitive_end(){}{}。"
 }

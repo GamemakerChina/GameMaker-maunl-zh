@@ -1,5 +1,5 @@
 {
     "The above code will remove the vertex format created in the variable \"myFormat\" from memory.":"上述代码将从内存中删除在变量\"myFormat\"中创建的顶点格式。",
     "The vertex format to delete":"要删除的顶点格式",
-    "This function must be called whenever you are finished using any created vector formats. You provide the format ID value (as returned by the function {}{}vector_format_end(){}{}), and this function will free the memory associated with it. Note that if you try to use this format again after calling this function, you will get an error.":"无论何时完成使用任何创建的矢量格式，都必须调用此函数。提供格式Id值(由函数{}{}vector_format_end(){}{}返回)，此函数将释放与其关联的内存。请注意，如果在调用此函数后再次尝试使用此格式，则会收到错误消息。"
+    "This function must be called whenever you are finished using any created vector formats. You provide the format ID value (as returned by the function {}{}vector_format_end(){}{}), and this function will free the memory associated with it. Note that if you try to use this format again after calling this function, you will get an error.":"每当您使用任何创建的顶点格式完毕后，都必须调用此函数。您提供格式ID值(由函数{}{}vector_format_end(){}{}返回), 此函数将释放与其关联的内存。请注意，如果您在调用此函数后再次尝试使用此格式，您将收到错误。"
 }

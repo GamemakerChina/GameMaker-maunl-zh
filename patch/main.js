@@ -302,8 +302,8 @@ window.setInterval(function(){
 
 	var iframe=$("iframe.topic").contents()
 	
-	//页脚
-	iframe.find("div.footer a").each(function(){
+	//页内通用
+	iframe.find("div.footer a,h4").each(function(){
 		var file="global"
 		add_translate($(this),file)
 		add_event($(this),file)
@@ -317,7 +317,7 @@ window.setInterval(function(){
 	})
 
 	//页内通用
-	iframe.find("h4,th,.warning,.important,.optional").each(function(){
+	iframe.find("th,.warning,.important,.optional").each(function(){
 		var file="global"
 		add_translate($(this),file)
 		add_event($(this),file)

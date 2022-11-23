@@ -1,8 +1,8 @@
 {
     "The above code will draw a semi-transparent triangle with each vertex coloured a different colour.":"上述代码将绘制一个半透明三角形，每个顶点的颜色不同。",
-    "The alpha to draw this vertex with (0-1).":"使用(0-1 )绘制此顶点的Alpha。",
+    "The alpha to draw this vertex with (0-1).":"使用 (0-1) 绘制此顶点的Alpha。",
     "The colour to draw this vertex with.":"用于绘制此顶点的颜色。",
     "The x coordinate of the vertex.":"顶点的x坐标。",
     "The y coordinate of the vertex.":"顶点的y坐标。",
-    "This function defines the position of a vertex for a primitive, with its own colour and alpha setting. The final look of the primitive will depend on the primitive type chosen to draw and the order with which you add the vertexes to it (see {}{}draw_primitive_begin(){}{}    for more information) and the vertexes with different colours and alphas will blend smoothly from one to the other. To end and draw the primitive you must call {}{}draw_primitive_end(){}{}.":"此函数使用自己的颜色和Alpha设置定义基本体的顶点位置。基本体的最终外观将取决于所选绘制的基本体类型以及向其添加顶点的顺序(有关详细信息，请参见{}{}draw_primitive_begin(){}{})，并且具有不同颜色和Alphas的顶点将从一个到另一个平滑混合。要结束并绘制基元，必须调用{}{}draw_primitive_end(){}{}。"
+    "This function defines the position of a vertex for a primitive, with its own colour and alpha setting. The final look of the primitive will depend on the primitive type chosen to draw and the order with which you add the vertexes to it (see {}{}draw_primitive_begin(){}{}    for more information) and the vertexes with different colours and alphas will blend smoothly from one to the other. To end and draw the primitive you must call {}{}draw_primitive_end(){}{}.":"此函数定义基元顶点的位置，具有自己的颜色和alpha设置。基元的最终外观将取决于选择绘制的基元类型以及向其添加顶点的顺序(有关详细信息，请参阅{}{}draw_primitive_begin(){}{})，具有不同颜色和alpha的顶点将从一个到另一个平稳混合。要结束并绘制基元，您必须调用{}{}draw_primitive_end(){}{}."
 }
