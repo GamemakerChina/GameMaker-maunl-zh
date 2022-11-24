@@ -1,0 +1,7 @@
+{
+    "Note that if your camera does automatic object tracking - ie: it has been created using {}{}camera_create_view(){}{}&nbsp;with an object index / instance ID that isn\u0027t -1, or you are setting a camera defined in the Room Editor, or you are setting the default camera - then this matrix will get overwritten the next game frame.":"请注意，如果您的相机执行自动对象跟踪 - 即：它是使用 {}{}camera_create_view(){}{} 创建的，并且对象索引/实例ID不是t-1，或者您正在设置在\"房间编辑器\"中定义的相机，或者您正在设置默认相机 - 则此矩阵将在下一个游戏帧中被覆盖。",
+    "The above code creates a new camera and assigns it to view port[0]. This camera then has its view and projection matrices set.":"上述代码将创建一个新相机并将其分配给 viewport[0]。然后，该相机将设置其视图矩阵和投影矩阵。",
+    "The unique camera ID value returned when you created the camera.":"创建相机时返回的唯一相机 ID 值。",
+    "The unique matrix ID returned when you created the matrix.":"创建矩阵时返回的唯一矩阵 ID。",
+    "This function will set the {}view matrix{} for a given camera. You give the unique camera ID value (as returned by the different {}{}camera_create(){}{} functions) and a view matrix to be applied. You can find out more about creating view matrices from the section {}Matrix Functions{}, specifically {}{}matrix_build_lookat(){}{}.":"此函数将为给定的照相机设置{}视图矩阵{}。提供唯一的相机 ID 值(由不同的 {}{}camera_create(){}{} 函数返回)和要应用的视图矩阵。有关创建视图矩阵的详细信息，请参阅{}矩阵函数{}一节，具体为 {}{}matrix_build_lookat(){}{}。"
+}

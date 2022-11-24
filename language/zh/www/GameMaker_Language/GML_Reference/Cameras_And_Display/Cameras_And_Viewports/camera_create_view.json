@@ -1,0 +1,18 @@
+{
+    "Camera ID":"Camera ID",
+    "Instance ID":"实例 ID",
+    "Note that cameras are like all dynamic resources and will occupy memory when created. This means that you need to take care not to create cameras unnecessarily and to destroy those that you don\u0027t need by calling the function {}{}camera_destroy(){}{}. This also means that cameras will persist from room to room if assigned to a {}global{} variable (they will persist when assigned to instance or local variables too, but you can\u0027t access them after changing room, hence the memory leak), so that you can - for example - create a new camera, assign it to a global variable, and then at the start of each room use the {}camera_set_*{} functions to set the properties before assigning it to a view port.":"请注意，相机与所有动态资源一样，在创建时会占用内存。这意味着您需要注意不要不必要地创建相机，并通过调用函数 {}{}camera_destroy(){}{} 来销毁不需要的相机。这也意味着，如果分配给一个{}全局{}变量，摄像机将在各个房间之间保持不变（当分配给实例或局部变量时，它们也将保持不变，但在更改房间后，您无法访问它们，因此会发生内存泄漏），因此您可以创建一个新的摄像机，将其分配给全局变量，然后在每个房间开始时，使用 {}camera_set_*{} 函数设置属性，然后将其分配给视图端口。",
+    "Object Asset":"对象资源",
+    "The above code removes the current camera assigned to viewport[0] and then creates a new camera, defines its view properties and then assigns that to viewport[0].":"上述代码将删除分配给 viewport[0] 的当前相机，然后创建新的相机，定义其视图属性，然后将其分配给 viewport[0]。",
+    "The height of the area the view captures.":"视图捕捉的区域的高度。",
+    "The width of the area the view captures.":"视图捕获的区域的宽度。",
+    "The x position (within the room) of the left side of the area the camera view captures.":"相机视图捕捉区域左侧的 x 位置(在房间内)。",
+    "The y position (within the room) of the top of the area the camera view captures.":"相机视图捕捉区域顶部的 y 位置(在房间内)。",
+    "This function will create a new camera and then set its view into the room, before return the unique ID value to identify the camera in future function calls. The camera will be created using the values that you set in this function for position, size and other details which correlate to the values you set in the Room Editor (see {}here{}). Note that this function can take a {}variable number of arguments{} with only the x/y position and width/height arguments being obligatory. Any arguments not supplied will use their default arguments.":"此功能将创建一个新的摄像头，然后将其视图设置到房间中，然后返回唯一的 ID 值以在未来的功能调用中标识摄像头。将使用您在此函数中为位置、大小和其他详细信息设置的值创建摄像机，这些值与您在\"文件室编辑器\"中设置的值相关(请{}参阅此处{})。请注意，此函数可以采用{}可变数量的参数{}，但只有 x/y 位置和宽度/高度参数是必需的。未提供的任何参数都将使用其默认参数。",
+    "{}OPTIONAL{} The angle to set the for the camera view(from 0° - 360°, default is 0).":"{}可选{} 为相机视图设置的角度(0°-360°，默认值为0 )。",
+    "{}OPTIONAL{} The maximum horizontal speed the view can move at (set to -1 for \"instant\" following, default is -1).":"{}可选{} 视图可以移动的最大水平速度(设置为 -1 后为\"立即\"，默认值为 -1)。",
+    "{}OPTIONAL{} The maximum vertical speed the view can move at (set to -1 for \"instant\" following, default is -1).":"{}可选{} 视图可以移动的最大垂直速度(设置为 -1 后为\"立即\"，默认值为 -1)。",
+    "{}OPTIONAL{} The minimum horizontal space between the edge of the view area and the instance it is set to follow (before the view begins moving and if it is set to follow an instance, default is 0).":"{}可选{} 视图区域边缘与其设置为跟随的实例之间的最小水平间距(在视图开始移动之前，如果设置为跟随实例，则默认值为 0)。",
+    "{}OPTIONAL{} The minimum vertical space between the edge of the view area and the instance it is set to follow (before the view begins moving and if it is set to follow an instance, default is 0).":"{}可选{} 视图区域边缘与其设置为跟随的实例之间的最小垂直间距(在视图开始移动之前，如果设置为跟随实例，则默认值为 0)。",
+    "{}OPTIONAL{} The object ID (or instance ID) for the camera view to follow (default is -1, no object).":"{}可选{} 摄像机视图要跟随的对象 ID(或实例 ID)(默认为 -1，无对象)。"
+}
