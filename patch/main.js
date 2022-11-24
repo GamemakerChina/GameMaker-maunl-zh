@@ -249,7 +249,7 @@ add_event=async function(ins,file){
 	//添加事件
 	ins.addClass("isHookOver")
 	
-	ins.mousedown(function(e) {if (3 == e.which) {
+	ins.mousedown(async function(e) {if (3 == e.which) {
 		target=$(this)
 		
 		//设置路径
@@ -270,10 +270,8 @@ add_event=async function(ins,file){
 
 		//console.log(str)
 
-		L(form,key).then(function(result,v=ele){
-			if (result.length<1)return null
-			v.val(removeHtml(result))
-		})
+		var result=await L(form,key)
+		if (result.length)ele.val(result)
 
 		layer.open({
 			type: 1 //Page 层类型
