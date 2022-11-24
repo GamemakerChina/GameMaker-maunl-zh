@@ -15,8 +15,15 @@
 		var val=json[key]
 		if(val!=undefined && val.length){
 			var f=retHtml(html)
+			var i=0
 			if(f)f.forEach(function(v,k){
-				val=val.replace("{}",v)
+				var tmp=val.replace("{"+i+"}",v)
+				if(tmp===val){
+					val=val.replace("{}",v)
+				}else{
+					val=tmp
+				}
+				i++
 			})
 			ele.html(val)
 		}

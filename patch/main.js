@@ -29,10 +29,13 @@ $("head").append("<link>");
 ///////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////
 
+//移除并替换给定字符串的所有标签到{}
 removeHtml=function(str){
 	var regex = /(<([^>]+)>)/ig
 	return str.replace(regex, "{}");
 }
+
+//返回给定字符串的所有标签
 retHtml=function(str){
 	var regex = /(<([^>]+)>)/ig
 	return str.match(regex);
@@ -76,12 +79,8 @@ qqq_translate_set=function(str){
 
 	$(".qqq_menu .new").val(str)
 
-	//分数文本
-	var old=$(".qqq_menu .old").val()
-	var lc=old.split("{}").length-1 //左得分
-	var rc=str.split("{}").length-1 //右得分
-	var score="( "+lc+":"+rc+" )"
-	$(".qqq span.num").html(score)
+	qqq_hight_light()
+
 }
 
 qqq_translate=async function (engine){
@@ -127,9 +126,9 @@ qqq_caiyun=async function (){
 
 }
 
-qqq_hight_light=async function(){
+qqq_hight_light=function(){
 	var reg=new RegExp('\{\}','g')
-	var rs="<b>{}</b>"
+	var rs="<b class='score' style='color:red;'>{}</b>"
 	var left=$(".qqq_menu .old").val()
 	var right=$(".qqq_menu .new").val()
 
@@ -146,26 +145,26 @@ qqq_hight_light=async function(){
 		//console.log(left)
 		left=left.replace('{}',"{"+i+"}")
 	}
-	for (let i = 0; i < rc; i++) {
-		right=right.replace('{}',"{"+i+"}")
+	for (let i = 0; i < lc; i++) {
+		var rs="<b class='score' style='color:orange;'>{"+i+"}</b>"
+		var tmp=right.replace("{"+i+"}",rs)
+		if(tmp===right){
+			right=right.replace('{}',"{"+i+"}")
+		}else{
+			right=tmp
+			rc++
+		}
 	}
-	
 
 	$(".hl_old").html(left)
 	$(".hl_new").html(right)
 
-	layer.open({
-		type: 1 //Page 层类型
-		,area: ['800px',"800px"]
-		,title: 'distinction'+score
-		,shade: 0.8 //遮罩透明度
-		,anim: 0 //0-6的动画形式，-1不开启
-		,content: $(".qqq_hightlight")
-		,resize:false
-		,shadeClose :true
-		,id:"distinction"
-	});
+	var score="( "+lc+":"+rc+" )"
+	$(".qqq span.num").html(score)
 
+	//滚动条沉底
+	var layer_div = $(".layui-layer-content");
+	layer_div.animate({ scrollTop: layer_div.prop("scrollHeight") - layer_div.height() }, 0);
 }
 
 ///////////////////////////////////////////////////////////////////////////////////
@@ -179,7 +178,11 @@ html=`<div class="hide">
 	<hr>
 		key(struct key)<textarea class="input key"contenteditable="true" style="height:50px"></textarea>
 	<hr>
-	
+	<div class="qqq qqq_hightlight layui-row">
+		<div class="hl_old layui-col-md6">123</div>
+		<div class="hl_new layui-col-md6">132</div>
+	</div>
+	<hr>
 	<div class="layui-row">
 
 		<div class="layui-col-md6">
@@ -194,24 +197,21 @@ html=`<div class="hide">
 		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("xunfei")>xunfei</button>
 		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("modern-mt")>modern-mt</button>
 		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("huoshan")>huoshan</button>
-		<textarea class="lr input old"contenteditable="true"></textarea>
+		<textarea oninput="qqq_hight_light()" class="lr input old"contenteditable="true"></textarea>
 		</div>
 
 		<div class="layui-col-md6">
 		new(translate)<span class="num"></span>
 		<br>
-		<button class="layui-btn  layui-btn-xs" onclick=qqq_hight_light()>distinction</button>
-		<textarea class="lr input new"contenteditable="true"></textarea>
+		<button class="layui-btn  layui-btn-xs" onclick=qqq_hight_light()>hightlight</button>
+		<textarea oninput="qqq_hight_light()" class="lr input new"contenteditable="true"></textarea>
 		</div>
 	</div>
 	<button class="layui-btn layui-btn-lg layui-btn-fluid" onclick=qqq_ok()>Ok!</button>
 
 </div>
 
-<div class="qqq qqq_hightlight layui-row">
-	<div class="hl_old layui-col-md6">123</div>
-	<div class="hl_new layui-col-md6">132</div>
-</div>
+
 
 </div>`
 $("body").after(html)
@@ -227,21 +227,28 @@ add_translate=async function(ele,file){
 	var html=ele.html()
 	var key=removeHtml(html)
 
-	var result=await L(form,key)
+	var val=await L(form,key)
 
-	if (result.length<1)return null
+	if (!val.length)return null
 
 	ele.addClass("isTranslate")
 	ele.attr("bak",ele.html())
 	
 	//在翻译上还原标签
 	var f=retHtml(ele.html())
-	
+
+	var i=0
 	if(f)f.forEach(function(v,k){
-		result=result.replace("{}",v)
+		var tmp=val.replace("{"+i+"}",v)
+		if(tmp===val){
+			val=val.replace("{}",v)
+		}else{
+			val=tmp
+		}
+		i++
 	})
 
-	ele.html(result)
+	ele.html(val)
 
 }
 add_event=async function(ins,file){
@@ -249,7 +256,7 @@ add_event=async function(ins,file){
 	//添加事件
 	ins.addClass("isHookOver")
 	
-	ins.mousedown(async function(e) {if (3 == e.which) {
+	ins.mousedown(function(e) {if (3 == e.which) {
 		target=$(this)
 		
 		//设置路径
@@ -268,14 +275,15 @@ add_event=async function(ins,file){
 		var ele=$(".qqq_menu .new")
 		ele.val(key)
 
-		//console.log(str)
-
-		var result=await L(form,key)
-		if (result.length)ele.val(result)
-
+		//如果使用异步函数,会无法阻止冒泡
+		L(form,key).then((result,v=ele)=>{
+			if (result.length)v.val(result)
+			qqq_hight_light()
+		})
+		
 		layer.open({
 			type: 1 //Page 层类型
-			,area: ['800px',"800px"]
+			,area: ['1000px',"900px"]
 			,title: 'translate'
 			,shade: 0.8 //遮罩透明度
 			,anim: 0 //0-6的动画形式，-1不开启
@@ -283,6 +291,8 @@ add_event=async function(ins,file){
 			,resize:false
 			,shadeClose :true
 		});
+
+		//阻止事件冒泡
 		return false;
 	}})
 }
@@ -333,7 +343,6 @@ window.setInterval(function(){
 		add_translate($(this),file)
 		add_event($(this),file)
 	})
-
 
 },500)
 

@@ -116,6 +116,7 @@ theView.export({
     L= function(file,key){
 		reload_Lfile(file)
 		var ret=Lfile.struct[key]
+		if !ret ret=""
 		return ret
 	};
 	
@@ -132,10 +133,14 @@ theView.export({
 		return p,r
 	}
 	caiyun=function(str){
-		return translate_caiyun(str)
+		var ret=translate_caiyun(str)
+		if !ret ret=""
+		return ret
 	}
 	translate=function(str,eng){
-		return translate(str,eng)
+		var ret=translate(str,eng)
+		if !ret ret=""
+		return ret
 	}
 })
 
