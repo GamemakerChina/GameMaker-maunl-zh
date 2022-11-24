@@ -115,7 +115,8 @@ theView.external = {
 theView.export({
     L= function(file,key){
 		reload_Lfile(file)
-		return Lfile.struct[key]
+		var ret=Lfile.struct[key]
+		return ret
 	};
 	
 	setL=function(file,key,old,new){

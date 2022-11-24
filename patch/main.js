@@ -112,7 +112,7 @@ qqq_translate=async function (engine){
 	str=str.replace(/& ?/g,"&")
 	
 
-	console.log(str)
+	//console.log(str)
 
 	qqq_translate_set(str)
 
@@ -122,7 +122,7 @@ qqq_caiyun=async function (){
 
 		var str=await caiyun($(".qqq_menu .old").val()).catch((e) => {})
 		if(!str){alert("接口报空,请检查token")}
-		console.log(str)
+		//console.log(str)
 		qqq_translate_set(str)
 
 }
@@ -143,7 +143,7 @@ qqq_hight_light=async function(){
 	right=right.replace(reg,rs)
 
 	for (let i = 0; i < lc; i++) {
-		console.log(left)
+		//console.log(left)
 		left=left.replace('{}',"{"+i+"}")
 	}
 	for (let i = 0; i < rc; i++) {
@@ -220,30 +220,31 @@ $("body").after(html)
 ///////////////////////////////////////////////////////////////////////////////////
 //"global_toc"
 
-add_translate=function(ele,file){
-	if ($(ele).hasClass("isTranslate"))return 0
+add_translate=async function(ele,file){
+	if (ele.hasClass("isTranslate"))return 0
 	
 	var form=group+"/"+file+".json"
 	var html=ele.html()
 	var key=removeHtml(html)
 
-	L(form,key).then(function(result,v=ele){
-		if (result.length<1)return null
+	var result=await L(form,key)
 
-		v.addClass("isTranslate")
-		v.attr("bak",v.html())
-		
-		//在翻译上还原标签
-		var f=retHtml(v.html())
-		
-		if(f)f.forEach(function(v,k){
-			result=result.replace("{}",v)
-		})
+	if (result.length<1)return null
 
-		v.html(result)
+	ele.addClass("isTranslate")
+	ele.attr("bak",ele.html())
+	
+	//在翻译上还原标签
+	var f=retHtml(ele.html())
+	
+	if(f)f.forEach(function(v,k){
+		result=result.replace("{}",v)
 	})
+
+	ele.html(result)
+
 }
-add_event=function(ins,file){
+add_event=async function(ins,file){
 	if ($(ins).hasClass("isHookOver"))return 0
 	//添加事件
 	ins.addClass("isHookOver")
@@ -267,7 +268,7 @@ add_event=function(ins,file){
 		var ele=$(".qqq_menu .new")
 		ele.val(key)
 
-		console.log(str)
+		//console.log(str)
 
 		L(form,key).then(function(result,v=ele){
 			if (result.length<1)return null
@@ -297,44 +298,44 @@ add_event=function(ins,file){
 window.setInterval(function(){
 	
 	//获取当前页面的目录
-	var uri=$("iframe.topic")[0].baseURI
-	dir="www/" + uri.match("t\=(.*)\.htm")[1].replaceAll("%2F","/")
+	const uri=$("iframe.topic")[0].baseURI
+	const dir="www/" + uri.match("t\=(.*)\.htm")[1].replaceAll("%2F","/")
 
-	var iframe=$("iframe.topic").contents()
+	const iframe=$("iframe.topic").contents()
 	
 	//这么做只是为了方便移植修改
-	var css1="div.footer a,h4"
-	var css2="p,h1,h2,h3,td,li,a,div.dropspotnote"
-	var css3="th,.warning,.important,.optional"
+	const css1="div.footer a,h4"
+	const css2="p,h1,h2,h3,td,li,a,div.dropspotnote"
+	const css3="th,.warning,.important,.optional"
 
 	//页内第一次全局替换
 	iframe.find(css1).each(function(){
-		var file="global"
+		const file="global"
 		add_translate($(this),file)
 		add_event($(this),file)
 	})
 
 	//页内替换
 	iframe.find(css2).each(function(){
-		var file=dir
+		const file=dir
 		add_translate($(this),file)
 		add_event($(this),file)
 	})
 
 	//页内第二次全局替换
 	iframe.find(css3).each(function(){
-		var file="global"
+		const file="global"
 		add_translate($(this),file)
 		add_event($(this),file)
 	})
 
 	//翻译左侧菜单
 	$("#toc-panel a").each(function(){
-		var file="global"
+		const file="global"
 		add_translate($(this),file)
 		add_event($(this),file)
 	})
 
 
-},100)
+},500)
 
