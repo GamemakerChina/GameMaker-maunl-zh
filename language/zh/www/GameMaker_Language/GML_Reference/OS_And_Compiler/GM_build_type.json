@@ -1,0 +1,4 @@
+{
+    "The above code will draw the build type of the currently running executable.":"上面的代码将绘制当前运行的可执行文件的构建类型。",
+    "This string constant holds the type of the build: \"exe\" for a created executable or \"run\"&nbsp;for a test run started from the IDE.":"此字符串常量保存构建的类型：创建的可执行文件的\"exe\"或从IDE开始的测试运行的\"运行\"。"
+}

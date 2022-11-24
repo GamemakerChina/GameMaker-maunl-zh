@@ -1,0 +1,5 @@
+{
+    "The above example code will free the memory associated with the given dll.":"上面的示例代码将释放与给定dll关联的内存。",
+    "The name of the {}dll{} or {}dylib{} that you want to free":"要释放的{}dll{}或{}dylib{}的名称",
+    "This function frees the memory associated with the {}dll{} or {}dylib{} with the given name. This should be done whenever the file in question is no longer needed in the game, normally (for example) in a Game End event.":"此函数使用给定的名称释放与{}dll{}或{}dylib{}关联的内存。每当游戏中不再需要相关文件时，通常(例如)在游戏结束事件中都应执行此操作。"
+}

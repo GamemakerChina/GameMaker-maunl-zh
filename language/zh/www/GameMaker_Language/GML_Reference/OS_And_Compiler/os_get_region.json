@@ -1,0 +1,5 @@
+{
+    "The above code checks the OS language and if it is Chinese, it then checks the OS region, opening a different {}*.ini{} file depending on the returned values.":"上面的代码检查操作系统语言，如果是中文，它会检查操作系统区域，打开不同的 {}*.ini{} 文件取决于返回的值。",
+    "This function returns a string with the two or three letter Regional Code for the OS that is running the game, as set by the {}ISO3166-1{} standard. If the information is not available, it will hold simply an empty string \"\".":"此函数返回一个字符串，其中包含运行游戏的操作系统的两个或三个字母区域代码，由{}ISO3166-1{}标准设置。如果信息不可用，它将只保存一个空字符串\"\"。",
+    "{}NOTE{}: This is not the location regional code that is returned, but the regional language code of the OS.":"{}注意{}：这不是返回的位置区域代码，而是操作系统的区域语言代码。"
+}

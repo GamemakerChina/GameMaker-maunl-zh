@@ -1,0 +1,4 @@
+{
+    "The above code will check to see which configuration is being used and if it is the one called \"Free_Version\", ads will be enabled in the game.":"上面的代码将检查正在使用的配置，如果是名为\"Free_Version\"的配置，广告将在游戏中启用。",
+    "This function returns the name (as a string) of the currently selected configuration for your game. For more information on configurations please see the section {}Configurations{}.":"此函数返回当前为您的游戏选择的配置的名称(作为字符串)。有关配置的更多信息，请参阅{}配置{}部分。"
+}

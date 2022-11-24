@@ -1,0 +1,4 @@
+{
+    "The above code takes the GM date, version and runtime constants and draws them to the screen.":"上面的代码获取GM日期、版本和运行时常量并将它们绘制到屏幕上。",
+    "This constant hold the runtime version number as defined in the {}Preferences{} as the runtime being used to build the project. The value is stored as a string.":"此常量将{}首选项{}中定义的运行时版本号保存为用于构建项目的运行时。该值存储为字符串。"
+}

@@ -1,0 +1,4 @@
+{
+    "The above code will draw the version number for the game and the date and time it was compiled on.":"上面的代码将绘制游戏的版本号以及编译它的日期和时间。",
+    "This constant holds the date and time on which the executable being run was built by {}GameMaker{}. The value can be parsed using the {}Date and Time{} functions and is taken from the system UTC value at compile time.":"此常量保存{}GameMaker{}构建正在运行的可执行文件的日期和时间。可以使用{}Date和Time{}函数解析该值，并在编译时从系统UTC值中获取。"
+}

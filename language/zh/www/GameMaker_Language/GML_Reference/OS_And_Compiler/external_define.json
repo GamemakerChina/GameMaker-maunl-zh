@@ -1,0 +1,17 @@
+{
+    "A null-terminated string argument":"以空值终止的字符串参数",
+    "A real number argument":"实数参数",
+    "Finally you must give the number of arguments that the function can take (from 0 to 15) and for each of the arguments you must specify its type too. Please note that for functions with 4 or more arguments, all of them {}must{} be of type {}ty_real{}.":"最后，您必须给出函数可以接受的参数数量(从0到15)，并且对于每个参数，您也必须指定其类型。请注意，对于具有4个或更多参数的函数，所有参数都必须是{}ty_real{}类型。",
+    "The above example code will define an external function called \"MyMin\" with two arguments.":"上面的示例代码将定义一个名为\"MyMin\"的外部函数，其中包含两个参数。",
+    "The calling convention used":"使用的调用约定",
+    "The name of the DLL file (string)":"DLL文件的名称(字符串)",
+    "The name of the function (string)":"函数的名称(字符串)",
+    "The number of arguments (0 - 10)":"参数的数量(0-10)",
+    "The type of the result to expect":"预期结果的类型",
+    "The types of the arguments being used":"所使用的参数的类型",
+    "This function can be used to define an external function call to a specific dll (for Windows) or dylib (for Mac). This file can be either an included file or part of an extension.":"此函数可用于定义对特定dll(适用于Windows)或dylib(适用于Mac)的外部函数调用。此文件可以是包含的文件或扩展名的一部分。",
+    "This is the default C, C++ call":"这是默认的C，C++调用",
+    "This is the standard WinAPI call (Windows {}dll{} only)":"这是标准的WinAPI调用(仅限Windows {}dll{})",
+    "You supply the name (and path) of the file, then the name of the function that you wish to define. Next you need to define the calling convention to be used (see the constants list below) as well as the type of result to be expected (also a constant, as listed below).":"您提供文件的名称(和路径)，然后是您要定义的函数的名称。接下来，您需要定义要使用的调用约定(请参阅下面的常量列表)以及要预期的结果类型(也是一个常量，如下所列)。",
+    "{}NOTE{}: This is only for dll or dylib that have been added as \"Included Files\" to the {}GameMaker{} IDE. It will not work with those files added as extensions, since those require that you define the functions in the extension package itself.":"{}注意{}：这仅适用于已作为\"包含文件\"添加到{}GameMaker{}IDE的dll或dylib。它不适用于作为扩展添加的那些文件，因为这些文件需要您在扩展包本身中定义函数。"
+}

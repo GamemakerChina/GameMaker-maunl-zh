@@ -1,0 +1,21 @@
+{
+    "Arabic":"阿拉伯语",
+    "Chinese":"中文",
+    "Danish":"丹麦语",
+    "English":"英语",
+    "French":"法语",
+    "German":"德语",
+    "Greek":"希腊文",
+    "Italian":"意大利语",
+    "Japanese":"日语",
+    "Norwegian":"挪威语",
+    "Polish":"波兰语",
+    "Portuguese":"葡萄牙语",
+    "Russian":"俄语",
+    "Spanish":"西班牙语",
+    "Swedish":"瑞典语",
+    "The above code checks the OS language and opens a different {}*.ini{} file depending on the returned value.":"上面的代码检查操作系统语言并打开不同的 {}*.ini{} 文件取决于返回的值。",
+    "The following table shows example of some of the main two letter language codes as defined by ISO 639:":"下表显示了ISO 639定义的一些主要双字母语言代码示例：",
+    "This function returns a string with the two letter Language Code for the OS that is running the game, as set by the {}ISO639{} standard. If the information is not available, it will hold simply an empty string \"\", or \"en\" for \"English\" language. Note that some languages also have a relevant Regional Code too, so to distinguish between different regions of the same country use the function {}{}os_get_region(){}{}.":"此函数返回一个字符串，其中包含运行游戏的操作系统的两个字母语言代码，由{}ISO639{}标准设置。如果信息不可用，它将仅保存一个空字符串\"\"，或\"英语\"语言的\"en\"。请注意，某些语言也有相关的地区代码，因此要区分同一国家的不同地区，请使用函数{}{}os_get_region(){}{}.",
+    "{}NOTE{}: This is not the location country code that is returned, but the language code of the OS.":"{}注意{}：这不是返回的位置国家代码，而是操作系统的语言代码。"
+}

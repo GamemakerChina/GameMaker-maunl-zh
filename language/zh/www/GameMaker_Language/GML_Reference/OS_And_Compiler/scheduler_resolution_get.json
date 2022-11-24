@@ -1,0 +1,6 @@
+{
+    "For information on the thread scheduler, see the page for&nbsp;{}{}scheduler_resolution_set(){}{}.":"有关线程调度程序的信息，请参见{}{}scheduler_resolution_set(){}{}.",
+    "This example retrieves the resolution of the Windows thread scheduler, and stores it in the&nbsp;{}\"{}{}scheduler_resolution\"{}&nbsp;variable.":"此示例检索Windows线程调度程序的解析度，并将其存储在{}\"{}{}scheduler_resolution\"{}变量中。",
+    "This function is used to retrieve the resolution of the Windows thread scheduler in milliseconds. If the scheduler\u0027s resolution is set&nbsp;to the default value (as set by Windows),&nbsp;the function will return -1.":"此函数用于以毫秒为单位检索Windows线程调度程序的解析度。如果调度程序的解析度设置为默认值(由Windows设置)，则该函数将返回-1。",
+    "{}NOTE{}: This function is for {}Windows {}only.":"{}注意{}：此函数仅适用于{}Windows{}。"
+}

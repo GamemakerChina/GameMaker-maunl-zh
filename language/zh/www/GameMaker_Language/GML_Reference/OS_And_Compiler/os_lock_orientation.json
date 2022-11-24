@@ -1,0 +1,5 @@
+{
+    "Set to {}true{} or {}false{} to enable or disable orientation locking.":"设置为{}true{}或{}false{}以启用或禁用方向锁定。",
+    "The above code checks the OS type and if it is either Android or an iOS then the orientation locking is flagged as {}true{}.":"上面的代码检查操作系统类型，如果它是Android或iOS则方向锁定被标记为{}true{}。",
+    "With this function you can \"lock\" your device to the current orientation until such time as you \"free\" it to allow all {}Game Options{} enabled orientations again for that target platform. Note that you likely want to confirm the orientation is as desired before locking.":"使用此功能，您可以将设备\"锁定\"到当前方向，直到您\"释放\"它以允许该目标平台再次启用所有{}游戏选项{}方向。请注意，您可能希望在锁定之前确认方向是否如所需。"
+}

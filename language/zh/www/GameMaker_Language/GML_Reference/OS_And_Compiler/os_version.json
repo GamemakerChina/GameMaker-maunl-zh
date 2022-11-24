@@ -1,0 +1,9 @@
+{
+    "The above code checks the os type and version number and they are both correct then the global variable is set to 1.":"上面的代码检查操作系统类型和版本号，它们都是正确的，然后全局变量设置为1。",
+    "The following table outlines the values that are returned for the most recent versions of the different OS:":"下表列出了为不同操作系统的最新版本返回的值：",
+    "This variable will tell you the version number for the OS that is running your game. For example, if you are running it on Windows 10, {}os_version{} will be equal to 655360.":"此变量将告诉您运行游戏的操作系统的版本号。例如，如果您在Windows 10上运行它，{}os_version{}将等于655360。",
+    "Windows{}\n          (the return value is calculated as:{}\n          majorVersion * 65536 + minorVersion)":"Windows{}\n(返回值计算为：{}\nmajorVersion * 65536 + minorVersion )",
+    "iOS{}\n          The return value is calculated as:{}\n          (major_version * 16777216) + (minor_version * 4096) + build_number":"iOS{}\n返回值计算为：{}\n(major_version*16777216)+(minor_version*4096)+build_number",
+    "macOS X{}\n          The return value is calculated as:{}\n          (major_version * 16777216) + (minor_version * 4096) + build_number":"macOS X{}\n返回值计算为：{}\n(major_version*16777216)+(minor_version*4096)+build_number",
+    "{}NOTE{}: Should you require further information about the Windows OS you can use the {}{}{}environment_get_variable(){}{}{}.":"{}注意{}：如果您需要有关Windows操作系统的更多信息，可以使用 {}{}{}environment_get_variable(){}{}{}。"
+}

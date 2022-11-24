@@ -1,0 +1,4 @@
+{
+    "The above code takes the GM date and version constants and draws them to the screen.":"上面的代码获取GM日期和版本常量并将它们绘制到屏幕上。",
+    "This constant hold the version number as defined in the {}Game Options{} for each target platform. The value is stored as a string.":"此常量保存每个目标平台的{}游戏选项{}中定义的版本号。该值存储为字符串。"
+}

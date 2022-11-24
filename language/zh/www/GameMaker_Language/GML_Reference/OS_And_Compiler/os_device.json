@@ -1,0 +1,13 @@
+{
+    "Android tablet":"安卓平板电脑",
+    "Larger iPhone 6 with display 1920 x 1080":"更大的iPhone6，显示屏1920 x 1080",
+    "Newer iPad with Retina display size of 2048 x 1536":"配备Retina显示屏尺寸为2048 x 1536的较新的iPad",
+    "Newer iPhone/iPod Touch with Retina display of 960 x 640":"较新的iPhone/iPod Touch，带960 x 640的Retina显示屏",
+    "Older iPhone/iPod Touch (480 x 320 screen) {}or{} Android phone":"旧iPhone/iPod Touch(480 x 320屏幕){}或{}Android手机",
+    "The above code checks to see if the game is running in a browser or not and sets a global variable to a value depending on the result of the check.":"上面的代码检查游戏是否在浏览器中运行，并根据检查结果将全局变量设置为值。",
+    "The device is actually an emulator (Windows Phone or Android)":"该设备实际上是一个模拟器(Windows Phone或Android)",
+    "This {}read-only{} variable holds one of various constant values listed below&nbsp;to tell you which device you are currently running the game on. Note this variable is deprecated in favour of the function {}{}os_get_info(){}{} which returns more accurate information on the device running the game.":"此{}只读{}变量保存下面列出的各种常量值之一，以告诉您当前在哪个设备上运行游戏。请注意，此变量已被弃用，取而代之的是函数{}{}os_get_info(){}{}它返回有关运行游戏的设备的更准确信息。",
+    "Unknown or not iOS":"未知或非iOS",
+    "iPhone5 with display size 640 x 1136)":"显示尺寸为 640 x 1136 的 iPhone5",
+    "iPhone6 with display size 1334 x 750":"显示尺寸为1334 x 750的iPhone6"
+}

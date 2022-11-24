@@ -1,0 +1,8 @@
+{
+    "By default,&nbsp;{}GameMaker{} uses a resolution of 1 millisecond, which is the smallest resolution allowed and gives the best performance. Changing the resolution to a higher value may affect performance negatively,\n    but it may also reduce power consumption.":"默认情况下，{}GameMaker{}使用1毫秒的解析度，这是允许的最小解析度，并提供最佳性能。将解析度更改为更高的值可能会对性能产生负面影响，\n但它也可能降低功耗。",
+    "The new resolution value (in milliseconds) or -1 for default":"新的解析度值(以毫秒为单位)或默认为-1",
+    "This example sets the resolution of the Windows thread scheduler to 2 milliseconds.":"此示例将Windows线程调度程序的解析度设置为2毫秒。",
+    "This function is used to change the resolution of the Windows thread scheduler. The resolution value supplied in the argument needs to be in {}milliseconds{}.":"此函数用于更改Windows线程调度程序的解析度。参数中提供的解析度值需要以{}毫秒{}为单位。",
+    "You can supply -1 as the argument to revert the resolution to its default value (as set by Windows). Note that changing the scheduler\u0027s resolution will impact all processes running at the same time as your game.":"您可以提供-1作为参数以将解析度恢复为其默认值(由Windows设置)。请注意，更改调度程序的解析度将影响与游戏同时运行的所有进程。",
+    "{}NOTE{}: This function is for {}Windows {}only.":"{}注意{}：此函数仅适用于{}Windows{}。"
+}
