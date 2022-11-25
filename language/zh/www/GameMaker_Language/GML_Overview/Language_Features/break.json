@@ -1,0 +1,10 @@
+{
+    "Below you can see a few basic examples of how {}break{} can be used, and its syntax is simply:":"您可以在下面看到一些有关如何使用 {}break{} 的基本示例，其语法很简单：",
+    "The {}{}break{}{} statement is used to end prematurely a {}{}for{}{}, {}{}repeat{}{}, {}{}while{}{} or {}{}do / until{}{} loop of some kind, or to tell a {}{}switch{}{} statement to end at that point, or to prematurely end a {}{}with{}{} call. Please see the individual pages for these different functions to get a more in-depth explanation of how it can be used under each circumstance.&nbsp;Note that if {}break{} is used outside of any of these contexts it will give an error.":"{}{}break{}{} 语句用于提前结束 {}{}for{}{}、{}{}repeat{}{}、{}{}while{}{} 或 {}{}do / until{}{} 某种循环，或告诉 {}{}switch{}{} 语句在该点结束，或提前结束 {}{}with{}{} 调用。 请查看这些不同函数的各个页面，以更深入地解释如何在每种情况下使用它。请注意，如果在任何这些上下文之外使用 {}break{}，将会报错 .",
+    "{}break{} in a {}do / until{} loop:":" {}do / until{} 循环中的 {}break{} :",
+    "{}break{} in a {}for{} loop:":"{}for{} 循环中的 {}break{}：",
+    "{}break{} in a {}repeat{} loop:":"{}repeat{} 循环中的 {}break{}：",
+    "{}break{} in a {}switch{}:":"{}switch{} 中的 {}break{}:",
+    "{}break{} in a {}while{} loop:":"{}while{} 循环中的 {}break{}:",
+    "{}break{} when using {}with{}:":"{}with{} 中使用的 {}break{} ："
+}

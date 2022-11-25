@@ -1,0 +1,5 @@
+{
+    "The above code checks the object index of the instance running the code using a {}switch{}, and then adds different amounts to the {}score{}&nbsp;variable depending on what object it is.":"上面的代码使用{}switch{}检查运行代码的实例的对象索引，然后根据是什么对象，给{}score{}变量添加不同的数量。",
+    "This variable is {}global{} in scope and is used to hold a numeric value which is usually used for the player score. This variable is only designed to support legacy projects from previous versions of {}GameMaker{} and should {}{}not be used in new projects{}{} as it may be deprecated in the future.":"此变量在范围内为{}全局{}，用于保存通常用于玩家评分的数值。此变量仅用于支持{}GameMaker{}以前版本的旧项目，不应在新项目{}{}中使用{}{}，因为将来可能会弃用此变量。",
+    "{}{}Real{}{} (single precision floating point value)":"{}{}Real{}{}(单精度浮点值)"
+}

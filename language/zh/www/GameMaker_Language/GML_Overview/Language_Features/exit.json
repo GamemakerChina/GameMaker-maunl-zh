@@ -1,0 +1,10 @@
+{
+    "If you use {}exit{} in a code block within an object\u0027s event, it will exit {}the entire event{} even if there are various separate code blocks after {}exit{} has been called.":"如果您在对象事件的代码块中使用 {}exit{}，它将退出{}整个事件{}，即使在调用 {}exit{} 后有多个单独的代码块也是如此。",
+    "If you use {}exit{} in a parent event and call that event using {}{}event_inherited(){}{} in a child object, only the parent event will exit and the child\u0027s event (which called {}event_inherited(){}) will continue.":"如果您在父事件中使用 {}exit{} 并在子对象中使用 {}{}event_inherited(){}{} 调用该事件，则只有父事件会退出，而子事件（调用 {}event_inherited(){}） 将继续。",
+    "If you use {}exit{} in a script function or method it&nbsp;will simply exit the function and return to the code that called the function.":"如果您在脚本函数或方法中使用 {}exit{}，它只会退出该函数并返回调用该函数的代码。",
+    "The above code checks if the current instance is not visible, in that case it exits the code block, otherwise it goes ahead and runs the rest of the code.":"上面的代码检查当前实例是否不可见，在这种情况下它退出代码块，否则它继续运行其余代码。",
+    "The {}exit{} statement has the following syntax:":"{}exit{} 语句具有以下语法：",
+    "When used in an event, {}exit{} is typically used to avoid an instance running any further code when a specific condition has been met (or not). The code below outlines an example of how it could be used, in this case within a Collision Event, although it can be used in any event.":"在事件中使用时，{}exit{} 通常用于避免实例在满足（或不满足）特定条件时运行任何进一步的代码。下面的代码概述了如何使用它的示例，在本例中是在碰撞事件中，尽管它可以在任何事件中使用。",
+    "{}NOTE{}: It does not end the execution of the game. For that you need to use the function {}{}{}game_end(){}{}{}.":"{}注意{}：它不会结束游戏的执行。为此，您需要使用函数 {}{}{}game_end(){}{}{}。",
+    "{}exit{} simply ends the execution of the current {}script&nbsp;function{}, {}method{}, or {}event{}. Note there is a slight difference in use here depending on the scope:":"{}exit{} 只是结束当前{}脚本函数{}、{}方法{}或{}事件{}的执行。请注意，根据范围，此处的使用略有不同："
+}

@@ -1,0 +1,4 @@
+{
+    "The above function joins all the arguments passed into the function as one string, and then prints that string to the output log.":"上述函数将传递到函数中的所有参数作为一个字符串联接起来，然后将该字符串打印到输出日志中。",
+    "This {}read-only{} variable returns the number of \"arguments\" that are passed through to a {}script function{} or a {}method{}. Normally used in conjunction with an argument array ({}{}argument[0...15]{}{}) to permit varying input arguments for a given function.":"此{}只读{}变量返回传递给{}脚本函数{}或{}方法{}的\"参数\"的数量。通常与参数数组({}{}argument[ 0...15 ]{}{})一起使用，以允许对给定函数使用不同的输入参数。"
+}

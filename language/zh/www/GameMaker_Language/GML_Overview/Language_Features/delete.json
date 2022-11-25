@@ -1,0 +1,8 @@
+{
+    "By default, structs with no further references in code will be garbage collected automatically in the steps following their use, but it is good practice to use this operator to flag them explicitly for the garbage collector to remove from memory at\n    the very start of the following step, freeing the memory quickly and more efficiently.":"默认情况下，在代码中没有进一步引用的结构将在使用后的步骤中自动进行垃圾收集，但使用该操作符明确标记它们，以便垃圾收集器在下一步骤开始时从内存中删除，这是一个好的做法。\n从内存中删除，从而快速、高效地释放内存。",
+    "The following example shows a struct being created - for example in the Create Event of an instance:":"以下示例显示了正在创建的结构 - 例如在实例的创建事件中：",
+    "The {}delete{} operator is used to {}de-reference{} a {}struct{}, and has the following syntax:":"{}delete{} 运算符用于{}取消引用{} {}struct{}，语法如下：",
+    "This struct will then be used in the instance events as usual, before finally being flagged for garbage collection in the {}Clean Up{} event, like this:":"然后，该结构将像往常一样在实例事件中使用，最后在 {}清理事件{}中被标记为垃圾回收，如下所示：",
+    "What this means is that you call the delete operator along with the variable that holds a struct and it will remove the specific {}reference {}to the struct stored in the given variable (a reference is simply a value that points to the memory area\n    that is storing the struct and its contents).&nbsp;If this reference was the last reference to the struct in your game, then the {}garbage collector{}&nbsp;will remove the struct from memory in\n    a following {}iteration{}, typically at the very start of the next step.":"这意味着您调用 delete 运算符以及包含结构的变量，它将删除对存储在给定变量中的结构的特定{}引用{}（引用只是指向内存区域的值\n即存储结构及其内容）。如果此引用是您游戏中对该结构的最后引用，则{}垃圾收集器{}将从内存中接下来的{}迭代{}删除该结构，通常是在下一步的最开始。",
+    "{}NOTE{}:&nbsp;{}delete{} can only be used along with variables, and {}not{} expressions":"{}注意{}：{}delete{} 只能与变量一起使用，而{}不能{}是表达式"
+}

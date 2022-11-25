@@ -1,0 +1,9 @@
+{
+    "It is important to note that calling new on any function that has&nbsp;{}not{}&nbsp;been flagged as a constructor will cause a {}runtime exception{}.":"请务必注意，对任何{}未{}标记为构造函数的函数调用 new 将导致{}运行时异常{}。",
+    "The following example shows a function that has been defined to use as a constructor:":"以下示例显示了一个已定义为用作构造函数的函数：",
+    "The {}new{} operator can be used to create a struct with a function which is called with the given arguments. The function can then populate the struct with variables from the arguments - much like the create event of an instance will set the initial variables for the instance - and then the {}new{} operator will return the struct. Before using this operator it is important to note that the function given {}must be flagged as a {}constructor{} function{} otherwise the {}new{} operator will not create the struct (the code example below shows this, and for more information, please see the page on {}Structs{}).":"{}new{}运算可以用来用一个函数来创建一个结构，该函数会在给定参数下被调用。然后，该函数可以用参数中的变量填充该结构--就像实例的创建事件将为实例设置初始变量一样--然后{}new{}操作符将返回该结构。在使用该操作符之前，需要注意的是，给出的函数{}必须被标记为{}构造{}函数{}，否则{}new{}操作符将不会创建结构（下面的代码示例显示了这一点，更多信息请参见{}结构{}页面）。",
+    "This function can then be used along with the {}new{} operator to create a struct and populate it with the variables set to the values of the arguments used in the function, like this:":"然后可以将此函数与 {}new{} 运算符一起使用来创建结构并使用设置为函数中使用的参数值的变量填充它，如下所示：",
+    "This operator has the following syntax:":"该运算符具有以下语法：",
+    "When you use the new operator along with a function, it will return a struct reference which is stored in the given variable, permitting you to access the struct and any variables that were created within it by the function.":"当您将 new 运算符与函数一起使用时，它将返回存储在给定变量中的结构引用，允许您访问该结构以及函数在其中创建的任何变量。",
+    "{}NOTE{}&nbsp;You can check a struct to find out which function was used to create it using the runtime function {}{}instanceof(){}{}.":"{}注意{}您可以使用运行时函数 {}{}instanceof(){}{} 检查结构以找出使用哪个函数创建它。"
+}

@@ -1,0 +1,6 @@
+{
+    "The expression used can be a value or a string or any other data type, and this will then generate an exception error which is - by default - shown on the screen and on closing the error message the game will end. For example calling this:":"使用的表达式可以是一个值或一个字符串或任何其他数据类型，然后这将生成一个异常错误，该错误默认情况下显示在屏幕上，关闭错误消息后游戏将结束。例如这样调用：",
+    "The {}throw{} runtime statement permits you to generate your own {}runtime exceptions{}, ending the game and showing an error message, using the following syntax:":"{}throw{} 运行时语句允许您使用以下语法生成自己的{}运行时异常{}、结束游戏并显示错误消息：",
+    "will cause the following unhandled exception error to be shown:":"将导致显示以下未处理的异常错误：",
+    "{}You can, however, take over this error message and use your own handler code by calling\n    the function {}{}exception_unhandled_handler(){}{}. This {}runtime function{} permits you to supply a custom {}method{}    to use that will be called whenever any unhandled exceptions occur in your game.":"{}但是，您可以接管此错误消息并使用您自己的处理程序代码，方法是调用\n函数 {}{}exception_unhandled_handler(){}{}。此{}运行时函数{}允许您提供自定义{}方法{}以供您在游戏中发生任何未处理的异常时调用。"
+}

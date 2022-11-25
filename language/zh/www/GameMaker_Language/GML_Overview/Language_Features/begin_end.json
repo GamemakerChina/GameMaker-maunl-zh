@@ -1,0 +1,4 @@
+{
+    "Note that using these keywords is not typical and is provided as part of the language more for legacy support than for anything else, and at any time in the future they may be deprecated.":"请注意，使用这些关键字并不典型，作为语言的一部分，更多的是为了遗留支持，而不是其他，而且在未来的任何时候，它们可能会被废弃。",
+    "The GameMaker Language permits you to use the keywords {}begin{} and {}end{} instead of the more usual curly brackets {}{}{} when creating code blocks. The code example below shows how this works:":"GameMaker语言允许你在创建代码块时使用关键字{}begin{}和{}end{}，而不是更常见的大括号{}{}。下面的代码例子说明了这一点。"
+}

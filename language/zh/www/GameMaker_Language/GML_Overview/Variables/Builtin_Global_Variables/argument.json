@@ -1,0 +1,7 @@
+{
+    "An argument that hasn\u0027t been passed in will be {}undefined{}.":"一个没有传入的参数将被视为{}undefined{}。",
+    "Note that there are also a series of independent global scope variables that can also be used in user-defined functions to reference the different input arguments: {}argument0{}, {}argument1{}, {}argument2{}, etc... up to {}{}argument15{}.{}":"请注意，还有一系列独立的全局范围变量，这些变量也可以在用户定义的函数中用来引用不同的输入参数。{}argument0{},{}argument1{},{}argument2{},等等...直到{}{}argument15{}。",
+    "The above function joins all the arguments passed into the function as one string, and then prints that string to the output log.":"上述函数将传递到函数中的所有参数作为一个字符串联接起来，然后将该字符串打印到输出日志中。",
+    "This variable holds an {}array{} that&nbsp;is used along with the read-only variable {}argument_count{} in&nbsp;{}script functions{}&nbsp;or&nbsp;{}methods{}. Each array position holds an input value for the function and is specifically for use with {}variable {}argument functions.":"此变量保存一个{}数组{}，该数组与{}脚本函数{}或{}方法{}中的只读变量{}argument_count{}一起使用。每个数组位置都保存函数的输入值，专门用于{}变量{}参数函数。",
+    "{}{}Any{}{}&nbsp;(can be of any data type supplied to the function)":"{}{}Any {}{}(可以是提供给函数的任何数据类型)"
+}

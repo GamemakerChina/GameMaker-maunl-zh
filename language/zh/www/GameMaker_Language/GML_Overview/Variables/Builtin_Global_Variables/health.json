@@ -1,0 +1,4 @@
+{
+    "The above code checks the {}health{} variable and if it is less than or equal to 0, a global variable is set and the instance is destroyed.":"以上代码检查{}health{}变量，如果它小于或等于0，则设置全局变量并销毁实例。",
+    "This variable is {}global{} in scope and is used to hold a numeric value which is usually used for the player health. This variable is only designed to support legacy projects from previous versions of {}GameMaker{} and should {}{}not be used in new projects{}{} as it may be deprecated in the future.":"此变量在范围内为{}全局{}，用于保存通常用于玩家健康状况的数值。此变量仅用于支持{}GameMaker{}以前版本的旧项目，不应在新项目{}{}中使用{}{}，因为将来可能会弃用此变量。"
+}

@@ -1,0 +1,9 @@
+{
+    "Below is an example of use in a {}do / until{} loop:":"下面是在 {}do / until{} 循环中使用的示例：",
+    "Below is an example of use in a {}for{} loop:":"下面是在 {}for{} 循环中使用的示例：",
+    "Below is an example of use in a {}while{} loop:":"下面是在 {}while{} 循环中使用的示例：",
+    "Below you can find an example of use in a {}repeat{} loop:":"下面是在 {}repeat{} 循环中使用的示例：",
+    "Finally, an example of use in a {}with{} statement:":"最后，在 {}with{} 语句中使用示例：",
+    "If used inside of a statement that forms a loop ({}{}for{}{}, {}{}repeat{}{}, {}{}while{}{} or {}{}do / until{}{}), it will immediately end the current {}iteration{}&nbsp;and jump back to the beginning of the loop starting a new iteration and omitting any code that comes after the {}continue{} within the loop. It can also be used within the {}{}with{}{} statement, where it will cause the code to skip to the next instance and run again. Note that if {}continue{} is used outside of any of these contexts it will give an error.":"如果在形成循环的语句内部使用（{}{}for{}{}、{}{}repeat{}{}、{}{}while{}{} 或 {}{}do / until{} {})，它将立即结束当前的{}迭代{}并跳回到循环的开头，开始新的迭代并忽略循环中 {}continue{} 之后的任何代码。它也可以在 {}{}with{}{} 语句中使用，它会导致代码跳到下一个实例并再次运行。请注意，如果在任何这些上下文之外使用 {}continue{}，则会报错。",
+    "The {}continue{} statement has the following basic syntax:":"{}continue{} 语句具有以下基本语法："
+}

@@ -1,4 +1,15 @@
 {
     "The GameMaker Language (GML) has a number of features which are part of the essential structure of all programs written with the language. Each of these will be used in any code you write multiple times, so you should know what they are and how they work before getting started with programming a project.":"GameMaker 语言(GML) 具有许多功能，这些功能是所有使用该语言编写的程序的基本结构的一部分。所有这些都将用于你多次编写的任何代码中，因此在开始编程项目之前，你应该知道它们是什么以及它们是如何工作的。",
-    "repeat":"repeat 重复"
+    "break":"break 结束",
+    "continue":"continue 跳过",
+    "delete":"delete 删除",
+    "do / until":"do / until 循环",
+    "exit":"exit 退出",
+    "for":"for 循环",
+    "new":"new 创建",
+    "repeat":"repeat 重复",
+    "return":"return 返回",
+    "throw":"throw 抛出",
+    "try / catch / finally":"try / catch / finally 异常捕捉",
+    "while":"while 循环"
 }
