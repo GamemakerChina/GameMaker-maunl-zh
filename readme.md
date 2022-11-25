@@ -94,7 +94,7 @@ http://app.languagex.com/ (注意,该接口的token需要从cookie获取,具体�
 
 翻译内容 & 记忆库 - [CC-BY-SA 4.0 International](LICENSE)
 
-GameMakerManualTranslator & GameMakerManualTranslatorBuild - [WTFPL](GameMakerManualTranslator/LICENSE) [WTFPL](GameMakerManualTranslatorBuild/LICENSE)
+GameMakerManualTranslator & GameMakerManualTranslatorBuild - [WTFPL](GameMakerManualTranslator-Project/LICENSE) [WTFPL](GameMakerManualTranslatorBuild-Project/LICENSE)
 
 GameMakerManualExport - [MIT](GameMakerManualExport/LICENSE)
 
