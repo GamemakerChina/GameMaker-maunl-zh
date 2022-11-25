@@ -1,0 +1,6 @@
+{
+    "Matrix Array":"Matrix Array",
+    "The above code gets the view matrix for the camera assigned to view port[0].":"以上代码获取分配给 viewport[0] 的相机的视图矩阵。",
+    "The unique camera ID value returned when you created the camera":"创建相机时返回的唯一相机 ID 值。",
+    "This function can be used to retrieve the view matrix. The function returns the matrix array which can then be used in other {}matrix functions{} or to set the view matrix of another camera (using {}{}camera_set_view_mat(){}{}). Note that this function is generally for use with cameras created using {}{}camera_create(){}{}, but it can also be used on those created in the room editor (or with {}{}camera_create_view(){}{}) - in which case the returned matrix will only be valid after the given camera is used in a view port for the first time.":"此函数可用于检索视图矩阵。该函数返回矩阵数组，该矩阵数组可用于其他{}矩阵函数{}或设置另一个相机的视图矩阵(使用 {}{}camera_set_view_mat(){}{})。请注意，此函数通常用于使用 {}{}camera_create(){}{} 创建的相机，但也可用于在房间编辑器中创建的相机(或与 {}{}camera_create_view(){}{} 一起创建的相机)，在这种情况下，返回的矩阵仅在给定相机首次在视口中使用后才有效。"
+}

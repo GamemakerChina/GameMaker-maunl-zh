@@ -1,0 +1,6 @@
+{
+    "The above code checks the script function assigned as the begin script for the camera assigned to view port[0] and if it is not \"cutScene\" it is set to that function.":"上述代码检查分配给 viewport[0] 的相机的脚本函数作为开始脚本，如果不是\"cutScene\"，则设置为该函数。",
+    "The unique camera ID value returned when you created the camera":"创建相机时返回的唯一相机 ID 值。",
+    "This function can be used to retrieve the ID of the {}script function{}&nbsp;assigned as the begin script for the given camera. If no script function is assigned then the function will return -1.":"此函数可用于检索分配为给定相机的开始脚本的{}脚本函数{}的 ID。如果未分配脚本函数，则该函数将返回 -1。",
+    "{}{}Script Function{}{}&nbsp;or -1 if no function&nbsp;is assigned":"{}{}Script Function{}{} 或 -1 (如果未分配函数)"
+}

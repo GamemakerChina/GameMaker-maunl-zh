@@ -1,0 +1,5 @@
+{
+    "The above code gets the projection matrix for the camera assigned to view port[0].":"以上代码获取分配给 viewport[0] 的相机的投影矩阵。",
+    "The unique camera ID value returned when you created the camera":"创建相机时返回的唯一相机 ID 值。",
+    "This function can be used to retrieve the projection matrix. The function returns the matrix array which can then be used in other {}matrix functions{} or to set the projection matrix of another camera (using {}{}camera_set_proj_mat(){}{}).":"此函数可用于检索投影矩阵。该函数返回矩阵数组，该矩阵数组随后可用于其他{}矩阵函数{}或设置另一个相机的投影矩阵(使用{}{}camera_set_proj_mat(){}{})。"
+}

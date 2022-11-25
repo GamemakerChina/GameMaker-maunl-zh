@@ -1,0 +1,6 @@
+{
+    "Instance or object to have the camera target for following":"要使相机目标跟随的实例或对象",
+    "The above code will set the view camera target for the camera assigned to view port[0] to that of the instance running the code.":"上述代码将分配给 viewport[0] 的相机视图的相机目标设置为运行代码的实例视图的相机目标。",
+    "The unique camera ID value returned when you created the camera":"创建相机时返回的唯一相机 ID 值。",
+    "You can use this function to set the follow target of the view camera within the room. You give the unique camera ID value (as returned by the different {}{}camera_create(){}{} functions) and then give the target instance or object ID that you wish to set the camera view to. Note that if you choose an object ID and there is more than one instance of that object in the room, there is no way for {}GameMaker{} to know which instance you wish to follow and so it could be any of them.":"您可以使用此功能设置房间内视图相机的跟随目标。提供唯一的相机 ID 值(由不同的 {}{}camera_create(){}{} 函数返回)，然后提供要将相机视图设置为的目标实例或对象 ID。请注意，如果您选择一个对象 ID，并且房间存在该对象的多个实例，{}GameMaker{} 无法知道您希望跟随哪个实例，因此可能是其中的任何一个。"
+}
