@@ -4,6 +4,7 @@
     "Consider the following example:":"请考虑以下例子。",
     "Expression Grouping":"表达式组",
     "Expressions":"表达式",
+    "Expressions And Operators":"表达式和运算符",
     "Here are some final examples of the various different expressions:":"下面是各种不同表达方式的一些最终例子。",
     "Here, the {}username{} variable will get the value stored in {}data.username{}, however if {}data.username{} happens to be&nbsp;{}undefined{} or {}pointer_null{}, the variable will get the string {}\"INVALID USERNAME\"{} instead. This example ensures&nbsp;that any function calls using the {}username{}&nbsp;variable do not cause an error because of being given&nbsp;a nullish value, and that the user knows when their username was not returned.":"在这里，{}username{}变量将获得存储在{}data.username{}中的值，但是如果{}data.username{}恰好是{}undefined{}或{}pointer_null{}，该变量将获得字符串{}\"INVALID USERNAME\"{}代替。这个例子确保了任何使用{}username{}变量的函数调用不会因为被赋予一个空值而导致错误，并且用户知道他们的用户名没有被返回。",
     "However, the compiler could interpret this in one of two ways:":"然而，编译器可以用两种方式之一来解释这一点。",

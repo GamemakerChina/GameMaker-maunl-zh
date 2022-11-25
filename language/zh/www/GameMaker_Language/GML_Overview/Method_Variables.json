@@ -5,6 +5,7 @@
     "Below you can see three simple examples of creating a method variable using different scopes:":"下面您可以看到使用不同范围创建方法变量的三个简单示例：",
     "Creating Methods":"创建方法",
     "In general, however, you would use the {}first {}form for methods, and the second form for defining {}script functions{}, since the second form will also assign a script index to the function name while the first form will be a \"true\" method (and require the use of the {}global{} prefix if used to define a scripted function).":"然而，一般来说，你会用{}第一种{}形式来定义方法，而用第二种形式来定义{}脚本函数{}，因为第二种形式也会给函数名分配一个脚本索引，而第一种形式则是一个 \"真 \"方法(如果用来定义脚本函数，需要使用{}global{}前缀)。",
+    "Method Variables":"方法变量",
     "Methods can also make use of static variables, which maintain their values throughout every function call. Please {}read this page{} for more information.":"方法还可以利用静态变量，静态变量在每次函数调用过程中都保持其值。请{}阅读此页面{}了解更多信息。",
     "Methods, just like script functions, can also take optional arguments that have default values for when they\u0027re not passed in:":"方法与脚本函数一样，也可以采用可选参数，这些参数在未传入时具有默认值：",
     "Note that if an argument is not passed in, and it does not have a default value, then it will be equal to {}undefined{}.":"请注意，如果未传入参数并且没有默认值，则它将等于{}undefined{}。",

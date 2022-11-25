@@ -8,6 +8,7 @@
     "Accessors":"访问器",
     "Again, all of this is not necessary if {}Copy on Write{} is {}disabled{} (which is the default and recommended option).":"同样，如果{}写时复制{}{}禁用{}(这是默认和推荐的选项)，则所有这些都不是必需的。",
     "Also see:&nbsp;{}&nbsp;{}":"另请参阅：{}变量函数{}",
+    "Arrays":"Arrays 数组",
     "Arrays as Function Arguments":"作为函数参数的数组",
     "Arrays&nbsp;can be extremely useful and are an essential part of making games. It is essentially a type of variable that can hold multiple values as a \"list\" -- consider the following code:":"数组非常有用，是制作游戏的重要组成部分。它本质上是一种可以将多个值保存为\"list\"的变量类型--请考虑以下代码：",
     "As described in the previous section, arrays can be passed into functions as arguments. To do this, you simply have to specify the array variable (no need for each of the individual positions, nor the {}[]{} brackets) and the entire array will be {}passed by reference{} into the function:":"正如上一节所述，数组可以作为参数传入函数。要做到这一点，你只需要指定数组变量(不需要每个单独的位置，也不需要{}[]{}括号)，整个数组将通过{}引用{}传递到函数中。",

@@ -6,6 +6,7 @@
     "An enum is an \"enumerator\", and it essentially permits you to create your own limited data type with a list of constant values. Enums are explained in depth on the page for {}Constants{}.":"枚举是\"枚举器(enumerator)\"，它基本上允许您使用常量值列表创建自己的有限数据类型。{}常量{}的页面上详细说明了枚举。",
     "Any bitwise operations, even when run on non-64-bit values, will always return a 64-bit integer back.":"任何按位操作，即使在非64位值上运行，也将始终返回64位整数。",
     "Before continuing, let\u0027s just briefly explain what we mean by \"data types\". When you create a variable it can be used to hold information, and when you call a&nbsp;function, it can also stored returned information. However this information can come in various \"flavours\" -&nbsp;for example, it can be a {}real number{} or it can be a {}string{}. These different types of values being used are called&nbsp;{}data types{}&nbsp;and when using&nbsp;the GameMaker Language they can be any of the following:":"在继续之前，我们先简单解释一下\"数据类型\"是什么意思。创建变量时，它可用于保存信息，调用函数时，它还可以存储返回的信息。但是，此信息可以有多种\"风格\"-例如，它可以是{}实数{}或者可以是{}字符串{}。使用的这些不同类型的值称为{}数据类型{}，当使用GameMaker语言时，它们可以是以下任意值：",
+    "Data Types":"数据类型",
     "Divisions on int64 values will also return integers (e.g.: {}int64(5) / int64(2) = 2{}).":"int 64值的除法也将返回整数(例如：{}int 64(5 )/ int 64(2 )= 2{}。",
     "For example, the following decimal values can be expressed as hexadecimal as shown:":"例如，以下十进制值可以表示为十六进制，如图所示：",
     "For example, the following two are not equal:":"例如，以下两项不相等：",
