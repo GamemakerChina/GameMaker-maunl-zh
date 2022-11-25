@@ -1,0 +1,5 @@
+{
+    "The above code creates a new camera and then assigns it as the default camera to use.":"以上代码将创建一个新相机，然后将其指定为要使用的默认相机。",
+    "The unique camera ID value returned when you created the camera":"创建相机时返回的唯一相机 ID 值。",
+    "This function can be used to set the default camera to use a custom camera that you have previously created using one of the {}{}camera_create(){}{} functions. When you create a room with {}no{} active view ports\n    or view cameras, {}GameMaker{} still uses a camera to show the action in the game. This camera is called the {}default{} camera and can be set and manipulated (and even destroyed) just like any other camera.":"此功能可用于将默认相机设置为先前使用 {}{}camera_create(){}{} 功能之一创建的自定义相机。创建具有{}无{}活动视口或查看相机的房间时，{}GameMaker{} 仍使用摄像头显示游戏中的动作。此相机称为{}默认{}相机，可以像任何其他相机一样进行设置和操作(甚至销毁)。"
+}
