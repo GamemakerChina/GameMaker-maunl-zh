@@ -90,12 +90,12 @@ http://app.languagex.com/ (注意,该接口的token需要从cookie获取,具体�
 
 
 ## 许可协议
+这是一个多协议的项目，可根据需要点击各个协议查看：
 
-------
+翻译内容 & 记忆库 - [CC-BY-SA 4.0 International](LICENSE)
 
-我能支配的那部分骄傲的使用 *WTFPL*(Do What The Fuck You Want To Public License)
+GameMakerManualTranslator & GameMakerManualTranslatorBuild - [WTFPL](GameMakerManualTranslator/LICENSE) [WTFPL](GameMakerManualTranslatorBuild/LICENSE)
 
+GameMakerManualExport - [MIT](GameMakerManualExport/LICENSE)
 
-
-## 
 
