@@ -1,0 +1,7 @@
+{
+    "Apart from those global variables, there are also a number of&nbsp;{}{}{}obsolete{}&nbsp;built-in global variables that are unavailable due to the possibility of them being included in imported legacy products ({}GameMaker{} needs to reserve these variables so it can recognise them on import and flag them to be updated/removed):":"除了这些全局变量之外，还有许多{}{}{}过时的{}内置全局变量由于它们可能包含在导入的旧产品中而不可用({}GameMaker{}需要保留这些变量，以便可以在导入时识别它们并将其标记为要更新/删除)：",
+    "However, only local and instance scope built-in variables can be used this way and assigned values as if they were regular struct member variables. Using&nbsp;{}global{}&nbsp;scope built-in variables is forbidden and will cause issues with your game. Below you can find a full list of these variables so that you know which ones to avoid.":"但是，只有局部和实例范围内置变量才能以这种方式使用并分配值，就像它们是常规结构成员变量一样。禁止使用{}全局{}范围内置变量，这将导致游戏出现问题。下面您可以找到这些变量的完整列表，以便知道应该避免哪些变量。",
+    "Struct Forbidden Variables":"结构禁止的变量",
+    "The following built-in global variables are all available for use in your projects but cannot be used as struct member variables:":"以下内置全局变量均可用于项目，但不能用作结构成员变量：",
+    "When creating a struct, it is possible to use certain built-in variables as member variable names, for example:":"创建结构时，可以使用某些内置变量作为成员变量名称，例如："
+}
