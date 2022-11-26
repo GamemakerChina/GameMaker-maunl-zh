@@ -1,0 +1,12 @@
+{
+    "Opens the linked document in a new window or tab (this will not work if pop-ups are being blocked by the user, in which case you can use the {}{}clickable_*{}{} functions instead).":"在新窗口或选项卡中打开链接的文档(如果弹出窗口被用户阻止，这将不起作用，在这种情况下，您可以使用{}{}clickable_*{}{}函数代替)。",
+    "Opens the linked document in the full body of the window.":"在窗口的整个主体中打开链接的文档。",
+    "Opens the linked document in the parent frame.":"在父框架中打开链接的文档。",
+    "Opens the linked document in the same frame as it was clicked (this is default).":"在单击的同一帧中打开链接文档(这是默认的)。",
+    "The URL (website address) to link to.":"要链接到的URL(网址)。",
+    "This is the target area to open the URL in.":"这是打开URL的目标区域。",
+    "This will open the specified URL on the browser of the chosen target device, or, if you are using the HTML5 module, in the currently open browser. The \"target\" parameter that you specify is the same as the standard JavaScript \"name\" value when you use the {}open(){} method, and you should be aware that all but \"{}_self{}\"&nbsp;may result in the browser blocking, or asking the user if they wish to allow it.":"这将在所选目标设备的浏览器上打开指定的URL，或者(如果使用HTML5模块)在当前打开的浏览器中打开。当你使用{}open(){}方法时，你指定的\"目标\"参数与标准的JavaScript \"name\"值相同，你应该意识到除了\"{}_self{}\"&nbsp;之外的所有参数都可能导致浏览器阻塞，或者询问用户是否允许。",
+    "This would open the GameMaker&nbsp;homepage in a new window.":"这将在一个新窗口中打开 GameMaker 主页。",
+    "Valid targets are:":"有效的目标是:",
+    "{}NOTE{}&nbsp;Antivirus software installed on the player\u0027s device may cause the URL to not open, so keep this in mind when using this function.":"{}注意{} 安装在玩家设备上的杀毒软件可能导致URL无法打开，因此在使用此功能时请注意这一点。"
+}

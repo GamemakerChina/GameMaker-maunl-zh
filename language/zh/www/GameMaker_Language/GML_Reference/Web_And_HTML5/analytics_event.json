@@ -1,0 +1,5 @@
+{
+    "A string to send to the provider":"要发送给提供程序的字符串",
+    "The above code will check a variable to see if it is {}true{} and if it is then a special analytics event will be triggered with the specified string.":"上面的代码将检查一个变量，看它是否是{}true{}，如果是，则用指定的字符串触发一个特殊的分析事件。",
+    "This function will send the specified text to the analytics provider that you have set up through the {}HTML5 Game Options{}. This function can be used to create a custom analytic to track something outside of the scope of the provider being used.":"这个函数将把指定的文本发送到你通过{}HTML5 游戏设置{}设置的分析提供程序。此函数可用于创建自定义分析，以跟踪所使用的提供者范围之外的内容。"
+}

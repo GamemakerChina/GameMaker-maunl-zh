@@ -1,0 +1,5 @@
+{
+    "Index of the clickable icon to remove.":"要删除的可单击图标的索引。",
+    "The above code removes the clickable icon indexed in the global variable \"Help_Icon\" from the game window, if it exists.":"以上代码从游戏窗口中删除了全局变量“Help_Icon”中的可点击图标(如果它存在的话)。",
+    "This function must be used to remove a clickable icon previously created with {}{}clickable_add(){}{} from the game window.":"这个函数必须用于从游戏窗口中删除之前用{}{}clickable_add(){}{}创建的可点击图标。"
+}

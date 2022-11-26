@@ -1,0 +1,5 @@
+{
+    "Enable or disable game input capture":"启用或禁用游戏输入捕获",
+    "The above code sets the game to capture all browser input on the HTML5 target platform.":"上面的代码将游戏设置为捕获 HTML5目标平台上的所有浏览器输入。",
+    "With this function you can set whether the browser window should capture all input (set it to {}false{}) or whether the game should capture the input (set it to {}true{}). Note that this function is for use with the HTML5 module only.":"使用此函数，您可以设置浏览器窗口是否应捕获所有输入（将其设置为 {}false{}）或游戏是否应捕获输入（将其设置为 {}true{}）。 请注意，此函数仅适用于 HTML5 模块。"
+}

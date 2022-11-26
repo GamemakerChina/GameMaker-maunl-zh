@@ -1,0 +1,4 @@
+{
+    "The above code checks the WebGL flag and then sets the global variable \"quality\" accordingly.":"上面的代码检查WebGL标志，然后相应地设置全局变量“quality”。",
+    "This {}read-only{} variable will return whether WebGL is enabled ({}true{}) or not ({}false{}) for your game. It will only work for those games running through a browser (ie: HTML5), and for all other platforms it will return true.":"这个{}只读{}变量将返回你的游戏是否启用WebGL ({}true{})或未启用({}false{})。它只适用于那些通过浏览器运行的游戏(如HTML5)，对于所有其他平台它将返回true。"
+}
