@@ -25,7 +25,15 @@ mainPath=fsys.path.canonicalize(path+"\"+robohelp+"\"+mainfile)
 
 //console.log(mainPath)
 
-setting=eval(string.load(path+"setting.struct"))
+var file=path+"setting.json"
+if !io.exist(file){
+var str=`{
+	"group":"zh"
+}`
+	string.save(file,str)
+}
+setting=web.json.parse(string.load(file))
+
 
 //当目录出现变更,直接一个刷的新
 import fsys.dirWatcher;

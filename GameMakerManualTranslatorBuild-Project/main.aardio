@@ -7,7 +7,15 @@ debug=io.exist("debug")
 path="./"
 if debug path=//../
 
-setting=eval(string.load(path+"setting.struct"))
+var file=path+"setting.json"
+if !io.exist(file){
+var str=`{
+	"group":"zh"
+}`
+	string.save(file,str)
+}
+setting=web.json.parse(string.load(file))
+
 if setting.group{
 	group=setting.group+"/"
 }else{
