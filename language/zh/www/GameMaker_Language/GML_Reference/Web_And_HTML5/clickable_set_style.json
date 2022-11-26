@@ -1,0 +1,6 @@
+{
+    "The above code will change the style of the clickable button with the index stored in the variable \"button\".":"上面的代码将改变可点击按钮的样式与索引存储在变量“按钮”。",
+    "The index of the clickable icon to style.":"要样式化的可单击图标的索引。",
+    "The index of the {}DS Map{} to set the style from.":"要从中设置样式的{} DS Map {}的索引。",
+    "This function lets you set the CSS style properties for the given button via the key/value pairs in the provided {}{}DS Map{}{}. You need to have previously created the both the button element (using {}{}clickable_add(){}{}) and the {}DS Map{}&nbsp;and supply the stored indices to each as arguments.":"这个函数允许您通过提供的{}{}DS Map{}{}中的键/值对为给定的按钮设置CSS样式属性。您需要在之前创建按钮元素(使用{}{}clickable_add(){}{})和{}DS Map{}&nbsp;并将存储的索引作为参数提供给它们。"
+}
