@@ -4,10 +4,11 @@ const glob = require("glob")
 const fs = require("fs")
 
 let regex = /(<([^>]+)>)/ig
-let translation_directory = "../language/zh/www/"
+let locale_name = require("../setting.json")
+let translation_directory = "../language/" + locale_name.group + "/www/"
 let manual_directory = "../GMS2-Robohelp-en/"
 let export_directory = "../build/"
-let json_global = require("../language/zh/global.json");
+let json_global = require("../language/" + locale_name.group + "/global.json");
 
 function removeHtml(str) {
     return str.replace(regex, "{}");
@@ -24,7 +25,13 @@ function importTranslate(page, json) {
     if (val !== undefined && val.length) {
         let f = retHtml(html)
         if (f) f.forEach((v, k) => {
-            val = val.replace("{}", v)
+            var tmp=val.replace("{"+i+"}",v)
+            if(tmp===val){
+                val=val.replace("{}",v)
+            }else{
+                val=tmp
+            }
+            i++
         })
         page.html(val)
     }
@@ -32,6 +39,7 @@ function importTranslate(page, json) {
 
 fs.cpSync(manual_directory, export_directory, {recursive: true})
 
+// 从记忆库替换导入翻译
 glob(manual_directory + '**/*.htm', {}, (err, files) => {
     if (err) {
         console.log("错误：" + err)
@@ -61,6 +69,22 @@ glob(manual_directory + '**/*.htm', {}, (err, files) => {
     }
 })
 
+// 插入外部全局 CSS
+glob(export_directory + "index*.htm", {}, (err, files)=>{
+    if (err) {
+        console.log(err)
+    } else {
+        for (let index = 0; index < files.length; index++) {
+            let $ = cheerio.load(fs.readFileSync(files[index]).toString())
+            let appendCSS = `<link rel="stylesheet" type="text/css" href="global_style_patch.css"/>`
+            $('head').append(appendCSS)
+            fs.writeFileSync(export_directory + files[index], $.html())
+        }
+    }
+});
+fs.copyFileSync("../patch/global_style_patch.css", "../build/global_style_patch.css")
+
+// 插入译者信息
 let content = fs.readFileSync(export_directory + "Content.htm").toString()
 let team_patch = fs.readFileSync("../patch/team.htm").toString()
 let $ = cheerio.load(content)

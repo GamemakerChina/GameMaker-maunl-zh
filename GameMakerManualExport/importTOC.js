@@ -1,3 +1,4 @@
+"use strict";
 const fs = require("fs");
 const glob = require("glob");
 const readline = require("readline");
@@ -5,7 +6,8 @@ const jsbeautify = require("js-beautify").js;
 
 let export_directory_toc = "../build/whxdata/"
 let manual_directory_toc = "../GMS2-Robohelp-en/whxdata/"
-let json_global = require("../language/zh/global.json")
+let locale_name = require("../setting.json")
+let json_global = require("../language/" + locale_name.group + "/global.json")
 
 let regex = new RegExp("var toc \\= \\[\\{", "g")
 
