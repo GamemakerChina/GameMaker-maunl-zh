@@ -1,3 +1,6 @@
 {
-    "The unique camera ID value returned when you created the camera":"创建相机时返回的唯一相机 ID 值。"
+    "The above code retrieves the follow target of the camera assigned to view port[0] and then checks this to see if it matches the object index \"obj_Player\". If it does not then the view camera is set to follow an instance of that object.":"以上代码检索分配给查看 viewport[0] 的相机的以下目标，然后检查该目标是否与对象索引 \"obj_Player\" 匹配。如果不是，则视图的相机将设置为跟随该对象的实例。",
+    "The unique camera ID value returned when you created the camera":"创建相机时返回的唯一相机 ID 值。",
+    "This function can be used to retrieve the follow target of the given camera. The return value can be an object index, an instance ID or -1 if no follow target has been set.":"此函数可用于检索给定相机的跟踪目标。如果未设置跟踪目标，则返回值可以是对象索引、实例 ID 或 -1。",
+    "{}{}Object Asset{}{}, {}{}Instance ID{}{} or -1":"{}{}对象资源{}{}, {}{}实例 ID{}{} 或 -1"
 }

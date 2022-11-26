@@ -1,5 +1,5 @@
 {
-    "The above code will set the view camera size for the camera assigned to view port[0].":"以上代码将为分配给 viewport[0] 的相机设置视图的相机大小。",
+    "The above code will set the view camera size for the camera assigned to view port[0].":"上述代码将为分配给 viewport[0] 的相机设置视图的相机大小。",
     "The height of the camera view in pixels":"相机视图的高度(以像素为单位)",
     "The unique camera ID value returned when you created the camera.":"创建相机时返回的唯一相机 ID 值。",
     "The width of the camera view in pixels":"相机视图的宽度(以像素为单位)",

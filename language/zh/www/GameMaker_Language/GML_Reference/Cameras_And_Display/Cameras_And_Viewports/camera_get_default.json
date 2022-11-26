@@ -1,0 +1,4 @@
+{
+    "The above code gets the camera ID for the default camera and sets the view camera for port[0] to use it.":"以上代码获取默认相机的相机 ID，并设置 port[0] 使用的视图的相机。",
+    "This function can be used to retrieve the unique camera ID value of the default camera (the camera that {}GameMaker{} uses when no camera views or ports are active in a game room).":"此功能可用于检索默认相机的唯一相机 ID 值。 ({}GameMaker{}在游戏房间中没有活动的相机视图或端口时使用的相机)"
+}

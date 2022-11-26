@@ -1,3 +1,5 @@
 {
-    "The unique camera ID value returned when you created the camera":"创建相机时返回的唯一相机 ID 值。"
+    "The above code retrieves the angle of the camera assigned to view port[0] and then checks this to see if it matches the given value. If it does not then the view camera is set to that angle.":"以上代码检索分配给 viewport[0] 的相机角度，然后检查该角度是否与给定值匹配。如果不是，则将视图的相机设置为该角度。",
+    "The unique camera ID value returned when you created the camera":"创建相机时返回的唯一相机 ID 值。",
+    "This function can be used to retrieve the angle of the given camera. The return value will be between 0 and 360. Note that this function is {}only{} valid for cameras created using {}{}camera_create_view(){}{} or for those added in the room editor.":"此函数可用于检索给定摄像机的角度。返回值为0到360之间。注意，本函数{}只{}对使用 {}{}camera_create_view(){}{} 创建的相机或在房间编辑器中添加的相机有效。"
 }
