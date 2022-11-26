@@ -1,0 +1,5 @@
+{
+    "The name of the file to check for.":"要检查的文件的名称。",
+    "This function will return {}true{} if the specified file exists and {}false{} if it does not. Note that the function can only be used to check {}local{} files, but not any files stored on a remote server.":"如果指定文件存在，此函数将返回 {}true{}，否则返回 {}false{}。 请注意，该函数只能用于检查{}本地{}文件，而不是存储在远程服务器上的任何文件。",
+    "This would check for a file and if it exists it is opened for reading.":"这将检查一个文件，如果它存在则打开以供读取。"
+}

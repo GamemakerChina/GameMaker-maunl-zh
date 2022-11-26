@@ -1,0 +1,6 @@
+{
+    "This will return the directory where the game executable is stored. However this may not always be useful, particularly as some devices run the exe from a *.zip file, so this would return the same no matter where the game is actually running from.":"这将返回存储游戏可执行文件的目录。 然而，这可能并不总是有用，特别是当某些设备从 *.zip 文件运行 exe 时，因此无论游戏实际从何处运行，这都会返回相同的结果。",
+    "This will store the directory where the executable is stored in a variable.":"这会将可执行文件的存储目录存储在一个变量中。",
+    "{}NOTE{}: If you disable the sandbox then you still will not be able to write to this directory to prevent any possible issue with deleting required game files.":"{}注意{}：如果您禁用沙盒，那么您仍然无法写入此目录以防止删除所需游戏文件时可能出现的任何问题。",
+    "{}{}{}WARNING!{} This function may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on the&nbsp;{}File System{}&nbsp;for more information.":"{}{}{}警告！{}由于 {}GameMaker{} 被沙盒化，此功能可能无法按您预期的那样工作！ 有关详细信息，请参阅{}文件系统{}部分。"
+}

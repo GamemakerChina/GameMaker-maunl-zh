@@ -1,0 +1,8 @@
+{
+    "The above code opens an ini file for reading and writing, then writes the string stored in the global variable \"Name\" to the section \"Save\" with the key \"Player\" before closing the file again.":"上面的代码打开一个 ini 文件进行读写，然后将存储在全局变量“ Name”中的字符串写入“ Save”部分，键为“ Player”，然后再次关闭该文件。",
+    "The key within the relevant section of the .ini to write to.":"要写入的.ini 的相关部分中的键。",
+    "The section of the .ini to write to.":"要写入的.ini 节。",
+    "The string to write to the relevant destination.":"要写入相关目标的字符串。",
+    "You can use this function to write a string (text) to an ini data file. Ini Files are split into {}sections{} and then each section is subsequently split into {}key{} - {}value{} pairs. So a typical ini file would look something like this:":"可以使用此函数将字符串(文本)写入ini数据文件。Ini文件被分割成{}节(sections){}，然后每个节又被分割成{}键(key){}-{}值(value){}对。所以一个典型的ini文件看起来是这样的:",
+    "{}It is worth noting that using quotes and escape characters when writing ini strings may cause issues when later reading back the data as it may be prematurely truncated. For example, writing this will be an issue:":"值得注意的是，在编写ini字符串时使用引号和转义字符可能会在以后回读数据时引起问题，因为它可能会过早地截断。例如，这样写会是一个问题:"
+}

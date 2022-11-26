@@ -1,0 +1,5 @@
+{
+    "The above code opens a file for reading and then loops through the lines of the file reading alternately a real number value and a string into two different arrays for future use. The file is then closed when the loop has finished.":"上面的代码打开一个用于读取的文件，然后循环通过文件的行，交替地读取一个实数值和一个字符串到两个不同的数组以供将来使用。然后，循环结束时关闭该文件。",
+    "The id of the file to read from.":"要从中读取的文件的 id。",
+    "With this function you can read a real number value from a text file and the function returns that value to be used or stored in a variable.":"使用此函数，您可以从文本文件中读取实数值，并且函数返回要使用或存储在变量中的值。"
+}

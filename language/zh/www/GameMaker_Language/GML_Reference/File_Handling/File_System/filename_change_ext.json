@@ -1,0 +1,6 @@
+{
+    "The above code gets the name of the file (as a string) with the extension part removed.":"上面的代码获取删除了扩展部分的文件名(作为字符串)。",
+    "The file to use.":"要使用的文件。",
+    "The new extension to use.":"要使用的新扩展。",
+    "This function returns the indicated file name with the extension (including the dot) changed to the new extension. By using an empty string as the new extension you can remove the extension part all together.":"此函数返回扩展名(包括点)更改为新扩展名的指示文件名。通过使用空字符串作为新的扩展，您可以一起删除扩展部分。"
+}

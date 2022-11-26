@@ -1,0 +1,7 @@
+{
+    "The key within the relevant section of the .ini to read from.":"要从中读取的.ini 相关部分中的键。",
+    "The section of the .ini to read from.":"要从中读取的.ini 部分。",
+    "The value to return if a value is not found in the defined place (or the .ini file does not exist). Must be a real number.":"如果在定义的位置没有找到值(或.ini文件不存在)，则返回的值。一定是实数。",
+    "This will open \"savedata.ini\" and set score to the value under \"save1\" &gt; \"score\" in it, then close the .ini again. Should there be no value under \"save1\" &gt; \"score\", or there no \"savedata.ini\"\n    file present, score will be set to 0.":"这将打开“ savedata.ini”并将得分设置为其中“ save1”> “ score”下的值，然后关闭。又是我。如果在“ save1”> “ score”下没有值，或者没有“ savedata.ini”文件，score 将被设置为0。",
+    "You can use this function to read a number from an ini data file. Ini Files are split into {}sections{} and then each section is subsequently split into {}key{} - {}value{} pairs. So a typical ini file would look something like this:":"可以使用此函数从 ini 数据文件中读取数字.ini 文件被分割成{}节(sections){}，然后每个节又被分割成{}键(key){}-{}值(value){}对。所以一个典型的ini文件看起来是这样的:"
+}

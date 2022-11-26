@@ -1,0 +1,5 @@
+{
+    "This can be used to return the temporary directory created for your game each time it is run (the root does not contain the final \"\\\"). This directory will hold files and can be accessed while the game is running, but it will be removed (along\n    with all files that it contains) when the game is closed.":"这可用于在每次运行游戏时返回为您的游戏创建的临时目录（根目录不包含最后的“\\”）。 此目录将保存文件并可在游戏运行时访问，但在游戏关闭时它将被删除（连同它包含的所有文件）。",
+    "This will open an ini file in the temporary directory of the game (creating it if it does not already exist).":"这将在游戏的临时目录中打开一个 ini 文件(如果它不存在则创建它)。",
+    "{}{}{}WARNING!{} This function may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on the&nbsp;{}File System{}&nbsp;for more information.":"{}{}{}警告！{}由于 {}GameMaker{} 被沙盒化，此功能可能无法按您预期的那样工作！ 有关详细信息，请参阅{}文件系统{}部分。"
+}

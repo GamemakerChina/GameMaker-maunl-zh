@@ -1,0 +1,5 @@
+{
+    "The above code gets the path (as a string) of the specified file.":"以上代码获取指定文件的路径(作为字符串)。",
+    "The file name and path to use.":"要使用的文件名和路径。",
+    "Using this function returns the path part of the indicated file path, including the final backslash.":"使用此函数返回指定文件路径的路径部分，包括最后一个反斜杠。"
+}

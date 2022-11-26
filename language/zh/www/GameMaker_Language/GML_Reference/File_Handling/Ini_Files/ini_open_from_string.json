@@ -1,0 +1,5 @@
+{
+    "The above code sets a temporary ini to hold the information from the string \"str\", then reads from the ini before closing it again.":"上面的代码设置了一个临时的 ini 来保存字符串“str”中的信息，然后从 ini 中读取信息，然后再次关闭它。",
+    "The string containing all the ini information.":"包含所有 ini 信息的字符串。",
+    "This function will create a temporary&nbsp;ini file from a string and open it for reading/writing. The string should be correctly formatted as an ini file (ie: with sections, line breaks keys and values) otherwise the ini file will not be created correctly. Note that this ini file is temporary and will be removed from memory the moment it is closed, losing any information that was stored in it, however the {}{}ini_close(){}{} function returns a string of the full ini file which can then be saved to a server or to disk.":"这个函数将从字符串中创建一个临时的ini文件，并打开它进行读写。字符串应该被正确格式化为ini文件(即:带有节、换行键和值)，否则ini文件将无法正确创建。注意，这个ini文件是临时的，一旦关闭，它将从内存中删除，丢失其中存储的任何信息，但是{}{}ini_close(){}{}函数返回完整ini文件的字符串，然后可以将其保存到服务器或磁盘上。"
+}

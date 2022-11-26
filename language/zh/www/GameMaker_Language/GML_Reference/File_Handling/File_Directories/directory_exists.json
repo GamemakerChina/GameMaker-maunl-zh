@@ -1,0 +1,5 @@
+{
+    "The name of the directory to look for.":"要查找的目录的名称。",
+    "This function will return {}true{} if the indicated directory exists or {}false{} if it does not. The specified name must include the full path, not a relative path and by default you cannot access any directories from out-with the game bundle as all games are sandboxed&nbsp;(see the section on the&nbsp;{}File System{}&nbsp;for more information).":"如果指示的目录存在，此函数将返回 {}true{}，如果不存在，则返回 {}false{}。 指定的名称必须包含完整路径，而不是相对路径，并且默认情况下您无法从游戏包中访问任何目录，因为所有游戏都是沙盒化的&nbsp;（请参阅关于{}文件系统{}的部分&nbsp; 更多信息）。",
+    "This will check to see if the specified directory exists then, if it does, go there and return the first \"read only\" {}doc{} file found.":"这将检查指定的目录是否存在，如果存在，则返回找到的第一个“只读”{} doc {}文件。"
+}

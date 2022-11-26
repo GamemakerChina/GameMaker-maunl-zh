@@ -1,0 +1,5 @@
+{
+    "The above code opens a file for reading then reads the values from a single line into an array.":"上面的代码打开一个文件进行读取，然后将一行中的值读入一个数组。",
+    "The id of the file to check.":"要检查的文件的 ID。",
+    "With this function you can get {}GameMaker{} to check the currently opened file to see if the line being read has finished. The function returns {}true{} if the end of the line has been reached and {}false{} otherwise.":"使用这个函数，您可以让{} GameMaker {}检查当前打开的文件，看看正在读取的行是否已经完成。如果已到达行尾，则函数返回{} true {} ，否则返回{} false {}。"
+}

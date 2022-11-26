@@ -1,0 +1,5 @@
+{
+    "The above code gets the directory (as a string) of the specified file.":"以上代码获取指定文件的目录(作为字符串)。",
+    "The file to use.":"要使用的文件。",
+    "This function returns the directory part of the indicated file name, which normally is the same as the path except for the final backslash.":"此函数返回指定文件名的目录部分，该部分通常与路径相同，但最后一个反斜杠除外。"
+}

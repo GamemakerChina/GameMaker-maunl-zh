@@ -1,0 +1,6 @@
+{
+    "The key to delete.":"要删除的键。",
+    "The section to delete a key from.":"要从中删除键的节。",
+    "This example will open \"savedata.ini\" and write a value to \"save1\" &gt; \"Score\". It will then delete the \"Score\" key and close the .ini file.":"这个示例将打开“ savedata.ini”并将一个值写入“ save1”> “ Score”。然后，它会删除“得分”键并关闭。Ini 文件。",
+    "With this function you can remove the selected key (and its corresponding value) from an ini file.":"使用这个函数，您可以从 ini 文件中删除选定的键(及其对应的值)。"
+}

@@ -1,0 +1,6 @@
+{
+    "The above code opens a file for writing and then loops through two arrays, writing each array value to a new line of the file. The file is then closed when the loop has finished.":"上面的代码打开一个文件进行写入，然后循环通过两个数组，将每个数组值写入文件的新行。然后，循环结束时文件关闭。",
+    "The id of the file to edit.":"要编辑的文件的 id。",
+    "The string to write to the file.":"要写入文件的字符串。",
+    "With this function you can write a string to a previously opened text file. If the file already contains information, this information will be erased and the string will be written at the beginning of the file, unless you have opened the file with the {}{}file_text_open_append(){}{}. You can also avoid this by using the {}{}file_text_readln(){}{} function along with the {}{}file_text_eof(){}{} function to loop through the contents of the file until you get to the end and then start writing.":"通过这个函数，您可以将字符串写入先前打开的文本文件。如果文件已经包含信息，则该信息将被擦除，字符串将写入文件的开头，除非您已经使用{}{}file_text_open_append(){}{}打开了文件。还可以通过使用{}{}file_text_readln(){}{}函数和{}{}file_text_eof(){}{}函数来循环遍历文件的内容，直到到达末尾，然后开始写入，从而避免这种情况。"
+}

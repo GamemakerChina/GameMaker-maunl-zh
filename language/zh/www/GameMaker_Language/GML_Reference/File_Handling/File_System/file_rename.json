@@ -1,0 +1,7 @@
+{
+    "The name of the file to change.":"要更改的文件的名称。",
+    "The new name to give the file.":"文件的新名称。",
+    "This function will rename the specified file with the specified name. The function will return {}true{} if the file has successfully been renamed, or {}false{} in any other circumstances.":"此函数将使用指定的名称重命名指定的文件。 如果文件已成功重命名，该函数将返回 {}true{}，或者在任何其他情况下返回 {}false{}。",
+    "This would check for a file and if it exists it is renamed.":"这将检查文件，如果存在，则重命名。",
+    "{}{}{}WARNING!{} This function may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on the&nbsp;{}File System{}&nbsp;for more information.":"{}{}{}警告！{}由于 {}GameMaker{} 被沙盒化，此功能可能无法按您预期的那样工作！ 有关详细信息，请参阅{}文件系统{}部分。"
+}

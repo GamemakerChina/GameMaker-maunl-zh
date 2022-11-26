@@ -1,0 +1,6 @@
+{
+    "The above code will open the given CSV file and store the returned DS grid in the variable \"file_grid\". This grid is then parsed in a couple of {}for{} lops and the contents drawn to the screen.":"上面的代码将打开给定的 CSV 文件并将返回的 DS 网格存储在变量“file_grid”中。 然后在几个 {}for{} 循环中解析此网格，并将内容绘制到屏幕上。",
+    "The name of the file to open (as a string)":"要打开的文件的名称(作为字符串)",
+    "This function will load a CSV format file and convert it into a DS grid, returning the unique ID value for the grid created.":"这个函数将加载一个 CSV 格式的文件，并将其转换为 DS 网格，返回创建的网格的唯一 ID 值。",
+    "Your CSV file should follow the {}CSV specification{}. If your CSV syntax is not correct, you will get unexpected results on loading the file.":"您的 CSV 文件应该遵循{} CSV 规范{}。如果 CSV 语法不正确，则在加载文件时将得到意外的结果。"
+}

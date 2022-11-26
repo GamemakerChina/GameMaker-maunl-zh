@@ -1,0 +1,5 @@
+{
+    "The above code gets the drive information (as a string) of the specified file.":"上面的代码获取指定文件的驱动器信息(作为字符串)。",
+    "The file to use.":"要使用的文件。",
+    "This function returns the drive information of the filename.":"此函数返回文件名的驱动器信息。"
+}
