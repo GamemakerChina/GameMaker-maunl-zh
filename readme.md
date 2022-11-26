@@ -99,7 +99,8 @@ http://app.languagex.com/ (注意,该接口的token需要从cookie获取,具体�
 npm config set registry https://registry.npmmirror.com # 如果速度慢执行该命令
 npm install
 
-npm run start:all # 同时导入文档和目录并注入翻译信息和 CSS
+# 同时导入文档和目录并注入翻译信息和 CSS
+npm run start:all
 ```
 
 ## 正式介绍
