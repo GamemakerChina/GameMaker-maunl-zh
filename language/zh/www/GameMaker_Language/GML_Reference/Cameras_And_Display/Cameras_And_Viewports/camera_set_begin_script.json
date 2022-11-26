@@ -1,6 +1,6 @@
 {
     "Move to the next active visible view and repeat...":"移动到下一个活动的可见视图并重复...",
-    "The above code sets the begin script function for the camera assigned to view port [0].":"以上代码为分配给 viewport[0] 的相机设置开始脚本功能。",
+    "The above code sets the begin script function for the camera assigned to view port [0].":"上述代码为分配给 viewport[0] 的相机设置开始脚本。",
     "The cameras for all visible and active view ports have their {}update function{} called":"所有可见和活动视口的相机都调用了其{}更新函数{}",
     "The script function to run each game frame":"运行每个游戏帧的脚本函数",
     "The unique camera ID value returned when you created the camera.":"创建相机时返回的唯一相机 ID 值。",

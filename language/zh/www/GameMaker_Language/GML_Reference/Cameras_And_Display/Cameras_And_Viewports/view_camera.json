@@ -1,0 +1,5 @@
+{
+    "The above code checks to see if the view port [0] has a camera attached to it and if it doesn\u0027t then one is created and set to it.":"以上代码检查 viewport [0] 是否附加了相机，如果没有，则创建并设置一个相机。",
+    "This array holds the unique camera ID assigned to the given view port, and can be set to a new camera or read to get the current camera, returning -1 if no camera is assigned. You can have up to 8 view ports active in a room (array values 0 through 7), and can assign a camera to any of them by simply setting this variable to the camera ID value (as returned by the functions {}{}camera_create(){}{} or {}{}camera_create_view(){}{}). If you have set the camera to a view port through the Room Editor, this variable will hold the camera ID for that port.":"此数组保存指定给给定视口的唯一相机 ID，并且可以设置为新相机或读取以获取当前相机，如果未指定相机，则返回 -1。一个房间中最多可以有 8 个视口处于活动状态(数组值0到7)，只需将此变量设置为相机 ID 值(由函数 {}{}camera_create(){}{} 或 {}{}camera_create_view(){}{} 返回)，即可将相机分配给其中的任何一个。如果已通过\"房间编辑器\"将相机设置为视口，则此变量将保留该端口的相机 ID。",
+    "{}{}Camera ID{}{} or -1 (if no camera is assigned)":"{}{}相机 ID{}{} 或 -1(如果未分配相机)"
+}

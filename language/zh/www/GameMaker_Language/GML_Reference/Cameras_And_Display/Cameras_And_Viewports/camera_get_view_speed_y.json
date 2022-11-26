@@ -1,3 +1,5 @@
 {
-    "The unique camera ID value returned when you created the camera":"创建相机时返回的唯一相机 ID 值。"
+    "The above code retrieves the xspeed and yspeed of the camera assigned to view port[0] and then checks this to see if it matches the given value. If it does not then the view camera is set to that speed.":"以上代码检索分配给 viewport[0] 的相机的水平速度(xspeed)和垂直速度(yspeed)，然后检查它是否与给定值匹配。如果没有，则将视图的相机设置为该速度。",
+    "The unique camera ID value returned when you created the camera":"创建相机时返回的唯一相机 ID 值。",
+    "This function can be used to retrieve the movement speed of the given camera along the y axis (vertical movement). The return value will be in pixels per game frame.":"此函数可用于检索给定相机沿 Y 轴(垂直移动)的移动速度。返回值将以每个游戏帧的像素为单位。"
 }

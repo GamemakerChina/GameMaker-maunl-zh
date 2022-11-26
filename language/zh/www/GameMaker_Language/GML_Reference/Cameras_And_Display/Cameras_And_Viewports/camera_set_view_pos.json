@@ -1,5 +1,5 @@
 {
-    "The above code will set the view camera position for the camera assigned to view port[0].":"以上代码将为分配给 viewport[0] 的相机设置视图的相机位置。",
+    "The above code will set the view camera position for the camera assigned to view port[0].":"上述代码将为分配给 viewport[0] 的相机设置视图的相机位置。",
     "The unique camera ID value returned when you created the camera.":"创建相机时返回的唯一相机 ID 值。",
     "The x position to place the view at (in the room)":"(在房间内)放置视图的 x 位置",
     "The y position to place the view at (in the room)":"(在房间内)放置视图的 y 位置",

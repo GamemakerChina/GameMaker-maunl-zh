@@ -1,0 +1,4 @@
+{
+    "The above code checks to see if views are enabled for the room, and if they are not, it makes sure that view port[0] is visible and then enables views for the room.":"以上代码检查是否为文件室启用了视图，如果没有启用视图，则确保 viewport[0] 可见，然后启用房间的视图。",
+    "This variable controls whether any view ports that are visible within the room are enabled or not. If you have view ports set to visible and then disable this option, the whole room will be drawn to the screen scaled to the window size instead of the different cameras being drawn through the view ports.":"此变量控制是否启用房间内可见的任何视口。如果将视口设置为可见，然后禁用此选项，则会将整个房间绘制到按照窗口大小缩放的屏幕上，而不是通过视口绘制不同的相机。"
+}
