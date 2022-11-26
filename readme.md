@@ -82,9 +82,25 @@ http://app.languagex.com/ (注意,该接口的token需要从cookie获取,具体�
 
 ### 5,编译导出
 
+你可以选择以下两种方式编译导出文档：
+
+#### 外挂注入式
+
 打开 `GameMakerManualTranslatorBuild.exe` 会将json注入到文件生成在`build`目录中
 
 你可以将文件替换到原文档并压缩成zip替换`GameMaker`原文档zip文件,具体目录请看上面
+
+#### 静态式
+
+请确保系统内安装有 Node.js 环境后，在 `GameMakerManualExport` 下打开命令行，输入以下命令：
+
+```bash
+# 安装依赖
+npm config set registry https://registry.npmmirror.com # 如果速度慢执行该命令
+npm install
+
+npm run start:all # 同时导入文档和目录并注入翻译信息和 CSS
+```
 
 ## 正式介绍
 
@@ -98,5 +114,4 @@ http://app.languagex.com/ (注意,该接口的token需要从cookie获取,具体�
 GameMakerManualTranslator & GameMakerManualTranslatorBuild - [WTFPL](GameMakerManualTranslator-Project/LICENSE) [WTFPL](GameMakerManualTranslatorBuild-Project/LICENSE)
 
 GameMakerManualExport - [MIT](GameMakerManualExport/LICENSE)
-
 

@@ -5,8 +5,7 @@ const jsbeautify = require("js-beautify").js;
 
 let export_directory_toc = "../build/whxdata/"
 let manual_directory_toc = "../GMS2-Robohelp-en/whxdata/"
-let json_global = require("../language/zh/global.json");
-let json_global_no_transferred = require("../language/zh/globalNoTransferred.json")
+let json_global = require("../language/zh/global.json")
 
 let regex = new RegExp("var toc \\= \\[\\{", "g")
 
@@ -72,5 +71,17 @@ glob(manual_directory_toc + "toc*.new.js", {}, (err, files) => {
                 fs.writeFileSync(toc_write_js, toc_js_template)
             }
         })
+    }
+})
+
+glob(export_directory_toc + "toc*.new.json", {}, (err, files)=>{
+    if (err) {
+        console.log(err)
+    } else {
+        for (let index = 0; index < files.length; index++) {
+            if (fs.existsSync(files[index])) {
+                fs.rmSync(files[index])
+            }
+        }
     }
 })
