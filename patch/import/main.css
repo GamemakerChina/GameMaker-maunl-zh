@@ -1,0 +1,30 @@
+
+
+textarea{
+	padding:5px;
+	font-size:14px;
+}
+
+.qqq{
+	padding: 10px 20px;
+}
+.qqq textarea{
+    border: 1px solid #dbdbdb;
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0px;
+}
+textarea.lr{
+	height:400px;
+}
+
+.qqq_hightlight div{
+	padding: 10px;
+	font-size:16px;
+}
+
+.hide {   position: absolute;   top: -99999px;   left: -99999px;}
+
+span.num{
+	color:red;
+}

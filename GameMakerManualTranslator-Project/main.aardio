@@ -17,38 +17,46 @@ mainfile=//index.htm
 if debug{
 	path=//../
 }else{
-	path=""
+	path=//./
 }
-
 
 mainPath=fsys.path.canonicalize(path+"\"+robohelp+"\"+mainfile)
 
 //console.log(mainPath)
 
+//读取或初始化setting.json
 var file=path+"setting.json"
 if !io.exist(file){
 var str=`{
-	"group":"zh"
+	"group":"zh",
+	"importPath":"patch/import",//依赖路径,通用加载的js与css
+	"mainJs":"patch/main.js",//翻译器的主要前端逻辑,这个文件最后加载
+	"template":"patch/template.htm",//编译时插入的模板
+	"team":"patch/team.htm",//编译后插入主页的汉化组信息
 }`
 	string.save(file,str)
 }
 setting=web.json.parse(string.load(file))
 
+//设置语言组
+if setting.group{
+	group=setting.group
+}else{
+	group="def"
+}
 
 //当目录出现变更,直接一个刷的新
 import fsys.dirWatcher;
 win.thrdWatcher = fsys.dirWatcher.thread(function(filename,action,actionText){
-	theView.go(mainPath)
+	f5=false
 }, path+"/patch");
 
 loadcodex("\res\翻译.aardio");
-
+loadcodex("\res\热键设置.aardio");
 
 
 import web.view;
 theView  = web.view(mainForm,,"-disable-web-security --disable-features=site-per-process");
-loadcodex("\res\热键设置.aardio");
-
 
 //关闭右键菜单
 theView.enableDefaultContextMenus(false) 
@@ -57,31 +65,49 @@ theView.enableDefaultContextMenus(false)
 //检测hack
 mainForm.setInterval(100,function(){
 try{
-	
+	//刷新加载
+	if !f5{
+		f5=true
+		theView.go(mainPath)
+	}
 	//主界面
 	var hack=theView.eval("hackState")
 	var ready=theView.eval("document.readyState=='complete'")
+	
 	//加载完成与是否没有hack过
 	if ready and !hack{
 		
 		//加载依赖js
-		fsys.enum(path+"/patch/js/","*.js",function(dirname,filename,fullpath,findData){
+		fsys.enum(path+setting.importPath,"*.js",function(dirname,filename,fullpath,findData){
 			if(filename){
 				theView.doScript(string.load(fullpath))
-				//console.log(fullpath)
+			}
+		},);
+		
+		//加载依赖css
+		var css=""
+		fsys.enum(path+setting.importPath,"*.css",function(dirname,filename,fullpath,findData){
+			if(filename){
+				css+=//<link rel="stylesheet" href="
+				css+=string.replace(fullpath,"@\","/")
+				css+=//">
 			}
 		},);
 		
 		//标正,并运行主js
-		theView.eval("hackState=true")
-		theView.doScript(string.load(path+"/patch/main.js"))
-		theView.doScript(`group="`+setting.group+`"`)
+		theView.eval("hackState=true")//标记这个js已经运行过了
+		theView.doScript("target=null")//初始化一个没用的变量
+		theView.doScript("cssHtml=`"+css+"`")//css的html
+		theView.doScript(string.load(path+setting.mainJs))//主要js
+		
+		theView.doScript(`group="`+group+`"`)
 	}
 }
 catch(e){
 	console.log(e)
 }
 });
+
 
 //语言缓存
 Lfile={
@@ -90,7 +116,7 @@ Lfile={
 }
 
 //////
-//备注:别他妈用table当变量名,他妈的有个库叫table别忘了
+//备注:别他妈用table当变量名,有个库叫table
 //////
 
 reload_Lfile=function(file){
@@ -156,7 +182,7 @@ theView.export({
 //必须这样不然无法加载资源
 import wsock.tcp.simpleHttpServer; 
 
-theView.go(mainPath);
+
 
 mainForm.show();
 win.loopMessage();

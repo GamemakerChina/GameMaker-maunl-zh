@@ -1,30 +1,12 @@
 
-group="def"
-
-target=null
 
 //删除跳过啥啥玩意
 $(".skip-to-content-container").remove()
 
-var cssFileUrl='../patch/main.css';
-$("head").append("<link>");
-    css = $("head").children(":last");
-    css.attr({
-        rel: "stylesheet",
-        type: "text/css",
-        href: cssFileUrl
-});
+//插入css
+$("head").append(cssHtml);
 
-$.getScript("../patch/layer/layer.js")
 
-var cssFileUrl='../patch/layer/theme/default/layer.css';
-$("head").append("<link>");
-    css = $("head").children(":last");
-    css.attr({
-        rel: "stylesheet",
-        type: "text/css",
-        href: cssFileUrl
-});
 
 ///////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////
@@ -311,6 +293,9 @@ window.setInterval(function(){
 
 	const iframe=$("iframe.topic").contents()
 	
+	//页内插入css
+	iframe.find("head:not('.isImport')").append(cssHtml).addClass("isImport")
+
 	//这么做只是为了方便移植修改
 	const css1="div.footer a,h4,caption"
 	const css2="p,h1,h2,h3,td,li,a,div.dropspotnote"

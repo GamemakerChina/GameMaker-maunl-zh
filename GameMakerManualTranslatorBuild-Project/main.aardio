@@ -4,33 +4,69 @@ import web.json
 debug=io.exist("debug")
 //global_json=string()
 
-path="./"
-if debug path=//../
+if debug{
+	path=//../
+}else{
+	path=//./
+}
 
+//读取或初始化setting.json
 var file=path+"setting.json"
 if !io.exist(file){
 var str=`{
-	"group":"zh"
+	"group":"zh",
+	"importPath":"patch/import",//依赖路径,通用加载的js与css
+	"mainJs":"patch/main.js",//翻译器的主要前端逻辑,这个文件最后加载
+	"template":"patch/template.htm",//编译时插入的模板
+	"team":"patch/team.htm",//编译后插入主页的汉化组信息
 }`
 	string.save(file,str)
 }
 setting=web.json.parse(string.load(file))
 
+//设置语言组
 if setting.group{
-	group=setting.group+"/"
+	group=setting.group
 }else{
-	group="def"+"/"
+	group="def"
 }
 
+
+//生成导入依赖的html
+	importHtml=""
+	//依赖js
+	fsys.enum(path+setting.importPath,"*.js",function(dirname,filename,fullpath,findData){
+		if(filename){
+			var p=fsys.path.relative(fullpath,path+setting.importPath)
+			importHtml+=//<script type="text/javascript" src="{path}
+			importHtml+=p
+			importHtml+=//"></script>
+			console.log("import:",p)
+		}
+	},);
+	
+	//依赖css
+	fsys.enum(path+setting.importPath,"*.css",function(dirname,filename,fullpath,findData){
+		if(filename){
+			var p=fsys.path.relative(fullpath,path+setting.importPath)
+			importHtml+=//<link rel="stylesheet" href="{path}
+			importHtml+=p
+			importHtml+=//">
+			console.log("import:",p)
+		}
+	},);
+
+//设置路径
 path_manual		= path+"GMS2-Robohelp-en/"
 path_build		= path+"build/"
-path_language	= path+"language/"+group
+path_language	= path+"language/"+group+"/"
 
+//读取模板与全局内容
 var template=string.load(path+"/patch/template.htm")
-
 var json_global=string.load(fsys.path.canonicalize(path_language+"/global.json"))
 if !json_global json_global="{}"
 
+//将内容注入文档
 fsys.enum(path_manual,"*.htm",function(dirname,filename,fullpath,findData){
 	if(filename){
 		
@@ -44,13 +80,16 @@ fsys.enum(path_manual,"*.htm",function(dirname,filename,fullpath,findData){
 		var json=string.load(fsys.path.canonicalize(path_language+"/www/"+p+".json"))
 		if !json json="{}"
 		
-		//不再适用
-		//var json=string.replace(fsys.path.relative(fullpath,path_manual),".htm",".js")
-		//var json=string.replace(json,"^\\",path_base+"Language/")
-	
+		//替换基础路径
 		var tmp=string.replace(template,"@{path}",path_base)
+		//替换字典
 		var tmp=string.replace(tmp,"@{global}",json_global)
 		var tmp=string.replace(tmp,"@{json}",json)
+		//替换插入依赖js,css
+		var tmp=string.replace(
+			tmp,"@{importHtml}",
+			string.replace(importHtml,"@{path}",path_base+"assets\import")
+		)
 		
 		//加入
 		html=string.replace(html,"@<head>","<head>"+'\r\n'+tmp)
@@ -60,34 +99,16 @@ fsys.enum(path_manual,"*.htm",function(dirname,filename,fullpath,findData){
 		//保存修改过的html
 		var path_out_htm=fsys.path.canonicalize(path_build+p+".htm")
 		string.save(path_out_htm,html)
-		
-/*
-		//注:该方法无法在非服务端使用
-		//保存对应的json
-		var path_form_json=fsys.path.canonicalize(path_language+"/www/"+p+".json")
-		var path_out_json=fsys.path.canonicalize(path_build+"/Language/"+p+".js")
-		fsys.copy(path_form_json,path_out_json)
-*/
-
 	}
 },);
 
 
-//复制jq
+//复制import
 fsys.copy(
-	fsys.path.canonicalize(path+"/patch/js/jquery-3.6.1.min.js")
-	,fsys.path.canonicalize(path+"/build/jquery-3.6.1.min.js")
+	fsys.path.canonicalize(path+"/patch/import")
+	,fsys.path.canonicalize(path+"/build/assets/import")
 )
-console.log("copy:","jquery-3.6.1.min.js")
-
-/*
-//复制global
-fsys.copy(
-	fsys.path.canonicalize(path_language+"/global.json")
-	,fsys.path.canonicalize(path+"/build/Language/global.json")
-)
-console.log("copy:","global.json")
-*/
+console.log("copy:","!!!import!!!")
 
 //打上汉化组信息
 content_html=string.load(path+"/build/Content.htm")
