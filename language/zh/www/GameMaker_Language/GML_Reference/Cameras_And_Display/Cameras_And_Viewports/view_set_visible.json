@@ -1,0 +1,6 @@
+{
+    "The above code will check to see if the view port[0] is visible and if it is not it is set to visible.":"以上代码将检查视图 viewport[0] 是否可见，以及是否设置为可见。",
+    "The view port to target (0 - 7)":"到目标的视口 (0 - 7)",
+    "This function can be used to set the visibility of the given view port. The function takes the view port index (from 0 to 7) and a boolean {}true{} if it is visible and {}false{} if it is not.":"此函数可用于设置给定视口的可见性。该函数采用视口索引(从0到7)，如果可见，则返回布尔值为{}真{}，如果不可见，则返回为{}假{}。",
+    "Visibility toggle ({}true{} is visible and {}false{} is invisible)":"可见性切换 ({}true{}可见，{}false{}不可见)"
+}

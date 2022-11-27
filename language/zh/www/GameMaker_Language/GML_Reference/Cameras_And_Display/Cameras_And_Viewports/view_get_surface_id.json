@@ -1,0 +1,5 @@
+{
+    "The above code will check to see if a surface has been assigned to the view port[0] and if it has not then one is assigned.":"以上代码将检查是否已将曲面指定给 viewport[0]，以及是否尚未指定曲面。",
+    "The view port to target (0 - 7)":"到目标的视口 (0 - 7)",
+    "This function can be used to retrieve the unique ID value for the surface assigned to the given view port (will return -1 if no surface has been assigned).":"此函数可用于检索指定给给定视口的曲面的唯一 ID 值(如果未指定曲面，将返回 -1)。"
+}

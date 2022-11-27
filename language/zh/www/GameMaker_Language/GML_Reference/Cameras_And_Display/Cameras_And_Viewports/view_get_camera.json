@@ -1,0 +1,5 @@
+{
+    "The above code will retrieve the camera ID for the camera assigned to view port[0] and then change its position.":"以上代码将检索分配给 viewport[0] 的相机的相机 ID，然后更改其位置。",
+    "The view port to target (0 - 7)":"到目标的视口 (0 - 7)",
+    "This function can be used to retrieve the unique camera ID value for the camera assigned to the given view port (from 0 - 7). If no camera is assigned, the function will return -1.":"此函数可用于检索分配给给定视口(0-7)的相机的唯一相机 ID 值。如果未指定相机，则该功能将返回 -1。"
+}

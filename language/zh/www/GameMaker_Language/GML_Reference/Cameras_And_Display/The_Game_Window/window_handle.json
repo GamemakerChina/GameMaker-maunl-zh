@@ -1,0 +1,4 @@
+{
+    "The above code will store the game window id in a variable.":"以上代码将游戏窗口 ID 存储在变量中。",
+    "With this function you can get the internal Windows id value (the HWND, a {}pointer{}). This function is really only useful for extension writers who need the {}window handle{} to call Windows API\u0027s in DLL code (the returned pointer should be cast into a string and then in the C++ just cast it to an HWND). The table below shows the platforms supported along with what they return:":"使用此函数，您可以获取内部 Windows ID 值 (HWND，一个{}指针{})。此函数实际上仅对需要{}窗口句柄{}调用 DLL 代码中 Windows API 的扩展写入程序有用(返回的指针应转换为字符串，然后在 C++ 中转换为HWND)。下表显示了支持的平台及其返回内容："
+}

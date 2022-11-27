@@ -1,0 +1,5 @@
+{
+    "The above code will check the height of the view port[0] and if it is not half of the display height it is set to that value.":"上述代码将检查 viewport[0] 的高度，如果它不是显示高度的一半，则设置为该值。",
+    "The new height (in pixels)":"新的高度(以像素为单位)",
+    "The view port to target (0 - 7)":"到目标的视口 (0 - 7)"
+}

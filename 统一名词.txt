@@ -1,4 +1,5 @@
 camera/cameras = 相机 （可能被机翻为：照相机、摄像机、摄影机、摄像头）
 room editor = 房间编辑器（可能被机翻为：文件室编辑器）
 room = 房间（可能被机翻为：文件室）
-surface = 
+surface = （未确定）（可能被机翻为：曲面）
+function/functions = 函数（仅GML Code，可能被机翻为：功能）
