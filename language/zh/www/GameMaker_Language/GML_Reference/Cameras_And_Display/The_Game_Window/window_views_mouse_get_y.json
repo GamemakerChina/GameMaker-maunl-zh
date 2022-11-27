@@ -1,5 +1,5 @@
 {
     "This function returns the y-coordinate of the mouse with respect to all the active views and returns the same value {}{}mouse_y{}{}.":"此函数返回鼠标相对于所有活动视图的 Y-坐标，并返回相同的值 {}{}mouse_y{}{}。",
     "This would set myy to the y coordinate of the mouse in the window relative to all active views.":"这将在窗口中相对于所有活动视图将 myy 设置为鼠标的 Y 坐标。",
-    "{}NOTE{}: For regular mouse functions see the section on {}Mouse Input{}.":"{}注意{}：有关常规鼠标功能，请参阅{}鼠标输入{}一节"
+    "{}NOTE{}: For regular mouse functions see the section on {}Mouse Input{}.":"{}注意{}：有关常规鼠标函数，请参阅{}鼠标输入{}一节"
 }

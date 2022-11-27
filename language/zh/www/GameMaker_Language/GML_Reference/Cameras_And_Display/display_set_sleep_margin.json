@@ -1,0 +1,7 @@
+{
+    "Note that even if the timing method is set to use vsync timing, the sleep margin will have some effect over the rendering of the game, and so you should take care when setting this value. For more information on display timing, please see {}{}display_set_timing_method(){}{}.":"请注意，即使将计时方法设置为使用 vsync 计时，sleep margin 也会对游戏的渲染产生一些影响，因此在设置此值时应该小心。有关显示计时的详细信息，请参阅 {}{}display_set_timing_method(){}{}。",
+    "The above code will check the timing method and then if it\u0027s not set to {}tm_sleep{} it will be set to that and the sleep margin set to 20.":"上述代码将检查定时方法，如果未将其设置为 {}tm_sleep{}，则会将其设置为该值，并将 sleep margin 设置为20。",
+    "The number of milliseconds for the sleep margin":"sleep margin 的毫秒数",
+    "This function can be used to set the sleep margin value used for the render timing of your game, and requires a millisecond value. The default values are as follows:":"此函数可用于设置用于游戏渲染计时的 sleep margin 值，并且需要一个毫秒值。默认值如下：",
+    "{}NOTE{}: In addition to the Sleep Margin, you can further control your performance and power consumption on Windows by adjusting the {}thread scheduler\u0027s resolution{} at runtime.":"{}注意{}：除 sleep margin 外，您还可以通过在运行时调整{}线程调度程序的分辨率{}来进一步控制 Windows 上的性能和功耗。"
+}

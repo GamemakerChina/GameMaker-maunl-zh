@@ -1,0 +1,5 @@
+{
+    "The ID of gif to save":"要保存的 GIF ID",
+    "The above code will create a GIF image file with 30 frames taken from the application surface and then save it to a buffer.":"以上代码将从应用程序表面创建一个带有 30 帧的 GIF 图像文件，然后将其保存到缓冲区中。",
+    "With this function you can save out a GIF animation. You supply the GIF index (as returned by the function {}{}gif_open(){}{}) and the function will return a 1 byte-aligned grow buffer with the GIF data. Note that the final GIF data will have been palletized using the Universal 884 Palette (see {}here{} for more information).":"使用此函数可以保存 GIF 动画。您提供 GIF 索引(由函数 {}{}gif_open(){}{} 返回)，该函数将返回带有 GIF 数据的 1 字节对齐的增长缓冲区。请注意，最终的 GIF 数据将使用 Universal 884 调色板进行调色板化(有关详细信息，请参阅{}此处{})。"
+}

@@ -3,5 +3,5 @@
     "The height of the camera view in pixels":"相机视图的高度(以像素为单位)",
     "The unique camera ID value returned when you created the camera.":"创建相机时返回的唯一相机 ID 值。",
     "The width of the camera view in pixels":"相机视图的宽度(以像素为单位)",
-    "You can use this function to update the size of the view camera within the room. You give the unique camera ID value (as returned by the different {}{}camera_create(){}{} functions) and then give the width and height\n    (in pixels) to set the camera to.":"您可以使用此功能更新房间内相机的大小。给出唯一的相机 ID 值(由不同的 {}{}camera_create(){}{} 函数返回)，然后(以像素为单位)给出宽度和高度。"
+    "You can use this function to update the size of the view camera within the room. You give the unique camera ID value (as returned by the different {}{}camera_create(){}{} functions) and then give the width and height\n    (in pixels) to set the camera to.":"您可以使用此函数更新房间内相机的大小。给出唯一的相机 ID 值(由不同的 {}{}camera_create(){}{} 函数返回)，然后(以像素为单位)给出宽度和高度。"
 }

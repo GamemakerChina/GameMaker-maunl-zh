@@ -1,0 +1,4 @@
+{
+    "This function will return the height of the display (in pixels). Note that on the HTML5 target, this value is the height of the {}browser window{}, rather than the physical display size.":"此函数将返回显示器的高度(以像素为单位)。请注意，在 HTML5 目标上，此值是{}浏览器窗口{}的高度，而不是物理显示大小。",
+    "This would set the variable \"myheight\" to the display\u0027s height.":"这将把变量 \"myheight\" 设置为显示器的高度。"
+}

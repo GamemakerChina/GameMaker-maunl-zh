@@ -3,5 +3,5 @@
     "The unique camera ID value returned when you created the camera.":"创建相机时返回的唯一相机 ID 值。",
     "The x position to place the view at (in the room)":"(在房间内)放置视图的 x 位置",
     "The y position to place the view at (in the room)":"(在房间内)放置视图的 y 位置",
-    "You can use this function to update the position of the camera view within the room. You give the unique camera ID value (as returned by the different {}{}camera_create(){}{}&nbsp;functions) and then give the x and y positions\n    to set the camera to.":"您可以使用此功能更新房间内相机视图的位置。给出唯一的相机 ID 值(由不同的 {}{}camera_create(){}{} 函数返回)，然后给出 x 和 y 位置设置相机。"
+    "You can use this function to update the position of the camera view within the room. You give the unique camera ID value (as returned by the different {}{}camera_create(){}{}&nbsp;functions) and then give the x and y positions\n    to set the camera to.":"您可以使用此函数更新房间内相机视图的位置。给出唯一的相机 ID 值(由不同的 {}{}camera_create(){}{} 函数返回)，然后给出 x 和 y 位置设置相机。"
 }

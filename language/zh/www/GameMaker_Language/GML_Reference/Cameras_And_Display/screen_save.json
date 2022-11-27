@@ -1,0 +1,9 @@
+{
+    "It is important to note that the function is designed to be called in the {}Draw GUI End Event{}, which should give consistent results across all platforms. Using it in any other event may not work as expected, and may give different results across different targets and even devices.":"请务必注意，该函数设计为在{}绘制 GUI 结束事件{}中调用，该事件应在所有平台上提供一致的结果。在任何其他事件中使用它可能无法按预期工作，并且可能会在不同的目标甚至设备上产生不同的结果。",
+    "Should you need more control over what is being saved, you should use the function {}{}screen_save_part(){}{}.":"如果需要对要保存的内容进行更多控制，应使用函数 {}{}screen_save_part(){}{}。",
+    "The above code takes a screenshot of the game when the user presses the \"S\" key. This screen shot is saved to a specific directory and numbered using a variable which is then incremented.":"以上代码为用户按下 \"S\" 键时为游戏截图。此屏幕快照保存到特定目录，并使用变量进行编号，然后递增。",
+    "The file will be saved to the working directory of the game, which in windows is located at {}&lt;drive&gt;:/Users/YOURUSERNAME/AppData/Local/[Game Name]/{} and on Mac it would be {}~/Library/Application Support/[Game Name]/{}. The image captured will be the final render of the application surface of the game, or (if the app surface has been disabled) it will be an image of the whole display or window.":"该文件将保存到游戏的工作目录中，Windows 中的目录位于 {}&lt;drive&gt;:/Users/[你的用户名]/AppData/Local/[游戏名称]/{}，Mac 中的目录为 {}~/Library/Application Support/[游戏名称]/{}。捕获的图像将是游戏应用程序表面的最终渲染，或者(如果应用程序表面已被禁用)它将是整个显示屏或窗口的图像。",
+    "The filename for the screenshot to save":"要保存的屏幕截图的文件名",
+    "With this function you can save a screenshot of the game as it currently appears in the game window.":"使用此函数，您可以按照游戏窗口中当前显示的方式保存游戏的屏幕截图。",
+    "{}{}NOTE{} {}This function does not work on the HTML5 target.":"{}{}注意{}{} 此函数在 HTML5 目标平台上不起作用。"
+}

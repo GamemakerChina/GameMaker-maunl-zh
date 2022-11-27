@@ -1,0 +1,10 @@
+{
+    "As above, only now the menu button is at the top.":"如上所述，只有现在菜单按钮位于顶部。",
+    "As above, only now the menu button is on the left.":"如上所述，只有现在菜单按钮位于左侧。",
+    "Note that this function may not correctly detect the orientation of the device when used in the HTML5 target module. However this is easily mimicked by the use of the following script:":"请注意，在 HTML5 目标模块中使用时，此函数可能无法正确检测设备的方向。但是，使用以下脚本很容易模拟这种情况：",
+    "Such a function would return {}true{} for portrait and {}false{} for landscape.":"这样的函数对于纵向将返回 {}true{}，对于横向将返回 {}false{}。",
+    "The above code checks the orientation of the device and sets a global variable depending on the value returned.":"上述代码检查设备的方向，并根据返回的值设置全局变量。",
+    "The device is being held horizontally ie: The longest edge is from left to right, and the menu button is on the right.":"设备水平固定，即：最长的边是从左到右，菜单按钮在右侧。",
+    "The device is being held vertically ie: The longest edge is from top to bottom, and the menu button is at the bottom.":"设备垂直固定，即：最长的边是从上到下，菜单按钮在底部。",
+    "This function will return one of four constants {}GameMaker{} has to tell you whether the device running the game is being held in landscape or portrait mode (see the table below).":"此函数将返回四个常量之一 {}GameMaker{} 必须告诉您运行游戏的设备是处于横向模式还是纵向模式(请参阅下表)。"
+}

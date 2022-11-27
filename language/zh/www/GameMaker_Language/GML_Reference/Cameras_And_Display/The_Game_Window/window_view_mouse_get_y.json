@@ -2,5 +2,5 @@
     "The above code will check for a mouse button being pressed, and if it is it then gets the mouse position relative to the view[0] and compares it to see if a variable should be set to true.":"上述代码将检查是否按下鼠标按钮，如果按下鼠标按钮，则获取鼠标相对于 view[0] 的位置，并进行比较，以确定是否应将变量设置为 true。",
     "The id of the view to compare the mouse position to.":"用于比较鼠标位置的视图的 ID。",
     "This function will return the mouse y position relative to the view selected.":"此函数将返回相对于所选视图的鼠标 Y 位置。",
-    "{}NOTE{}: For regular mouse functions see the section on {}Mouse Input{}":"{}注意{}：有关常规鼠标功能，请参阅{}鼠标输入{}一节"
+    "{}NOTE{}: For regular mouse functions see the section on {}Mouse Input{}":"{}注意{}：有关常规鼠标函数，请参阅{}鼠标输入{}一节"
 }

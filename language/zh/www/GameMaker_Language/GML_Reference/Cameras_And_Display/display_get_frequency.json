@@ -1,0 +1,5 @@
+{
+    "The above code gets the frequency of the display, and runs some conditions to set the game running at 240, 120, 60 or 30 fps. This means that if your display is 90hz the game will run at 60 fps, if it\u0027s 144hz then it will run at 120 fps, etc. Of course, you can pass the frequency of the display directly into {}{}game_set_speed(){}{} so it\u0027s used as the game\u0027s frame rate.":"以上代码获取刷新率，并运行一些条件将游戏设置为每秒 240、120、60 或 30 帧。这意味着，如果您的显示屏为 90 Hz，则游戏将以 60 fps 的速度运行，如果是 144 Hz，则游戏将以 120 fps 的速度运行，等等。当然，您可以将显示频率直接传递到 {}{}game_set_speed(){}{}，以便将其用作游戏的帧速率。",
+    "This function returns the frequency (or refresh rate) of the display that the game is being played on. It will return a real value as frames-per-second, so for example if your monitor is 60hz you will get {}60{}, if it\u0027s running at&nbsp;144hz then you will get {}144{}, and so on.":"此函数返回游戏正在进行的显示的频率(或刷新率)。它将以每秒帧数的形式返回实数值，因此，例如，如果您的显示器为 60 Hz，则会得到 {}60{};如果显示器以 144 Hz 的速度运行，则会得到 {}144{}，依此类推。",
+    "{}NOTE{} This function is not supported on HTML5.":"{}注意{} HTML5 不支持此函数。"
+}

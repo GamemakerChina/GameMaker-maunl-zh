@@ -1,5 +1,5 @@
 {
     "The above code will check the windows caption to see if it has text or not, and if it does it sets it to an empty string so as no caption is displayed.":"上述代码将检查窗口标题以查看其是否包含文本，以及是否包含文本，并将其设置为空字符串以便不显示标题。",
     "The new caption.":"新的标题。",
-    "With this function you can change or set the windows caption for the room that you are currently in. This caption appears at the top of the window, beside the game icon, when the game is not in full screen mode.":"使用此功能，您可以更改或设置当前所在房间的窗口标题。当游戏未处于全屏模式时，此标题将出现在窗口顶部的游戏图标旁边。"
+    "With this function you can change or set the windows caption for the room that you are currently in. This caption appears at the top of the window, beside the game icon, when the game is not in full screen mode.":"使用此函数，您可以更改或设置当前所在房间的窗口标题。当游戏未处于全屏模式时，此标题将出现在窗口顶部的游戏图标旁边。"
 }

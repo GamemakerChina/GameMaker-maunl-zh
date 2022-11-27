@@ -1,0 +1,11 @@
+{
+    "The above code takes a screenshot of a part of the game screen that is 100 pixels square when the user presses the \"S\" key. This screen shot is saved to a specific folder and numbered using a variable which is then incremented.":"上述代码在用户按下 \"S\" 键时，会截取游戏画面中 100 像素正方形的一部分。此屏幕快照将保存到特定文件夹，并使用变量进行编号，然后递增变量。",
+    "The filename for the screenshot to save":"要保存的屏幕截图的文件名",
+    "The height of the area of the screen to capture":"要捕获的屏幕区域的高度",
+    "The width of the area of the screen to capture":"要捕获的屏幕区域的宽度",
+    "The x coordinate of the top left corner of the area of the screen to capture":"要捕获的屏幕区域的 X 坐标(从左上角开始)",
+    "The y coordinate of the top left corner of the area of the screen to capture":"要捕获的屏幕区域的 Y 坐标(从左上角开始)",
+    "With this function you can save a screenshot of a part of the game as it currently appears in the game display. The selection coordinates are based on the {}absolute{} size of the display (or window if not fullscreen), so (0,0) is always the top left hand corner of the screen (or window). Below is an image that shows how this function works:":"使用此函数，您可以按照游戏显示屏上当前显示的方式保存游戏某个部分的屏幕截图。选择坐标基于显示器的{}绝对{}大小(如果不是全屏，则为窗口)，因此 (0,0) 始终是屏幕(或窗口)的左上角。下图显示了此函数的工作原理：",
+    "{}The file will be saved to the {}working directory{}&nbsp;of the game. It is important to note that the function is designed to be called in the {}Draw GUI End Event{}, which should give consistent results across all platforms. Using it in any other event may not work as expected, and may give different results across different targets and even devices.":"{}文件将保存到游戏的{}工作目录{}。请务必注意，该函数设计为在{}绘制 GUI 结束事件{}中调用，该事件应在所有平台上提供一致的结果。在任何其他事件中使用它可能无法按预期工作，并且可能会在不同的目标甚至设备上产生不同的结果。",
+    "{}{}NOTE{} {}This function does not work on the HTML5 target.":"{}{}注意{}{} 此函数在HTML5目标上不起作用。"
+}

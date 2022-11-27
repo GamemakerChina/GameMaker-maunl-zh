@@ -1,5 +1,5 @@
 {
     "The above code will center the game window within the display if it is not in full screen mode.":"如果不是全屏模式，上述代码将使游戏窗口在显示屏内居中。",
-    "With this function you can center the game window in the display when the target module is Windows, Ubuntu (Linux) or macOS, or you can center it in the browser if the target module is HTML5. This function has no effect on any other device.":"当目标模块为 Windows、Ubuntu(Linux) 或 MacOS 时，您可以使用此功能将游戏窗口居中显示，如果目标模块为 HTML5，则可以将其居中显示在浏览器中。此功能不影响任何其他设备。",
+    "With this function you can center the game window in the display when the target module is Windows, Ubuntu (Linux) or macOS, or you can center it in the browser if the target module is HTML5. This function has no effect on any other device.":"当目标模块为 Windows、Ubuntu(Linux) 或 MacOS 时，您可以使用此函数将游戏窗口居中显示，如果目标模块为 HTML5，则可以将其居中显示在浏览器中。此函数不影响任何其他设备。",
     "{}{}NOTE{}{}&nbsp;If you have resized the game window in the current step (for example, by switching from full screen to windowed or using {}{}window_set_size(){}{}), and wish to center the new window, this function should be called at least one step later (for example, by using an {}alarm{})&nbsp;otherwise it will not work correctly.":"{}{}注意{}{} 如果您在当前步骤中调整了游戏窗口的大小(例如，通过从全屏切换到窗口或使用 {}{}window_set_size(){}{} )，并希望使新窗口居中，则至少应在一步之后调用此函数(例如，使用 {}alarm{})，否则它将无法正常工作。"
 }

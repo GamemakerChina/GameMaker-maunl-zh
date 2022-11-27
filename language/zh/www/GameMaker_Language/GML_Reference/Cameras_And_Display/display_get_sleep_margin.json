@@ -1,0 +1,4 @@
+{
+    "The above code will check the timing method and then if it\u0027s not set to {}tm_sleep{} it will be set to that and the sleep margin set to 20.":"上述代码将检查定时方法，如果未将其设置为 {}tm_sleep{}，则会将其设置为该值，并将 sleep margin 设置为 20。",
+    "This function can be used to get the current sleep margin value used for the render timing of your game, and will return a millisecond value. For more information on display timing, please see {}{}display_set_timing_method(){}{}.":"此函数可用于获取用于游戏渲染计时的当前 sleep margin 值，并将返回毫秒值。有关显示计时的详细信息，请参阅 {}{}display_set_timing_method(){}{}。"
+}

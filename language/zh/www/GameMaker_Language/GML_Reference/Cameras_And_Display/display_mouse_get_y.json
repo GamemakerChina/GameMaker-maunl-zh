@@ -1,0 +1,6 @@
+{
+    "For other devices it will return 0, and you should use the {}{}device_mouse_raw_x(){}{} and {}{}device_mouse_raw_y(){}{} functions instead.":"对于其他设备，它将返回 0，您应改用 {}{}device_mouse_raw_x(){}{} 和 {}{}device_mouse_raw_y(){}{} 函数。",
+    "It can be used for HTML5 too, but will only return a value {}relative{} to the 0,0 of the canvas itself, and will not return any value while the mouse is outside of the canvas.":"它也可以用于 HTML5，但只会向画布本身的 0,0 返回值 {}relative{}，并且在鼠标位于画布外部时不会返回任何值。",
+    "This function will return the mouse y position within the {}screen{}. It should be noted that this function only works properly when used on the Windows and macOS targets.":"此函数将返回{}屏幕{}中的鼠标 Y 位置。应注意，此函数仅在 Windows 和 macOS 目标平台上使用时才能正常工作。",
+    "This would set my_y to the y coordinate of the mouse relative to the display.":"这会将 my_y 设置为鼠标相对于显示器的 Y 坐标。"
+}

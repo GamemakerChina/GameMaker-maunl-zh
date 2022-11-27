@@ -1,0 +1,7 @@
+{
+    "The above code would center the mouse in the game display.":"上述代码将使鼠标在游戏显示器中居中。",
+    "The x coordinate in the display.":"显示器的 X 坐标。",
+    "The y coordinate in the display.":"显示器的 Y 坐标。",
+    "With this function you can change or set the position of the mouse within the game display which can be useful for FPS games, for example. The function will only work while the game is in focus and using {}ALT + Tab{} will unlock the mouse.":"使用此函数，您可以更改或设置鼠标在游戏显示内的位置，例如，这对于 FPS 游戏非常有用。只有在游戏处于焦点状态且使用 {}Alt+ Tab{} 将解锁鼠标时，该函数才能正常工作。",
+    "{}NOTE{} This function is only usable on Desktop platforms (i.e. Windows, Mac and Ubuntu).":"{}注意{} 此函数仅在桌面平台(即 Windows、Mac 和 Ubuntu)上可用。"
+}

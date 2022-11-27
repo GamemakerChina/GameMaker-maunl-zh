@@ -2,6 +2,6 @@
     "The above code will position the game window in the upper left corner of the browser or display (depending on the target module being used).":"上面的代码将把游戏窗口定位在浏览器的左上角或显示(取决于使用的目标模块)。",
     "The x coordinate of where to position the window.":"窗口定位位置的 X 坐标。",
     "The y coordinate of where to position the window.":"窗口定位位置的 Y 坐标。",
-    "With this function you can set the game window to a specific position within the display (on macOS, Linux(Ubuntu) and Windows) or within the browser (HTML5).":"使用此功能，您可以将游戏窗口设置为显示器 (MacOS、Linux(Ubuntu) 和 Windows) 或浏览器 (HTML5) 中的特定位置。",
-    "{}NOTE{}: If your HTML5 game uses a custom {}index.html{} and that sets the canvas to a fixed position then this function will have no effect on the window position.":"{}注意{}：如果HTML5游戏使用自定义的 {}index.html{}，并将画布设置为固定位置，则此功能将不会影响窗口位置。"
+    "With this function you can set the game window to a specific position within the display (on macOS, Linux(Ubuntu) and Windows) or within the browser (HTML5).":"使用此函数，您可以将游戏窗口设置为显示器 (MacOS、Linux(Ubuntu) 和 Windows) 或浏览器 (HTML5) 中的特定位置。",
+    "{}NOTE{}: If your HTML5 game uses a custom {}index.html{} and that sets the canvas to a fixed position then this function will have no effect on the window position.":"{}注意{}：如果HTML5游戏使用自定义的 {}index.html{}，并将画布设置为固定位置，则此函数将不会影响窗口位置。"
 }

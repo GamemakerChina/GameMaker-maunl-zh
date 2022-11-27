@@ -2,5 +2,5 @@
     "The above code will check the y position of the view port[0] and if it is not where it is required to be it is set to that position.":"上述代码将检查 viewport[0] 的 Y 位置，如果它不是要求的位置，则设置为该位置。",
     "The new y position":"新的 Y 位置",
     "The view port to target (0 - 7)":"到目标的视口 (0 - 7)",
-    "This function can be used to set the y position of the given view port. You give the view port index (from 0 to 7) and the new position to place it at.":"此功能可用于设置给定视口的 Y 位置。提供视口索引(从0到7)以及放置它的新位置。"
+    "This function can be used to set the y position of the given view port. You give the view port index (from 0 to 7) and the new position to place it at.":"此函数可用于设置给定视口的 Y 位置。提供视口索引(从0到7)以及放置它的新位置。"
 }
