@@ -1,0 +1,4 @@
+{
+    "The above code will check to see if the window is in full screen mode or not and draw a text message depending on the returned value.":"以上代码将检查窗口是否处于全屏模式，并根据返回的值绘制文本消息。",
+    "This function returns whether the game window is in fullscreen mode ({}true{}) or not ({}false{}).":"此函数返回游戏窗口是处于全屏模式({}true{})还是不处于全屏模式({}false{})。"
+}

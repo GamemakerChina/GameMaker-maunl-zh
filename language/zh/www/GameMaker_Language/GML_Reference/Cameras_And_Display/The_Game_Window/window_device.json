@@ -1,0 +1,5 @@
+{
+    "The above code will store the d3d device pointer in a variable.":"上述代码将把 d3d 设备指针存储在一个变量中。",
+    "This function will return the current d3d device {}pointer{}, which you can then (for example) pass through to a DLL or Dylib on Windows and macOS.":"此函数将返回当前 d3d 设备{}指针{}，然后您可以(例如)通过该指针到达 Windows 和 MacOS 上的 DLL 或 Dylib。",
+    "{}NOTE{}&nbsp;This function has been deprecated in {}GameMaker{} in favour of {}{}{}os_get_info(){}{}{}.":"{}注意{} 在 {}GameMaker{} 中不建议使用此函数，建议使用 {}{}{}os_get_info(){}{}{}。"
+}

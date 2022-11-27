@@ -1,0 +1,4 @@
+{
+    "With this function you can get the current height (in pixels) of the game window.":"使用此函数，您可以获取游戏窗口的当前高度(以像素为单位)。",
+    "{}{}NOTE{}{}&nbsp;On GX.games, this returns the height of the browser area.":"{}{}注意{}{} 在 GX.games 上，这将返回浏览器区域的高度。"
+}

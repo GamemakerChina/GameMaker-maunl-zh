@@ -1,0 +1,4 @@
+{
+    "The above code stores the current y axis window position in the variable \"wy\".":"上述代码将当前 Y 轴窗口位置存储在变量 \"wy\" 中。",
+    "With this function you can get the y position (in pixels) within the browser if it is an HTML5 game or within the display if it is a Windows, Ubuntu (Linux) or macOS game.":"使用此函数，如果是 HTML5 游戏，您可以在浏览器中获取 Y 位置(以像素为单位)，如果是 Windows、Ubuntu 或 MacOS 游戏，您可以在显示器中获取 Y 位置(以像素为单位)。"
+}

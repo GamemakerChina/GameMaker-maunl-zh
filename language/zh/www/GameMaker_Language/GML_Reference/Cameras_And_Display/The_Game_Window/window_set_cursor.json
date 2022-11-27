@@ -1,0 +1,5 @@
+{
+    "The above code will change the window cursor to the standard windows drag cursor if the left mouse button has been pressed.":"如果按下鼠标左键，则上述代码将窗口光标更改为标准窗口拖动光标。",
+    "The cursor to set for the game window.":"要为游戏窗口设置的光标。",
+    "With this function you can set the cursor for the game window to any one of the constants listed below (to find the current cursor being used you can use the function {}{}window_get_cursor(){}{} which will also return one of these constants):":"使用此函数，您可以将游戏窗口的光标设置为下面列出的任何一个常量(要查找正在使用的当前光标，您可以使用函数 {}{}window_get_cursor(){}{}，该函数还将返回其中一个常量)："
+}

@@ -1,0 +1,8 @@
+{
+    "The above code would center the mouse in the game window.":"上述代码将使鼠标在游戏窗口中居中。",
+    "The x coordinate in the window.":"窗口中的 X 坐标。",
+    "The y coordinate in the window.":"窗口中的 Y 坐标。",
+    "With this function you can change or set the position of the mouse within the game window which can be useful for FPS games, for example. The function will only work while the game is in focus and using alt + tab will unlock the mouse.":"使用此功能，您可以更改或设置鼠标在游戏窗口中的位置，例如，这对于 FPS 游戏非常有用。该功能仅在游戏对焦时起作用，使用 Alt + Tab将解锁鼠标。",
+    "{}NOTE{} This function is only usable on Desktop platforms (i.e. Windows, Mac and Ubuntu).":"{}注意{} 此功能仅在桌面平台(即 Windows、Mac 和 Ubuntu)上可用。",
+    "{}{}NOTE{}{}&nbsp;For regular mouse functions see the section on {}Mouse Input{}.":"{}{}注意{}{} 有关常规鼠标功能，请参阅{}鼠标输入{}一节。"
+}

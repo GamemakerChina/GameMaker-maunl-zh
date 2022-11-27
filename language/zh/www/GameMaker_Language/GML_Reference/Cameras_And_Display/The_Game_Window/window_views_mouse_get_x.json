@@ -1,0 +1,5 @@
+{
+    "This function returns the x-coordinate of the mouse with respect to all the active views and returns the same value {}{}mouse_x{}{}.":"此函数返回鼠标相对于所有活动视图的 X-坐标，并返回相同的值 {}{}mouse_x{}{}。",
+    "This would set myx to the x coordinate of the mouse in the window relative to all active views.":"这将在窗口中相对于所有活动视图将 myx 设置为鼠标的 X 坐标。",
+    "{}NOTE{}: For regular mouse functions see the section on&nbsp;{}Mouse Input{}.":"{}注意{}：有关常规鼠标功能，请参阅{}鼠标输入{}一节"
+}

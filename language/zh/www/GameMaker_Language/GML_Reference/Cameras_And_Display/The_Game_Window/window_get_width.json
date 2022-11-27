@@ -1,0 +1,5 @@
+{
+    "The above code will store the current window width in the variable \"ww\".":"上述代码将当前窗口宽度存储在变量 \"ww\" 中。",
+    "With this function you can get the current width (in pixels) of the game window.":"使用此函数，您可以获取游戏窗口的当前宽度(以像素为单位)。",
+    "{}{}NOTE{}{}&nbsp;On GX.games, this returns the width of the browser area.":"{}{}注意{}{} 在 GX.games 上，这将返回浏览器区域的宽度。"
+}

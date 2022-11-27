@@ -1,0 +1,6 @@
+{
+    "The above code will check the window colour to see if it is set as black or not, and if it is not it sets it to black.":"上面的代码将检查窗口颜色，看它是否设置为黑色，如果不是，则将其设置为黑色。",
+    "The colour to set the region.":"用于设置区域的颜色。",
+    "This function can set the background colour of the game window. This colour represents that which will be used for those areas of the game window that are not occupied by any views. The following image illustrates this:":"该功能可以设置游戏窗口的背景色。此颜色表示将用于游戏窗口中未被任何视图占用的区域的颜色。下图说明了这一点：",
+    "{}The above image has two views with two view ports, each one drawn at different positions. This stretches the game window to accommodate both ports and uses the window colour to colour the background where no view is shown.":"{}上面的图像有两个视图，每个视图有两个视口，每个视口绘制在不同的位置。这将拉伸游戏窗口以适应两个端口，并使用窗口颜色为未显示视图的背景上色。"
+}
