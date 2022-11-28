@@ -29,3 +29,12 @@ textarea.lr{
 span.num{
 	color:red;
 }
+
+i,a.tooltip{
+    font-style: normal !important;
+}
+
+span.inline
+    font-family: sans-serif;
+}
+p{text-align:left}
