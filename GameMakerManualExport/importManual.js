@@ -8,6 +8,7 @@ let locale_name = require("../setting.json")
 let translation_directory = "../language/" + locale_name.group + "/www/"
 let manual_directory = "../GMS2-Robohelp-en/"
 let export_directory = "../build/"
+let patch_directory = "../patch/static_patch/"
 let json_global = require("../language/" + locale_name.group + "/global.json");
 
 function removeHtml(str) {
@@ -60,6 +61,28 @@ glob(manual_directory + '**/*.htm', {}, (err, files) => {
             $("h4, th, .warning, .important, .optional").each(function(){
                 importTranslate($(this), json_global)
             })
+            glob(patch_directory + "*.js", {}, (err, jsfile)=>{
+                if (err) {
+                    console.log(err)
+                } else {
+                    for (let index = 0; index < files.length; index++) {
+                        let jsFilename = jsfile[index].substring(9)
+                        let appendJS = '<script type="text/javascript" src="assets/static_patch/' + jsFilename + '}"/>'
+                        $('head').append(appendJS)
+                    }
+                }
+            })
+            glob(patch_directory + "*.css", {}, (err, cssfile)=>{
+                if (err) {
+                    console.log(err)
+                } else {
+                    for (let index = 0; index < files.length; index++) {
+                        let cssFilename = cssfile[index].substring(9)
+                        let appendCSS = '<link rel="stylesheet" type="text/css" href="assets/static_patch/' + cssFilename + '}"/>'
+                        $('head').append(appendCSS)
+                    }
+                }
+            })
             fs.writeFile(export_directory + filename + ".htm", $.html(), (err) => {
                 if (err) {
                     console.log(err);
@@ -69,20 +92,7 @@ glob(manual_directory + '**/*.htm', {}, (err, files) => {
     }
 })
 
-// 插入外部全局 CSS
-glob(export_directory + "index*.htm", {}, (err, files)=>{
-    if (err) {
-        console.log(err)
-    } else {
-        for (let index = 0; index < files.length; index++) {
-            let $ = cheerio.load(fs.readFileSync(files[index]).toString())
-            let appendCSS = `<link rel="stylesheet" type="text/css" href="global_style_patch.css"/>`
-            $('head').append(appendCSS)
-            fs.writeFileSync(export_directory + files[index], $.html())
-        }
-    }
-});
-fs.copyFileSync("../patch/global_style_patch.css", "../build/global_style_patch.css")
+fs.cpSync(patch_directory, export_directory + "assets/static_patch/", {recursive: true})
 
 // 插入译者信息
 let content = fs.readFileSync(export_directory + "Content.htm").toString()
