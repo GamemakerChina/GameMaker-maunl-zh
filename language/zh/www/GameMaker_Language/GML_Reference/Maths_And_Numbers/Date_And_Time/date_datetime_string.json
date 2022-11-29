@@ -1,0 +1,5 @@
+{
+    "The date to use.":"要使用日期。",
+    "This would set \"str\" to something like \"September 15th 2011, 11:33.00\" depending on the system settings for date/time displaying and the current date and time.":"这会将“str”设置为类似于“2011 年 9 月 15 日，11:33.00”（\"September 15th 2011, 11:33.00\"），具体取决于日期/时间显示的系统设置以及当前日期和时间。",
+    "With this function you can create a string containing the given datetime, formatted for the system or device that is running the game when the function is called.":"通过这个函数，你可以创建一个包含给定日期时间的字符串，该字符串是针对调用该函数时运行游戏的系统或设备进行格式化的。"
+}

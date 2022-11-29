@@ -1,0 +1,5 @@
+{
+    "The datetime to check.":"要检查的日期时间。",
+    "This function returns the month of the given datetime value.":"此函数返回给定 datetime 值的月份。",
+    "This would set mymonth to the current month.":"这将把mymonth设置为当前月份。"
+}

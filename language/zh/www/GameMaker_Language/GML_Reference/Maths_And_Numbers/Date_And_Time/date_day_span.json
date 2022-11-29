@@ -1,0 +1,6 @@
+{
+    "The datetime to compare it to.":"要比较的日期时间。",
+    "The first datetime.":"第一个日期时间。",
+    "This would set diff to the number of days between 15th September 2011, 11:04.0 and the current date and time.":"这将把diff设置为2011年9月15日，11:04.0和当前日期和时间之间的天数。",
+    "With this function you can get the number of days between two dates. This value is always positive, and incomplete days will be returned as a fraction.":"使用这个函数，您可以得到两个日期之间的天数。这个值总是正的，不完整的天数将作为一个分数返回。"
+}

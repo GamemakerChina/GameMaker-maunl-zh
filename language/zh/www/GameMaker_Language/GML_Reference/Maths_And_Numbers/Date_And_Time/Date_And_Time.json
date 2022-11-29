@@ -1,0 +1,8 @@
+{
+    "Date And Time":"日期和时间",
+    "If you\u0027re looking for timing-related functions, see&nbsp;{}Time Sources{}.":"如果要查找与计时相关的函数，请参见{}时间源{}。",
+    "The following built in variables can be used to get specific date and time components:":"下列内置变量可用于获取特定的日期和时间组件:",
+    "The following functions can be used to get specific date and time components, as well as for creating new ones or for getting the span of days/hours between two given dates etc...":"下面的函数可以用来获取特定的日期和时间组件，也可以用来创建新的日期和时间组件，或者用来获取两个给定日期之间的时间跨度等。.",
+    "We also have two special time functions that give you a higher level of precision and control when running your game:":"我们还有两个特殊的时间函数，可以让你在运行游戏时提高精度和控制水平:",
+    "{}GameMaker{} has a great many functions and variables related to getting the date and time and calculating other values based off of them. By default these functions return the {}local{} time as set by the system, but you can use the following function to switch between local and UTC time:":"{} GameMaker {}有很多函数和变量，这些函数和变量与获取日期和时间以及基于它们计算其他值有关。默认情况下，这些函数返回系统设置的{}本地{}时间，但是您可以使用以下函数在本地时间和 UTC 时间之间切换:"
+}

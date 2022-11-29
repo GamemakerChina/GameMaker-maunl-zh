@@ -1,0 +1,5 @@
+{
+    "The datetime to check.":"要检查的日期时间。",
+    "This function returns the second of the given datetime value.":"这个函数返回给定datetime值的秒值。",
+    "This would set mysecond to the current second.":"这将把mysecond设置为当前秒。"
+}

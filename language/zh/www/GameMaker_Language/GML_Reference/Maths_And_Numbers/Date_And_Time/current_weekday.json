@@ -1,0 +1,4 @@
+{
+    "The above code uses the {}current_weekday{} value to set a variable with the correct day in text, then draws that for the user to see.":"上面的代码使用{}current_weekday{}值在文本中设置一个具有正确日期的变量，然后绘制该变量供用户查看。",
+    "This {}read only{} variable will return the weekday as a value, where Sunday is 0 and Saturday is 6.":"此{}只读{}变量将以值的形式返回工作日，其中周日为0，周六为6。"
+}

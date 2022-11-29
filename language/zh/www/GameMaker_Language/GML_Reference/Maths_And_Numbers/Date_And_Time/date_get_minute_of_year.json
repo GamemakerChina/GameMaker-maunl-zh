@@ -1,0 +1,5 @@
+{
+    "The date to check.":"要检查的日期。",
+    "This function returns the minute of the given datetime value within the year (from the total number of minutes for the year, taking into account leap years).":"此函数返回年内给定日期时间值的分钟数(从一年的总分钟数中计算，同时考虑闰年)。",
+    "This would set myminuteyear to the current minute of the year.":"这将把myminuteyear设置为今年的当前分钟。"
+}

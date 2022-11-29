@@ -1,0 +1,5 @@
+{
+    "The date to use.":"要使用的日期。",
+    "This would set \"str\" to hold a formatted string of the current date and time as shown by the system.":"这将设置\"str\"以保存系统显示的当前日期和时间的格式化字符串。",
+    "With this function you can create a string containing the given date, formatted as day/month/year.":"使用这个函数，您可以创建一个包含给定日期的字符串，格式为日/月/年。"
+}

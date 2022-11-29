@@ -1,0 +1,5 @@
+{
+    "The datetime to check.":"要检查的日期时间。",
+    "This function returns the minute of the given datetime value.":"这个函数返回给定datetime值的分钟数。",
+    "This would set \"myminute\" to the current minute.":"这会将“myminutes”设置为当前分钟。"
+}

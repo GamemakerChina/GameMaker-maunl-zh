@@ -1,0 +1,4 @@
+{
+    "The above code would draw the current international time on the screen.":"上面的代码将在屏幕上显示当前的国际时间。",
+    "This {}read only{} variable will return the hour that corresponds to the current moment based on the default time zone for the system (ie: local time). You can change the base time zone to use with the function&nbsp;{}{}date_set_timezone(){}{}.":"这个{}只读{}变量将根据系统的默认时区(即:本地时间)返回当前时刻对应的小时。您可以通过&nbsp;{}{}date_set_timezone(){}{}来更改基本时区。"
+}

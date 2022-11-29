@@ -1,0 +1,5 @@
+{
+    "Returns the date value of the given datetime.":"返回给定日期时间的日期值。",
+    "The datetime to extract the date from.":"从中提取日期的日期时间。",
+    "This would return the current date only and store the value in the variable \"today\".":"这将仅返回当前日期，并将值存储在变量“ today”中。"
+}

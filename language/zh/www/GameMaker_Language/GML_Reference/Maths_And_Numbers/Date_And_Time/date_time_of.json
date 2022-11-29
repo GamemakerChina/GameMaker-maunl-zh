@@ -1,0 +1,5 @@
+{
+    "Returns the time value of the given datetime. The time returned ignores Daylight Saving Time (and so is Universal Time) and would normally be used in conjunction with another date/time handling function.":"返回给定日期时间的时间值。返回的时间忽略夏时制(通用时间也是如此) ，通常与另一个日期/时间处理函数一起使用。",
+    "The datetime to extract the time from.":"要从中提取时间的日期时间。",
+    "This would return the current time only and store the value in the variable \"time\".":"这将仅返回当前时间，并将值存储在变量“ time”中。"
+}

@@ -1,0 +1,7 @@
+{
+    "Datetime":"日期时间",
+    "The datetime to compare it to.":"要比较的日期时间。",
+    "The first datetime.":"第一个日期时间",
+    "This would set \"diff\" to the number of seconds between 15th September 2011, 11:04 and the current date and time.":"这将把“diff”设置为2011年9月15日11:04到当前日期和时间之间的秒数。",
+    "With this function you can get the number of seconds between two dates. The return value is always positive and will be a whole number.":"使用这个函数，您可以得到两个日期之间的秒数。返回值总是正的，并且是一个整数。"
+}
