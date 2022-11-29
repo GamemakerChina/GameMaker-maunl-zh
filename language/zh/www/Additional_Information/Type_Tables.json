@@ -1,8 +1,25 @@
 {
+<<<<<<< Updated upstream
     "Equality Table":"平等表",
     "The tables all follow the same format, with the rows (left) showing the&nbsp;{}left hand{}&nbsp;side of an arithmetical operation, and the columns (right) showing the&nbsp;{}right hand{}&nbsp;side, eg:":"这些表都遵循相同的格式，行(左)显示算术运算的{}左手{}侧，列(右)显示{}右手{}侧，例如：",
     "There are a few special constants that may or may not be equal to themselves, as shown in the following table:":"有一些特殊常量可能等于也可能不等于它们自己，如下表所示：",
     "This page shows the all the different results that you may get when performing arithmetic operations on the different {}data types{}&nbsp;in GML.":"此页面显示了在GML中对不同{}数据类型{}执行算术运算时可能获得的所有不同结果。",
     "Type Tables":"类型表",
     "{}{}IMPORTANT{}{}&nbsp;Prior to GameMaker 2022.9, these tables were the inverted -- the columns showed LHS and rows showed RHS. This was counter-intuitive and was changed.":"{}{}重要{}{}在GameMaker 2022.9之前，这些表格是倒置的--列显示LHS，行显示RHS。这是不直观的，所以被改变了。"
+=======
+    "&lt;result&gt; = &lt;LHS or row&gt; + &lt;RHS or column&gt;":"&lt;tresult&gt; = &lt;LHS or row&gt; + &lt;RHS or column&gt;<br>\n&lt;结果&gt; = &lt;左侧 为 行&gt; + &lt;右侧 为 列&gt;<br>\nLHS (Left Hand Side)直译:左手边。<br>\nLHS RHS 赋值操作的左侧或右侧",
+    "Equality Table":"等式表",
+    "The tables all follow the same format, with the rows (left) showing the&nbsp;{}left hand{}&nbsp;side of an arithmetical operation, and the columns (right) showing the&nbsp;{}right hand{}&nbsp;side, eg:":"这些表都遵循相同的格式，行{}(左){}表示算术运算的左边，列{}(右){}表示右边，例如:",
+    "There are a few special constants that may or may not be equal to themselves, as shown in the following table:":"如下表所示，有几个特殊常数可能等于也可能不等于它们本身:",
+    "This page shows the all the different results that you may get when performing arithmetic operations on the different {}data types{}&nbsp;in GML.":"此页面显示了在GML中对不同{0}数据类型{1}执行算术运算时可能得到的所有不同结果。",
+    "{}Array{}":"{}Array{} 数组",
+    "{}Bool{}":"{}Bool{} 布尔",
+    "{}NaN{}":"{}NaN{} 非数字",
+    "{}Ptr{}":"{}Ptr{} 指针",
+    "{}Real{}":"{}Real{} 实数",
+    "{}String{}":"{}String{} 字符串",
+    "{}infinity{}":"{}infinity{} 无穷大",
+    "{}undefined{}":"{}undefined{} 未定义",
+    "{}{}重要{}{}&nbsp;Prior to GameMaker 2022.9, these tables were the inverted -- the columns showed LHS and rows showed RHS. This was counter-intuitive and was changed.":"{}{}重要{}{} 在 GameMaker 2022.9 之前，这些表格是倒置的——列显示 LHS，行显示 RHS。 这是违反直觉的，已经改变了。"
+>>>>>>> Stashed changes
 }
