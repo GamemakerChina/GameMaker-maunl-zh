@@ -1,0 +1,5 @@
+{
+    "In GM all the trigonometric functions work in radians, but most people work in degrees and this means that to convert your degrees into radians you need to use this function. For example, {}degtorad(180)&nbsp;{}returns 3.14159265 radians. This function\n    translates degrees into radians using the formula:":"在GM中，所有的三角函数都以弧度为单位，但大多数人都以角度为单位，这意味着要将角度转换为弧度，就需要使用这个函数。例如，{}degtorad(180) {}返回3.14159265弧度。这个函数使用公式将度转换为弧度:",
+    "The degrees to convert.":"要转换的度数。",
+    "This will set val to pi/2.":"这将把 val 设置为 pi/2。"
+}

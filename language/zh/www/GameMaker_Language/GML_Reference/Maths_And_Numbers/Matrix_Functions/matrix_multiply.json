@@ -1,0 +1,7 @@
+{
+    "The above code will get the current view matrix, then multiply that with a custom matrix and then use the resulting matrix index to set the view matrix again.":"上面的代码将获得当前视图矩阵，然后将其与一个自定义矩阵相乘，然后使用得到的矩阵索引再次设置视图矩阵。",
+    "The first matrix index to use.":"要使用的第一个矩阵索引。",
+    "The second matrix index to use.":"要使用的第二个矩阵索引。",
+    "With this function you can multiply two matrix arrays together to create a new transform matrix. The function will return the new matrix index which should be stored in a variable for future use.":"使用这个函数，您可以将两个矩阵数组相乘以创建一个新的变换矩阵。函数将返回新的矩阵索引，该索引应存储在一个变量中以备将来使用。",
+    "{}NOTE{}: You can\u0027t use a matrix constant as an argument with this function, so if you wish to multiply the (for example) view matrix with a custom matrix that you have built, you must first call {}{}{}matrix_get(){}{}{} and assign the view matrix values to an array variable, then multiply it by your custom matrix, and then set the chosen matrix (view, projection or world).":"{}注意{}:对于这个函数，你不能使用矩阵常量作为参数，所以如果你想将(例如)视图矩阵与你已经构建的自定义矩阵相乘，你必须首先调用{}{}{}matrix_get(){}{}{}将视图矩阵值赋给一个数组变量，然后乘以你的自定义矩阵，然后设置所选矩阵(视图、投影或世界)。"
+}

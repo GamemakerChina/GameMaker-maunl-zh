@@ -1,0 +1,5 @@
+{
+    "The above code will check for the distance to the player object and if it is less than the value stored in the variable \"range\" the variable \"canshoot\" is set to true.":"以上代码将检查到玩家对象的距离，如果它小于存储在变量“range”中的值，变量“canshoot”将被设置为true。",
+    "The object to check for.":"要检查的对象。",
+    "This function calculates the distance from the edge of the bounding box of the calling instance to the nearest edge of the nearest instance of the object specified. The object can be an object index or a specific instance ID&nbsp;as well as the {}{}keyword{}{} {}other{}, and the distance is returned in pixels. Note that if either of the objects have no sprite or no mask defined, the results will be incorrect.":"这个函数计算从调用实例的边界框的边缘到指定对象的最近实例的最近边缘的距离。该对象可以是对象索引或特定的实例ID以及{}{}关键字{}{}{}other{}，并且以像素为单位返回距离。注意，如果任何一个对象没有定义精灵或掩码，结果将是不正确的。"
+}

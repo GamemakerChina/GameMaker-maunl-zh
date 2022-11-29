@@ -1,0 +1,5 @@
+{
+    "Once you have done your calculations using sin, or cos etc... the result is in radians. This may not always be what you want and so to turn the radians into degrees we use this function. For example, {}radtodeg(sin(180)){} will return -45 degrees.\n    This function translates radians into degrees using the formula:":"一旦你用sin或cos等做了计算…结果是以弧度为单位的。这可能并不总是你想要的，所以为了将弧度转换成角度，我们使用这个函数。例如，{}radtodeg(sin(180)){}将返回-45度。这个函数使用公式将弧度转换为度数:",
+    "The radians to convert.":"要转换的弧度。",
+    "This will set val to 180.":"这将把 val 设置为180。"
+}

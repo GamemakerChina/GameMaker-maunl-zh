@@ -1,0 +1,7 @@
+{
+    "The x coordinate to calculate.":"要计算的 x 坐标。",
+    "The y coordinate to calculate.":"要计算的 y 坐标。",
+    "This function returns the inverse tangent of an angle y/x, where {}y = Opposite side of triangle{} and {}x = Adjacent side of triangle{}. Unlike {}{}arctan(){}{}    the function {}arctan2(y, x){} is valid for all angles and so may be used to convert a vector to an angle without risking division by zero, and it also returns a result in the correct quadrant.":"此函数返回角度 y/x 的反正切，其中 {}y = 三角形的对边{}，{}x = 三角形的相邻边{}。 与 {}{}arctan(){}{} 不同，函数 {}arctan2(y, x){} 对所有角度都有效，因此可用于将矢量转换为角度而不会冒被零除的风险，而且它还 在正确的象限中返回结果。",
+    "This will set val to the correct angle, in this case 0.79.":"这会将 val 设置为正确的角度，在本例中为 0.79。",
+    "{}NOTE{}: The value returned is in radians, not degrees.":"{}注意{}：返回的值以弧度为单位，而不是度数。"
+}

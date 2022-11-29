@@ -1,0 +1,6 @@
+{
+    "The above code will check for the distance to the player object x/y position and if it is less than the value stored in the variable \"range\" the variable \"canshoot\" is set to true.":"以上代码将检查到玩家对象x/y位置的距离，如果它小于存储在变量“range”中的值，变量“canshoot”将被设置为true。",
+    "The x position to check.":"要检查的 x 位置。",
+    "The y position to check.":"要检查的 y 位置。",
+    "This function calculates the distance from the edge of the bounding box of the calling instance to the specified x/y position in the room, with the return value being in pixels. Note that if the calling object have no sprite or no mask defined, the results will be incorrect.":"这个函数计算从调用实例的边界框的边缘到房间中指定x/y位置的距离，返回值以像素为单位。注意，如果调用对象没有定义精灵或掩码，则结果将是错误的。"
+}

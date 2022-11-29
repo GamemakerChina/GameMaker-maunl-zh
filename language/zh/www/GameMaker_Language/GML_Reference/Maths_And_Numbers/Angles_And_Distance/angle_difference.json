@@ -1,0 +1,8 @@
+{
+    "Interactive Example":"互动范例",
+    "The above code will get the direction from the instance to the mouse cursor, then get the difference between that angle and the current {}{}image_angle{}{}, using this value to gradually&nbsp;rotate the instance towards the mouse.":"上面的代码将获取从实例到鼠标光标的方向，然后获取该角度与当前 {}{}image_angle{}{} 之间的差异，使用此值逐渐将实例旋转到鼠标方向。",
+    "The destination or target angle":"目标角度",
+    "The relationship between the \"source\" and \"destination\" angles is such that the difference that you get by calling {}angle_difference(dest, src){}, when added back to the&nbsp;{}src{} value, gives you the {}dest{}&nbsp;angle (although the exact numeric values may differ). You can&nbsp;use a similar technique to move the source angle towards the destination angle gradually every step, where you add, say, 10% of&nbsp;the returned difference back to {}src{} to move it a little bit towards {}dest{}&nbsp;(this is demonstrated in the example below).":"“源”角和“目标”角之间的关系是这样的，通过调用{}angle_difference(dest, src){}得到的差值，当加回到{}src{}值时，给出{}dest{}角(尽管确切的数值可能不同)。您可以使用类似的技术将源角度逐步移向目标角度，在每一步中，您将返回的差值的10%添加回{}src{}，使其稍微移向{}dest{}(这在下面的示例中演示)。",
+    "The source angle":"源角度",
+    "This function will return the smallest difference between the two specified angles, where the difference is calculated from the source angle towards the destination angle. The returned value will be between -180 and 180 degrees (where a positive angle is anti-clockwise and a negative angle is clockwise).":"此函数将返回两个指定角度之间的最小差值，其中差值是从源角度到目标角度计算的。 返回值将介于 -180 和 180 度之间（其中正角度为逆时针方向，负角度为顺时针方向）。"
+}

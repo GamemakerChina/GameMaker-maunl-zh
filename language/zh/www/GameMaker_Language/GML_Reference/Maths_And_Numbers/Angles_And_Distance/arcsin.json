@@ -1,0 +1,7 @@
+{
+    "Returns the inverse sine of x, in that if {}sin(x)=n{}, {}arcsin(n)=x{}, and the resulting number will be between -pi/2 and pi/2.":"返回 x 的反正弦，因为如果 {}sin(x)=n{}，{}arcsin(n)=x{}，则结果数将介于 -pi/2 和 pi/2 之间。",
+    "The value&nbsp;to return the inverse sine of.":"要返回的反正弦值。",
+    "This will set val to 0.":"这将把 val 设置为0。",
+    "{}NOTE{}: This function returns a value in radians, not degrees.":"{}注意{}：此函数返回以弧度而非度为单位的值。",
+    "{}NOTE{}: This will only accept a value between -1 and 1 (anything else will throw an error).":"{}注意{}：这将只接受介于 -1 和 1 之间的值（任何其他值都会引发错误）。"
+}

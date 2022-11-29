@@ -1,0 +1,6 @@
+{
+    "In a right angled triangle dsin(val) = Opposite / Hypotenuse where \"val\" is one of the three angles.":"在直角三角形中，dsin(val) =对边/斜边，其中val是三个角中的一个。",
+    "The angle (in degrees) to return the sine of.":"返回的正弦的角度(以度为单位)。",
+    "This will set \"val\" to 1.":"这将把“ val”设置为1。",
+    "{}NOTE{}: This function takes a value in degrees not radians":"{}注意{} : 此函数以度为单位取值，而不是以弧度为单位"
+}

@@ -1,0 +1,8 @@
+{
+    "The above code will get the x and y coordinates of the nearest enemy and then pass them to a bullet object to use in the point_direction function to set its direction of travel correctly.":"上面的代码将获取最近敌人的x和y坐标，然后将它们传递给一个子弹对象，以便在point_direction函数中使用，以正确设置其移动方向。",
+    "The x coordinate of the first component of the vector":"矢量第一个分量的 x 坐标",
+    "The x coordinate of the second component of the vector":"矢量的第二个分量的 x 坐标",
+    "The y coordinate of the first component of the vector":"矢量第一个分量的 y 坐标",
+    "The y coordinate of the second component of the vector":"矢量的第二个分量的 y 坐标",
+    "This function returns the direction of a vector formed by the specified components [x1,y1] and [x2,y2] in relation to the fixed x/y coordinates of the room. For example, in the image below if we want to get the direction from the player ship position to the enemy position so that we can fire a missile at the enemy then we would use this function (the exact code is in the example below the image):":"这个函数返回由指定的组件[x1,y1]和[x2,y2]组成的向量的方向，该向量与房间的固定x/y坐标有关。例如，在下图中，如果我们想要获得从玩家舰船位置到敌人位置的方向，这样我们就可以向敌人发射导弹，那么我们就可以使用这个函数(确切代码见下图示例):"
+}

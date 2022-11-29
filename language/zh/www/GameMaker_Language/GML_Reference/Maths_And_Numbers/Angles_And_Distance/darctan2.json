@@ -1,0 +1,7 @@
+{
+    "The x coordinate to calculate.":"要计算的 x 坐标。",
+    "The y coordinate to calculate.":"要计算的 y 坐标。",
+    "This function returns the inverse tangent of an angle y/x, where {}y = Opposite side of triangle{} and {}x = Adjacent side of triangle{}. Unlike {}{}darctan(){}{}    the function {}darctan2(){} is valid for all angles and so may be used to convert a vector to an angle without risking division by zero, and it also returns a result in the correct quadrant.":"这个函数返回角y/x的正切，其中{}y =三角形{}的对边，{}x =三角形{}的邻边。与{}{}darctan2(){}{}不同的是，函数{}darctan2(){}对所有角度都有效，因此可以用来将一个向量转换为一个角度，而不会有被除零的风险，而且它还返回正确象限的结果。",
+    "This will set \"val\" to the correct angle.":"这将设置“ val”为正确的角度。",
+    "{}NOTE{}: The value returned is in degrees, not radians.":"{}注意{}:返回值以度为单位，而不是弧度。"
+}

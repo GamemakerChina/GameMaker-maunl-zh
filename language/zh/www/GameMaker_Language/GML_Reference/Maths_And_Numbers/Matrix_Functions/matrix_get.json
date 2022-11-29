@@ -1,0 +1,9 @@
+{
+    "Matrix Type Constant":"矩阵类型常量",
+    "The above code will get the values of the current view matrix and populate the array \"v_array\" with them.":"上面的代码将获取当前视图矩阵的值，并用它们填充数组“v_array”。",
+    "The current projection matrix":"当前投影矩阵",
+    "The current view matrix":"当前视图矩阵",
+    "The current world matrix":"当前的世界矩阵",
+    "The type of matrix to get (see the {}constants{} listed above)":"要获取的矩阵类型(请参见上面列出的{}常量{})",
+    "This function returns an {}array{} of 16 values, corresponding to the given 4x4 matrix type, where row 1 is elements [0 - 3], row 2 is elements [4 -7], etc... (see the image on the {}main page{}). The available matrices are {}view{}, {}projection{} and {}world{}, for which you would use one of the following constants:":"这个函数返回一个包含16个值的{}数组{}，对应于给定的4x4矩阵类型，其中第一行是元素[0 - 3]，第2行是元素[4 -7]，等等……(参见{}主页{}上的图片)。可用的矩阵是{}view{}， {}projection{}和{}world{}，对此你可以使用以下常量之一:"
+}

@@ -1,0 +1,10 @@
+{
+    "The above code will get the x and y and z coordinates of the nearest enemy and then use them to check the distance (length) of the vector formed by them and the player coordinates. If the value is less than 200, the player object will create an instance of \"obj_Missile\".":"以上代码将获得最近敌人的x、y和z坐标，然后使用它们检查由它们和玩家坐标组成的向量的距离(长度)。如果该值小于200，玩家对象将创建一个“obj_Missile”实例。",
+    "The x coordinate of the first component of the vector":"向量第一个分量的 x 坐标",
+    "The x coordinate of the second component of the vector":"向量的第二个分量的 x 坐标",
+    "The y coordinate of the first component of the vector":"向量第一个分量的 y 坐标",
+    "The y coordinate of the second component of the vector":"向量的第二个分量的 y 坐标",
+    "The z coordinate of the first component of the vector":"向量第一个分量的 z 坐标",
+    "The z coordinate of the second component of the vector":"向量的第二个分量的 z 坐标",
+    "This function takes the supplied components of the vector and returns the length (distance) of the vector. It works in exactly the same way as {}{}point_distance(){}{} but with the addition of factoring in the z value (depth) for use in 3D space.":"这个函数获取向量的分量，并返回向量的长度(距离)。它的工作方式与{}{} point _ range (){}{}完全相同，但是添加了在3D 空间中使用的 z 值(深度)。"
+}

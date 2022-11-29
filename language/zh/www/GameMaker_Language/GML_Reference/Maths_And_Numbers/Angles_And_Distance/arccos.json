@@ -1,0 +1,7 @@
+{
+    "Returns the inverse cosine of x, in that if {}cos(val)=n{}, {}arccos(n)=val{}, and the resulting number will be between pi and 0.":"返回x的反余弦，如果{}cos(val)=n{}， {}arccos(n)=val{}，则得到的数将在pi和0之间。",
+    "The angle (in radians) to return the inverse cosine of.":"返回的反余弦的角度(以弧度为单位)。",
+    "This will set val to pi/2.":"这将把 val 设置为 pi/2。",
+    "{}NOTE{}: This function takes a value in radians, not degrees.":"{}注意{}:该函数的值以弧度为单位，而不是以度为单位。",
+    "{}NOTE{}:This will only accept a number between -1 and 1 (anything else will throw an error).":"{}注意{}:该函数只接受介于-1和1之间的数字(其他将抛出错误)。"
+}

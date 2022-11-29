@@ -1,0 +1,6 @@
+{
+    "In a right angled triangle {}cos(val) = Adjacent / Hypotenuse{} where val is one of the three angles. This function will always return a number between 1 and -1.":"在直角三角形中，{}cos(val){} =邻边/斜边{}，其中val是三个角中的一个。这个函数总是返回一个介于1和-1之间的数字。",
+    "The angle (in radians) to return the cosine of.":"返回余弦的角度(以弧度为单位)。",
+    "This will set val to 1.":"这将把 val 设置为1。",
+    "{}NOTE{}: This function takes a value in radians not degrees.":"{}注意{}：此函数采用弧度而不是度数的值。"
+}

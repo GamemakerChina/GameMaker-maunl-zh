@@ -1,0 +1,9 @@
+{
+    "The above code will set the values of the current world matrix to those stored in the array matrix \"m_array\".":"上面的代码将当前世界矩阵的值设置为存储在数组矩阵“m_array”中的值。",
+    "The current projection matrix":"当前投影矩阵",
+    "The current view matrix":"当前视图矩阵",
+    "The current world matrix":"当前的世界矩阵",
+    "The matrix data as an array":"矩阵数据作为数组",
+    "The type of matrix to get the values of (see the {}constants{} listed above)":"获取(参见上面列出的{}常量{})值的矩阵的类型",
+    "This function takes an&nbsp;{}array{} of 16 values, corresponding to a given 4x4 matrix type, where elements [0 - 3] would be row 1, elements [4 -7] would be row 2, etc... (see the image on the {}main page{}). You can create such a matrix using the {}{}matrix_build(){}{} or {}{}matrix_get(){}{} functions or simply building the array yourself and passing that into the function. The available matrix types are {}view{}, {}projection{} and {}world{}, for which you would use one of the following constants:":"这个函数接受一个包含16个值的&nbsp;{}数组{}，对应于一个给定的4x4矩阵类型，其中元素[0 - 3]将是第一行，元素[4 -7]将是第2行，等等……(参见{}主页{}上的图片)。可以使用{}{}matrix_build(){}{}或{}{}matrix_get(){}{}函数创建这样的矩阵，也可以自己构建数组并将其传递到函数中。可用的矩阵类型是{}view{}， {}projection{}和{}world{}，对此你可以使用以下常量之一:"
+}

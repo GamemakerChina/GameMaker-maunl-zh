@@ -1,0 +1,15 @@
+{
+    "The above code will build a new matrix transform and store the resulting matrix index in the variable \"t_matrix\".":"上面的代码将构建一个新的矩阵变换，并将得到的矩阵索引存储在变量\"t_matrix\"中。",
+    "The angle to rotate around the x-axis (in degrees °).":"绕 x 轴旋转的角度(以度为单位)。",
+    "The angle to rotate around the y-axis (in degrees °).":"绕 y 轴旋转的角度(以度为单位)。",
+    "The angle to rotate around the z-axis (in degrees °).":"绕 z 轴旋转的角度(以度为单位)。",
+    "The matrix array contains 16 values in total, where the initial 4 elements are {}{}row/column 1{}{}, the next 4 elements are {}{}row/column 2{}{} and so on, as part of a {}4x4 matrix{}. Whether the array is ordered by rows or columns depends on the target platform, as the graphics renderer used by a platform may use row-major or column-major matrices.":"矩阵数组总共包含16个值，其中最开始的4个元素是{}{}行/列1{}{}，后面的4个元素是{}{}行/列2{}{}等等，作为{}4x4矩阵{}的一部分。数组是按行还是按列排序取决于目标平台，因为平台使用的图形渲染器可能使用行为主矩阵或列为主矩阵。",
+    "The x component of the translation vector.":"平移向量的 x 分量。",
+    "The x scale amount.":"x 缩放的数值。",
+    "The y component of the translation vector.":"平移向量的 y 分量。",
+    "The y scale amount.":"y 缩放的数值。",
+    "The z component of the translation vector.":"平移矢量的 z 分量。",
+    "The z scale amount.":"z 缩放的数值。",
+    "This function can be used to create your own custom matrix and will return a matrix array, which should be stored in a variable for future reference and use. It accepts 3-dimensional ({}x, y, z{}) translation, rotation and scale values, and uses them to build a matrix array.":"这个函数可以用来创建您自己的自定义矩阵，并将返回一个矩阵数组，该数组应该存储在一个变量中，以供将来参考和使用。它接受三维({}x, y, z{})的平移、旋转和缩放值，并使用它们构建矩阵数组。",
+    "{}NOTE{}&nbsp;When you build a new matrix in this way, the order of operation is YXZ.":"{}注意{}当你用这种方式构建一个新矩阵时，操作顺序是YXZ。"
+}
