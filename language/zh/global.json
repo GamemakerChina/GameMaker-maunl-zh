@@ -1,4 +1,5 @@
 {
+    "&nbsp;Type&nbsp;":"类型(Type)",
     "<span data-open-text=\"true\" data-skip-index=\"true\" class=\"rh-hide\" hidden=\"\">Quick Start Guide</span><span data-close-text=\"true\">Quick Start Guide</span>":"<span data-open-text=\"true\" data-skip-index=\"true\" class=\"rh-hide\" hidden=\"\">快速入门指南</span><span data-close-text=\"true\">快速入门指南</span>",
     "Accessors":"访问器",
     "Additional IDE Tools":"附加 IDE 工具",
@@ -94,6 +95,7 @@
     "Dynamic Textures":"动态纹理",
     "Editing Code":"编辑代码",
     "Encoding And Hashing":"编码和哈希",
+    "Error":"错误\n(Error)",
     "Error Reporting":"错误报告",
     "Evaluation Order":"运算顺序",
     "Example":"示例",
