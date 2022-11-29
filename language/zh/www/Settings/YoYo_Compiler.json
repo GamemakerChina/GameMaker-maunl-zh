@@ -1,0 +1,17 @@
+{
+    "After that you can create the executable from&nbsp;{}The Build Menu{}&nbsp;as with the VM output.":"之后，您可以像创建 VM 输出一样，从{}构建菜单{}创建可执行文件。",
+    "Building a project with YYC":"用 YYC 构建一个项目",
+    "For a general overview on this, see the following Help Center page:&nbsp;{}GameMaker Required SDKs{}.":"有关此内容的一般概述，请参见以下帮助中心页: {}Gamemaker 必备 SDK {}。",
+    "If the path to the&nbsp;{}SDK{}&nbsp;wasn\u0027t configured correctly&nbsp;you may get an error like the following (the image shows the message on the Windows platform):&nbsp;":"如果{} SDK {}的路径配置不正确，您可能会得到如下错误(例如下面显示 Windows 平台上的消息) :",
+    "In case the current runtime doesn\u0027t include the YYC module for the platform you want to build for you will be asked to install it first:&nbsp;":"如果当前运行时没有包含为您构建的平台的 YYC 模块，将要求您首先安装该模块:",
+    "In order for the&nbsp;{}YoYo Compiler{} to be able to compile for the target platform, you will need to have the correct {}SDK{}s&nbsp;installed.":"为了使{} YoYo 编译器{}能够为目标平台进行编译，您需要安装正确的{} SDK {}。",
+    "Information on the SDKs required per platform can be found in the Help Center as well:&nbsp;":"关于每个平台所需的 SDK 的信息也可以在帮助中心找到:",
+    "Licence":"许可证",
+    "Once you have the&nbsp;{}SDK{}s set up correctly you can change the Output option for the selected platform to YYC:&nbsp;":"一旦正确设置了{}SDK{}，您就可以将所选平台的 Output 选项更改为 YYC:",
+    "Setting Up The SDK":"设置 SDK",
+    "The {}YoYo Compiler{}&nbsp;(YYC)&nbsp;is a special compiler for creating executable packages that use {}machine code{}&nbsp;instead of interpreted code and a runner (which is what the&nbsp;{}GameMaker{}&nbsp;VM compile uses). Compiled code is faster to run, but takes more time to compile the executable.":"{}YoYo 编译器{}(YYC)是一个特殊的编译器，用于创建使用{}机器代码{}而不是解释代码的可执行包和运行程序(这是{}GameMaker{} VM 编译所使用的)。编译后的代码运行速度更快，但编译可执行文件需要更多时间。",
+    "To verify that the paths have been set correctly for the selected platform, you can check the&nbsp;{}Platform Preferences{}.":"若要验证为所选平台正确设置了路径，可以检查{}平台首选项{}。",
+    "Your {}GameMaker{}&nbsp;licence may or may not include the YoYo Compiler. To find out, see the&nbsp;Help Center&nbsp;page&nbsp;{}Which Subscription Is Right For Me?{}.":"您的{}GameMaker{}许可证可能包含也可能不包含 YoYo 编译器。若要查找答案，请参见帮助中心页{}哪个订阅适合我？{}.",
+    "{}GameMaker{}&nbsp;needs to know the location of the files needed to build an executable on the selected platform. In case this hasn\u0027t been set up correctly, a compile error is shown.":"{} GameMaker {}需要知道在所选平台上构建可执行文件所需的文件位置。如果没有正确设置，则显示一个编译错误。",
+    "{}YoYo Compiler{}":"{}YoYo 编译器{}"
+}
