@@ -151,11 +151,7 @@
     "Gesture Input":"手势输入",
     "Global Variables":"全局变量",
     "Go To":"转到",
-<<<<<<< Updated upstream
-    "Guide To Primitives And Vertex Building":"基元和顶点构建指南",
-=======
     "Guide To Primitives And Vertex Building":"图元和顶点构建指南",
->>>>>>> Stashed changes
     "Guide To Using Blendmodes":"混合模式使用指南",
     "Guide To Using Buffers":"缓冲区使用指南",
     "Guide To Using Particles":"粒子使用指南",

@@ -5,3 +5,4 @@ surface = （未确定）（可能被机翻为：曲面）
 function/functions = 函数（仅GML Code，可能被机翻为：功能）
 primitive = （未确定）图元 基元 原语 原点 原始
 Legacy  = （未确定）弃用 过时 旧版 传统 遗留
+resource/asset = 资源
