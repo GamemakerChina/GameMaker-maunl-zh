@@ -1,0 +1,5 @@
+{
+    "The power of e.":"e的幂。",
+    "This is the function power(e,n), where e is approximately 2.718281828 (also known as {}Euler\u0027s Number{}), and n is the number of times it should be multiplied by itself. This basically says \"how much growth do I get after n units of time\n    (and 100% continuous growth)?\". So {}exp(3){} would return 20.08, which means that after 3 time units we have 20.08 times the amount we started with.":"这是函数的幂(e,n)，其中e约为2.718281828(也称为{}欧拉数{})，n是它自身相乘的次数。这基本上是说“在n个单位时间内(100%持续增长)我能获得多少增长?”因此{}exp(3){}将返回20.08，这意味着在3个时间单位后，我们得到了开始时的20.08倍。",
+    "This will set val to e^2, around 7.4.":"这将使val等于e^2，大约是7.4。"
+}

@@ -1,5 +1,5 @@
 {
-    "The date to use.":"使用日期。",
+    "The date to use.":"要使用的日期。",
     "This would set \"days\" to the number of days in the current month.":"这将为当前月份的天数设置“天数”。",
-    "With this function you can get the number of days that the given month has, either 28, 29, 30 or 31.":"通过这个函数，您可以得到给定月份的天数，可以是28、29、30或31。"
+    "With this function you can get the number of days that the given month has, either 28, 29, 30 or 31.":"使用此函数，您可以获得给定月份的天数，28、29、30 或 31。"
 }

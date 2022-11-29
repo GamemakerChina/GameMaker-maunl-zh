@@ -1,0 +1,4 @@
+{
+    "This function will return the current epsilon value for the target platform. For more information on epsilon, please see the function {}{}math_set_epsilon(){}{}.":"此函数将返回目标平台的当前 精度 值。 有关 epsilon 的更多信息，请参阅函数 {}{}math_set_epsilon(){}{}。",
+    "This will retrieve the current epsilon value and store it in a local variable, which is then checked and a new epsilon set if required.":"这将检索当前的 精度 值并将其存储在局部变量中，然后检查该变量并在需要时设置新的 精度。"
+}

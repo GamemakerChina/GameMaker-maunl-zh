@@ -1,0 +1,5 @@
+{
+    "The number to change.":"要更改的数字。",
+    "This function returns the fractional part of n, that is, the part behind the decimal dot. It will return {}only{} the decimals behind the dot of a value, so {}frac(3.125){} will return 0.125, {}frac(6.921){} will return 0.921, etc...":"该函数返回n的小数部分，即小数点后面的部分。 它将{}仅{}返回值点后面的小数位，因此 {}frac(3.125){} 将返回 0.125，{}frac(6.921){} 将返回 0.921，等等...",
+    "This will set val to 0.4.":"这将把 val 设置为0.4。"
+}

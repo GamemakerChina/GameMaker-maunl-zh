@@ -1,5 +1,5 @@
 {
     "The datetime to check.":"要检查的日期时间。",
-    "This function returns the hour of the given datetime value.":"此函数返回给定 datetime 值的小时数。",
+    "This function returns the hour of the given datetime value.":"此函数返回给定 时间日期 值的小时数。",
     "This would set \"myhour\" to the current hour.":"这将把“myhour”设置为当前时间。"
 }

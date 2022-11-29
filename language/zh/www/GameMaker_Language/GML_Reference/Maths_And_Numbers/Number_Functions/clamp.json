@@ -1,0 +1,7 @@
+{
+    "The above code will clamp the speed so that it never falls below 1 or goes over 10.":"上面的代码将箝制速度，使它永远不会低于1或超过10。",
+    "The maximum value to clamp between.":"夹紧之间的最大值。",
+    "The minimum value to clamp between.":"夹紧之间的最小值。",
+    "The value to clamp.":"要夹紧的值。",
+    "With this function you can maintain an input value between a specified range.":"通过这个函数，您可以将输入值保持在指定的范围内。"
+}

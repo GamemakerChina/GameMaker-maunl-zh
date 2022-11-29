@@ -1,0 +1,6 @@
+{
+    "The above code sets the random seed to 1 only if the variable \"debug\" is true.":"上面的代码只在变量“debug”为真时将随机种子设置为1。",
+    "The seed to set.":"要设置的种子。",
+    "To generate a random number {}GameMaker{} starts with a random seed number. With this function you can set that seed to a known value and so \"force\" the outcome of all random events afterwards to be the same every time the program is run. For example, this function can be used in conjunction with {}{}random_get_seed(){}{} to create procedurally generated content and save the results without having huge savegames (you save the seed only, no need for anything else). Should you need truly random results for everything, you should be using the {}{}randomise(){}{} function.":"{}GameMaker{}从一个随机种子数开始。通过这个函数，您可以将种子设置为一个已知的值，从而“强制”所有随机事件的结果在每次程序运行时都是相同的。例如，这个函数可以与{}{}random_get_seed(){}{}一起使用，以创建程序生成的内容并保存结果，而不需要巨大的保存游戏(你只保存种子，不需要其他任何东西)。如果你需要真正随机的结果，你应该使用{}{}randomise(){}{}函数。",
+    "{}NOTE{}&nbsp;While this seed will give consistent results on each target platform, results may vary between platforms due to the different way each target works.":"{}注意{}虽然这个种子在每个目标平台上会给出一致的结果，但由于每个目标的工作方式不同，结果可能在不同平台之间有所不同。"
+}

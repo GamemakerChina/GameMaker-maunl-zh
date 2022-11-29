@@ -1,5 +1,5 @@
 {
-    "The date to use.":"使用日期。",
+    "The date to use.":"要使用的日期。",
     "This would set \"days\" to the number of days in the current year.":"这将把“days”设置为当前一年的天数。",
-    "With this function you can get the number of days that the given year has, returning 365 for a normal year, and 366 for a leap year.":"通过这个函数，您可以得到给定年份的天数，对于正常年份返回365天，对于闰年返回366天。"
+    "With this function you can get the number of days that the given year has, returning 365 for a normal year, and 366 for a leap year.":"使用此函数，您可以获得给定年份的天数，正常年份返回 365，闰年返回 366。"
 }

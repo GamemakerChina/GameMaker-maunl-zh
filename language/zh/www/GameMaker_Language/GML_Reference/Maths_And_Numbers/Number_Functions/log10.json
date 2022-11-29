@@ -1,0 +1,5 @@
+{
+    "The above code gets the {}log10{} of the value stored in \"num\".":"上面的代码获取存储在“num”中的值的 {}log10{}。",
+    "The input value.":"输入值。",
+    "This function is similar to the {}{}log2(n){}{} function, only that {}log10(n){} gets the number of 10\u0027s that we need to multiply together to get n. So {}log10(100){} returns 2, as multiplying 10 by itself gives\n    100, {}log10(1000){} returns 3 as 10x10x10=1000 etc... The number does {}not{} have to be divisible by ten, however, but this will still return an appropriate value, for example if we have {}log10(101){} we get 2.00432137... which is\n    how many times you could divide 101 by 10.":"这个函数类似于{}log2(n){}函数，只是{}log10(n){}得到的是我们需要相乘得到n的10的个数。所以{}log10(100){}返回2，因为10乘以自身得到100,{}log10(1000){}返回3，即10x10x10=1000等等……这个数字不一定能被10整除，但是这仍然会返回一个合适的值，例如，如果我们有{}log10(101){}，我们得到2.00432137…也就是101除以10的次数。"
+}

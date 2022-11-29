@@ -2,5 +2,5 @@
     "The datetime to add to":"要添加到的日期时间",
     "The number of years (must be an integer) to add.":"要添加的年数(必须是整数)。",
     "This would set mynewdatetime to the current date but with 1000 years added.":"这会将 mynewdatetime 设置为当前日期，但会增加 1000 年。",
-    "With this function you can increment a given datetime value by a specific number of years, and it will return the new datetime value.":"使用这个函数，您可以将给定的 datetime 值增加特定的年数，它将返回新的 datetime 值。"
+    "With this function you can increment a given datetime value by a specific number of years, and it will return the new datetime value.":"使用这个函数，您可以将给定的 时间日期 值增加特定的年数，它将返回新的 时间日期 值。"
 }

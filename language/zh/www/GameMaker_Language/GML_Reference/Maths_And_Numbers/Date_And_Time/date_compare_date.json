@@ -2,5 +2,6 @@
     "The date to compare it to.":"与之比较的日期。",
     "The first date.":"第一个日期。",
     "This would set \"d\" to the corresponding value depending on which of the dates was the earliest, likely 1 since the current date would be further ahead than 15th September 2011.":"这将根据哪一个日期是最早的，将“d”设置为相应的值，很可能是1，因为目前的日期将比2011年9月15日更早。",
-    "With this function you can check two dates to see which one is the earlier or later than the other. The function returns -1 if {}date1{} is earlier, 0 if both dates are the same, and 1 if {}date1{} is later.":"有了这个功能，你可以检查两个日期，看看哪一个比另一个早或晚。如果{}date1{}较早，该函数返回-1，如果两个日期相同，则返回0，如果{}date1{}较晚，则返回1。"
+    "With this function you can check two dates to see which one is the earlier or later than the other. The function returns -1 if {}date1{} is earlier, 0 if both dates are the same, and 1 if {}date1{} is later.":"使用此功能，您可以检查两个日期以查看哪个早于或晚于另一个。 如果 {}date1{} 较早，则该函数返回 -1；如果两个日期相同，则返回 0；如果 {}date1{} 较晚，则返回 1。",
+    "date_compare_date":"date_compare_date"
 }

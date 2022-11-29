@@ -1,0 +1,5 @@
+{
+    "Multiplies a number by itself and so returns the square of that number. EG: {}sqr(5){} would return 25 since 5*5=25.":"将一个数与自身相乘，然后返回该数的平方。 例如：{}sqr(5){} 将返回 25，因为 5*5=25。",
+    "The above code will add on the square of the variable \"dmg\" to the score.":"上面的代码会将变量“dmg”的平方添加到分数中。",
+    "The number to square.":"要平方的数。"
+}

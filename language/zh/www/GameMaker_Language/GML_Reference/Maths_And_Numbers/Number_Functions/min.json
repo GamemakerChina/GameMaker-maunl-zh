@@ -1,0 +1,5 @@
+{
+    "The values to compare.":"要比较的值。",
+    "This function returns the minimum of the input values, of which it can have as many as you require (note that more arguments will mean that the function will be slower to parse). For example {}min(12, 96, 32, 75){} will return 12 as that is the\n    lowest of all the input values.":"这个函数返回输入值的最小值，它可以有您需要的任意数量的输入值(注意，参数越多意味着函数解析的速度越慢)。例如，{}min(12,96,32,75){}将返回12，因为这是所有输入值中最低的。",
+    "This will stop the player from exiting the right of the room. This works by constantly setting its x to either itself or the room_width variable, whichever is smaller. If the player exits the right, its x would be larger than room_width, so it\u0027ll\n    get set straight back.":"这将阻止玩家离开房间的右侧。这是通过不断地将其x设置为自身或room_width变量(取较小的值)来实现的。如果玩家从右侧退出，它的x将大于room_width，所以它将直接返回。"
+}

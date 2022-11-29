@@ -5,6 +5,6 @@
     "The month to set.":"设定月份。",
     "The second to set.":"设置秒数。",
     "The year to set.":"设定年份。",
-    "This function will create a datetime value from the component given as the arguments.":"这个函数将从作为参数的构成中创建一个datetime值。",
+    "This function will create a datetime value from the component given as the arguments.":"这个函数将从作为参数的构成中创建一个日期和时间值。",
     "This would set \"mydatetime\" to the given date and time and store the returned value in the variable \"mydatetime\".":"这将把“mydatetime”设置为给定的日期和时间，并将返回值存储在变量“mydatetime”中。"
 }

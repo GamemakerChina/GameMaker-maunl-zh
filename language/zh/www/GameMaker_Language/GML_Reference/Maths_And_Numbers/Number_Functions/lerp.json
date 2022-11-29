@@ -1,0 +1,9 @@
+{
+    "The above code uses the linear interpolation function to predict where an instance would have moved to after one second of game time.":"上面的代码使用线性插值函数来预测一个实例在游戏时间一秒后会移动到哪里。",
+    "The amount to interpolate.":"要插值的量。",
+    "The first value.":"第一个值。",
+    "The second value.":"第二个值。",
+    "With this function you can find the value that equates to the position between two other values for a given percentage. So if you do, for example:":"通过这个函数，您可以找到与给定百分比的其他两个值之间的位置相等的值。所以如果你这样做，例如:",
+    "will return a value of 20.":"将返回值20。",
+    "you would get the return value of 5, which is 50% of the input values. You can extrapolate using this function too, by supplying a positive or negative value for the interpolation amount so that doing something like:":"你会得到返回值5，它是输入值的50%。你也可以使用这个函数进行外推，为插值量提供一个正数或负数，这样做如下:"
+}

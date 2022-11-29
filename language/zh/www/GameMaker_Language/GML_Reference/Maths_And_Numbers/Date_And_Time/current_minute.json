@@ -1,4 +1,5 @@
 {
     "The above code would draw the current international time on the screen.":"上面的代码将在屏幕上显示当前的国际时间。",
-    "This {}read only{} variable will return the minutes that correspond to the current moment.":"此{}只读{}变量将返回对应于当前时刻的分钟数。"
+    "This {}read only{} variable will return the minutes that correspond to the current moment.":"此{}只读{}变量将返回对应于当前时刻的分钟数。",
+    "{}draw_text{}({}32{}, {}32{}, {}\"The time is \"{} + {}string{}({}current_hour{}) + {}\":\"{} + {}string{}({}current_minute{}) + {}\".\"{} + {}string{}({}current_second{}));":"{}draw_text{}({}32{}, {}32{}, {}\"时间是 \"{} + {}string{}({}current_hour{}) + {}\":\"{} + {}string{}({}current_minute{}) + {}\".\"{} + {}string{}({}current_second{}));"
 }

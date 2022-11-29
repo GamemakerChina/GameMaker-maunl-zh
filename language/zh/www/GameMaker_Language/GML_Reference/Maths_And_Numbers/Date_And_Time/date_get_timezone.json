@@ -1,6 +1,7 @@
 {
     "This code checks the base time zone setting for the game and if it is not UTC it then changes it.":"此代码检查游戏的基准时区设置，如果它不是 UTC，然后更改它。",
     "This function gets the base time zone being used for all the rest of the date and time functions. This time zone can either be {}local{} (as set by the system) or {}UTC{}, and the function will return one of the following constants:":"此函数获取所有其他日期和时间函数所使用的基本时区。该时区可以是{}本地{}(由系统设置)或{}UTC{}，函数将返回以下常量之一:",
+    "Time Zone Constant":"时区常数",
     "use Coordinated Universal Time":"使用协调世界时",
     "use the local time zone as set by the system":"使用系统设定的当地时区"
 }

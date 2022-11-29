@@ -1,0 +1,5 @@
+{
+    "The number to turn absolute.":"要转为绝对值的数。",
+    "This function returns the absolute value of the input argument, so if it\u0027s a positive value then it will remain the same, but if it\u0027s negative it will be multiplied by -1 to make it positive.":"这个函数返回输入参数的绝对值，所以如果它是正值，那么它将保持不变，但是如果它是负值，它将乘以 -1，使其为正值。",
+    "This will add an amount equal to the absolute value of the current x position of the instance and the mouse x position.":"这将添加一个等于实例当前 x 位置和鼠标 x 位置的绝对值的量。"
+}

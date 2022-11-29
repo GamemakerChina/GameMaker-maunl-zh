@@ -1,0 +1,6 @@
+{
+    "Now, you would expect this code to {}always{} give an integer between 1 and 5, but this may not always be the case as there is a very small possibility that the random function will return 0, and rounding up 0 still gives you 0. This is a remote\n    possibility but should be taken into account when using this function.":"现在，您可能期望这段代码{}总是{}给出1到5之间的整数，但这可能并不总是这样，因为随机函数返回0的可能性很小，并且对0取四舍五入仍然得到0。这种可能性很小，但在使用此函数时应予以考虑。",
+    "The number to change.":"要更改的数字。",
+    "This function takes any real number and rounds it up to the nearest integer. Care should be taken with this function as one common mistake is to use it round up a random value and expect it always to be greater than 1, ie:":"这个函数接受任意实数，并将其向上舍入到最接近的整数。在使用这个函数时应该小心，因为一个常见的错误是使用它四舍五入一个随机值，并期望它总是大于1，例如:",
+    "This will set val to 4.":"这将把 val 设置为4。"
+}

@@ -1,0 +1,14 @@
+{
+    "Epsilon is a value used to determine whether two numbers subject to rounding error are close enough to be considered \"equal\". It is useful when dealing with floating point maths as it can reduce the \"rounding errors\" that make certain operations return values that appear incorrect or contrary to what we expect. For example, we may have added a value to the image index of a sprite and expect the result to be a single integer, but due to the nature of floating point maths, the actual final value ends up being something like 5.0000002, so when we have the following check:":"Epsilon(精度) 是一个值，用于确定受舍入误差影响的两个数字是否足够接近以被视为“相等”。 它在处理浮点数学时很有用，因为它可以减少“舍入错误”，这些错误会使某些操作返回看起来不正确或与我们预期相反的值。 例如，我们可能已经在精灵的图像索引中添加了一个值，并期望结果是一个整数，但由于浮点数学的性质，实际最终值最终会是 5.0000002 这样的东西，所以当我们 进行以下检查：",
+    "Note that setting an epsilon value of 0 will disable all rounding, and using a value of 1 will give an error.":"请注意，将 epsilon 值设置为 0 将禁用所有舍入，而将值设置为 1 将产生错误。",
+    "The code does not behave as expected and returns {}false{}. However, if we set the epsilon value to 0.000001, the {}image_index{} value will be rounded to the nearest real number that is +/- 0.000001 of the original value, making the above comparison return true.":"该代码未按预期运行并返回 {}false{}。 但是，如果我们将 epsilon 值设置为 0.000001，{}image_index{} 值将四舍五入为最接近的实数，即原始值的 +/- 0.000001，从而使上述比较返回 true。",
+    "The epsilon value will be used for all the following integer {}operators{}:":"epsilon 值将用于以下所有整数{}运算符{}：",
+    "The new epsilon value (from 0 to 0.999999999).":"新的 精度 值（从 0 到 0.999999999）。",
+    "This will set the epsilon value for all further floating point operations.":"这将为所有进一步的浮点运算设置 精度 值。",
+    "{}!=&nbsp;{}: Not equal to":"{}!=&nbsp;{}: 不等于",
+    "{}&gt;&nbsp;{}:&nbsp;Greater than":"{}&gt;&nbsp;{}:&nbsp;大于",
+    "{}&gt;=&nbsp;{}: Greater than or equal to":"{}&gt;=&nbsp;{}: 大于或等于",
+    "{}&lt;&nbsp;{}: Less than":"{}&lt;&nbsp;{}:  小于",
+    "{}&lt;=&nbsp;{}:&nbsp;Less than or equal to":"{}&lt;=&nbsp;{}:&nbsp;小于或等于",
+    "{}==&nbsp;{}: Equal to":"{}==&nbsp;{}: 等于"
+}

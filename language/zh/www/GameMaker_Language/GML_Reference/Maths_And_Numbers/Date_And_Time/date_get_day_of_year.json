@@ -1,5 +1,5 @@
 {
     "The date to check.":"要检查的日期。",
-    "This function returns the day (from 1 to 366) within the year of the given datetime.":"该函数返回给定datetime的年份内的日期(从1到366)。",
+    "This function returns the day (from 1 to 366) within the year of the given datetime.":"此函数返回给定日期时间的年份中的第几天（从 1 到 366）。",
     "This would set mydayyear to the current day of the year.":"这会将 mydayyear 设置为一年中的当前日期。"
 }

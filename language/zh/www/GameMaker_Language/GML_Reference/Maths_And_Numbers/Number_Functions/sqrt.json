@@ -1,0 +1,5 @@
+{
+    "If you multiply a number with itself, you get the square of that number, but sometimes you want to do the reverse and get the square root of a number. So to find what number has been multiplied with itself to get any given {}positive{} value we use\n    this function. For example: {}sqrt(9){} will return 3 since 3*3=9.":"如果将一个数与它自身相乘，就会得到该数的平方，但有时你想反其道而行之，得到一个数的平方根。 因此，为了找到哪个数字与自身相乘以获得任何给定的{}正{}值，我们使用此函数。 例如：{}sqrt(9){} 将返回 3，因为 3*3=9。",
+    "The above code will set the variable \"num\" to hold the square root of the value contained in \"exp\".":"上面的代码将设置变量“num”来保存“exp”中包含的值的平方根。",
+    "The number to get the square root of.":"要获取其平方根的数。"
+}
