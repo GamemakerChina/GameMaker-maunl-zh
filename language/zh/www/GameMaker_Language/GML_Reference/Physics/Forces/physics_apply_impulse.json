@@ -1,0 +1,10 @@
+{
+    "Not only can you apply force and gravity to an object with the physics in {}GameMaker{} but you can also apply an impulse. This is slightly different to a force in that when it is applied it will {}immediately {}affect the speed, and, potentially the torque (or \"spin\") of the object, particularly if the point chosen to apply the impulse is not aligned with the center of mass (note: the center of mass is {}not necessarily{} the same as the origin!). Here is an illustration:":"您不仅可以对 {}GameMaker{} 中的物理对象施加力和重力，还可以施加脉冲。这与力略有不同，因为当施加力时，它会{}立即{}影响速度，并且可能影响对象的扭矩(或旋转)，特别是当选择施加脉冲的点与质心不对齐时(注意：质心{}不一定{}与原点相同!)。下面是一个例子：",
+    "The code above will apply an impulse with a random vector to an instance that is at the mouse position when the left button is pressed.":"按下左键时，上面的代码将向位于鼠标位置的实例应用带有随机向量的脉冲。",
+    "The x coordinate {}in the room{} where the impulse will be applied":"将应用脉冲的{}房间中{}的 X 坐标",
+    "The y coordinate {}in the room{} where the impulse will be applied":"将应用脉冲的{}房间中{}的 Y 坐标",
+    "the x component of the impulse vector":"脉冲矢量的 X 分量",
+    "the y component of the impulse vector":"脉冲矢量的 Y 分量",
+    "{}As you can see, the player has clicked on the ball and this has given it an impulse to move to the upper right, spinning as it goes. The exact impulse is defined by the vector we get from the components ximpulse/yimpulse in relation to the xpos/ypos coordinates - which simply means that the impulse is calculated as the distance from xpos/ypos to ximpulse/yimpulse in Newtons, and the direction is the angle that we get from xpos/ypos to ximpulse/yimpulse.":"{}正如您可以看到的，球员已经点击了球，这给了它一个移动到右上角的冲动，随着它的移动而旋转。确切的脉冲由我们从与 xpos/ypos 坐标相关的分量 ximpulse/yimpulse 得到的矢量定义-这只是意味着脉冲被计算为从 xpos/ypos 到 ximpulse/yimpulse 的距离，以牛顿为单位，方向是我们从 xpos/ypos 到 ximpulse/yimpulse 的角度。",
+    "{}NOTE{}: The physics world uses meters for all its calculations, and the ratio of pixels per meter is defined in the room editor or using {}{}{}physics_world_create(){}{}{}.":"{}注意{}：物理世界使用仪表进行所有计算，每米像素的比率在房间编辑器中定义或使用 {}{}{}physics_world_create(){}{}{}。"
+}

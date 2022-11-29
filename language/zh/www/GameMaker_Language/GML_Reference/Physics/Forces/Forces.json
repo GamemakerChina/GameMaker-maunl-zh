@@ -1,0 +1,9 @@
+{
+    "Forces":"力",
+    "In the {}GameMaker{} physics world, instances aren\u0027t only affected by gravity and collisions, they are also affected by the forces that you choose to apply to them, and knowing the right force to apply is very important when you want to control an instance correctly within the physics simulation. There are two forces which can be used and applied to your fixtures:":"在 {}GameMaker{} 物理世界中，实例不仅受到重力和碰撞的影响，而且还受到您选择应用于它们的力的影响，当您希望在物理模拟中正确控制实例时，了解要应用的正确力非常重要。有两种力可用于和应用于装置：",
+    "The following functions exist to apply different types of forces to physics enabled instances, and each function gives a fuller explanation of how the force will be applied than the outlines given above:":"以下函数用于将不同类型的力应用于启用了物理的实例，并且每个函数都比上面给出的轮廓更全面地说明了应用力的方式：",
+    "{}Angular Impulse{}: An angular impulse can be used to set a fixture spinning instantly, much like a regular impulse can be used to set a fixture instantly in movement.":"{}角度脉冲{}：角度脉冲可用于设置固定装置瞬间旋转，就像规则脉冲可用于设置固定装置瞬间移动一样。",
+    "{}Forces{}: A force will act on the existing velocity and direction and change it over time, making it ideal for things like wind, or a magnet, etc...":"{}力{}：力将作用于现有的速度和方向并随时间变化，使其成为风或磁铁等物体的理想选择...",
+    "{}Impulses{}: An impulse will set the direction and velocity {}immediately{} after it is applied, making it ideal for things like springs, or shooting bullets, etc.":"{}脉冲{}：脉冲施加后会{}立即{}设置方向和速度，使其成为弹簧或子弹等物体的理想选择。",
+    "{}Torque{}: Torque governs the likelihood for an instance to keep rotating around its axis after a force has been applied, and the speed at which it will stop rotating. Adding torque is a gradual process, much like using a force to add movement.":"{}扭矩{}：施加力后，扭矩控制实例绕其轴保持旋转的可能性，以及实例停止旋转的速度。增加扭矩是一个渐进的过程，就像用力增加运动一样。"
+}
