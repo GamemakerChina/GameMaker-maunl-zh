@@ -1,0 +1,21 @@
+{
+    "A script file may also be placed in the directory of an extension, which may look like this: {}&lt;project_directory&gt;/extensions/&lt;extension_folder&gt;/{}.":"脚本文件也可以放置在扩展名的目录中，这个目录可能像下面这样:{}project_directory/extensions/extension_folder/{}.",
+    "A script file may be placed at the root of your project directory, alongside the project\u0027s {}.yyp{} file.":"脚本文件可以放置在项目目录的根目录中，与项目的{}.yyp{}文件放在一起。",
+    "Compiler Batch Files / Scripts":"编译器批处理文件/脚本",
+    "Disabling Scripts for an Extension":"禁用扩展脚本",
+    "Execution":"执行",
+    "For that, see:&nbsp;{}How to Disable Extensions?{}":"有关这一点，请参见: {}如何禁用扩展? {}",
+    "If you use multiple extensions that run scripts, for example, Steamworks and GDK, then you\u0027ll want to disable Steamworks when exporting to GDK, and vice-versa.":"如果您使用多个运行脚本的扩展，例如 Steamworks 和 GDK，那么在导出到 GDK 时，您将希望禁用 Steamworks，反之亦然。",
+    "Placement":"安置",
+    "Script files with specific names, placed in any of the directories described above, are executed at various points during the compilation process:":"具有特定名称的脚本文件，放置在上面描述的任何目录中，在编译过程的不同点执行:",
+    "The extension versions of a script file will be executed first, and its root version will be executed last. The order in which extensions are executed can\u0027t be controlled, so an extension developer must ensure that one extension\u0027s scripts don\u0027t rely on another extension\u0027s scripts.":"脚本文件的扩展版本将首先执行，其根目录版本将最后执行。扩展的执行顺序无法控制，因此扩展开发人员必须确保一个扩展的脚本不依赖于另一个扩展的脚本。",
+    "The&nbsp;{}GameMaker{} compiler allows you to place Batch files (Windows) or Shell scripts (on macOS and Linux) in your project directory, and in the directory for each extension in your project.":"{}GameMaker {}编译器允许您将批处理文件(Windows)或 Shell 脚本(在 macOS 和 Linux 上)放在项目目录中，并放在项目中每个扩展的目录中。",
+    "These script files are supported when building on all target platforms.":"在所有目标平台上构建时都支持这些脚本文件。",
+    "This is executed after the asset compiler has been started for building the game":"这是在资产编译器已经开始构建游戏之后执行的",
+    "This is executed after the final packaging step has completed and the final ZIP file or store package has been prepared":"这是在最终打包步骤完成并准备好最终的 ZIP 文件或存储包之后执行的",
+    "This is executed after the textures for your game have been generated. You can use this step to optimise your game textures manually.{}\n          {}\n          This script receives an environment variable called {}TexturesDir{}, which stores the path to the generated textures.\n        ":"这是在游戏的纹理生成之后执行的。您可以使用此步骤手动优化游戏纹理。{}{}这个脚本接收一个名为{} TexturesDir {}的环境变量，它存储到生成的纹理的路径。",
+    "This is executed before the asset compiler is started for building the game":"这是在资产编译器开始构建游戏之前执行的",
+    "This is executed before the final packaging step, which is when all files are ready but the final ZIP file or store package is about to be created":"这在最终打包步骤之前执行，最终打包步骤是所有文件都准备就绪但即将创建最终 ZIP 文件或存储包的时候",
+    "This is executed before the game deployment is about to start":"这是在游戏部署即将开始之前执行的",
+    "This is executed when the game is prepared and ready to run; after the script\u0027s execution the game is started":"这是在游戏准备好并准备运行时执行的。在脚本执行之后，游戏就开始了"
+}
