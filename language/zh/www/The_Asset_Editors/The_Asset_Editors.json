@@ -1,0 +1,19 @@
+{
+    "Animation Curves":"动画曲线",
+    "Extensions":"扩展",
+    "Fonts":"字体",
+    "Images":"图像",
+    "Notes":"笔记",
+    "Objects":"物体",
+    "Paths":"路径",
+    "Rooms":"房间",
+    "Scripts":"脚本",
+    "Sequences":"序列",
+    "Shaders":"着色器",
+    "Sounds":"声音",
+    "Sprites":"精灵",
+    "The Asset Editors":"资源编辑器",
+    "Tile Sets":"瓦片集合",
+    "Timelines":"时间线",
+    "{}GameMaker{} has a number of different editors which you can use to add, remove and edit the different assets that your game requires. In the course of development you will need to use some - or even all - of these editors, and remembering what everything does can sometimes be a bit daunting. To help out, you can find each of the different editors listed below, and clicking any of them will take you to a page that explains in detail what it is and how to use it.":"{}GameMaker{}有许多不同的编辑器，您可以使用它们来添加、删除和编辑游戏所需的不同资产。在开发过程中，您将需要使用一些——甚至全部——这些编辑器，并且记住每件事情所做的有时可能有点令人生畏。为了帮助解决这个问题，你可以找到下面列出的每一个不同的编辑器，点击其中的任何一个都会带你进入一个详细解释它是什么以及如何使用它的页面。"
+}
