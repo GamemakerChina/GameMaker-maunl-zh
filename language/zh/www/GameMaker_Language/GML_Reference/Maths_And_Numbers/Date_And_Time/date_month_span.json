@@ -1,0 +1,6 @@
+{
+    "The datetime to compare it to.":"要比较的日期时间。",
+    "The first datetime.":"第一个日期时间。",
+    "This would set \"diff\" to the number of months between 15th September 2011, 11:04.0 and the current date and time.":"这将设置2011年9月15日、11:04.0和当前日期和时间之间的月数“差异”。",
+    "With this function you can get the number of months between two dates. This value is always positive, and incomplete months will be returned as a fraction.":"有了这个函数，你可以得到两个日期之间的月份数。这个值总是正的，不完整的月份将作为分数返回。"
+}

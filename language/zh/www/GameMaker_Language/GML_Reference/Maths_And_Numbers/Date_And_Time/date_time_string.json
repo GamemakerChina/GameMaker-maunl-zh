@@ -1,0 +1,5 @@
+{
+    "The datetime to use.":"要使用的日期时间。",
+    "This would set the given&nbsp;variable to something like \"11:36.00\" depending on the system settings for date/time displaying and the current date and time.":"这会根据显示日期/时间的系统设置以及当前日期和时间，将给定的变量设置为类似“11:36.00”的值。",
+    "With this function you can create a string containing the given time, formatted for the system or device that is running the game when the function is called.":"使用此函数，您可以创建一个包含给定时间的字符串，该字符串在调用此函数时为运行游戏的系统或设备格式化。"
+}

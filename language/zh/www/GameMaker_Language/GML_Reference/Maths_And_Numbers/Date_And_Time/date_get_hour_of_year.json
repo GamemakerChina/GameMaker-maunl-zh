@@ -1,0 +1,5 @@
+{
+    "The datetime to check.":"要检查的日期时间。",
+    "This function returns the hour of the given datetime value within the year (from the total number of hours for the year, taking into account leap years).":"该函数返回年内给定日期时间值的小时数(从一年的总小时数中，考虑闰年)。",
+    "This would set \"myhouryear\" to the current hour of the year.":"这将把“myhouryear”设置为今年的当前小时。"
+}

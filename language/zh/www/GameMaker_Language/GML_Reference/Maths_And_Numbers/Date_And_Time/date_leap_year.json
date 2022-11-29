@@ -1,0 +1,5 @@
+{
+    "The above code will check the current datetime to see if the year is a leap year or not. If it is it sets a global variable.":"上面的代码将检查当前的datetime，看看这一年是否是闰年。如果是，则设置一个全局变量。",
+    "The datetime to use.":"要使用的日期时间。",
+    "This function will return {}true{} if the year component of the given datetime value is a leap year or {}false{} otherwise. This can be a handy function for things like Easter Eggs in your games, or for unlocking special content.":"如果给定datetime值的年份分量是闰年，则此函数将返回{}true{}，否则返回{}false{}。对于游戏中的复活节彩蛋或解锁特殊内容来说，这是一个非常方便的功能。"
+}

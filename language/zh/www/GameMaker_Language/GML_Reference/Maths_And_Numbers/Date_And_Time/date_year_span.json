@@ -1,0 +1,6 @@
+{
+    "The datetime to compare it to.":"要比较的日期时间。",
+    "The first datetime.":"第一个日期时间。",
+    "This would set diff to the number of years between 15th September 2011, 11:04.0 and the current date and time.":"这将设置从2011年9月15日11:04.0到当前日期和时间之间的年数差异。",
+    "With this function you can get the number of years between two dates. This value is always positive, and incomplete years will be returned as a fraction.":"通过这个函数，你可以得到两个日期之间的年数。这个值总是正的，不完整的年份将作为一个分数返回。"
+}

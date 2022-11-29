@@ -1,0 +1,4 @@
+{
+    "The above code will draw the day, month and year.":"以上代码将绘制日期、月份和年份。",
+    "This {}read only{} variable returns the current month as a numeric value where 1 is January and 12 is December.":"此{}只读{}变量以数值形式返回当前月份，其中1为1月，12为12月。"
+}

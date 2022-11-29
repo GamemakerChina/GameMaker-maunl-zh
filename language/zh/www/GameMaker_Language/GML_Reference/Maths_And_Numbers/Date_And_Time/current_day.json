@@ -1,0 +1,4 @@
+{
+    "The above code will draw the day, month and year.":"以上代码将绘制日期、月份和年份。",
+    "This {}read only{} variable will return the day as a value from 1 to 31, depending on the month.":"这个{}只读{}变量将根据月份以1到31的值返回日期。"
+}

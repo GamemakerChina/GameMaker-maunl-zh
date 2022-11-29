@@ -1,0 +1,5 @@
+{
+    "The datetime to check.":"要检查的日期时间。",
+    "This function returns the week of the given datetime value within the year.":"此函数返回年内给定 datetime 值的周数。",
+    "This would set myweek to the current week.":"这将把myweek设置为当前一周。"
+}

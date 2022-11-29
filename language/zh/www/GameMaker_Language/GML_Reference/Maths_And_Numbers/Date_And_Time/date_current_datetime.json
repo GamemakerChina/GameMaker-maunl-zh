@@ -1,0 +1,4 @@
+{
+    "Returns the date-time value of the current moment. The time returned is based on the default time zone for the system (ie: local time). You can change the base time zone to use with the function&nbsp;{}{}date_set_timezone(){}{}.":"返回当前时刻的日期-时间值。返回的时间基于系统的默认时区(即:本地时间)。您可以通过&nbsp;{}{}date_set_timezone(){}{}来更改基本时区。",
+    "This would set local variable myhour to the hour of the current time, and myday to the day of the current date.":"这会将局部变量 myhour 设置为当前时间的小时，将 myday 设置为当前日期的天。"
+}

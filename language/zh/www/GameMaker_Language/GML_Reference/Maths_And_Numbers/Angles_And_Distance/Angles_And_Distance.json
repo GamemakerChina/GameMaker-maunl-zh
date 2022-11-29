@@ -1,0 +1,7 @@
+{
+    "Angles And Distance":"角度和距离",
+    "For an explanation of vectors and normalised vectors you can read the following section&nbsp;which give a brief overview of what is a vector and how it can be used in making games:":"关于向量和归一化向量的解释，你可以阅读下面的部分，它给出了什么是向量以及如何在游戏中使用它的简要概述:",
+    "The following functions are all related to angles and basic trigonometry:":"以下函数都与角度和基本三角有关:",
+    "This page lists all the number functions related to angles and distance, many of which are used in vector calculations as well as collisions and path finding.":"本页列出了所有与角度和距离有关的数字函数，其中许多函数用于矢量计算以及碰撞和路径寻找。",
+    "{}GameMaker{} also has a number of vector-based functions, listed below:":"{} GameMaker {}还有一些基于向量的函数，如下所示:"
+}
