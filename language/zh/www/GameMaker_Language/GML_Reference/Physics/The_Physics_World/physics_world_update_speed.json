@@ -1,0 +1,6 @@
+{
+    "The code above sets the physics system update speed to be twice that of the room speed.":"上面的代码将物理系统更新速度设置为房间速度的两倍。",
+    "The number of times per second that the physics system updates":"物理系统每秒更新的次数",
+    "{}GameMaker{} updates things based on the room speed, so that if you set it to ,say, 30, {}GameMaker{} will run 30 steps in the course of a second. However, for the physics functions that may not be enough and you may want things to be updated at a slightly faster speed to increase stability or precision. To that end we use the function {}physics_world_update_speed(){} which sets the update speed for the physics system {}independently{} of the room speed. This means that you could have a room speed of 30, but set the physics to 60, effectively doubling the speed at which the physics system updates and performs its calculations compared to the speed at which the step are updated.":"{}GameMaker{} 根据房间速度更新内容，因此如果您将其设置为 30，{}GameMaker{} 将在一秒钟内运行 30 个步骤。但是，对于可能不够的物理函数，您可能希望以稍快的速度更新事物，以提高稳定性或精度。为此，我们使用函数 {}physics_world_update_speed(){}，该函数{}独立{}设置物理系统的更新速度和房间速度。这意味着，可以将房间速度设置为 30，但将物理设置为 60，从而有效地将物理系统更新和执行其计算的速度与更新步骤的速度相比提高了一倍。",
+    "{}NOTE{}: you cannot currently set this to any less than room speed, but future updates may change this.":"{}注意{}：当前无法将此设置为小于房间速度，但以后的更新可能会更改此设置。"
+}

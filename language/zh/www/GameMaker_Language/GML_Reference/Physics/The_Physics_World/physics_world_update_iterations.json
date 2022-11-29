@@ -1,0 +1,5 @@
+{
+    "Everything in {}GameMaker{} is based around steps and, normally, each event will only happen once per step. However, to get the necessary precision with the physics functions they are made to do several calculations each step which are called \"iterations\" the number of which are controlled by this function. The default number for the physics system is 10, but this can be changed to higher or lower depending how many times you want the physics to calculate each step, but it is recommended that you set this no lower than 5 and no higher than 30. You should also be aware that this function is dependent on the {}{}physics_world_update_speed(){}{} function.":"{}GameMaker{} 中的所有内容都以步骤为基础，通常每个事件每步只发生一次。然而，为了使物理函数获得必要的精度，他们需要进行几次计算，每一步称为\"迭代\"，迭代的次数由这个函数控制。物理系统的默认值为 10，但可以将其更改为更高或更低，具体取决于您希望物理系统计算每个步骤的次数，但建议您将其设置为不低于 5 且不高于 30。您还应该注意，此函数取决于 {}{}physics_world_update_speed(){}{} 函数。",
+    "The code above sets the physics world in the current room to perform calculations 20 times a step.":"上面的代码将当前房间的物理世界设定为每步进行 20 次计算。",
+    "The iterations (per step) that the physics system will perform":"物理系统将执行的迭代(每步)。"
+}

@@ -1,7 +1,7 @@
 {
-    "Care should be taken when binding fixtures, as they can be bound to objects and instances independently. This means that if you bind a fixture to (for example) \"o_Wall\", {}all{} instances of that object will get the fixture. If you only want to bind a fixture to one instance, then use that instance\u0027s id in the appropriate function.":"绑定夹具时应该小心，因为它们可以独立地绑定到对象和实例上。这意味着，如果你将一个夹具绑定到(例如) \"o_Wall\"，{}该对象的所有{}实例都将获得该夹具。如果你只想把夹具绑定到一个实例上，那么在适当的函数中使用该实例的ID。",
+    "Care should be taken when binding fixtures, as they can be bound to objects and instances independently. This means that if you bind a fixture to (for example) \"o_Wall\", {}all{} instances of that object will get the fixture. If you only want to bind a fixture to one instance, then use that instance\u0027s id in the appropriate function.":"绑定装置时应该小心，因为它们可以独立地绑定到对象和实例上。这意味着，如果你将一个装置绑定到(例如) \"o_Wall\"，{}该对象的所有{}实例都将获得该装置。如果你只想把装置绑定到一个实例上，那么在适当的函数中使用该实例的ID。",
     "Finally, there are a couple of special physics functions which may be useful for more advanced physics simulations. The first is for testing for possible collisions at a specific point in the room, and the second is for generating custom mass and inertia properties within an instance:":"最后，有几个特殊的物理函数可能对更高级的物理模拟有用。第一个用于测试房间中特定点上的可能碰撞，第二个用于在实例中生成自定义质量和惯性属性：",
-    "Fixtures":"夹具",
+    "Fixtures":"装置",
     "Forces":"力",
     "Information on the physics functions can be found on the following pages:":"有关物理函数的信息，请参阅以下页面：",
     "Joints":"关节",

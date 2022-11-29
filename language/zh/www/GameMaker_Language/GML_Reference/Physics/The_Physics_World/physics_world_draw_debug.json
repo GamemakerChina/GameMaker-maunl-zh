@@ -1,0 +1,16 @@
+{
+    "Physics Debug Flag":"物理调试标志",
+    "Shows the basic shapes that make up the fixtures in the room":"这将显示构成房间中装置的基本形状",
+    "So, to draw any two of those options we would need to do a {}bitwise \"or\"{} (in {}GameMaker{} this is represented by | ) on the two of them and store the resulting variable for the function to use. Here is an example of how you would set a variable to use with the function that will draw only the centers of mass and the joints of all fixtures in a room:":"因此，要绘制这两个选项中的任意两个，我们需要对其中的两个选项执行位{}\"或\"{} (在 {}GameMaker{}中，这由 | 表示)，并存储要使用的函数的结果变量。下面是一个如何设置变量的示例，该变量将与仅绘制房间中所有设备的重心和关节的函数一起使用：",
+    "The code above will draw all of the absolute bounding boxes, the relative bounding boxes as well as the fixtures in collision within the current physics system.":"上面的代码将绘制当前物理系统中碰撞的所有绝对边界框、相对边界框以及装置。",
+    "The flag value for showing different debug features":"用于显示不同调试功能的标志值",
+    "This function will draw a representation of the physics world system of the room to help with debugging when you are having trouble getting the physics scene to work right. Sometimes the problem can be in the rendering part of your game, for example a sprite may be drawn at the wrong position or rotation, giving the appearance of incorrect physics, or it may be that your calculations are not correct. Either way, this function will help you to find and resolve the problem by drawing what is going on in your physics system. To do this, you need tell it which part of the system to draw, and this is done by passing a value created from the bits stored in various \"flag\" constants:":"此功能将绘制房间的物理世界系统的表示，以帮助您在物理场景无法正常工作时进行调试。有时，问题可能出在游戏的渲染部分，例如，可能会在错误的位置或旋转处绘制子画面，从而导致物理效果不正确，或者可能是因为计算不正确。无论采用哪种方式，此功能都可以通过绘制物理系统中的内容来帮助您查找和解决问题。为此，您需要告诉它要绘制系统的哪个部分，这是通过传递从存储在各种\"标志\"常量中的位创建的值来完成的：",
+    "This marks the center of mass of each fixture in the room":"这将标记房间中每个装置的重心",
+    "This shows the absolute bounding box of each fixture in relation to the room axis":"这将显示每个装置相对于房间轴的绝对边界框",
+    "This shows the actual shapes that make up fixtures within the room":"这将显示构成房间内装置的实际形状",
+    "This shows the relative bounding box for the fixtures in the room":"这将显示房间中装置的相对边界框",
+    "This will draw each of the joints of all fixtures in the room":"这将绘制房间中所有装置的每个关节",
+    "This will show any fixtures that are currently in collision":"这将显示当前处于碰撞中的所有装置",
+    "Which would give you something like this:":"这会给你这样的结果：",
+    "{}As you can see with the above code, only the shapes and centers of mass are drawn on the screen (as well as colours representing their states - for further information please check the Box 2D documentation on-line). In the same way you can display more, or even all, of the constants that you wish to debug... Just \"or\" them all together! One further thing should be noted - this function should be called {}only{} in the draw event of an instance that has a depth lower than those you wish to debug or else you will not be able to see the debug information.":"{}正如您在上述代码中看到的，屏幕上只绘制了形状和重心(以及代表其状态的颜色-有关详细信息，请在线查看 Box 2D 文档)。以同样的方式，您可以显示更多甚至全部要调试的常量...只是\"或者\"他们都在一起！还需要注意的一点是，如果某个实例的绘图事件的深度低于要调试的实例的深度，则应{}仅{}调用此函数，否则将无法查看调试信息。"
+}
