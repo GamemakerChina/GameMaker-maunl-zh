@@ -1,0 +1,18 @@
+{
+    "Disabling extensions selectively":"有选择地禁用扩展功能",
+    "Done!":"完成了!",
+    "First, {}set up a configuration{} for each one of your target platforms, if you haven\u0027t done so already.":"首先，为你的每个目标平台{}设置一个配置{}，如果你还没有这样做的话。",
+    "GameMaker has extensions for some target platforms, e.g. {}Steamworks{} and {}GDK{}.":"GameMaker有一些目标平台的扩展，例如{}Steamworks{}和{}GDK{}。",
+    "How to Disable Extensions?":"如何禁用扩展？",
+    "If you have more extensions, give them the same treatment: disable their exports in configurations that don\u0027t need them.":"如果你有更多的扩展，给它们同样的待遇：在不需要它们的配置中禁用它们的输出。",
+    "If you have more target platforms, add configurations for them, and modify which extensions are used for them.":"如果你有更多的目标平台，为它们添加配置，并修改哪些扩展被用于它们。",
+    "If you\u0027re using both of these extensions, you\u0027ll want to disable the GDK extension when building for Steam, and vice-versa.":"如果你同时使用这两个扩展，你要在为Steam构建时禁用GDK扩展，反之亦然。",
+    "Now, switch over to your {}Steamworks{} configuration. Open the GDK extension, and disable all of its targets.":"现在，切换到你的{}Steamworks{}配置。打开GDK扩展，并禁用其所有目标。",
+    "Now, whenever you build for GDK, use the GDK configuration; when you build for Steam, use the Steamworks configuration, and so on.":"现在，当你为GDK构建时，使用GDK配置；当你为Steam构建时，使用Steamworks配置，以此类推。",
+    "Open an extension that should not be used for GDK. For this example, open the Steamworks extension.":"打开一个不应该用于 GDK 的扩展。在这个例子中，打开Steamworks扩展。",
+    "This example only uses Steamworks and GDK.":"这个例子只使用Steamworks和GDK。",
+    "This problem is not limited to these two extensions, and applies to any extension that is meant for a specific target.":"这个问题不仅限于这两个扩展，也适用于任何针对特定目标的扩展。",
+    "Using configurations this way allows you to control which extensions are used for building which platforms.":"通过这种方式使用配置，你可以控制哪些扩展用于构建哪些平台。",
+    "{}Disable all of the targets under {}Copies To{}. This will ensure that the Steamworks extension is not executed when using the GDK configuration.":"{}禁用{}Copies To{}下的所有目标。这将确保在使用GDK配置时，Steamworks扩展不会被执行。",
+    "{}Select the configuration for one target platform. Let\u0027s assume you selected the {}GDK{} configuration.":"{}选择一个目标平台的配置。我们假设你选择了{}GDK{}配置。"
+}
