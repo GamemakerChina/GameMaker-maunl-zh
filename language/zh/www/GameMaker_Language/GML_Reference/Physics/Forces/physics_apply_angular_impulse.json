@@ -1,5 +1,5 @@
 {
     "The code above will give the physics enabled fixture an angular impulse if a key is pressed.":"如果按下一个键，上面的代码将给物理启用的装置提供一个角度脉冲。",
-    "The impulse (in Newton metres) to be applied":"要施加的脉冲(以牛顿米为单位)",
+    "The impulse (in Newton metres) to be applied":"要施加的脉冲(以牛顿/米为单位)",
     "This function will give an angular impulse to a physics enabled instance. This impulse will set the angular rotation by the amount given, ignoring the current torque, essentially setting the amount of \"spin\" that a fixture has. If you wish to apply an angular force to an instance using torque, then you should be using the function {}{}physics_apply_torque(){}{}.":"此函数将为启用物理的实例提供角度脉冲。该脉冲将根据给定的量设置角度旋转，忽略当前扭矩，基本上设置固定装置具有的\"旋转\"量。如果希望使用扭矩向实例施加角力，则应使用函数 {}{}physics_apply_torque(){}{}。"
 }

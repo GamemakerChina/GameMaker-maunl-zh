@@ -1,0 +1,3 @@
+{
+    "When you bind a fixture to an instance using {}{}physics_fixture_bind(){}{} this returns an \"id\" for the bound fixture. You can use this id to get the friction value of the bound fixture ({}not{} the \"base\" fixture) at any time using this function.":"当您使用 {}{}physics_fixture_bind(){}{} 将夹具绑定到实例时，此操作将返回绑定夹具的 \"id\"。您可以使用此 ID 随时使用此函数获取绑定夹具的摩擦力值({}而不是{}\"基础\"夹具)。"
+}
