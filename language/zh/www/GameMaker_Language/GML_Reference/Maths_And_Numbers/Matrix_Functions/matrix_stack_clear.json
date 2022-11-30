@@ -1,0 +1,4 @@
+{
+    "The above code checks the matrix stack to see if it is empty and if it is not it clears it.":"上面的代码检查矩阵堆栈，看它是否为空，如果不是，则清除它。",
+    "This function clears the matrix stack.":"此函数清除矩阵堆栈。"
+}

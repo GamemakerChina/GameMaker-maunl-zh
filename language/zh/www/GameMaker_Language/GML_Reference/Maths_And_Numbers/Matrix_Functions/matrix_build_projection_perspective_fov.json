@@ -1,0 +1,8 @@
+{
+    "The above code creates a field of view projection matrix which is then stored in a variable. This matrix is then used to set up the camera assigned to view port[0].":"上面的代码创建了一个视野投影矩阵，然后将其存储在一个变量中。 然后使用该矩阵设置分配给视口 [0] 的摄像机。",
+    "The angle of the field of view.":"视场的角度。",
+    "The aspect ratio of the field of view.":"视野的纵横比。",
+    "The far clipping plane.":"远剪裁平面。",
+    "The near clipping plane.":"近裁剪平面。",
+    "This function builds a perspective projection matrix matrix based on field of view, using the specified parameters listed below.":"该函数使用下面列出的指定参数，基于视场构建透视投影矩阵矩阵。"
+}

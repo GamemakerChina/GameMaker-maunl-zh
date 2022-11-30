@@ -1,0 +1,5 @@
+{
+    "The above code will build a new matrix and store the resulting matrix index in the variable \"m\" before replacing the top of the matrix stack with it.":"上面的代码将构建一个新矩阵并将生成的矩阵索引存储在变量“m”中，然后用它替换矩阵堆栈的顶部。",
+    "The matrix index to use.":"要使用的矩阵索引。",
+    "This function overwrites the current top of the matrix stack with the specified matrix.":"此函数用指定矩阵覆盖矩阵堆栈的当前顶部。"
+}

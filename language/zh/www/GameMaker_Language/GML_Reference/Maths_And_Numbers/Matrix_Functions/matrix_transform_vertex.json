@@ -1,0 +1,9 @@
+{
+    "The above code transforms the given values using the matrix stored in the variable \"t_matrix\" and stores them in the array \"verts\".":"上面的代码使用存储在变量“t_matrix”中的矩阵转换给定值，并将它们存储在数组“verts”中。",
+    "The matrix to use":"要使用的矩阵",
+    "The x component of the transform vector":"变换向量的 x 分量",
+    "The y component of the transform vector":"变换向量的 y 分量",
+    "The z component of the transform vector":"变换向量的 z 分量",
+    "This function transforms a vector by a matrix. You supply the transform matrix ID (as returned by the function {}{}matrix build(){}{}), as well as the x, y and z values for the vector to transform. The function will return\n    an&nbsp;{}array{} of 3 elements where:":"此函数通过矩阵变换向量。 您提供变换矩阵 ID（由函数 {}{}matrix build(){}{} 返回），以及要变换的向量的 x、y 和 z 值。 该函数将返回一个包含 3 个元素的{}数组{}，其中：",
+    "{}{}Array{}{} (3 elements)":"{}{}Array{}{} (3 elements) \n<br>数组（3 个元素）"
+}

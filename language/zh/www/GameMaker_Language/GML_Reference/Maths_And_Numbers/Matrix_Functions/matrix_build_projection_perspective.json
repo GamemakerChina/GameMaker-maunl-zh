@@ -1,0 +1,11 @@
+{
+    "For example, given a constant size of 640x480, the field of view will be wider if {}znear{} is closer to the camera,&nbsp;but it will be narrower if {}znear{} is far away from the camera. This behaviour is demonstrated in the following visual:":"例如，给定 640x480 的恒定尺寸，如果 {}znear{} 离相机较近，视野会更宽，但如果 {}znear{} 离相机较远，视野会变窄。 此行为在以下视觉效果中进行了演示：",
+    "Note that the field of view of the camera will vary depending on the {}width{}, {}height{}&nbsp;and {}znear{} values specified, as the projection width and height are placed at the Z position specified in the {}znear{} argument.":"请注意，相机的视野将根据指定的 {}width{}、{}height{} 和 {}znear{} 值而变化，因为投影宽度和高度放置在指定的 Z 位置 {}znear{} 参数。",
+    "The above code creates a perspective projection and then uses the matrix returned to set the camera assigned to view port[0].":"上面的代码创建了一个透视投影，然后使用返回的矩阵来设置分配给视口 [0] 的相机。",
+    "The far clipping plane.":"远剪裁平面。",
+    "The height of the projection at the near Z position.":"近 Z 位置的投影高度。",
+    "The near clipping plane.":"近裁剪平面。",
+    "The width of the projection at the near Z position.":"近 Z 位置投影的宽度。",
+    "This function builds a perspective projection matrix based on the dimensions of the near clipping plane, using the specified parameters listed below.":"此函数使用下面列出的指定参数，基于近裁剪平面的尺寸构建透视投影矩阵。",
+    "{}Due to this, it is recommended to use a {}znear{} value that is identical to the width of the projection,&nbsp;resulting in the field of view being consistent with an equivalent orthographic projection.":"{}因此，建议使用与投影宽度相同的 {}znear{} 值，从而使视野与等效正交投影一致。"
+}

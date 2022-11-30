@@ -1,0 +1,5 @@
+{
+    "The above code will build two new matrices and then push them onto the matrix stack. The world matrix is then set to the top of the stack, a sprite is drawn and the transforms are then popped from the stack.":"上面的代码将构建两个新矩阵，然后将它们推入矩阵堆栈。然后将世界矩阵设置到堆栈的顶部，绘制一个精灵，然后从堆栈中弹出转换。",
+    "This function returns the current top matrix of the stack, but does {}not{} remove it (for that use {}{}matrix_stack_pop(){}{}).":"此函数返回堆栈的当前顶矩阵，但{}不{}删除它(为此使用{}{}matrix_stack_pop(){}{})。",
+    "{}{}Matrix Array{}{}":"{}{}Matrix Array{}{} (矩阵数组)"
+}

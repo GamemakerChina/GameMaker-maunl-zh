@@ -1,14 +1,14 @@
 {
     "The above code creates a new look-at matrix and orthographic matrix, stores their IDs in local variables and then uses them to set the view and projection matrices for the camera assigned to view port[0].":"上面的代码创建了一个新的观察矩阵和正交矩阵，将它们的id存储在局部变量中，然后使用它们设置分配给视图端口[0]的摄像机的视图和投影矩阵。",
     "The x coordinate of the \"up\" vector.":"\"向上\"向量的 x 坐标。",
-    "The x coordinate of the position to look from.":"查看的位置的 x 坐标。",
+    "The x coordinate of the position to look from.":"观察的位置的 x 坐标。",
     "The x coordinate of the position to look to.":"看向的位置的x坐标。",
     "The y coordinate of the \"up\" vector.":"“向上”向量的 y 坐标。",
-    "The y coordinate of the position to look from.":"查看的位置的 y 坐标。",
+    "The y coordinate of the position to look from.":"观察的位置的 y 坐标。",
     "The y coordinate of the position to look to.":"看向位置的 y 坐标。",
     "The z coordinate of the \"up\" vector.":"\"向上\"向量的 z 坐标。",
-    "The z coordinate of the position to look from.":"查看的位置的 z 坐标。",
+    "The z coordinate of the position to look from.":"观察的位置的 z 坐标。",
     "The z coordinate of the position to look to.":"看向位置的 z 坐标。",
-    "This function builds a \"look-at\" (view) matrix based on the specified parameters listed below. Since this function modifies the view matrix and not the projection matrix, you should first initialize the projection matrix using the other matrix function {}{}matrix_build_projection_perspective(){}{}, then use this function to move the view camera around within the projection.":"这个函数基于下面列出的指定参数构建一个“查看(look-at)”(视图)矩阵。因为这个函数修改的是视图矩阵而不是投影矩阵，所以你应该首先使用另一个矩阵函数{}{}matrix_build_projection_perspective(){}{}初始化投影矩阵，然后使用这个函数在投影中移动视图摄像机。",
+    "This function builds a \"look-at\" (view) matrix based on the specified parameters listed below. Since this function modifies the view matrix and not the projection matrix, you should first initialize the projection matrix using the other matrix function {}{}matrix_build_projection_perspective(){}{}, then use this function to move the view camera around within the projection.":"这个函数基于下面列出的指定参数构建一个“观察(look-at)”(视图)矩阵。因为这个函数修改的是视图矩阵而不是投影矩阵，所以你应该首先使用另一个矩阵函数{}{}matrix_build_projection_perspective(){}{}初始化投影矩阵，然后使用这个函数在投影中移动视图摄像机。",
     "To set the view you first need to define the position you look {}from{}, which is indicated by the parameters (xfrom, yfrom, zfrom). Next you must specify the direction you look {}at{} and this is done by giving a second point to look towards with the arguments (xto, yto, zto). Finally, you can still rotate the camera around the line from the viewpoint to the looking point, and to specify this we must give an \"up\" vector - the direction that is upwards in the camera. This is given by the last three arguments (xup, yup, zup).":"要设置视图，首先需要定义从{}查看{}的位置，该位置由参数(xfrom, yfrom, zfrom)表示。接下来你必须指定你看{}{}的方向，这是通过参数(xto, yto, zto)给出第二个点来完成的。最后，你仍然可以绕着从视点到观察点的直线旋转相机，为了指定这一点，我们必须给出一个“向上(up)”向量 -相机的向上方向。这是由最后三个参数(xup, yup, zup)给出的。"
 }
