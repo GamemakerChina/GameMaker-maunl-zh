@@ -74,13 +74,13 @@
     "Tilesets":"Tilesets",
     "Timelines":"时间线",
     "To ease you into things we have created a handy Quick Start Guide, and even if you are familiar with other game creation tools we recommend that you start there to get an overview of the way that <span data-keyref=\"GameMaker Name\">GameMaker</span> works. You\u0027ll find <span data-keyref=\"GameMaker Name\">GameMaker</span> to be easy and intuitive to use and that, whatever your skill level, you will soon be making those games you\u0027ve&nbsp;always dreamed of.":"",
-    "To ease you into things we have created a handy Quick Start Guide, and even if you are familiar with other game creation tools we recommend that you start there to get an overview of the way that {}GameMaker{} works. You\u0027ll find {}GameMaker{} to be easy and intuitive to use and that, whatever your skill level, you will soon be making those games you\u0027ve&nbsp;always dreamed of.":"为了方便您了解情况，我们创建了一份方便的快速入门指南，即使您熟悉其他游戏创建工具，我们也建议您从该指南开始，了解{}GameMaker{}的工作方式。您会发现{}GameMaker{}易于使用且直观，无论您的技能水平如何，您很快就会制作出您一直梦寐以求的游戏。",
+    "To ease you into things we have created a handy Quick Start Guide, and even if you are familiar with other game creation tools we recommend that you start there to get an overview of the way that {}GameMaker{} works. You\u0027ll find {}GameMaker{} to be easy and intuitive to use and that, whatever your skill level, you will soon be making those games you\u0027ve&nbsp;always dreamed of.":"为了方便您了解情况，我们创建了一份方便的快速入门指南，即使您熟悉其他游戏创建工具，我们也建议您从该指南开始，了解 {}GameMaker{} 的工作方式。您会发现 {}GameMaker{} 易于使用且直观，无论您的技能水平如何，您很快就会制作出您一直梦寐以求的游戏。",
     "Type Tables":"类型表",
     "Updating Guide":"更新指南",
     "Vectors":"向量",
     "We also have a few extra pages with information on certain aspects of programing and using the GameMaker Language:":"我们还提供了一些额外的页面，其中包含有关编程和使用 GameMaker 语言的某些方面的信息：",
     "We also have a few extra pages with information on certain aspects of programming and using the GameMaker Language:":"我们还有一些额外的页面，其中包含了编程和使用 GameMaker 语言的某些方面的信息:",
-    "Welcome to the {}GameMaker{} user manual! This document is divided into three parts with the aim of getting you introduced to the interface and basic workings of {}GameMaker{} and general programming, before going on to more advanced usage and the functions available through our {}proprietary{}&nbsp;programming language GML (GameMaker Language).":"欢迎阅读{}GameMaker{}用户手册！本文档分为三个部分，目的是让您了解{}GameMaker{}的界面和基本工作原理以及通用编程，然后再介绍更高级的用法，以及通过我们的{}专有{}编程语言 GML(GameMaker Language)提供的功能。",
+    "Welcome to the {}GameMaker{} user manual! This document is divided into three parts with the aim of getting you introduced to the interface and basic workings of {}GameMaker{} and general programming, before going on to more advanced usage and the functions available through our {}proprietary{}&nbsp;programming language GML (GameMaker Language).":"欢迎阅读 {}GameMaker{} 用户手册！本文档分为三个部分，目的是让您了解 {}GameMaker{} 的界面和基本工作原理以及通用编程，然后再介绍更高级的用法，以及通过我们的 {} 专有 {} 编程语言 GML(GameMaker Language) 提供的功能。",
     "What Is Programming?":"什么是编程？",
     "Workspaces":"工作空间",
     "{}Additional IDE Tools{}{}Additional IDE Tools{}":"{}其他 IDE 工具{}{}其他 IDE 工具{}",
@@ -99,5 +99,5 @@
     "{}The Micro Web Server{}":"{}微型 Web 服务器{}",
     "{}The Start Page{}":"{}起始页{}",
     "{}{}Additional IDE Tools{}{}Additional IDE Tools{}{}":"",
-    "{}{}NOTE{}{}&nbsp;Due to the modular nature of {}GameMaker{} there are certain things that are not included in this user manual, in particular&nbsp;those aspects of setting up and connecting the different devices that can be supported. For up-to-date information and troubleshooting hints and tips related to the different target platforms, please see the {}GameMaker Help Center{}.":"{}{}注意{}{}由于{}GameMaker{}的模块化性质，本用户手册中未包含某些内容，尤其是可以支持的设置和连接不同设备的那些方面。有关与不同目标平台相关的最新信息以及故障排除提示和提示，请参阅{}GameMaker帮助中心{}。"
+    "{}{}NOTE{}{}&nbsp;Due to the modular nature of {}GameMaker{} there are certain things that are not included in this user manual, in particular&nbsp;those aspects of setting up and connecting the different devices that can be supported. For up-to-date information and troubleshooting hints and tips related to the different target platforms, please see the {}GameMaker Help Center{}.":"{}{} 注意 {}{} 由于 {}GameMaker{} 的模块化性质，本用户手册中未包含某些内容，尤其是可以支持的设置和连接不同设备的那些方面。有关与不同目标平台相关的最新信息以及故障排除提示和提示，请参阅 {}GameMaker 帮助中心 {}。"
 }

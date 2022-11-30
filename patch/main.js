@@ -149,6 +149,18 @@ qqq_hight_light=function(){
 	layer_div.animate({ scrollTop: layer_div.prop("scrollHeight") - layer_div.height() }, 0);
 }
 
+qqq_add_space_by_pangujs=function() {
+	var right = $(".qqq_menu .new").val();
+	var pangu1 = pangu.spacing(right);
+	$(".qqq_menu .new").val(pangu1);
+	// console.log(pangu1);
+}
+
+qqq_clean_space=function() {
+	var right = $(".qqq_menu .new").val();
+	$(".qqq_menu .new").val(right.replace(/\s*/g,""));
+}
+
 ///////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////
 
@@ -186,6 +198,8 @@ html=`<div class="hide">
 		new(translate)<span class="num"></span>
 		<br>
 		<button class="layui-btn  layui-btn-xs" onclick=qqq_hight_light()>hightlight</button>
+		<button class="layui-btn  layui-btn-xs" onclick=qqq_add_space_by_pangujs()>add space</button>
+		<button class="layui-btn  layui-btn-xs" onclick=qqq_clean_space()>clean space</button>
 		<textarea oninput="qqq_hight_light()" class="lr input new"contenteditable="true"></textarea>
 		</div>
 	</div>
