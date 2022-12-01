@@ -1,0 +1,13 @@
+{
+    "\"{}group_id{}\": will return the ID of the audio group that has been loaded (as defined in the {}Audio Group Editor{}).":"\"{}group_id{}\"：将返回已加载的音频组的 ID(如 {} 音频组编辑器 {} 中定义的)。",
+    "\"{}id{}\": the ID of the async function as returned by the function used.":"\"{}id{}\"：使用的函数返回的异步函数的ID。",
+    "\"{}status{}\": will return true if the data was saved/loaded correctly, and false otherwise.":"\"{}status{}\"：如果数据保存/加载正确，则返回true，否则返回false。",
+    "\"{}type{}\": this tells us the type of event being called and will be \"audiogroup_load\" for loading audio.":"\"{}type{}\"：这告诉我们正在调用的事件类型，并且将被\"audiogroup_load\"以加载音频。",
+    "Audio Groups":"音频组",
+    "Save / Load":"保存/加载",
+    "This permits you to poll the saving/loading progress and display a message or change rooms etc... when the process is complete.":"这允许您轮询保存/加载进度并在过程完成时显示消息或更改房间等。",
+    "When all audio has been loaded for a group, this event will trigger and it can then be used to change rooms, or play a music track etc...":"当为一组加载所有音频时，将触发此事件，然后可以使用它来更改房间，或播放音乐曲目等…",
+    "When working with {}Audio Groups{}, you can load them an unload them from memory using the functions {}{}audio_group_load(){}{}&nbsp;and\n    {}{}audio_group_unload(){}{}. When using the load function, it will trigger this event when the full set of audio\n    files set for the group has been loaded into memory and will populate the map with the following key/value pairs:":"使用 {} 音频组 {} 时，您可以使用函数  从内存中加载和卸载它们 {}{}audio_group_load(){}{}\n{}{}audio_group_unload(){}{}. 使用加载功能时，全套音频时会触发此事件\n为组设置的文件已加载到内存中，并将使用以下键 / 值对填充映射：",
+    "When you use the functions {}{}buffer_save_async(){}{}&nbsp;or {}{}buffer_load_async(){}{}&nbsp;an\n    asynchronous event will be triggered when the data transfer has been completed. This event will populate the {}async_load {}map with the following key/value pairs":"当使用函数 {}{}buffer_save_async(){}{} 或 {}{}buffer_load_async(){}{} 当数据搬迁完成时，将触发异步事件。此事件将使用以下键 / 值对填充 {}async_load{} 映射",
+    "{}This event will be triggered by the {}callback{} from certain functions related to loading\n    and saving buffers to files, as well as when loading or unloading audio from memory. The event itself will contain the built in {}{}async_load{}{}    DS map which will be populated by the keys required for the specific function. These are listed in the sections below.":"{} 此事件将由与加载相关的某些函数的 {} 回调 {} 触发\n并将缓冲区保存到文件，以及从内存中加载或卸载音频时。事件本身将包含内置的 {}{}async_load{}{}DS 映射，该映射将由特定功能所需的键填充。以下各节列出了这些问题。"
+}

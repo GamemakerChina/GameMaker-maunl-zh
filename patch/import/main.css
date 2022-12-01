@@ -30,7 +30,7 @@ span.num{
 	color:red;
 }
 
-i,a.tooltip{
+*{
     font-style: normal !important;
 }
 

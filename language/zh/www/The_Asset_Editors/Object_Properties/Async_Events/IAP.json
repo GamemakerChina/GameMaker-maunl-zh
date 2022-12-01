@@ -1,0 +1,4 @@
+{
+    "In App Purchase":"在应用程序购买",
+    "{}This event can only be triggered by the various {}In App Purchase {}(IAP) extensions for the different target platforms available on the {}Marketplace{}.\n    This event will always generate a DS map that is exclusive to this event and stored in the special variable {}{}async_load{}{}.\n    This DS map will have different key/value pairs depending on the extension function that triggered it, but there will always be an \"{}id{}\" key which can then be used to identify the type of In App Purchase event\n    that it is. For exact details of the possible return values and functions that generate this event, please see the individual PDF manuals included with each of the extensions.":"{} 此事件只能由 {} 市场 {} 上可用的不同目标平台的各种 {} 应用内购买 {}(IAP) 扩展触发。\n此事件将始终生成此事件独占的 DS 映射，并存储在特殊变量 {}{}async_load{}{} 中。\n此 DS 映射将根据触发它的扩展函数具有不同的键 / 值对，但始终会有一个 \"{}id{}\" 键，然后可用于识别应用内购买事件的类型\n就是这样。有关生成此事件的可能返回值和函数的确切详细信息，请参阅每个扩展中包含的各个 PDF 手册。"
+}

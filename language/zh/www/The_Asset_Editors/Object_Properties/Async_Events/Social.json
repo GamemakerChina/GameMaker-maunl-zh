@@ -1,0 +1,22 @@
+{
+    "\"{}completeddate{}\" - The completion date for challenge.":"\"{}completeddate{}\"-挑战的完成日期。",
+    "\"{}identifier{}\" - The identifying string for the challenge.":"\"{}identifier{}\"-挑战的识别字符串。",
+    "\"{}id{}\" - The value of this key will depend on the type of callback triggering the event (mostly used by extensions).":"\"{}id{}\"-此键的值将取决于触发事件的回调类型(主要由扩展使用)。",
+    "\"{}issueddate{}\" - The issue date for challenge":"\"{}issueddate{}\"-质询的发布日期",
+    "\"{}issuerid{}\" - The id of the person that issued the challenge.":"\"{}issuerid{}\" -发出挑战的人员的ID。",
+    "\"{}message{}\" - The text message for challenge.":"\"{}message{}\"-挑战的文本消息。",
+    "\"{}playerid{}\" - The player id for the challenge.":"\"{}playerid{}\"-挑战的玩家id。",
+    "\"{}score{}\" - The score tied in with the challenge.":"\"{}score{}\"-分数与挑战并列。",
+    "\"{}state{}\" - The state of the challenge, which will have a value of 0 - 3 (as a string) for invalid, pending, completed or declined.":"\"{}State{}\"-挑战的状态，对于无效、未决、完成或拒绝，挑战的值为0-3(作为字符串)。",
+    "\"{}type{}\" - The type of challenge given.":"\"{}type{}\"-给出的挑战类型。",
+    "Any of the above callbacks will trigger the Social Event and an {}async_load{} map will be generated with the following details (note that there is a different \"{}id{}\" key value to define each of the different reasons that the event was called, but all other contents of the map are the same):":"上述任何回调都将触发社交事件，并且将生成包含以下详细信息的 {}async_load{} 映射 (请注意，有一个不同的 \"{}id{}\" 键值来定义调用事件的每个不同原因，但映射的所有其他内容都是相同的)：",
+    "Social":"社交",
+    "The DS map will contain a number of keys, the most important of which is the \"{}id{}\" key. This will return a constant which can then be checked in code to determine which of the many callbacks the event has received. Once you have parsed this key and compared the value returned with the available constants, you can then continue to extract the rest of the information from the map.":"DS 映射将包含许多键，其中最重要的是 \"{}id{}\" 键。这将返回一个常量，然后可以在代码中检查该常量以确定事件收到了许多回调中的哪一个。解析此键并将返回的值与可用常量进行比较后，您可以继续从映射中提取其余信息。",
+    "The function pages on {}Achievements and Leaderboards{}&nbsp;in the Reference section detail the functions and callbacks as well as the constants used to trigger this event, but there are also certain circumstances in which it will be triggered without a function call from the game that is running:":"参考部分 {} 成就和排行榜 {} 上的函数页面详细介绍了用于触发此事件的函数和回调以及常量，但在某些情况下，它将在没有来自正在运行的游戏的函数调用的情况下被触发：",
+    "This event may also be triggered by {}Video Playback{}.":"此事件也可能由 {} 视频播放 {} 触发。",
+    "when another player completes a challenge":"当另一个玩家完成挑战时",
+    "when the game is started from the OS dashboard by selecting a challenge":"当游戏从操作系统仪表板开始时，通过选择一个挑战",
+    "when you complete a challenge":"当你完成一项挑战",
+    "when your game is launched from the OS dashboard":"当您的游戏从操作系统仪表板启动时",
+    "{}This event can only be triggered by the {}callback{}{}s{} from various specific {}Social Functions{}&nbsp;and {}Xbox Live Functions{} and will return a {}DS Map{}&nbsp;stored in the variable {}{}async_load{}{}, containing different key/value pairs depending on the callback from the function that has triggered the event.":"{} 此事件只能由来自各种特定 {5} 社交函数 {6} 和 {7}Xbox Live 函数 {8} 的 {} 回调 {}{}{} 触发，并将返回存储在变量 {}{}async_load{}{} 中的 {9}DS Map{10}，其中包含不同的键 / 值对，具体取决于触发事件的函数的回调。"
+}
