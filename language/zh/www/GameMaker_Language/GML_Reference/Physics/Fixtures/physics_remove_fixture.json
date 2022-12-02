@@ -1,0 +1,6 @@
+{
+    "The ID of the fixture that is to be removed from the instance":"要从实例中删除的装置的 ID",
+    "The ID of the instance to remove the fixture from":"要从中删除设备的实例的 ID",
+    "The code above will remove the fixture with the \"id\" stored in the variable \"my_fix\" from the instance.":"上面的代码将从实例中删除存储在变量 \"my_fix\" 中的夹具 \"id\" 。",
+    "This function removes (or \"un-binds\") a fixture from an instance or instances. It requires the unique \"id\" of the bound fixture (as returned by the function {}{}physics_fixture_bind(){}{} and it will remove all the currently defined physics properties for the instance, permitting you to redefine a new fixture and bind that to the instance. In this way you can change the instances physical properties without having to destroy and re-create it.":"此函数从一个或多个实例中删除 (或取消绑定) 夹具。它需要绑定夹具的唯一 \"id\" (由函数 {}{}physics_fixture_bind(){}{} 返回)，并将删除实例的所有当前定义的物理属性，从而允许您重新定义新夹具并将其绑定到实例。通过这种方式，您可以更改实例的物理属性，而不必销毁和重新创建它。"
+}

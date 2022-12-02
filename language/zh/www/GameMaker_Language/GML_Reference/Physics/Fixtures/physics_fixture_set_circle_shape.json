@@ -1,0 +1,6 @@
+{
+    "The code above will apply a circle shape to the fixture indexed in the variable \"fix_Ball\" with a radius the same as that of the width of the sprite \"spr_Ball\" divided by 2.":"上面的代码将对变量 \"fix_Ball\" 中索引的夹具应用圆形形状，其半径与精灵 \"spr_Ball\" 的宽度除以 2 的半径相同。",
+    "This function defines a circle shape for your fixture with a radius defined by the argument \"rad\".":"此函数使用参数 \"rad\" 定义的半径为设备定义圆形形状。",
+    "radius of the circle":"圆的半径",
+    "the index of the fixture":"夹具的索引"
+}

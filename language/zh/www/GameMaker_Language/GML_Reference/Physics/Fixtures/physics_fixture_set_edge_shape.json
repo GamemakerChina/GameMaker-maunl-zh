@@ -1,0 +1,9 @@
+{
+    "The above code will create a line of \"edge\" fixtures with a variety of heights over the length of the room.":"上述代码将创建一行\"边\"装置，在房间长度上具有不同的高度。",
+    "This function defines an \"edge\" fixture shape. An edge shape is simply a line that will generate a collision when other fixtures over lap it, and can be very useful for generating (for example) terrain, or for creating borders around a room. The position of the edge is defined using {}local{} space, ie: the x/y position of the instance is considered (0,0), so this should be taken into consideration when creating them (in the code example below, the instance would have been placed at (0,0) in the room to avoid complications).":"此函数定义\"边\"夹具形状。边缘形状只是一条线，当其他设备与其搭接时，该线将生成碰撞，并且对于生成 (例如) 地形或在房间周围创建边界非常有用。使用{}局部{}空间定义边的位置，即：考虑实例的 x/y 位置 (0,0)，因此在创建它们时应考虑到这一点 (在下面的代码示例中，为了避免复杂化，应将实例放置在房间的 (0,0) 处)。",
+    "end x position for the edge":"边的终点 X 位置",
+    "end y position for the edge":"边的终点 Y 位置",
+    "start x position for the edge":"边的起点 X 位置",
+    "start y position for the edge":"边的起点 Y 位置",
+    "the index of the fixture":"夹具的索引"
+}
