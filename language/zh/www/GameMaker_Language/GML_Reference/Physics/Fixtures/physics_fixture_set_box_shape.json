@@ -1,7 +1,7 @@
 {
     "The code above will apply a box shape to the fixture indexed in the variable \"fix_Border\" with a width of the room and a height of 20 pixels.":"上面的代码将对在变量 \"fix_Border\" 中索引的装置应用一个长方体形状，其宽度为房间宽度，高度为 20 像素。",
     "This function defines a box shape for your fixture. It takes the {}half{} width and height as the physics world uses this value far more than whole width/height values to determine things like collisions.":"此函数定义设备的长方体形状。由于物理世界使用此值远远超过整个宽度/高度值来确定碰撞等事物，因此需要{}半{}宽度和高度。",
-    "the index of the fixture":"夹具的索引",
+    "the index of the fixture":"装置的索引",
     "the {}half{} height of the box":"盒子的{}半{}高度",
     "the {}half{} width of the box":"盒子的{}半{}宽度"
 }

@@ -6,4 +6,4 @@ function/functions = 函数（仅GML Code，可能被机翻为：功能）
 primitive = 基元(图元 基元 原语 原点 原始)
 Legacy  =  旧版本,多于GameMaker同时使用(弃用 过时 旧版 传统 遗留)
 resource/asset = 资源
-fixtures = 夹具
+fixtures = 夹具/装置 （可能被机翻为：固定装置、设备、固定设备）

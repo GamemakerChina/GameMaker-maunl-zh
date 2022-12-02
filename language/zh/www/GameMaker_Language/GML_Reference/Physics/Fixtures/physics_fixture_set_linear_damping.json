@@ -1,0 +1,7 @@
+{
+    "Damping is used to reduce the physics world velocity of instances, and differs from friction in that friction only occurs when two instances with fixtures are in contact. Damping is also much cheaper to simulate than friction, but please note that damping\n    is not a replacement for friction; the two effects can, and should, be used together. Here is an image to illustrate damping:":"阻尼用于降低物理世界范围内实例的速度，与摩擦力的不同之处在于，摩擦力仅发生在具有固定装置的两个实例接触时。模拟阻尼也比模拟摩擦便宜得多，但请注意，阻尼不是摩擦的替代品;这两种效果可以并且应该一起使用。下面是一张图片来说明阻尼：",
+    "The code above will set the linear damping of the fixture indexed in \"fix_ball\" to 0.1.":"上面的代码将 \"fix_ball\" 中步进夹具的线性阻尼设置为 0.1。",
+    "the damping of the fixture, usually between 0 and 1":"装置的阻尼，通常在 0 和 1 之间",
+    "the index of the fixture":"夹具的索引",
+    "{}Damping parameters should be between 0 and infinity, with 0 meaning no damping,\n    and infinity meaning full damping. Normally you will use a damping value between 0 and 1, but you can use any non-negative value if required.":"{} 阻尼参数应介于 0 和无穷大之间，0 表示无阻尼，无穷大表示完全阻尼。通常，将使用介于 0 和 1 之间的阻尼值，但如果需要，可以使用任何非负值。"
+}
