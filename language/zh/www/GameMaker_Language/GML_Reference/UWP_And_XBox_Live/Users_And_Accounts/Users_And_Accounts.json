@@ -1,0 +1,7 @@
+{
+    "The Xbox One allows multiple users to sign in to a console simultaneously. Each user has a specific controller associated with them and any save game data is also user-specific. To make the most of this system, {}GameMaker{} introduces a number of Xbox One only functions related to the association between controllers and users, permitting you to query information about the user and also controlling how save data is handled on a per-user basis. You can find further developer information about this system from the official white paper on the {}Microsoft developer site{}.":"Xbox One允许多个用户同时登录主机。每个用户都有一个与他们相关的特定控制器，任何保存的游戏数据也都是针对用户的。为了充分利用这个系统，{}GameMaker{}引入了许多Xbox One专用函数，这些函数与控制器和用户之间的关联相关，允许您查询用户的信息，还可以控制如何按每个用户处理保存数据。您可以从官方白皮书{}Microsoft开发者站点{}中找到关于该系统的更多开发者信息。",
+    "The following functions are&nbsp;{}only{}&nbsp;valid when targeting the XBox One using UWP with a valid {}ID@XBox account{}:":"以下功能{}仅{}在使用具有有效 {}ID@XBox 帐户{}的 UWP 以 XBox One 为目标时有效：",
+    "The following functions exist for you to use with XBox Live accounts:":"以下函数可用于 XBox Live 帐户:",
+    "This section is for users targeting the&nbsp;Xbox platforms and outlines the Xbox Live functions available for dealing with users and user accounts.":"这一部分是针对Xbox平台的用户，概述了Xbox Live可用来处理用户和用户帐户的功能。",
+    "{}NOTE{}: Note that the User ID is unique to each individual and is perpetuated across different consoles, so if the same user signs in on two different devices this User ID will be the same.":"{}注{}:注意，用户ID对每个人都是唯一的，并且在不同的控制台中保存，所以如果同一个用户在两个不同的设备上登录，这个用户ID将是相同的。"
+}

@@ -1,0 +1,19 @@
+{
+    "Creating A YoYo Account":"创建一个 YoYo 帐户",
+    "If you require Proxy Support for your installation of {}GameMaker{}, this can be added simply by clicking the {}Proxy{}. This will bring up the following window:":"如果您需要为{}GameMaker{}安装代理支持，只需单击{}Proxy{}即可添加代理支持。这将打开以下窗口:",
+    "If your proxy does require a username and/or password, then you\u0027ll need to add them in to the fields shown in the window above. Note that in these cases the username/password/proxy details will always be required, and that the proxy IP should also have the port added, ie: {}xx.xx.xx.xx:port{}.":"如果您的代理确实需要用户名和/或密码，那么您需要将它们添加到上面窗口中显示的字段中。注意，在这些情况下，总是需要用户名/密码/代理详细信息，代理IP还应该添加端口，例如:{}xx.xx.xx.xx:port{}。",
+    "Licencing Information":"许可信息",
+    "Licencing&nbsp;Information":"许可信息",
+    "Once you have added the relevant information, click on Okay and log in to {}GameMaker{} as normal.":"添加完相关信息后，单击 OK 并像往常一样登录到{} GameMaker {}。",
+    "Once you have downloaded and installed {}GameMaker{}, the first time you use it you will be requested to input your licence details:":"一旦你下载并安装了{} GameMaker {} ，第一次使用它时，你将被要求输入你的许可证详细信息:",
+    "Opera account":"Opera 帐户",
+    "Proxy Support":"代理支持",
+    "Which Licence Is Right For Me?":"哪个许可证适合我？",
+    "YoYo Account":"YoYo 账户",
+    "You can read the following pages for information on how to obtain licences for {}GameMaker{}:":"有关如何获得{} GameMaker {}许可证的信息，请参阅以下页面:",
+    "You can use the \"{}Opera Single Sign-In{}\" button to sign in using your Opera account, however this still requires you to have a YoYo Account and to have your Opera account linked with your YoYo account first (which you can do {}on this page{}).":"您可以使用“{}Opera 单点登录{}”按钮使用您的Opera帐户登录，但这仍然需要您有一个YoYo帐户，并将您的Opera帐户首先与您的YoYo帐户链接(您可以在{}这个页面{}上做到)。",
+    "Your licence is tied to a {}YoYo Account{} (YYA) and you are required to have made one to be able to use {}GameMaker{}. This account holds all your licence details for the YoYo Games products that you own, and is also used for the {}GameMaker Marketplace{}. You can find out further information about the YYA from the following page:":"你的许可证与{}YoYo帐户{}(YYA)绑定，你必须创建一个帐户才能使用{}GameMaker{}。此帐户保存您拥有的YoYo Games产品的所有许可细节，也用于{}GameMaker 市场 {}。你可浏览以下网页，了解更多有关于 YYA 的资料:",
+    "{}GameMaker{} Free Licences":"{}GameMaker{} 免费许可证",
+    "{}You can now add in your proxy details. Some of the fields shown above are optional and if there is one you don\u0027t require then simply leave the field blank. Before continuing however it is worth noting that if you have set a proxy in your {}Windows Internet Options{}, and it doesn\u0027t require a username/password, then it should just \"as is\" and you probably will not be required to set up the proxy in {}GameMaker{}.":"{}您现在可以添加您的代理详细信息。上面显示的一些字段是可选的，如果有一个您不需要的字段，那么只需将该字段保留为空。在继续之前，值得注意的是，如果你在{}Windows网络选项{}中设置了代理，并且它不需要用户名/密码，那么它就应该“按原来的方式”，你可能不需要在{}GameMaker{}中设置代理。",
+    "{}{}IMPORTANT{}{}&nbsp;After purchasing any new licence for {}GameMaker{} we recommend that you {}log out of the IDE and then restart {}GameMaker{}{} {}and log back in again{} to make sure that the new licence is applied correctly. You can log out from the {}File Menu{}.":"{}{}IMPORTANT{}{} 在为{}GameMaker{}购买任何新的许可证后，我们建议您{}退出IDE，然后重新启动{}GameMaker{}{}{}，再次登录{}，以确保新的许可证被正确应用。您可以从{}文件菜单{}注销。"
+}

@@ -1,0 +1,5 @@
+{
+    "Required SDKs":"所需的 SDK",
+    "You can find a complete list of the required tools and SDKs per platform from the following link:":"你可在以下连结找到每个平台所需工具及 SDK 的完整清单:",
+    "{}GameMaker{} itself has no special requirements other than those listed on the {}Installing{} page and will install any required dependencies the first time you install the product as part of the package. However if you have any licence other than the {}Free {}licence, then you will also be required to set up and maintain the {}SDK{}\u0027s and other build tools that the export modules for the licence require.":"{}GameMaker{}本身除了在{}安装{}页面中列出的需求外没有其他特殊需求，并且会在第一次将产品作为包的一部分安装时安装所需的依赖项。然而，如果你有除{}免费{}许可以外的任何许可，你还需要设置和维护{}SDK{}和其他构建工具，这些工具是许可证导出模块所需要的。"
+}

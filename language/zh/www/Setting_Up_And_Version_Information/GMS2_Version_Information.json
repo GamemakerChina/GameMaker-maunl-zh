@@ -1,0 +1,12 @@
+{
+    "For up-to-date information on GameMaker licences, please see the following page:":"有关 GameMaker 许可证的最新资料，请参阅以下网页:",
+    "Installation Guide":"安装指南",
+    "Licencing &amp; Logging In":"授权及登录",
+    "Licencing &amp; Version Information":"许可证及版本资料",
+    "Regardless of the version of {}GameMaker{} that you use, they will all require same basic setup before use. The sections listed below all deal with this, and include information on updating the IDE and Runtimes, the required SDKs for specific target modules, and the IDE Preferences to adapt how {}GameMaker{} works to suit your own style of doing things.":"不管你使用的是什么版本的{}GameMaker{}，它们在使用之前都需要相同的基本设置。下面列出的部分都处理这个问题，包括更新IDE和运行时的信息，特定目标模块所需的sdk，以及调整{}GameMaker{}如何工作以适应您自己的做事风格的IDE首选项。",
+    "Release Notes":"发行说明",
+    "Required SDKs":"所需的 SDK",
+    "There are various different versions of the licences that you can get for {}GameMaker{}, the choice of which will depend largely on the audience that you want to target as well as on whether you just want to have some fun making games or wish to sell and distribute them as well.":"{}GameMaker{}可以获得不同版本的许可证，选择哪种许可证很大程度上取决于你的目标用户，以及你只是想要创造一些有趣的游戏还是想要销售和发行游戏。",
+    "Updating Guide":"更新指引",
+    "Which Licence Is Right For Me?":"哪个许可证适合我？"
+}
