@@ -161,6 +161,16 @@ qqq_clean_space=function() {
 	$(".qqq_menu .new").val(right.replace(/\s*/g,""));
 }
 
+qqq_toUpper=function() {
+	var right = $(".qqq_menu .new").val().toUpperCase();
+	$(".qqq_menu .new").val(right);
+}
+
+qqq_toLower=function() {
+	var right = $(".qqq_menu .new").val().toLowerCase();
+	$(".qqq_menu .new").val(right);
+}
+
 ///////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////
 
@@ -198,8 +208,10 @@ html=`<div class="hide">
 		new(translate)<span class="num"></span>
 		<br>
 		<button class="layui-btn  layui-btn-xs" onclick=qqq_hight_light()>hightlight</button>
-		<button class="layui-btn  layui-btn-xs" onclick=qqq_add_space_by_pangujs()>add space</button>
-		<button class="layui-btn  layui-btn-xs" onclick=qqq_clean_space()>clean space</button>
+		<button class="layui-btn  layui-btn-xs" onclick=qqq_add_space_by_pangujs()>添加空格</button>
+		<button class="layui-btn  layui-btn-xs" onclick=qqq_clean_space()>删除空格</button>
+		<button class="layui-btn  layui-btn-xs" onclick=qqq_toUpper()>全大写</button>
+		<button class="layui-btn  layui-btn-xs" onclick=qqq_toLower()>全小写</button>
 		<textarea oninput="qqq_hight_light()" class="lr input new"contenteditable="true"></textarea>
 		</div>
 	</div>
