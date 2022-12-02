@@ -1,6 +1,6 @@
 {
     "If you think about any rotating object in the \"real world\", unless it has a motor or is in space, it slows down over time due to the influence of external forces (like friction with the air around it). We can use the function {}physics_fixture_set_angular_damping(){}    in {}GameMaker{} to simulate this effect and reduce the velocity of rotation of instances in the physics world, as, without it, any rotating instance would continue to rotate infinitely. Damping parameters should be between 0 and infinity,\n    with 0 meaning no damping, and infinity meaning full damping. Normally you will use a damping value between 0 and 1, but you can use any non-negative value if required.":"如果你想想\"真实世界\"中的任何旋转物体，除非它有马达或在太空中，否则它会随着时间的推移而由于外力的影响 (比如与周围空气的摩擦) 而变慢。我们可以使用 {}GameMaker{} 中的 {}physics_fixture_set_angular_damping(){} 函数来模拟此效果，并降低物理世界中实例的旋转速度，因为如果没有它，任何旋转实例都将继续无限旋转。阻尼参数应介于 0 和无穷大之间，0 表示无阻尼，无穷大表示完全阻尼。通常，将使用介于 0 和 1 之间的阻尼值，但如果需要，可以使用任何非负值。",
-    "The code above will set the angular damping of the fixture indexed in \"fix_ball\" to 0.1.":"上面的代码将 \"fix_ball\" 中步进夹具的角度阻尼设置为 0.1。",
+    "The code above will set the angular damping of the fixture indexed in \"fix_ball\" to 0.1.":"上面的代码将 \"fix_ball\" 中步进装置的角度阻尼设置为 0.1。",
     "the angular damping of the fixture, usually between 0 and 1":"装置的角度阻尼，通常在 0 和 1 之间",
-    "the index of the fixture":"夹具的索引"
+    "the index of the fixture":"装置的索引"
 }
