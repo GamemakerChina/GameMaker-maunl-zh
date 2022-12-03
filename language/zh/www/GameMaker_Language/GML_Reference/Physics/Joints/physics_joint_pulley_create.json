@@ -1,0 +1,3 @@
+{
+    "The pulley joint is used to connect two instances within the physics world in such a way that moving one will directly influence the movement of the other. These joints are first anchored in the world space at two points, each one connected to an instance at its center of mass. This can be changed by setting the local anchor x/y coordinates relative to the origin of the instance, meaning that the actual connection from the instance to the physics world anchor point can be offset somewhere other than its origin. The following image illustrates this:":"滑轮关节是用来连接物理世界中的两个实例的，其方式是移动一个实例将直接影响另一个实例的运动。这些关节首先锚定在世界空间的两个点上，每个点都与一个实例的质心相连。这可以通过设置相对于实例原点的局部锚点 x/y 坐标来改变，也就是说，从实例到物理世界锚点的实际连接可以偏移到原点以外的地方。下面的图片说明了这一点。"
+}
