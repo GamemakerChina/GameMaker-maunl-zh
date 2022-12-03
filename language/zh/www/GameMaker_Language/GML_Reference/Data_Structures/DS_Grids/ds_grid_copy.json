@@ -1,0 +1,6 @@
+{
+    "The above code creates a new DS grid, based on the width and height of a previously created grid, then copies the information form the previous grid to the new one. Finally it clears the old grid so that all cells have a value of -1.":"上述代码基于先前创建的网格的宽度和高度创建新的D轴网格，然后将信息从先前的网格复制到新的网格。最后，它将清除旧栅格，以便所有单元格的值都为-1。",
+    "This index of the grid to copy from.":"要从中复制的网格的此索引。",
+    "This index of the grid to copy to.":"要复制到的网格的此索引。",
+    "With this function you can copy the contents of one grid into another one. Both grids must have been created previously using the {}{}ds_grid_create(){}{} function.":"使用此函数，可以将一个网格的内容复制到另一个网格中。以前必须使用{}{}ds_grid_create(){}{}函数创建这两个网格。"
+}

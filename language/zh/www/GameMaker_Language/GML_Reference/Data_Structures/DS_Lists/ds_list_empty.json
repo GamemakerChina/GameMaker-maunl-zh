@@ -1,0 +1,5 @@
+{
+    "The above code checks a variable to see if it has reached a specific value and if it has it clears the DS list indexed in the variable \"command_list\", sets an alarm, and resets the variable to 0.":"上述代码检查变量是否已达到特定值，以及是否清除变量\"command_list\"中索引的Ds列表，设置报警，并将变量重置为0。",
+    "The id of the data structure to check.":"要检查的数据结构的ID。",
+    "With this function you can check the given DS list to see if it is empty (returns {}true{}) or not (returns {}false{}).":"使用此函数，您可以检查给定的D列表以查看它是否为空(返回{}真{})(返回{}假{})。"
+}

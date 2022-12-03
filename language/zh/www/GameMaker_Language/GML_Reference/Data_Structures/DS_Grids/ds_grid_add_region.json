@@ -1,0 +1,10 @@
+{
+    "The index of the grid.":"网格的索引。",
+    "The value to add to the region cells.":"要添加到区域单元格的值。",
+    "The x position of the left of the region in the grid.":"网格中区域左侧的x位置。",
+    "The x position of the right of the region in the grid.":"网格中区域右侧的x位置。",
+    "The y position of the bottom of the region in the grid.":"网格中区域底部的y位置。",
+    "The y position of the top of the region in the grid.":"栅格中区域顶部的y位置。",
+    "This function can be used to add a given value (real or string) to all the values of the cells found within the defined area of a grid. The value to be added must be of the same type as that held within the grid cells, ie: you cannot add a string to\n    a real or vice-versa, and for strings this corresponds to concatenation.":"此函数可用于将给定的值(实数或字符串)添加到在网格定义区域内找到的所有单元格值中。要添加的值必须与网格单元格中的值具有相同的类型，即：不能将字符串添加到\n实数或反之亦然，对于字符串而言，这相当于连接。",
+    "This would add \".\" to all the strings held in the cells within the defined region of the DS grid referenced by the variable \"grid\".":"这会将\".\"添加到由变量\"网格引用的D网格的定义区域内单元格中保存的所有字符串中。\""
+}

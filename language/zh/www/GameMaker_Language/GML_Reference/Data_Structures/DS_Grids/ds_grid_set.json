@@ -1,0 +1,8 @@
+{
+    "The above code creates a grid and stores its index in the variable \"grid\". It then populates this grid with random integers from 0 to 9.":"上述代码创建一个网格并将其索引存储在变量\"网格\"中。然后使用0到9之间的随机整数填充此网格。",
+    "The value with which to set the cell.":"用于设置单元格的值。",
+    "The x position of the cell to set.":"要设置的单元格的x位置。",
+    "The y position of the cell to set.":"要设置的单元格的y位置。",
+    "This function can be used to set a given cell within the given DS grid to any value, which can be a real number or a string. The image below illustrates this:":"此函数可用于将给定D网格内的给定单元格设置为任何值，该值可以是实数或字符串。下图说明了这一点：",
+    "This index of the grid.":"网格的此索引。"
+}

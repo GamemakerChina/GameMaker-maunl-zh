@@ -1,0 +1,7 @@
+{
+    "Optional values to be added to the list.":"要添加到列表中的可选值。",
+    "The above code will add the value stored in the \"score\" variable into the list indexed in the variable \"sc_list\".":"上述代码将把存储在\"score\"变量中的值添加到变量\"sc_list\"中的索引列表中。",
+    "The id of the list to add to.":"要添加到的列表的ID。",
+    "The value to add to the list.":"要添加到列表中的值。",
+    "This function can be used to add a new value (real or string) to the list, which will be added on at the end. The function can take further optional arguments (as many as you require), permitting you to add multiple values consecutively to the list in a single call.":"此函数可用于向列表中添加一个新值(实数或字符串)，该值将在列表末尾添加。该函数可以采用更多的可选参数(根据需要选择多个参数)，允许您在一次调用中将多个值连续添加到列表中。"
+}
