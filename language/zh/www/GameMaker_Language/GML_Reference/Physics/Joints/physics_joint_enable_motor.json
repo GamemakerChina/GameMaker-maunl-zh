@@ -1,0 +1,6 @@
+{
+    "The above code creates and defines a new fixture and then creates an instance of \"obj_Door\", binding the created fixture to the two instances. They are then joined by a revolute joint with no motor and the angles limited to a +/- 90 degree swing, and we store the joint index in the variable \"perma_joint\". We then switch the motor on using this variable, before finally deleting the fixture from memory as it is no longer needed.":"上述代码创建并定义了一个新的装置，然后创建了一个 \"obj_Door\" 实例，将创建的装置绑定到这两个实例。然后通过没有马达且角度限制为 +/- 90 度回转的旋转关节连接它们，并且我们将关节索引存储在可变的 \"perma_joint\" 中。然后，我们使用此变量打开马达，最后从内存中删除不再需要的装置。",
+    "The joint that you wish to enable or disable the motor on":"要启用或禁用马达的关节",
+    "When you have a joint with a motor ({}prismatic{} or {}revolute{}), you may want to be able to switch the motor on or off depending on variables and conditions within the game. For this, you need to have stored the index of the joint previously in a variable and then you can switch the motor on or off by using this function and setting the \"motor\" argument to {}true{} or {}false{}.":"当您使用带有马达 ({}棱镜{}或{}旋转{}) 的关节时，您可能希望能够根据游戏中的变量和条件打开或关闭马达。为此，您需要先将关节的索引存储在变量中，然后通过使用此函数并将 \"motor\" 参数设置为 {}true{} 或 {}false{} 来打开或关闭马达。",
+    "Whether you wish to turn the motor on (true) or off (false)":"是否希望打开 (true) 或关闭 (false) 马达。"
+}

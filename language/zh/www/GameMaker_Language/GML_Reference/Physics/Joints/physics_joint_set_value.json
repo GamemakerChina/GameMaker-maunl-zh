@@ -1,0 +1,7 @@
+{
+    "Certain joint properties can be changed and set even after the creation of the joint. There are a number of constants that can be used in this function and they can be found here: {}Physics Joint Constants{}.":"即使在创建关节之后，也可以更改和设置某些关节特性。此函数中可以使用许多常量，这里可以找到这些常量：{}物理关节常量{}。",
+    "The above code checks to see if the joints maximum motor torque is set to less than 2 and if it is it then sets it to 2.":"上述代码检查接头最大马达扭矩是否设置为小于 2，然后将其设置为 2。",
+    "The constant for the joint property that you wish to change":"要更改的关节特性的常量",
+    "The index of the joint that you wish to change":"要更改的关节的索引",
+    "The new value for the joint property":"关节特性的新值"
+}

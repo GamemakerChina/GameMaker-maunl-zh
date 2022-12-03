@@ -1,0 +1,12 @@
+{
+    "The above code will create a fixture then bind it to two instances, before connecting them both using a friction joint.":"上述代码将创建一个装置，然后将其绑定到两个实例，然后使用摩擦关节连接两个实例。",
+    "The first instance to connect with the joint":"与关节连接的第一个实例",
+    "The friction joint is a bit different to all other joints in the physics simulation in that the connection created will not constrain the instances position or movement, but rather its speed and rotation. This works by taking the maximum input values for force and torque and applying those to the second fixture to bring the speed and angular momentum down to the same values as that of the first instance. So, if you have a stationary instance and a moving instance then connect them with a friction joint, the moving instance will gradually slow down until it too is stationary. If both instances were moving then the second instance will have its movement speed modified to match that of the first instance.":"摩擦关节与物理模拟中的所有其他关节稍有不同，因为创建的连接不会约束实例的位置或运动，而是约束其速度和旋转。这通过获取力和扭矩的最大输入值并将这些值应用到第二个装置来使速度和角动量下降到与第一个实例相同的值。因此，如果有一个固定实例和一个移动实例，然后使用摩擦关节将它们连接起来，则移动实例将逐渐减慢，直到它也是静止的。如果两个实例都在移动，则第二个实例的移动速度将被修改为与第一个实例的移动速度相匹配。",
+    "The maximum frictional force that will be applied":"将要施加的最大摩擦力",
+    "The maximum rotational force that will be applied":"将要施加的最大旋转力",
+    "The second instance to connect with the joint":"与关节连接的第二个实例",
+    "The x coordinate for the joint, within the game world":"游戏世界中关节的 X 坐标",
+    "The y coordinate for the joint, within the game world":"游戏世界中关节的 Y 坐标",
+    "Whether the two instances can collide (true) or not (false)":"这两个实例是否可以碰撞 (true) 或不碰撞 (false)",
+    "{}As with most other joints, you supply the instances to join together, as well as the position for the joint to be created at within the room. You then supply the maximum force and maximum torque (directional and rotational friction), and if you set the \"col\" value to {}true{} then the two instances can interact and collide with each other but {}only{} if they have collision events, however if it is set to {}false{}, they will not collide no matter what.":"{} 与大多数其他关节一样，您提供了要连接在一起的实例，以及要在房间内创建关节的位置。然后提供最大力和最大扭矩 (方向摩擦和旋转摩擦)，如果将 \"col\" 值设置为 {}true{}，则两个实例可以相互作用并发生碰撞，但是{}只有{}在它们发生碰撞事件时才会发生碰撞，但是如果设置为 {}false{}，则无论发生什么情况，它们都不会发生碰撞。"
+}

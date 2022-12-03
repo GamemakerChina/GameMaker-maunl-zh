@@ -1,0 +1,7 @@
+{
+    "Additionally, you can use a number of constants from within {}GameMaker{} functions to get (or set) different properties of certain joints. These constants can all be found in the following section:":"此外，您可以使用 {}GameMaker{} 函数中的多个常量来获取 (或设置) 某些关节的不同属性。这些常量都可以在以下部分中找到：",
+    "In the {}GameMaker{} physics world, joints are used to constrain instances to the world or to each other. Typical examples in games include ragdolls, teeters, and pulleys, but joints can be combined in many different ways to create interesting motions or add realism to your game world.":"在 {}GameMaker{} 的物理世界中，关节被用来将实例约束在世界中或相互之间。游戏中的典型例子包括布娃娃、跷跷板和滑轮，但关节可以用许多不同的方式组合起来，以创造有趣的运动或为你的游戏世界增加真实感。",
+    "Once a joint has been created, it can often be necessary to know its properties in order to change them at specific times in your game. The following functions (with their corresponding internal constants) are available to test and change joint values:":"一旦创建了一个关节，往往需要知道它的属性，以便在游戏中的特定时间改变它们。以下函数(及其相应的内部常数)可以用来测试和改变关节的值。",
+    "The following pages explain the available joints and how they can be created:":"以下页面说明了可用的关节以及如何创建它们：",
+    "{}NOTE{}: A joint does not need to be deleted when you destroy an instance joined to another instance, nor does it need to be deleted at the end of a room. Except in very specific cases (see the {}gear joint{}) as this is dealt with automatically by {}GameMaker{}.":"{}注意{}：当你摧毁一个与另一个实例相连的实例时，不需要删除关节，也不需要在一个房间结束时删除。除非在非常特殊的情况下 (见{}齿轮关节{})，因为这是由 {}GameMaker{} 自动处理的。"
+}

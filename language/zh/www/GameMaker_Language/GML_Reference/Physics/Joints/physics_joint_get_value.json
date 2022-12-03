@@ -1,0 +1,7 @@
+{
+    "By using a series of predefined constants, you can ask {}GameMaker{} to tell you a number of things about the state of any given joint. This is very useful as it gives you the ability to delete joints or change an instances behaviour depending on whatever your needs are at the time. There are a number of constants that can be used in this function and they can be found here: {}Physics Joint Constants{}, but be aware that complex calculations are done when you call these, so they should be used with care and only when necessary and note that {}many are unique to a specific type of joint{}.":"通过使用一系列预定义常量，您可以询问 {}GameMaker{}，告诉您有关任何给定关节状态的许多信息。这非常有用，因为它使您能够根据当时的需要删除关节或更改实例行为。此函数中可以使用许多常量，这里可以找到这些常量：{}物理关节常量{}，但请注意，调用这些常数时会执行复杂的计算，因此应小心使用，并且仅在必要时使用，并且请注意，{}许多常数对于特定类型的联合{}是唯一的。",
+    "If the property does not exist (if, for example, you check a pulley joint for prismatic translation) then 0 will be the return value.":"如果特性不存在 (例如，如果检查滑轮接头的棱柱平移)，则返回值为 0。",
+    "The above code checks to see if the variable \"shipJoint\" holds a joint index and if it does, it then calculates the force being applied to that joint using the two constants. Finally, if the total force is greater than 2, the joint is deleted.":"上述代码检查变量 \"shipJoint\" 是否保持关节索引，如果保持关节索引，则使用这两个常量计算应用于该关节的力。最后，如果总力大于 2，则会删除关节。",
+    "The constant for the joint property that you wish to test":"要测试的关节特性的常量",
+    "The index of the joint that you wish to test":"要测试的关节的步进"
+}

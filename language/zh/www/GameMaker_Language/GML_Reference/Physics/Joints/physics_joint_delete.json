@@ -1,0 +1,6 @@
+{
+    "It should also be noted that whenever an instance that is part of a {}gear joint{} is destroyed, the gear joint should be deleted using this function {}before{} any of the instances involved in forming the gear (but the remaining joints will be deleted automatically), for example in the destroy event of the instance.":"还应注意，只要{}齿轮关节{}的一部分实例被破坏，应在{}形成齿轮所涉及的任何实例之前使用此函数{}删除齿轮关节(但其余关节将自动删除)，例如在实例的破坏事件中。",
+    "Once two instances with physics representations have been bound by a joint, this can be deleted again at any time. Normally this will happen automatically when one of the two instances is destroyed, or when the room ends, but there are times when you may wish to do this manually. In those cases you would use this function.":"如果两个具有物理表达的实例已通过关节绑定，则可以随时再次删除该实例。通常，当两个实例中的一个被销毁或房间结束时，会自动执行此操作，但有时您可能希望手动执行此操作。在这些情况下，您将使用此函数。",
+    "The above code checks to see if the variable \"shipJoint\" holds a joint index and if it does, it then calculates the force being applied to that joint using the two constants. Finally, if the total force is greater than 2, the joint is deleted.":"上述代码检查变量 \"shipJoint\" 是否保持关节索引，如果保持关节索引，则使用这两个常量计算应用于该关节的力。最后，如果总力大于 2，则会删除关节。",
+    "The index of the joint that you wish to delete":"要删除的关节的索引"
+}
