@@ -1,0 +1,7 @@
+{
+    "The height of the grid to be created.":"要创建的轴网的高度。",
+    "The width of the grid to be created.":"要创建的网格的宽度。",
+    "This creates a grid 10 cells high and 10 cells wide.":"这将创建一个高10个单元格和宽10个单元格的栅格。",
+    "With this function you can create a new DS grid data structure of the specified cell width and height. This function returns an id which must be used in all further functions that deal with this DS grid.":"使用此函数，可以创建具有指定单元格宽度和高度的新D网格数据结构。此函数返回一个ID，该ID必须用于处理此D网格的所有其他函数。",
+    "{}IMPORTANT!{} When you create a data structure, the index value to identify it is an integer value starting at 0. This means that data structures of different types can have the {}same{} index value, so if in doubt you should be using the {}{}{}ds_exists(){}{}{} function before accessing them. Also note that indices are re-used, so a destroyed data structure index value may be used by a newly created one afterwards.":"{}重要信息!{}创建数据结构时，用于标识它的索引值是一个从0开始的整数值。这意味着不同类型的数据结构可以具有{}相同的{}索引值，因此如果有疑问，您应该在访问之前使用{}{}{}ds_exists(){}{}{}函数。另请注意，索引是重复使用的，因此销毁的数据结构索引值之后可能会被新创建的索引值使用。"
+}

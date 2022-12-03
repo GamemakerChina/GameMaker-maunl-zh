@@ -1,0 +1,8 @@
+{
+    "The above code will set the variable \"val\" to the sum of all values contained within the given disk of the DS grid indexed in the variable \"grid\".":"上述代码将变量\"值\"设置为包含在变量\"网格\"中索引的D网格的给定磁盘中的所有值的总和。",
+    "The index of the grid.":"网格的索引。",
+    "The radius of the disk on the grid.":"网格上磁盘的半径。",
+    "The x position of the disk on the grid.":"磁盘在网格上的x位置。",
+    "The y position of the disk on the grid.":"磁盘在网格上的y位置。",
+    "This function can be used to add all the values all the cells found within the defined disk area of a grid together, as shown in the image below:":"此函数可用于将在网格的已定义磁盘区域内找到的所有单元格的值相加，如下图所示："
+}

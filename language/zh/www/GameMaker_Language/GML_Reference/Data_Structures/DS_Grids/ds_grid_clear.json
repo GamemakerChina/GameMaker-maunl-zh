@@ -1,0 +1,6 @@
+{
+    "The above code will resize the DS grid indexed in the global variable \"Grid\" and then clear it so that each cell holds the value -1.":"上述代码将调整在全局变量\"Grid\"中索引的D网格的大小，然后将其清除，以便每个单元格保留值-1。",
+    "The new value for all grid cells.":"所有栅格单元的新值。",
+    "This function can be used to clear a given DS grid to a specific value. All cells within the grid will then contain this value, which can be a real number or a string. The image below illustrates how this works:":"此函数可用于将给定的D网格清除为特定值。然后，网格中的所有单元格都将包含该值，该值可以是实数或字符串。下图说明了这种方法的工作原理：",
+    "This index of the grid to clear.":"此索引要清除的网格。"
+}

@@ -1,0 +1,10 @@
+{
+    "The above code will take all the values found within the circular grid area and multiply each one by 2.":"以上代码将采用在圆形栅格区域中找到的所有值，并将每个值乘以2。",
+    "The index of the grid.":"网格的索引。",
+    "The radius of the disk on the grid.":"网格上磁盘的半径。",
+    "The value to multiply the cells within the disk with.":"将磁盘中的单元格与相乘的值。",
+    "The x position of the disk on the grid.":"磁盘在网格上的x位置。",
+    "The y position of the disk on the grid.":"磁盘在网格上的y位置。",
+    "This function will take all the values in a given disc-shaped region of the DS grid, and multiply each one by the given amount.":"此函数将获取D网格中给定圆盘形区域中的所有值，并将每个值乘以给定的量。",
+    "{}{}NOTE{}{} This function will only work with real numbers, not strings.":"{}{}注意{}{}此函数仅适用于实数，不适用于字符串。"
+}

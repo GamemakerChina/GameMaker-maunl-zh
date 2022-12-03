@@ -2,12 +2,12 @@
 	"esc"=//layer.closeAll()
 	
 	,"1"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('彩云')").click()
-	,"2"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('deepl')").click()
-	,"3"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('langx')").click()
-	,"4"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('aws')").click()
-	,"5"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('ali')").click()
-	,"6"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('xinyi')").click()
-	,"7"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('xunfei')").click()
+	,"2"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('DeepL')").click()
+	,"3"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('LangX')").click()
+	,"4"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('AWS')").click()
+	,"5"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('阿里')").click()
+	,"6"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('新译')").click()
+	,"7"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('讯飞')").click()
 	
 	,"`"=//layer.close("distinction");if(!$('textarea:focus').length)$(".layui-layer button:contains('distinction')").click()
 	

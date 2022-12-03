@@ -1,0 +1,9 @@
+{
+    "The above code will set the variable \"val\" to the mean value contained within the given region of the DS grid indexed in the variable \"grid\".":"上述代码将变量\"值\"设置为包含在变量\"栅格\"中索引的D栅格的给定区域内的平均值。",
+    "The bottom cell row of the region.":"区域的底部单元格行。",
+    "The index of the grid.":"网格的索引。",
+    "The left cell column of the region.":"区域的左侧单元格列。",
+    "The right cell column of the region.":"区域的右侧单元格列。",
+    "The top cell row of the region.":"区域的顶部单元格行。",
+    "This function can be used to find the mean value for all the cells found within the defined region of a grid (all cell values are added together and then divided by the total number of cells that make the region), as shown in the image below:":"此函数可用于查找在网格的已定义区域内找到的所有单元格的平均值(将所有单元格值相加，然后除以构成该区域的单元格总数)，如下图所示："
+}

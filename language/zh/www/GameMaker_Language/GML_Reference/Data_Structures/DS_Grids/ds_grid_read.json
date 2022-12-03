@@ -1,0 +1,8 @@
+{
+    "Note that if the specified DS string was written by the GameMaker: Studio 1.2.x runtime (or older),&nbsp;you should specify the optional argument \"legacy\", setting it to {}true{} as the string format changed after that.":"请注意，如果指定的D字符串是GameMaker编写的：Studio 1.2. x运行时(或更早版本)，您应该指定可选参数\"legacy\"，将其设置为{}true{}，作为之后更改的字符串格式。",
+    "The above code creates a DS grid based on the size of the room (each 32x32 square of pixels represents one grid cell) and then reads a previously saved set of grid data from an ini file into the new DS&nbsp;grid.":"上述代码根据房间大小创建一个D网格(每个32 x 32平方像素代表一个网格单元格)，然后从ini文件中读取先前保存的一组网格数据到新的D网格中。",
+    "The index of the grid to read.":"要读取的网格的索引。",
+    "The string to read into the DS grid.":"要读入D网格的字符串。",
+    "This function can be used to convert a string which has been created previously by the function {}{}ds_grid_write(){}{} back into a DS grid. The DS grid must have been created previously (see the example below).":"此函数可用于将以前由函数{}{}ds_grid_write(){}{}创建的字符串转换回D网格。D网格必须先前已创建(请参见下面的示例)。",
+    "{}OPTIONAL{}&nbsp;Can be either {}true{} or {}false{} or omitted completely.":"{}可选{}可以为{}真{}或{}假{}，也可以完全省略。"
+}

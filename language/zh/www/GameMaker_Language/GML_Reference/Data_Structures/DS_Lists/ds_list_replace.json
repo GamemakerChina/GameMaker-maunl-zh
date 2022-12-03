@@ -1,0 +1,5 @@
+{
+    "The id of the list to change.":"要更改的列表的ID。",
+    "The position to replace the value, where 0 corresponds to the very beginning of the list and the final position is {}ds_list_size(id)-1{}.":"The position to replace the value, where 0 corresponds to the very beginning of the list and the final position is {}ds_list_size(id)-1{}.",
+    "This function will replace the value at the given position for another one.":"该功能将替换另一个给定位置的值。"
+}
