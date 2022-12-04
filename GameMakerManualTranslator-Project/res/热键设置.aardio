@@ -5,6 +5,7 @@ if !hot_key return 0
 key_state={}
 
 import key
+import winex
 按键触发=function(str){
 	if !string.len(str) return 0;
 	
@@ -16,8 +17,10 @@ import key
 	return 1;
 }
 
-mainForm.setInterval(100,function(){try{
-
+mainForm.setInterval(16,function(){try{
+	//句柄不符跳过热键
+	if mainForm.hwnd!=winex.getUiInfo().hwndActive return 1
+	
 	for(k,v in hot_key){
 		var state=按键触发(k)
 		if state{
