@@ -1,0 +1,7 @@
+{
+    "The above code will check to see if the given key exists and if it doesn\u0027t then it is created and set.":"以上代码将检查给定的密钥是否存在，如果不存在，则会创建并设置该密钥。",
+    "The id of the map to use.":"要使用的映射的ID。",
+    "The key to set.":"要设置的关键。",
+    "The value to set the key to.":"要将密钥设置为的值。",
+    "With this function you can set the value of a key within a given DS map. You supply the DS map ID value (as returned by the function {}{}ds_map_create(){}{}), then give the key you want to set and the value to set it to. Keys can be integers or strings, and if the given key does not exist then it will be created for you and set to the value. This function is the same as using the {}DS map accessor{} to set/create a map key/value pair. The function does not return anything, so if you need to check if the key value has been replaced or a new key has been created, then you should use the function {}{}ds_map_replace(){}{}.":"使用此函数，您可以在给定的D映射中设置关键点的值。提供Ds映射ID值(由函数{}{}ds_map_create(){}{}返回)，然后提供要设置的密钥和要设置的值。关键点可以是整数或字符串，如果给定的关键点不存在，则将为您创建该关键点并将其设置为值。此功能与使用{}D映射访问器{}设置/创建映射键/值对相同。函数不返回任何内容，因此，如果需要检查是否已替换密钥值或已创建新密钥，则应使用函数{}{}ds_map_replace(){}{}。"
+}

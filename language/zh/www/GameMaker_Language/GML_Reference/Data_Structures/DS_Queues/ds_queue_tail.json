@@ -1,0 +1,5 @@
+{
+    "The above code will read the value from the queue indexed in the variable \"control_queue\" and store the return value in the variable \"num\".":"上述代码将从变量\"control_queue\"中索引的队列读取值，并将返回值存储在变量\"number\"中。",
+    "The id of the data structure to read from.":"要读取的数据结构的ID。",
+    "This function will only {}read{} the last value of the queue (that which is \"at the tail\"). It will not {}dequeue{} the value, meaning that it can still be read in the future by this function or the {}{}ds_queue_dequeue(){}{}.":"此函数将只读取{}队列的最后一个值(即\"尾部\")。它不会将值{}出列{}，这意味着此函数或{}{}ds_queue_dequeue(){}{}将来仍可以读取该值。"
+}

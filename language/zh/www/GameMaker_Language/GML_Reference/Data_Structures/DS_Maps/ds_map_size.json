@@ -1,0 +1,5 @@
+{
+    "The above code will check the size of the DS map&nbsp;(ie: number of key/value pairs) and if it is greater than 49 it sets the variable \"full\" to {}true{}.":"上述代码将检查Ds映射的大小(即：密钥/值对的数量)，如果大于49，则将变量\"full\"设置为{}true{}。",
+    "The id of the data structure to check.":"要检查的数据结构的ID。",
+    "With this function you can find how many key/values pairs the (previously created) DS map&nbsp;contains.":"使用此函数，您可以找到(先前创建的)D映射包含的密钥/值对数。"
+}

@@ -1,0 +1,5 @@
+{
+    "The above code checks the DS queue&nbsp;indexed in the variable \"move_queue\" to see if it is empty, and if it is not, it then dequeues the two values from the head of the queue and use them to set a direction for movement.":"上面的代码检查变量\"move_queue\"中索引的Ds队列以查看其是否为空，如果不为空，则将这两个值从队列头部出队，并使用它们设置移动方向。",
+    "The id of the queue to dequeue from.":"要从中出队的队列的ID。",
+    "This function will {}dequeue{} the head value off of the DS queue, removing it from the queue and returning the value to be stored in a variable. If the queue is empty then the function will return the constant {}undefined{}, otherwise it will return the&nbsp;value contained in the queue.":"此函数将{}将头值从Ds队列中出列{}，将其从队列中删除并返回要存储在变量中的值。如果队列为空，则函数将返回未定义的常量{}，否则将返回队列中包含的值。"
+}

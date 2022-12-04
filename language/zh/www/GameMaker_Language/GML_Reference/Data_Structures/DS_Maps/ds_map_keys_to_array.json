@@ -1,0 +1,6 @@
+{
+    "The above code retrieves the keys for a DS map and then stores them as an array for future use.":"上述代码检索D映射的密钥，然后将其存储为数组以供将来使用。",
+    "The id of the map to use.":"要使用的映射的ID。",
+    "With this function you can retrieve all of the keys that a DS map contains. You supply the DS map ID to get the keys from (as returned by {}{}ds_map_create(){}{}) and the function will return an {}array{} where each entry in the array is a key from the DS map. The function has an optional second argument where you can supply an array that you have created, in which case the map key data will be appended onto any existing data in the array. Note that the function will modify the array supplied directly, but will also return a reference to it (or a reference to a new array if none is supplied).":"使用此函数，您可以检索D映射包含的所有密钥。提供D映射ID以从中获取密钥(由{}{}ds_map_create(){}{}返回)，函数将返回一个{}数组{}，其中数组中的每个条目都是D映射的密钥。该函数具有可选的第二个参数，您可以在其中提供已创建的数组，在这种情况下，映射键数据将附加到数组中的任何现有数据上。请注意，该函数将修改直接提供的数组，但也将返回对它的引用(如果未提供任何引用，则返回对新数组的引用)。",
+    "{}OPTIONAL{} The array to append the DS map keys to.":"{}可选{}要将D映射键附加到的数组。"
+}

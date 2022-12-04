@@ -1,0 +1,7 @@
+{
+    "The above code adds a script function to the priority queue indexed in the variable \"ai_priority\" and assigns it a priority of 5.":"上述代码将脚本函数添加到变量\"ai_priority\"中索引的优先级队列，并为其分配优先级5。",
+    "The id of the priority queue to add to.":"要添加到的优先级队列的ID。",
+    "The priority of the value to add.":"要添加的值的优先级。",
+    "The value to add to the priority queue.":"要添加到优先级队列的值。",
+    "With this function you can add a value (either a real number or a string) to a priority queue, at the same time assigning it a priority value.":"使用此函数，您可以向优先级队列添加值(实数或字符串)，同时为其分配优先级值。"
+}

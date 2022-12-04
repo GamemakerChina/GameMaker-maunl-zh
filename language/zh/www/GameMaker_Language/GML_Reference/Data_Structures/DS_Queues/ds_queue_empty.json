@@ -1,0 +1,5 @@
+{
+    "The above code checks a variable to see if it has reached a specific value and if it has it clears the DS queue&nbsp;indexed in the variable \"command_queue\", sets an alarm, and resets the variable to 0.":"上述代码检查变量是否达到特定值，以及是否清除变量\"command_queue\"中的Ds队列索引，设置报警，并将变量重置为0。",
+    "The id of the data structure to check.":"要检查的数据结构的ID。",
+    "With this function you can check the given DS queue&nbsp;to see if it is empty (returns {}true{}) or not (returns {}false{}).":"使用此函数，您可以检查给定的Ds队列以查看它是否为空(返回{}真{})或不是(返回{}假{})。"
+}

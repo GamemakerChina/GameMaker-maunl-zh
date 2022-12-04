@@ -1,0 +1,5 @@
+{
+    "This function will create a new stack data-structure and return the index value. This value should be stored in a variable and used in all further function calls relating to the stack.":"此函数将创建新的堆栈数据结构并返回索引值。此值应存储在变量中，并用于与堆栈相关的所有进一步函数调用。",
+    "This will create a new stack and assign its index id to the instance variable \"stack\".":"这将创建一个新堆栈，并将其索引ID分配给实例变量\"堆栈\"。",
+    "{}IMPORTANT!{} When you create a data structure, the index value to identify it is an integer value starting at 0. This means that data structures of different types can have the {}same{} index value, so if in doubt you should be using the {}{}{}ds_exists(){}{}{} function before accessing them. Also note that indices are re-used, so a destroyed data structure index value may be used by a newly created one afterwards.":"{}重要信息!{}创建数据结构时，用于标识它的索引值是一个从0开始的整数值。这意味着不同类型的数据结构可以具有{}相同的{}索引值，因此如果有疑问，您应该在访问之前使用{}{}{}ds_exists(){}{}{}函数。另请注意，索引是重复使用的，因此销毁的数据结构索引值之后可能会被新创建的索引值使用。"
+}

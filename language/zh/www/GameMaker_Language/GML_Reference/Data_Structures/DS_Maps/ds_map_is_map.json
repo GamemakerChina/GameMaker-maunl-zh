@@ -1,0 +1,7 @@
+{
+    "Note that this will only detect maps that were added using the{}&nbsp;{}{}{}ds_map_add_map(){}{}{}&nbsp;{}function.":"请注意，这将仅检测使用{}{}{}{}ds_map_add_map(){}{}{}{}{}函数添加的映射。",
+    "The above code loops through a DS map and checks to see if any of the keys within it are for other DS maps. If they are, then the stored DS map is destroyed, and the at the end of the loop the main DS map is destroyed too.":"上述代码循环浏览Ds映射并检查其中是否有任何密钥用于其他Ds映射。如果是，则会销毁存储的Ds映射，并且在循环结束时，也会销毁主Ds映射。",
+    "The id of the map to use.":"要使用的映射的ID。",
+    "The key to replace.":"换人的钥匙。",
+    "With this function you can check to see if a DS map&nbsp;is stored in the given map key. If the given key contains a DS map ID, then the function will return {}true{} otherwise it will return {}false{}.":"使用此功能，您可以检查Ds映射是否存储在给定的映射键中。如果给定的密钥包含Ds映射ID，则函数将返回{}true{}，否则将返回{}false{}。"
+}

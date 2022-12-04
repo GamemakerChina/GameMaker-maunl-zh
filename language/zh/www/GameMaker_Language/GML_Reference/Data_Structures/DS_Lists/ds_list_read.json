@@ -1,0 +1,8 @@
+{
+    "Note that if the specified DS string was written by the GameMaker: Studio 1.2.x runtime (or older),&nbsp;you should specify the optional argument \"legacy\", setting it to {}true{} as the string format changed after that.":"请注意，如果指定的D字符串是GameMaker编写的：Studio 1.2. x运行时(或更早版本)，您应该指定可选参数\"legacy\"，将其设置为{}true{}，作为之后更改的字符串格式。",
+    "The above code creates a list and stores the index in the variable \"list\". It then opens an {}ini{} file and reads a string from that, checking to make sure that the string is not returned as empty first. This string is then read into the newly created ds_list.":"上述代码创建一个列表并将索引存储在变量\"list\"中。然后打开{}ini{}文件并从中读取字符串，检查以确保字符串不会首先返回为空。然后将此字符串读入新创建的ds_list。",
+    "The id of the data structure to read into.":"要读入的数据结构的ID。",
+    "The string to read from.":"要从中读取的字符串。",
+    "With this function you can recreate a saved DS list (one that has previously been written as a string using {}{}ds_list_write(){}{}). You must first create a new DS list to read the string into, and if the DS list already exists and has information stored in it, then this will be cleared before reading. This function is of vital importance when creating save/load mechanisms for your game.":"使用此函数，您可以重新创建一个已保存的D列表(以前使用{}{}ds_list_write(){}{}以字符串形式写入的D列表)。您必须首先创建一个新的D列表以读取字符串，如果D列表已存在并且其中存储了信息，则在读取之前将清除此列表。为游戏创建保存/加载机制时，此功能至关重要。",
+    "{}OPTIONAL{} Can be either {}true{} or {}false{} or omitted completely.":"{}可选{}可以为{}真{}或{}假{}，也可以完全省略。"
+}

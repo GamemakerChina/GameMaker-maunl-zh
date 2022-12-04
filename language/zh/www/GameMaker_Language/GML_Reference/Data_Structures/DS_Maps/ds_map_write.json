@@ -1,0 +1,6 @@
+{
+    "The above code opens an ini file ready to be written to. It then uses {}ds_map_write(){} to generate a string which is stored in the temporary variable \"t_string\". Finally, it writes that string to the ini file before closing it.":"上述代码将打开一个可以写入的ini文件。然后使用{}ds_map_write(){}生成存储在临时变量\"t_string\"中的字符串。最后，它会在关闭ini文件之前将该字符串写入。",
+    "The id of the data structure to use":"要使用的数据结构的ID",
+    "This function will turn the DS map&nbsp;data of the specified map into string format which can then be written to an *.ini or a *.txt file for easy storage. This string can then be later read back into a new ds_map using {}{}ds_map_read(){}{}.":"此功能会将指定映射的D映射数据转换为字符串格式，然后可以将其写入*.ini或a*.txt文件以便于存储。然后，可以使用{}{}ds_map_read(){}{}将此字符串读回新的ds_map。",
+    "{}NOTE{}: The returned string is not a human readable string, but rather a dump of the contents of the data-structure.":"{}注意{}:返回的字符串不是人工可读字符串，而是数据结构内容的转储。"
+}

@@ -1,5 +1,7 @@
 {
+    "The above code will replace the value stored at position 3 in the list for that stored in the variable \"name\".":"对于存储在变量\"名称\"中的值，上述代码将替换列表中位置3处存储的值。",
     "The id of the list to change.":"要更改的列表的ID。",
-    "The position to replace the value, where 0 corresponds to the very beginning of the list and the final position is {}ds_list_size(id)-1{}.":"The position to replace the value, where 0 corresponds to the very beginning of the list and the final position is {}ds_list_size(id)-1{}.",
+    "The new value to replace the given value with.":"要将给定值替换为的新值。",
+    "The position to replace the value, where 0 corresponds to the very beginning of the list and the final position is {}ds_list_size(id)-1{}.":"替换值的位置，其中0对应于列表的最初位置，最终位置为{}ds_list_size(id)-1{}。",
     "This function will replace the value at the given position for another one.":"该功能将替换另一个给定位置的值。"
 }

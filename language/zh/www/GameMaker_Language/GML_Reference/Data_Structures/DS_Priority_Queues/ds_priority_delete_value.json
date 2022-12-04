@@ -1,0 +1,6 @@
+{
+    "The above code checks an instance variable and if it returns {}false{} it will remove the indexed script function from the priority queue.":"以上代码检查实例变量，如果返回{}false{}，将从优先级队列中删除索引脚本函数。",
+    "The id of the priority queue to use.":"要使用的优先级队列的ID。",
+    "The value to delete from the priority queue.":"要从优先级队列中删除的值。",
+    "This function will simply delete the given value, along with its priority, from the indexed priority queue.":"此函数将简单地从索引优先级队列中删除给定值及其优先级。"
+}

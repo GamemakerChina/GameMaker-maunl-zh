@@ -1,0 +1,9 @@
+{
+    "The id of the map to add to.":"要添加到的映射的ID。",
+    "The key of the value to add.":"要添加的值的关键字。",
+    "The value to add to the map.":"要添加到地图的值。",
+    "This function should be used to add sets of key/value pairs into the specified {}DS map{}. You can check this function to see if it was successful or not (it will return {}true{} on success or {}false{} otherwise),\n    as it may fail if there already exists the same key in the DS map&nbsp;or you specify a non-existent DS map&nbsp;as the ID&nbsp;of the map to add to. The keys and and values you supply can be made up of any combination of data types, so all of the following - and\n    more - are acceptable (although, in practice, you would most commonly use a string for the key):":"此函数应用于将键/值对集合添加到指定的{}个D映射{}中。您可以检查此函数是否成功(成功时将返回{}个true{}，否则将返回{}个false{})，\n因为如果D映射中已存在相同的密钥，或者您将不存在的D映射指定为要添加到的映射的ID，则可能会失败。您提供的密钥和值可以由数据类型的任意组合组成，因此以下所有内容-\nmore-是可接受的(尽管在实践中，您最常使用字符串作为密钥)：",
+    "This will create a new map, assigning its id to the variable \"inventory\". It then adds two new keys to the map, \"hp potion\" and \"gold\", and sets their initial values as 1 and 100.":"这将创建一个新映射，将其ID分配给变量\"清单\"。然后，它在地图上添加了两个新键，\"hp potion\"和\"gold\"，并将它们的初始值分别设置为1和100。",
+    "You can also add to a map using the {}accessor{} \"{}?{}\", as shown below:":"您还可以使用{}访问器{}\"{}?{}\"添加到地图，如下所示：",
+    "{}NOTE{}: Unlike other data structures in {}GameMaker{} this key will not go to the start (nor the end) of the {}DS map{}, but rather it will just go into the {}DS map{}&nbsp;{}somewhere{}.":"{}注意{}：与{}GameMaker{}中的其他数据结构不同，此密钥不会进入{}Ds映射{}的开始(也不会结束)，而只会进入{}Ds映射{}{}的某个位置{}。"
+}

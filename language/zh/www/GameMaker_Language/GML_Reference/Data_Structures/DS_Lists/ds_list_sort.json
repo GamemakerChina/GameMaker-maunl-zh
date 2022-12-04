@@ -1,0 +1,6 @@
+{
+    "The above code will sort the list indexed in the variable \"name_list\" if the variable \"newgame\" is flagged as {}true{}.":"如果变量\"newgame\"标记为{}真{}，则上述代码将对变量\"name_list\"中的索引列表进行排序。",
+    "The id of the list to sort.":"要排序的列表的ID。",
+    "Whether the values should be ascending ({}true{}) or descending ({}false{}) order.":"值应按升序({}true{})还是降序({}false{})顺序排列。",
+    "With this function you can sort all the values within a list, either in ascending or descending order. If the list contains strings, these will be sorted alphabetically, based on the English 26 letter alphabet.":"使用此函数，您可以按升序或降序对列表中的所有值进行排序。如果列表包含字符串，这些字符串将根据英语26个字母的字母表按字母顺序排序。"
+}

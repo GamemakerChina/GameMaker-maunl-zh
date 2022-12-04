@@ -1,0 +1,6 @@
+{
+    "Note that this function will return {}undefined{} if the given DS map is empty.":"请注意，如果给定的Ds映射为空，此函数将返回{}个未定义的{}。",
+    "The above code creates some temporary variables and then gets the DS map&nbsp;size and finds the first key as stored by the computer in the map. It then uses a {}for{} loop to iterate through the DS map&nbsp;looking for the key value \"gold\". If it finds it, it breaks out the loop.":"上述代码创建一些临时变量，然后获取D映射大小，并找到计算机存储在地图中的第一个密钥。然后，它使用{}for{}循环通过D映射迭代查找关键值\"gold\"。如果它找到了，它就会打破循环。",
+    "The id of the map to use.":"要使用的映射的ID。",
+    "This function returns the first key stored in the DS map. {}This is not the first key in the order you added them!{} DS maps&nbsp;are not stored in a linear form, for that use {}DS list{}, so all this does is find the first key as stored by the computer. This can be useful if your have to iterate through the DS map&nbsp;looking for something, but should be avoided if possible as it can be slow.":"此函数返回D映射中存储的第一个密钥。{}这不是添加顺序中的第一个密钥！{}D映射不以线性形式存储，因为这会使用{}个D列表{}，所以这样做只是查找计算机存储的第一个密钥。如果您必须在D映射中迭代查找某些内容，这可能会很有用，但应尽可能避免，因为它可能很慢。"
+}

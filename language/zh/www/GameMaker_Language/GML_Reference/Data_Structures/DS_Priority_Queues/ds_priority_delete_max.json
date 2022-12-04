@@ -1,0 +1,5 @@
+{
+    "The above code checks an instance variable and if it returns {}true{} it will execute a script indexed in the priority queue with the highest priority value and then remove that script from the queue.":"以上代码检查实例变量，如果返回{}个true{}，它将执行在优先级队列中具有最高优先级值的索引脚本，然后从队列中删除该脚本。",
+    "The id of the priority queue to use.":"要使用的优先级队列的ID。",
+    "This function will return the value that has the highest priority in the queue and then remove the value (and priority) from the data structure. If more than one value has the same priority, then any one of them could be returned in any order, but all other values with the same priority will still be in the queue.":"此函数将返回队列中优先级最高的值，然后从数据结构中删除该值(和优先级)。如果多个值具有相同的优先级，则可以按任何顺序返回其中的任何一个值，但具有相同优先级的所有其他值仍将保留在队列中。"
+}

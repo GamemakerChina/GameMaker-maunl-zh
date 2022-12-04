@@ -1,0 +1,6 @@
+{
+    "The above function creates a new instance and then in that instance it creates a new DS stack and copies the contents of the stack in the instance running the code block, into the newly created instance stack.":"上述函数创建一个新实例，然后在该实例中创建一个新的Ds堆栈，并将运行代码块的实例中堆栈的内容复制到新创建的实例堆栈中。",
+    "The id of the new stack.":"新堆栈的ID。",
+    "The original stack to copy from.":"要从中复制的原始堆栈。",
+    "This function can be used to copy the contents of one stack into another. Note that this does {}NOT{} remove the contents from the original stack, nor does it destroy the original stack. When using this function the stack being copied to must have been previously created and if it contained any items before the copy, then these will be cleared first (meaning this information will be lost).":"此函数可用于将一个堆栈的内容复制到另一个堆栈中。请注意，这不会{}不{}从原始堆栈中删除内容，也不会销毁原始堆栈。使用此函数时，被复制到的堆栈必须是以前创建的，如果它在复制之前包含任何项目，那么这些项目将首先被清除(这意味着此信息将丢失)。"
+}

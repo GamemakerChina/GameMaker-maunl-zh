@@ -1,0 +1,7 @@
+{
+    "The above code will create a list and populate it with the various values of global variables. This list is then \"nested\" within a DS map, and the map is then encoded into a JSON string, before the map is destroyed, removing it, and any lists it contains, from memory.":"以上代码将创建一个列表，并使用全局变量的各种值填充该列表。然后，该列表被\"嵌套\"在D映射中，然后该映射被编码成Json字符串，在该映射被销毁之前，从存储器中删除它及其包含的任何列表。",
+    "The id of the list to add.":"要添加的列表的ID。",
+    "The id of the map to use.":"要使用的映射的ID。",
+    "The key for the added list.":"添加列表的密钥。",
+    "With this function you can assign a (previously created) {}DS list{} to a key within the given DS map. This function is designed for creating JSON compatible maps which you would then encode using {}{}json_encode(){}{} and should only be used in conjunction with that functionality. If a DS map has a list added in this way, destroying the parent map will also destroy the contained lists and free their memory, and calling {}{}ds_map_clear(){}{}&nbsp;on the parent map will also destroy and clean up any flagged lists.":"使用此函数，您可以将(以前创建的){}个Ds列表{}分配给给定Ds映射中的某个键。此函数用于创建Json兼容映射，然后使用{}{}json_encode(){}{}对其进行编码，并且只能与该功能配合使用。如果以这种方式添加了D映射的列表，则销毁父映射也会销毁包含的列表并释放其内存，而在父映射上调用{}{}ds_map_clear(){}{}也会销毁并清除任何标记的列表。"
+}

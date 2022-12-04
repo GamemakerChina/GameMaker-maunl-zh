@@ -1,0 +1,7 @@
+{
+    "The above code checks a global variable and if it is below a certain value it will then change the priority of the script function index held in the priority queue.":"上述代码检查全局变量，如果该变量低于某个值，则会更改保存在优先级队列中的脚本函数索引的优先级。",
+    "The id of the priority queue to change.":"要更改的优先级队列的ID。",
+    "The new priority of the value.":"值的新优先级。",
+    "The value to change the priority of.":"要更改其优先级的值。",
+    "This function will take a given value and change its priority within the referenced priority queue. The given value should already exist in the priority queue.":"此函数将采用给定的值，并在引用的优先级队列中更改其优先级。给定的值应该已存在于优先级队列中。"
+}

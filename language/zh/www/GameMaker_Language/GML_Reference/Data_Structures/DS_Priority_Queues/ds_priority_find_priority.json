@@ -1,0 +1,6 @@
+{
+    "The above code will store the returned priority for the given value in the instance variable \"p\".":"上述代码将在实例变量\"p\"中存储给定值的返回优先级。",
+    "The id of the priority queue to use.":"要使用的优先级队列的ID。",
+    "The value to find the priority of.":"要查找其优先级的值。",
+    "With this function you can retrieve the priority of any given value. If the value does not exist in the priority queue then {}undefined{} will be returned.":"使用此函数可以检索任何给定值的优先级。如果优先级队列中不存在该值，则将返回未定义的{}。"
+}

@@ -1,0 +1,6 @@
+{
+    "The above function creates a new instance and then in that instance it creates a new DS priority queue and copies the contents of the priority queue in the instance running the code block, into the newly created instance priority queue.":"上述函数创建一个新实例，然后在该实例中创建一个新的D优先级队列，并将运行代码块的实例中优先级队列的内容复制到新创建的实例优先级队列中。",
+    "The id of the priority queue to copy {}from{}.":"要从{}复制{}的优先级队列的ID。",
+    "The id of the priority queue to copy {}to{}.":"要复制{}到{}的优先级队列的ID。",
+    "This function can be used to copy the contents of one priority queue into another. Note that this does {}NOT{} remove the contents from the original priority queue, nor does it destroy the original priority queue. When using this function the priority queue being copied to must have been previously created and if it contained any items before the copy, then these will be cleared first (meaning this information will be lost).":"此函数可用于将一个优先级队列的内容复制到另一个优先级队列中。请注意，这不会{}不{}从原始优先级队列中删除内容，也不会破坏原始优先级队列。使用此函数时，必须先创建要复制到的优先级队列，并且如果它在复制之前包含任何项目，则将首先清除这些项目(这意味着此信息将丢失)。"
+}
