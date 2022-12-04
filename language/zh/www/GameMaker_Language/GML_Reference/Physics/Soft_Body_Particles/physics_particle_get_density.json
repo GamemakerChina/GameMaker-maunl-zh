@@ -1,0 +1,4 @@
+{
+    "The above code will check the current density value for all particles in the system and if it is less than 1 then it will add 0.01 to it.":"上述代码将检查系统中所有粒子的当前密度值，如果该值小于 1，则将向其增加 0.01。",
+    "With this function you can find out what the current density is for particles in the physics simulation (you can set this value using {}{}physics_particle_set_density(){}{}).":"使用此函数，可以在物理模拟中查找粒子的当前密度 (可以使用 {}{}physics_particle_set_density(){}{} 设置此值)。"
+}

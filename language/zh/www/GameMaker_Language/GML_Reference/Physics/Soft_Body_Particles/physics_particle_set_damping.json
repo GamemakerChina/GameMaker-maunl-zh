@@ -1,0 +1,5 @@
+{
+    "The above code will set the base properties for all particles in the simulation.":"以上代码将为模拟中的所有粒子设置基本属性。",
+    "The linear damping to be applied to the particle fixture.":"要应用于粒子装置的线性阻尼。",
+    "With this function you can set the linear damping of particles in the simulation. Damping is used to reduce the physics simulation velocity of instances over time, much like air resistance in the real world. This function is {}global{} in scope,\n    in that it will change the damping not just for new particles created after the change, but also for those already present in the simulation.":"使用此函数，可以在模拟中设置粒子的线性阻尼。阻尼用于随着时间的推移降低实例的物理模拟速度，就像真实世界中的空气阻力一样。此函数在范围内为{}全局{}，因为它不仅会更改更改后创建的新粒子的阻尼，还会更改模拟中已存在的那些粒子的阻尼。"
+}

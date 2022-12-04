@@ -1,0 +1,5 @@
+{
+    "The above code will set the particle cap of the physics simulation to 500.":"上述代码将物理模拟的粒子数设置为 500。",
+    "The maximum number of particles to permit.":"允许的最大粒子数。",
+    "This function will set the total permitted number of particles in a physics simulation. If you set this value to 0, then there is no cap the particles created, and setting it to any other value will stop any further particles being created when the\n    total number of particles is equal to the value. Note that the {}minimum{} number of particles you can create in a simulation is 128, so setting this value any lower will have no effect (unless set to 0).":"该功能将设置物理模拟中允许的粒子总数。如果将该值设定为 0，则粒子没有创建的封口，并且将其设定为任何其他值将在粒子总数等于该值时停止创建任何其他粒子。请注意，可以在模拟中创建的{}最小粒子数{}为 128，因此将此值设置为任何较低值都不会产生任何效果 (除非设置为 0)。"
+}

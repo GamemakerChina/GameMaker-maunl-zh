@@ -1,0 +1,4 @@
+{
+    "The above code will check to see if there are less than the maximum number of permitted particles in the room, and if so create one more.":"以上代码将检查房间中是否少于允许的最大粒子数，如果少于允许的粒子数，则再创建一个。",
+    "With this function you can find out what the current cap value is on particles permitted in the physics simulation (you can set this value using {}{}physics_particle_set_max_count(){}{}).":"使用此函数可以查找物理模拟中允许的粒子的当前覆盖值 (可以使用 {}{}physics_particle_set_max_count(){}{})。"
+}

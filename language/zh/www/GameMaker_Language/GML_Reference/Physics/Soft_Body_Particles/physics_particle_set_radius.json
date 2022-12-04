@@ -1,0 +1,5 @@
+{
+    "The above code will set the base properties for all particles in the simulation.":"以上代码将为模拟中的所有粒子设置基本属性。",
+    "The radius (in pixels) of the particle fixture.":"粒子装置的半径(以像素为单位)。",
+    "With this function you can set the radius (in pixels) for the particles in a physics simulation. This function is {}global{} in scope, in that it will change the radius not just for new particles created after the change, but also for those already\n    present in the simulation.":"使用此函数，可以在物理模拟中设置粒子的半径(以像素为单位)。此函数在范围内为{}全局{}，因为它不仅会更改更改后创建的新粒子的半径，还会更改模拟中已存在的粒子的半径。"
+}

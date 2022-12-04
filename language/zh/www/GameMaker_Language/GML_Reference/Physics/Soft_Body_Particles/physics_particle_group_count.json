@@ -1,0 +1,5 @@
+{
+    "The above code will get the number of particles used to make the group indexed in the variable \"group1\" and store the value in a variable.":"以上代码将获取用于在变量 \"group1\" 中建立组索引并将值存储在变量中的粒子数。",
+    "The group index (ID) of the particle group to count.":"要计数的粒子组的组索引 (ID)。",
+    "This function will return the number of particles that are active in a single group. The group index (ID) is the value that is returned when you call the function {}{}physics_particle_group_end(){}{}.":"此函数将返回单个组中处于活动状态的粒子数。组索引 (ID) 是调用函数 {}{}physics_particle_group_end(){}{} 时返回的值。"
+}

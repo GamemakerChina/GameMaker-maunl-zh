@@ -1,0 +1,4 @@
+{
+    "The above code will set the gravity scale.":"上述代码将设置重力比例。",
+    "With this function you can find out what the current gravity scale factor is for particles in the physics simulation (you can set this value using {}{}physics_particle_set_gravity_scale(){}{}).":"使用此函数，可以在物理模拟中找出粒子的当前重力比例因子 (可以使用 {}{}physics_particle_set_gravity_scale(){}{} 设置此值)。"
+}

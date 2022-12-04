@@ -1,0 +1,5 @@
+{
+    "The above code will set the base properties for all particles in the simulation.":"以上代码将为模拟中的所有粒子设置基本属性。",
+    "The density of the particle fixture.":"粒子装置的密度。",
+    "With this function you can set the density of the particles in a physics simulation. Setting the density of the particle will have a direct impact on how much inertia it has as well as how it reacts to collisions, so if you make a small particle with\n    a high density it will have a very large mass, but if you define a large particle with a low density it will have a much smaller mass. This function is {}global{} in scope, in that it will change the density not just for new particles created after\n    the change, but also for those already present in the simulation.":"使用此函数，可以在物理模拟中设置粒子的密度。设置粒子的密度将直接影响它的惯性程度以及它对碰撞的反应，因此，如果生成具有高密度的小粒子，它将具有非常大的质量，但如果定义具有低密度的大粒子，它将具有非常小的质量。此函数在范围内为{}全局{}，因为它不仅会更改更改后创建的新粒子的密度，还会更改模拟中已存在的那些粒子的密度。"
+}

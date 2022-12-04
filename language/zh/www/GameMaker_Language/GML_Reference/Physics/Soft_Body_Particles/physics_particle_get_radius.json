@@ -1,0 +1,4 @@
+{
+    "The above code will check the current radius of the particles in the simulation and if it is less than 32, then it will increase their size by 1.":"以上代码将在模拟中检查粒子的当前半径，如果该半径小于 32，则会将其大小增加 1。",
+    "With this function you can find out what the current radius (in pixels) is for particles in the physics simulation (you can set this value using {}{}physics_particle_set_radius(){}{}).":"使用此函数，可以在物理模拟中找出粒子的当前半径 (以像素为单位)(可以使用 {}{}physics_particle_set_radius(){}{} 设置此值)。"
+}

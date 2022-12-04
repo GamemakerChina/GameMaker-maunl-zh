@@ -1,0 +1,4 @@
+{
+    "The above code will check the current damping value for all particles in the system and if it is less than 1 then it will add 0.01 to it.":"上述代码将检查系统中所有粒子的当前阻尼值，如果该值小于 1，则将向其增加 0.01。",
+    "With this function you can find out what the current linear damping is for particles in the physics simulation (you can set this value using {}{}physics_particle_set_damping(){}{}).":"使用此函数，可以在物理模拟中找出粒子的当前线性阻尼 (可以使用 {}{}physics_particle_set_damping(){}{} 设置此值)。"
+}

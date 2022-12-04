@@ -1,0 +1,4 @@
+{
+    "The above code will check to see if there are less than the maximum number of permitted particles in the room, and if so create one more.":"以上代码将检查房间中是否少于允许的最大粒子数，如果少于允许的粒子数，则再创建一个。",
+    "This function will return the number of particles that are active in a physics enabled room.":"此函数将返回在启用物理的房间中处于活动状态的粒子数。"
+}
