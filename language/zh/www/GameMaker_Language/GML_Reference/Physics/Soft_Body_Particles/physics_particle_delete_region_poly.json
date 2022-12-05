@@ -1,0 +1,6 @@
+{
+    "A ds_list of points to use to create the polygon.":"用于创建多边形的点的 ds_list。",
+    "Note that the polygon defined must have {}at least{} three points, and {}at most{} 8.":"请注意，定义的多边形必须至少有{}3个{}点，最多有{}8个{}点。",
+    "The above code will delete all particles found in the polygonal area defined by the points added to the {}DS List{}.":"以上代码将删除在由添加到{}列表数据结构{}的点定义的多边形区域中找到的所有粒子。",
+    "With this function you can delete (remove) all the particles that fall within the bounds of the defined polygonal area from the physics simulation in the current room. The function takes a (previously created) {}{}ds_list(){}{} containing the x/y position of each point of the polygon, with the even numbered positions in the list being the x coordinates, and odd numbered positions the y coordinates, ie: for a triangle, your list would have six entries, with entry 0, 2, and 4 being the x coordinates and 1, 3, and 5 being the y coordinates. The polygon will then be used to delete all the particles that fall within the defined area.":"使用此函数，可以从当前房间的物理模拟中删除 (移除) 所有落在定义的多边形区域边界内的粒子。该函数采用 (以前创建的) {}{}ds_list(){}{}，其中包含多边形每个点的 X/Y 位置，列表中偶数编号的位置是 X 坐标，奇数编号的位置是 Y 坐标，即：对于三角形，列表将有六个条目，其中 0、2 和 4 条目是 X 坐标，1、3 和 5 条目是 Y 坐标。然后，多边形将用于删除落在定义区域内的所有粒子。"
+}

@@ -1,0 +1,4 @@
+{
+    "The above code stores the flags for the particle type and the particle group properties in variables then uses these to create a circular particle group with a 100px radius at the mouse position. The ID for the group that has been created is stored in the variable \"mLastGroup\".":"上述代码将粒子类型和粒子组属性的标志存储在变量中，然后使用这些标志在鼠标位置创建半径为 100px 的圆形粒子组。已创建的组的 ID 存储在变量 \"mLastGroup\" 中。",
+    "This function is used to end the definition of a particle group shape. Calling this function will create the particles within the given shape parameters, and also return an ID value which can be stored and used in further functions for interactions with the particle group.":"此函数用于结束粒子组形状的定义。调用此函数将在给定形状参数内创建粒子，并返回 ID 值，该值可存储并用于与粒子组交互的其他函数。"
+}

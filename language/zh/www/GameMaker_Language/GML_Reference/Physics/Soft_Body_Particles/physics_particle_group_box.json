@@ -1,0 +1,6 @@
+{
+    "The above code stores the flags for the particle type and the particle group properties in variables then uses these to create a rectangular particle group with sides of 200px at the mouse position.":"上面的代码将粒子类型和粒子组属性的标志存储在变量中，然后使用这些标志在鼠标位置创建边为 200px 的矩形粒子组。",
+    "The {}half{} height of the box.":"盒子的{}半{}高度。",
+    "The {}half{} width of the box.":"盒子的{}半{}宽度。",
+    "This function will set the shape of the particle group that is being created. You must first have begun the group definition using the function {}{}physics_particle_group_begin(){}{}, and then you would use this function to set the approximate half width and half height of the group in pixels - approximate because the exact width and height will depend on the size of the base particles, as defined by the {}{}physics_particle_set_radius(){}{} function, as the physics simulation tries to \"fit\" as many of the particles as possible into the defined shape. Finally you need to call {}{}physics_particle_group_end(){}{} to create the group of particles in the room.":"该函数将设置正在创建的粒子组的形状。必须首先使用函数 {}{}physics_particle_group_begin(){}{} 开始组定义，然后使用此函数以像素为单位设置组的近似半宽和半高 (近似值)，因为确切的宽度和高度将取决于基础粒子的大小，如 {}{}physics_particle_set_radius(){}{} 函数所定义的那样，当物理模拟尝试将尽可能多的粒子 \" 拟合 \" 到定义的形状中时。最后，需要调用 {}{}physics_particle_group_end(){}{} 以在房间中创建粒子组。"
+}

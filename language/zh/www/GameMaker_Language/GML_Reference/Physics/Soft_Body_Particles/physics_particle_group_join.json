@@ -1,0 +1,6 @@
+{
+    "The above code creates two circular particle groups and joins them together.":"上述代码将创建两个圆形粒子组并将它们连接在一起。",
+    "The first particle group to join.":"要加入的第一个粒子组。",
+    "The second particle group to join.":"要加入的第二个粒子组。",
+    "With this function you can join two particle groups together, and the joined groups will then behave as if they were both part of a single entity. The groups should have been created with over-lapping edges, as, if they are not already touching, they will not be joined. The function takes the unique group IDs of the groups to join, as returned by the function {}{}physics_particle_group_end(){}{}, and you can use the function any number of times for a single group to join various soft bodies together.":"使用此函数，可以将两个粒子组连接在一起，然后连接的粒子组将表现为它们都是单个图元的一部分。应该已经创建了具有重叠边的组，如同它们尚未接触到一样，它们将不会被连接。该函数采用由函数 {}{}physics_particle_group_end(){}{} 返回的要加入的组的唯一组 ID，并且您可以使用该函数多次，以便单个组将各种软实体连接在一起。"
+}

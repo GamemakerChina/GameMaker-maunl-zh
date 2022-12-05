@@ -1,0 +1,5 @@
+{
+    "The above code will get the x and y position for the center of mass of the particle group indexed in the variable \"group1\" and store them in variables.":"上述代码将获取变量 \"group1\" 中索引的粒子组质心的 X 和 Y 位置，并将它们存储在变量中。",
+    "The particle group to get.":"要获取的粒子组。",
+    "With this function you can retrieve the y component of the center of mass of an entire group of particles. The {}group{} value is that which was returned when you created the group of particles using the function {}{}physics_particle_group_end(){}{},\n    and the function will return a value which is the combined value of the currently set flags.":"使用此函数，可以检索整个粒子组的质心的 Y 分量。{}group{} 值是使用函数 {}{}physics_particle_group_end(){}{} 创建粒子组时返回的值，该函数将返回一个值，该值是当前设置的标志的组合值。"
+}

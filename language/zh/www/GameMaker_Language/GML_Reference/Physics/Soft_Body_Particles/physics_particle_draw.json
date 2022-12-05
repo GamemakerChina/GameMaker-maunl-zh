@@ -1,0 +1,10 @@
+{
+    "The above code will draw a sprite for all the particles in the user defined category \"2\" which have the same flags as the given mask.":"上述代码将为用户定义类别 \"2\" 中与给定遮罩具有相同标志的所有粒子绘制精灵。",
+    "The drawn particle will use the colour and alpha values set when you created it, and will rotate with the angular momentum of the particle. However should you wish to scale the sprite or change any other of its drawn properties you should use the function {}{}physics_particle_draw_ext(){}{}.":"绘制的粒子将使用创建时设置的颜色和 Alpha 值，并将随粒子的角动量旋转。但是，如果希望缩放精灵或更改其任何其他绘制属性，则应使用函数 {}{}physics_particle_draw_ext(){}{}。",
+    "The mask to compare the particles flags with.":"用于比较粒子标记的遮罩。",
+    "The sprite to use for each particle.":"用于每个粒子的精灵。",
+    "The user defined category to draw (use 0 to draw all categories).":"要绘制的用户定义的类别 (使用 0 绘制所有类别)。",
+    "The {}image_index{} of the sprite to draw.":"要绘制的精灵的 {}image_index{}。",
+    "This function will draw a sprite at the position of all the particles that share the same user defined category value, and that have flags which coincide with those set for the mask. The mask value is defined in the same way as you would define the flags when creating the particle (see the function {}{}physics_particle_create(){}{} for an example), ie: using the {}bitwise {}or{}{} \"|\" to mask off the appropriate bits for each flag.":"此函数将在共享相同的用户定义类别值的所有粒子的位置处绘制精灵，并且这些粒子具有与为遮罩设置的那些相一致的标志。掩码值的定义方式与创建粒子时定义标志的方式相同 (例如，请参阅函数 {}{}physics_particle_create(){}{})，即：使用 {} 位 {} 或 {}{}\"|\" 掩码每个标志的相应位。",
+    "{}NOTE{}: This function will draw {}all{} particles in the physics simulation with flags that coincide with those of the mask, whether they are individual particles or groups, if the user category is the same.":"{}注意{}：如果用户类别相同，此函数将绘制物理模拟中的{}所有{}粒子，其标志与掩码的标志一致，无论它们是单个粒子还是组。"
+}

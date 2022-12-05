@@ -1,0 +1,5 @@
+{
+    "The above code will delete the particle with the ID stored in the variable \"part\" from the simulation.":"上述代码将从模拟中删除 ID 存储在变量 \"part\" 中的粒子。",
+    "The index (ID) of the particle to delete.":"要删除的粒子的索引 (ID)。",
+    "With this function you can delete (remove) a particle from the physics simulation in the current room. The function takes the unique ID of the particle to delete, as returned by the function {}{}physics_particle_create(){}{}.":"使用此函数，可以从当前房间的物理模拟中删除 (移除) 粒子。该函数采用由函数 {}{}physics_particle_create(){}{} 返回的要删除的粒子的唯一 ID。"
+}

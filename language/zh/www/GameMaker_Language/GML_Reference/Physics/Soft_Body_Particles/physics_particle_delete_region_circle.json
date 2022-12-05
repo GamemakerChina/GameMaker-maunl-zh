@@ -1,0 +1,7 @@
+{
+    "The above code will delete all particles found in a circular area around the mouse position.":"上述代码将删除在鼠标位置周围的圆形区域中找到的所有粒子。",
+    "The radius (in pixels) of the circular area to delete.":"要删除的圆形区域的半径(以像素为单位)。",
+    "The x position of the center of the area to delete.":"要删除的区域中心的 X 位置。",
+    "The y position of the center of the area to delete.":"要删除的区域中心的 Y 位置。",
+    "With this function you can delete (remove) all the particles that fall within the bounds of the defined circular area from the physics simulation in the current room. The function takes the x and y position for the center of the area to delete as well\n    as the radius (in pixels) which defines the circular area.":"使用此函数，可以从当前房间的物理模拟中删除 (移除) 所有落在定义的圆形区域边界内的粒子。该函数取要删除区域中心的 X 和 Y 位置以及定义圆形区域的半径 (以像素为单位)。"
+}

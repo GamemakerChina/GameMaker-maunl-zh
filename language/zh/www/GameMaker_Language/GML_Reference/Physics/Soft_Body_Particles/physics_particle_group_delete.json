@@ -1,0 +1,5 @@
+{
+    "The above code will delete all the particles that comprise the group with the ID stored in the variable \"gp1\" from the simulation.":"上述代码将从模拟中删除包含 ID 存储在变量 \"gp1\" 中的组的所有粒子。",
+    "The index (ID) of the particle group to delete.":"要删除的粒子组的索引 (ID)。",
+    "With this function you can delete (remove) a particle group from the physics simulation in the current room. The function takes the unique group ID of the group to delete, as returned by the function {}{}physics_particle_group_end(){}{}.":"使用此函数，可以从当前房间的物理模拟中删除 (移除) 粒子组。该函数采用由函数 {}{}physics_particle_group_end(){}{} 返回的要删除的组的唯一组 ID。"
+}

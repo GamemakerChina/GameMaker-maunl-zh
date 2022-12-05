@@ -1,0 +1,15 @@
+{
+    "The above code will draw a sprite for all the particles in the user defined category \"2\" which have the same flags as the given mask, scaled by 2 along both axis and with an alpha of 0.5.":"上述代码将为用户定义的类别 \"2\" 中的所有粒子绘制一个精灵，这些粒子具有与给定遮罩相同的标志，沿着两个轴以 2 缩放，Alpha 为 0.5。",
+    "The alpha value to use when drawing (0 - 1).":"绘制时使用的 Alpha 值 (0-1)。",
+    "The angle (in degrees) to draw the sprite at.":"绘制精灵的角度(以度为单位)。",
+    "The colour to blend with the sprite (default is {}c_white{}).":"要与精灵混合的颜色 (默认为 {}c_white{})。",
+    "The drawn particle will ignore the colour and alpha values set when you created it, and will instead be drawn using the scale, angle, colour and alpha parameters given in this function. Note that this is purely for drawing a sprite at the particle position and in no way affects the behaviour of the particle.":"绘制的粒子将忽略创建时设置的颜色和 Alpha 值，而是使用此函数中给定的比例、角度、颜色和 Alpha 参数进行绘制。请注意，这纯粹是为了在粒子位置上绘制精灵，而不会影响粒子的行为。",
+    "The mask to compare the particles flags with.":"用于比较粒子标记的遮罩。",
+    "The scale factor to apply to the sprite along the x axis.":"沿 X 轴应用于精灵的比例因子。",
+    "The scale factor to apply to the sprite along the y axis.":"沿 Y 轴应用于精灵的比例因子。",
+    "The sprite to use for each particle.":"用于每个粒子的精灵。",
+    "The user defined category to draw (use 0 to draw all categories).":"要绘制的用户定义的类别 (使用 0 绘制所有类别)。",
+    "The {}image_index{} of the sprite to draw.":"要绘制的精灵的 {}image_index{}。",
+    "This function will draw a sprite at the position of all the particles that share the same user defined category value, and that have flags which coincide with those set for the mask. The mask value is defined in the same way as you would define the flags when creating the particles (see the functions {}{}physics_particle_create(){}{} for an example), ie: using the {}bitwise {}or{}{} \"|\" to mask off the appropriate bits for each flag.":"此函数将在共享相同的用户定义类别值的所有粒子的位置处绘制精灵，并且这些粒子具有与为遮罩设置的那些相一致的标志。掩码值的定义方式与创建粒子时定义标志的方式相同 (例如，请参阅函数 {}{}physics_particle_create(){}{})，即：使用 {} 位 {} 或 {}{}\"|\" 掩码每个标志的相应位。",
+    "{}NOTE{}: This function will draw {}all{} particles in the physics simulation with flags that coincide with those of the mask, whether they are individual particles or groups, if the user category is the same.":"{}注意{}：如果用户类别相同，此函数将绘制物理模拟中的{}所有{}粒子，其标志与掩码的标志一致，无论它们是单个粒子还是组。"
+}

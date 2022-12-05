@@ -1,0 +1,5 @@
+{
+    "The above code will get the mass of the particle group indexed in the variable \"group1\" and store it in a variable.":"上述代码将获得变量 \"group1\" 中索引的粒子组的质量，并将其存储在变量中。",
+    "The particle group to get.":"要获取的粒子组。",
+    "With this function you can retrieve the mass of an entire group of particles. The {}group{} value is that which was returned when you created the group of particles using the function {}{}physics_particle_group_end(){}{}.":"使用此函数，可以检索整个粒子组的质量。{}group{} 的值是使用函数 {}{}physics_particle_group_end(){}{} 创建粒子组时返回的值。"
+}

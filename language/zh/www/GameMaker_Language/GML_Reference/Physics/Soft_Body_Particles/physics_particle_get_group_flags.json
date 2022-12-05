@@ -1,0 +1,5 @@
+{
+    "The above code will create a variable to store the flags value and then use it to check the flags of the group indexed in the variable \"group\". If they are not the same, the group is set with these flags.":"上述代码将创建一个变量来存储标志值，然后使用它来检查变量 \"group\" 中索引的组的标志。如果它们不相同，则使用这些标志设置组。",
+    "The particle group to get.":"要获取的粒子组。",
+    "With this function you can retrieve the group flags for a group of particles. The {}group{} value is that which was returned when you created the group of particles using the function {}{}physics_particle_group_end(){}{}, and the function will return a value which is the combined value of the currently set flags.":"使用此函数，可以检索一组粒子的组标志。{}group{} 值是使用函数 {}{}physics_particle_group_end(){}{} 创建粒子组时返回的值，该函数将返回一个值，该值是当前设置的标志的组合值。"
+}
