@@ -1,0 +1,5 @@
+{
+    "The above code will check the y component of the linear speed vector and if it is anything other than 0 it will set it to 0.":"上述代码将检查线性速度矢量的 Y 分量，如果它不是 0，则将其设置为 0。",
+    "This variable can be used to get or change the y component of the instance\u0027s linear speed vector and is defined in pixels per step (for pixels per second, see {}{}phy_linear_velocity_y{}{}). Altering this for a static instance (ie: an instance with 0 density) will turn it into a kinematic instance.":"此变量可用于获取或更改实例线性速度矢量的 Y 分量，并以每步像素数为单位定义 (对于每秒像素数，请参见 {}{}phy_linear_velocity_y{}}{})。对于静态实例 (即密度为 0 的实例)，更改此变量将使其变为运动学实例。",
+    "{}{}Real{}{} (single precision floating point value, or {}undefined{} if the instance is not physics enabled)":"{}{}Real{}{} (单精度浮点值，或 {}undefined{} (如果未启用物理实例)"
+}

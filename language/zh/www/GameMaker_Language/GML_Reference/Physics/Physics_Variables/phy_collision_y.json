@@ -1,0 +1,5 @@
+{
+    "The above code creates particles at all the defined points of a collision between two physics enabled instances.":"上述代码在两个启用了物理的实例之间的碰撞的所有定义点处创建粒子。",
+    "{}NOTE{}: This variable is only available in the collision event of a physics enabled instance.":"{}注意{}：此变量仅在启用了物理的实例的碰撞事件中可用。",
+    "{}{}Real{}{} (single precision floating point value, or {}undefined{} if the instance is not physics enabled)":"{}{}Real{}{} (单精度浮点值，或 {}undefined{} (如果未启用物理实例)"
+}

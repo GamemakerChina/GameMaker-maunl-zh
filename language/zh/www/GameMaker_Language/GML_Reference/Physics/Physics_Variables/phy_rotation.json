@@ -1,0 +1,5 @@
+{
+    "The above code checks the linear speed and if either vector is not 0, it then calculates the actual speed and uses that to set the rotation.":"上述代码检查线性速度，如果任一矢量不是 0，则计算实际速度并使用该速度设置旋转。",
+    "This variable can be used to get (or to set) the angle of the instances fixture in degrees, similar to setting or getting the {}{}image_angle{}{}. However note that in the physics world rotations are calculated in the {}opposite{} way to the normal {}GameMaker{} game world, meaning that vector functions like {}{}point_direction(){}{}should have their return values modified (simply making positive to negative should resolve this).":"此变量可用于获取 (或设置) 实例固定装置的角度 (以度为单位)，类似于设置或获取 {}{}image_angle{}{}。但请注意，在物理世界中，旋转的计算方式与正常 {}GameMaker{} 游戏世界 {4}相反{5}，这意味着向量函数 (如 {}{}point_direction(){}{}) 应修改其返回值 (仅将正值设置为负值即可解决此问题)。",
+    "{}{}Real{}{} (single precision floating point value, or {}undefined{} if the instance is not physics enabled)":"{}{}Real{}{} (单精度浮点值，或 {}undefined{} (如果未启用物理实例)"
+}

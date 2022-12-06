@@ -1,0 +1,5 @@
+{
+    "The above code stores the previous x and y position for the physics enabled instance in two variables.":"上述代码在两个变量中存储物理启用实例的先前 X 和 Y 位置。",
+    "This variable can be used to get (or to set) the previous x position of the instance within the game room physics world. This is the position of the instance within the physics world in the previous step to the current one.":"此变量可用于获取 (或设置) 游戏室物理世界中实例的先前 X 位置。这是上一步到当前步骤中实例在物理世界中的位置。",
+    "{}{}Real{}{} (single precision floating point value, or {}undefined{} if the instance is not physics enabled)":"{}{}Real{}{} (单精度浮点值，或 {}undefined{} (如果未启用物理实例)"
+}

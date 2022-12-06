@@ -1,0 +1,5 @@
+{
+    "A dynamic instance is one that is fully simulated within the physics world and this {}read-only{} variable will return {}true{} if the instance being checked is fully simulated or {}false{} if it is not":"动态实例是在物理世界中完全模拟的实例，如果检查的实例是完全模拟的，则此 {} 只读 {} 变量将返回 {}true{}，如果不是，则返回 {}false{}",
+    "The above code creates a new instance and then defines it as being a \"bullet\" in the physics world before giving it a massive impulse along the y axis.":"上面的代码创建了一个新实例，然后将其定义为物理世界中的 \"子弹\"，然后沿 Y 轴给它一个巨大的脉冲。",
+    "{}{}Boolean{}{} (or {}undefined{} if the instance is not physics enabled)":"{}{}Boolean{}{} (如果未启用物理实例，则为 {}undefined{})"
+}

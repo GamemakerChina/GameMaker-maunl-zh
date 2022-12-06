@@ -1,0 +1,5 @@
+{
+    "The above code will check the angular velocity of the instance and if it is not 0 it will then add (or subtract) a small amount every step until the value is 0.":"上面的代码将检查实例的角速度，如果它不是 0，那么它将每一步加 (或减) 一个小数量，直到该值为 0。",
+    "This variable can be used to set the angular velocity of the instance, or it can be used to get the current angular velocity, in degrees per second and the value used can be either positive (for clockwise rotation) or negative (for anticlockwise rotation). If you set this on an instance that was previously static (ie: it has a density of 0) it will become a kinematic object and begin rotating":"此变量可用于设置实例的角速度，也可用于获取当前角速度 (以每秒度为单位)，并且所用值可以是正值 (对于顺时针旋转) 或负值 (对于逆时针旋转)。如果在以前为静态 (即密度为 0) 的实例上设置此选项，则它将成为运动学对象并开始旋转",
+    "{}{}Real{}{} (single precision floating point value, or {}undefined{} if the instance is not physics enabled)":"{}{}Real{}{} (单精度浮点值，或 {}undefined{} (如果未启用物理实例)"
+}

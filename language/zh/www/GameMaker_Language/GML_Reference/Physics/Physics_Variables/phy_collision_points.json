@@ -1,0 +1,6 @@
+{
+    "The above code creates particles at all the defined points of a collision between two physics enabled instances.":"上述代码在两个启用了物理的实例之间的碰撞的所有定义点处创建粒子。",
+    "This {}read-only{} variable returns the number of points of collision detected between the two objects in the collision":"此 {} 只读 {} 变量返回在碰撞中检测到的两个对象之间的碰撞点数",
+    "{}NOTE{}: This variable is only available in the collision event of a physics enabled instance.":"{}注意{}：此变量仅在启用了物理的实例的碰撞事件中可用。",
+    "{}{}Real{}{} (integer value, or {}undefined{} if the instance is not physics enabled)":"{}{}Real{}{} (整数值，如果未启用物理实例，则为 {}undefined{})"
+}

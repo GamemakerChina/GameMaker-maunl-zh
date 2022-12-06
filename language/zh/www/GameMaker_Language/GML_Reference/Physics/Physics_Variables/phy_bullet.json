@@ -1,0 +1,5 @@
+{
+    "The above code creates a new instance and then defines it as being a \"bullet\" in the physics world before giving it a massive impulse along the y axis.":"上面的代码创建了一个新实例，然后将其定义为物理世界中的 \" 子弹\"，然后沿 Y 轴给它一个巨大的脉冲。",
+    "This variable defines whether or not the instance is extremely fast moving (for example a bullet). The default value is {}false{} but if set to {}true{} this tells {}GameMaker{} that the instance will be moving at such high speeds that it will require more expensive collision detection to ensure it doesn\u0027t pass through other instances undetected":"此变量定义实例的移动速度是否极快 (例如项目符号)。默认值为 {}false{}，但如果设置为 {}true{}，则会告诉 {}GameMaker{} 实例将以如此高的速度移动，以至于需要更复杂的碰撞检测来确保它不会通过其他未检测到的实例",
+    "{}{}Boolean{}{} (or {}undefined{} if the instance is not physics enabled)":"{}{}Boolean{}{} (如果未启用物理实例，则为 {}undefined{})"
+}

@@ -1,0 +1,5 @@
+{
+    "The above code will check for a collision between the calling instance and instances of \"obj_Water\" and change the angular damping accordingly.":"上述代码将检查调用实例和 \"obj_Water\" 实例之间的冲突，并相应地更改角度阻尼。",
+    "This variable can be used to set the angular damping of the instance, or it can be used to get the current angular damping. The damping is the amount of \"resistance\" to angular rotation that the physics enabled instance has, with a lower value permitting the instance to rotate faster after a collision (for example) and a higher value making it require a more forceful push and rotate slower":"此变量可用于设置实例的角度阻尼，也可用于获取当前角度阻尼。阻尼是物理启用实例对角度旋转的\"阻力\"量，(例如)较低的值允许实例在碰撞后更快地旋转，较高的值允许实例需要更有力的推动和较慢的旋转",
+    "{}{}Real{}{} (single precision floating point value, or {}undefined{} if the instance is not physics enabled)":"{}{}Real{}{} (单精度浮点值，或 {}undefined{} (如果未启用物理实例)"
+}

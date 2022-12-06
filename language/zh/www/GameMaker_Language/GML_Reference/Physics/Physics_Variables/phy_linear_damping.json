@@ -1,0 +1,5 @@
+{
+    "The above code will check for a collision between the calling instance and instances of \"obj_Water\" and change the linear damping accordingly.":"上述代码将检查调用实例和 \"obj_Water\" 实例之间的冲突，并相应地更改线性阻尼。",
+    "This variable can be used to set the linear damping of the instance, or it can be used to get the current linear damping. The damping is the amount of \"resistance\" to forward movement that the physics enabled instance has, with a lower value permitting the instance to move and accelerate faster and a higher value making it require a more forceful push":"此变量可用于设置实例的线性阻尼，也可用于获取当前的线性阻尼。阻尼是启用物理的实例对前进运动的\"阻力\"量，较低的值允许实例更快地移动和加速，较高的值使得它需要更有力的推动",
+    "{}{}Real{}{} (single precision floating point value, or {}undefined{} if the instance is not physics enabled)":"{}{}Real{}{} (单精度浮点值，或 {}undefined{} (如果未启用物理实例)"
+}

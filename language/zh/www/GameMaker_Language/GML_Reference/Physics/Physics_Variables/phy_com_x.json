@@ -1,0 +1,5 @@
+{
+    "The above code sets two variables to the x and y position of the instances center of mass.":"上述代码将两个变量设置为实例质心的 X 和 Y 位置。",
+    "This {}read-only{} variable will return the x position of the instance\u0027s center of mass. This is calculated automatically based on the density, inertia and mass of the instance as defined by the appropriate functions":"此 {} 只读 {} 变量将返回实例质心的 X 位置。这是根据相应函数定义的实例的密度、惯性和质量自动计算的",
+    "{}{}Real{}{} (single precision floating point value, or {}undefined{} if the instance is not physics enabled)":"{}{}Real{}{} (单精度浮点值，或 {}undefined{} (如果未启用物理实例)"
+}

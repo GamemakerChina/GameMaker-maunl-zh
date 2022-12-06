@@ -1,0 +1,5 @@
+{
+    "The above code checks to see if the object is being actively simulated or not and if it is not it is destroyed.":"上面的代码检查是否正在主动模拟对象，以及对象是否已被销毁。",
+    "This {}read-only{} variable returns whether or not the instance is currently \"sleeping\" ({}true{}) or not ({}false{}), A \"sleeping\" instance is one that is not actively engaged in any physical simulation. {}GameMaker{} will put objects to sleep to save simulation cycles when an instance is at rest and not in collision with another instance":"此 {} 只读 {} 变量返回实例当前是否 \"休眠\" ({}true{}) 或 ({}false{})，\"休眠\"实例是一个未主动参与任何物理模拟的实例。{}GameMaker{} 将对象置于休眠状态，以便在实例处于静止状态且不与其他实例冲突时保存模拟周期",
+    "{}{}Boolean{}{} (or {}undefined{} if the instance is not physics enabled)":"{}{}Boolean{}{} (如果未启用物理实例，则为 {}undefined{})"
+}
