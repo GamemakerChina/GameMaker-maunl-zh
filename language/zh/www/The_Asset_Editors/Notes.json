@@ -1,0 +1,5 @@
+{
+    "If you have imported a project created using a previous version of {}GameMaker{}, then you will also find a {}Compatibility Report{} included as a note in this section.":"如果您已导入使用 {}GameMaker{} 的早期版本创建的项目，则还会在此部分中找到一个 {} 兼容性报告 {} 作为注释。",
+    "The Note Editor":"笔记编辑器",
+    "{}The {}Note Editor{} will open a code/script window where you can keep notes and code snippets or any other information that you consider relevant\n    to the project. You can create multiple notes and name them from the right mouse button {}&nbsp;menu in the {}Asset Browser{}.\n    Notes can also be grouped and re-ordered like any other asset.":"{}{}笔记编辑器{}将打开一个代码/脚本窗口，您可以在其中保留笔记和代码片段，或者您认为与项目相关的任何其他信息。您可以在{4}资源浏览器{5}的鼠标右键{}菜单中创建多个注释并命名它们。笔记也可以像任何其他资产一样进行分组和重新排序。"
+}
