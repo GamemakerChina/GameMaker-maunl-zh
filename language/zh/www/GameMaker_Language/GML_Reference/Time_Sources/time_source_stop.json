@@ -1,0 +1,5 @@
+{
+    "The code above will stop a&nbsp;{}Time Source{}&nbsp;when it\u0027s not already stopped.":"上面的代码将在{}时间源{}尚未停止时停止。",
+    "The&nbsp;{}Time Source{}&nbsp;to stop":"要停止的{}时间源{}",
+    "This function stops the given&nbsp;{}Time Source{}&nbsp;and resets its timer. You cannot stop a&nbsp;{}Time Source{}&nbsp;that has either not started, or is in a finished state.":"此函数将停止给定的{}时间源{}并重置其计时器。无法停止尚未启动或处于完成状态的{}时间源{}。"
+}

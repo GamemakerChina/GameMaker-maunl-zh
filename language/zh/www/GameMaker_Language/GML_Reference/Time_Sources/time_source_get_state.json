@@ -1,0 +1,6 @@
+{
+    "The&nbsp;{}Time Source{}&nbsp;to get the state of":"要获取{}时间源{}的状态",
+    "This function returns the {}state{} of the given&nbsp;{}Time Source{}.":"此函数返回给定{}时间源{}的{0}状态{1}。",
+    "When the Space key is pressed, this code will get a&nbsp;{}Time Source{}\u0027s state.":"按空格键时，此代码将获得{}时间源{}的状态。",
+    "When the state is active, it will pause the&nbsp;{}Time Source{}, and when it\u0027s paused, it will resume it.":"当状态处于活动状态时，它将暂停{}时间源{}，当它暂停时，它将恢复它。"
+}

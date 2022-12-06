@@ -1,0 +1,15 @@
+{
+    "Assuming the game uses a&nbsp;{}Time Source{}&nbsp;called {}obj_game.spawn_time_source{} to spawn enemies, that&nbsp;{}Time Source{}&nbsp;will need to be updated once the spawn delay changes.":"假设游戏使用名为 {2}obj_game.spawn_time_source{3} 的{}时间源{}来生成敌人，则一旦生成延迟更改，{}时间源{}将需要更新。",
+    "The method to call when the&nbsp;{}Time Source{}&nbsp;expires":"{}时间源{}过期时调用的方法",
+    "The period that the&nbsp;{}Time Source{}&nbsp;runs for, in the given units":"{}时间源{}运行的时段，以给定单位表示",
+    "The specified&nbsp;{}Time Source{}&nbsp;will be reset and deactivated, and will need to be {}started{} again.":"指定的{}时间源{}将被重置并停用，需要重新{}启动{}。",
+    "The units that the given period is in":"给定时段所在的单位",
+    "The&nbsp;{}Time Source{}&nbsp;to reconfigure":"要重新配置的{}时间源{}",
+    "This creates a new function that changes the spawn delay used for in-game enemies.":"这创建了一个新函数，可以改变游戏中敌人的生成延迟。",
+    "This function does exactly that, reconfiguring the&nbsp;{}Time Source{}&nbsp;with the new delay and then {}starting it{} again.":"此函数正好执行此操作，使用新的延迟重新配置{}时间源{}，然后再次{}启动它{}。",
+    "This function is used to modify the core properties of a&nbsp;{}Time Source{}, without having to create an entirely new one.":"此函数用于修改{}时间源{}的核心属性，而不必创建全新的时间源。",
+    "You specify an existing&nbsp;{}Time Source{}, and then set the properties that are also set in {}{}time_source_create(){}{}, except the parent. Read that page for detailed information on these properties.":"指定现有的{}时间源{}，然后设置也在 {}{}time_source_create(){}{} 中设置的属性，但父项除外。有关这些属性的详细信息，请阅读该页。",
+    "{}OPTIONAL{} An array containing the arguments to pass into the method":"{}可选{} 包含要传递到方法中的参数的数组",
+    "{}OPTIONAL{} The number of times the&nbsp;{}Time Source{}&nbsp;should repeat, or -1 for indefinite repetition":"{}可选{} {}时间源{}应重复的次数，或 -1 表示无限次重复",
+    "{}OPTIONAL{} Whether the&nbsp;{}Time Source{}&nbsp;expires on the frame nearest to its expiry, or on the next frame":"{}可选{} {}时间源{}是在离其过期时间最近的一帧上过期，还是在下一帧上过期。"
+}

@@ -1,0 +1,10 @@
+{
+    "If you use frames, your&nbsp;{}Time Source{}&nbsp;will be dependent on the game\u0027s framerate.":"如果使用帧，{}时间源{}将取决于游戏的帧速率。",
+    "If you use seconds, your&nbsp;{}Time Source{}&nbsp;will run independently from the game\u0027s framerate.":"如果使用秒，{}时间源{}将独立于游戏的帧速率运行。",
+    "These constants are used in {}{}time_source_create(){}{} and {}{}time_source_reconfigure(){}{} to set the units used for the&nbsp;{}Time Source{}\u0027s period, and are returned by {}{}time_source_get_units(){}{}.":"这些常量在 {}{}time_source_create(){}{} 和 {}{}time_source_reconfigure(){}{} 中用于设置 {} 时间源 {} 的周期使用的单位，并由 {}{}time_source_get_units(){}{} 返回。",
+    "Time Source Unit Constant":"时间源单位常量",
+    "Time Source Units":"时间源单位",
+    "Use frames for the&nbsp;{}Time Source{}&nbsp;period (frame-dependent)":"将帧用于{}时间源{}周期(取决于帧)",
+    "Use seconds for the&nbsp;{}Time Source{}&nbsp;period (frame-independent)":"{}时间源{}周期使用秒数(与帧无关)",
+    "You can also use BPM (beats-per-minute) as a unit by calling {}{}time_bpm_to_seconds(){}{} to convert your BPM value to a period in seconds, and then using&nbsp;{}time_source_units_seconds{} as the unit.":"通过调用 {}{}time_bpm_to_seconds(){}{} 将 BPM 值转换为以秒为单位的时间段，然后使用 {}time_source_units_seconds{} 作为单位，也可以使用 BPM (每分钟-毫秒) 作为单位。"
+}

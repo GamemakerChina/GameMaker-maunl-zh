@@ -1,0 +1,6 @@
+{
+    "The returned value may be the ID of a custom&nbsp;{}Time Source{}, or one of the&nbsp;{}Built-In Time Sources{}, depending on how the given&nbsp;{}Time Source{}&nbsp;was {}created{}.":"返回的值可以是自定义{}时间源{}的 ID，或者是{}内置时间源{}之一，具体取决于给定{}时间源{}是如何{}创建的{}。",
+    "The&nbsp;{}Time Source{}&nbsp;to get the parent of":"要获取{}时间源{}的父项",
+    "This code gets the parent of a&nbsp;{}Time Source{}&nbsp;and stores it in a local variable.":"此代码获取{}时间源{}的父项，并将其存储在局部变量中。",
+    "This function returns the&nbsp;{}{}Time Source ID{}{}&nbsp;of the given&nbsp;{}Time Source{}\u0027s parent.":"此函数返回给定{}时间源{}的父级的{0}{1}时间源 ID {2}{3}。"
+}

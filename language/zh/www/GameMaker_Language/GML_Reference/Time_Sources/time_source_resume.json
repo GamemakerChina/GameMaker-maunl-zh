@@ -1,0 +1,6 @@
+{
+    "The&nbsp;{}Time Source{}&nbsp;to resume":"要恢复的{}时间源{}",
+    "This function resumes the given&nbsp;{}Time Source{}&nbsp;and its children. The given {}Time Source{} must have been previously paused using {}{}time_source_pause(){}{}.":"此函数恢复给定{}时间源{}及其子项。给定的{}时间源{}之前必须已使用 {}{}time_source_pause(){}{} 暂停。",
+    "When the Space key is pressed, this code will get a&nbsp;{}Time Source{}\u0027s state.":"按空格键时，此代码将获得{}时间源{}的状态。",
+    "When the state is active, it will pause the&nbsp;{}Time Source{}, and when it\u0027s paused, it will resume it.":"当状态处于活动状态时，它将暂停{}时间源{}，当它暂停时，它将恢复它。"
+}

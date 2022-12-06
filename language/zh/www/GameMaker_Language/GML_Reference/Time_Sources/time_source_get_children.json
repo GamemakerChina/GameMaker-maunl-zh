@@ -1,0 +1,6 @@
+{
+    "At the end, it destroys the parent&nbsp;{}Time Source{}.":"最后，它会销毁父{}时间源{}。",
+    "For the given {}Time Source{}, this function returns an array containing the&nbsp;{}{}Time Source ID{}{}s of its children.":"对于给定的{}时间源{}，此函数返回一个包含其子项的{}{}时间源 ID{}{} 的数组。",
+    "The&nbsp;{}Time Source{}&nbsp;to get the children of":"要获取{}时间源{}的子项",
+    "This code goes through all the children of a&nbsp;{}Time Source{}, and destroys them one-by-one.":"此代码将遍历{}时间源{}的所有子项，并逐个销毁它们。"
+}

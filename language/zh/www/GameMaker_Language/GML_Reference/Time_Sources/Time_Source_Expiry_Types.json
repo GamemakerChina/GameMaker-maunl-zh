@@ -1,0 +1,10 @@
+{
+    "However, the callback for a&nbsp;{}Time Source{}&nbsp;can only run on a game frame, so the expiry type of a&nbsp;{}Time Source{}&nbsp;controls when its callback runs, in case it expires in the middle of two frames.":"但是，{}时间源{}的回调只能在游戏帧上运行，因此{}时间源{}的过期类型控制其回调何时运行，以防在两个帧中间过期。",
+    "The&nbsp;{}Time Source{}&nbsp;will expire on the first frame after its expiry time":"{}时间源{}将在过期时间后的第一个帧过期",
+    "The&nbsp;{}Time Source{}&nbsp;will expire on the frame nearest to its expiry time":"{}时间源{}将在最接近其过期时间的帧上过期",
+    "Time Source Expiry Constant":"时间源过期常量",
+    "Time Source Expiry Types":"时间源过期类型",
+    "Time Sources that use seconds as a {}unit{} may not always expire on a game frame. They may expire after a game frame has been processed but before a new frame can start processing.":"使用秒作为{}单位{}的时间源不一定总是在游戏帧上过期。它们可能会在游戏帧被处理后但在新帧可以开始处理之前过期。",
+    "When using {}time_source_expire_after{}, the callback for a&nbsp;{}Time Source{}&nbsp;will always run on the frame&nbsp;{}after{}&nbsp;its expiry time.":"在之后使用 {}time_source_expire_after{} 时，{}时间源{}的回调将始终在其过期时间{}之后的帧{}上运行。",
+    "When using {}time_source_expire_nearest{}, the callback for a&nbsp;{}Time Source{}&nbsp;will run on the frame that\u0027s nearest to its expiry time, which may be the frame before it, or the frame after it.":"使用 {}time_source_expire_nearest{} 时，{}时间源{}的回调将在最接近其过期时间的帧上运行，该帧可能是它之前的帧，也可能是它之后的帧。"
+}

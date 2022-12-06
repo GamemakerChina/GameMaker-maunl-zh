@@ -1,0 +1,11 @@
+{
+    "A&nbsp;{}Time Source{}&nbsp;can have a state, which can be any one of the constants above. The default state&nbsp;for a newly-created&nbsp;{}Time Source{}&nbsp;is {}time_source_state_initial{}.":"{}时间源{}可以具有一个状态，该状态可以是上面的任何一个常量。新创建的{}时间源{}的默认状态为 {}time_source_state_initial{}。",
+    "The state can be changed using {}{}time_source_start(){}{}, {}{}time_source_stop(){}{}, and&nbsp;{}{}time_source_pause(){}{}.":"可以使用 {}{}time_source_start(){}{}、{}{}time_source_stop(){}{} 和 {}{}time_source_pause(){}{} 来更改状态。",
+    "The state of a&nbsp;{}Time Source{}&nbsp;is returned using {}{}time_source_get_state(){}{}.":"{}时间源{}的状态使用 {}{}time_source_get_state(){}{} 返回。",
+    "The {}Time Source{} has not been started yet":"{}时间源{}尚未启动",
+    "The&nbsp;{}Time Source{}&nbsp;has been {}started{} and is counting down":"{}时间源{}已{}启动{}并正在倒计时",
+    "The&nbsp;{}Time Source{}&nbsp;is {}paused{}":"{}时间源{}已{}暂停{}",
+    "The&nbsp;{}Time Source{}&nbsp;was {}stopped{}&nbsp;or it completely expired":"{}时间源{}已{}停止{}或已完全过期",
+    "Time Source State Constant":"时间源状态常量",
+    "Time Source States":"时间源状态"
+}

@@ -1,0 +1,6 @@
+{
+    "After calling this function, you will need to {}start{} the&nbsp;{}Time Source{}&nbsp;again for it to count down.":"调用此函数后，您需要{}再次启动{}时间源{}，使其向下计数。",
+    "The&nbsp;{}Time Source{}&nbsp;to reset":"要重置的{}时间源{}",
+    "This code will reset the given&nbsp;{}Time Source{}&nbsp;whenever a new room starts, and then start the&nbsp;{}Time Source{}&nbsp;again.":"此代码将在新房间启动时重置给定的{}时间源{}，然后再次启动{}时间源{}。",
+    "This function resets the given&nbsp;{}Time Source{}, resetting its timer and repetition information.":"此函数重置给定的{}时间源{}，重置其计时器和重复信息。"
+}

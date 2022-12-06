@@ -1,0 +1,4 @@
+{
+    "The handle to a&nbsp;{}Time Source{}&nbsp;returned by&nbsp;{}call_later{}.":"由 {2}call_later{3} 返回{}时间源{}的句柄。",
+    "This function cancels a callback function that was started earlier by {}call_later{}.":"此函数取消先前由 {}call_later{} 启动的回调函数。"
+}

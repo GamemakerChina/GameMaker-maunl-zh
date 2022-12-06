@@ -1,0 +1,5 @@
+{
+    "The function will return {}undefined{} if the given&nbsp;{}Time Source{}&nbsp;runs indefinitely, or if it\u0027s a {}built-in {}Time Source{}{}.":"如果给定的{}时间源{}无限期运行，或者它是{}内置{}时间源{}{}，则函数将返回 {0}undefined{1}。",
+    "The&nbsp;{}Time Source{}&nbsp;to get information for":"要获取{}时间源{}的信息",
+    "This function returns the number of repetitions the given&nbsp;{}Time Source{}&nbsp;has left until it completely stops.":"此函数返回给定{}时间源{}在完全停止之前所保留的重复次数。"
+}

@@ -1,0 +1,5 @@
+{
+    "The&nbsp;{}Time Source{}&nbsp;to get the period value for":"要获取{}时间源{}的周期值",
+    "This function returns the period value set for the given&nbsp;{}Time Source{}.":"此函数返回为给定{}时间源{}设置的周期值。",
+    "This period value will be expressed in the {}units{} set for the&nbsp;{}Time Source{}&nbsp;(seconds or frames).":"此周期值将以为{}时间源{}(秒或帧)设置的{0}单位{1}表示。"
+}

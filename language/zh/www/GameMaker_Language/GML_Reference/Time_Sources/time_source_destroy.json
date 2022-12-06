@@ -1,0 +1,8 @@
+{
+    "The Clean Up event code destroys that&nbsp;{}Time Source{}, as it will not be needed after the instance is destroyed.":"\"清理\"事件代码会销毁该{}时间源{}，因为销毁实例后将不需要该时间源。",
+    "The Create event code creates a new&nbsp;{}Time Source{}&nbsp;that expires once per second and repeats indefinitely.":"\"创建\"事件代码创建一个新的{}时间源{}，该时间源每秒过期一次并且无限期重复。",
+    "The&nbsp;{}Time Source{}&nbsp;to destroy":"要销毁的{}时间源{}",
+    "This function will destroy the given&nbsp;{}Time Source{}.":"此函数将销毁给定的{}时间源{}。",
+    "You can optionally specify whether all child Time Sources should be deleted as well.":"您可以根据需要指定是否同时删除所有子时间源。",
+    "{}OPTIONAL{} Whether to destroy child Time Sources as well, is {}false{} by default":"{}可选{} 是否同时销毁子时间源，默认为{}false{}"
+}

@@ -1,0 +1,7 @@
+{
+    "On each beat, it prints the message {}\"BEAT!\"{} to the output log.":"每次拍摄时，它都会将消息 {}\"BEAT!\"{} 打印到输出日志中。",
+    "The beats-per-minute value to convert into seconds-per-beat":"将每分钟的节拍值转换为每拍的秒数",
+    "This can be used when {}creating a Time Source{} to use a BPM value for the {}Time Source{}. It\u0027s important that such a {}Time Source{} uses {}seconds{} as its {}unit{}.":"{}创建时间源{}时可以使用此选项来为{}时间源{}使用 BPM 值。此类{}时间源{}使用{}秒{}作为其{}单位{}非常重要。",
+    "This code converts a value of 90 BPM into seconds, and uses that to create a&nbsp;{}Time Source{}&nbsp;that runs indefinitely.":"此代码将值 90 BPM 转换为秒，并使用该值创建无限期运行的{}时间源{}。",
+    "This function takes a beats-per-minute value, and returns the length of each beat in seconds.":"这个函数接受一个每分钟的节拍值，并返回每个节拍的长度(秒)。"
+}

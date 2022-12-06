@@ -18,9 +18,10 @@
     "The following functions are used to create and modify&nbsp;{}Time Source{}s:":"下列函数用于创建和修改{}时间源{}：",
     "The following helper functions are provided for converting time periods:":"提供了以下辅助函数用于转换时间段：",
     "The following two functions provide a simpler, shorthand way of creating a&nbsp;{}Time Source{}&nbsp;and stopping it:&nbsp;":"以下两个函数提供了创建{}时间源{}并停止它的更简单的简写方式:",
-    "Time Source Expiry Types":"时间源到期类型",
+    "Time Source Expiry Types":"时间源过期类型",
     "Time Source States":"时间源状态",
     "Time Source Units":"时间源单位",
+    "Time Sources":"时间源",
     "While setting up a time source doesn\u0027t take many lines of code, it can be convenient to quickly set up and manage a timer using a single function.":"虽然设置时间源不需要很多行代码，但使用单个功能可以方便地快速设置和管理计时器。",
     "{}It\u0027s also able to repeat a certain of amount of times, or forever. Each repetition of a&nbsp;{}Time Source{}&nbsp;is known as a \"rep\".":"{}它也可以重复一定的次数，或者永远重复。一个{}时间源{}的每一次重复被称为\"重复\"。",
     "{}NOTE{} You cannot use the&nbsp;{}Time Source{}&nbsp;functions with the&nbsp;{}Time Source{}&nbsp;IDs used by these functions. See&nbsp;{}call_later{}&nbsp;for more information.":"{}注意{}您不能将{}时间源{}函数与这些函数使用的{}时间源{}id一起使用。有关更多信息，请参见{}call_later{}。"

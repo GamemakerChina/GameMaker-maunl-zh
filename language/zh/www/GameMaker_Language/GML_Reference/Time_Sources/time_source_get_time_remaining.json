@@ -1,0 +1,5 @@
+{
+    "The&nbsp;{}Time Source{}&nbsp;to get information for":"要获取{}时间源{}的信息",
+    "This function returns the time remaining until the given&nbsp;{}Time Source{}&nbsp;expires and executes its callback method.":"此函数返回在给定{}时间源{}过期并执行其回调方法之前剩余的时间。",
+    "This time value will be expressed in the {}units{} set for the&nbsp;{}Time Source{}&nbsp;(seconds or frames).":"此时间值将以为{}时间源{}(秒或帧)设置的{0}单位{1}表示。"
+}

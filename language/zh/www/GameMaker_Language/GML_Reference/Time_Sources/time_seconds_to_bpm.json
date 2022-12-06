@@ -1,0 +1,6 @@
+{
+    "The seconds-per-beat value to convert into beats-per-minute":"转换成每分钟节拍的秒值",
+    "This code follows the example&nbsp;for&nbsp;{}{}time_bpm_to_seconds(){}{}.":"此代码遵循 {}{}time_bpm_to_seconds(){}{} 的示例。",
+    "This function gets the period of a&nbsp;{}Time Source{}, converts it to BPM and prints that value to the output log.":"此函数获取{}时间源{}的周期，将其转换为 BPM 并将该值打印到输出日志中。",
+    "This function takes the length of a beat in seconds, and returns a beats-per-minute value.":"该函数以秒为单位获取一个节拍的长度，并返回每分钟的节拍值。"
+}

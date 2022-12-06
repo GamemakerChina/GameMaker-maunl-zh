@@ -1,0 +1,10 @@
+{
+    "Finally, it starts the&nbsp;{}Time Source{}.":"最后，启动{}时间源{}。",
+    "In this example, we want the instance to destroy itself 300 frames later.":"在本例中，我们希望实例在 300 帧后自行销毁。",
+    "It then creates a&nbsp;{}Time Source{}, inheriting from the Game&nbsp;{}Time Source{}. It sets its period to {}300 frames{}.":"然后创建{}时间源{}，从游戏{}时间源{}继承。它将其周期设置为{} 300 帧{}。",
+    "The code first creates a method that simply calls {}{}instance_destroy(){}{}.":"代码首先创建一个只调用 {}{}instance_destroy(){}{} 的方法。",
+    "The specified&nbsp;{}Time Source{}&nbsp;may be a new&nbsp;{}Time Source{}&nbsp;that was never started,&nbsp;was paused, stopped or expired with no repetitions.":"指定的{}时间源{}可能是从未启动、暂停、停止或过期且没有重复的新{}时间源{}。",
+    "The&nbsp;{}Time Source{}&nbsp;to start":"要启动的{}时间源{}",
+    "This function starts the given&nbsp;{}Time Source{}, changing its {}state{} to {}time_source_state_active{}.":"此函数启动给定的{}时间源{}，将其{}状态{}更改为 {}time_source_state_active{}。",
+    "This function will \"soft-reset\" the given&nbsp;{}Time Source{}, resetting its {}expiry time{} and {}reps remaining{} to the values that were configured for it.":"此函数将\"软重置\"给定的{}时间源{}，并将其{}过期时间{}和剩余{}代表{}重置为为其配置的值。"
+}
