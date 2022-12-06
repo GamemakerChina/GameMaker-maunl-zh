@@ -1,6 +1,6 @@
 {
     "A solid particle group prevents other fixtures from lodging inside of it. Should anything penetrate it, the solid particle group pushes the offending fixture back out to its surface, making a a solid particle group possess an especially strong repulsive force.":"实体粒子组可防止其他固定装置嵌入其中。如果有任何东西穿透它，固体颗粒团会将有害的固定装置推回到它的表面，使固体颗粒团具有特别强的排斥力。",
-    "Rigid particle groups are ones whose shape does not change, even when they collide with other fixtures.":"刚性粒子组是其形状不会更改的粒子组，即使它们与其他设备碰撞也是如此。",
+    "Rigid particle groups are ones whose shape does not change, even when they collide with other fixtures.":"刚性粒子组是其形状不会更改的粒子组，即使它们与其他装置碰撞也是如此。",
     "The above code will create a variable to store the flags value and then use it to set the flags of all particles created in the group indexed by the variable \"group\".":"上述代码将创建一个变量来存储标志值，然后使用它来设置在变量 \"group\" 索引的组中创建的所有粒子的标志。",
     "The flags to set on the particle group.":"要在粒子组上设置的标志。",
     "The particle group to set.":"要设定的粒子组。",

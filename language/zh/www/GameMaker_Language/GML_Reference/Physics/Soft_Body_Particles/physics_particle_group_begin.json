@@ -5,7 +5,7 @@
     "Other than the flags, you can also set the position in the room to create the particle group at (the position given will be the center of mass of the finished group), the initial horizontal and vertical velocity, as well as the angular velocity of the group, permitting you to create moving, rotating groups.":"除了标志之外，还可以在房间中设置位置以创建粒子组(给定的位置将是完成组的质心)、初始水平和垂直速度以及组的角速度，从而允许您创建移动的旋转组。",
     "Physics Particle Flag Constant":"物理粒子标志常量",
     "Physics Particle Group Flag Constant":"物理粒子组标志常量",
-    "Rigid particle groups are ones whose shape does not change, even when they collide with other fixtures.":"刚性粒子组是其形状不会更改的粒子组，即使它们与其他设备碰撞也是如此。",
+    "Rigid particle groups are ones whose shape does not change, even when they collide with other fixtures.":"刚性粒子组是其形状不会更改的粒子组，即使它们与其他装置碰撞也是如此。",
     "Set the cohesion strength between particles in the group.":"设置组中粒子之间的内聚强度。",
     "The above code stores the flags for the particle type and the particle group properties in variables then uses these to create a circular particle group with a 100px radius at the mouse position.":"上述代码将粒子类型和粒子组属性的标志存储在变量中，然后使用这些标志在鼠标位置创建半径为 100px 的圆形粒子组。",
     "The angle (in degrees) to rotate the group to on create.":"创建时旋转组的角度(以度为单位)。",

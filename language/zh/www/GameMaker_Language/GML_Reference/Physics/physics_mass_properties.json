@@ -1,0 +1,19 @@
+{
+    "Centre of Mass":"质心",
+    "However, this may not be correct or you may be looking for a specific effect from your physics object, in which case this function can also be used to change the x and y coordinates for the centre of mass. These are {}local/relative{} values, so {}0,0{} is the point at which the fixtures are bound to the instance (the origin of the instance). So a centre of mass of {}-4,0{} would shift the centre of mass to the left of the origin, by 4 pixels.":"但是，这可能不正确，或者您正在查找来自物理对象的特定效果，在这种情况下，此函数还可用于更改质心的 X 和 Y 坐标。这些是 {} 本地 / 相对 {} 值，因此 {}0,0{} 是固定装置绑定到实例的点 (实例的原点)。因此，质心 {}-4, 0{} 将使质心向原点左移 4 像素。",
+    "Mass":"质量",
+    "Rotational Inertia":"旋转惯性",
+    "The above code will shift the center of mass of the physical body to the left.":"上述代码将物理实体的质心向左移动。",
+    "The centre of mass is calculated automatically for you based on the shape of the fixture (or fixtures) you have defined. To get a general idea of where this could be, if you have a sprite that is the same shape as the fixtures you wish to create, then select the \"centre origin\" option and you will see approximately where the centre of mass will be too.":"质心是根据您定义的装置 (或多个装置) 的形状自动计算的。为了得到一个大致的概念，如果您有一个与您希望创建的装置形状相同的精灵，然后选择 \"中心原点 \"选项，您将看到质心的大致位置。",
+    "The local x coordinate of the new center of mass.":"新的质心的局部 X 坐标。",
+    "The local y coordinate of the new center of mass.":"新的质心的局部 Y 坐标。",
+    "The mass cannot be negative.":"质量不能为负值。",
+    "The mass is calculated in real world weight (i.e.: kilograms), so you should always try and keep values realistic for what you are modelling. So if your physics object is meant to represent a person, their mass could be, say, 70 kg, instead of something like 2 kg.":"质量是以真实世界的权重 (即：kg) 计算的，因此您应该始终尝试保持要建模的值的真实性。所以，如果你的物理物体代表一个人，他们的质量可能是 70 公斤，而不是 2 公斤。",
+    "The new mass that you want the fixture to have.":"希望装置具有的新质量。",
+    "The rotational inertia cannot be negative.":"旋转惯性不能为负值。",
+    "The rotational inertia for the fixture.":"装置的旋转惯量。",
+    "This function can be used to set custom mass and rotational inertia values for a physics enabled instance. Normally the mass, centre of mass, and rotational inertia for an instance are calculated using a combination the surface area of the bound fixtures and their density. However, in very special occasions, you may need to offset the centre of mass or change the inertia, and that is when you would use this function.":"此函数可用于为启用物理的实例设置自定义质量和旋转惯量值。通常，使用绑定固定装置的表面积及其密度的组合来计算实例的质量、质心和旋转惯性。但是，在非常特殊的情况下，您可能需要偏移质心或改变惯性，这就是您使用此功能的时候。",
+    "{}NOTE{}&nbsp;This function does not set mass and inertia for individual fixtures, but rather for the whole physics enabled instance, no matter how many fixtures are bound to it.":"{}注意{} 此功能不会为单个装置设置质量和惯性，而是为整个启用了物理的实例设置质量和惯性，无论有多少个装置绑定到它。",
+    "{}NOTE{}&nbsp;This function should only be used when necessary, as the physics simulation is designed for the mass and inertia to be optimal based on the density and size of the fixture. Changing these values may produce unexpected results.":"{}注意{} 只有在必要时才应使用此功能，因为物理模拟旨在根据固定装置的密度和尺寸优化质量和惯性。更改这些值可能会产生意外结果。",
+    "{}The inertia value defines how resistant this instance is to changes in its rotational velocity. A higher inertia makes it more resistant and a low inertia makes it less resistant.{}":"{}惯性值定义此实例对其旋转速度变化的抵抗力。惯性越高，阻力越大，惯性越低，阻力越小。{}"
+}
