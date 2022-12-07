@@ -32,6 +32,12 @@ GameMaker文档翻译器,是为了方便的翻译文档而根据文档本身特�
 
 -----
 
+### 在开始之前需要了解的事
+
+ - 项目所使用的翻译工具是使用 aardio 编写，**仅支持 Windows 平台**，且在可预见的时间段内 aardio 的作者不会对跨平台提供任何支持，我们不会受理除 Windows 平台外的任何问题，包括但不限于 “为什么没有 macOS / Linux 平台版本？” 等问题。当然我们也欢迎对它移植，具体前往[开始贡献（工具贡献）](#%E5%BC%80%E5%A7%8B%E8%B4%A1%E7%8C%AE%E5%B7%A5%E5%85%B7%E8%B4%A1%E7%8C%AE)了解详情。
+   （但它目前只能编译出 32 位程序，所以在 x86 和 ARM64 处理器上均可运行，在 ARM64 会由系统进行转译）
+ - 由于去字和嵌字工作难度较大，我们不会对文档内的图片进行翻译
+
 ### 1.克隆项目
 
 https://github.com/GamemakerChina/gamemaker-maunl-zh.git
@@ -115,6 +121,7 @@ npm run start:all
 
 
 ## 许可协议
+
 这是一个多协议的项目，可根据需要点击各个协议查看：
 
 翻译内容 & 记忆库 - [CC-BY-SA 4.0 International](LICENSE)
@@ -122,4 +129,3 @@ npm run start:all
 GameMakerManualTranslator & GameMakerManualTranslatorBuild - [WTFPL](GameMakerManualTranslator-Project/LICENSE) [WTFPL](GameMakerManualTranslatorBuild-Project/LICENSE)
 
 GameMakerManualExport - [MIT](GameMakerManualExport/LICENSE)
-
