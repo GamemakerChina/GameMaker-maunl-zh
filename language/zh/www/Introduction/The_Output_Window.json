@@ -14,7 +14,7 @@
     "The default docked tabs are explained below:":"默认的停靠选项卡说明如下：",
     "This window will also show results for Feather\u0027s \"{}Find All References{}\" functionality.":"此窗口还将显示 羽毛 的 \"{}查找所有参考{}\" 功能的结果。",
     "When you open a project in {}GameMaker{} for the first time, you will be presented with the {}Output Window {}docked at the bottom of the screen. This docked window contains various tabs that show the different output information for your project, depending on certain circumstances. The dock can be closed by clicking the button at the bottom of the {}IDE{}, and you can click {} and drag any tab in the docked window to another dock to change its position, or you can click&nbsp;{} on the dock contents bar and drag it into the workspace to create a stand-alone window:":"首次在{}GameMaker{}中打开项目时，屏幕底部将显示{}输出窗口{}。此固定窗口包含各种选项卡，这些选项卡根据具体情况显示项目的不同输出信息。通过单击{}Ide{}底部的按钮可以关闭停靠栏，您可以单击{}并将停靠窗口中的任何选项卡拖动到另一个停靠栏以更改其位置，也可以单击停靠栏上的内容{}并将其拖动到工作区以创建独立窗口：",
-    "You can then double-click {} on any of the returned entries to open the given asset at the correct position for editing.":"然后，您可以在任何返回的条目上双击{}，以在正确的位置打开给定的资产以进行编辑。",
+    "You can then double-click {} on any of the returned entries to open the given asset at the correct position for editing.":"然后，您可以在任何返回的条目上双击{}，以在正确的位置打开给定的资源以进行编辑。",
     "You can then double-click&nbsp;{} on any of the compiler error entries to open the given asset at the position flagged as giving the error. For a full list of possible error messages, please see {}here{}.":"双击{}任何编译器错误上的条目，在标记为给出错误的位置打开给定的资源。有关可能的错误消息的完整列表，请参阅{}此处{}。",
     "for declared variables that aren\u0027t used anywhere":"对于没有在任何地方使用的声明变量",
     "for variables used somewhere that haven\u0027t been declared yet":"用于尚未声明的变量",

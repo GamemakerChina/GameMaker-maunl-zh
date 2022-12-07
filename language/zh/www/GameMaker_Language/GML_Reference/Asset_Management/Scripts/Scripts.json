@@ -1,4 +1,4 @@
 {
     "The following functions used for checking and running scripts that have been written in the {}Script Editor{}:":"以下函数用于检查和运行已写入{}脚本编辑器{}的脚本：",
-    "{}NOTE{}&nbsp;Keep in mind that if your script is {}completely empty{}, it will not be loaded into the compiled game and will become non-existent; meaning that trying to reference such a script asset will crash your game. Note that this only applies to scripts that are completely empty, so even if your script only contains&nbsp;comments, it will still be included in the compiled game.":"{}注意{}请记住，如果您的脚本{}完全为空{}，它将不会被加载到编译的游戏中，并将变得不存在。这意味着尝试引用这样的脚本资产将使您的游戏崩溃。请注意，这仅适用于完全为空的脚本，因此即使您的脚本仅包含注释，它仍将包含在编译的游戏中。"
+    "{}NOTE{}&nbsp;Keep in mind that if your script is {}completely empty{}, it will not be loaded into the compiled game and will become non-existent; meaning that trying to reference such a script asset will crash your game. Note that this only applies to scripts that are completely empty, so even if your script only contains&nbsp;comments, it will still be included in the compiled game.":"{}注意{}请记住，如果您的脚本{}完全为空{}，它将不会被加载到编译的游戏中，并将变得不存在。这意味着尝试引用这样的脚本资源将使您的游戏崩溃。请注意，这仅适用于完全为空的脚本，因此即使您的脚本仅包含注释，它仍将包含在编译的游戏中。"
 }

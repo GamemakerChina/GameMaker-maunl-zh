@@ -1,4 +1,4 @@
 {
-    "The above code sets the target room to the room \"rm_Game\" and then gets the layer ID for the layer called \"SpriteAssets\" in that room. This layer ID is then used to add 50 random sprite assets to the layer, before the layer target is reset to the current room.":"上述代码将目标房间设置为\"rm_Game\"房间，然后获取该房间中名为\"SpriteAssets\"的层的层ID。然后，在将层目标重置为当前房间之前，使用该层ID向该层添加50个随机精灵资产。",
+    "The above code sets the target room to the room \"rm_Game\" and then gets the layer ID for the layer called \"SpriteAssets\" in that room. This layer ID is then used to add 50 random sprite assets to the layer, before the layer target is reset to the current room.":"上述代码将目标房间设置为\"rm_Game\"房间，然后获取该房间中名为\"SpriteAssets\"的层的层ID。然后，在将层目标重置为当前房间之前，使用该层ID向该层添加50个随机精灵资源。",
     "This function is used to reset the layer target to the current room. See the function {}{}layer_set_target_room(){}{} for further information.":"此功能用于将图层目标重置为当前房间。有关详细信息，请参阅函数{}{}layer_set_target_room(){}{}。"
 }

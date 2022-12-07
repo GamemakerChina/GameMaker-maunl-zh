@@ -1,6 +1,6 @@
 {
     "A previous compile error has caused the compiler parse tree to not be created and thus the compiler has no program data to compile":"先前的编译错误导致未创建编译器解析树，因此编译器没有要编译的程序数据",
-    "A script or function has been called that the compiler does not recognise (this error is usually thrown by empty script asset references since the compiler will strip out these assets on compile)":"调用了编译器不能识别的脚本或函数(这个错误通常由空脚本资产引用引发，因为编译器会在编译时删除这些资产)",
+    "A script or function has been called that the compiler does not recognise (this error is usually thrown by empty script asset references since the compiler will strip out these assets on compile)":"调用了编译器不能识别的脚本或函数(这个错误通常由空脚本资源引用引发，因为编译器会在编译时删除这些资源)",
     "Compile Errors":"编译器错误",
     "If the error is found in a script then it will simply be:":"如果在一个脚本中发现错误，那么它只是:",
     "In the code you are using an assignment operator wrong":"在代码中使用赋值运算符是错误的",
@@ -27,7 +27,7 @@
     "This error is usually only found from trying to run a malformed project file (if this happens consistently you may wish to contact {}support{} and supply the details that the compiler output window shows)":"此错误通常仅在尝试运行格式不正确的项目文件时发现(如果一直发生此错误，您可能希望联系{} support {}并提供编译器输出窗口显示的详细信息)",
     "This message simply means that some error has been discovered but the compiler cannot place what or where (if this happens consistently you may wish to contact {}support{} and supply the details that the compiler output window shows)":"这个消息只是意味着已经发现了一些错误，但编译器什么都不知道(如果一直发生这种情况，您可能希望联系{} support {}并提供编译器输出窗口显示的详细信息)",
     "You are using a reference to an argument that does not exist but that could map to another argument":"您使用的引用指向一个不存在但可能映射到另一个参数的参数",
-    "You can then double-click&nbsp;{} on any of the compiler error entries to open the given asset at the position flagged as giving the error,&nbsp;and then you can use the information contained within the message to pinpoint exactly where in the object or script the error has occurred. However, sometimes these errors can seem a bit cryptic, so below you can find a complete list of all errors and a brief explanation of what they mean:":"然后，您可以在任何编译器错误条目上双击{} ，在标记为给出错误的位置打开给定的资产，然后您可以使用消息中包含的信息来确切地指出错误在对象或脚本中发生的位置。然而，有时这些错误看起来有点神秘，所以下面你可以找到所有错误的完整列表和它们的含义的简短解释:",
+    "You can then double-click&nbsp;{} on any of the compiler error entries to open the given asset at the position flagged as giving the error,&nbsp;and then you can use the information contained within the message to pinpoint exactly where in the object or script the error has occurred. However, sometimes these errors can seem a bit cryptic, so below you can find a complete list of all errors and a brief explanation of what they mean:":"然后，您可以在任何编译器错误条目上双击{} ，在标记为给出错误的位置打开给定的资源，然后您可以使用消息中包含的信息来确切地指出错误在对象或脚本中发生的位置。然而，有时这些错误看起来有点神秘，所以下面你可以找到所有错误的完整列表和它们的含义的简短解释:",
     "You have added a statement to a switch outside of either a {}case:{} or {}default:{} call":"您已经在{}case:{}或{}default:{}调用之外向switch添加了一条语句",
     "You have an invalid character in your game code, which can happen with foreign language characters or Unicode":"您的游戏代码中有一个无效的字符，这种情况可能发生在外语字符或 Unicode 中。例如，你在编辑器中输入的类似于\"小鸟 = obj_bird;\"的代码是不合法的，因为中文是不受支持的字符。",
     "You have called an unknown function":"您调用了一个未知函数",

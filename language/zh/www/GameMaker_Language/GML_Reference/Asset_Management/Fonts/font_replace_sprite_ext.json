@@ -2,7 +2,7 @@
     "If the function fails, then it will fail silently without replacing the given sprite font.":"如果函数失败，那么它将在不替换给定的sprite字体的情况下静默失败。",
     "Set as proportional font or not.":"是否设置为比例字体。",
     "String from which sprite sub-image order is taken.":"从中获取精灵子图像顺序的字符串。",
-    "The above code will replace a sprite font asset that is indexed in the variable \"global.Font\" with sprite images indexed in the variable \"spr_CalcFont\".":"上述代码将用在变量 \"spr_CalcFont\" 中索引的精灵图像替换在变量 \"global.font\" 中索引的精灵字体资产。",
+    "The above code will replace a sprite font asset that is indexed in the variable \"global.Font\" with sprite images indexed in the variable \"spr_CalcFont\".":"上述代码将用在变量 \"spr_CalcFont\" 中索引的精灵图像替换在变量 \"global.font\" 中索引的精灵字体资源。",
     "The font to replace.":"要替换的字体。",
     "The space to leave between each letter.":"每个字母之间要留出的空间。",
     "The sprite to add a font based on.":"要添加字体的sprite.",

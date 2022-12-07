@@ -1,7 +1,7 @@
 {
     "It loops through all option names, and prints each option\u0027s name and value to the Output Log.":"它循环遍历所有选项名称，并将每个选项的名称和值打印到输出日志中。",
     "The function will return {}undefined{} if the provided extension name is invalid.":"如果提供的扩展名无效，函数将返回{}undefined{}。",
-    "The name of your extension asset as a string":"作为字符串的扩展资产的名称",
+    "The name of your extension asset as a string":"作为字符串的扩展资源的名称",
     "This code gets the names of all options, and the number of options in the extension {}MyExtension{}.":"此代码获取所有选项的名称以及扩展{}MyExtension{}中的选项数量。",
     "This function returns the total number of&nbsp;{}options{} that exist in the extension with the given name.":"此函数返回扩展中存在的具有给定名称的{}选项{}的总数。"
 }

@@ -1,5 +1,5 @@
 {
-    "The name of your extension asset as a string":"作为字符串的扩展资产的名称",
+    "The name of your extension asset as a string":"作为字符串的扩展资源的名称",
     "This code checks if the {}MyExtension{} extension exists, and if it does, gets its options as a struct, and reads a value from it.":"此代码检查{}MyExtension{}扩展是否存在，如果存在，则获取其作为结构的选项，并从中读取值。",
     "This function tells whether an extension with the given name exists ({}true{}) or not ({}false{}).":"此函数判断是否存在具有给定名称的扩展({}true{})({}false{})。"
 }

@@ -1,5 +1,5 @@
 {
-    "The above code creates a new sequence and then creates a graphic asset track and sets some keyframe data on the track. This track is then assigned to the instance.":"上面的代码创建一个新序列，然后创建一个图形资产轨道，并在轨道上设置一些关键帧数据。然后将此轨迹分配给实例。",
+    "The above code creates a new sequence and then creates a graphic asset track and sets some keyframe data on the track. This track is then assigned to the instance.":"上面的代码创建一个新序列，然后创建一个图形资源轨道，并在轨道上设置一些关键帧数据。然后将此轨迹分配给实例。",
     "The function will return a {}track keyframe struct{} which can then have data added to it before being assigned to a {}track struct{}.":"函数将返回{}轨道关键帧结构{}，然后在分配给{}轨道结构{}之前，可以将数据添加到其中。",
     "The type of keyframe to create.":"要创建的关键帧的类型。",
     "With this function you can create a new track keyframe {}struct{}, supplying the type of track that the keyframe will be applied to. The {}type{} argument can be any one of the&nbsp;{}{}Sequence Track Type Constant{}{}s {}listed on this page{}.":"使用此函数，可以创建新的轨迹关键帧{}结构{}，提供将应用该关键帧的轨迹类型。{}type{}参数可以是本页{}上列出的{}{}序列轨迹类型常数{}中的任意一个。"

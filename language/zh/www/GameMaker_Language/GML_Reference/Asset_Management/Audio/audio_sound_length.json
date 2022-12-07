@@ -1,5 +1,5 @@
 {
     "The above code gets the length (in seconds) of the sound indexed in the variable \"snd_Beam\", then plays the sound and sets an alarm to go off when the sound has finished playing using the length of the sound to calculate the time needed for the alarm.":"上述代码获取变量\"snd_Beam\"中索引的声音长度(以秒为单位)，然后播放声音，并使用声音长度计算报警所需时间，在声音播放完成后将发出报警。",
     "The index of the sound to check.":"检查声音的索引。",
-    "This function will return the length of the given sound in seconds. The sound can either be a referenced from index for an individual sound being played which has been stored in a variable when using the {}{}audio_play_sound(){}{} or {}{}audio_play_sound_at(){}{} functions, or an actual sound asset from the Asset Browser.":"此函数将以秒为单位返回给定声音的长度。当使用{}{}audio_play_sound(){}{}或{}{}audio_play_sound_at(){}{}函数时，声音可以是正在播放的单个声音的索引引用，也可以是资源浏览器中的实际声音资产。"
+    "This function will return the length of the given sound in seconds. The sound can either be a referenced from index for an individual sound being played which has been stored in a variable when using the {}{}audio_play_sound(){}{} or {}{}audio_play_sound_at(){}{} functions, or an actual sound asset from the Asset Browser.":"此函数将以秒为单位返回给定声音的长度。当使用{}{}audio_play_sound(){}{}或{}{}audio_play_sound_at(){}{}函数时，声音可以是正在播放的单个声音的索引引用，也可以是资源浏览器中的实际声音资源。"
 }
