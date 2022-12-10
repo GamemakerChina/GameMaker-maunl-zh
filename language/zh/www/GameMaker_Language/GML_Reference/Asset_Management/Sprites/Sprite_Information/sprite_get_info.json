@@ -24,14 +24,14 @@
     "The sprite\u0027s Y offset/origin (in pixels)":"精灵的Y偏移/原点（以像素为单位）",
     "The sprite\u0027s height (in pixels)":"精灵的高度（以像素为单位）",
     "The sprite\u0027s width (in pixels)":"精灵的宽度（以像素为单位）",
-    "The type of the sprite:{}\n          {}0{} - Bitmap (Regular sprites){}\n          {}1{} - SWF{}\n          {}2{} - Spine\n        ":"sprite的类型：{}\n{}0{}-Bitmap（常规子画面）{}\n{}1{}-SWF{}\n{}2{}-Spine",
+    "The type of the sprite:{} {}0{} - Bitmap (Regular sprites){} {}1{} - SWF{} {}2{} - Spine ":"sprite的类型：{}{}0{}-Bitmap（常规子画面）{}{}1{}-SWF{}{}2{}-Spine",
     "The {}Nine Slice struct{} for this sprite, or {}undefined{} if it has no nine slice data":"此sprite的{}九宫格结构{}，或者{}undefined{}（如果它没有九宫格数据）",
     "This function is used to retrieve information for the given sprite. You supply a sprite index (which can be an asset added through the {}Asset Browser{} or a sprite&nbsp;{}added{} at runtime) and the function returns a {}struct{} with the following variables:":"此函数用于检索给定子画面的信息。您提供一个sprite索引（可以是通过{}Asset Browser{}添加的资源，也可以是在运行时添加的sprite{}），该函数将返回包含以下变量的{}struct{}：",
     "{}Bitmap Sprite Data{}{}Bitmap Sprite Data{}":"",
     "{}General Sprite Data{}{}General Sprite Data{}":"",
     "{}This additional variable is available only for Bitmap (regular)&nbsp;sprites:{}":"{}此附加变量仅适用于位图（常规）精灵：{}",
-    "{}true{} if the sprite is marked as smooth, otherwise {}false{}{}\n          {}{}(This can only be specified through {}{}sprite_add(){}{}&nbsp;or similar functions, and will be {}false{} for sprites created in the IDE){}{}{}{}\n        ":"如果精灵标记为平滑，则为{}true{}，否则为{}false{}{}\n{}{}（这只能通过{}{}sprite_add（）{}{）或类似的函数来指定，并且对于在IDE中创建的sprite将为{}False{}）",
-    "{}true{} if the sprite is marked as transparent, otherwise {}false{}{}\n          {}(This can only be specified through {}{}sprite_add(){}{}&nbsp;or similar functions, and will be {}false{} for sprites created in the IDE){}\n        ":"如果sprite标记为透明，则为{}true{}，否则为{}false{}{}\n{}（这只能通过{}{}sprite_add（）{}{}或类似的函数来指定，并且对于在IDE中创建的sprite将为{}false{}）{}",
+    "{}true{} if the sprite is marked as smooth, otherwise {}false{}{} {}{}(This can only be specified through {}{}sprite_add(){}{}&nbsp;or similar functions, and will be {}false{} for sprites created in the IDE){}{}{}{} ":"如果精灵标记为平滑，则为{}true{}，否则为{}false{}{}{}{}（这只能通过{}{}sprite_add（）{}{）或类似的函数来指定，并且对于在IDE中创建的sprite将为{}False{}）",
+    "{}true{} if the sprite is marked as transparent, otherwise {}false{}{} {}(This can only be specified through {}{}sprite_add(){}{}&nbsp;or similar functions, and will be {}false{} for sprites created in the IDE){} ":"如果sprite标记为透明，则为{}true{}，否则为{}false{}{}{}（这只能通过{}{}sprite_add（）{}{}或类似的函数来指定，并且对于在IDE中创建的sprite将为{}false{}）{}",
     "{}true{} if this sprite is marked as premultiplied, otherwise {}false{}":"如果此sprite标记为预乘，则为{}true{}，否则为{}false{}",
     "{}true{} if this sprite uses a collision mask, otherwise {}false{}":"如果此精灵使用碰撞遮罩，则为{}true{}，否则为{}false{}"
 }

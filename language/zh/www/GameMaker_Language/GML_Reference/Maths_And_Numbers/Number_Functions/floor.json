@@ -1,5 +1,5 @@
 {
-    "Returns the floor of n, that is, n rounded down to an integer. This is similar to the {}{}round(){}{} function, but it only rounds {}down{}, no matter what the decimal value, so {}floor(5.99999){} will return 5, as will\n    {}floor(5.2){}, {}floor(5.6457){} etc...":"返回 n 的底数，即 n 向下舍入为整数。 这类似于 {}{}round(){}{} 函数，但它只会{}向下{}舍入，无论十进制值是多少，因此 {}floor(5.99999){} 将返回 5， {}floor(5.2){}、{}floor(5.6457){} 等...",
+    "Returns the floor of n, that is, n rounded down to an integer. This is similar to the {}{}round(){}{} function, but it only rounds {}down{}, no matter what the decimal value, so {}floor(5.99999){} will return 5, as will {}floor(5.2){}, {}floor(5.6457){} etc...":"返回 n 的底数，即 n 向下舍入为整数。 这类似于 {}{}round(){}{} 函数，但它只会{}向下{}舍入，无论十进制值是多少，因此 {}floor(5.99999){} 将返回 5， {}floor(5.2){}、{}floor(5.6457){} 等...",
     "The number to floor.":"向下舍入的数。",
     "This will set val to 3.":"这将把 val 设置为3。"
 }

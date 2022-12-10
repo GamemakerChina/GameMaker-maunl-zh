@@ -1,5 +1,5 @@
 {
     "The above code will covert the string stored in \"game_data\" into a base64 encoded string which is then stored in an external text file.":"上面的代码将把存储在“ game _ data”中的字符串转换为 base64编码的字符串，然后将其存储在外部文本文件中。",
     "The string to encode.":"要编码的字符串。",
-    "This function will convert a string into a base64 format encoded string. This is a commonly used encoding scheme that is often used for any media that needs to be stored or transferred over the internet as text, and renders the output unreadable to\n    the human eye.":"此函数将字符串转换为base64格式编码的字符串。这是一种常用的编码方案，通常用于需要作为文本在互联网上存储或传输的任何媒体，并使输出无法被人眼读懂。"
+    "This function will convert a string into a base64 format encoded string. This is a commonly used encoding scheme that is often used for any media that needs to be stored or transferred over the internet as text, and renders the output unreadable to the human eye.":"此函数将字符串转换为base64格式编码的字符串。这是一种常用的编码方案，通常用于需要作为文本在互联网上存储或传输的任何媒体，并使输出无法被人眼读懂。"
 }

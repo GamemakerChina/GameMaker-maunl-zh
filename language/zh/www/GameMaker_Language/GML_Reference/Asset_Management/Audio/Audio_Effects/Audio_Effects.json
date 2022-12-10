@@ -9,7 +9,7 @@
     "By default audio emitters output directly to the main bus, so the audio that is played on an emitter will end up there and have the same effects applied as all other audio.":"默认情况下，音频发射器直接输出到主总线，因此在发射器上播放的音频将在那里结束，并具有与所有其他音频相同的效果。",
     "Bypassing Effects":"绕过效果",
     "Code Reference":"代码参考",
-    "Create a {}custom bus{} and apply effects to that bus\n      {}\n        {}Custom buses can only be used with&nbsp;{}Audio Emitters{}&nbsp;{}\n      {}\n    ":"创建{}自定义总线{}并将效果应用于该总线\n{}\n{}自定义总线只能用于{}音频发射器{}{}\n{}",
+    "Create a {}custom bus{} and apply effects to that bus {} {}Custom buses can only be used with&nbsp;{}Audio Emitters{}&nbsp;{} {} ":"创建{}自定义总线{}并将效果应用于该总线{}{}自定义总线只能用于{}音频发射器{}{}{}",
     "Effects are applied on buses. GameMaker allows you to:":"效果应用于总线。GameMaker允许您：",
     "For a single effect this means that this effect is skipped, for a bus this means that all effects on the bus are skipped.":"对于单个效果，这意味着跳过该效果，对于总线，这意味着跳过总线上的所有效果。",
     "GameMaker offers a selection of audio effects, such as reverb, delay, bitcrusher, etc.":"GameMaker提供了一系列音频效果，如混响、延迟、Bitcrusher等。",

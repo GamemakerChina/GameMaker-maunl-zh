@@ -1,5 +1,5 @@
 {
     "The above code uses the retrieved tile map ID to get the tile width and height of the tile map and then uses those values to set an instance variable.":"上面的代码使用检索到的磁贴图ID来获取磁贴图的宽度和高度，然后使用这些值来设置实例变量。",
     "The unique ID value of the tile map element to get the width of":"平铺映射元素的唯一ID值，以获取",
-    "Using this function you can retrieve the width (in cells) of the tile map element. You give the tile map element ID (which you get when you create a tile map element using {}{}layer_tilemap_create(){}{} or when\n    you use the function {}{}layer_tilemap_get_id(){}{}), and the function will return the width (number of cells wide).":"使用此函数可以检索平铺映射元素的宽度(以单元格为单位)。可以指定平铺贴图元素 ID(当使用{}{}layer_tilemap_create(){}{}创建平铺贴图元素时或当\n您使用函数{}{}layer_tilemap_get_id(){}{})，函数将返回宽度(单元格宽度的数量)。"
+    "Using this function you can retrieve the width (in cells) of the tile map element. You give the tile map element ID (which you get when you create a tile map element using {}{}layer_tilemap_create(){}{} or when you use the function {}{}layer_tilemap_get_id(){}{}), and the function will return the width (number of cells wide).":"使用此函数可以检索平铺映射元素的宽度(以单元格为单位)。可以指定平铺贴图元素 ID(当使用{}{}layer_tilemap_create(){}{}创建平铺贴图元素时或当您使用函数{}{}layer_tilemap_get_id(){}{})，函数将返回宽度(单元格宽度的数量)。"
 }

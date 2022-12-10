@@ -1,6 +1,6 @@
 {
     "A collection of name/value pairs, called a {}{}DS Map{}{} in {}GameMaker{} but also known as a \"dictionary\" or \"object\".":"名称/值对的集合，在{4} GameMaker {5}中称为{}{} DS Map {}{} ，但在其他编程语言中也称为“字典”或“对象”（\"dictionary\" or \"object\"）。",
-    "An ordered list of values, called a {}{}DS List{}{} in {}GameMaker{} but this can also be called an \"array\" or \"sequence\".":"一个有序的值列表，在{4} GameMaker {5}中称为{}{} DS  List {}{}，但在其他编程语言中也可以称为“数组”或“序列”（\"array\" or \"sequence\"）。",
+    "An ordered list of values, called a {}{}DS List{}{} in {}GameMaker{} but this can also be called an \"array\" or \"sequence\".":"一个有序的值列表，在{4} GameMaker {5}中称为{}{} DS List {}{}，但在其他编程语言中也可以称为“数组”或“序列”（\"array\" or \"sequence\"）。",
     "JSON (JavaScript Object Notation) is a lightweight data-interchange format which is easy for to read and write, for both people and machines. It is built on two basic structures:":"JSON (JSON)是一种轻量级的数据交换格式，对于人和机器来说，都很容易读写。它建立在两个基本结构之上:",
     "Normally you would know what keys the JSON decodes to, but if not then you can use the {}{}ds_map_size(){}{}, {}{}ds_map_find_first(){}{} and {}{}ds_map_find_next(){}{} functions to parse the map and get the necessary information.":"通常情况下，您应该知道JSON解码到什么键，但如果不知道，则可以使用{}{}ds_map_size(){}{}， {}{}ds_map_find_first(){}{}和{}{}ds_map_find_next(){}{}函数来解析映射并获得必要的信息。",
     "The JSON format string that you are passing to the function for decoding":"要传递给函数进行解码的 JSON 格式字符串",

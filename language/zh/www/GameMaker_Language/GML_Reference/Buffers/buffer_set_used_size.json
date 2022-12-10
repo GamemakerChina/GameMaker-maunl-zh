@@ -3,5 +3,5 @@
     "The index of the buffer to use.":"要使用的缓冲区的索引。",
     "The number of bytes to set as the \"used\" size.":"要设置为 \"已使用\" 大小的字节数。",
     "This function is primarily for use within extensions, and allows you to set the \"used\" size of the given buffer, which is the number of bytes that have been written to it.":"此函数主要用于扩展中，并允许您设置给定缓冲区的 \"已使用\" 大小，即已写入缓冲区的字节数。",
-    "When you write data to a buffer from an extension, GameMaker does not know how much of the buffer was filled by the extension code and is not able to read that data. This function can be called by the extension to tell the engine how many bytes of data\n    was written to the buffer, so the engine can read that data.":"当您将数据从扩展写入缓冲区时，GameMaker不知道扩展代码填充了多少缓冲区，并且无法读取该数据。这个函数可以被扩展调用，告诉引擎有多少字节的数据\n被写入缓冲区，因此引擎可以读取该数据。"
+    "When you write data to a buffer from an extension, GameMaker does not know how much of the buffer was filled by the extension code and is not able to read that data. This function can be called by the extension to tell the engine how many bytes of data was written to the buffer, so the engine can read that data.":"当您将数据从扩展写入缓冲区时，GameMaker不知道扩展代码填充了多少缓冲区，并且无法读取该数据。这个函数可以被扩展调用，告诉引擎有多少字节的数据被写入缓冲区，因此引擎可以读取该数据。"
 }

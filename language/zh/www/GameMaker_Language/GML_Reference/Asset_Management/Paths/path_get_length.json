@@ -1,5 +1,5 @@
 {
     "The index of the path to measure.":"要度量的路径的索引。",
     "This will set \"path_len\" to the total length of the path indexed in \"pth_AI\" in pixels.":"这将将\"path_len\"设置为以\"pth_AI\"为单位索引的路径的总长度(像素)。",
-    "You can use this function to get the exact length of a path in pixels. this is {}not{} an approximate length from point to point, but rather an exact length along the shape of the path, even when the path is smooth with\n    a high curved precision.":"您可以使用此函数获取路径的精确长度(以像素为单位)。这不是{}从点到点的近似长度，而是沿着路径形状的精确长度，即使路径是平滑的\n高弯曲精度。"
+    "You can use this function to get the exact length of a path in pixels. this is {}not{} an approximate length from point to point, but rather an exact length along the shape of the path, even when the path is smooth with a high curved precision.":"您可以使用此函数获取路径的精确长度(以像素为单位)。这不是{}从点到点的近似长度，而是沿着路径形状的精确长度，即使路径是平滑的高弯曲精度。"
 }

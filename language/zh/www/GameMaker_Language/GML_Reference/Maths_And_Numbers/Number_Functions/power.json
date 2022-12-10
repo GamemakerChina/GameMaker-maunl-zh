@@ -2,5 +2,5 @@
     "How many times to multiply x by itself.":"乘以 x 的次数。",
     "The number to change.":"要更改的数字。",
     "This will add the value of held in the variable \"dmg\" to the power of 3 to the score variable.":"这会将变量“dmg”中持有的值添加到 score 变量的 3 次方。",
-    "This will return the value of a number multiplied by itself \"n\" number of times. For example, {}power(5,3){} will multiply 5 by itself 3 times and return 125, which is the same as saying 5*5*5=125. Please note that the \"x\" value\n    (the number to change) {}cannot{} be a negative value.":"这将返回一个数字乘以自身“n”次的值。例如，{}power(5,3){}将5乘以自己3次，返回125，这与5*5*5=125相同。请注意，“x”值(要更改的数字){}不能是负数。"
+    "This will return the value of a number multiplied by itself \"n\" number of times. For example, {}power(5,3){} will multiply 5 by itself 3 times and return 125, which is the same as saying 5*5*5=125. Please note that the \"x\" value (the number to change) {}cannot{} be a negative value.":"这将返回一个数字乘以自身“n”次的值。例如，{}power(5,3){}将5乘以自己3次，返回125，这与5*5*5=125相同。请注意，“x”值(要更改的数字){}不能是负数。"
 }

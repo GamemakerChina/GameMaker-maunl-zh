@@ -4,5 +4,5 @@
     "The new width of the window.":"窗口的新宽度。",
     "The new x coordinate of the window.":"窗口的新的 X 坐标。",
     "The new y coordinate of the window.":"窗口的新的 Y 坐标。",
-    "With this function you can set the position of the game window within the browser (HTML5) or display (Windows, Ubuntu (Linux) or macOS) {}and{} set the scale of the window too. For more information on window position and window size, see {}{}window_set_position(){}{}    and {}{}window_set_size(){}{}.":"通过这个函数，你可以设置游戏窗口在浏览器 (HTML5) 或显示器 (Windows、Ubuntu(Linux) 或 macOS) 中的位置，{}也可以{}设置窗口的尺寸。关于窗口位置和窗口大小的更多信息，请参见 {}{}window_set_position(){}{} 和 {}{}window_set_size(){}{}。"
+    "With this function you can set the position of the game window within the browser (HTML5) or display (Windows, Ubuntu (Linux) or macOS) {}and{} set the scale of the window too. For more information on window position and window size, see {}{}window_set_position(){}{} and {}{}window_set_size(){}{}.":"通过这个函数，你可以设置游戏窗口在浏览器 (HTML5) 或显示器 (Windows、Ubuntu(Linux) 或 macOS) 中的位置，{}也可以{}设置窗口的尺寸。关于窗口位置和窗口大小的更多信息，请参见 {}{}window_set_position(){}{} 和 {}{}window_set_size(){}{}。"
 }

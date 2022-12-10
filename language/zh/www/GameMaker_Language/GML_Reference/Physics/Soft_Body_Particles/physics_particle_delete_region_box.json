@@ -4,5 +4,5 @@
     "The y position of the center of the area to delete.":"要删除的区域中心的 Y 位置。",
     "The {}half{} height of the rectangle.":"矩形的{}半{}高度。",
     "The {}half{} width of the rectangle.":"矩形的{}半{}宽度。",
-    "With this function you can delete (remove) all the particles that fall within the bounds of the defined rectangular area from the physics simulation in the current room. The function takes the x and y position for the center of the area to delete as\n    well as the half width and height of the rectangle (in pixels) which defines the area.":"使用此函数，可以从当前房间的物理模拟中删除 (移除) 所有落在定义矩形区域边界内的粒子。该函数取要删除区域中心的 X 和 Y 位置，以及定义区域的矩形 (以像素为单位) 的半宽和半高。"
+    "With this function you can delete (remove) all the particles that fall within the bounds of the defined rectangular area from the physics simulation in the current room. The function takes the x and y position for the center of the area to delete as well as the half width and height of the rectangle (in pixels) which defines the area.":"使用此函数，可以从当前房间的物理模拟中删除 (移除) 所有落在定义矩形区域边界内的粒子。该函数取要删除区域中心的 X 和 Y 位置，以及定义区域的矩形 (以像素为单位) 的半宽和半高。"
 }

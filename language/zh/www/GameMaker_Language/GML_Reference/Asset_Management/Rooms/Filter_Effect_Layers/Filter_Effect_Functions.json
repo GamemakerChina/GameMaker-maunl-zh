@@ -7,7 +7,7 @@
     "Here is example code for the workflow mentioned above:":"下面是上面提到的工作流的示例代码：",
     "Modify a parameter in an FX struct by calling&nbsp;{}{}fx_set_parameter(){}{}: {}fx_set_parameter(fx_struct, {}\"g_CellSize\"{}, 8);{}":"通过调用{}{}fx_set_parameter(){}{}：{}fx_set_parameter( fx_struct，{}\" g_CellSize\"{}， 8)修改FX结构中的参数;{}",
     "Modify a variable in a parameter struct using the {}${} accessor and a string: {}params_struct[$ {}\"g_CellSize\"{}] = 8;{}":"使用{}${}访问器和字符串修改参数结构中的变量：{}params_struct[${}\" g_CellSize\"{}]= 8;{}",
-    "Modify a variable in a parameter struct: {}params_struct.{}g_CellSize{} = 8;{}\n      {}\n        {}{}NOTE{} {}Make sure to get the parameter struct first by calling {}{}fx_get_parameters(){}{}.{}{}\n      {}\n    ":"修改参数结构中的变量：{}params_struct.{}g_CellSize{}= 8;{}\n{}\n{}{}注释{}{}调用{}{}fx_get_parameters(){}{}.{}{}\n{}",
+    "Modify a variable in a parameter struct: {}params_struct.{}g_CellSize{} = 8;{} {} {}{}NOTE{} {}Make sure to get the parameter struct first by calling {}{}fx_get_parameters(){}{}.{}{} {} ":"修改参数结构中的变量：{}params_struct.{}g_CellSize{}= 8;{}{}{}{}注释{}{}调用{}{}fx_get_parameters(){}{}.{}{}{}",
     "Modify&nbsp;FX At Runtime":"运行时修改FX",
     "Overview":"概述",
     "Please note that there are currently only two ways to ensure that GameMaker loads a particular filter/effect in your game:":"请注意，目前只有两种方法可确保GameMaker在游戏中加载特定过滤器/效果：",
@@ -23,8 +23,8 @@
     "You can also make use of Single-Layer effects in the Room Editor by using the {}Inspector{}.":"也可以使用{}检查器{}在\"房间编辑器\"中使用 SingleLayer 效果。",
     "You can modify filters/effects at runtime by doing the following:":"您可以通过执行以下操作在运行时修改过滤器/效果：",
     "You can use the Runtime parameter names in the following three ways (using the parameter {}\"g_CellSize\"{} as an example):":"可以通过以下三种方式使用运行时参数名称(以参数{}\" g_CellSize\"{}为例)：",
-    "{}Apply the modified struct{} back to the FX struct by calling {}{}fx_set_parameters(){}{}\n      {}\n        {}{}You do not need to call {}{}layer_set_fx(){}{} here as modifying the FX struct directly affects the layer it is already assigned to{}{}\n      {}\n    ":"{}通过调用{}{}{}fx_set_parameters(){}{}将修改的结构{}应用回Fx结构\n{}\n{}您不需要在此调用{}{}layer_set_fx(){}{}，因为修改Fx结构会直接影响已分配给它的层{}{}",
-    "{}Modify the parameters{} as required by assigning values to the struct variables\n      {}\n        {}{}Get the parameter names from here:&nbsp;{}FX Types &amp; Parameters{}{}{}\n      {}\n    ":"{}通过为结构变量赋值，根据需要修改参数{}\n{}\n{}{}从此处获取参数名称：{}外汇类型 参数{}{}{}\n{}",
+    "{}Apply the modified struct{} back to the FX struct by calling {}{}fx_set_parameters(){}{} {} {}{}You do not need to call {}{}layer_set_fx(){}{} here as modifying the FX struct directly affects the layer it is already assigned to{}{} {} ":"{}通过调用{}{}{}fx_set_parameters(){}{}将修改的结构{}应用回Fx结构{}{}您不需要在此调用{}{}layer_set_fx(){}{}，因为修改Fx结构会直接影响已分配给它的层{}{}",
+    "{}Modify the parameters{} as required by assigning values to the struct variables {} {}{}Get the parameter names from here:&nbsp;{}FX Types &amp; Parameters{}{}{} {} ":"{}通过为结构变量赋值，根据需要修改参数{}{}{}{}从此处获取参数名称：{}外汇类型 参数{}{}{}{}",
     "{}Retrieve its parameter struct{}&nbsp;by calling {}{}fx_get_parameters(){}{}{}{}":"{}调用{}{}{}fx_get_parameters(){}{}{}{}{}检索其参数结构",
-    "{}Retrieve the FX struct{} from the layer you want to modify by calling {}{}layer_get_fx(){}{}\n      {}\n        {}{}Or, create a new FX struct by calling {}{}fx_create(){}{} and apply it to a layer using {}{}layer_set_fx(){}{}{}{}\n      {}\n    ":"{}通过调用{}{}{}layer_get_fx(){}{}从你要修改的层中获取FX结构。\n{}\n{}{}或者，通过调用{}{}fx_create(){}{}创建一个新的FX结构，并使用{}{}layer_set_fx(){}{}将其应用于一个图层。\n{}"
+    "{}Retrieve the FX struct{} from the layer you want to modify by calling {}{}layer_get_fx(){}{} {} {}{}Or, create a new FX struct by calling {}{}fx_create(){}{} and apply it to a layer using {}{}layer_set_fx(){}{}{}{} {} ":"{}通过调用{}{}{}layer_get_fx(){}{}从你要修改的层中获取FX结构。{}{}{}或者，通过调用{}{}fx_create(){}{}创建一个新的FX结构，并使用{}{}layer_set_fx(){}{}将其应用于一个图层。{}"
 }

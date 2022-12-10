@@ -1,5 +1,5 @@
 {
     "The above code will return the number of hats available on the gamepad plugged into device \"slot\" 4 and store the value in the variable \"h_num\".":"上面的代码将返回插入设备 “slot” 4 的游戏手柄上可用的帽子数量，并将该值存储在变量 “h_num” 中。",
-    "This function will return the {}total{} number of hats available for the gamepad connected to the given device \"slot\". Hats generally refer to up/down/left/right buttons, and note that on the Windows target, hats are only available on DirectInput\n    controllers (so, from slot 4 upwards).":"此函数将返回连接到给定设备 “插槽” 的游戏手柄的{}总共{}个帽子数量。帽子通常指向上/向下/向左/向右的按钮，请注意，在 Windows 目标上，帽子仅在 DirectInput 控制器上可用\n(所以，从插槽 4 往上)。",
+    "This function will return the {}total{} number of hats available for the gamepad connected to the given device \"slot\". Hats generally refer to up/down/left/right buttons, and note that on the Windows target, hats are only available on DirectInput controllers (so, from slot 4 upwards).":"此函数将返回连接到给定设备 “插槽” 的游戏手柄的{}总共{}个帽子数量。帽子通常指向上/向下/向左/向右的按钮，请注意，在 Windows 目标上，帽子仅在 DirectInput 控制器上可用(所以，从插槽 4 往上)。",
     "Which gamepad device \"slot\" to check.":"要检查哪个游戏手柄设备 “插槽”。"
 }

@@ -1,4 +1,4 @@
 {
     "The above code will set the instance to travel the path at a random speed between -1 and 1.":"上面的代码将实例设置为以-1和1之间的随机速度行进路径。",
-    "You can use this function to get or to set the speed of a path after it has been started using the function {}{}path_start(){}{}. You can use negative values to signify that the instance should follow\n    the path in reverse.":"使用函数{}{}path_start(){}{}，可以使用此函数获取或设置路径的速度。 您可以使用负值来表示实例应\n反向的路径。"
+    "You can use this function to get or to set the speed of a path after it has been started using the function {}{}path_start(){}{}. You can use negative values to signify that the instance should follow the path in reverse.":"使用函数{}{}path_start(){}{}，可以使用此函数获取或设置路径的速度。 您可以使用负值来表示实例应反向的路径。"
 }

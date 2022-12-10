@@ -1,4 +1,4 @@
 {
     "The above code uses the natural logarithm of the value stored in the variable \"age\" to set an alarm.":"上面的代码使用存储在变量“age”中的值的自然对数来设置警报。",
-    "The natural logarithm {}ln(n){} is the amount of time needed to reach a certain level of continuous growth, where n is the level reached. So if we want to find out how many time units we need to get 20 growth we would use {}ln(20){} which\n    returns 2.99 units of time to get that amount of growth.":"自然对数{} ln(n) {}是达到某一持续增长水平所需的时间，其中n是达到的水平。如果我们想知道需要多少时间单位才能得到20的增长，我们可以用{}ln(20){}它返回2.99单位的时间来得到这个增长量。"
+    "The natural logarithm {}ln(n){} is the amount of time needed to reach a certain level of continuous growth, where n is the level reached. So if we want to find out how many time units we need to get 20 growth we would use {}ln(20){} which returns 2.99 units of time to get that amount of growth.":"自然对数{} ln(n) {}是达到某一持续增长水平所需的时间，其中n是达到的水平。如果我们想知道需要多少时间单位才能得到20的增长，我们可以用{}ln(20){}它返回2.99单位的时间来得到这个增长量。"
 }

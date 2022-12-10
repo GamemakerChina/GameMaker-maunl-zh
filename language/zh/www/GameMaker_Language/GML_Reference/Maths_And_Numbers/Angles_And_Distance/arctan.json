@@ -1,5 +1,5 @@
 {
-    "Returns the inverse tangent of x. This will accept any number as, unlike {}{}tan(){}{}, {}arctan(){}&nbsp;asymptotes are on the y axis so it just means you\u0027ll never get returned a number\n    greater than pi/2 or less than -pi/2.":"返回 x 的反正切值。 这将接受任何数字，因为与 {}{}tan(){}{} 不同，{}arctan(){}&nbsp;渐近线位于 y 轴上，因此这意味着您永远不会返回大于 pi 的数字 /2 或小于 -pi/2。",
+    "Returns the inverse tangent of x. This will accept any number as, unlike {}{}tan(){}{}, {}arctan(){}&nbsp;asymptotes are on the y axis so it just means you\u0027ll never get returned a number greater than pi/2 or less than -pi/2.":"返回 x 的反正切值。 这将接受任何数字，因为与 {}{}tan(){}{} 不同，{}arctan(){}&nbsp;渐近线位于 y 轴上，因此这意味着您永远不会返回大于 pi 的数字 /2 或小于 -pi/2。",
     "The angle (in radians) to return the inverse tangent of.":"要返回反正切的角度(以弧度为单位)。",
     "This will set val to 0.":"这将把 val 设置为0。",
     "{}NOTE{}: This function takes a value in radians, not degrees.":"{}注意{}：此函数采用弧度而不是度数的值。"

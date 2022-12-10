@@ -7,7 +7,7 @@
     "The map string to use (see the description for more information).":"要使用的映射字符串(有关详细信息，请参阅描述)。",
     "This function can be used to set the gamepad mapping on those targets that permit it. You supply the \"slot\" index for the gamepad to set, and then the map string, which should have been created using the SDL format with the following fields:":"此函数可用于在允许它的目标上设置Gamepad映射。为要设置的游戏手柄提供“动态内容”索引，然后提供映射字符串，应使用Sdl格式和以下字段创建映射字符串：",
     "Which gamepad index \"slot\" to set.":"要设置哪个游戏手柄索引“插槽”。",
-    "{}\n    When you have constructed your mapping string it should look something like this:":"{}\n当您构造映射字符串时，它应该如下所示：",
+    "{} When you have constructed your mapping string it should look something like this:":"{}当您构造映射字符串时，它应该如下所示：",
     "{}a&lt;N&gt;{} - This represents an axis of the gamepad, where the &lt;N&gt; is one of the axis from 0 to {}{}gamepad_axis_count(){}{} -1":"{}a&lt;N&gt;{}-这是游戏手柄的一个轴，其中&lt;N&gt;是从0到的一个轴，{}{}gamepad_axis_count(){}{}-1",
     "{}b&lt;N&gt;{} - This represents a button of the gamepad, where the &lt;N&gt; is one of the buttons from 0 to {}{}gamepad_button_count(){}{} -1":"{}B&lt;n&gt;{}-这表示游戏手柄的一个按钮，其中&lt;N&gt;是从0到{}{}gamepad_button_count(){}{}-1的按钮之一",
     "{}bindings{} - a set of entries separated by a \u0027,\u0027 to bind actual input to specific GML constants":"{}bindings{}-由“，”分隔的一组条目，用于将实际输入绑定到特定的GML常量",

@@ -1,5 +1,5 @@
 {
     "The above code checks to see if more than 10 minutes have passed before asking the user a question.":"上面的代码在问用户一个问题之前检查是否超过10分钟。",
     "This {}read only{} variable will return the number of milliseconds that have passed since the game was started.":"此{} 只读 {}变量将返回自游戏开始以来已经过去的毫秒数。",
-    "{}if{} ({}current_time{} &gt; {}600000{}){}\n    {{}\n    &nbsp;&nbsp;&nbsp;&nbsp;msg = {}show_question_async{}({}\"Would you like to rate?\"{});{}\n    }":"{}if{} ({}current_time{} &gt; {}600000{}){}\n    {{}\n    &nbsp;&nbsp;&nbsp;&nbsp;msg = {}show_question_async{}({}\"您要评分吗?\"{});{}\n    }"
+    "{}if{} ({}current_time{} &gt; {}600000{}){} {{} &nbsp;&nbsp;&nbsp;&nbsp;msg = {}show_question_async{}({}\"Would you like to rate?\"{});{} }":"{}if{} ({}current_time{} &gt; {}600000{}){} {{} &nbsp;&nbsp;&nbsp;&nbsp;msg = {}show_question_async{}({}\"您要评分吗?\"{});{} }"
 }

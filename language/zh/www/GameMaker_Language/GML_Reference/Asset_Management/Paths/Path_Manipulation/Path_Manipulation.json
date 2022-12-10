@@ -1,4 +1,4 @@
 {
-    "In {}GameMaker{} you are not just limited to the paths that you make using the {}Path Editor{}. There are a number of functions that can be used\n    to manipulate and change those paths at run-time, or to even create new ones and then change and manipulate those.":"在{}GameMaker{}中，您不仅仅是使用{}路径编辑器{}创建的路径。 有许多功能可以使用\n在运行时操纵和改变那些路径，或者甚至创建新的路径，然后改变和操纵这些路径。",
+    "In {}GameMaker{} you are not just limited to the paths that you make using the {}Path Editor{}. There are a number of functions that can be used to manipulate and change those paths at run-time, or to even create new ones and then change and manipulate those.":"在{}GameMaker{}中，您不仅仅是使用{}路径编辑器{}创建的路径。 有许多功能可以使用在运行时操纵和改变那些路径，或者甚至创建新的路径，然后改变和操纵这些路径。",
     "The following functions are used for changing paths:":"以下函数用于更改路径："
 }

@@ -1,5 +1,5 @@
 {
-    "Returns the inverse tangent of x. This will accept any number as, unlike {}{}dtan(){}{}, {}darctan(){}&nbsp;asymptotes are on the y axis so it just means you\u0027ll never get returned a number\n    greater than 90 or less than -90.":"返回x的正切。这将接受任何数字，不像{}{}dtan(){}{}， {}darctan(){}渐近线在y轴上，所以它只是意味着你永远不会返回大于90或小于-90的数字。",
+    "Returns the inverse tangent of x. This will accept any number as, unlike {}{}dtan(){}{}, {}darctan(){}&nbsp;asymptotes are on the y axis so it just means you\u0027ll never get returned a number greater than 90 or less than -90.":"返回x的正切。这将接受任何数字，不像{}{}dtan(){}{}， {}darctan(){}渐近线在y轴上，所以它只是意味着你永远不会返回大于90或小于-90的数字。",
     "The value to return the inverse tangent of.":"要返回的反正切的值。",
     "This will set \"val\" to -45.":"这将把“ val”设置为 -45。",
     "{}NOTE{}: This function returns a value in degrees, not radians.":"{}注意{}:该函数返回的值以度为单位，而不是弧度。"

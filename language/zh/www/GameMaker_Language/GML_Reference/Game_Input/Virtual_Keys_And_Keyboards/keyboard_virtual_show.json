@@ -1,6 +1,6 @@
 {
     "\"{}event_type{}\" - this will be \"{}virtual keyboard status{}\" when triggered by virtual keyboard functions.":"“{}event_type{}”-当由虚拟键盘功能触发时，这将是 “{}虚拟键盘状态{}”。",
-    "\"{}keyboard_status{}\" - the current status of the keyboard, returned as one of the following strings:\n      {}\n        {}\"hiding\"{}\n        {}\"hidden\"{}\n        {}\"showing\"{}\n        {}\"visible\"{}\n      {}\n    ":"\"{}keyboard_status{}\" - 键盘的当前状态，作为以下字符串之一返回：\n      {}\n        {}\"hiding\"{}\n        {}\"hidden\"{}\n        {}\"showing\"{}\n        {}\"visible\"{}\n      {}\n    ",
+    "\"{}keyboard_status{}\" - the current status of the keyboard, returned as one of the following strings: {} {}\"hiding\"{} {}\"hidden\"{} {}\"showing\"{} {}\"visible\"{} {} ":"\"{}keyboard_status{}\" - 键盘的当前状态，作为以下字符串之一返回： {} {}\"hiding\"{} {}\"hidden\"{} {}\"showing\"{} {}\"visible\"{} {} ",
     "\"{}screen_height{}\" - the height of the virtual keyboard (in pixels). This will be 0 if the keyboard is invisible.":"“{}screen_height{}”-虚拟键盘的高度(以像素为单位)。如果键盘不可见，则该值将为 0。",
     "A keyboard optimized for entering both a phone number and a name. Usually similar to an ASCII keyboard, but with a limited special characters selection.":"为输入电话号码和姓名而优化的键盘。通常类似于ASCII键盘，但具有有限的特殊字符选择。",
     "A normal keyboard optimized for URL entry. Usually features a \".com\" or other domain keys, as well as \"/\" and \".\" keys.":"为URL输入优化的普通键盘。通常具有 “.com” 或其他域密钥，以及 “/” 和 “.” 密钥。",

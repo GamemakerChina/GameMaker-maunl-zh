@@ -1,5 +1,5 @@
 {
     "The code above will draw a representation of the physical properties associated with that instance using the colour red.":"上面的代码将用红色画出与该实例相关的物理属性的表示。",
-    "When creating a physics system in {}GameMaker{}, it is often important to have a visual representation of what is actually happening with an instance. This can be achieved by using {}physics_draw_debug(){}, which draws a schematic outline\n    of the physical properties associated with the instance running the code. Here is an image of how it looks:":"当在 {}GameMaker{} 中创建物理系统时，通常需要对实例的实际情况有一个直观的表述。这可以通过使用 {}physics_draw_debug(){} 来实现，它可以绘制出与运行代码的实例相关的物理属性的示意图。下面是它的外观图片。",
-    "{}It should be noted that for this to work it {}must{} be in the draw event of the\n    instance, and it will be drawn using the currently defined draw colour.":"{}需要注意的是，为了使其发挥作用，它{}必须{}在实例的绘制事件中，并且将使用当前定义的绘制颜色绘制。"
+    "When creating a physics system in {}GameMaker{}, it is often important to have a visual representation of what is actually happening with an instance. This can be achieved by using {}physics_draw_debug(){}, which draws a schematic outline of the physical properties associated with the instance running the code. Here is an image of how it looks:":"当在 {}GameMaker{} 中创建物理系统时，通常需要对实例的实际情况有一个直观的表述。这可以通过使用 {}physics_draw_debug(){} 来实现，它可以绘制出与运行代码的实例相关的物理属性的示意图。下面是它的外观图片。",
+    "{}It should be noted that for this to work it {}must{} be in the draw event of the instance, and it will be drawn using the currently defined draw colour.":"{}需要注意的是，为了使其发挥作用，它{}必须{}在实例的绘制事件中，并且将使用当前定义的绘制颜色绘制。"
 }

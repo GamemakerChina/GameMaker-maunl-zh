@@ -2,7 +2,7 @@
     "Both these surfaces are then combined using a YUV shader before being used to texture a custom quad, which will draw the video to the screen.":"然后使用Yuv着色器将这两个曲面组合在一起，然后再用于对自定义四边形进行纹理处理，从而将视频绘制到屏幕。",
     "Ensure that this is only called after a {}{}video_open(){}{} call but before a {}{}video_close(){}{} call, otherwise it will not do anything (as there will not be a video loaded).":"请确保仅在{}{}video_open(){}{}呼叫之后但在{}{}video_close(){}{}呼叫之前调用此功能，否则它将不执行任何操作(因为不会加载视频)。",
     "For the specific implementation details for a particular console, please refer to its documentation on the {}YoYo Games Helpdesk{}.":"有关特定控制台的具体实施详细信息，请参阅{}YoYo游戏帮助台{}上的文档。",
-    "On some platforms, {}-2{}, if the video finished playing (at which point it can be removed from memory with a&nbsp;{}{}video_close(){}{} call)\n      {}\n        {}It\u0027s recommended to use the&nbsp;{}Async Callbacks{}&nbsp;instead to know when a video ends{}\n      {}\n    ":"在某些平台上，{}-2{}，如果视频播放完毕(此时可通过{}{}视频关闭(){}{}呼叫将其从内存中删除)\n{}\n{}建议使用{}异步回叫{}，而不是知道视频何时结束{}\n{}",
+    "On some platforms, {}-2{}, if the video finished playing (at which point it can be removed from memory with a&nbsp;{}{}video_close(){}{} call) {} {}It\u0027s recommended to use the&nbsp;{}Async Callbacks{}&nbsp;instead to know when a video ends{} {} ":"在某些平台上，{}-2{}，如果视频播放完毕(此时可通过{}{}视频关闭(){}{}呼叫将其从内存中删除){}{}建议使用{}异步回叫{}，而不是知道视频何时结束{}{}",
     "RGBA Videos":"Rgba视频",
     "Read&nbsp;{}YUV Videos{}&nbsp;for steps on drawing these two surfaces using a shader.":"有关使用着色器绘制这两个曲面的步骤，请阅读{}Yuv Videos{}。",
     "Return Data":"返回数据",

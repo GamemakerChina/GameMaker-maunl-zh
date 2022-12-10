@@ -2,5 +2,5 @@
     "The datetime to compare the first one to.":"与第一个比较的日期时间。",
     "The first datetime.":"第一个日期时间。",
     "This would set \"d\" to the corresponding value depending on which of the times was the earliest. Basically, if the current time is later than 11:04 am, it would return 1. If earlier, -1. If the time is 11:04, it would return 0.":"这会将“d”设置为相应的值，具体取决于哪个时间最早。 基本上，如果当前时间晚于上午 11:04，它将返回 1。如果更早，则返回 -1。 如果时间是 11:04，它将返回 0。",
-    "With this function you can check two dates and times to see which one has the time component earlier or later than the other. The function returns -1 if datetime1 is earlier, 1 if datetime1 is later and 0 if they are the same, and it ignores the date,\n    so literally just which of the times is further through its given day.":"使用此功能，您可以检查两个日期和时间，以查看哪个日期和时间的时间分量早于或晚于另一个。 如果 datetime1 较早，则该函数返回 -1，如果 datetime1 较晚，则返回 1，如果它们相同，则返回 0，并且它会忽略日期，因此从字面上看，只是哪个时间比给定的那一天更远。"
+    "With this function you can check two dates and times to see which one has the time component earlier or later than the other. The function returns -1 if datetime1 is earlier, 1 if datetime1 is later and 0 if they are the same, and it ignores the date, so literally just which of the times is further through its given day.":"使用此功能，您可以检查两个日期和时间，以查看哪个日期和时间的时间分量早于或晚于另一个。 如果 datetime1 较早，则该函数返回 -1，如果 datetime1 较晚，则返回 1，如果它们相同，则返回 0，并且它会忽略日期，因此从字面上看，只是哪个时间比给定的那一天更远。"
 }

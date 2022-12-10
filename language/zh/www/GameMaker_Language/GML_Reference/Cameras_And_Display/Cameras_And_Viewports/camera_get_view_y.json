@@ -1,5 +1,5 @@
 {
     "The above code retrieves the position of the camera assigned to view port[0] and then draws text relative to that position.":"以上代码检索分配给 viewport[0] 的相机的位置，然后相对于该位置绘制文本。",
     "The unique camera ID value returned when you created the camera":"创建相机时返回的唯一相机 ID 值。",
-    "This function can be used to retrieve the y position of the view for a given camera. Note that this function is {}only{} valid for cameras created using {}{}camera_create_view(){}{} or for those added in the\n    room editor.":"此函数可用于检索给定相机的视图的 y 位置。请注意，此函数{}仅{}对于使用 {}{}camera_create_view(){}{} 创建的相机或添加到房间编辑器中的相机有效。"
+    "This function can be used to retrieve the y position of the view for a given camera. Note that this function is {}only{} valid for cameras created using {}{}camera_create_view(){}{} or for those added in the room editor.":"此函数可用于检索给定相机的视图的 y 位置。请注意，此函数{}仅{}对于使用 {}{}camera_create_view(){}{} 创建的相机或添加到房间编辑器中的相机有效。"
 }

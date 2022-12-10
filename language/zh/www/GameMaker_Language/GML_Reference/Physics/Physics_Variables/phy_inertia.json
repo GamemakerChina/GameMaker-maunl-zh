@@ -1,5 +1,5 @@
 {
-    "Inertia is the measure of how hard it is to make something start or stop moving, so the lower the value for this {}read-only{} variable and the easier it will be to set the instance in motion, while higher values will require more force to start\n    it moving":"惯性是衡量某物开始或停止移动的难度的指标，因此，此{}只读{}变量的值越低，设置实例运动就越容易，而值越高，开始移动则需要更大的力",
+    "Inertia is the measure of how hard it is to make something start or stop moving, so the lower the value for this {}read-only{} variable and the easier it will be to set the instance in motion, while higher values will require more force to start it moving":"惯性是衡量某物开始或停止移动的难度的指标，因此，此{}只读{}变量的值越低，设置实例运动就越容易，而值越高，开始移动则需要更大的力",
     "The above code will change the mass and center of mass of the instance while maintaining the inertia value.":"上述代码将在保持惯性值的同时更改实例的质量和质心。",
     "{}{}Real{}{} (single precision floating point value, or {}undefined{} if the instance is not physics enabled)":"{}{}Real{}{} (单精度浮点值，或 {}undefined{} (如果未启用物理实例)"
 }

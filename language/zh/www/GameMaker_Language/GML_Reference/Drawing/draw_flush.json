@@ -1,4 +1,4 @@
 {
     "The above code flushes the draw pipeline.":"以上代码将刷新绘制管线。",
-    "With this function you can flush the entire draw pipeline. This is a {}debug only{} function and in general {}it should not be used{} unless indicated by a member of the YoYo Games Support\n      staff, as indiscriminate use will cause serious performance issues with your game.":"使用此功能，可以刷新整个绘制管线。这只是一个{}调试{}函数，通常不应使用{}它，除非YoYo游戏支持的成员指明\n工作人员，因为不分青红皂白的使用将导致严重的性能问题与您的游戏。"
+    "With this function you can flush the entire draw pipeline. This is a {}debug only{} function and in general {}it should not be used{} unless indicated by a member of the YoYo Games Support staff, as indiscriminate use will cause serious performance issues with your game.":"使用此功能，可以刷新整个绘制管线。这只是一个{}调试{}函数，通常不应使用{}它，除非YoYo游戏支持的成员指明工作人员，因为不分青红皂白的使用将导致严重的性能问题与您的游戏。"
 }

@@ -1,5 +1,5 @@
 {
     "The Unicode code value to get the string from":"要从中获取字符串的Unicode代码值",
-    "This function returns a string containing the character which relates to the input Unicode code for displaying. This character depends on the current drawing fonts character set code page and if no font is set, it will use the default code page for\n    the machine.":"此函数返回一个字符串，其中包含与用于显示的输入Unicode代码相关的字符。此字符取决于当前图形字体字符集代码页，如果未设置字体，则将使用默认核心代码页。",
+    "This function returns a string containing the character which relates to the input Unicode code for displaying. This character depends on the current drawing fonts character set code page and if no font is set, it will use the default code page for the machine.":"此函数返回一个字符串，其中包含与用于显示的输入Unicode代码相关的字符。此字符取决于当前图形字体字符集代码页，如果未设置字体，则将使用默认核心代码页。",
     "This would set {}mystring{} to \"50\" (a string, not an integer) as chr(53) is \"5\" and chr(48) is \"0\".":"这会将{}mystring{}设置为“50”（字符串，而不是整数）chr(53)为“5”，chr(48)为“0”。"
 }

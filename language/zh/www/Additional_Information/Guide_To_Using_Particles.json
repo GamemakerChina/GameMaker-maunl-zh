@@ -1,5 +1,5 @@
 {
-    "\n        {}\n        And the distribution curves (linear, gaussian, and inverse gaussian) are illustrated here:":"{}分布曲线(线性、高斯和逆高斯)如下:",
+    " {} And the distribution curves (linear, gaussian, and inverse gaussian) are illustrated here:":"{}分布曲线(线性、高斯和逆高斯)如下:",
     "And for those of you that use GML Visual:":"对于那些使用 GML Visual 的用户:",
     "And using GML Visual:":"使用 GML Visual:",
     "As mentioned at the start, once created, a particle system (and its particles, emitters etc...) are stored in memory for instant use. Great, but what happens when you restart the game? Or if your player dies and starts the room again? Well, if you don\u0027t manage the game right you get a {}memory leak{}. This is when something has been created and uses up memory, but has been \"de-referenced\" meaning that GameMaker no longer has access to it. This kind of thing will slowly eat up memory and cause lag in your game or even block the computer causing your game to crash, and it is a pretty common problem with first time users of particle systems.":"正如开头所提到的，一旦创建，粒子系统(及其粒子、发射器等)就会存储在内存中以供立即使用。很好，但是当你重新开始游戏时会发生什么呢?或者如果你的玩家死亡并重新开始这个房间?如果你没有正确地管理游戏，你就会出现{}内存泄漏{}。这是当某些东西已经创建并使用了内存，但已经被“丢失引用”，这意味着GameMaker不再能够访问它。这类事情会慢慢消耗内存，导致游戏延迟，甚至阻塞电脑导致游戏崩溃，这是粒子系统的第一次用户经常遇到的问题。",

@@ -6,5 +6,5 @@
     "The vertical scale(default 1).":"垂直比例(默认为1)。",
     "The x coordinate of the drawn string.":"绘制字符串的x坐标。",
     "The y coordinate of the drawn string.":"绘制字符串的y坐标。",
-    "This function will draw text in a similar way to {}{}draw_text{}{}(){}{}{}{} only now you can choose to scale the text along the horizontal or vertical axis (effectively stretching or shrinking it) and also have\n    {}GameMaker{} draw it at an angle (where 0 is normal and every degree over 0 rotates the text anti-clockwise).":"此函数将以类似于{}{}draw_text{}}{}(){}{}{}{}的方式绘制文本，只有现在您可以选择沿水平轴或垂直轴缩放文本(有效地拉伸或收缩文本)，并且还具有\n{}GameMaker{}以某个角度(其中0为正常值，每超过0度将逆时针旋转文本)绘制该图标。"
+    "This function will draw text in a similar way to {}{}draw_text{}{}(){}{}{}{} only now you can choose to scale the text along the horizontal or vertical axis (effectively stretching or shrinking it) and also have {}GameMaker{} draw it at an angle (where 0 is normal and every degree over 0 rotates the text anti-clockwise).":"此函数将以类似于{}{}draw_text{}}{}(){}{}{}{}的方式绘制文本，只有现在您可以选择沿水平轴或垂直轴缩放文本(有效地拉伸或收缩文本)，并且还具有{}GameMaker{}以某个角度(其中0为正常值，每超过0度将逆时针旋转文本)绘制该图标。"
 }

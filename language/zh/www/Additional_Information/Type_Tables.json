@@ -1,5 +1,5 @@
 {
-    "&lt;result&gt; = &lt;LHS or row&gt; + &lt;RHS or column&gt;":"&lt;tresult&gt; = &lt;LHS or row&gt; + &lt;RHS or column&gt;<br>\n&lt;结果&gt; = &lt;左侧 为 行&gt; + &lt;右侧 为 列&gt;<br>\nLHS (Left Hand Side)直译:左手边。<br>\nLHS RHS 赋值操作的左侧或右侧",
+    "&lt;result&gt; = &lt;LHS or row&gt; + &lt;RHS or column&gt;":"&lt;tresult&gt; = &lt;LHS or row&gt; + &lt;RHS or column&gt;<br>&lt;结果&gt; = &lt;左侧 为 行&gt; + &lt;右侧 为 列&gt;<br>LHS (Left Hand Side)直译:左手边。<br>LHS RHS 赋值操作的左侧或右侧",
     "Equality Table":"等式表",
     "The tables all follow the same format, with the rows (left) showing the&nbsp;{}left hand{}&nbsp;side of an arithmetical operation, and the columns (right) showing the&nbsp;{}right hand{}&nbsp;side, eg:":"这些表都遵循相同的格式，行{}(左){}表示算术运算的左边，列{}(右){}表示右边，例如:",
     "There are a few special constants that may or may not be equal to themselves, as shown in the following table:":"如下表所示，有几个特殊常数可能等于也可能不等于它们本身:",

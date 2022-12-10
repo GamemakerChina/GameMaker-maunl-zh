@@ -1,4 +1,4 @@
 {
     "The above code will set the current path\u0027s scale to a random size between 1 (its original size) and 3 (3 times its original size).":"上面的代码将当前路径的比例设置为1(其原始大小)和3(其原始大小的3倍)之间的随机大小。",
-    "This value can be used to get or to set the scale of the currently assigned path for the instance (as set by the function {}{}path_start(){}{})&nbsp;with a default value of 1. This is a scalar value, so\n    1 is a scale of 1:1, while setting it to 2, for example, will be double the scale and setting it to 0.5 would be halving the scale.":"此值可用于获取或设置实例当前分配路径的比例(由函数{}{}path_start(){}{}设置)，默认值为 1。这是一个标量值，所以\n1 是1：1的比例，而设置为2，例如，将是比例的两倍，而将其设置为0.5将使比例减半。"
+    "This value can be used to get or to set the scale of the currently assigned path for the instance (as set by the function {}{}path_start(){}{})&nbsp;with a default value of 1. This is a scalar value, so 1 is a scale of 1:1, while setting it to 2, for example, will be double the scale and setting it to 0.5 would be halving the scale.":"此值可用于获取或设置实例当前分配路径的比例(由函数{}{}path_start(){}{}设置)，默认值为 1。这是一个标量值，所以1 是1：1的比例，而设置为2，例如，将是比例的两倍，而将其设置为0.5将使比例减半。"
 }

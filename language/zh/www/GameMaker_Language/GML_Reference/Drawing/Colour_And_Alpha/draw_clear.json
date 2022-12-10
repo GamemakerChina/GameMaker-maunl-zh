@@ -1,5 +1,5 @@
 {
     "The colour with which the screen will be cleared":"将清除屏幕的颜色",
-    "This function can be used to clear the entire screen (with no alpha blend) to the given colour, and is only for use in the draw event of an instance (it will not show if used in any other event). It can also be useful for clearing {}surfaces{}    when they are newly created.":"此函数可用于将整个屏幕(无Alpha混合)清除为给定的颜色，并且仅用于实例的绘制事件(如果在任何其他事件中使用，则不会显示)。它还可用于在新创建{}个曲面{}时清除这些曲面。",
+    "This function can be used to clear the entire screen (with no alpha blend) to the given colour, and is only for use in the draw event of an instance (it will not show if used in any other event). It can also be useful for clearing {}surfaces{} when they are newly created.":"此函数可用于将整个屏幕(无Alpha混合)清除为给定的颜色，并且仅用于实例的绘制事件(如果在任何其他事件中使用，则不会显示)。它还可用于在新创建{}个曲面{}时清除这些曲面。",
     "This will clear the screen with the colour blue.":"这将使用蓝色清除屏幕。"
 }

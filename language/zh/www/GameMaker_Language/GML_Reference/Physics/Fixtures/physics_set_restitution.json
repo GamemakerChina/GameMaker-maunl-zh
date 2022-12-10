@@ -1,6 +1,6 @@
 {
     "The code above gets the current restitution value for the bound physics properties of the instance and then sets them to a different value.":"上面的代码获取实例的绑定物理属性的当前补偿值，然后将其设置为不同的值。",
-    "When you bind a fixture to an instance using {}{}physics_fixture_bind(){}{} this returns an \"id\" for the bound fixture. You can use this id to set the restitution value of the bound fixture, {}not{}    the \"base\" fixture, at any time using this function. Restitution is usually set as a value between 0 and 1, but you can use higher values if required, although the results may be unpredictable.":"当您使用 {}{}physics_fixture_bind(){}{} 将装置绑定到实例时，此操作将返回绑定装置的 \"id\"。您可以使用此 ID 随时使用此函数设置绑定装置的补偿值，{}而不是{}\" 基础 \" 装置。\"补偿\" 通常设置为介于 0 和 1 之间的值，但如果需要，您可以使用更高的值，尽管结果可能不可预测。",
+    "When you bind a fixture to an instance using {}{}physics_fixture_bind(){}{} this returns an \"id\" for the bound fixture. You can use this id to set the restitution value of the bound fixture, {}not{} the \"base\" fixture, at any time using this function. Restitution is usually set as a value between 0 and 1, but you can use higher values if required, although the results may be unpredictable.":"当您使用 {}{}physics_fixture_bind(){}{} 将装置绑定到实例时，此操作将返回绑定装置的 \"id\"。您可以使用此 ID 随时使用此函数设置绑定装置的补偿值，{}而不是{}\" 基础 \" 装置。\"补偿\" 通常设置为介于 0 和 1 之间的值，但如果需要，您可以使用更高的值，尽管结果可能不可预测。",
     "the id of the bound fixture":"绑定装置的 ID",
     "the new restitution value to apply":"要应用的新补偿值"
 }

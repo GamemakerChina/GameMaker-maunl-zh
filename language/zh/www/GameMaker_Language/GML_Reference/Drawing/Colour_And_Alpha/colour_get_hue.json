@@ -1,5 +1,5 @@
 {
     "The above code gets the hue used to make the colour constant \"c_teal\" and then merges it with white at a 50:50 ratio, storing the resulting colour in the variable \"col\".":"上述代码获取用于使颜色恒定为\"c_teal\"的色调，然后以50:50的比率将其与白色合并，并将生成的颜色存储在可变的\"col\"中。",
     "The colour to check":"要检查的颜色",
-    "This function will return the hue of the given colour. This is the \"pure\" colour tone which is part of the hue, saturation and value (luminosity) method for defining a colour. The following image illustrates how this value corresponds to the\n    HSV scale of colour:":"此函数将返回给定颜色的色调。这是纯色调，它是定义颜色的色调、饱和度和值(亮度)方法的一部分。下图说明了此值与\nHsv颜色比例："
+    "This function will return the hue of the given colour. This is the \"pure\" colour tone which is part of the hue, saturation and value (luminosity) method for defining a colour. The following image illustrates how this value corresponds to the HSV scale of colour:":"此函数将返回给定颜色的色调。这是纯色调，它是定义颜色的色调、饱和度和值(亮度)方法的一部分。下图说明了此值与Hsv颜色比例："
 }

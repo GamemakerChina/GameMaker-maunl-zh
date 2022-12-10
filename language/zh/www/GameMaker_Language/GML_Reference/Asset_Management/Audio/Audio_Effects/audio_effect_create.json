@@ -1,6 +1,6 @@
 {
     "For a list of possible audio effects that you can create, see&nbsp;{}AudioEffectType Enum{}.":"有关可创建的音频效果列表，请参见{}AudioEffectType 枚举{}。",
-    "The above code first creates a new distortion effect of type&nbsp;{}AudioEffectType.Bitcrusher{} using {}{}audio_effect_create{}{}. It then configures the effect by setting the effect\u0027s parameters.{}\n    Finally it assigns the effect to the main audio bus, which starts processing the effect.":"上面的代码首先使用{}{}audio_effect_create{}{}创建新的失真效果类型{}AudioEffectType.Bitcrusher{}。 然后通过设置效果参数来配置效果。{}\n最后，它将效果分配给主音频总线，由主音频总线开始处理效果。",
+    "The above code first creates a new distortion effect of type&nbsp;{}AudioEffectType.Bitcrusher{} using {}{}audio_effect_create{}{}. It then configures the effect by setting the effect\u0027s parameters.{} Finally it assigns the effect to the main audio bus, which starts processing the effect.":"上面的代码首先使用{}{}audio_effect_create{}{}创建新的失真效果类型{}AudioEffectType.Bitcrusher{}。 然后通过设置效果参数来配置效果。{}最后，它将效果分配给主音频总线，由主音频总线开始处理效果。",
     "The members of the returned struct are dependent on the type of audio effect created. For all possible audio effect structs, see:&nbsp;{}AudioEffect Struct{}":"返回结构的成员取决于创建的音频效果的类型。有关所有可能的音频效果结构，请参见：{}音频效果结构{}",
     "The type of audio effect to create (e.g. {}AudioEffectType.Reverb1{})":"要创建的音频效果类型(例如{}AudioEffectType.Reverb1{})",
     "This function creates a new audio effect and returns the&nbsp;{}AudioEffect Struct{}&nbsp;through which you can access and modify it.":"此函数创建新的音频效果，并返回{}AudioEffect 结构{}，您可以通过它访问和修改它。"

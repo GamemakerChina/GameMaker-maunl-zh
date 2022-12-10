@@ -6,6 +6,6 @@
     "The x position of the light":"灯光的x位置",
     "The y position of the light":"灯光的y位置",
     "The z position of the light":"灯光的z位置",
-    "This function is for defining a positional light, where you can define the x, y and z position of the light, the light range and its colour (which will also affect the perceived intensity of the light as certain colours appear \"darker\" than\n    others). You must also give the light an index number which what will be used in other functions to reference it.{}{}":"此功能用于定义位置灯光，您可以在其中定义灯光的x、y和z位置、灯光范围及其颜色(当某些颜色比\n其他)。您还必须为灯光提供一个索引号，其他函数将使用该索引号来引用它。{}{}",
+    "This function is for defining a positional light, where you can define the x, y and z position of the light, the light range and its colour (which will also affect the perceived intensity of the light as certain colours appear \"darker\" than others). You must also give the light an index number which what will be used in other functions to reference it.{}{}":"此功能用于定义位置灯光，您可以在其中定义灯光的x、y和z位置、灯光范围及其颜色(当某些颜色比其他)。您还必须为灯光提供一个索引号，其他函数将使用该索引号来引用它。{}{}",
     "{}NOTE{}: There are only 8 hardware lights available, so only 8 defined lights can be enabled at any one time (although more can be defined).":"{}注意{}：只有8个硬件指示灯可用，因此任何时候只能启用8个定义的指示灯(尽管可以定义更多)。"
 }

@@ -1,5 +1,5 @@
 {
     "The above code uses {}room_speed{} to set an alarm to run for 10 seconds. Using the variable in this way will ensure that the alarm runs for 10 seconds, no matter what speed is set for the room.":"上面的代码使用{}房间_速度{}来设置运行10秒的警报。以这种方式使用变量将确保警报运行10秒，无论为房间设置的速度是多少。",
-    "This variable holds the running speed of {}all{} rooms (and the game) in game frames per second. Note that this is {}NOT{} the FPS (frames per second) but rather the number of game steps that {}GameMaker{} will try to maintain each\n    second.":"此变量以游戏帧每秒为单位保持{}所有{}房间(和游戏)的运行速度。请注意，这不是{}FPS(每秒帧数)，而是{}GameMaker{}将尝试维护的游戏步骤数\n第二.",
+    "This variable holds the running speed of {}all{} rooms (and the game) in game frames per second. Note that this is {}NOT{} the FPS (frames per second) but rather the number of game steps that {}GameMaker{} will try to maintain each second.":"此变量以游戏帧每秒为单位保持{}所有{}房间(和游戏)的运行速度。请注意，这不是{}FPS(每秒帧数)，而是{}GameMaker{}将尝试维护的游戏步骤数第二.",
     "{}IMPORTANT!{} This variable is maintained for Legacy Support only, and should not be used as it no longer sets the speed for a single room, but for ALL rooms in the game. To change game speed you should instead be using the function {}{}{}game_set_speed(){}{}{}.":"{}重要信息！{}此变量仅用于旧版支持，不应使用，因为它不再为单个房间设置速度，而是为游戏中的所有房间设置速度。要更改游戏速度，您应使用功能{}{}{}game_set_speed(){}{}{}。"
 }

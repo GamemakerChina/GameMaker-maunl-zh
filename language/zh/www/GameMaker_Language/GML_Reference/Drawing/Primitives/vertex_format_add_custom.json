@@ -26,6 +26,6 @@
     "the indices of the matrices to use (for skeletal animation, for example)":"矩阵的索引(例如骨骼动画)",
     "vertex depth buffer value":"顶点深度缓冲区值",
     "vertex normal values (nx, ny, nz)":"顶点法线值(nx, ny, nz)",
-    "{}\n    The use that these constants will be put too also needs to be defined so that the values can be \"bound\" properly within the shader being created. This is necessary due to the fact that DX and OpenGL have different requirements so if you don\u0027t bind them properly, they won\u0027t come through right in the shader. The available usage constants that you can choose are listed below and those you use will depend on the specifics of the shader being created:":"{}\n还需要定义这些常量的用法，以便可以在要创建的着色器中正确\"绑定\"这些值。这是必要的，因为Dx和OpenGL有不同的要求，所以如果没有正确绑定它们，它们将不会直接在着色器中显示。下面列出了您可以选择的可用使用常量，您使用的常量将取决于正在创建的着色器的具体信息：",
-    "{}\n    There are some important things to note when using custom formats like these:":"{}\n在使用这些自定义格式时，需要注意一些重要事项："
+    "{} The use that these constants will be put too also needs to be defined so that the values can be \"bound\" properly within the shader being created. This is necessary due to the fact that DX and OpenGL have different requirements so if you don\u0027t bind them properly, they won\u0027t come through right in the shader. The available usage constants that you can choose are listed below and those you use will depend on the specifics of the shader being created:":"{}还需要定义这些常量的用法，以便可以在要创建的着色器中正确\"绑定\"这些值。这是必要的，因为Dx和OpenGL有不同的要求，所以如果没有正确绑定它们，它们将不会直接在着色器中显示。下面列出了您可以选择的可用使用常量，您使用的常量将取决于正在创建的着色器的具体信息：",
+    "{} There are some important things to note when using custom formats like these:":"{}在使用这些自定义格式时，需要注意一些重要事项："
 }

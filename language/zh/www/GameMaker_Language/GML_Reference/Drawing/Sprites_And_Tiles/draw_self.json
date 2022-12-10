@@ -1,5 +1,5 @@
 {
-    "This function draws the sprite assigned to the instance exactly as it would be drawn if the draw event held no code or actions, and will reflect and changes that have been made to the {}sprite variables{}    in other events.":"此函数将绘制分配给实例的sprite，如果绘制事件未保留任何代码或操作，则绘制该sprite的方式与绘制该sprite的方式完全相同，并将反映和更改其他事件中的{}sprite变量{}。",
+    "This function draws the sprite assigned to the instance exactly as it would be drawn if the draw event held no code or actions, and will reflect and changes that have been made to the {}sprite variables{} in other events.":"此函数将绘制分配给实例的sprite，如果绘制事件未保留任何代码或操作，则绘制该sprite的方式与绘制该sprite的方式完全相同，并将反映和更改其他事件中的{}sprite变量{}。",
     "This makes the instance draw itself with the properties defined by the in built sprite variables.":"这将使实例使用由内置sprite变量定义的特性绘制自身。",
     "{}NOTE{}: If the instance has no sprite assigned to it, this function will throw an error!":"{}注意{}:如果实例未分配sprite，则此函数将引发错误！"
 }

@@ -2,5 +2,5 @@
     "The above code will set the view camera angle for the camera assigned to view port[0].":"上述代码将为分配给 viewport[0] 的相机设置视图的相机角度。",
     "The new angle to set the camera view to":"要设置相机视图的新角度",
     "The unique camera ID value returned when you created the camera":"创建相机时返回的唯一相机 ID 值。",
-    "You can use this function to update the angle of the view camera within the room. You give the unique camera ID value (as returned by the different {}{}camera_create(){}{} functions) and then give the angle that you\n    wish to set the camera view to. The default value is 0° with positive values rotating the camera {}counter-clockwise{}, ie: setting the value to 90 will rotate the camera 90° to the left.":"您可以使用此函数更新房间内相机的视角。提供唯一的相机 ID 值(由不同的 {}{}camera_create(){}{} 函数返回)，然后提供要将相机视图设置的角度。默认值为0°，正值为{}逆时针{}旋转相机，即：将该值设置为90将使相机向左旋转90°。"
+    "You can use this function to update the angle of the view camera within the room. You give the unique camera ID value (as returned by the different {}{}camera_create(){}{} functions) and then give the angle that you wish to set the camera view to. The default value is 0° with positive values rotating the camera {}counter-clockwise{}, ie: setting the value to 90 will rotate the camera 90° to the left.":"您可以使用此函数更新房间内相机的视角。提供唯一的相机 ID 值(由不同的 {}{}camera_create(){}{} 函数返回)，然后提供要将相机视图设置的角度。默认值为0°，正值为{}逆时针{}旋转相机，即：将该值设置为90将使相机向左旋转90°。"
 }

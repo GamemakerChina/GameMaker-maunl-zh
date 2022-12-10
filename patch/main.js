@@ -16,8 +16,13 @@ removeHtml=function(str){
 
 	//替换标签到{}
 	str=str.replace(/(<([^>]+)>)/ig, "{}");
+
 	//替换\r\n到\n
 	str=str.replace(/\r\n/g, '\n');
+	//删除换行
+	str=str.replace(/\n/g, '');
+	//删除多余空格
+	str=str.replace(/ {2,}/g, ' ');
 	
 	return str
 }
@@ -317,7 +322,7 @@ add_event=async function(ins,file){
 		var str=target.html()
 		var key=removeHtml(str)
 		
-		console.log({key:key,str:str})
+		//console.log({key:key,str:str})
 
 		$(".qqq_menu .key").val(key)
 		$(".qqq_menu .old").val(key)

@@ -1,6 +1,6 @@
 {
     "It will return -1 if no animation is assigned to the specific track given or if the instance has no sprite set.":"如果没有为给定的特定轨迹指定动画，或者如果实例没有设置精灵，则它将返回-1。",
-    "The above code checks the current position of the skeleton animation assigned to track 0 and stores it in a temporary variable {}_position{}. It then converts that value to a percentage by multiplying it by 100 and stores the result of that in another temporary variable {}_position_percent{}.{}\n    Finally it shows a debug message that displays the percent value.":"上面的代码检查指定给轨迹0的骨骼动画的当前位置，并将其存储在临时变量{}_position{}中。然后，它通过将该值乘以100将其转换为百分比，并将结果存储在另一个临时变量{}_position_percent{}中。{}\n最后，它显示一条显示百分比值的调试消息。",
+    "The above code checks the current position of the skeleton animation assigned to track 0 and stores it in a temporary variable {}_position{}. It then converts that value to a percentage by multiplying it by 100 and stores the result of that in another temporary variable {}_position_percent{}.{} Finally it shows a debug message that displays the percent value.":"上面的代码检查指定给轨迹0的骨骼动画的当前位置，并将其存储在临时变量{}_position{}中。然后，它通过将该值乘以100将其转换为百分比，并将结果存储在另一个临时变量{}_position_percent{}中。{}最后，它显示一条显示百分比值的调试消息。",
     "The animation track to get the position of.":"动画跟踪获取的位置。",
     "This function will return the position of the animation on the specified animation track as a value ranging from 0 to 1. This way you can get the track position as a percentage where the value 0 corresponds to 0% and the value 1 to 100%.":"此函数将返回指定动画轨迹上的动画位置，其值范围为0到1。通过这种方式，您可以获得百分比形式的轨迹位置，其中值0对应于0%，值1对应于100%。"
 }

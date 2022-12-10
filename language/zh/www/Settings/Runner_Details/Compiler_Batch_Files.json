@@ -13,7 +13,7 @@
     "These script files are supported when building on all target platforms.":"在所有目标平台上构建时都支持这些脚本文件。",
     "This is executed after the asset compiler has been started for building the game":"这是在资源编译器已经开始构建游戏之后执行的",
     "This is executed after the final packaging step has completed and the final ZIP file or store package has been prepared":"这是在最终打包步骤完成并准备好最终的 ZIP 文件或存储包之后执行的",
-    "This is executed after the textures for your game have been generated. You can use this step to optimise your game textures manually.{}\n          {}\n          This script receives an environment variable called {}TexturesDir{}, which stores the path to the generated textures.\n        ":"这是在游戏的纹理生成之后执行的。您可以使用此步骤手动优化游戏纹理。{}{}这个脚本接收一个名为{} TexturesDir {}的环境变量，它存储到生成的纹理的路径。",
+    "This is executed after the textures for your game have been generated. You can use this step to optimise your game textures manually.{} {} This script receives an environment variable called {}TexturesDir{}, which stores the path to the generated textures. ":"这是在游戏的纹理生成之后执行的。您可以使用此步骤手动优化游戏纹理。{}{}这个脚本接收一个名为{} TexturesDir {}的环境变量，它存储到生成的纹理的路径。",
     "This is executed before the asset compiler is started for building the game":"这是在资源编译器开始构建游戏之前执行的",
     "This is executed before the final packaging step, which is when all files are ready but the final ZIP file or store package is about to be created":"这在最终打包步骤之前执行，最终打包步骤是所有文件都准备就绪但即将创建最终 ZIP 文件或存储包的时候",
     "This is executed before the game deployment is about to start":"这是在游戏部署即将开始之前执行的",

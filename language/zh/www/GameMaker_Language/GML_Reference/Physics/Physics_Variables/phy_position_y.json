@@ -1,5 +1,5 @@
 {
     "The above code stores the instance x and y position in two variables.":"上述代码将实例 X 和 Y 位置存储在两个变量中。",
-    "This variable can be used to get (or to set) the y position of the instance within the game room physics world. Please note that the physics world may present errors when instances are moved by directly setting this variable as it will interrupt the\n    continuous simulation. This variable is the physics equivalent of the instance variable {}y{}.":"此变量可用于获取 (或设置) 游戏室物理世界中实例的 Y 位置。请注意，当通过直接设置此变量来移动实例时，物理世界可能会出现错误，因为它将中断连续模拟。此变量是与实例变量 {}y{} 等效的物理变量。",
+    "This variable can be used to get (or to set) the y position of the instance within the game room physics world. Please note that the physics world may present errors when instances are moved by directly setting this variable as it will interrupt the continuous simulation. This variable is the physics equivalent of the instance variable {}y{}.":"此变量可用于获取 (或设置) 游戏室物理世界中实例的 Y 位置。请注意，当通过直接设置此变量来移动实例时，物理世界可能会出现错误，因为它将中断连续模拟。此变量是与实例变量 {}y{} 等效的物理变量。",
     "{}{}Real{}{} (single precision floating point value, or {}undefined{} if the instance is not physics enabled)":"{}{}Real{}{} (单精度浮点值，或 {}undefined{} (如果未启用物理实例)"
 }

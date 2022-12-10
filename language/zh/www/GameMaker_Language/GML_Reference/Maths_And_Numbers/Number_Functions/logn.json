@@ -2,5 +2,5 @@
     "The above code gets the {}log5{} of the value stored in \"num\".":"上面的代码获取存储在“num”中的值的 {}log5{}。",
     "The input value.":"输入值。",
     "The log base.":"log 基数。",
-    "This function is similar to the {}{}log2(n){}{} and {}{}log10(n){}{}&nbsp;functions, only you stipulate the log base value. For example, {}logn(5,25){} will return how many 5\u0027s we need to multiply\n    to get 25 (which is 2).":"此函数类似于 {}{}log2(n){}{} 和 {}{}log10(n){}{}&nbsp;函数，只是您规定了对数基值。 例如，{}logn(5,25){} 将返回我们需要乘以多少个 5 才能得到 25（即 2）。"
+    "This function is similar to the {}{}log2(n){}{} and {}{}log10(n){}{}&nbsp;functions, only you stipulate the log base value. For example, {}logn(5,25){} will return how many 5\u0027s we need to multiply to get 25 (which is 2).":"此函数类似于 {}{}log2(n){}{} 和 {}{}log10(n){}{}&nbsp;函数，只是您规定了对数基值。 例如，{}logn(5,25){} 将返回我们需要乘以多少个 5 才能得到 25（即 2）。"
 }

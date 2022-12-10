@@ -1,5 +1,5 @@
 {
     "The code above gets the current density value for the bound physics properties of the instance and then sets them to a different value.":"上面的代码获取实例的绑定物理属性的当前密度值，然后将其设置为不同的值。",
-    "When you bind a fixture to an instance using {}{}physics_fixture_bind(){}{} this returns an \"id\" for the bound fixture. You can use this id to get the density value of the bound fixture ({}not{} the\n    \"base\" fixture) at any time using this function.":"当您使用 {}{}physics_fixture_bind(){}{} 将装置绑定到实例时，此操作将返回绑定装置的 \"id\"。您可以使用此 ID 随时使用此函数获取绑定装置的密度值 ({}而不是{}\"基础\" 装置)。",
+    "When you bind a fixture to an instance using {}{}physics_fixture_bind(){}{} this returns an \"id\" for the bound fixture. You can use this id to get the density value of the bound fixture ({}not{} the \"base\" fixture) at any time using this function.":"当您使用 {}{}physics_fixture_bind(){}{} 将装置绑定到实例时，此操作将返回绑定装置的 \"id\"。您可以使用此 ID 随时使用此函数获取绑定装置的密度值 ({}而不是{}\"基础\" 装置)。",
     "the id of the bound fixture":"绑定装置的 ID"
 }

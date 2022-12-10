@@ -1,5 +1,5 @@
 {
     "The values to compare.":"要比较的值。",
     "This function returns the maximum of the input values, of which it can have up to 16. For example {}max(12, 96, 32, 75){} will return 96 as that is the highest of all the input values.":"该函数返回输入值的最大值，最多可以有16个输入值。例如，{}max(12,96,32,75){}将返回96，因为这是所有输入值中最高的。",
-    "This will stop the player from exiting the left of the room. This works by constantly setting its x to either itself or 0, whichever is larger. If the player exits the left, its x would be smaller than 0 (ie negative), so it\u0027ll get set straight\n    back.":"这将阻止玩家从房间的左侧离开。它的工作原理是不断地将x设置为自身或0，取较大的值。如果玩家从左侧退出，它的x将小于0(即负)，所以它将直接返回。"
+    "This will stop the player from exiting the left of the room. This works by constantly setting its x to either itself or 0, whichever is larger. If the player exits the left, its x would be smaller than 0 (ie negative), so it\u0027ll get set straight back.":"这将阻止玩家从房间的左侧离开。它的工作原理是不断地将x设置为自身或0，取较大的值。如果玩家从左侧退出，它的x将小于0(即负)，所以它将直接返回。"
 }
