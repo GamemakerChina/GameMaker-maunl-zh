@@ -13,7 +13,9 @@
     "Extensions":"扩展",
     "Fonts":"字体",
     "GML Code":"GML 代码",
+    "GML Code Reference":"GML 代码参考",
     "GML Visual":"GML 可视化",
+    "GML Visual\u200B\u200B\u200B\u200B\u200B\u200B\u200B Reference":"GML 可视化\u200B\u200B\u200B\u200B\u200B\u200B\u200B参考",
     "Game Options":"游戏设置",
     "GameMaker Language":"GameMaker 语言",
     "Getting Started":"开始",
@@ -99,5 +101,6 @@
     "{}The Micro Web Server{}":"{}微型 Web 服务器{}",
     "{}The Start Page{}":"{}起始页{}",
     "{}{}Additional IDE Tools{}{}Additional IDE Tools{}{}":"",
-    "{}{}NOTE{}{}&nbsp;Due to the modular nature of {}GameMaker{} there are certain things that are not included in this user manual, in particular&nbsp;those aspects of setting up and connecting the different devices that can be supported. For up-to-date information and troubleshooting hints and tips related to the different target platforms, please see the {}GameMaker Help Center{}.":"{}{}注意{}{} 由于 {}GameMaker{} 的模块化性质，本用户手册中未包含某些内容，尤其是可以支持的设置和连接不同设备的那些方面。有关与不同目标平台相关的最新信息以及故障排除提示和提示，请参阅 {}GameMaker 帮助中心 {}。"
+    "{}{}NOTE{}{}&nbsp;Due to the modular nature of {}GameMaker{} there are certain things that are not included in this user manual, in particular&nbsp;those aspects of setting up and connecting the different devices that can be supported. For up-to-date information and troubleshooting hints and tips related to the different target platforms, please see the {}GameMaker Help Center{}.":"{}{}注意{}{} 由于 {}GameMaker{} 的模块化性质，本用户手册中未包含某些内容，尤其是可以支持的设置和连接不同设备的那些方面。有关与不同目标平台相关的最新信息以及故障排除提示和提示，请参阅 {}GameMaker 帮助中心 {}。",
+    "{}{}TIP{}{}&nbsp;Returning to the manual? Here are some handy shortcuts:":"{}{}提示{} {}返回手册？以下是一些方便的快捷方式："
 }

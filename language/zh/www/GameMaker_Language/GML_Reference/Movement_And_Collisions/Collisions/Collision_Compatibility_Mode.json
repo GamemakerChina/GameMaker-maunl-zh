@@ -1,5 +1,6 @@
 {
     "Changes in Collisions":"碰撞中的更改",
+    "Collision Compatibility Mode":"碰撞兼容模式",
     "Compatibility Mode":"兼容性模式",
     "For projects that are new or do not use existing collision code, there is no need to enable this option.":"对于新项目或不使用现有碰撞代码的项目，无需启用此选项。",
     "In the current collision system, bounding box values are not rounded and are used as-is, meaning collisions are more accurate and behave as one would expect. Bounding boxes are also \"inclusive\"&nbsp;now, i.e. they include the bottom-most and right-most edges. For example,&nbsp;the bounding box for a&nbsp;16x16&nbsp;collision mask is now generated from {}(0.0, 0.0){}&nbsp;to {}(16.0, 16.0){} (relative).":"在当前碰撞系统中，边界框值不是四舍五入的，而是按原样使用，这意味着碰撞更加精确，并且行为与预期的一样。边界框现在也是\"包含\"的，也就是说，它们包含最底部和最右侧的边。例如，16 x 16碰撞掩码的边界框现在从{}(0.0,0.0 ){}到{}(16.0, 16.0 ){}(相对)生成。",

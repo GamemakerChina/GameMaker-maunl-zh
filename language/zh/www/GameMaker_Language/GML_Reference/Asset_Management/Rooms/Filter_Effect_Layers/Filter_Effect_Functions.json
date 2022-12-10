@@ -2,6 +2,7 @@
     "By adding the filter/effect&nbsp;in&nbsp;{}at least one room{} through the IDE":"通过IDE在{}至少一个房间{}中添加滤镜/效果",
     "By calling {}{}fx_create(){}{} with the filter/effect name as a&nbsp;string&nbsp;{}literal{}":"调用{}{}fx_create(){}{}，将过滤器/效果名称作为字符串{}literal{}",
     "By default, a filter/effect is applied&nbsp;to the&nbsp;layer that it is {}assigned to{}&nbsp;and all layers below that layer, however you can use {}{}fx_set_single_layer(){}{} to enable {}Single Layer{} mode for a filter/effect&nbsp;to make sure that it\u0027s only applied to the layer that it is assigned to.":"默认情况下，滤镜/效果应用于{}分配给{}的层以及该层下的所有层，但是，您可以使用{}{}fx_set_single_layer(){}{}为筛选器/效果启用{}单层{}模式，以确保仅将其应用于指定给的层。",
+    "Filter and Effect Functions":"过滤器和效果函数",
     "Function List":"功能列表",
     "Here is example code for the workflow mentioned above:":"下面是上面提到的工作流的示例代码：",
     "Modify a parameter in an FX struct by calling&nbsp;{}{}fx_set_parameter(){}{}: {}fx_set_parameter(fx_struct, {}\"g_CellSize\"{}, 8);{}":"通过调用{}{}fx_set_parameter(){}{}：{}fx_set_parameter( fx_struct，{}\" g_CellSize\"{}， 8)修改FX结构中的参数;{}",

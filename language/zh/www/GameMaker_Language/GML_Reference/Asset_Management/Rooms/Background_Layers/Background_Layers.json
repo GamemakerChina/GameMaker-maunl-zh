@@ -1,4 +1,5 @@
 {
+    "Background Layers":"背景图层",
     "Note that if you want to set the background position or the background horizontal or vertical scrolling speed then you need to use the following general layer functions:":"请注意，如果要设置背景位置或背景水平或垂直滚动速度，则需要使用以下一般层功能：",
     "The {}GameMaker{} {}Room Editor{} permits you to add backgrounds into any given room using {}layers{}. As the name implies, a background layer is simply a sprite asset that is being used as a background on a layer at a set depth within the room, and by stacking layers you can make some things draw over or under others. You can also control certain aspects of layers from code, adding or removing things, or changing certain properties of the layer or what it contains at run time. Below is a list of all the functions that can be used for editing {}{}background layers{}{}:":"{}GameMaker{}{}房间编辑器{}允许您使用{}层{}向任何给定房间添加背景。 顾名思义，背景层只是一个精灵资源，在房间内某个设置深度的层上用作背景，通过堆叠层，你可以使一些东西在其他层上或下面画。您还可以从代码、添加或删除对象、或更改层的某些属性或运行时包含的内容中控制层的某些方面。以下是可用于编辑{}{}背景层{}{}的所有功能的列表："
 }
