@@ -13,8 +13,13 @@ $("head").append(cssHtml);
 
 //移除并替换给定字符串的所有标签到{}
 removeHtml=function(str){
-	var regex = /(<([^>]+)>)/ig
-	return str.replace(regex, "{}");
+
+	//替换标签到{}
+	str=str.replace(/(<([^>]+)>)/ig, "{}");
+	//替换\r\n到\n
+	str=str.replace(/\r\n/g, '\n');
+	
+	return str
 }
 
 //返回给定字符串的所有标签
@@ -253,7 +258,7 @@ add_translate=async function(ele,file,attr){
 	}else{
 		if (ele.hasClass("isTranslateAttr"))return 0
 		var html=ele.attr(attr)
-		console.log(attr)
+		//console.log(attr)
 	}
 
 	//标签预处理成{}
@@ -312,6 +317,8 @@ add_event=async function(ins,file){
 		var str=target.html()
 		var key=removeHtml(str)
 		
+		console.log({key:key,str:str})
+
 		$(".qqq_menu .key").val(key)
 		$(".qqq_menu .old").val(key)
 		var ele=$(".qqq_menu .new")
