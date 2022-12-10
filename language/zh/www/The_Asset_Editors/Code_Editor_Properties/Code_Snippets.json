@@ -1,0 +1,16 @@
+{
+    "A very handy tool you have at your disposal when editing your code is the use of {}Code Snippets{}. When using the script editor, you can press {}F4{} to open the code snippet pop-up, which permits you to select one of the commonly used code methods from a list:":"编辑代码时使用的一个非常方便的工具是使用 {} 代码段 {}。使用脚本编辑器时，可以按 {}F4{} 打开代码段弹出窗口，该窗口允许您从列表中选择一种常用的代码方法：",
+    "After the colon you add the snippet of code":"在冒号之后添加代码片段",
+    "All code is on a single line":"所有代码都在一行中",
+    "Code Snippets":"代码片段",
+    "Each snippet has to be on a separate line (there should be no blank lines)":"每个代码段必须在一个单独的行上(不应该有空行)",
+    "Each snippet must start with the hotkey to be used followed by \"{}-{}\" and then the name of the snippet (which is what is shown in the menu) followed by a colon \"{}:{}\", eg:":"每个代码段必须以要使用的热键开始，后跟 \"{}-{}\"，然后是代码段的名称 (菜单中显示的名称)，后跟冒号 \"{}:{}\"，例如：",
+    "Once the file is created in the User directory, you can edit it with any text editor following these rules:":"在 User 目录中创建文件后，您可以按照以下规则使用任何文本编辑器对其进行编辑：",
+    "See the examples that are already in the base snippets file to see how it is set up following the rules above. You can find the base file in the {}GameMaker{} install directory:":"请参阅基本代码段文件中已有的示例，了解如何按照上述规则进行设置。您可以在 {}GameMaker{} 安装目录中找到基础文件：",
+    "The code that you add must also follow a specific format where:":"您添加的代码还必须遵循以下特定格式：",
+    "This folder is {}not {}modified during any update to {}GameMaker{}, so your edited file will remain intact (but any edits to the base snippets file in the install directory will be reverted).":"在 {}GameMaker{} 的任何更新过程中 {} 不会 {} 修改此文件夹，因此您编辑的文件将保持不变 (但对安装目录中基本代码段文件的任何编辑都将恢复)。",
+    "You can also define your own code snippets if you want to. Before doing this, you\u0027ll need to create a file called \"{}snippets.txt{}\" in one of the following directories:":"如果需要，也可以定义自己的代码片段。执行此操作之前，您需要在以下目录之一中创建名为 \"{}snippets.txt{}\" 的文件：",
+    "You put the text that needs to be highlighted between \"{}|{}\" symbols. The Code Editor will automatically select this text for editing when the snippet is added.":"您将需要突出显示的文本放在 \"{}|{}\" 符号之间。添加代码段时，代码编辑器将自动选择此文本进行编辑。",
+    "You use \"{}${}\" for a newline\n        {}\n          {}{}NOTE{} When creating multiple newlines, there needs to be a space between each \"{}${}\" sign. For example, you would write {}$ $ ${} to add three newlines.{}\n        {}\n      ":"您使用 \"{}${}\" 换行\n{}\n{}{}注意{} 创建多个新行时，每个 \"{}${}\" 符号之间需要有一个空格。例如，您可以写入 {}$$${} 以添加三条新行。{}\n{}",
+    "{}From this window you can select with the mouse the snippet to use, or you can press the associated hotkey listed on the right. This will add the snippet to your code for editing.":"{}在此窗口中，您可以使用鼠标选择要使用的代码段，也可以按右侧列出的关联热键。这将把代码片段添加到您的代码中进行编辑。"
+}
