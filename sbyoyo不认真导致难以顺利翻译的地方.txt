@@ -1,9 +1,0 @@
-文档版本/Manual Version: 2022.1100.0.52
-
-GML 代码 -> GML 代码参考 -> 物理 -> 关节 -> physics_joint_prismatic_create -> 参数 -> upper_trans_limit
-GML Code -> GML Code Reference -> Physics -> Joints -> physics_joint_prismatic_create -> Arguments -> upper_trans_limit
-原因：描述与 lower_trans_limit 相同(The lower permitted limit for the joint movement)
-
-GML 代码 -> GML 代码参考 -> 物理 -> 关节 -> physics_joint_wheel_create -> 参数 -> col
-GML Code -> GML Code Reference -> Physics -> Joints -> physics_joint_wheel_create -> Arguments -> col
-原因：这里的类型应该是布尔值（Boolean），但变成了颜色（Colour），然而其他同类函数却是对的
