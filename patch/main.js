@@ -324,7 +324,7 @@ window.setInterval(function(){
 
 	//这么做只是为了方便移植修改
 	const css1="div.footer a,h4,caption"
-	const css2="p,h1,h2,h3,td,li,a,div.dropspotnote"
+	const css2="p,h1,h2,h3,td,li,a,div.dropspotnote,figcaption"
 	const css3="th,.warning,.important,.optional"
 
 	//页内第一次全局替换
