@@ -23,10 +23,15 @@ retHtml=function(str){
 	return str.match(regex);
 }
 
+
+
+
 restT=function(ele){
 
 	var ele=$(ele)
 
+	
+	//如果翻译了html
 	if(ele.hasClass("isTranslate")){
 		ele.removeClass("isTranslate")
 		var bak=ele.attr("bak")
@@ -34,14 +39,21 @@ restT=function(ele){
 		ele.html(bak)
 	}
 
+	// //不重要
+	// //如果翻译了attr
+	// if(ele.hasClass("isTranslateAttr")){
+	// 	ele.removeClass("isTranslateAttr")
+	// 	var attr=ele.attr("bakAttr")
+	// 	var bak=ele.attr(ele.attr("bakAttrHtml"))
+	// 	//ele.attr(attr,bak)
+	// 	ele.removeAttr("bakAttr")
+	// 	ele.removeAttr("bakAttrHtml")
+	// }
+
 	ele.find(".isTranslate").each(function(i,ele){
-		var ele=$(ele)
-		ele.removeClass("isTranslate")
-		var bak=ele.attr("bak")
-		ele.removeAttr("bak")
-		ele.html(bak)
+		restT(ele)
 	})
-	
+
 }
 
 qqq_ok=function(){
@@ -228,23 +240,33 @@ $("body").after(html)
 ///////////////////////////////////////////////////////////////////////////////////
 //"global_toc"
 
-add_translate=async function(ele,file){
-	if (ele.hasClass("isTranslate"))return 0
-	
+///将元素翻译
+add_translate=async function(ele,file,attr){
+
+	//确定来源文件路径
 	var form=group+"/"+file+".json"
-	var html=ele.html()
+
+	if(!attr){
+		//跳过已翻译
+		if (ele.hasClass("isTranslate"))return 0
+		var html=ele.html()
+	}else{
+		if (ele.hasClass("isTranslateAttr"))return 0
+		var html=ele.attr(attr)
+		console.log(attr)
+	}
+
+	//标签预处理成{}
 	var key=removeHtml(html)
 
+	//读取字典
 	var val=await L(form,key)
 
+	//字典长度0那也不用翻译了
 	if (!val.length)return null
 
-	ele.addClass("isTranslate")
-	ele.attr("bak",ele.html())
-	
 	//在翻译上还原标签
-	var f=retHtml(ele.html())
-
+	var f=retHtml(html)
 	var i=0
 	if(f)f.forEach(function(v,k){
 		var tmp=val.replace("{"+i+"}",v)
@@ -256,7 +278,19 @@ add_translate=async function(ele,file){
 		i++
 	})
 
-	ele.html(val)
+	//如果指定了attr元素那么说明翻译attr指定内容
+	if(!attr){
+		//备份html内容并添加已翻译标签
+		ele.addClass("isTranslate")
+		ele.attr("bak",html)
+		ele.html(val)
+	}else{
+		//备份属性内容并添加已翻译标签
+		ele.addClass("isTranslateAttr")
+		ele.attr("bakAttrHtml",html)
+		ele.attr("bakAttr",attr)
+		ele.attr(attr,val)
+	}
 
 }
 add_event=async function(ins,file){
@@ -355,5 +389,16 @@ window.setInterval(function(){
 		add_event($(this),file)
 	})
 
+	//翻译术语表
+	$(".GlossDefinitionText").each(function(){
+		const file="global"
+		add_translate($(this),file)
+		add_event($(this),file)
+	})
+	iframe.find(".tooltip").each(function(){
+		const file="global"
+		add_translate($(this),file,"title")
+	})
+	
 },500)
 
