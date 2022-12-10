@@ -1,7 +1,7 @@
 {
 	"group":"zh",
-	"importPath":"patch/import",//依赖路径,通用加载的js与css
-	"mainJs":"patch/main.js",//翻译器的主要前端逻辑,这个文件最后加载
-	"template":"patch/template.htm",//编译时插入的模板
-	"team":"patch/team.htm",//编译后插入主页的汉化组信息
+	"importPath":"patch/import",
+	"mainJs":"patch/main.js",
+	"template":"patch/template.htm",
+	"team":"patch/team.htm"
 }
