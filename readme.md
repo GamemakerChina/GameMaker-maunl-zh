@@ -97,9 +97,13 @@ http://app.languagex.com/ (注意,该接口的token需要从cookie获取,具体�
 
 #### 静态式
 
-请确保系统内安装有 Node.js 环境后，在 `GameMakerManualExport` 下打开命令行，输入以下命令：
+请确保系统内安装有 Node.js 环境后，在 `GameMakerManualExport` 下打开命令行，输入以下命令（假设是通过 Git 获取）：
 
 ```bash
+# 获取 GameMakerManualExport
+git submodule update --init --remote
+cd GameMakerManualExport
+
 # 安装依赖
 npm config set registry https://registry.npmmirror.com # 如果速度慢执行该命令
 npm install
@@ -107,6 +111,8 @@ npm install
 # 同时导入文档和目录并注入翻译信息和 CSS
 npm run start:all
 ```
+
+若是通过下载zip的方式获取，请到 [GameMakerManualExport](https://github.com/GamemakerChina/GameMakerManualExport) 手动下载解压并放到 `GameMakerManualExport` 下
 
 ## 开始贡献（工具贡献）
 
