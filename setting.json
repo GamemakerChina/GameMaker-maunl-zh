@@ -1,7 +1,8 @@
 {
+	"chromeCondition":"--disable-web-security --disable-features=site-per-process -–allow-no-sandbox-job",
 	"group":"zh",
 	"importPath":"patch/import",
 	"mainJs":"patch/main.js",
 	"template":"patch/template.htm",
-	"team":"patch/team.htm"
+	"team":"patch/team.htm",
 }
