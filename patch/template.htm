@@ -3,8 +3,11 @@
 <script>
 
 	removeHtml=function(str){
-		var regex = /(<([^>]+)>)/ig
-		return str.replace(regex, "{}");
+		str=str.replace(/(<([^>]+)>)/ig, "{}");
+		str=str.replace(/\r\n/g, '\n');
+		str=str.replace(/\n/g, '');
+		str=str.replace(/ {2,}/g, ' ');
+		return str
 	}
 	retHtml=function(str){
 		var regex = /(<([^>]+)>)/ig
