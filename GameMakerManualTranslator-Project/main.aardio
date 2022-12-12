@@ -28,11 +28,12 @@ mainPath=fsys.path.canonicalize(path+"\"+robohelp+"\"+mainfile)
 var file=path+"setting.json"
 if !io.exist(file){
 var str=`{
+	"chromeCondition":"--disable-web-security --disable-features=site-per-process -–allow-no-sandbox-job",
 	"group":"zh",
-	"importPath":"patch/import",//依赖路径,通用加载的js与css
-	"mainJs":"patch/main.js",//翻译器的主要前端逻辑,这个文件最后加载
-	"template":"patch/template.htm",//编译时插入的模板
-	"team":"patch/team.htm",//编译后插入主页的汉化组信息
+	"importPath":"patch/import",
+	"mainJs":"patch/main.js",
+	"template":"patch/template.htm",
+	"team":"patch/team.htm",
 }`
 	string.save(file,str)
 }
@@ -54,9 +55,8 @@ win.thrdWatcher = fsys.dirWatcher.thread(function(filename,action,actionText){
 loadcodex("\res\翻译.aardio");
 loadcodex("\res\热键设置.aardio");
 
-
 import web.view;
-theView  = web.view(mainForm,,"-disable-web-security --disable-features=site-per-process");
+theView  = web.view(mainForm,,setting.chromeCondition);
 
 //关闭右键菜单
 theView.enableDefaultContextMenus(false) 
