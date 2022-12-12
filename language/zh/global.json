@@ -509,7 +509,7 @@
     "Updating Guide":"更新指引",
     "Users And Accounts":"用户及帐户",
     "Using Animation Curves":"使用动画曲线",
-    "Using The Dope Sheet":"使用信息清单",
+    "Using The Dope Sheet":"使用关键帧表",
     "V-sync or vertical synchronisation is used to synchronise your game update speed to the refresh rate of the monitor. This can reduce screen tearing - which is when your screen displays portions of multiple frames in one go - but can also cause performance issues or problems on monitors with high refresh-rates.":"垂直同步用于将游戏更新速度与监视器的刷新率同步。这样可以减少屏幕撕裂（即屏幕一次显示多帧的一部分）的情况，但也会导致性能问题或刷新率较高的显示器出现问题。",
     "VRAM is the amount of memory available for video, ie: the memory space that can store textures and images.":"VRAM是视频可用的内存量，即：可以存储纹理和图像的内存空间。",
     "Value":"值",
