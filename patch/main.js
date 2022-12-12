@@ -171,6 +171,17 @@ qqq_hight_light=function(){
 	layer_div.animate({ scrollTop: layer_div.prop("scrollHeight") - layer_div.height() }, 0);
 }
 
+qqq_onekey_copy=function() {
+	var right = $(".qqq_menu .new").val();
+	navigator.clipboard.writeText(right);
+}
+
+qqq_onekey_paste=function() {
+	navigator.clipboard.readText().then(
+		translated_text => $(".qqq_menu .new").val(translated_text)
+	);
+}
+
 qqq_add_space_by_pangujs=function() {
 	var right = $(".qqq_menu .new").val();
 	var pangu1 = pangu.spacing(right);
@@ -193,6 +204,10 @@ qqq_toLower=function() {
 	$(".qqq_menu .new").val(right);
 }
 
+qqq_clean_semicolon=function() {
+	var right = $(".qqq_menu .new").val();
+	$(".qqq_menu .new").val(right.replace(/[\uff1b+\u003b]/g,"").replace(/[\u201C+\u201D]/g,"\""));
+}
 ///////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////
 
@@ -223,18 +238,21 @@ html=`<div class="hide">
 		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("xunfei")>讯飞</button>
 		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("modern-mt")>modern-mt</button>
 		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("huoshan")>火山</button>
-		<textarea oninput="qqq_hight_light()" class="lr input old"contenteditable="true"></textarea>
+		<textarea oninput="qqq_hight_light()" class="lr input old" contenteditable="true"></textarea>
 		</div>
 
 		<div class="layui-col-md6">
 		new(translate)<span class="num"></span>
-		<br>
 		<button class="layui-btn  layui-btn-xs" onclick=qqq_hight_light()>hightlight</button>
+		<button class="layui-btn  layui-btn-xs" onclick=qqq_onekey_copy()>复制原文</button>
+		<button class="layui-btn  layui-btn-xs" onclick=qqq_onekey_paste()>粘贴译文</button>
+		<br>
 		<button class="layui-btn  layui-btn-xs" onclick=qqq_add_space_by_pangujs()>添加空格</button>
 		<button class="layui-btn  layui-btn-xs" onclick=qqq_clean_space()>删除空格</button>
 		<button class="layui-btn  layui-btn-xs" onclick=qqq_toUpper()>全大写</button>
 		<button class="layui-btn  layui-btn-xs" onclick=qqq_toLower()>全小写</button>
-		<textarea oninput="qqq_hight_light()" class="lr input new"contenteditable="true"></textarea>
+		<button class="layui-btn  layui-btn-xs" onclick=qqq_clean_semicolon()>去多余分号</button>
+		<textarea oninput="qqq_hight_light()" class="lr input new" contenteditable="true"></textarea>
 		</div>
 	</div>
 	<button class="layui-btn layui-btn-lg layui-btn-fluid" onclick=qqq_ok()>Ok!</button>
