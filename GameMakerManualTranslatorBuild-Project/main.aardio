@@ -113,8 +113,8 @@ console.log("copy:","!!!import!!!")
 //打上汉化组信息
 content_html=string.load(path+"/build/Content.htm")
 team_html=string.load(path+"/patch/team.htm")
-h1="<h1>Getting Started</h1>"
-html=string.replace(content_html,"@"+h1,team_html+h1) 
+h1="<h1"
+html=string.replace(content_html,"@"+h1,team_html+h1,1)
 string.save(path+"/build/Content.htm",html)
 console.log("team patch:","Content.htm")
 
