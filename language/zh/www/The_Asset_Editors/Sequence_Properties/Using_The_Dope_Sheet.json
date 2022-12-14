@@ -1,0 +1,5 @@
+{
+    "Using The Dope Sheet":"使用关键帧表",
+    "When you add a new asset to a sequence, an {}asset track{} will be created in the Track Panel and an {}asset key{}&nbsp;will be added to the dope sheet at the current {}playhead{} position. This key will reflect the play length of the asset in frames:":"将新资源添加到序列中时，将在曲目面板中创建一个{}资源轨道{}，并将一个{}资源关键点{} 添加到摄影表的当前{}播放头{}位置。该关键点将以帧为单位反映资源的播放长度：",
+    "{}The {}Dope Sheet {}is where the data from the different tracks added to the sequence is displayed over time, giving you not just an overview of each track, but also a means to edit the position of them as well as the timings for changes in parameters, etc...":"{}{}摄影表{}是一段时间内显示添加到序列中的不同轨迹的数据的地方，它不仅为您提供了每个轨迹的概述，还提供了编辑它们的位置以及参数更改的时间等的方法。。。"
+}

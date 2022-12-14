@@ -178,7 +178,10 @@ qqq_onekey_copy=function() {
 
 qqq_onekey_paste=function() {
 	navigator.clipboard.readText().then(
-		translated_text => $(".qqq_menu .new").val(translated_text)
+		translated_text => {
+			$(".qqq_menu .new").val(translated_text);
+			qqq_hight_light();
+		}
 	);
 }
 
@@ -187,26 +190,34 @@ qqq_add_space_by_pangujs=function() {
 	var pangu1 = pangu.spacing(right);
 	$(".qqq_menu .new").val(pangu1);
 	// console.log(pangu1);
+	qqq_hight_light();
 }
 
 qqq_clean_space=function() {
 	var right = $(".qqq_menu .new").val();
 	$(".qqq_menu .new").val(right.replace(/\s*/g,""));
+	qqq_hight_light();
 }
 
 qqq_toUpper=function() {
 	var right = $(".qqq_menu .new").val().toUpperCase();
 	$(".qqq_menu .new").val(right);
+	qqq_hight_light();
 }
 
 qqq_toLower=function() {
 	var right = $(".qqq_menu .new").val().toLowerCase();
 	$(".qqq_menu .new").val(right);
+	qqq_hight_light();
 }
 
 qqq_clean_semicolon=function() {
 	var right = $(".qqq_menu .new").val();
-	$(".qqq_menu .new").val(right.replace(/[\uff1b+\u003b]/g,"").replace(/[\u201C+\u201D]/g,"\""));
+	$(".qqq_menu .new").val(right.replace(/[\uff1b+\u003b]/g,"")
+								.replace(/[\u201C+\u201D]/g,"\"")
+								.replace(/[\uff5b]/g,"\{")
+								.replace(/[\uff5d]/g,"\}"));
+	qqq_hight_light();
 }
 ///////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////
