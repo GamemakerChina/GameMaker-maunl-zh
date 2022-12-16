@@ -1,6 +1,6 @@
 {
     "The above code will flush all the texture pages under the texture group \"MainMenu\".":"以上代码将刷新纹理组\"MainMenu\"下的所有纹理页面。",
     "The texture page pointer&nbsp;{}or{} a texture group name (a string)":"纹理页面指针{}或{}纹理组名称(字符串)",
-    "This function can be used to \"flush\" a texture page or a group of texture pages, i.e.: remove them from VRAM when no longer required. The textures stay in RAM.":"此函数可用于\"刷新\"一个纹理页面或一组纹理页面，即：在不再需要时将其从Vram中删除。纹理保留在Ram中。",
+    "This function can be used to \"flush\" a texture page or a group of texture pages, i.e.: remove them from VRAM when no longer required. The textures stay in RAM.":"此函数可用于\"刷新\"一个纹理页面或一组纹理页面，即：在不再需要时将其从VRAM中删除。纹理保留在RAM中。",
     "You supply the unique {}texture page ID{} (as returned by the {}texturegroup_*{} functions) to flush a single page, or you can supply a {}texture group name{} (as defined in the {}Texture Group Editor{}) to flush all the texture pages in the group.":"您可以提供唯一的{}纹理页Id{}(由{}texturegroup_*{}函数返回)来刷新单个页面，也可以提供{}纹理组名称{}(如{}纹理组编辑器{}中所定义)来刷新组中的所有纹理页面。"
 }

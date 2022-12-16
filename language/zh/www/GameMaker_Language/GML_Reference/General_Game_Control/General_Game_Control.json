@@ -1,5 +1,6 @@
 {
     "Finally, we have a function that permits you to assign a sprite to the mouse cursor:":"最后，我们有一个函数，允许您为鼠标光标分配一个精灵:",
+    "General Game Control":"通用游戏控制",
     "The following functions are used for general game control:":"以下函数用于一般的游戏控制:",
     "The following functions exist that deal with the internal high score list.":"存在以下处理内部高分列表的函数。",
     "The following {}global scope{}&nbsp;{}built-in{} variables are useful for debugging your game - they can be used as the output to a log file in the case of issues, for example - as well as for showing the current build ID, etc... to the user:":"以下{}全局范围{}{}内置{}变量对于调试您的游戏很有用-例如，在出现问题的情况下，它们可以用作日志文件的输出-以及显示当前构建ID等...对用户:",

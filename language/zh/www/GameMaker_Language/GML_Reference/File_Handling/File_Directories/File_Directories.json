@@ -1,4 +1,5 @@
 {
     "When working with files, there will be moments when you need to reference the directory in which the files are stored and {}GameMaker{} has some special functions and variables relating to the different possible directories that you may need:":"在处理文件时，有时你需要引用存储文件的目录，{} GameMaker {}有一些特殊的函数和变量，这些函数和变量与你可能需要的不同目录相关:",
-    "{}NOTE{}&nbsp;You cannot create or destroy directories on {}HTML5{}.":"{}注意{}无法在{} HTML5{}上创建或销毁目录。"
+    "{}NOTE{}&nbsp;You cannot create or destroy directories on {}HTML5{}.":"{}注意{}无法在{} HTML5{}上创建或销毁目录。",
+    "{}game_save_id{}&nbsp;(from {}General Game Control{})":"{}game_save_id{}&nbsp;(来自{}通用游戏控制{})"
 }

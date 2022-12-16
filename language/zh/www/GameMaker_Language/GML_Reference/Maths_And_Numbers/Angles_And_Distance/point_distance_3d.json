@@ -6,5 +6,5 @@
     "The y coordinate of the second component of the vector":"向量的第二个分量的 y 坐标",
     "The z coordinate of the first component of the vector":"向量第一个分量的 z 坐标",
     "The z coordinate of the second component of the vector":"向量的第二个分量的 z 坐标",
-    "This function takes the supplied components of the vector and returns the length (distance) of the vector. It works in exactly the same way as {}{}point_distance(){}{} but with the addition of factoring in the z value (depth) for use in 3D space.":"这个函数获取向量的分量，并返回向量的长度(距离)。它的工作方式与{}{} point _ range (){}{}完全相同，但是添加了在3D 空间中使用的 z 值(深度)。"
+    "This function takes the supplied components of the vector and returns the length (distance) of the vector. It works in exactly the same way as {}{}point_distance(){}{} but with the addition of factoring in the z value (depth) for use in 3D space.":"这个函数获取向量的分量，并返回向量的长度(距离)。它的工作方式与{}{} point_ range (){}{}完全相同，但是添加了在3D 空间中使用的 z 值(深度)。"
 }

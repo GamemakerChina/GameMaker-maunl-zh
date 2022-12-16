@@ -9,9 +9,10 @@
     "In the Draw event of your object, call {}{}video_draw(){}{}, and if its first array position is {}0{} (meaning the video is playing), draw the video.":"在对象的\"绘制\"事件中，调用{}{}video_draw(){}{}，如果其第一个数组位置为{}0{}(表示正在播放视频)，请绘制视频。",
     "In the code below, we\u0027re using a switch statement on the {}{}video_get_format(){}{} function. If the video is using the RGBA format, then it simply draws the surface in position {}[1]{} of the array.":"在下面的代码中，我们在{}{}video_get_format(){}{}函数上使用switch语句。如果视频使用的是Rgba格式，则它只是在阵列的{}[ 1 ]{}位置绘制曲面。",
     "Makes sure that they exist, using {}{}surface_exist(){}{} {} {}Sets the shader to {}shader_YUV{} (which is our newly created YUV shader){} {}Gets the textures of both surfaces{} {}Assigns the texture of the chroma surface to the sampler we retrieved in the Create event{} {}Disables texture filtering{} {}Begins drawing a triangle strip primitive, with the video surface\u0027s texture assigned to it{} {}Draws a rectangle to cover the video surface, uses the width and height of the chroma surface for that rectangle{} {}Ends the primitive{} {}Re-enables texture filtering and resets the shader{} {} ":"使用{}{}surface_exist(){}{}确保它们存在{}{}将着色器设置为{}shader_Yuv{}(这是我们新创建的Yuv着色器){}{}获取两个曲面的纹理{}{}将色度曲面的纹理指定给在\"Create\"事件中检索到的采样器{}{}禁用纹理过滤{}{}开始绘制三角形条纹基本体，并将视频曲面的纹理指定给它{}{}绘制一个矩形以覆盖视频表面，使用该矩形的色度表面的宽度和高度{}{}结束原语{}{}重新启用纹理过滤并重置着色器{}{}",
-    "Platforms that use the YUV colour format for videos require extra steps for drawing those videos. This involves using a shader to draw two surfaces on a primitive quad.":"对于视频使用Yuv颜色格式的平台，需要额外的步骤来绘制这些视频。这涉及到使用着色器在基本体四边形上绘制两个曲面。",
-    "Read the {}{}video_draw(){}{} reference page first for information on what data that function returns for YUV videos, and then continue reading below for instructions on using that data to draw the video.":"首先阅读{}{}video _draw(){}{}参考页，了解有关函数为Yuv视频返回的数据的信息，然后继续阅读下面的内容，了解有关使用该数据绘制视频的说明。",
+    "Platforms that use the YUV colour format for videos require extra steps for drawing those videos. This involves using a shader to draw two surfaces on a primitive quad.":"对于视频使用YUV颜色格式的平台，需要额外的步骤来绘制这些视频。这涉及到使用着色器在基本体四边形上绘制两个曲面。",
+    "Read the {}{}video_draw(){}{} reference page first for information on what data that function returns for YUV videos, and then continue reading below for instructions on using that data to draw the video.":"首先阅读{}{}video_draw(){}{}参考页，了解有关函数为Yuv视频返回的数据的信息，然后继续阅读下面的内容，了解有关使用该数据绘制视频的说明。",
     "Sets the shader to {}shader_YUV{} (which is our newly created YUV shader)":"将着色器设置为{}shader_Yuv{}(这是我们新创建的Yuv着色器)",
-    "The code under {}case video_format_yuv:{} does the following:":"{}案例video_format_yuv:{}下的代码执行以下操作：",
-    "YUV Shader":"Yuv着色器"
+    "The code under {}case video_format_yuv:{} does the following:":"{}case video_format_yuv:{}下的代码执行以下操作：",
+    "YUV Shader":"Yuv着色器",
+    "YUV Videos":"YUV 视频"
 }

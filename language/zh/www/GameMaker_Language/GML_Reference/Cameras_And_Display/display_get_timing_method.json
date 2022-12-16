@@ -1,4 +1,5 @@
 {
+    "Display Timing Method Constant":"显示计时方法常量",
     "For more information on the different timing methods, please see {}{}display_set_timing_method(){}{}.":"有关不同计时方法的详细信息，请参阅 {}{}display_set_timing_method(){}{}。",
     "The above code will check the timing method and then if it\u0027s not set to {}tm_sleep{} it will be set to that and the sleep margin set to 20.":"上述代码将检查定时方法，如果未将其设置为 {}tm_sleep{}，则会将其设置为该值，并将 sleep margin 设置为 20。",
     "The sleep margin value is the main timing method":"sleep margin 是主要的计时方法",

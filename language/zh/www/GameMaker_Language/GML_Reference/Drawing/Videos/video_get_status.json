@@ -3,6 +3,6 @@
     "The above code gets the status of the video and then checks if the player has pressed Space. In that case it pauses the video if it\u0027s playing, and resumes it if it\u0027s paused.":"上述代码获取视频的状态，然后检查播放器是否已按空格键。在这种情况下，如果视频正在播放，它会暂停视频，如果暂停，它会恢复视频。",
     "The video is currently playing":"视频当前正在播放",
     "The video is currently preparing and has not started playing yet":"视频目前正在准备，尚未开始播放",
-    "The video is paused (see {}{}video_pause(){}{})":"视频已暂停(请参阅{}{}video _pause(){}{})",
+    "The video is paused (see {}{}video_pause(){}{})":"视频已暂停(请参阅{}{}video_pause(){}{})",
     "This function returns the status of the currently loaded video. The status can be any one of the following constants:":"此函数返回当前加载的视频的状态。状态可以是以下任意一个常量："
 }

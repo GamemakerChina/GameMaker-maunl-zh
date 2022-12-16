@@ -1,5 +1,5 @@
 {
     "The above code will prefetch all the texture pages under the texture group \"MainMenu\".":"以上代码将预取纹理组\"MainMenu\"下的所有纹理页面。",
     "The texture page pointer&nbsp;{}or{} a texture group name (a string)":"纹理页面指针{}或{}纹理组名称(字符串)",
-    "This function can be used to \"prefetch\" a texture page or a group of texture pages, ie: load them into VRAM when required. You supply the unique {}texture page ID{} (as returned by the {}texturegroup_*{} functions) to prefetch a single page, or you can supply a {}texture group name{} (as defined in the {}Texture Group Editor{}) to prefetch all the texture pages in the group.":"此函数可用于\"预取\"一个纹理页面或一组纹理页面，即：在需要时将其加载到Vram中。您可以提供唯一的{}纹理页Id{}(由{}texturegroup_*{}函数返回)来预取单个页面，也可以提供{}纹理组名称{}(如{}纹理组编辑器{}中所定义)来预取组中的所有纹理页面。"
+    "This function can be used to \"prefetch\" a texture page or a group of texture pages, ie: load them into VRAM when required. You supply the unique {}texture page ID{} (as returned by the {}texturegroup_*{} functions) to prefetch a single page, or you can supply a {}texture group name{} (as defined in the {}Texture Group Editor{}) to prefetch all the texture pages in the group.":"此函数可用于\"预取\"一个纹理页面或一组纹理页面，即：在需要时将其加载到VRAM中。您可以提供唯一的{}纹理页Id{}(由{}texturegroup_*{}函数返回)来预取单个页面，也可以提供{}纹理组名称{}(如{}纹理组编辑器{}中所定义)来预取组中的所有纹理页面。"
 }

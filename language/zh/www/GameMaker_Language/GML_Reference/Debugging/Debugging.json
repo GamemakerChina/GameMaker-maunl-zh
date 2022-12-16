@@ -6,5 +6,7 @@
     "Syntax Errors":"语法错误",
     "While making a game, it is often very important that you know certain details of the game mechanics at specific points in time, or to be able to input certain key values for some functions to test out different methods and ideas for your game. To that end {}GameMaker{} provides you with a number of debug functions that will show messages and ask for input while in debug mode (or on a Windows target) but that will be ignored when compiled for other target modules due to the fact that these functions put the game in a closed loop until the input is resolved.":"在制作游戏时，了解特定时间点的游戏机制的某些细节，或者能够为某些函数输入某些键值以测试游戏的不同方法和想法，通常是非常重要的。为此，{}GameMaker{}为您提供了许多调试函数，这些函数将在调试模式下(或在Windows目标上)显示消息并要求输入，但在为其他目标模块编译时将被忽略，因为这些函数将游戏置于闭环中，直到输入被解析。",
     "You can also find further information on how to debug your game in the section on&nbsp;{}The Debugger{}.":"您还可以在{}调试器{}一节中找到有关如何调试游戏的更多信息。",
-    "{}{}NOTE{}{} Although they may work on certain platforms they are not to be used for anything other than debugging.":"{}{}注意{}{}尽管它们可以在某些平台上工作，但它们只能用于调试。"
+    "{}Debugging{}":"{}调试{}",
+    "{}{}NOTE{}{} Although they may work on certain platforms they are not to be used for anything other than debugging.":"{}{}注意{}{}尽管它们可以在某些平台上工作，但它们只能用于调试。",
+    "{}{}NOTE{}{}&nbsp;Although they may work on certain platforms they are not to be used for anything other than debugging.":"{}{}注意{}{} 尽管它们可能在某些平台上工作，但除了调试之外，不能用于任何其他用途。"
 }
