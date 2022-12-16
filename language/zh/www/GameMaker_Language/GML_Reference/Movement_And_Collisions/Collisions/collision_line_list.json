@@ -1,5 +1,5 @@
 {
-    "Note that instead of an object index you can supply the {}instance keyword{}&nbsp;{}all{}, to check for all instances in the current room, which may include the instance running the code (depending on the {}notme{} argument).":"请注意，您可以不提供对象索引，而是提供{}实例关键字{}{}all{}，以检查当前文件室中的所有实例，其中可能包括运行代码的实例(取决于{}notme{}参数)。",
+    "Note that instead of an object index you can supply the {}instance keyword{}&nbsp;{}all{}, to check for all instances in the current room, which may include the instance running the code (depending on the {}notme{} argument).":"请注意，您可以不提供对象索引，而是提供{}实例关键字{}{}all{}，以检查当前房间中的所有实例，其中可能包括运行代码的实例(取决于{}notme{}参数)。",
     "The DS list to use to store the IDs of colliding instances.":"用于存储冲突实例ID的D列表。",
     "The code above will check a line 100 pixels either side of the calling instance position for collisions with instances of \"obj_Enemy\". If there are any collisions, then the pre-created list is looped through and each instance that was in the collision is destroyed.":"上面的代码将检查调用实例位置任一侧的100像素行，以确定是否与\"obj_Enemy\"实例发生冲突。如果存在任何冲突，则会循环显示预先创建的列表，并销毁冲突中的每个实例。",
     "The object or instance to check for.":"要检查的对象或实例。",
