@@ -3,5 +3,5 @@
     "The id of the list to add to.":"要添加到的列表的ID。",
     "The position to add the value, where 0 corresponds to the very beginning of the list and the final position is {}ds_list_size(id)-1{}.":"添加值的位置，其中0对应于列表的最初位置，最终位置为{}ds_list_size(id)-1{}。",
     "The value to add to the list.":"要添加到列表中的值。",
-    "This function will add the given value into the list at the given position. if the list contains more values after the given position, their position will be shifted up one to make room making the list larger by one.":"此功能将在给定位置将给定的值添加到列表中，如果列表中包含的值在给定位置之后更多，则它们的位置将向上移动一个以腾出空间，使列表变大一个。"
+    "This function will add the given value into the list at the given position. if the list contains more values after the given position, their position will be shifted up one to make room making the list larger by one.":"此函数将在给定位置将给定的值添加到列表中，如果列表中包含的值在给定位置之后更多，则它们的位置将向上移动一个以腾出空间，使列表变大一个。"
 }

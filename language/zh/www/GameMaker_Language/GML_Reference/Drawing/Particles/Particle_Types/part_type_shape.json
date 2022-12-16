@@ -17,5 +17,5 @@
     "The above code sets the particle type indexed in the global variable \"p1\" to the shape of a square, then sets various other particle properties.":"上述代码将全局变量\"p 1\"中索引的粒子类型设置为正方形，然后设置其他各种粒子属性。",
     "The index of the particle type to set.":"要设定的粒子类型的索引。",
     "The shape to choose.":"要选择的形状。",
-    "With this function you can set the sprite shape to use for the particle type, with the following constants being acceptable:":"使用此功能，可以设置要用于粒子类型的sprite形状，并且以下常量是可接受的："
+    "With this function you can set the sprite shape to use for the particle type, with the following constants being acceptable:":"使用此函数，可以设置要用于粒子类型的sprite形状，并且以下常量是可接受的："
 }

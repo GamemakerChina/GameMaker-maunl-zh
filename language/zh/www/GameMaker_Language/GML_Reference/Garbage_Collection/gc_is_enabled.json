@@ -1,4 +1,4 @@
 {
     "The above code checks to see if the garbage collector is enabled and if it isn\u0027t it enables it.":"上面的代码检查垃圾收集器是否被启用，如果它不是，则它启用它。",
-    "With this function you can check to see if the garbage collector is enabled or not. The function will return {}true{} if it is enabled or {}false{} otherwise.":"使用此功能，您可以检查是否启用了垃圾收集器。如果启用，函数将返回{}true{}，否则返回{}false{}。"
+    "With this function you can check to see if the garbage collector is enabled or not. The function will return {}true{} if it is enabled or {}false{} otherwise.":"使用此函数，您可以检查是否启用了垃圾收集器。如果启用，函数将返回{}true{}，否则返回{}false{}。"
 }

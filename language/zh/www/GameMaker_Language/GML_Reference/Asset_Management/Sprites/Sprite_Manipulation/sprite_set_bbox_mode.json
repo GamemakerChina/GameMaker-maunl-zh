@@ -1,4 +1,5 @@
 {
+    "Bounding Box Mode Constant":"边界框模式常量",
     "The above code checks the bbox mode for the current sprite and if it\u0027s not {}automatic{}, then it is set to that value.":"上面的代码检查当前sprite的bbox模式，如果它不是{}自动{}，则将其设置为该值。",
     "The index of the sprite to change the mode of.":"要更改模式的sprite的索引。",
     "The mode to set (a constant).":"设置（常数）的模式。",

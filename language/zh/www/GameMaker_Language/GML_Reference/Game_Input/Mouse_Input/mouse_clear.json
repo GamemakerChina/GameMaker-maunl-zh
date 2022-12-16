@@ -1,7 +1,7 @@
 {
     "Mouse Button Constant":"鼠标按钮常数",
     "The above code will clear the down state of all the mouse buttons.":"上面的代码将清除所有鼠标按钮的向下状态。",
-    "This function will clear the current state of the given mouse button. This means that checks for it being held down will not return {}true{} until the player releases the button&nbsp;and presses it again (but the release state will still be detected if the clear is done while the mouse button is being held down).":"此功能将清除给定鼠标按钮的当前状态。这意味着在玩家释放按钮并再次按下按钮之前，检查是否按住该按钮不会返回{}true{}（但如果在按住鼠标按钮时清除完毕，仍会检测到释放状态）。",
+    "This function will clear the current state of the given mouse button. This means that checks for it being held down will not return {}true{} until the player releases the button&nbsp;and presses it again (but the release state will still be detected if the clear is done while the mouse button is being held down).":"此函数将清除给定鼠标按钮的当前状态。这意味着在玩家释放按钮并再次按下按钮之前，检查是否按住该按钮不会返回{}true{}（但如果在按住鼠标按钮时清除完毕，仍会检测到释放状态）。",
     "Which mouse button constant to check for.":"要检查哪个鼠标按钮常数。",
     "You can supply one of the mouse button constants&nbsp;listed {}on this page{}.":"可以提供{}此页{}上列出的鼠标按钮常量之一。"
 }

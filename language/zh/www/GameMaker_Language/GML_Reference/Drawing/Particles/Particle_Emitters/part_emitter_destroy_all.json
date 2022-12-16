@@ -1,5 +1,5 @@
 {
     "The above code checks the built in global variable \"lives\" and if it is 0, it destroys all particle emitters and then changes room.":"上面的代码检查内置的全局变量\"life\"，如果它为0，则会销毁所有粒子发射器，然后更改空间。",
     "The particle system to destroy all emitters from.":"用于销毁所有发射器的粒子系统。",
-    "This function will remove all defined emitters from the given system and clear them from memory (this will also stop any particles from being produced by the given emitter, but it does {}NOT{} remove them from the room). This function should always be called when the emitters are no longer needed for the system to prevent memory leaks and errors.":"此功能将从给定系统中删除所有已定义的发射器，并将它们从内存中清除(这也将阻止给定发射器产生任何粒子，但不会{}不{}将它们从房间中删除)。当系统不再需要发射器时，应始终调用此功能以防止内存泄漏和错误。"
+    "This function will remove all defined emitters from the given system and clear them from memory (this will also stop any particles from being produced by the given emitter, but it does {}NOT{} remove them from the room). This function should always be called when the emitters are no longer needed for the system to prevent memory leaks and errors.":"此函数将从给定系统中删除所有已定义的发射器，并将它们从内存中清除(这也将阻止给定发射器产生任何粒子，但不会{}不{}将它们从房间中删除)。当系统不再需要发射器时，应始终调用此函数以防止内存泄漏和错误。"
 }

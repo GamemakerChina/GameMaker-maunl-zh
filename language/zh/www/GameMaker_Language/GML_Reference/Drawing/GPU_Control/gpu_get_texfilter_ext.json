@@ -2,5 +2,5 @@
     "The above code checks to see if texture filtering is on or off for a specific sampler ID (stored in a local variable) and switches it accordingly.":"上述代码检查特定采样器ID(存储在局部变量中)的纹理过滤是打开还是关闭，并相应地进行切换。",
     "The sampler id from the shader.":"着色器中的采样器ID。",
     "With this function you can check to see whether texture interpolation (linear interpolation) is enabled (returns {}true{}) or not (returns {}false{}) for a given shader sampler texture.":"使用此函数，可以检查是否对给定着色器采样器纹理启用纹理插值(线性插值)(return{}true{})或不启用(return{}false{})。",
-    "{}NOTE{}: On the HTML5 target, this function will only work with WebGL enabled.":"{}注意{}:在HTML5目标上，此功能只能在启用WebGL的情况下使用。"
+    "{}NOTE{}: On the HTML5 target, this function will only work with WebGL enabled.":"{}注意{}:在HTML5目标上，此函数只能在启用WebGL的情况下使用。"
 }

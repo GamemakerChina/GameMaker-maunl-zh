@@ -1,6 +1,6 @@
 {
     "The above code gets the tile map ID from the given layer and then uses that to get the tile-data for the cell under the mouse position. This data is then used to set the tile index to a random number.":"上面的代码从给定层获取块映射ID，然后使用它来获取鼠标位置下单元的块数据。然后，此数据用于将平铺索引设置为随机数。",
-    "This function can be used to get the tile index (the position of the tile within the tile set image) from a set of tile-data. You specify the tile-data, which can be retrieved using the function {}{}tilemap_get(){}{}, and the function will return an integer value for the index.":"此功能可用于从瓦块数据集中获取瓦片索引(瓦片在瓦片集图像中的位置)。指定可以使用函数{}{}tilemap_get(){}{}检索的平铺数据，该函数将返回索引的整数值。",
+    "This function can be used to get the tile index (the position of the tile within the tile set image) from a set of tile-data. You specify the tile-data, which can be retrieved using the function {}{}tilemap_get(){}{}, and the function will return an integer value for the index.":"此函数可用于从瓦块数据集中获取瓦片索引(瓦片在瓦片集图像中的位置)。指定可以使用函数{}{}tilemap_get(){}{}检索的平铺数据，该函数将返回索引的整数值。",
     "When using this function, ensure that the given tile-data is valid, otherwise the returned index value will not be valid either which may result in unexpected behaviour.":"使用此函数时，请确保给定的平铺数据有效，否则返回的索引值也将无效，这可能会导致意外行为。",
     "the tile-data to check":"要检查的瓦片数据"
 }

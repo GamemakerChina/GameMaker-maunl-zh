@@ -1,5 +1,5 @@
 {
     "The above code gets the ID value for the layer named \"Instances\" in the room editor, then uses the ID to check if the layer is visible or not, toggling the layer visibility depending on the returned value.":"上面的代码在房间编辑器中获取名为\"Instances\"的层的ID值，然后使用ID检查层是否可见，根据返回值切换层可见性。",
     "The unique ID value of the layer to target (or the layer name as a string)":"目标层的唯一ID值(或作为字符串的层名)",
-    "With this function you can check whether a layer is visible or not. You supply the layer ID (which you get when you create the layer using {}{}layer_create(){}{}) or the layer name (as a string - this will have a performance impact) and the function will return {}true{} if it is visible, and {}false{} otherwise.":"使用此功能，您可以检查层是否可见。提供层 ID(使用{}{}layer_create(){}{}创建层时获得的 ID)或层名称(作为字符串，这将对性能产生影响)，如果可见，函数将返回{}true{}，否则返回{}false{}。"
+    "With this function you can check whether a layer is visible or not. You supply the layer ID (which you get when you create the layer using {}{}layer_create(){}{}) or the layer name (as a string - this will have a performance impact) and the function will return {}true{} if it is visible, and {}false{} otherwise.":"使用此函数，您可以检查层是否可见。提供层 ID(使用{}{}layer_create(){}{}创建层时获得的 ID)或层名称(作为字符串，这将对性能产生影响)，如果可见，函数将返回{}true{}，否则返回{}false{}。"
 }

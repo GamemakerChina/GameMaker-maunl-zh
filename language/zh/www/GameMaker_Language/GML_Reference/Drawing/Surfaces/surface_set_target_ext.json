@@ -1,7 +1,7 @@
 {
-    "The ID of the surface to use.":"要使用的曲面的ID。",
-    "The above code will set the render target 0 to the surface ID indexed in the variable \"surf\".":"上述代码将渲染目标0设置为在变量\"wash\"中索引的曲面ID。",
+    "The ID of the surface to use.":"要使用的表面的ID。",
+    "The above code will set the render target 0 to the surface ID indexed in the variable \"surf\".":"上述代码将渲染目标0设置为在变量\"wash\"中索引的表面ID。",
     "The render target index to use (from 0 to 3).":"要使用的渲染目标索引(从0到3 )。",
     "This function is for use with the {}Shader Functions{} and sets the MRT (0 - 3) for native level shaders (DX9, DX11, OpenGL).":"此函数用于{}着色器函数{}，并为本机级别着色器(DX9、DX11、OpenGL)设置Mrt(0-3 )。",
-    "{}NOTE{}: When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}注意{}：使用曲面时，由于曲面存储在纹理内存中，因此曲面可能随时停止存在。在直接引用曲面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查曲面是否存在。"
+    "{}NOTE{}: When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}注意{}：使用表面时，由于表面存储在纹理内存中，因此表面可能随时停止存在。在直接引用表面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查表面是否存在。"
 }

@@ -1,6 +1,6 @@
 {
     "The code above creates a new Nine Slice struct, enables it and sets the offsets for the guides. The struct is then applied to a sprite, changing its Nine Slice properties.":"上面的代码创建了一个新的九片结构，启用它并设置参考线的偏移量。然后将该结构应用于sprite，更改其九个切片属性。",
     "This function is used to create a Nine Slice {}struct{}&nbsp;which can be modified and then applied to a sprite. The contents of this struct are detailed on {}this page{}.":"此函数用于创建九个切片{}结构{}，可以对其进行修改，然后将其应用于sprite.此结构的内容在{}此页{}上有详细说明。",
-    "You can store this struct in a variable, modify its properties, and apply it to any sprites using {}{}sprite_set_nineslice(){}{}.":"您可以将此结构存储在变量中，修改其属性，并使用{}{}sprite_set_NinesLice（）{}{}将其应用于任何sprite.",
+    "You can store this struct in a variable, modify its properties, and apply it to any sprites using {}{}sprite_set_nineslice(){}{}.":"您可以将此结构存储在变量中，修改其属性，并使用{}{}sprite_set_nineslice(){}{}将其应用于任何sprite.",
     "{}{}Nine Slicing{}&nbsp;is a technique used to scale rectangular images for preserving details, making them retain their original form after scaling. See {}this page{} for information on Nine Slice.{}":"{}{}九切{}是一种用于缩放矩形图像以保留细节的技术，使其在缩放后保持其原始形状。有关Nine Slice的信息，请参阅{}本页{}。{}"
 }

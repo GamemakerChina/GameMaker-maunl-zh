@@ -9,7 +9,7 @@
     "Finally you can find more advanced {}buffer{} functions that can be used for loading and saving data on the following pages:":"最后，你可以找到更高级的{}buffer{}函数，可以用来在以下页面上加载和保存数据:",
     "Finally, you should also note that there are some distinct differences between certain target platforms which would be taken into account when using the file functions. These are:{}{}":"最后，您还应该注意，在某些目标平台之间有一些明显的差异，在使用文件函数时要考虑到这一点。这些是:{}{}",
     "If you have been granted permission by Steam to use their dedicated API with your game, you will find that there is also a new set of file functions available to you. These are explained in the {}Steam API{} section of this manual.":"如果你已经获得Steam的许可，可以在游戏中使用他们的专用API，你会发现还有一组新的文件函数可供你使用。这些将在本手册的{}Steam API{}部分进行解释。",
-    "Information on the different file functions can be found in the following pages:":"有关不同文件功能的资料，请参阅以下页面:",
+    "Information on the different file functions can be found in the following pages:":"有关不同文件函数的资料，请参阅以下页面:",
     "Ini Files":"Ini 文件",
     "It is very important to realise that {}GameMaker{} is {}Sandboxed&nbsp;{}by default, meaning that there are a number of limits and minor complications when using the file system functions that are available, and it is worth noting too that the file system will work slightly differently depending on the platform you are targeting. For more information this, please see the following section:":"我们必须意识到，默认情况下{}GameMaker{}是{}沙箱化{}的，这意味着在使用可用的文件系统函数时存在一些限制和复杂性，而且值得注意的是，文件系统的工作方式会因你的目标平台而略有不同。了解更多信息，请参阅以下部分:",
     "Text Files":"文本文件",

@@ -1,4 +1,4 @@
 {
     "The above code will show the OS virtual keyboard if the current status is {}false{}.":"如果当前状态为{}false{}，上面的代码将显示操作系统虚拟键盘。",
-    "This function can be used to get the status of the virtual keyboard on the device running the game. The function will return {}true{} if the OS virtual keyboard is visible/being shown or {}false{} if it is hidden/hiding.":"此功能可用于获取运行游戏的设备上的虚拟键盘的状态。如果操作系统虚拟键盘可见/正在显示，该函数将返回{}true{}；如果操作系统虚拟键盘隐藏/正在隐藏，则返回{}false{}。"
+    "This function can be used to get the status of the virtual keyboard on the device running the game. The function will return {}true{} if the OS virtual keyboard is visible/being shown or {}false{} if it is hidden/hiding.":"此函数可用于获取运行游戏的设备上的虚拟键盘的状态。如果操作系统虚拟键盘可见/正在显示，该函数将返回{}true{}；如果操作系统虚拟键盘隐藏/正在隐藏，则返回{}false{}。"
 }

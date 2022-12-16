@@ -2,5 +2,5 @@
     "The Y position to move the sequence element to":"将序列元素移动到的Y位置",
     "The above code checks to see if the sequence element referenced in the variable \"my_seq\" exists, and if it does it sets the x/y position to the that of the instance running the code.":"上面的代码检查变量\"my_seq\"中引用的sequence元素是否存在，如果存在，它将x/ y位置设置为运行代码的实例的x/ y位置。",
     "The unique ID value of the sequence element to target":"序列元素到目标的唯一ID值",
-    "With this function you can set the position along the Y (vertical) axis of the room for the given sequence element. You supply the sequence element ID as returned by {}{}layer_sequence_create(){}{} or by one of the {}layer element functions{} along with the Y position to set and the sequence will be moved to the new position.":"使用此功能，可以设置给定序列元素沿房间的 Y(垂直)轴的位置。提供由{}{}layer_sequence_create(){}{}或{}层元素函数{}之一返回的序列元素 ID 以及要设置的 Y 位置，序列将移动到新位置。"
+    "With this function you can set the position along the Y (vertical) axis of the room for the given sequence element. You supply the sequence element ID as returned by {}{}layer_sequence_create(){}{} or by one of the {}layer element functions{} along with the Y position to set and the sequence will be moved to the new position.":"使用此函数，可以设置给定序列元素沿房间的 Y(垂直)轴的位置。提供由{}{}layer_sequence_create(){}{}或{}层元素函数{}之一返回的序列元素 ID 以及要设置的 Y 位置，序列将移动到新位置。"
 }

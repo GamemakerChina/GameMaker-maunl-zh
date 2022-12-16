@@ -1,6 +1,6 @@
 {
     "Each instance of an object also has a series of built-in variables designed to make using paths easier, and these variables are listed in the following section:":"对象的每个实例还具有一系列内置变量，旨在简化路径的使用，这些变量在以下部分中列出：",
-    "Finally, it is possible to manipulate the contents of a path as well as create new paths when the game is running. The functions that enable these things and more are available from the following section:":"最后，当游戏运行时，可以操纵路径的内容以及创建新路径。以下部分提供了启用这些功能以及更多功能的功能：",
+    "Finally, it is possible to manipulate the contents of a path as well as create new paths when the game is running. The functions that enable these things and more are available from the following section:":"最后，当游戏运行时，可以操纵路径的内容以及创建新路径。以下部分提供了启用这些函数以及更多函数的函数：",
     "Path Manipulation":"路径操作",
     "Path Variables":"路径变量",
     "The following basic functions exist that deal with paths:":"存在以下处理路径的基本函数：",

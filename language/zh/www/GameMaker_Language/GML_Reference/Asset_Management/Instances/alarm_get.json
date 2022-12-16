@@ -1,5 +1,5 @@
 {
     "The above code checks all the alarms in the calling instance and if they are greater than 0 it sets them to -1, stopping them from counting down any further.":"上面的代码检查调用实例中的所有警报，如果它们大于0，则将它们设置为-1，阻止它们进一步递减计数。",
     "The alarm index to get, from 0 to 11.":"要获取的警报索引，从0到11。",
-    "This function can be used to get the current value of the given alarm. You supply the alarm number from 0 to 11 and this function will return the value that the alarm is currently on. This is an alternative method to getting the {}alarm array{} value directly.":"此功能可用于获取给定报警的当前值。提供从 0 到 11 的报警编号，此函数将返回当前报警打开的值。这是直接获取{}报警数组{}值的另一种方法。"
+    "This function can be used to get the current value of the given alarm. You supply the alarm number from 0 to 11 and this function will return the value that the alarm is currently on. This is an alternative method to getting the {}alarm array{} value directly.":"此函数可用于获取给定报警的当前值。提供从 0 到 11 的报警编号，此函数将返回当前报警打开的值。这是直接获取{}报警数组{}值的另一种方法。"
 }

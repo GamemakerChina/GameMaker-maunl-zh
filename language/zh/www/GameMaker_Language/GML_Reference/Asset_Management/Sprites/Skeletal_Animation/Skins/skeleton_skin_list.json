@@ -2,5 +2,5 @@
     "The ID of the DS list to populate with the animation names.":"要用动画名称填充的DS列表的ID.",
     "The above code creates a DS list then populates it with the skin names. A random one is then chosen and applied to the instance before the list is destroyed.":"上面的代码创建了一个DS列表，然后用皮肤名称填充它。然后，在销毁列表之前，选择一个随机变量并将其应用于实例。",
     "The sprite index of the Spine skeletal animation to get the list from.":"要从中获取列表的脊椎骨骼动画的精灵索引。",
-    "With this function you can populate a (pre-created) {}DS list{}&nbsp;with all the names of the skins included as part of the skeletal animation sprite. The names will be strings and can then be used in the other skeleton animation skin functions for these types of sprite.":"使用此函数，您可以使用骨骼动画精灵中包含的所有皮肤名称填充(预先创建的){}DS列表{}。这些名称将是字符串，然后可以在这些类型的精灵的其他骨骼动画蒙皮功能中使用。"
+    "With this function you can populate a (pre-created) {}DS list{}&nbsp;with all the names of the skins included as part of the skeletal animation sprite. The names will be strings and can then be used in the other skeleton animation skin functions for these types of sprite.":"使用此函数，您可以使用骨骼动画精灵中包含的所有皮肤名称填充(预先创建的){}DS列表{}。这些名称将是字符串，然后可以在这些类型的精灵的其他骨骼动画蒙皮函数中使用。"
 }

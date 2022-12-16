@@ -2,5 +2,5 @@
     "The index of the room to set the width of.":"要设置宽度的房间的索引。",
     "The new width of the room in pixels.":"房间的新宽度(以像素为单位)。",
     "This will create a new room and store its index in the variable \"global.myroom\". It will then set its width to 640 pixels, its height to 480 pixels, its caption to \u0027Game Room\u0027 and its persistence to \u0027false\u0027.":"这将创建一个新房间并将其索引存储在变量\"global.myroom\"中。然后，它将宽度设置为640像素，高度设置为480像素，标题设置为\"游戏室\"，持久性设置为\"假\"。",
-    "With this function you can change (or set) the width of any room in your game {}except the current one{}.":"使用此功能，您可以更改(或设置)游戏{}中除当前房间{}以外的任何房间的宽度。"
+    "With this function you can change (or set) the width of any room in your game {}except the current one{}.":"使用此函数，您可以更改(或设置)游戏{}中除当前房间{}以外的任何房间的宽度。"
 }

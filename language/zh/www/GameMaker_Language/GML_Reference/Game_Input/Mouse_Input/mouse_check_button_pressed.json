@@ -9,7 +9,7 @@
     "The left mouse button":"鼠标左键",
     "The middle mouse button (this may not be valid for all target platforms)":"鼠标中键 (这可能不适用于所有目标平台)",
     "The right mouse button":"鼠标右键",
-    "This function will return {}true{} if the mouse button being checked has been pressed or {}false{} if it has not. This function will only be triggered {}once{} for any mouse button when it is first pressed and to trigger it again the button will need to have been released and pressed again. Note that it will be considered triggered for the duration of the step, and for all instances that have any mouse events or that use this same function.":"如果正在检查的鼠标按钮已按下，此函数将返回{}true{}，如果未按下，则返回{}false{}。首次按下任何鼠标按钮时，此功能仅会触发{}一次{}，并且要再次触发该功能，该按钮需要已释放并再次按下。请注意，它将被视为在步骤的持续时间内触发，并且对于具有任何鼠标事件或使用此相同功能的所有实例。",
+    "This function will return {}true{} if the mouse button being checked has been pressed or {}false{} if it has not. This function will only be triggered {}once{} for any mouse button when it is first pressed and to trigger it again the button will need to have been released and pressed again. Note that it will be considered triggered for the duration of the step, and for all instances that have any mouse events or that use this same function.":"如果正在检查的鼠标按钮已按下，此函数将返回{}true{}，如果未按下，则返回{}false{}。首次按下任何鼠标按钮时，此函数仅会触发{}一次{}，并且要再次触发该函数，该按钮需要已释放并再次按下。请注意，它将被视为在步骤的持续时间内触发，并且对于具有任何鼠标事件或使用此相同函数的所有实例。",
     "Which mouse button constant to check for.":"要检查哪个鼠标按钮常数。",
     "You supply the mouse button to check from one of the following constants:":"您提供鼠标按钮以从以下常量之一进行检查:"
 }

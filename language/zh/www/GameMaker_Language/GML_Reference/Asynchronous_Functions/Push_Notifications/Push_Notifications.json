@@ -1,5 +1,5 @@
 {
-    "Functionality for Mobile Push Notifications has been separated into extensions. Please read the following articles for implementing notifications:":"移动推送通知的功能已分离到扩展中。 请阅读以下文章以实现通知：",
+    "Functionality for Mobile Push Notifications has been separated into extensions. Please read the following articles for implementing notifications:":"移动推送通知的函数已分离到扩展中。 请阅读以下文章以实现通知：",
     "Local Push Notifications: {}Guide{}":"本地推送通知: {}指南{}",
     "Push Notifications":"推送通知",
     "Remote Push Notifications: {}Extension{} | {}Manual{}":"远程推送通知: {}扩展名{} | {}手册{}"

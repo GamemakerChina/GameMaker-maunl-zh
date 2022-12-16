@@ -1,5 +1,5 @@
 {
     "The above code checks to see if the drag distance for gestures is set to 0.1 inches and if it is not it sets it to that value.":"上述代码检查手势的拖动距离是否设置为0.1英寸，如果不是，则将其设置为该值。",
     "The distance (in inches) to set for drag gesture event detection.":"为拖动手势事件检测设置的距离 (以英寸为单位)。",
-    "This function is used to set the distance it takes for a {}Dragging Gesture{} event to be triggered by the movement of a touch or click. The distance is measured in inches and has a default value of 0.1.":"此功能用于设置通过触摸或单击的移动触发{}拖动手势{}事件所需的距离。距离以英寸为单位，默认值为0.1。"
+    "This function is used to set the distance it takes for a {}Dragging Gesture{} event to be triggered by the movement of a touch or click. The distance is measured in inches and has a default value of 0.1.":"此函数用于设置通过触摸或单击的移动触发{}拖动手势{}事件所需的距离。距离以英寸为单位，默认值为0.1。"
 }

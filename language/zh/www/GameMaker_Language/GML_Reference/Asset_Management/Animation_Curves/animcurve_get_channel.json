@@ -13,7 +13,7 @@
     "This function will return the {}struct{} containing the channel data for the channel specified in an animation curve asset. You supply the animation curve ID or struct as well as the channel name or index, and the function will return a struct with the following format:":"此函数将返回{}struct{}，其中包含动画曲线资源中指定的频道数据。您提供动画曲线ID或struct以及通道名称或索引，该函数将返回具有以下格式的struct:",
     "This is an array, where each item in the array is a point struct.":"这是一个数组，其中数组中的每个项目都是一个点结构。",
     "This is the name of the channel.":"这是频道的名称。",
-    "This will be one of the constants {}{}animcurvetype_linear{}{} for linear interpolation between points, {}{}animcurvetype_catmullrom{}{} for \"smooth\" interpolation between the points using catmull-rom interpolation, or {}animcurvetype_bezier{} for Bezier interpolation.":"这将是用于点之间的线性插值的常数{}{}animcurvetype_linear{}{}animcurvetype_catmullrom{}{}用于使用catmull- rom插值的点之间的 “平滑” 插值，或{}animcurvetype_bezier{}用于Bezier插值。",
+    "This will be one of the constants {}{}animcurvetype_linear{}{} for linear interpolation between points, {}{}animcurvetype_catmullrom{}{} for \"smooth\" interpolation between the points using catmull-rom interpolation, or {}animcurvetype_bezier{} for Bezier interpolation.":"这将是用于点之间的线性插值的常数{}{}animcurvetype_linear{}{}，{}{}animcurvetype_catmullrom{}{}用于使用catmull- rom插值的点之间的 “平滑” 插值，或{}animcurvetype_bezier{}用于Bezier插值。",
     "To modify the {}points{} array, store it in a variable, which will create a copy. Then modify that copy with the array functions, and apply that copy back to the {}points{} member in the struct.":"要修改{}points{}数组，请将其存储在变量中，该变量将创建一个副本。然后使用数组函数修改该副本，并将该副本应用回结构中的{}points{}成员。",
     "{}{}Array{}{}&nbsp;pointer":"{}{}Array{}{}指针"
 }

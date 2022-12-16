@@ -1,5 +1,5 @@
 {
     "The above code will check if the animation on track 0 is set to loop. If that is the case it shows a debug message.":"上面的代码将检查轨道0上的动画是否设置为循环。如果是这种情况，它会显示一条调试消息。",
     "The index of the animation track":"动画轨迹的索引",
-    "With this function you can check if the current animation on the given track is set to loop.":"使用此功能，您可以检查给定轨迹上的当前动画是否设置为循环。"
+    "With this function you can check if the current animation on the given track is set to loop.":"使用此函数，您可以检查给定轨迹上的当前动画是否设置为循环。"
 }

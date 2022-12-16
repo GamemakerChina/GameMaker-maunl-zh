@@ -1,5 +1,5 @@
 {
-    "If your defined vertex format takes a colour value you can use this function to add that data to the vertex being defined for the current primitive. The function needs a buffer to store the data in and will take either a {}colour constant{}, or a hex value (using the standard {}GameMaker{} format of BGR, eg: $FF0000 for blue) as well as an alpha value from 0 (transparent) to 1 (fully opaque).":"如果定义的顶点格式采用颜色值，则可以使用此函数将该数据添加到为当前基本体定义的顶点。该函数需要一个缓冲区来存储数据，并将采用{}颜色常数{}或十六进制值(使用标准{}GameMaker{}格式的BGR,例如：$0000用于蓝色)以及从0(透明)到1(完全不透明)的Alpha值。",
+    "If your defined vertex format takes a colour value you can use this function to add that data to the vertex being defined for the current primitive. The function needs a buffer to store the data in and will take either a {}colour constant{}, or a hex value (using the standard {}GameMaker{} format of BGR, eg: $FF0000 for blue) as well as an alpha value from 0 (transparent) to 1 (fully opaque).":"如果定义的顶点格式采用颜色值，则可以使用此函数将该数据添加到为当前基本体定义的顶点。该函数需要一个缓冲区来存储数据，并将采用{}颜色常数{}或十六进制值(使用标准{}GameMaker{}格式的BGR,例如：$FF0000用于蓝色)以及从0(透明)到1(完全不透明)的Alpha值。",
     "The above code will set the vertex being defined to be white with an alpha value of 1.":"以上代码将使用Alpha值1将定义为白色的顶点设置为白色。",
     "The alpha value for the vertex (from 0 to 1).":"顶点的Alpha值(从0到1)。",
     "The buffer to write the information to.":"写入信息的缓冲区。",

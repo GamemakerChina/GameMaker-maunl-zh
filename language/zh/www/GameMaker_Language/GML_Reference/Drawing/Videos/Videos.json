@@ -18,7 +18,7 @@
     "Video Codecs &amp; Licensing":"视频编解码器和许可",
     "When the video ends, it sets that same variable to {}false{}, and then calls {}{}video_close(){}{} to remove the video from memory.":"视频结束时，会将相同的变量设置为{}假{}，然后调用{}{}video_close(){}{}从内存中删除视频。",
     "When the video is finished, remove it from memory by calling {}{}video_close(){}{}. {} {}Use the {}Async Callbacks{} to run code when the video ends.{} {} ":"视频完成后，通过调用{}{}video_close(){}{}将其从内存中删除。{}{}使用{}异步回叫{}在视频结束时运行代码。{}{}",
-    "You can load, play and manipulate video files at runtime using the following functions:":"您可以使用以下功能在运行时加载、播放和操作视频文件：",
+    "You can load, play and manipulate video files at runtime using the following functions:":"您可以使用以下函数在运行时加载、播放和操作视频文件：",
     "{}\"video_end\"{}: When the video ends. This does not trigger when the video is {}set to loop{}.":"{}\" video _end\"{}:视频结束时。当视频{}设置为循环{}时，此操作不会触发。",
     "{}\"video_start\"{}: When the video starts playing, which is when its {}status{} changes from {}video_status_preparing{} to {}video_status_playing{}.":"{}\"video_start\"{}：当视频开始播放时，即其{}状态{}从{}视频状态准备{}变为{}视频状态播放{}。",
     "{}GameMaker{}&nbsp;does not ship with any codecs, and makes use of the codecs present on the platform that the game is running on. This means your videos must be encoded in a format that can be decoded on your intended target platform(s).":"{}GameMaker{}不随附任何编解码器，并使用运行游戏的平台上存在的编解码器。这意味着您的视频必须以可在目标平台上解码的格式进行编码。"

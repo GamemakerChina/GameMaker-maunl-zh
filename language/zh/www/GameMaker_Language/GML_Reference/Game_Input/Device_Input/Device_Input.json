@@ -1,16 +1,16 @@
 {
     "* {}{}NOTE{}{}&nbsp;The {}mb_side1{} and {}mb_side2 {}buttons are only for use on Windows, macOS, Ubuntu and HTML5.":"*{}{}注意{}{}{}mb_side1{}和{}mb_side2{}按钮仅用于Windows，macOS，Ubuntu和html5。",
     "Any of the mouse buttons":"任何鼠标按钮",
-    "Below you can find a list of all the device specific control functions:":"您可以在下面找到所有设备特定控制功能的列表:",
+    "Below you can find a list of all the device specific control functions:":"您可以在下面找到所有设备特定控制函数的列表:",
     "Device Input":"设备输入",
     "Mouse side button 1":"鼠标侧按钮1",
     "Mouse side button 2":"鼠标侧按钮2",
     "No mouse button":"没有鼠标按钮",
-    "On touch screen devices, a double tap is returned as the equivalent of a {}right mouse button{} event. So, if you need to detect multiple taps in quick succession, for example, you will need to check for {}both{} the {}mb_left{} and {}mb_right{}. This functionality can be toggled on or off using {}{}device_mouse_dbclick_enable(){}{}.":"在触摸屏设备上，双击返回，相当于{}鼠标右键{}事件。因此，例如，如果您需要快速连续检测多个轻击，则需要同时检查{}mb_left{}和{}mb_right{}。可以使用{}{}device_mouse_dbclick_enable(){}{}打开或关闭此功能。",
+    "On touch screen devices, a double tap is returned as the equivalent of a {}right mouse button{} event. So, if you need to detect multiple taps in quick succession, for example, you will need to check for {}both{} the {}mb_left{} and {}mb_right{}. This functionality can be toggled on or off using {}{}device_mouse_dbclick_enable(){}{}.":"在触摸屏设备上，双击返回，相当于{}鼠标右键{}事件。因此，例如，如果您需要快速连续检测多个轻击，则需要同时检查{}mb_left{}和{}mb_right{}。可以使用{}{}device_mouse_dbclick_enable(){}{}打开或关闭此函数。",
     "Please note that on mobile devices (Android, iOS and Windows Phone), you can use the back button at any time, as it is mapped to the keyboard {}backspace{} which is the {}GameMaker{} {}keyboard constant{} {}vk_backspace{}, so you can do checks for that key and perform actions on those devices as if the back button had been used.":"请注意，在移动设备 (Android，iOS和Windows Phone) 上，您可以随时使用后退按钮，由于它被映射到键盘{}backspace{}，后者是{}GameMaker{}{}键盘常量{}{}vk_backspace{}, 因此您可以检查该键并在这些设备上执行操作，就像使用了后退按钮一样。",
-    "The functions can all take a \"touch\" value that corresponds to a touch on the device display, however the maximum number of touches that can be detected will depend very much on the device and the OS being run. For example, some low end Android devices may only be able to detect 2 or 3 touches at the same time, while a Windows device may be able to detect up to 10.":"这些功能都可以采用与设备显示器上的触摸相对应的 “触摸” 值，但是可以检测到的最大触摸数将在很大程度上取决于正在运行的设备和OS。例如，某些低端Android设备可能只能同时检测2或3次触摸，而Windows设备可能最多可以检测到10次触摸。",
+    "The functions can all take a \"touch\" value that corresponds to a touch on the device display, however the maximum number of touches that can be detected will depend very much on the device and the OS being run. For example, some low end Android devices may only be able to detect 2 or 3 touches at the same time, while a Windows device may be able to detect up to 10.":"这些函数都可以采用与设备显示器上的触摸相对应的 “触摸” 值，但是可以检测到的最大触摸数将在很大程度上取决于正在运行的设备和OS。例如，某些低端Android设备可能只能同时检测2或3次触摸，而Windows设备可能最多可以检测到10次触摸。",
     "The left mouse button":"鼠标左键",
     "The middle mouse button (this may not be valid for all target platforms)":"鼠标中键 (这可能不适用于所有目标平台)",
     "The right mouse button":"鼠标右键",
-    "When your game is being targeted at those platforms that permit multi-touch, you should be using these functions. They work the same way a PC would work if it had multiple mice attached and the constants that are being checked for are the same as those used for the {}standard mouse functions{}:":"当您的游戏针对那些允许多点触控的平台时，您应该使用这些功能。如果PC连接了多个鼠标，并且所检查的常量与{}标准鼠标功能{}所使用的常量相同，它们的工作方式与PC的工作方式相同:"
+    "When your game is being targeted at those platforms that permit multi-touch, you should be using these functions. They work the same way a PC would work if it had multiple mice attached and the constants that are being checked for are the same as those used for the {}standard mouse functions{}:":"当您的游戏针对那些允许多点触控的平台时，您应该使用这些函数。如果PC连接了多个鼠标，并且所检查的常量与{}标准鼠标函数{}所使用的常量相同，它们的工作方式与PC的工作方式相同:"
 }

@@ -4,5 +4,5 @@
     "The x position of the listener (default 0).":"侦听器的X位置(默认值为0)。",
     "The y position of the listener (default 0).":"监听程序的Y位置(默认值为0)。",
     "The z position of the listener (default 0).":"侦听器的Z位置(默认值为0)。",
-    "With this function you can change the position of the {}listener{} within the 3D audio space. The example image below shows the default position for the listener in the audio space:":"使用此功能，您可以更改{}监听器{}在3D音频空间中的位置。下面的示例图像显示了收听者在音频空间中的默认位置："
+    "With this function you can change the position of the {}listener{} within the 3D audio space. The example image below shows the default position for the listener in the audio space:":"使用此函数，您可以更改{}监听器{}在3D音频空间中的位置。下面的示例图像显示了收听者在音频空间中的默认位置："
 }

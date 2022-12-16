@@ -3,6 +3,6 @@
     "Similarly, passing in {}true{} will not do anything if there is no FX applied to the layer. Use {}{}layer_set_fx(){}{} to apply an FX to a layer.":"类似地，如果没有FX应用于层，传入{}true{}将不起作用。使用{}{}layer_set_fx(){}{}将FX应用于层。",
     "The above code enables a Desaturate FX layer if the instance\u0027s HP value is less than or equal to 3, otherwise it disables it. This indicates to the player that their HP is low, by desaturating the screen.":"如果实例的HP值小于或等于3，则上述代码启用Desaturate FX层，否则禁用该层。这通过使屏幕饱和，向玩家表明他们的气血量低。",
     "The name or ID of the layer to modify":"要修改的层的名称或ID",
-    "This function enables/disables the filter/effect assigned to a Room Layer. You specify either the ID or the name of the layer you want to modify, and then a boolean value telling whether the FX should be enabled ({}true{}) or disabled ({}false{}).":"此功能启用/禁用分配给房间层的过滤器/效果。您可以指定要修改的层的 ID 或名称，然后指定一个布尔值，说明 FX 是应启用({}true{})还是禁用({}false{})。",
+    "This function enables/disables the filter/effect assigned to a Room Layer. You specify either the ID or the name of the layer you want to modify, and then a boolean value telling whether the FX should be enabled ({}true{}) or disabled ({}false{}).":"此函数启用/禁用分配给房间层的过滤器/效果。您可以指定要修改的层的 ID 或名称，然后指定一个布尔值，说明 FX 是应启用({}true{})还是禁用({}false{})。",
     "Whether to enable or disable the FX":"是启用还是禁用 FX"
 }

@@ -1,5 +1,5 @@
 {
     "The above code will check to see if there is another room after the current one and if so it will go to that room.":"上面的代码将检查当前房间之后是否有另一个房间，如果有，它将转到该房间。",
-    "With this function you can make your game go to the next one as listed in the {}Room Manager{}&nbsp;at the time the game was compiled. If this room does not exist, an error will be thrown and the game will be forced to close. Note that the room will not change until the end of the event where the function was called, so any code after this has been called will still run if in the same event.":"使用此功能，您可以在游戏编译时进入{}Room Manager{}中列出的下一个游戏。如果此房间不存在，将抛出错误并迫使游戏关闭。请注意，在调用函数的事件结束之前，房间不会改变，因此，如果在相同事件中，调用后的任何代码仍将运行。",
+    "With this function you can make your game go to the next one as listed in the {}Room Manager{}&nbsp;at the time the game was compiled. If this room does not exist, an error will be thrown and the game will be forced to close. Note that the room will not change until the end of the event where the function was called, so any code after this has been called will still run if in the same event.":"使用此函数，您可以在游戏编译时进入{}Room Manager{}中列出的下一个游戏。如果此房间不存在，将抛出错误并迫使游戏关闭。请注意，在调用函数的事件结束之前，房间不会改变，因此，如果在相同事件中，调用后的任何代码仍将运行。",
     "{}NOTE{}&nbsp;You will not be able to create new instances in the same event after this function has been called.":"{}注意{}调用此函数后，您将无法在同一事件中创建新实例。"
 }

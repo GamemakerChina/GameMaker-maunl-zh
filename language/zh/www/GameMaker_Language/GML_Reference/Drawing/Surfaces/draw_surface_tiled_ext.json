@@ -1,13 +1,13 @@
 {
-    "The alpha of the surface.":"曲面的Alpha。",
-    "The colour with which to blend the surface.":"用于混合曲面的颜色。",
-    "The horizontal scaling of the surface.":"曲面的水平缩放。",
-    "The unique ID value of the surface to draw.":"要绘制的曲面的唯一Id值。",
-    "The vertical scaling of the surface.":"曲面的垂直缩放。",
-    "The x coordinate of where to draw the surface.":"绘制曲面的位置的x坐标。",
-    "The y coordinate of where to draw the surface.":"绘制曲面的位置的y坐标。",
-    "This function will take a surface and then repeatedly tile it across the whole room, starting from the coordinates that you give in the function and with each tile scaled, colour blended and with the alpha that you define (these properties are the same as those used in {}{}draw_surface_ext(){}{}).":"此函数将采用一个曲面，然后在整个房间中重复平铺它，从函数中给定的坐标开始，从每个平铺缩放、混合颜色以及您定义的Alpha开始(这些属性与{}{}draw_surface_ext(){}{}中使用的属性相同)。",
+    "The alpha of the surface.":"表面的Alpha。",
+    "The colour with which to blend the surface.":"用于混合表面的颜色。",
+    "The horizontal scaling of the surface.":"表面的水平缩放。",
+    "The unique ID value of the surface to draw.":"要绘制的表面的唯一Id值。",
+    "The vertical scaling of the surface.":"表面的垂直缩放。",
+    "The x coordinate of where to draw the surface.":"绘制表面的位置的x坐标。",
+    "The y coordinate of where to draw the surface.":"绘制表面的位置的y坐标。",
+    "This function will take a surface and then repeatedly tile it across the whole room, starting from the coordinates that you give in the function and with each tile scaled, colour blended and with the alpha that you define (these properties are the same as those used in {}{}draw_surface_ext(){}{}).":"此函数将采用一个表面，然后在整个房间中重复平铺它，从函数中给定的坐标开始，从每个平铺缩放、混合颜色以及您定义的Alpha开始(这些属性与{}{}draw_surface_ext(){}{}中使用的属性相同)。",
     "This will draw the surface indexed in \"surf\" at the instances own x and y position, double its stored size and tiled in every direction in the room, as well as blended with the colour red and partially transparent.":"这将在实例自己的x和y位置绘制\"冲浪\"索引的表面，将其存储的大小加倍，并在房间的各个方向上平铺，以及与红色和部分透明的颜色混合。",
-    "{}TIP{}&nbsp;How a surface appears depends on its contents, especially the alpha values inside the surface. A surface {}cleared{} with an alpha of 0 may appear different from a surface cleared with an alpha of 1, due to the way they blend with the background. Take care of this whenever you notice a difference in the way something renders on a custom surface as opposed to the {}{}application_surface{}{}.":"{}提示{}曲面的显示方式取决于其内容，尤其是曲面内部的Alpha值。Alpha为0的{}清除曲面{}可能与Alpha为1的清除曲面不同，因为它们与背景混合的方式不同。只要您注意到自定义曲面上的渲染方式与{}{}application_surface{}{}的渲染方式有所不同，就要注意这一点。",
-    "{}{}{}NOTE{}&nbsp;When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}{}{}注意{}使用曲面时，由于曲面存储在纹理内存中，因此曲面可能随时停止存在。在直接引用曲面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查曲面是否存在。"
+    "{}TIP{}&nbsp;How a surface appears depends on its contents, especially the alpha values inside the surface. A surface {}cleared{} with an alpha of 0 may appear different from a surface cleared with an alpha of 1, due to the way they blend with the background. Take care of this whenever you notice a difference in the way something renders on a custom surface as opposed to the {}{}application_surface{}{}.":"{}提示{}表面的显示方式取决于其内容，尤其是表面内部的Alpha值。Alpha为0的{}清除表面{}可能与Alpha为1的清除表面不同，因为它们与背景混合的方式不同。只要您注意到自定义表面上的渲染方式与{}{}application_surface{}{}的渲染方式有所不同，就要注意这一点。",
+    "{}{}{}NOTE{}&nbsp;When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}{}{}注意{}使用表面时，由于表面存储在纹理内存中，因此表面可能随时停止存在。在直接引用表面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查表面是否存在。"
 }

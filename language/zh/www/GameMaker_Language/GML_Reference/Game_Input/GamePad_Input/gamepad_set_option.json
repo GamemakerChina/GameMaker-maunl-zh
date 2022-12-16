@@ -4,6 +4,6 @@
     "The above code loops through all the gamepad slots and checks for the \"Siri Remote\" on the tvOS platform. If one is detected, it then sets the remote to allow input rotation.":"上述代码循环通过所有游戏板插槽，并检查tvOS平台上的“Siri Remote”。如果检测到一个，则设置遥控器以允许输入旋转。",
     "The name of the option to set (a string, see the table above)":"要设置的选项的名称(字符串，参见上表)",
     "The value to set the option to (can be boolean, real or string - see the table above)":"将选项设置为的值(可以是布尔值、实数或字符串——参见上表)",
-    "This function can be used to set any of the available gamepad options. You supply the gamepad \"slot\" to set the option on, as well as the option string to set and the value to use. The available option string will depend on the platform that the project is being run on, as listed below:":"此功能可用于设置任何可用的游戏手柄选项。您可以提供游戏手柄“插槽”来设置选项，以及要设置的选项字符串和要使用的值。可用的选项字符串将取决于运行项目的平台，如下所示：",
+    "This function can be used to set any of the available gamepad options. You supply the gamepad \"slot\" to set the option on, as well as the option string to set and the value to use. The available option string will depend on the platform that the project is being run on, as listed below:":"此函数可用于设置任何可用的游戏手柄选项。您可以提供游戏手柄“插槽”来设置选项，以及要设置的选项字符串和要使用的值。可用的选项字符串将取决于运行项目的平台，如下所示：",
     "Which gamepad device \"slot\" to set.":"要设置哪个游戏手柄设备 “插槽”。"
 }

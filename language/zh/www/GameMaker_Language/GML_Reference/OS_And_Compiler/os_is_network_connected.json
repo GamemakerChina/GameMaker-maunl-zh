@@ -7,7 +7,7 @@
     "This does not attempt to connect.":"这不会尝试连接。",
     "This will actively prompt the user to fix the connection.":"这将主动提示用户修复连接。",
     "This will try to connect and silently fail if no succesful connection could be established.":"如果无法建立成功的连接，这将尝试连接并静默失败。",
-    "With this function you can check and see if your device currently has an internet connection.":"使用此功能，您可以检查您的设备当前是否有互联网连接。",
+    "With this function you can check and see if your device currently has an internet connection.":"使用此函数，您可以检查您的设备当前是否有互联网连接。",
     "{}{}NOTE{}{}&nbsp;This function checks the internal device API that controls connections and so may return {}true{} if there is a bluetooth connection, a Wi-Fi connection, or even just a normal network connection that permits internet access.":"{}{}注意{}{}此函数检查控制连接的内部设备API，因此如果有蓝牙连接、Wi-Fi连接，甚至只是允许互联网访问的普通网络连接，则可能会返回{}true{}。",
     "{}{}OPTIONAL{}{}&nbsp;For the Nintendo Switch target&nbsp;{}only{}. Set this parameter to a value other than {}network_connect_none{} / {}false{}&nbsp;to attempt an OS level connection when called.":"{}{}可选{}{}{} 仅{}适用于任天堂Switch目标。将此参数设置为{}network_connect_none{}/{}false{}以外的值，以便在调用时尝试操作系统级别的连接。"
 }

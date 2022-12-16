@@ -1,5 +1,5 @@
 {
     "The above code will check to see if the layer that the instance running the code has a shader assigned to it and if it doesn\u0027t one is assigned.":"上面的代码将检查运行代码的实例是否为其分配了着色器的层，以及是否分配了一个着色器。",
     "The unique ID value of the layer to target (or the layer name as a string)":"目标层的唯一ID值(或作为字符串的层名)",
-    "This function can be used to check if the given layer has a shader assigned to it. You supply the layer ID (which you get when you create the layer using {}{}layer_create(){}{}) or the layer name (as a string - this will have a performance impact), and the function will return either the shader index of the shader assigned, or -1 if no shader is assigned.":"此功能可用于检查指定图层是否指定了着色器。提供层 ID(使用{}{}layer_create(){}{}创建层时获得的 ID)或层名称(作为字符串，这将对性能产生影响)，并且函数将返回所分配着色器的着色器索引，如果未指定着色器，则返回 - 1。"
+    "This function can be used to check if the given layer has a shader assigned to it. You supply the layer ID (which you get when you create the layer using {}{}layer_create(){}{}) or the layer name (as a string - this will have a performance impact), and the function will return either the shader index of the shader assigned, or -1 if no shader is assigned.":"此函数可用于检查指定图层是否指定了着色器。提供层 ID(使用{}{}layer_create(){}{}创建层时获得的 ID)或层名称(作为字符串，这将对性能产生影响)，并且函数将返回所分配着色器的着色器索引，如果未指定着色器，则返回 - 1。"
 }

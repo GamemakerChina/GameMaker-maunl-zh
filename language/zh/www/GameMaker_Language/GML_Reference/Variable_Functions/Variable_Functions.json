@@ -1,9 +1,9 @@
 {
     "Data Type Functions":"数据类型函数",
-    "Finally, you also have the following functions for determining variable type (for more information on data types, please see {}here{}, and see here for {}Type Tables{}):":"最后，您还具有以下用于确定变量类型的功能 (有关数据类型的更多信息，请参见{}此处{}, 请参见此处的{}类型表{}):",
+    "Finally, you also have the following functions for determining variable type (for more information on data types, please see {}here{}, and see here for {}Type Tables{}):":"最后，您还具有以下用于确定变量类型的函数 (有关数据类型的更多信息，请参见{}此处{}, 请参见此处的{}类型表{}):",
     "Method Functions":"方法函数",
     "The following variable functions are available:":"以下可变函数可用:",
-    "The functions on this page are designed to deal with all the different variables and variable types when using the GameMaker Language in your games. For more information on variables, please see the page on {}Variables and Variable Scope{}.":"此页面上的功能旨在处理游戏中使用GameMaker语言时的所有不同变量和变量类型。有关变量的更多信息，请参见{}变量和变量作用域{}的页面。",
+    "The functions on this page are designed to deal with all the different variables and variable types when using the GameMaker Language in your games. For more information on variables, please see the page on {}Variables and Variable Scope{}.":"此页面上的函数旨在处理游戏中使用GameMaker语言时的所有不同变量和变量类型。有关变量的更多信息，请参见{}变量和变量作用域{}的页面。",
     "These next functions are all related to using {}Method Variables{}:":"接下来这些函数都与使用{}方法变量{}:",
     "{}Variable Functions{}":"{}变量函数{}"
 }

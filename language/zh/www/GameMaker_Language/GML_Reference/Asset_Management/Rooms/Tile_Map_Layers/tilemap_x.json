@@ -2,5 +2,5 @@
     "The above code gets the ID value of the tile map asset assigned to the layer \"Asset_sky\" and then sets its x position to a random value between 0 and the width of the room.":"上述代码获得分配给层\"Asset_sky\"的平铺地图资源的ID值，然后将其x位置设置为介于0和房间宽度之间的随机值。",
     "The unique ID value of the tile map element to change":"要更改的磁贴图元素的唯一ID值",
     "The x position for the tile map":"平铺贴图的x位置",
-    "This function controls the position along the x-axis of the room of the asset tile map element on the layer. You give the tile map element ID (which you get when you create a tile map element using {}{}layer_tilemap_create(){}{} or when you use the function {}{}layer_tilemap_get_id(){}{}), and then set the x value to use (based on the room coordinates).":"此功能控制层上资源平铺贴图元素沿房间 x轴的位置。指定平铺贴图元素 ID(使用{}{}layer_tilemap_create(){}{}或使用函数{}{}layer_tilemap_get_id(){}{}时获得的 ID)，然后设置要使用的 x 值(基于房间坐标)。"
+    "This function controls the position along the x-axis of the room of the asset tile map element on the layer. You give the tile map element ID (which you get when you create a tile map element using {}{}layer_tilemap_create(){}{} or when you use the function {}{}layer_tilemap_get_id(){}{}), and then set the x value to use (based on the room coordinates).":"此函数控制层上资源平铺贴图元素沿房间 x轴的位置。指定平铺贴图元素 ID(使用{}{}layer_tilemap_create(){}{}或使用函数{}{}layer_tilemap_get_id(){}{}时获得的 ID)，然后设置要使用的 x 值(基于房间坐标)。"
 }

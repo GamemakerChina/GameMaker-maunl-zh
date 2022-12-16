@@ -4,5 +4,5 @@
     "The image below shows how this could be setup for the example game given above:":"下图显示了如何为上面给出的示例游戏进行设置：",
     "The listener to change the velocity of (default 0).":"要更改速度的侦听器(默认值为0)。",
     "The x velocity of the listener (default 0).":"侦听器的X速度(默认值为0)。",
-    "This function can be used to give the given listener {}Doppler {}effects and simulate audio motion based on the vector that is resolved from the given relative x, y and z positions. The default listener index is 0, but you can use the function {}{}audio_get_listener_info(){}{} to get the different indices available for the target platform.":"此功能可用于给出给定的收听者{}多普勒{}效果，并基于从给定的相对x、y和z位置解析的矢量来模拟音频运动。默认监听器索引为0，但可以使用函数{}{}audio_get_listener_info(){}{}获取目标平台可用的不同索引。"
+    "This function can be used to give the given listener {}Doppler {}effects and simulate audio motion based on the vector that is resolved from the given relative x, y and z positions. The default listener index is 0, but you can use the function {}{}audio_get_listener_info(){}{} to get the different indices available for the target platform.":"此函数可用于给出给定的收听者{}多普勒{}效果，并基于从给定的相对x、y和z位置解析的矢量来模拟音频运动。默认监听器索引为0，但可以使用函数{}{}audio_get_listener_info(){}{}获取目标平台可用的不同索引。"
 }

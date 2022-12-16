@@ -4,6 +4,6 @@
     "The script function index to assign to the layer":"分配给层的脚本函数索引",
     "The unique ID value of the layer to target (or the layer name as a string)":"目标层的唯一ID值(或作为字符串的层名)",
     "This final code block assigns the scripts to the layer.":"最后一个代码块将脚本分配给层。",
-    "We would then have a companion function to reset the shader after all the drawing is done:":"然后，在完成所有绘图后，我们将使用一个配套功能重置着色器：",
+    "We would then have a companion function to reset the shader after all the drawing is done:":"然后，在完成所有绘图后，我们将使用一个配套函数重置着色器：",
     "With this function you can assign a {}script function{} to a layer and it will be called after the layer is rendered. When adding a function to a layer&nbsp;in this way, it will be run at the end of {}each of the different draw events{} so you may want to check in the function assigned which event is currently finished rendering and adapt the code to suit. This can be done by checking the {}{}event_type{}{} and/or the {}{}event_number{}{} (see the extended example below). Note that the function is {}not{} meant to be called in any draw events or step events, but rather only needs to be called at the start of the room in the {}Room Creation Code{} or in the {}Create Event&nbsp;{}/ {}Room Start Event{} of an instance.":"使用此函数，可以将{}脚本函数{}分配给层，并在渲染该层后调用该函数。以这种方式将函数添加到层时，它将在{}每个不同绘制事件{}的末尾运行，因此您可能希望签入分配的函数，哪个事件当前已完成渲染，并调整代码以适应。这可以通过检查{}{}event_type{}{}和/或{}{}event_number{}{}(参见下面的扩展示例)来完成。请注意，函数{}不是{}意在在任何绘制事件或步骤事件中调用，而只是需要在{}房间创建代码{}或实例的{}创建事件{}/{}房间开始事件{}中的房间开始{}开始时调用。"
 }

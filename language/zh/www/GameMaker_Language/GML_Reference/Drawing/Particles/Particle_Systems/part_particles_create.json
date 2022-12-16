@@ -5,5 +5,5 @@
     "The number of particles to create.":"要创建的粒子数。",
     "The x coordinate of where to create the particles.":"创建粒子的位置的x坐标。",
     "The y coordinate of where to create the particles.":"创建粒子的位置的y坐标。",
-    "This function is ideal for those effects that do not require any of the functionality offered by {}particle emitters{} (for example, to create smoke from a missile, or a simple explosion effect) as it permits you to quickly and easily create particles at any position in the game room. Note that you must have created the particle system and the particle type previously for this function to be used.":"此功能非常适合那些不需要{}粒子发射器{}提供的任何功能(例如，通过导弹产生烟雾或简单的爆炸效果)的效果，因为它允许您在游戏室的任何位置快速轻松地创建粒子。请注意，必须先创建粒子系统和粒子类型，然后才能使用此功能。"
+    "This function is ideal for those effects that do not require any of the functionality offered by {}particle emitters{} (for example, to create smoke from a missile, or a simple explosion effect) as it permits you to quickly and easily create particles at any position in the game room. Note that you must have created the particle system and the particle type previously for this function to be used.":"此函数非常适合那些不需要{}粒子发射器{}提供的任何函数(例如，通过导弹产生烟雾或简单的爆炸效果)的效果，因为它允许您在游戏室的任何位置快速轻松地创建粒子。请注意，必须先创建粒子系统和粒子类型，然后才能使用此函数。"
 }

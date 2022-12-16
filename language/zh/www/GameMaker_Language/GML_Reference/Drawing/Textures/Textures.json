@@ -1,7 +1,7 @@
 {
-    "Finally, we have the following functions which are primarily for use to debug the project and ensure efficient use of texture memory:":"最后，我们具有以下功能，这些功能主要用于调试项目并确保纹理内存的有效使用：",
-    "The first set of functions available are used to retrieve information about specific images and their position or size on the {}Texture Page{}, as well as set certain texture features:":"第一组可用函数用于检索有关特定图像及其在{}纹理页面{}上的位置或大小的信息，以及设置某些纹理功能：",
-    "The following functions are all related to \"textures\", i.e.: images that are stored in {}VRAM{} to be used as sprites or other things within your game.":"以下功能都与\"纹理\"相关，即存储在{}Vram{}中的图像，用作游戏中的精灵或其他东西。",
+    "Finally, we have the following functions which are primarily for use to debug the project and ensure efficient use of texture memory:":"最后，我们具有以下函数，这些函数主要用于调试项目并确保纹理内存的有效使用：",
+    "The first set of functions available are used to retrieve information about specific images and their position or size on the {}Texture Page{}, as well as set certain texture features:":"第一组可用函数用于检索有关特定图像及其在{}纹理页面{}上的位置或大小的信息，以及设置某些纹理函数：",
+    "The following functions are all related to \"textures\", i.e.: images that are stored in {}VRAM{} to be used as sprites or other things within your game.":"以下函数都与\"纹理\"相关，即存储在{}Vram{}中的图像，用作游戏中的精灵或其他东西。",
     "The following functions are used with {}Dynamic Texture Pages{}:":"以下函数用于{}动态纹理页{}：",
-    "{}GameMaker{} also has a number of functions related to the managing the VRAM associated with individual textures as well as whole texture groups:":"{}GameMaker{}还具有许多与管理与单个纹理以及整个纹理组关联的Vram相关的功能："
+    "{}GameMaker{} also has a number of functions related to the managing the VRAM associated with individual textures as well as whole texture groups:":"{}GameMaker{}还具有许多与管理与单个纹理以及整个纹理组关联的Vram相关的函数："
 }

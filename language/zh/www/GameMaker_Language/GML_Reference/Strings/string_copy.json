@@ -3,5 +3,5 @@
     "The number of characters, starting from the position of the first, to copy":"字符数，从第一个的位置开始，要复制",
     "The position of the first character in the string to copy from (numbered from 1)":"要从中复制的字符串中第一个字符的位置 (从1开始编号)",
     "The string to copy from.":"要从中复制的字符串。",
-    "With this function you can easily select a number of characters from within a string to be copied to another one. The first character in a string is always indexed as 1 and not 0 as you may expect, so to copy (for example) the first five characters of string you would have {}string_copy(str, 1, 5){}. A further example is provided below.":"使用此功能，您可以轻松地从字符串中选择多个字符以将其复制到另一个字符串。字符串中的第一个字符总是索引为1，而不是0，因为你可能期望，所以复制 (例如) 字符串的前五个字符，你将有 {} string_copy(str,1,5){}。下面提供了进一步的示例。"
+    "With this function you can easily select a number of characters from within a string to be copied to another one. The first character in a string is always indexed as 1 and not 0 as you may expect, so to copy (for example) the first five characters of string you would have {}string_copy(str, 1, 5){}. A further example is provided below.":"使用此函数，您可以轻松地从字符串中选择多个字符以将其复制到另一个字符串。字符串中的第一个字符总是索引为1，而不是0，因为你可能期望，所以复制 (例如) 字符串的前五个字符，你将有 {} string_copy(str,1,5){}。下面提供了进一步的示例。"
 }

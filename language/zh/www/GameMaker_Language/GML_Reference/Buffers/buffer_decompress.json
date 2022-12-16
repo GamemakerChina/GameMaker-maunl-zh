@@ -1,5 +1,5 @@
 {
     "The above code will first load a saved buffer, then decompress it and finally read the string data from the decompressed buffer into a global variable.":"上述代码将首先加载一个保存的缓冲区，然后对其进行解压缩，最后从解压缩的缓冲区中将字符串数据读取到全局变量中。",
     "The index of the buffer to decompress.":"要解压缩的缓冲区的索引。",
-    "With this function you can decompress a previously compressed buffer using {}zlib compression{}. You supply the buffer ID to decompress, and the function will return a new buffer ID that contains the uncompressed data. If the decompression has failed (for example, you are supplying a buffer that hasn\u0027t been compressed) then the function will instead return a value less than 0.":"使用此功能，您可以使用{}zlib压缩{}解压缩先前压缩的缓冲区。您提供了要解压缩的缓冲区ID，该函数将返回一个包含未压缩数据的新缓冲区ID。如果解压缩失败 (例如，您提供的缓冲区尚未压缩)，则该函数将返回小于0的值。"
+    "With this function you can decompress a previously compressed buffer using {}zlib compression{}. You supply the buffer ID to decompress, and the function will return a new buffer ID that contains the uncompressed data. If the decompression has failed (for example, you are supplying a buffer that hasn\u0027t been compressed) then the function will instead return a value less than 0.":"使用此函数，您可以使用{}zlib压缩{}解压缩先前压缩的缓冲区。您提供了要解压缩的缓冲区ID，该函数将返回一个包含未压缩数据的新缓冲区ID。如果解压缩失败 (例如，您提供的缓冲区尚未压缩)，则该函数将返回小于0的值。"
 }

@@ -1,4 +1,4 @@
 {
     "The code above will create a fixture and store its index in the variable \"fix_Ball\".":"上述代码将创建一个装置并将其索引存储在变量 \"fix_Ball\" 中。",
-    "The first step in setting up a fixture is creating it with this function. The returning index should be stored in a variable to be used in all further functions that are used to define and use this fixture.":"设置装置的第一步是使用此功能创建装置。返回的索引应该存储在一个变量中，用于定义和使用此装置的所有其他函数。"
+    "The first step in setting up a fixture is creating it with this function. The returning index should be stored in a variable to be used in all further functions that are used to define and use this fixture.":"设置装置的第一步是使用此函数创建装置。返回的索引应该存储在一个变量中，用于定义和使用此装置的所有其他函数。"
 }

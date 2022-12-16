@@ -1,4 +1,4 @@
 {
     "The above code checks to see if a gamepad is supported and stores the return value in a global variable for future checks.":"上面的代码检查游戏手柄是否受支持，并将返回值存储在全局变量中以备将来检查。",
-    "With this function you can find out whether the target platform supports game pads (returns {}true{}) or not (returns {}false{}).":"使用此功能，您可以确定目标平台是否支持游戏垫 (返回{}true{}) 或不支持 (返回{}false{})。"
+    "With this function you can find out whether the target platform supports game pads (returns {}true{}) or not (returns {}false{}).":"使用此函数，您可以确定目标平台是否支持游戏垫 (返回{}true{}) 或不支持 (返回{}false{})。"
 }

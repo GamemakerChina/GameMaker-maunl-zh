@@ -1,6 +1,6 @@
 {
     "The above code gets the tile map ID from the given layer and then uses that to get the tile-data for the cell under the mouse position. This data is then used to set the tile index to a random number.":"上面的代码从给定层获取块映射ID，然后使用它来获取鼠标位置下单元的块数据。然后，此数据用于将平铺索引设置为随机数。",
     "The integer index value of the tile to use":"要使用的磁贴的整数索引值",
-    "This function can be used to set the tile index (the position of the tile within the tile set image) for a set of tile-data. You give the tile-data, which can be retrieved using the function {}{}tilemap_get(){}{}, and then the integer value that represents the position of the tile (its index) within the tile set. The function will return a modified tile-data set which can then be applied using the {}{}tilemap_set(){}{} function.":"此功能可用于为一组平铺数据设置平铺索引(平铺在平铺集图像中的位置)。给出可以使用函数{}{}tilemap_get(){}{}检索的平铺数据，然后给出表示平铺集内平铺位置(其索引)的整数值。函数将返回修改的平铺数据集，然后可以使用{}{}tilemap_set(){}{}函数应用该数据集。",
+    "This function can be used to set the tile index (the position of the tile within the tile set image) for a set of tile-data. You give the tile-data, which can be retrieved using the function {}{}tilemap_get(){}{}, and then the integer value that represents the position of the tile (its index) within the tile set. The function will return a modified tile-data set which can then be applied using the {}{}tilemap_set(){}{} function.":"此函数可用于为一组平铺数据设置平铺索引(平铺在平铺集图像中的位置)。给出可以使用函数{}{}tilemap_get(){}{}检索的平铺数据，然后给出表示平铺集内平铺位置(其索引)的整数值。函数将返回修改的平铺数据集，然后可以使用{}{}tilemap_set(){}{}函数应用该数据集。",
     "the tile-data to set":"要设置的平铺数据"
 }

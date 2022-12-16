@@ -1,5 +1,5 @@
 {
     "The above code checks for the \"space\" key and then stops all the audio playing from the given group.":"上面的代码检查\"空格\"键，然后停止给定组中的所有音频播放。",
     "The index of the audio group to stop (as defined in the {}Audio Groups Window{})":"要停止的音频组的索引(在{}音频组窗口{}中定义)",
-    "This function will stop all sounds from the given audio group that are currently playing.":"此功能将停止当前正在播放的给定音频组中的所有声音。"
+    "This function will stop all sounds from the given audio group that are currently playing.":"此函数将停止当前正在播放的给定音频组中的所有声音。"
 }

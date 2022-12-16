@@ -1,4 +1,4 @@
 {
     "The above code gets the status of the video and then checks if the player has pressed Space. In that case it pauses the video if it\u0027s playing, and resumes it if it\u0027s paused.":"上述代码获取视频的状态，然后检查播放器是否已按空格键。在这种情况下，如果视频正在播放，它会暂停视频，如果暂停，它会恢复视频。",
-    "This function pauses the video file that is currently loaded. You can resume it by calling {}{}video_resume(){}{} any time after this function.":"此功能暂停当前加载的视频文件。您可以在此函数之后的任何时间调用{}{}video _resume(){}{}来恢复它。"
+    "This function pauses the video file that is currently loaded. You can resume it by calling {}{}video_resume(){}{} any time after this function.":"此函数暂停当前加载的视频文件。您可以在此函数之后的任何时间调用{}{}video _resume(){}{}来恢复它。"
 }

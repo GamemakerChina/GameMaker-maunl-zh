@@ -2,5 +2,5 @@
     "The ID of the DS list to populate with the animation names.":"要用动画名称填充的DS列表的ID.",
     "The above code creates a DS list of all the animation names for the sprite being used by the instance. It then loops through these and sets the mix value for all of them with the first animation to 0.5.":"上面的代码为实例使用的sprite创建了所有动画名称的DS列表。然后，它循环通过这些对象，并将第一个动画的所有对象的\"混合\"值设置为0.5。",
     "The sprite index of the Spine skeletal animation to get the list from.":"要从中获取列表的脊椎骨骼动画的精灵索引。",
-    "With this function you can populate a (pre-created) {}DS list{} with all the names of the animations included as part of the skeletal animation sprite. The names will be strings and can then be used in the other animation functions for these types of sprite.":"使用此功能，您可以使用作为骨骼动画精灵的一部分的所有动画名称填充(预先创建的){}DS list{}。名称将是字符串，然后可以在这些类型的精灵的其他动画功能中使用。"
+    "With this function you can populate a (pre-created) {}DS list{} with all the names of the animations included as part of the skeletal animation sprite. The names will be strings and can then be used in the other animation functions for these types of sprite.":"使用此函数，您可以使用作为骨骼动画精灵的一部分的所有动画名称填充(预先创建的){}DS list{}。名称将是字符串，然后可以在这些类型的精灵的其他动画函数中使用。"
 }

@@ -10,7 +10,7 @@
     "Create and start a&nbsp;{}Time Source{}&nbsp;that calls a custom method:":"创建并启动调用自定义方法的{}时间源{}：",
     "Doing this will cause the&nbsp;{}Time Source{}&nbsp;to run, and after the specified period, it will expire and call your specified method.":"这样做会导致{}时间源{}运行，并且在指定的时间段之后，它将过期并调用您指定的方法。",
     "Each {}get_*{} function will return {}undefined{} if the specified&nbsp;{}Time Source{}&nbsp;doesn\u0027t exist.":"如果指定的{}时间源{}不存在，每个{}get_*{}函数都将返回{}undefined{}。",
-    "Function List":"功能列表",
+    "Function List":"函数列表",
     "How to Use Time Sources?":"如何使用时间源？",
     "See:&nbsp;{}Built-In Time Sources{}":"请参阅：{}内置时间源{}",
     "Simple Timers":"简单计时器",
@@ -22,7 +22,7 @@
     "Time Source States":"时间源状态",
     "Time Source Units":"时间源单位",
     "Time Sources":"时间源",
-    "While setting up a time source doesn\u0027t take many lines of code, it can be convenient to quickly set up and manage a timer using a single function.":"虽然设置时间源不需要很多行代码，但使用单个功能可以方便地快速设置和管理计时器。",
+    "While setting up a time source doesn\u0027t take many lines of code, it can be convenient to quickly set up and manage a timer using a single function.":"虽然设置时间源不需要很多行代码，但使用单个函数可以方便地快速设置和管理计时器。",
     "{}It\u0027s also able to repeat a certain of amount of times, or forever. Each repetition of a&nbsp;{}Time Source{}&nbsp;is known as a \"rep\".":"{}它也可以重复一定的次数，或者永远重复。一个{}时间源{}的每一次重复被称为\"重复\"。",
     "{}NOTE{} You cannot use the&nbsp;{}Time Source{}&nbsp;functions with the&nbsp;{}Time Source{}&nbsp;IDs used by these functions. See&nbsp;{}call_later{}&nbsp;for more information.":"{}注意{}您不能将{}时间源{}函数与这些函数使用的{}时间源{}id一起使用。有关更多信息，请参见{}call_later{}。"
 }

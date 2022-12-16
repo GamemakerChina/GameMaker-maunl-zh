@@ -1,7 +1,7 @@
 {
     "By adding the filter/effect&nbsp;in&nbsp;{}at least one room{} through the IDE":"通过IDE在{}至少一个房间{}中添加滤镜/效果",
     "By calling {}{}fx_create(){}{} with the filter/effect name as a&nbsp;string&nbsp;{}literal{}":"调用{}{}fx_create(){}{}，将过滤器/效果名称作为字符串{}literal{}",
-    "Function Failures":"功能故障",
+    "Function Failures":"函数故障",
     "If these conditions are not fulfilled, i.e. you are not passing in a string literal {}and{} the filter/effect is not present in any rooms, then the function will not be able to load that filter/effect and will return -1.":"如果不满足这些条件，即您没有传入字符串文本{}并且{}过滤器/效果在任何房间中都不存在，则函数将无法加载该过滤器/效果，并将返回-1。",
     "Note that the struct returned by this function will contain no visible members and can only be modified through one of the {}Filter/Effect Functions{}.":"请注意，此函数返回的结构将不包含可见成员，只能通过{}Filter/Effect 函数{}之一进行修改。",
     "Please note that there are currently only two ways to ensure that GameMaker loads a particular filter/effect in your game:":"请注意，目前只有两种方法可确保GameMaker在游戏中加载特定过滤器/效果：",
@@ -11,7 +11,7 @@
     "The names of the Filters/Effects that you can pass into this function are listed on this page: {}FX Types &amp; Parameters{}.":"可以传递到此函数的过滤器/效果的名称在此页面中列出：{}外汇类型 参数{}。",
     "This function is used to create a new FX Struct for a given effect type, which can then be {}applied to a layer{}.":"此函数用于为给定效果类型创建新的 FX 结构，然后可以{}应用于层{}。",
     "This means that to use a specific filter/effect at runtime, it must have either been added into a room first (so GameMaker knows you are going to use it) or specified explicitly in an {}{}fx_create(){}{} call.":"这意味着要在运行时使用特定的过滤器/效果，必须首先将其添加到房间(因此 GameMaker 知道要使用它)，或者在{}{}fx_create(){}{}调用中明确指定。",
-    "To ensure that this function works properly, make sure the FX you need is loaded into your game package,&nbsp;as&nbsp;explained on the&nbsp;{}Filter and Effect Functions{}&nbsp;page:":"为确保此功能正常工作，请确保将所需的 FX 加载到游戏包中，如{}筛选器和效果函数{}页面所述：",
+    "To ensure that this function works properly, make sure the FX you need is loaded into your game package,&nbsp;as&nbsp;explained on the&nbsp;{}Filter and Effect Functions{}&nbsp;page:":"为确保此函数正常工作，请确保将所需的 FX 加载到游戏包中，如{}筛选器和效果函数{}页面所述：",
     "Usage":"用途",
     "You can read the parameters for the created effect by calling {}{}fx_get_parameter{}{}/{}{}s{}{}&nbsp;on the returned struct, and assign new values to them by calling {}{}fx_set_parameter{}{}/{}{}s{}{}.":"您可以通过在返回的结构上调用{}{}fx_get_parameter{}{}/{}{}s{}{}来读取所创建效果的参数，并通过调用{}{}fx_set_parameter{}{}/{}{}s{}{}为它们分配新值。"
 }

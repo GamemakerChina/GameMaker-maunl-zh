@@ -1,5 +1,5 @@
 {
     "The above code checks to see if texture filtering is on or off and switches it accordingly.":"以上代码检查纹理过滤是打开还是关闭，并相应地将其切换。",
     "With this function you can check to see whether texture filtering (linear interpolation) is enabled (returns {}true{}) or not (returns {}false{}). For more information on texture filtering, see the function {}{}gpu_set_texfilter(){}{}.":"使用此函数可以检查是否启用纹理过滤(线性插值)(return{}true{})或不启用(return{}false{})。有关纹理过滤的详细信息，请参阅函数{}{}gpu_set_texfilter(){}{}。",
-    "{}NOTE{}: On the HTML5 target, this function will only work with WebGL enabled.":"{}注意{}:在HTML5目标上，此功能只能在启用WebGL的情况下使用。"
+    "{}NOTE{}: On the HTML5 target, this function will only work with WebGL enabled.":"{}注意{}:在HTML5目标上，此函数只能在启用WebGL的情况下使用。"
 }

@@ -16,6 +16,6 @@
     "The z coordinate of the first vector.":"第一个向量的 z 坐标。",
     "The z coordinate of the second vector.":"第二个向量的 z 坐标。",
     "There are a few things that we can now state from any two vectors in relation to the result of their dot product:":"我们现在可以从任意两个向量，关于它们的点积的结果，来说明一些事情:",
-    "{}Basically, we are getting the vector normal from the enemy perpendicular to the floor and then we are getting the vector of the player to the enemy. We will then get the dot_product of these vectors, and if the result is positive the player is \"above\" the enemy floor plane and if it is negative he is below. The actual code to get this working is supplied in the example below.":"{}基本上，我们得到的是敌人垂直于地面的法向量，然后我们得到的是玩家到敌人的向量。然后我们将得到这些向量的点积，如果结果是正的，那么玩家就在敌人平面的“上方”，如果结果是负的，那么他就在敌人平面的下方。下面的示例中提供了实现此功能的实际代码。",
+    "{}Basically, we are getting the vector normal from the enemy perpendicular to the floor and then we are getting the vector of the player to the enemy. We will then get the dot_product of these vectors, and if the result is positive the player is \"above\" the enemy floor plane and if it is negative he is below. The actual code to get this working is supplied in the example below.":"{}基本上，我们得到的是敌人垂直于地面的法向量，然后我们得到的是玩家到敌人的向量。然后我们将得到这些向量的点积，如果结果是正的，那么玩家就在敌人平面的“上方”，如果结果是负的，那么他就在敌人平面的下方。下面的示例中提供了实现此函数的实际代码。",
     "{}NOTE{}: For more information on vectors, see {}here{}.":"{}注意{}:有关向量的更多信息，请参见{}这里{}。"
 }

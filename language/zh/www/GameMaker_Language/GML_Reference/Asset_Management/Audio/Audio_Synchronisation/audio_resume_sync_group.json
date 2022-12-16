@@ -2,5 +2,5 @@
     "The above code checks for a key press of the \"P\" key, and if one is detected it toggles the \"global.Pause\" variable then checks it to pause or resume the sync group indexed in the variable \"sg\".":"上述代码检查是否按下\"P\"键，如果检测到\"global.Pause\"变量，则检查它以暂停或恢复变量\"sg\"中索引的同步组。",
     "The group index to resume.":"要恢复的组索引。",
     "This function will resume the given sync group if it is playing and has previously been paused (using the function {}{}audio_pause_sync_group{}{}). The group index is the value returned when you created the group using the function {}{}audio_create_sync_group(){}{}.":"如果正在播放并且之前已暂停(使用函数{}{}audio_pause_sync_group{}{})，则此函数将恢复该组。 组索引是使用函数{}{}audio_create_sync_group(){}{}创建组时返回的值。",
-    "{}{}NOTE{}{}&nbsp;This functionality is not available for the HTML5 target platform.":"{}{}注意{}{}此功能不适用于HTML5目标平台。"
+    "{}{}NOTE{}{}&nbsp;This functionality is not available for the HTML5 target platform.":"{}{}注意{}{}此函数不适用于HTML5目标平台。"
 }

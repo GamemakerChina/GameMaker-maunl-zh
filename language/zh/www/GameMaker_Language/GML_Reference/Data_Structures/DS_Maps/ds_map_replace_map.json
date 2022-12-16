@@ -3,5 +3,5 @@
     "The id of the ds_map to use to replace the one previously stored in the given key.":"用于替换先前存储在给定密钥中的ds_map的ID。",
     "The id of the ds_map to use.":"要使用的ds_map的ID。",
     "The key to replace.":"换人的钥匙。",
-    "With this function you can replace a {}DS Map{} that has been stored in the given \"key\" with another map that has been created previously. This function is designed for creating JSON compatible maps which you would then encode using {}{}json_encode(){}{} and should only be used in conjunction with that functionality.":"使用此功能，您可以将存储在给定\"密钥\"中的{}个D映射{}替换为以前创建的另一个映射。此函数用于创建Json兼容映射，然后使用{}{}json_encode(){}{}对其进行编码，并且只能与该功能配合使用。"
+    "With this function you can replace a {}DS Map{} that has been stored in the given \"key\" with another map that has been created previously. This function is designed for creating JSON compatible maps which you would then encode using {}{}json_encode(){}{} and should only be used in conjunction with that functionality.":"使用此函数，您可以将存储在给定\"密钥\"中的{}个D映射{}替换为以前创建的另一个映射。此函数用于创建Json兼容映射，然后使用{}{}json_encode(){}{}对其进行编码，并且只能与该函数配合使用。"
 }

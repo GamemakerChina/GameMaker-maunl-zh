@@ -1,6 +1,6 @@
 {
-    "Set to {}true{} or {}false{} to enable or disable powersave functions.":"设置为{}true{}或{}false{}以启用或禁用省电功能。",
-    "The above code checks the OS type and if it is either Android or an iOS then power saving features are deactivated.":"上面的代码检查操作系统类型，如果它是Android或iOS然后省电功能被停用。",
-    "With this function you can turn on or off the power saving features of the device. This is important as certain games (for example those that use the tilt functions) may not generate events that the OS can interpret as being user input and so shut down the screen or exit the game. By setting this function to {}false{} you can disable the power saving features and ensure that the screen (and game) are always functioning.":"使用此功能，您可以打开或关闭设备的省电功能。这很重要，因为某些游戏(例如那些使用倾斜功能的游戏)可能不会生成操作系统可以解释为用户输入的事件，因此关闭屏幕或退出游戏。通过将此功能设置为{}false{}，您可以禁用省电功能并确保屏幕(和游戏)始终正常运行。",
+    "Set to {}true{} or {}false{} to enable or disable powersave functions.":"设置为{}true{}或{}false{}以启用或禁用省电函数。",
+    "The above code checks the OS type and if it is either Android or an iOS then power saving features are deactivated.":"上面的代码检查操作系统类型，如果它是Android或iOS然后省电函数被停用。",
+    "With this function you can turn on or off the power saving features of the device. This is important as certain games (for example those that use the tilt functions) may not generate events that the OS can interpret as being user input and so shut down the screen or exit the game. By setting this function to {}false{} you can disable the power saving features and ensure that the screen (and game) are always functioning.":"使用此函数，您可以打开或关闭设备的省电函数。这很重要，因为某些游戏(例如那些使用倾斜函数的游戏)可能不会生成操作系统可以解释为用户输入的事件，因此关闭屏幕或退出游戏。通过将此函数设置为{}false{}，您可以禁用省电函数并确保屏幕(和游戏)始终正常运行。",
     "{}NOTE{}: This is limited to iOS and Android targets.":"{}注意{}：这仅限于iOS和Android目标。"
 }

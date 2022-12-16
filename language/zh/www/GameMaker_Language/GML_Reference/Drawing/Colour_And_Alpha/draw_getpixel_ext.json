@@ -3,5 +3,5 @@
     "The x coordinate of the pixel to check":"要检查的像素的x坐标",
     "The y coordinate of the pixel to check":"要检查的像素的y坐标",
     "With this function you can get the full {}AGBR 32-bit{} value of any pixel that is being drawn to the current render target. This means that the results will depend on the event in which the function is called, and also on the target surface being used.":"使用此函数，可以获取绘制到当前渲染目标的任何像素的完整{}Agbr 32-位{}值。这意味着，结果将取决于调用函数的事件，以及使用的目标曲面。",
-    "{}{}{}IMPORTANT{}&nbsp;This function will cause a huge performance hit and so should only be used when absolutely necessary.":"{}{}{}重要信息{}此功能将导致巨大的性能下降，因此应仅在绝对必要时使用。"
+    "{}{}{}IMPORTANT{}&nbsp;This function will cause a huge performance hit and so should only be used when absolutely necessary.":"{}{}{}重要信息{}此函数将导致巨大的性能下降，因此应仅在绝对必要时使用。"
 }

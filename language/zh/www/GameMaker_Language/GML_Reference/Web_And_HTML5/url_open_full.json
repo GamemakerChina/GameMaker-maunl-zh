@@ -10,7 +10,7 @@
     "The top position of the window (IE only).":"窗口的顶部位置(仅限 IE)。",
     "The width of the window, with the minimum value being 100.":"窗口的宽度，最小值为100。",
     "This is the target area to open the URL in (see description).":"这是打开 URL 的目标区域(参见描述)。",
-    "This will open the specified URL on the browser of the chosen target device, or, if you are using the HTML5 module, in the currently open browser. The \"target\" parameter that you specify is the same as the standard JavaScript \"name\" value when you use the {}open(){} method (be aware that all but \"{}_self{}\"&nbsp;may result in the browser blocking, or asking the user if they wish to allow it) and the \"options\" is the same as the JavaScript \"specs\" parameter for controlling what properties the new window/tab should display (not all browsers may support all features).":"这将在所选目标设备的浏览器上打开指定的 URL，或者，如果您使用的是 HTML5 模块，则在当前打开的浏览器中打开。 当您使用 {}open(){} 方法时，您指定的“目标”参数与标准 JavaScript“name”值相同（请注意，除“{}_self{}”之外的所有值可能会导致 浏览器阻止，或询问用户是否希望允许）并且“选项”与 JavaScript“规范”参数相同，用于控制新窗口/选项卡应显示的属性（并非所有浏览器都支持所有功能）。",
+    "This will open the specified URL on the browser of the chosen target device, or, if you are using the HTML5 module, in the currently open browser. The \"target\" parameter that you specify is the same as the standard JavaScript \"name\" value when you use the {}open(){} method (be aware that all but \"{}_self{}\"&nbsp;may result in the browser blocking, or asking the user if they wish to allow it) and the \"options\" is the same as the JavaScript \"specs\" parameter for controlling what properties the new window/tab should display (not all browsers may support all features).":"这将在所选目标设备的浏览器上打开指定的 URL，或者，如果您使用的是 HTML5 模块，则在当前打开的浏览器中打开。 当您使用 {}open(){} 方法时，您指定的“目标”参数与标准 JavaScript“name”值相同（请注意，除“{}_self{}”之外的所有值可能会导致 浏览器阻止，或询问用户是否希望允许）并且“选项”与 JavaScript“规范”参数相同，用于控制新窗口/选项卡应显示的属性（并非所有浏览器都支持所有函数）。",
     "This would open the GameMaker&nbsp;homepage in a new window that can\u0027t be resized, has a height of 200 pixels and no scrollbars.":"这将在一个新窗口中打开 GameMaker 主页，该窗口不能调整大小，高度为200像素，没有滚动条。",
     "Valid options are:":"有效的选择包括:",
     "Valid targets are:":"有效的目标是:",
@@ -21,5 +21,5 @@
     "Whether or not to display the browser toolbar (default is yes).":"是否显示浏览器工具栏(默认值为 yes)。",
     "Whether or not to display the menu bar (default is 1).":"是否显示菜单栏(默认为1)。",
     "Whether or not to display the title bar. This is ignored unless the calling application is an HTML Application or a trusted dialog box (default is 1);":"是否显示标题栏。除非调用应用程序是 HTML 应用程序或受信任对话框(默认值为1) ，否则将忽略此选项;",
-    "{}NOTE{}&nbsp;Antivirus software installed on the player\u0027s device may cause the URL to not open, so keep this in mind when using this function.":"{}注意{} 安装在玩家设备上的杀毒软件可能导致URL无法打开，因此在使用此功能时请注意这一点。"
+    "{}NOTE{}&nbsp;Antivirus software installed on the player\u0027s device may cause the URL to not open, so keep this in mind when using this function.":"{}注意{} 安装在玩家设备上的杀毒软件可能导致URL无法打开，因此在使用此函数时请注意这一点。"
 }

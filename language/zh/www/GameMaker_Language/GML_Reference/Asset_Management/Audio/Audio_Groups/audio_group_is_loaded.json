@@ -1,5 +1,5 @@
 {
     "The above code checks to see if an audio group has been loaded and if it has it unloads it.":"上面的代码检查是否已加载音频组，以及是否已卸载音频组。",
     "The index of the audio group to check (as defined in the {}Audio Groups Window{})":"要检查的音频组的索引(在{}音频组窗口{}中定义)",
-    "This function will check a specific audio group to see if it has been loaded into memory, ready for use.":"此功能将检查特定的音频组，以查看其是否已加载到内存中，准备使用。"
+    "This function will check a specific audio group to see if it has been loaded into memory, ready for use.":"此函数将检查特定的音频组，以查看其是否已加载到内存中，准备使用。"
 }

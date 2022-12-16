@@ -1,4 +1,4 @@
 {
     "This would clear the high score list.":"这将清除高分列表。",
-    "With this function you can clear the internal global high score list, resetting all names to the default value of \"Unknown\" and all scores to the default value of 0.":"使用此功能可以清除内部全局高分列表，将所有名称重置为默认值\"未知\"，将所有分数重置为默认值0。"
+    "With this function you can clear the internal global high score list, resetting all names to the default value of \"Unknown\" and all scores to the default value of 0.":"使用此函数可以清除内部全局高分列表，将所有名称重置为默认值\"未知\"，将所有分数重置为默认值0。"
 }

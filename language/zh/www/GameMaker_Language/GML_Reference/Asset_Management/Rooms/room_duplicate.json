@@ -2,5 +2,5 @@
     "The index of the original room to be duplicated.":"要复制的原始房间的索引。",
     "This will duplicate a given room and return the duplicates index to be used in all further calls to reference the new room.":"这将复制给定的房间，并返回要在引用新房间的所有进一步调用中使用的重复项索引。",
     "This will duplicate the room indexed by \"rm_level\" and assign the room index of this new room to the variable \"global.myroom\".":"这将复制由\"rm_level\"索引的房间，并将此新房间的房间索引分配给变量\"global.myroom\"。",
-    "{}NOTE{}: New rooms are not part of usual room ordering, so they do not have a \"previous\" or \"next\" room (meaning that the functions {}{}{}room_next(){}{}{} and {}{}{}room_previous(){}{}{} will not work). To jump from the added room to another, you must use the index of the room itself.":"{}注意{}：新客房不是通常客房订购的一部分，因此它们没有\"上一个\"或\"下一个\"客房(这意味着功能{}{}{}房间_next(){}{}{}和{}{}{}房间_foreous(){}{}{}将不起作用)。要从添加的房间跳转到另一个房间，必须使用房间本身的索引。"
+    "{}NOTE{}: New rooms are not part of usual room ordering, so they do not have a \"previous\" or \"next\" room (meaning that the functions {}{}{}room_next(){}{}{} and {}{}{}room_previous(){}{}{} will not work). To jump from the added room to another, you must use the index of the room itself.":"{}注意{}：新客房不是通常客房订购的一部分，因此它们没有\"上一个\"或\"下一个\"客房(这意味着函数{}{}{}房间_next(){}{}{}和{}{}{}房间_foreous(){}{}{}将不起作用)。要从添加的房间跳转到另一个房间，必须使用房间本身的索引。"
 }

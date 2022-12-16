@@ -1,5 +1,5 @@
 {
-    "As you can only load one video at a time, this function loads the specified video into the only available \"video slot\", which is then manipulated via the other {}Video functions{}.":"由于一次只能加载一个视频，因此此功能会将指定的视频加载到\"唯一可用的\"视频插槽中，然后通过其他{}视频功能{}操作该插槽。",
+    "As you can only load one video at a time, this function loads the specified video into the only available \"video slot\", which is then manipulated via the other {}Video functions{}.":"由于一次只能加载一个视频，因此此函数会将指定的视频加载到\"唯一可用的\"视频插槽中，然后通过其他{}视频函数{}操作该插槽。",
     "Path to the video file":"视频文件的路径",
     "The code above loads {}splash.mp4{} from the Included Files of the game.":"上面的代码从游戏的\"包含的文件\"加载{}splash.mp 4{}。",
     "There are asynchronous callbacks associated with video playback. See&nbsp;{}Async Callbacks{}&nbsp;for more information.":"存在与视频播放相关联的异步回调。有关详细信息，请参阅{}异步回叫{}。",

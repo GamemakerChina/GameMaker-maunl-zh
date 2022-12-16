@@ -1,7 +1,7 @@
 {
     "&nbsp;":"&nbsp;",
     "All Steam functions in&nbsp;{}GameMaker{}&nbsp;have been moved out of the base runner and are now part of an extension, {}which can be downloaded here{}.":"{}GameMaker{} 中的所有 Steam 函数已经从基本 runner 中移除，现在是扩展的一部分，{}可以在这里下载{}。",
-    "For information on the Steam extension functions, please refer to the manual provided with the extension package, or the {}extension manual on this website{}.":"有关 Steam 扩展功能的详情，请参阅与扩展包一起提供的手册，或{}本网站上的扩展手册{}。",
+    "For information on the Steam extension functions, please refer to the manual provided with the extension package, or the {}extension manual on this website{}.":"有关 Steam 扩展函数的详情，请参阅与扩展包一起提供的手册，或{}本网站上的扩展手册{}。",
     "{}All {}Steam{} functions in&nbsp;{}{}GameMaker{}&nbsp;have been moved out of the base runner and are now part of an extension, {}which can be downloaded here{}.":"{}所有在的{}Steam{} 函数在{}GameMaker{}当中&nbsp;{}已经被从运行时中删除，现在要以插件的形式使用，{}插件下载地址如下{}.",
     "{}For information on the {}Steam{} extension functions, please refer to the manual provided with the extension package, or the {}{}extension manual on this website{}.":"{}详细的{}Steam{}插件函数信息, 请参考插件内的文档, 或者{}{}这里{}."
 }

@@ -24,7 +24,7 @@
     "This constant simply means that the value is not a valid pointer":"此常量仅表示该值不是有效的指针",
     "Type Tables":"类型表",
     "Variable Functions":"变量函数",
-    "When dealing with any value that is not an integer, you may experience slight rounding errors due to the nature of floating point maths. For more information on this and other number related functions, please see:&nbsp;{}GML Reference - Number Functions{}.":"处理任何非整数值时，由于浮点数学的性质，您可能会遇到轻微的舍入错误。有关此功能和其它与数字相关的功能的详细信息，请参阅：{}Gml参考-数字函数{}。",
+    "When dealing with any value that is not an integer, you may experience slight rounding errors due to the nature of floating point maths. For more information on this and other number related functions, please see:&nbsp;{}GML Reference - Number Functions{}.":"处理任何非整数值时，由于浮点数学的性质，您可能会遇到轻微的舍入错误。有关此函数和其它与数字相关的函数的详细信息，请参阅：{}Gml参考-数字函数{}。",
     "You can also find arithmetic type tables that show the results of different operations using mixed variable data types here:":"您还可以在此处找到显示使用混合变量数据类型的不同操作结果的算术类型表格：",
     "You can check the data type of any variable using the functions listed on the following the page:":"可以使用以下页面中列出的函数检查任何变量的数据类型：",
     "You can convert any real number into an implicitly boolean value using the following function:":"您可以使用以下函数将任何实数转换为隐式布尔值：",

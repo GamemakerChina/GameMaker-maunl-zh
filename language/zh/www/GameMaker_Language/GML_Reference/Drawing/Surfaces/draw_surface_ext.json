@@ -1,14 +1,14 @@
 {
-    "The above code will draw a the surface indexed in the variable \"surf\" at the (0,0) position in the room, with twice the original scale, blended red and semi transparent.":"上面的代码将在房间中的(0,0 )位置处绘制一个在可变\"wash\"中索引的曲面，该曲面具有原始刻度的两倍，混合了红色和半透明。",
-    "The alpha transparency for drawing the surface.":"绘制曲面的Alpha透明度。",
-    "The colour with which to blend the surface.":"用于混合曲面的颜色。",
+    "The above code will draw a the surface indexed in the variable \"surf\" at the (0,0) position in the room, with twice the original scale, blended red and semi transparent.":"上面的代码将在房间中的(0,0)位置处绘制一个在可变\"wash\"中索引的表面，该表面具有原始刻度的两倍，混合了红色和半透明。",
+    "The alpha transparency for drawing the surface.":"绘制表面的Alpha透明度。",
+    "The colour with which to blend the surface.":"用于混合表面的颜色。",
     "The horizontal scale.":"水平刻度。",
-    "The rotation or angle to draw the surface.":"绘制曲面的旋转或角度。",
-    "The unique ID value of the surface to draw.":"要绘制的曲面的唯一Id值。",
+    "The rotation or angle to draw the surface.":"绘制表面的旋转或角度。",
+    "The unique ID value of the surface to draw.":"要绘制的表面的唯一Id值。",
     "The vertical scale.":"垂直比例尺。",
-    "The x position of where to draw the surface.":"绘制曲面的x位置。",
-    "The y position of where to draw the surface.":"绘制曲面的y位置。",
-    "This function will draw the given surface as in the function {}{}draw_surface(){}{} but with additional options to change the scale, blending, rotation and alpha of the surface being drawn. Changing these values does {}not{} modify the resource in any way (only how it is drawn).":"此函数将按照函数{}{}draw_surface(){}{}中的方式绘制给定曲面，但具有更改绘制曲面的比例、混合、旋转和Alpha的其他选项。更改这些值不会{}以任何方式修改资源(仅限于资源的绘制方式)。",
-    "{}TIP{}&nbsp;How a surface appears depends on its contents, especially the alpha values inside the surface. A surface {}cleared{} with an alpha of 0 may appear different from a surface cleared with an alpha of 1, due to the way they blend with the background. Take care of this whenever you notice a difference in the way something renders on a custom surface as opposed to the {}{}application_surface{}{}.":"{}提示{}曲面的显示方式取决于其内容，尤其是曲面内部的Alpha值。Alpha为0的{}清除曲面{}可能与Alpha为1的清除曲面不同，因为它们与背景混合的方式不同。只要您注意到自定义曲面上的渲染方式与{}{}application_surface{}{}的渲染方式有所不同，就要注意这一点。",
-    "{}{}{}NOTE{}&nbsp;When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}{}{}注意{}使用曲面时，由于曲面存储在纹理内存中，因此曲面可能随时停止存在。在直接引用曲面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查曲面是否存在。"
+    "The x position of where to draw the surface.":"绘制表面的x位置。",
+    "The y position of where to draw the surface.":"绘制表面的y位置。",
+    "This function will draw the given surface as in the function {}{}draw_surface(){}{} but with additional options to change the scale, blending, rotation and alpha of the surface being drawn. Changing these values does {}not{} modify the resource in any way (only how it is drawn).":"此函数将按照函数{}{}draw_surface(){}{}中的方式绘制给定表面，但具有更改绘制表面的比例、混合、旋转和Alpha的其他选项。更改这些值不会{}以任何方式修改资源(仅限于资源的绘制方式)。",
+    "{}TIP{}&nbsp;How a surface appears depends on its contents, especially the alpha values inside the surface. A surface {}cleared{} with an alpha of 0 may appear different from a surface cleared with an alpha of 1, due to the way they blend with the background. Take care of this whenever you notice a difference in the way something renders on a custom surface as opposed to the {}{}application_surface{}{}.":"{}提示{}表面的显示方式取决于其内容，尤其是表面内部的Alpha值。Alpha为0的{}清除表面{}可能与Alpha为1的清除表面不同，因为它们与背景混合的方式不同。只要您注意到自定义表面上的渲染方式与{}{}application_surface{}{}的渲染方式有所不同，就要注意这一点。",
+    "{}{}{}NOTE{}&nbsp;When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}{}{}注意{}使用表面时，由于表面存储在纹理内存中，因此表面可能随时停止存在。在直接引用表面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查表面是否存在。"
 }

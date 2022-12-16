@@ -2,6 +2,6 @@
     "In this example, {}video_seek_to(){} is used to seek the video to the new position.":"在此示例中，{}video_seek_to(){}用于将视频寻找到新位置。",
     "The above code moves the playing video 2 seconds ahead, when the right arrow key is pressed, and the new position is smaller than the video\u0027s duration. However if it\u0027s not within the duration, the video is closed.":"当按下右箭头键并且新位置小于视频的持续时间时，上述代码会提前2秒钟移动播放视频。但是，如果不在持续时间内，视频将关闭。",
     "The time to seek to (in milliseconds).":"寻求的时间(以毫秒为单位)",
-    "This function allows you to seek to the given position in the currently loaded video. You specify the {}time{} value to seek to, which is in milliseconds.":"此功能允许您在当前加载的视频中寻找给定的位置。指定要查找的{}时间{}值，以毫秒为单位。",
-    "This function works best when the video is paused, and the distance from the current position to the new seek position is not too small.":"该功能在视频暂停时效果最佳，且从当前位置到新寻道位置的距离不会太小。"
+    "This function allows you to seek to the given position in the currently loaded video. You specify the {}time{} value to seek to, which is in milliseconds.":"此函数允许您在当前加载的视频中寻找给定的位置。指定要查找的{}时间{}值，以毫秒为单位。",
+    "This function works best when the video is paused, and the distance from the current position to the new seek position is not too small.":"该函数在视频暂停时效果最佳，且从当前位置到新寻道位置的距离不会太小。"
 }

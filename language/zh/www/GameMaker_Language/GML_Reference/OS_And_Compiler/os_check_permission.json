@@ -6,6 +6,6 @@
     "This indicates that the permission has been granted":"这表示该权限已被授予",
     "This indicates that the permission has either been blocked by the phone settings, or that the user has previously denied the request and selected \"Don\u0027t ask again\".":"这表明该权限已被手机设置阻止，或者用户之前拒绝了请求并选择了\"不要再问了\"。",
     "This indicates that the permission has not been granted":"这表明该权限未被授予",
-    "With this function you can check to see if a specific permission has been granted to the game by the user. You supply the permission to check as a string using the format \"{}android.permission.&lt;permission&gt;{}\", so to check the {}RECORD_AUDIO{} permission (for example) you would call":"使用此功能，您可以检查用户是否已授予游戏特定权限。<br>您使用格式\"{}android.permission.&lt;permission&gt;{}\"，因此要检查{}RECORD_AUDIO{}权限(例如)，您将调用",
+    "With this function you can check to see if a specific permission has been granted to the game by the user. You supply the permission to check as a string using the format \"{}android.permission.&lt;permission&gt;{}\", so to check the {}RECORD_AUDIO{} permission (for example) you would call":"使用此函数，您可以检查用户是否已授予游戏特定权限。<br>您使用格式\"{}android.permission.&lt;permission&gt;{}\"，因此要检查{}RECORD_AUDIO{}权限(例如)，您将调用",
     "{}IMPORTANT!{} This function is for the {}Android{} target&nbsp;only.":"{}重要！{}此函数仅适用于{}Android{}目标。"
 }

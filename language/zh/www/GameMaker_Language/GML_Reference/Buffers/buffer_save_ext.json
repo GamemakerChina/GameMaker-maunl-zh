@@ -4,5 +4,5 @@
     "The name of the file to save as.":"要另存为的文件的名称。",
     "The offset within the buffer to save from (in bytes).":"要从中进行保存的缓冲区内的偏移量(以字节为单位)。",
     "The size of the buffer area to save (in bytes).":"要保存的缓冲区的大小 (以字节为单位)。",
-    "With this function you can save part of the contents of a buffer to a file, ready to be read back into memory using the {}{}buffer_load(){}{} function. The \"offset\" defines the start position within the buffer for saving (in bytes), and the \"size\" is the size of the buffer area to be saved from that offset onwards (also in bytes).":"使用此功能，您可以将缓冲区的部分内容保存到文件中，以便使用{}{}buffer_load(){}{}函数将其读回内存。\"偏移量\" 定义缓冲区内的起始位置用于保存 (以字节为单位)，\"大小\" 是从该偏移量开始要保存的缓冲区的大小 (也以字节为单位)。"
+    "With this function you can save part of the contents of a buffer to a file, ready to be read back into memory using the {}{}buffer_load(){}{} function. The \"offset\" defines the start position within the buffer for saving (in bytes), and the \"size\" is the size of the buffer area to be saved from that offset onwards (also in bytes).":"使用此函数，您可以将缓冲区的部分内容保存到文件中，以便使用{}{}buffer_load(){}{}函数将其读回内存。\"偏移量\" 定义缓冲区内的起始位置用于保存 (以字节为单位)，\"大小\" 是从该偏移量开始要保存的缓冲区的大小 (也以字节为单位)。"
 }

@@ -3,5 +3,5 @@
     "The index of the particle type to change.":"要更改的粒子类型的索引。",
     "The maximum lifespan of the particles.":"粒子的最大寿命。",
     "The minimum lifespan of the particles.":"粒子的最短寿命。",
-    "This is the function that governs how long each individual particle of the indicated type remains on the screen. As with other particle functions, you provide a minimum and a maximum value (in steps)and each particle lifespan will be a random number of steps from within the specified range. To have all particles with the same lifetime, set the two values to be the same.":"这是控制指定类型的每个单独粒子在屏幕上保留多长时间的函数。与其他粒子功能一样，提供最小值和最大值(以步为单位)，并且每个粒子寿命将是指定范围内的随机步数。若要使所有粒子具有相同的寿命，请将两个值设定为相同。"
+    "This is the function that governs how long each individual particle of the indicated type remains on the screen. As with other particle functions, you provide a minimum and a maximum value (in steps)and each particle lifespan will be a random number of steps from within the specified range. To have all particles with the same lifetime, set the two values to be the same.":"这是控制指定类型的每个单独粒子在屏幕上保留多长时间的函数。与其他粒子函数一样，提供最小值和最大值(以步为单位)，并且每个粒子寿命将是指定范围内的随机步数。若要使所有粒子具有相同的寿命，请将两个值设定为相同。"
 }

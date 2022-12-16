@@ -1,5 +1,5 @@
 {
     "The above code will play the sound \"snd_Shot\" if it is playable.":"如果可播放，则上述代码将播放声音\"snd_Shot\"。",
     "The index of the sound to check.":"检查声音的索引。",
-    "This function can be used to check&nbsp;if the given sound index can be played currently. This is needed due to the different ways streamed and unstreamed sound playback is handled on the {}HTML5{} target platform, and will return {}true{} if the sound can be played and {}false{} if it can\u0027t. Note that on all other platforms other than HTML5, the function will always return {}true{}.":"此功能可用于检查当前是否可播放给定声音索引。由于在{}HTML5{}目标平台上处理流和非流声音播放的方式不同，因此需要这样做，如果可以播放声音，则返回{}true{};如果无法播放，则返回{}false{}。请注意，在HTML5以外的所有其他平台上，该函数将始终返回{}true{}。"
+    "This function can be used to check&nbsp;if the given sound index can be played currently. This is needed due to the different ways streamed and unstreamed sound playback is handled on the {}HTML5{} target platform, and will return {}true{} if the sound can be played and {}false{} if it can\u0027t. Note that on all other platforms other than HTML5, the function will always return {}true{}.":"此函数可用于检查当前是否可播放给定声音索引。由于在{}HTML5{}目标平台上处理流和非流声音播放的方式不同，因此需要这样做，如果可以播放声音，则返回{}true{};如果无法播放，则返回{}false{}。请注意，在HTML5以外的所有其他平台上，该函数将始终返回{}true{}。"
 }

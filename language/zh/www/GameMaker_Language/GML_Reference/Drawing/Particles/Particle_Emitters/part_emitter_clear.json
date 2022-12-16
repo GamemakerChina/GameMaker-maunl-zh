@@ -2,5 +2,5 @@
     "The above code will clear the particle emitter indexed in the variable \"p_emit1\".":"上述代码将清除变量\"p_emit 1\"中的粒子发射器索引。",
     "The index of the emitter to clear.":"要清除的发射器的步进。",
     "The particle system that the emitter is in.":"发射器所在的粒子系统。",
-    "With this function you can clear the given emitter from the specified particle system back to its default state. This will also stop any particles that are being streamed from the emitter at the time, and if you wish to use the emitter again you will need to set the region position and particle type using the {}{}part_emitter_region(){}{} function.":"使用此功能，可以将指定粒子系统中的给定发射器清除回其默认状态。此操作还将停止当时从发射器流出的任何粒子，如果希望再次使用发射器，则需要使用{}{}part_emitter_region(){}{}函数设置区域位置和粒子类型。"
+    "With this function you can clear the given emitter from the specified particle system back to its default state. This will also stop any particles that are being streamed from the emitter at the time, and if you wish to use the emitter again you will need to set the region position and particle type using the {}{}part_emitter_region(){}{} function.":"使用此函数，可以将指定粒子系统中的给定发射器清除回其默认状态。此操作还将停止当时从发射器流出的任何粒子，如果希望再次使用发射器，则需要使用{}{}part_emitter_region(){}{}函数设置区域位置和粒子类型。"
 }

@@ -2,7 +2,7 @@
     "The DS map ID value.":"Ds映射ID值。",
     "The above code will create a buffer and a DS map, then populate the map with some values and write it to the buffer before deleting the map.":"上述代码将创建一个缓冲区和一个Ds映射，然后使用一些值填充映射，并在删除映射之前将其写入缓冲区。",
     "The buffer to save to.":"要保存到的缓冲区。",
-    "This function will save a previously created DS map to a buffer. You supply the DS map ID value (as returned by the function {}{}ds_map_create(){}{}) and the ID of the buffer to write to (as returned by the function {}{}buffer_create(){}{}). Note that if the DS map being saved contains an array, this will be converted into a DS list instead when saved.":"此功能将先前创建的D映射保存到缓冲区。提供D映射ID值(由函数{}{}ds_map_create(){}{}返回)和要写入的缓冲区的ID(由函数{}{}buffer_create(){}{}返回)。请注意，如果要保存的D映射包含数组，则在保存时将转换为D列表。",
+    "This function will save a previously created DS map to a buffer. You supply the DS map ID value (as returned by the function {}{}ds_map_create(){}{}) and the ID of the buffer to write to (as returned by the function {}{}buffer_create(){}{}). Note that if the DS map being saved contains an array, this will be converted into a DS list instead when saved.":"此函数将先前创建的D映射保存到缓冲区。提供D映射ID值(由函数{}{}ds_map_create(){}{}返回)和要写入的缓冲区的ID(由函数{}{}buffer_create(){}{}返回)。请注意，如果要保存的D映射包含数组，则在保存时将转换为D列表。",
     "{}IMPORTANT!{} The secure saved DS map file can only be loaded on the device that created it, and if you try to load a file that was saved on a different device, then it will not work.":"{}重要信息!{}安全保存的D映射文件只能加载到创建该文件的设备上，如果您尝试加载保存在其他设备上的文件，则该文件将不起作用。",
-    "{}NOTE{}: This function is not supported on HTML5.":"{}注意{}: HTML5不支持此功能。"
+    "{}NOTE{}: This function is not supported on HTML5.":"{}注意{}: HTML5不支持此函数。"
 }

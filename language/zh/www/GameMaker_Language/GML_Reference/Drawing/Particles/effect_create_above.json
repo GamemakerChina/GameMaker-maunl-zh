@@ -12,12 +12,13 @@
     "An effect that generates rain particles coming down from the top of the screen":"产生从屏幕顶部下来的雨粒子的效果",
     "An effect that generates star particles":"产生恒星粒子的效果",
     "Effect Type Constant":"效果类型常量",
-    "It is worth noting that these effects can have their drawing toggled on and off, as well as have their drawing paused, by using the functions {}{}part_system_automatic_draw(){}{} and {}{}part_system_automatic_update(){}{} with the appropriate value for the particle system index (where 0 is for effects below and 1 is for effects above).":"值得注意的是，通过使用功能{}{}part_system_automatic_draw(){}{}和{}{}part_system_automatic_update(){}{}以及粒子系统索引的适当值(其中0表示下面的效果，1表示上面的效果)，可以打开和关闭这些效果的图形，以及暂停其图形。",
+    "It is worth noting that these effects can have their drawing toggled on and off, as well as have their drawing paused, by using the functions {}{}part_system_automatic_draw(){}{} and {}{}part_system_automatic_update(){}{} with the appropriate value for the particle system index (where 0 is for effects below and 1 is for effects above).":"值得注意的是，通过使用函数{}{}part_system_automatic_draw(){}{}和{}{}part_system_automatic_update(){}{}以及粒子系统索引的适当值(其中0表示下面的效果，1表示上面的效果)，可以打开和关闭这些效果的图形，以及暂停其图形。",
     "The above code will create a medium, yellow, explosion above the instance and destroy it should the \"health\" variable be less than or equal to 0.":"如果\"Health\"变量小于或等于0，则上述代码将在实例上方创建中等、黄色的爆炸，并销毁它。",
+    "The available constants for the different particle kinds are:":"不同粒子类型的可用常量包括：",
     "The colour of the effect.":"效果的颜色。",
     "The kind of effect (use one of the constants listed{}&nbsp;above{}).":"类型的效果(使用上面列出的{}个常量之一{})。",
     "The size of the effect.":"效果的大小。",
     "The x positioning of the effect if relevant.":"效果的x定位(如果相关)。",
     "The y positioning of the effect if relevant.":"效果的y定位(如果相关)。",
-    "With this function you can create a simple effect above all instances of your room (it is actually created at a depth of -100000). If the effect is anything other {}ef_rain{} or {}ef_snow{} then you can define an x/y position to create the effect, and the size can be a value of 0, 1, or 2, where 0 is small, 1 is medium and 2 is large.":"使用此功能，您可以在房间的所有实例上方创建一个简单的效果(它实际上是在-100000的深度处创建的)。如果效果是任何其他{}ef_rain{}或{}ef_snow{}，则可以定义x/ y位置来创建效果，并且大小可以是0、1或2的值，其中0表示小，1表示中等，2表示大。"
+    "With this function you can create a simple effect above all instances of your room (it is actually created at a depth of -100000). If the effect is anything other {}ef_rain{} or {}ef_snow{} then you can define an x/y position to create the effect, and the size can be a value of 0, 1, or 2, where 0 is small, 1 is medium and 2 is large.":"使用此函数，您可以在房间的所有实例上方创建一个简单的效果(它实际上是在-100000的深度处创建的)。如果效果是任何其他{}ef_rain{}或{}ef_snow{}，则可以定义x/ y位置来创建效果，并且大小可以是0、1或2的值，其中0表示小，1表示中等，2表示大。"
 }

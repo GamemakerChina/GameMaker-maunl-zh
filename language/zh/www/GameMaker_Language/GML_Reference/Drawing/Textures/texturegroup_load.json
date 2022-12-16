@@ -1,5 +1,5 @@
 {
-    "By default, it will also decompress and fetch the group into VRAM. This can be disabled by setting the second argument to {}false{}, which will leave you to manually {}pre-fetch{} it later or have it fetched automatically when an image is drawn from it.":"默认情况下，它还会解压缩并将组读取到Vram中。可以通过将第二个参数设置为{}false{}来禁用此功能，这将使您稍后手动{}预取{}它，或者在从中绘制图像时自动读取它。",
+    "By default, it will also decompress and fetch the group into VRAM. This can be disabled by setting the second argument to {}false{}, which will leave you to manually {}pre-fetch{} it later or have it fetched automatically when an image is drawn from it.":"默认情况下，它还会解压缩并将组读取到Vram中。可以通过将第二个参数设置为{}false{}来禁用此函数，这将使您稍后手动{}预取{}它，或者在从中绘制图像时自动读取它。",
     "For information on its use, see:&nbsp;{}Dynamic Textures{}":"有关其使用的信息，请参阅：{}动态纹理{}",
     "If the Texture Group was loaded successfully, the function returns 0, otherwise it returns -1.":"如果纹理组加载成功，则函数返回0，否则返回-1。",
     "If the Texture Group wasn\u0027t loaded, it prints a message to the output log.":"如果未加载\"纹理组\"，则会将消息打印到输出日志中。",
