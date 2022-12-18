@@ -32,6 +32,6 @@
     "{}Room Start{}{}Room Start{}":"{}房间开始{}{}房间开始{}",
     "{}This event list also contains the&nbsp;{}Rollback Events{}.{}":"{} 此事件列表还包含 {} 回滚事件 {}。{}",
     "{}User Events{}{}User Events{}":"{} 用户事件 {}{} 用户事件 {}",
-    "{}{}This event is designed only for use with the {}Skeletal Animation Functions{}. This event is triggered in an object which has a skeletal animation sprite assigned to it, and where the object is using the default draw for the assigned sprite, or the sprite is being drawn via draw_self(). It currently won\u0027t trigger on skeleton animation sprites drawn any other way. The event is designed to capture and transmit data that has been assigned to particular events in the sprite animation as defined in the editor used to make them.":"{}{} 此事件仅设计用于 {} 骨骼动画功能 {}。此事件在对象中触发它有一个分配给它的骨骼动画精灵，并且对象使用分配的精灵的默认绘制，或者精灵是通过 draw_self() 绘制的。它目前不会在绘制任何其他骨骼动画精灵时触发方式。该事件旨在捕获和传输已分配给精灵动画中特定事件的数据，如用于制作它们的编辑器中定义的那样。",
-    "{}{}Views{}{}Views{}{}":"{}{}视图{}{}视图{}{}"
+    "{}Views{}{}Views{}":"{}视图{}{}视图{}",
+    "{}{}This event is designed only for use with the {}Skeletal Animation Functions{}. This event is triggered in an object which has a skeletal animation sprite assigned to it, and where the object is using the default draw for the assigned sprite, or the sprite is being drawn via draw_self(). It currently won\u0027t trigger on skeleton animation sprites drawn any other way. The event is designed to capture and transmit data that has been assigned to particular events in the sprite animation as defined in the editor used to make them.":"{}{} 此事件仅设计用于 {} 骨骼动画功能 {}。此事件在对象中触发它有一个分配给它的骨骼动画精灵，并且对象使用分配的精灵的默认绘制，或者精灵是通过 draw_self() 绘制的。它目前不会在绘制任何其他骨骼动画精灵时触发方式。该事件旨在捕获和传输已分配给精灵动画中特定事件的数据，如用于制作它们的编辑器中定义的那样。"
 }

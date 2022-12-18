@@ -10,6 +10,7 @@
     "\"{}unavailable{}\" - The audio system is not initialised, or the context is not currently running, and so can\u0027t play sounds (all sound playing functions will return -1)":"\"{}unavailable{}\" - 音频系统没有被初始化，或者当前上下文没有运行，所以不能播放声音（所有的声音播放函数将返回-1）",
     "Audio System Status":"音频系统状态",
     "For more information on the specific functions available for Audio, please see {}here{}.":"关于音频的具体功能的更多信息，请见{}这里{}。",
+    "Game Pads":"游戏手柄",
     "If this event type is triggered, then there will be an additional key in the {}async_load{} map:":"如果这个事件类型被触发，那么在{}async_load{}地图中会有一个额外的键：",
     "Misc. Events":"杂项",
     "On mobile targets (Android, iOS and tvOS), an event is triggered when the app is brought back into focus. Its&nbsp;{}async_load{} map contains a single key:":"在移动目标（Android、iOS和tvOS）上，当应用程序被重新带入焦点时，会触发一个事件。它的&nbsp;{}async_load{}映射包含一个单一的键。",
