@@ -2,6 +2,7 @@
     "The above code first creates 3 arrays {}a1{}, {}a2{} and {}a3{}. It then takes the union of these arrays and stores the result in a new array {}a4{}.":"上面的代码首先创建了3个数组{}a1{},{}a2{}和{}a3{}。然后，它将这些数组合并，并将结果存储在新的数组{}a4{}中。",
     "The first array":"第一个数组",
     "The second array":"第二个数组",
+    "{}This function returns a {}new{} array that is the {}union{} of all provided arrays. A union refers to all the&nbsp;{}elements in the provided arrays, with duplicates removed.":"{}此函数返回一个{}新的{}数组，它是所有提供的数组的{}并集{}。联合是指所提供的数组中的所有{}元素，但删除了重复项。",
     "{}This function returns a {}new{} array that is the {}union{} of all provided arrays.{}":"{}此函数返回一个{}新{}数组，它是所有提供的数组的{}并集{}。{}",
     "{}{}Array{}{}&nbsp;(the union of the provided arrays)":"{}{}数组{}{}(提供的数组的并集)",
     "{}{}NOTE{}{}&nbsp;The order of elements in the new array is {}not{} ensured. If you need to sort the array you will need to do so afterwards.":"{}{}注意{}{}新数组中元素的顺序是{}没有{}保证的。如果您需要对数组进行排序，则需要在之后进行排序。",

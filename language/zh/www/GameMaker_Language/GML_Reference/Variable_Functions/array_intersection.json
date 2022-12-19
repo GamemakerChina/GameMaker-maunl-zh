@@ -1,8 +1,12 @@
 {
+    "The above code first creates three temporary arrays {}_array1{},&nbsp;{}_array2{}&nbsp;and {}_array3{}. It then calls&nbsp;{}{}array_intersection{}{}&nbsp;to create a new array that is the intersection of these three arrays.":"上面的代码首先创建三个临时数组 {}_array1{}、{}_array2{} 和 {}_array3{}。然后，它调用 {}{}array_intersection{}{} 来创建一个新数组，该数组是这三个数组的交集。",
     "The above code first creates three temporary arrays {}array1{},&nbsp;{}array2{}&nbsp;and {}array3{}. It then calls&nbsp;{}{}array_intersection{}{}&nbsp;to create a new array that is the intersection of these three arrays.":"上面的代码首先创建三个临时数组{}array1{}、{}array2{}和{}array3{}。 然后调用{}{}array_intersection{}{}来创建一个新数组，该数组是这三个数组的交集。",
     "The first array":"第一个数组",
+    "The function also removes any duplicates found in the intersection, so it only returns unique values.":"该函数还删除在交叉点中找到的任何重复项，因此它只返回唯一值。",
     "The second array":"第二个数组",
+    "The {}_array_intersection{} array will be set to {}[1, 7]{} as these are the unique values present throughout all three arrays.":"{}_array_intersection{} 数组将设置为 {}[1，7]{}，因为这些值在所有三个数组中都是唯一的。",
     "{}The returned array contains the common elements with {}duplicates&nbsp;{}removed.{}":"{}返回的数组包含了{}重复项{}的公共元素。{}",
+    "{}This function returns a {}new{} array with the {}intersection{} of all arrays that you provide to it. An intersection refers to all the values that are present in all of the provided arrays.{}":"{}此函数返回一个{}新的{}数组，其中包含您提供给它的所有数组的{}交集{}。交集是指出现在所有提供的数组中的所有值。{}",
     "{}This function returns a {}new{} array with the {}intersection{} of all arrays that you provide to it.{}":"{}此函数返回一个{}新{}数组，该数组具有您提供给它的所有数组的{}交集{}。{}",
     "{}{}Array{}{}&nbsp;(the intersection of the provided arrays)":"{}{}数组{}{}(提供的数组的交集)",
     "{}{}NOTE{}{}&nbsp;The order of elements in the new array is {}not{} ensured. If you need to sort the array you will need to do so afterwards.":"{}{}注意{}{}新数组中元素的顺序是{}没有{}保证的。如果您需要对数组进行排序，则需要在之后进行排序。",

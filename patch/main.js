@@ -213,8 +213,8 @@ qqq_toLower=function() {
 
 qqq_clean_semicolon=function() {
 	var right = $(".qqq_menu .new").val();
-	$(".qqq_menu .new").val(right.replace(/[\uff1b+\u003b]/g,"")
-								.replace(/[\u201C+\u201D]/g,"\"")
+	$(".qqq_menu .new").val(right.replace(/[\uff1b\u003b]/g,"")
+								.replace(/[\u201C\u201D]/g,"\"")
 								.replace(/[\uff5b]/g,"\{")
 								.replace(/[\uff5d]/g,"\}"));
 	qqq_hight_light();

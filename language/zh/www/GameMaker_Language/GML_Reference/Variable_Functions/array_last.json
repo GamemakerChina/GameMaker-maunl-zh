@@ -1,6 +1,10 @@
 {
+    "The above code gets the last enemy instance added to the array {}enemies{}&nbsp;and stores it in a temporary variable&nbsp;{}_last_added_enemy{}. It then lets that instance display a debug message with the id of the instance.":"上面的代码获取添加到数组 {}enemies{} 中的最后一个敌人实例，并将其存储在一个临时变量 {}_last_added_enemy{} 中。然后，它允许该实例显示带有该实例 ID 的调试消息。",
     "The above code gets the last enemy instance added to the array {}enemies{}&nbsp;and stores it in a temporary variable&nbsp;{}last_added_enemy{}. It then lets that instance display a debug message with the id of the instance.":"上述代码将最后一个敌人实例添加到数组{}enemies{}，并将其存储在临时变量{}last_added_enemy{}中。 然后，它允许该实例显示带有该实例的id的调试消息。",
     "The array to get the last (or \"top\") value from":"从中获取最后一个 (或 “顶部”) 值的数组",
+    "The array to get the last value from":"要从中获取最后一个值的数组",
+    "This function does not modify the array. To remove the last element of the array while reading it, use&nbsp;{}array_pop{}.":"此函数不修改数组。要在读取数组时删除该数组的最后一个元素，请使用 {}array_pop{}。",
     "This function returns the element at the top of the array, i.e. the last element at index {}{}array_length{}(array)-1{}.":"此函数返回数组顶部的元素，即在index {}{} array_length{}(array)-1{} 处的最后一个元素。",
+    "This function returns the last element in the given array, i.e. the last element at index {}{}array_length{}(array)-1{}.":"此函数返回给定数组中的最后一个元素，即位于索引 {}{}array_length{}(array)-1{} 的最后一个元素。",
     "{}{}Any{}{} (Any valid data type that an array can hold)":"{}{} Any {}{} (数组可以容纳的任何有效数据类型)"
 }

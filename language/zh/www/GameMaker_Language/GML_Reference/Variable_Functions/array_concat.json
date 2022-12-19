@@ -3,6 +3,7 @@
     "The first array to concatenate":"第一个要连接的数组",
     "The second array to concatenate":"要连接的第二个数组",
     "This function concatenates two or more arrays and returns this {}new{} array.":"此函数连接两个或多个数组，并返回此{}新{}数组。",
+    "This function takes multiple arrays as arguments, joins them together (in the order of the arguments), and returns the joined array.":"此函数将多个数组作为参数，将它们联接在一起(按参数的顺序)，并返回联接的数组。",
     "{}{}Array{}{}&nbsp;(new array with all arrays concatenated)":"{}{}Array{}{}(所有数组级联的新数组)",
     "{}{}OPTIONAL{}{}&nbsp;Additional arrays to concatenate":"{}{}可选{}{}要连接的附加数组"
 }
