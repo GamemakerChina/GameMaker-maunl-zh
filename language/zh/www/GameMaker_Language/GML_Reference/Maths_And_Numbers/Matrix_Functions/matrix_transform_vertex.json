@@ -1,9 +1,17 @@
 {
+    "An array of 4 elements where array[0] = x, array[1] = y, array[2] = z, array[3] = w if x, y, z {}and{} w are provided":"一个由 4 个元素组成的数组，其中，如果提供了 x，y，z{} 和 {}w，则 array[0]=x，array[1]=y，array[2]=z，array[3]=w",
+    "An array&nbsp;of 3 elements where array[0] = x, array[1] = y, array[2] = z if x, y and z are provided":"一个由 3 个元素组成的数组，其中，如果提供了 x、y 和 z，则 array[0]=x、array[1]=y、array[2]=z",
+    "It takes a transform matrix&nbsp;(as returned by the function {}{}matrix_build{}{}) and the x, y and z values of the vector to transform. It can optionally take the value of the w component.":"它接受一个转换矩阵 (由函数 {}{}matrix_build{}{} 返回) 和要转换的向量的 x、y 和 z 值。它可以选择取 w 分量的值。",
     "The above code transforms the given values using the matrix stored in the variable \"t_matrix\" and stores them in the array \"verts\".":"上面的代码使用存储在变量“t_matrix”中的矩阵转换给定值，并将它们存储在数组“verts”中。",
+    "The above code transforms the given values using the matrix stored in the variable \"t_matrix\" and stores them in the array {}new_xyz{}.":"上面的代码使用存储在变量 \"t_matrix\" 中的矩阵转换给定值，并将它们存储在数组 {}new_xyz{} 中。",
+    "The function returns an&nbsp;{}array{}&nbsp;of the same size as the number of components that you provide:&nbsp;":"此函数返回与您提供的组件数量大小相同的{}数组{}：",
     "The matrix to use":"要使用的矩阵",
-    "The x component of the transform vector":"变换向量的 x 分量",
-    "The y component of the transform vector":"变换向量的 y 分量",
-    "The z component of the transform vector":"变换向量的 z 分量",
+    "The x component of the vector to transform":"变换向量的 x 分量",
+    "The y component of the vector to transform":"变换向量的 y 分量",
+    "The z component of the vector to transform":"变换向量的 z 分量",
+    "This function transforms a vector by a matrix and returns the result as a new array.":"此函数通过矩阵转换向量，并以新数组的形式返回结果。",
     "This function transforms a vector by a matrix. You supply the transform matrix ID (as returned by the function {}{}matrix build(){}{}), as well as the x, y and z values for the vector to transform. The function will return an&nbsp;{}array{} of 3 elements where:":"此函数通过矩阵变换向量。 您提供变换矩阵 ID（由函数 {}{}matrix build(){}{} 返回），以及要变换的向量的 x、y 和 z 值。 该函数将返回一个包含 3 个元素的{}数组{}，其中：",
-    "{}{}Array{}{} (3 elements)":"{}{}Array{}{} (3 elements) <br>数组（3 个元素）"
+    "{}{}Array{}{} (3 elements (x, y and z are passed) or 4 elements (x, y, z and w are passed))":"{}{}Array{}{} (3 个元素 (传递 x、y 和 z) 或 4 个元素 (传递 x、y、z 和 w))",
+    "{}{}Array{}{} (3 elements)":"{}{}Array{}{} (3 elements) <br>数组（3 个元素）",
+    "{}{}OPTIONAL{}{}&nbsp;The w component of the vector to transform":"{}{}可选{}{} 变换向量的 w 分量"
 }
