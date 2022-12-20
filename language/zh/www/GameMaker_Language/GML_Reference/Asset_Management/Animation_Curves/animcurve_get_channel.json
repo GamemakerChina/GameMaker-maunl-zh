@@ -1,6 +1,7 @@
 {
     "If the channel is using catmull-rom (\"smooth\") interpolation this holds how many points have been generated for each segment of the curve (note that these extra points are internal to the function and only used for the runtime calculations). If the channel is using linear interpolation, this value will still exist but can be ignored as it has no bearing on how the curve is interpolated.":"如果通道使用catmull- rom (“平滑”) 插值，则可以保存为曲线的每段生成了多少个点 (请注意，这些额外的点在函数内部，仅用于运行时计算)。如果通道使用线性插值，则该值仍将存在，但可以忽略，因为它与曲线的插值方式无关。",
     "Note that passing an index value will require less processing than passing in a channel name. If the function fails (ie: no channel exists with the given name or index) then you will get an error.":"请注意，传递索引值将比传递通道名称需要更少的处理。如果函数失败 (即: 没有给定名称或索引的通道存在)，则会出现错误。",
+    "One point struct has the following variables:":"单点结构具有以下变量：",
     "The ID or struct pointer of the animation curve to target":"动画曲线到目标的ID或结构指针",
     "The above code retrieves the channel struct for channel 0 in the curve asset \"ac_ButtonTween\", then loops through the points on the channel curve and adds one to their value.":"上面的代码在曲线资源 “ac_ButtonTween” 中检索通道0的通道结构，然后循环通过通道曲线上的点并将其值相加。",
     "The channel name (a string) or the channel index (an integer).":"通道名称 (字符串) 或通道索引 (整数)。",
@@ -10,6 +11,7 @@
     "The value of the point.":"点的值。",
     "The {}points{} member of the returned struct contains an array, which contains all of the channel\u0027s points as structs.":"返回的结构的{}points{}成员包含一个数组，该数组包含通道的所有点作为结构。",
     "The {}points{} member only allows you to get and set the array variable. You cannot run&nbsp;{}&nbsp;{}&nbsp;on the {}points{} array to modify it.":"{}points{}成员仅允许您获取和设置数组变量。您不能在{}points{}数组上运行{}{}来修改它。",
+    "The {}points{} member only allows you to get and set the array variable. You cannot run&nbsp;{}Array Functions{}&nbsp;on the {}points{} array to modify it.":"{}points{} 成员仅允许您获取和设置数组变量。您不能对 {4}points{5} 数组运行{}数组函数{}来修改它。",
     "This function will return the {}struct{} containing the channel data for the channel specified in an animation curve asset. You supply the animation curve ID or struct as well as the channel name or index, and the function will return a struct with the following format:":"此函数将返回{}struct{}，其中包含动画曲线资源中指定的频道数据。您提供动画曲线ID或struct以及通道名称或索引，该函数将返回具有以下格式的struct:",
     "This is an array, where each item in the array is a point struct.":"这是一个数组，其中数组中的每个项目都是一个点结构。",
     "This is the name of the channel.":"这是频道的名称。",

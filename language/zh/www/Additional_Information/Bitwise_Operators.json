@@ -61,5 +61,6 @@
     "{}Keys And Doors{}{}Keys And Doors{}":"{}Keys And Doors{}{}Keys And Doors{} 钥匙和门",
     "{}Looping Counters{}{}Looping Counters{}":"{}Looping Counters{}{}Looping Counters{} 循环计数器",
     "{}Power Of 2 Check{}{}Power Of 2 Check{}":"{}Power Of 2 Check{}{}Power Of 2 Check{} 检查2的次方",
-    "{}Tile Alignment{}{}Tile Alignment{}":"{}Tile Alignment{}{}Tile Alignment{} 图块对齐"
+    "{}Tile Alignment{}{}Tile Alignment{}":"{}Tile Alignment{}{}Tile Alignment{} 图块对齐",
+    "{}{}NOTE{}{}&nbsp;To write binary literals in GML, prefix them with {}0b{}&nbsp;(e.g. {}0b0010{}). See&nbsp;{}Data Types{}&nbsp;for more information.":"{}{}注意{}{} 要用 GML 编写二进制文字，请在它们前面加上 {}0b{}( 例如，{}0b0010{})。有关详细信息，请参阅{}数据类型{}。"
 }

@@ -21,5 +21,6 @@
     "While this manual will {}not{} cover any of the Open GL shader functions and variables, it does contain a list of the ones that are unique to {}GameMaker{}. These constants are not part of the Open GL specification for shaders and are supplied to simplify the integration of shaders within your projects.":"虽然本手册{}不{}涵盖任何 Open GL 着色器函数和变量，但它确实包含{}GameMaker{}独有的函数和变量列表。 这些常量不是用于着色器的Open GL规范的一部分，而是为了简化项目中着色器的集成。",
     "Windows, XboxOne":"Windows, XboxOne",
     "{}NOTE{}&nbsp;Shaders do {}not{} permit you to change the value of any variables that you pass into them, and so these will be called {}shader constants{} in all the documentation that refers to them.":"{}注意{}着色器不允许{}更改传入变量的任何变量的值，因此在引用这些变量的所有文档中，这些变量称为{}着色器常量{}。",
-    "{}NOTE{}: Shaders, like anything related to drawing, can {}only be used in the draw event{}. It is also worth noting that if you are trying to use a colour value in a shader and the object has no texture, the results will turn out black.":"{}注意{}：着色器，像任何与绘制相关的东西一样，只能在绘制事件{}中使用。同样值得注意的是，如果尝试在着色器中使用颜色值，并且对象没有纹理，则结果将变为黑色。"
+    "{}NOTE{}: Shaders, like anything related to drawing, can {}only be used in the draw event{}. It is also worth noting that if you are trying to use a colour value in a shader and the object has no texture, the results will turn out black.":"{}注意{}：着色器，像任何与绘制相关的东西一样，只能在绘制事件{}中使用。同样值得注意的是，如果尝试在着色器中使用颜色值，并且对象没有纹理，则结果将变为黑色。",
+    "{}Shaders{}":"{}着色器{}"
 }

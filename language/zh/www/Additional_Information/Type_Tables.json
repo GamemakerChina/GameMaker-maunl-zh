@@ -12,5 +12,6 @@
     "{}String{}":"{}String{} 字符串",
     "{}infinity{}":"{}infinity{} 无穷大",
     "{}undefined{}":"{}undefined{} 未定义",
+    "{}{}IMPORTANT{}{}&nbsp;Prior to GameMaker 2022.9, these tables were inverted -- the columns showed LHS and rows showed RHS. This was counter-intuitive and was changed to be the opposite.":"{}{}重要{}{} 在 GameMaker 2022.9 之前的版本中，这些表格是颠倒的 -- 列显示 LHS，行显示 RHS。这是违反直觉的，结果被改变为相反的情况。",
     "{}{}重要{}{}&nbsp;Prior to GameMaker 2022.9, these tables were the inverted -- the columns showed LHS and rows showed RHS. This was counter-intuitive and was changed.":"{}{}重要{}{} 在 GameMaker 2022.9 之前，这些表格是倒置的——列显示 LHS，行显示 RHS。 这是违反直觉的，已经改变了。"
 }
