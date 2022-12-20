@@ -1,0 +1,6 @@
+{
+    "The above code first creates a string and stores it in a temporary variable {}_message{}. It then checks if the string starts with the string {}\"Hello\"{} and shows a debug message if that is the case.":"上面的代码首先创建一个字符串，并将其存储在临时变量 {}_message{} 中。然后，它检查字符串是否以字符串 {}\"Hello\"{} 开头，如果是，则显示一条调试消息。",
+    "The string to check for the occurrence of the given substring at the start":"要检查给定子字符串在开头是否出现的字符串",
+    "The substring that the string should start with":"字符串开头的子字符串",
+    "This function checks if a string starts with the given substring. It returns {}true{} if it does, or {}false{} if it doesn\u0027t.":"此函数用于检查字符串是否以给定子字符串开头。如果有，则返回 {}true{}，否则返回 {}false{}。"
+}

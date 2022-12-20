@@ -1,0 +1,8 @@
+{
+    "Arguments that are not strings will have the {}{}string(){}{} function run on them implicitly. See {}Conversion From Non-String Types{}&nbsp;for information on how those data types are converted.":"不是字符串的参数将具有隐式运行的 {}{}string(){}{} 函数。有关如何转换这些数据类型的信息，请参阅 {} 从非字符串类型转换 {}。",
+    "The above code calls&nbsp;{}{}string_join{}{}&nbsp;to create a new string from a few phrases, joined together by the string {}\"... \"{}. The result is stored in a variable named&nbsp;{}countdown_message{}.":"上面的代码调用 {}{}string_join{}{} 从几个短语创建一个新字符串，这些短语由字符串 {}\"...\"{} 连接在一起。结果存储在名为 {}countdown_message{} 的变量中。",
+    "The first value to join":"要加入的第一个值",
+    "The string to insert between the values":"要在值之间插入的字符串",
+    "This function joins together the string representations of all arguments that are passed to it, inserting the given \"delimiter\" between each argument. The function returns the joined string.":"该函数将传递给它的所有参数的字符串表示形式连接在一起，在每个参数之间插入给定的\"分隔符\"。该函数返回联接的字符串。",
+    "{}{}OPTIONAL{}{}&nbsp;The other values to join":"{}{}可选{}{} 要加入的其他值"
+}

@@ -1,0 +1,8 @@
+{
+    "The above code first creates an array with the first ten letters of the alphabet and stores it in a temporary variable {}_some_letters{}. It then calls&nbsp;{}{}string_concat_ext{}{}&nbsp;on this array with an offset (starting position) of -5 (at the position of the letter \"f\") and a length of -3 (3 elements going from right to left).":"上面的代码首先创建一个包含字母表前十个字母的数组，并将其存储在临时变量 {}_some_letters{} 中。然后，它对该数组调用 {}{}string_concat_ext{}{}，偏移量 (起始位置) 为 -5 (在字母 \"f\" 的位置)，长度为 -3 (从右到左有 3 个元素)。",
+    "The array of values to concatenate":"要连接的值数组",
+    "This function concatenates (joins together) the string representations of all elements in the given array, and returns the result as a new string.":"此函数将给定数组中所有元素的字符串表示形式连接(联接在一起)，并将结果作为新字符串返回。",
+    "Values that are not strings will have the {}{}string(){}{} function run on them implicitly. See {}Conversion From Non-String Types{}&nbsp;for information on how those data types are converted.":"不是字符串的值将具有隐式运行的 {}{}string(){}{} 函数。有关如何转换这些数据类型的信息，请参阅 {} 从非字符串类型转换 {} 。",
+    "{}{}OPTIONAL{}{}&nbsp;The number of array elements to concatenate, starting at the offset.&nbsp;A negative value will traverse the array backwards (i.e. in descending order of indices, e.g. 2, 1, 0 instead of 2, 3, 4). See:&nbsp;{}Offset And Length{}":"{}{}可选{}{} 要连接的数组元素的数量，从偏移量开始。 负值将向后遍历数组(即按索引的降序，例如 2，1，0 而不是 2，3，4)。请参阅： {}偏移量和长度{}",
+    "{}{}OPTIONAL{}{}&nbsp;The offset, or starting index, in the array to start concatenating elements.&nbsp;Setting a negative value will count from the end of the array. The starting index will then be {}array_length(array) + offset{}. See:&nbsp;{}Offset And Length{}":"{}{}可选{}{} 数组中开始连接元素的偏移量或起始索引。设置负值将从数组的末尾开始计算。然后，起始索引将是 {}array_length(array) + offset{}。请参阅：{}偏移量和长度{}"
+}

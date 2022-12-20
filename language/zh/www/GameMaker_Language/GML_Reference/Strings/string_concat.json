@@ -1,0 +1,8 @@
+{
+    "Arguments that are not strings will have the {}{}string(){}{} function run on them implicitly. See {}Conversion From Non-String Types{}&nbsp;for information on how those data types are converted.":"不是字符串的参数将具有隐式运行的 {}{}string(){}{} 函数。有关如何转换这些数据类型的信息，请参阅 {} 从非字符串类型转换 {} 。",
+    "If you want to join strings with certain characters between them, use {}{}string_join(){}{}.":"如果要连接包含某些字符的字符串，请使用 {}{}string_join(){}{}。",
+    "The above code calls&nbsp;{}{}string_concat{}{}&nbsp;on a series of letters to make a word. The new string is stored in a variable {}result{}.":"上面的代码对一系列字母调用 {}{}string_concat{}{} 组成一个单词。新字符串存储在变量 {}result{} 中。",
+    "The first value to concatenate":"要连接的第一个值",
+    "This function concatenates&nbsp;(joins together) the string representations of all arguments that are passed to it, and returns the result as a new string.":"此函数连接(联接在一起)传递给它的所有参数的字符串表示形式，并将结果作为新字符串返回。",
+    "{}{}OPTIONAL{}{}&nbsp;Additional values to concatenate":"{}{}可选{}{} 要连接的其他值"
+}

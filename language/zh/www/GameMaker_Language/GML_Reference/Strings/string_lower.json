@@ -1,5 +1,7 @@
 {
     "The above code will set {}str2{} to \"hello world\".":"上述代码将{} str2 {}设置为“hello world”。",
+    "The string to convert to lowercase.":"要转换为小写的字符串。",
     "With this function you can force a string to contain only lower case characters.":"使用此函数，您可以强制字符串仅包含小写字符。",
-    "{}NOTE{} This function only detects the 26 letter English alphabet from A - Z.":"{}注意{}此函数仅检测从A到Z的26个英文字母。"
+    "{}NOTE{} This function only detects the 26 letter English alphabet from A - Z.":"{}注意{}此函数仅检测从A到Z的26个英文字母。",
+    "{}{}NOTE{}{}&nbsp;This function only detects the 26 letter English alphabet from A - Z.":"{}{}注意{}{} 此函数仅检测 A-Z 中的 26 个英文字母。"
 }

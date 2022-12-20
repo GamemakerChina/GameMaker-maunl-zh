@@ -436,6 +436,7 @@
     "Status Value":"状态值",
     "Step Event":"步事件",
     "String":"字符串(String)",
+    "String Escape Characters":"字符串转义字符",
     "Strings":"字符串",
     "Struct":"结构(Struct)",
     "Struct Forbidden Variables":"结构禁用变量",

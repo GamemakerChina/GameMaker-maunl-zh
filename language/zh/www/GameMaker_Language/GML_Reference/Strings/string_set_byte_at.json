@@ -4,5 +4,6 @@
     "The position within the string (starting at 1) to change the byte of.":"字符串内的位置 (从1开始) 更改的字节。",
     "The string to change the byte of.":"要更改的字节的字符串。",
     "This function sets a byte directly in a string (based on the UTF8 format) and returns a copy of the string with the changes.":"此函数直接在字符串中设置一个字节 (基于UTF8格式)，并返回带有更改的字符串的副本。",
-    "{}NOTE{} This function is incredibly slow so consider carefully whether it is necessary and where you use it.":"{} 注意 {} 此函数非常慢，因此请仔细考虑是否有必要以及在何处使用它。"
+    "{}NOTE{} This function is incredibly slow so consider carefully whether it is necessary and where you use it.":"{} 注意 {} 此函数非常慢，因此请仔细考虑是否有必要以及在何处使用它。",
+    "{}{}NOTE{}{}&nbsp;This function is incredibly slow so consider carefully whether it is necessary and where you use it.":"{}{}注意{}{} 此函数非常慢，因此请仔细考虑是否有必要使用它以及在哪里使用它。"
 }
