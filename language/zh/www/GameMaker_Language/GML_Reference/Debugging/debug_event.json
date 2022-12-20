@@ -1,4 +1,5 @@
 {
+    "\"{}BreakOnError{}\" - This option is for {}Windows YYC{} builds only, and means that projects will {}not{} display the usual code error screen if the runtime detects an error, but instead just carry on and crash. This allows you to see the stack trace within Visual Studio if debugging.":"\"{}BreakOnError{}\"- 此选项仅适用于 {}Windows YYC{} 构建，这意味着如果运行时检测到错误，项目将{}不会{}显示常见的代码错误屏幕，而是继续运行并崩溃。这使您可以在调试时查看 Visual Studio 中的堆栈跟踪。",
     "\"{}BreakOnError{}\" - This option is for {}Windows YYC{} builds only, and means that projects will {}not{} display the usual code error screen if the runtime detects an error, but instead just carry on and crash. This allows you to see the stacktrace within Visual Studio if debugging.":"\"{}BreakOnError{}\"-此选项仅用于{}Windows YYC{}构建，这意味着如果运行时检测到错误，项目将不会{}显示通常的代码错误屏幕，而只是继续并崩溃。如果调试，这允许您在Visual Studio中查看stacktrace。",
     "\"{}DumpMemory{}\" - Gives information on the current memory usage.":"\"{}DumpMemory{}\"-提供有关当前内存使用情况的信息。",
     "\"{}OutputDebugOff{}\" - Disables the behaviour described above.":"\"{}OutputDebugOff{}\"-禁用上述行为。",

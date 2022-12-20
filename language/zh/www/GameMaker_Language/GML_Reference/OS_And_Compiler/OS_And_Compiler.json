@@ -1,6 +1,7 @@
 {
     "Certain functions are {}pre-compiled{} when you run your game (ie: they are used to define how the final game will be compiled), and some are also for use when the game has been compiled to get specific details about the runtime environment. Here you can find the full list of these functions:":"某些函数在运行游戏时会被{}预编译{}(即: 它们用于定义最终游戏的编译方式)，并且某些函数也用于在编译游戏以获取有关运行时环境的特定详细信息时使用。在这里，您可以找到这些函数的完整列表:",
     "Clipboard":"剪贴板",
+    "Extensions":"扩展",
     "Finally, when working with {}Extensions{} you may need to be able to define and call external functions at runtime, and so you\u0027d use the following:":"最后，使用{}扩展{}时，您可能需要能够在运行时定义和调用外部函数，因此您可以使用以下内容:",
     "OS And Compiler":"操作系统和编译器",
     "OS and Browser":"操作系统和浏览器",

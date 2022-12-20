@@ -97,6 +97,7 @@
     "Boolean":"布尔型",
     "Broadcast Messages":"广播消息",
     "Brush Builder":"笔刷生成器",
+    "Buffer Data Type Constant":"缓冲区数据类型常量",
     "Buffers":"缓冲区",
     "Build tools are external applications that GameMaker Studio 2 requires to generate executable packages for the different target platforms.":"生成工具是GameMaker Studio 2生成用于不同目标平台的可执行程序包所需的外部应用程序。",
     "Building via Command Line":"通过命令行构建",

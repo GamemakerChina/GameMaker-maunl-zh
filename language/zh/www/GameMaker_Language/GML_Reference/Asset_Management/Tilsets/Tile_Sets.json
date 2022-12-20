@@ -1,3 +1,4 @@
 {
-    "The following functions are available when working with tile set assets, as created in the {}Asset Browser{}. These functions are&nbsp;{}only{}&nbsp;for dealing with the asset itself, and not for working with tiles or tile maps when they are present in your game (for that see the appropriate layer functions on the section on {}Rooms{}).":"使用在{}资源浏览器{}中创建的平铺集资源时，以下函数可用。 这些函数{}仅用于{}处理资源本身，当游戏中存在平铺或平铺地图时，不用于处理它们(请参阅{}房间{}部分的相应层函数)。"
+    "The following functions are available when working with tile set assets, as created in the {}Asset Browser{}. These functions are&nbsp;{}only{}&nbsp;for dealing with the asset itself, and not for working with tiles or tile maps when they are present in your game (for that see the appropriate layer functions on the section on {}Rooms{}).":"使用在{}资源浏览器{}中创建的平铺集资源时，以下函数可用。 这些函数{}仅用于{}处理资源本身，当游戏中存在平铺或平铺地图时，不用于处理它们(请参阅{}房间{}部分的相应层函数)。",
+    "The functions available are:":"可用的函数包括："
 }

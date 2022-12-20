@@ -7,6 +7,8 @@
     "The above code starts a buffer group then sets the group options before it sets 4 files to save asynchronously. The group definition is then ended (at which point saving will begin).":"上面的代码启动一个缓冲区组，然后设置组选项，然后设置4个文件异步保存。然后结束组定义(此时将开始保存)。",
     "The option to set.":"设置选项。",
     "The value to set (can be a real or string, depending on the option).":"要设置的值(可以是实数或字符串，取决于选项)。",
+    "These are some options for PlayStation only. Please refer to {}this Helpdesk article{} for information (you\u0027ll need to be logged in with your developer access account).":"以下是一些仅适用于 PlayStation 的选项。有关信息(您需要使用您的开发人员访问帐户登录)，请参阅{}本帮助台文章{}。",
     "With this function you can set some platform specific options for the buffer group being saved/loaded. The options available are as follows:":"使用此函数，您可以为正在保存/加载的缓冲区组设置一些平台特定的选项。可用选项如下：",
-    "{}IMPORTANT!{} This function is currently only valid for the PSVita, PS4 and XBox One target modules. On all the other targets it will do nothing.":"{}重要！{}此函数目前仅对PSVita、PS4和Xbox One目标模块有效。在所有其他目标上，它什么也不会做。"
+    "{}IMPORTANT!{} This function is currently only valid for the PSVita, PS4 and XBox One target modules. On all the other targets it will do nothing.":"{}重要！{}此函数目前仅对PSVita、PS4和Xbox One目标模块有效。在所有其他目标上，它什么也不会做。",
+    "{}{}IMPORTANT{}{}&nbsp;This function is only valid for PlayStation, Xbox and Nintendo Switch targets. On all the other targets it will do nothing.":"{}{} 重要 {}{} 此函数仅对 PlayStation、Xbox 和 Nintendo Switch 目标有效。在所有其他目标上，它不会采取任何行动。"
 }
