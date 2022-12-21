@@ -1,6 +1,7 @@
 {
     "3D (5.1) audio":"3D(5.1)音频",
     "Adding anything to the buffer, or changing the buffer size, after it has had a sound created from it, will give unexpected results and is not recommended - once you have started creating sounds from any buffer you should not manipulate it in any other way afterwards.":"在从缓冲区创建声音后，向缓冲区添加任何内容或更改缓冲区大小都会产生意外的结果，不建议这样做-一旦您开始从任何缓冲区创建声音，之后就不应以任何其他方式对其进行操作。",
+    "Audio Channel Constant":"音频通道常量",
     "Mono (single channel) audio":"单声道音频",
     "Note that after you have created a sound, you should free the pointer index associated with it when it is no longer required using the function {}{}audio_free_buffer_sound(){}{}. If you fail to do this and then re-assign the variable or change rooms etc. the sound ID will be lost and you will have a memory leak.":"请注意，创建声音后，当不再需要使用函数{}{}audio_free_buffer_sound(){}{}时，应释放与之关联的指针索引。 如果您没有这样做，然后重新分配变量或更改房间等。 声音ID将丢失，您将发生内存泄漏。",
     "Stereo (dual channel) audio":"立体声(双声道)音频",

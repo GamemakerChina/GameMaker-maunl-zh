@@ -1,5 +1,6 @@
 {
-    "Audio Falloff Constant":"",
+    "Audio Falloff Constant":"音频衰减常量",
+    "Falloff Models":"衰减模型",
     "The \"{}_scaled{}\" models are scaled in such a way that sounds are guaranteed to fall off entirely by the maximum distance.":"\"{}_scaled{}\"模型的缩放方式确保声音以最大距离完全脱落。",
     "The above code sets the falloff model and then plays the sound indexed in the variable \"snd_Waterfall\", which will be looped at its room position, with a fall-off reference of 100, a falloff distance of 300, a falloff factor of 1 and a low priority.":"上述代码设置衰减模型，然后播放在变量\"snd_Waterfall\"中索引的声音，该声音将在其房间位置循环，衰减参考值为100，衰减距离为300，衰减因子为1，优先级较低。",
     "The default falloff model is {}audio_falloff_none{}, meaning there is no falloff when using emitters or positioned audio unless you change the falloff model.":"默认衰减模型为{}audio_falloff_none{}，这意味着使用发射器或定位音频时没有衰减，除非您更改衰减模型。",

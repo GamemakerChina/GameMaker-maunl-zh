@@ -1,4 +1,4 @@
 {
-    "The above code gets the current listener mask data and compares it to the data stored in a global variable. If they are not the same, the code checks the number of listeners available then loops through them and gets their mask bits, which are then combined to create a single mask which is applied to the audio system to define the global listeners.":"上面的代码获取当前侦听器掩码数据，并将其与存储在全局变量中的数据进行比较。如果它们不相同，代码将检查可用侦听器的数量，然后循环通过它们并获取它们的掩码位，然后将其组合以创建应用于音频系统以定义全局侦听器的单个掩码。",
-    "This function will return the bit-mask data that defines the current default (global) mask for the audio listeners.":"此函数将返回为音频侦听器定义当前默认(全局)掩码的位掩码数据。"
+    "The above code gets the current listener mask data and compares it to the data stored in a global variable. If they are not the same, the code checks the number of listeners available then loops through them and gets their mask bits, which are then combined to create a single mask which is applied to the audio system to define the global listeners.":"上面的代码获取当前监听器掩码数据，并将其与存储在全局变量中的数据进行比较。如果它们不相同，代码将检查可用监听器的数量，然后循环通过它们并获取它们的掩码位，然后将其组合以创建应用于音频系统以定义全局监听器的单个掩码。",
+    "This function will return the bit-mask data that defines the current default (global) mask for the audio listeners.":"此函数将返回为音频监听器定义当前默认(全局)掩码的位掩码数据。"
 }
