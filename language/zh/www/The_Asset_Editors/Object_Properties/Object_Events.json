@@ -69,7 +69,7 @@
     "{}Collision{}{}Collision{}":"{}碰撞{}{}碰撞{}",
     "{}Convert To GML Visual / Code{} - Object events will be created using the method chosen when you created the project, either using GML Code or GML Visual actions. With this option you can convert from one to the other, regardless of the project type.":"{}转换为 GML 可视化 / 代码 {}- 对象事件将使用您在创建项目时选择的方法创建，使用 GML 代码或 GML 可视化操作。使用此选项，您可以从一个转换为另一个，而不考虑项目类型。",
     "{}Convert To GML Visual / Code{} - Object events will be created using the method chosen when you created the project, either using code or using GML Visual actions. With this option you can convert from one to the other, regardless of the project type.":"{}Convert To GML Visual / Code{} - 对象事件将使用你创建项目时选择的方法创建，可以使用代码或使用GML Visual动作。有了这个选项，你可以从一个转换到另一个，不管项目类型如何。",
-    "{}Create{}{}Create{}":"{}Create{}{}Create{}",
+    "{}Create{}{}Create{}":"{}创建{}{}创建{}",
     "{}Cut {}/ {}Copy {}/ {}Paste Events{} - Cut, copy or paste the selected event. You can use the standard keyboard shortcuts too: {}&nbsp;/&nbsp;{} + {}X{}, {}&nbsp;/&nbsp;{}&nbsp;+ {}C{}, and {}&nbsp;/&nbsp;{}&nbsp;+ {}V{}.":"{}剪切{}/ {}复制{}/ {}粘贴事件{} - 剪切、复制或粘贴所选事件。你也可以使用标准的键盘快捷键：{}&nbsp;/&nbsp;{}+ {}X{}, &nbsp，{}&nbsp;/&nbsp;{}&nbsp;+{}C{}，以及{}&nbsp;/&nbsp;{}&nbsp;+{}V{}。",
     "{}Delete Event{} - Delete the event (or events).":"{}删除事件{} - 删除事件（或多个事件）。",
     "{}Destroy{}{}Destroy{}":"{}销毁{}{}销毁{}",
@@ -100,6 +100,5 @@
     "{}This is the list of all the basic events and event categories which an object can respond to, and within each category are sub events to further refine behaviours. For example, if you click on the {}K{}{}ey Press{} {}&nbsp;event category you will then get a further window popping up with the events that allow you to select {}which {}key the object should respond to.":"{}这是一个对象可以响应的所有基本事件和事件类别的列表，每个类别中都有子事件来进一步细化行为。例如，如果你点击{}K{}{}ey Press{} {}&nbsp;事件类别，你就会弹出一个进一步的窗口，让你选择{}对象应该对哪个{}键做出响应。",
     "{}the game ends{}":"{}游戏结束{}",
     "{}the instance is destroyed{}":"{}该实例被销毁{}",
-    "{}the room ends{}":"{}进入别的房间{}",
-    "{}{}{}Create{}{}Create{}{}":"{}{}{}创建{}{}创建{}{}"
+    "{}the room ends{}":"{}进入别的房间{}"
 }
