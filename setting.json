@@ -4,5 +4,6 @@
 	"importPath":"patch/import",
 	"mainJs":"patch/main.js",
 	"template":"patch/template.htm",
-	"team":"patch/team.htm"
+	"team":"patch/team.htm",
+	"patch_eq": 4
 }
