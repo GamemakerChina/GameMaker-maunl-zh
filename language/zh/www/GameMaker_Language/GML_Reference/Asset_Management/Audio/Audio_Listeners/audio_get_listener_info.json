@@ -7,5 +7,5 @@
     "The listener number to get the data for.":"要为其获取数据的监听器编号。",
     "The mask value can be used to set a sound or emitter to play from multiple listeners at once, simply using the bitwise {}or{} \"|\" to generate a mask for the sound (see the example code below), while the index is used to set the properties like position or velocity for a given listener using functions like {}{}audio_listener_set_position(){}{}.":"掩码值可用于将声音或发射器设置为一次从多个监听器播放，只需使用按位{}或{}\"|\"为声音生成掩码(请参阅下面的示例代码)，而索引可用于使用{}{}audio_listener_set_position(){}{}等函数为给定监听器设置位置或速度等属性。",
     "This function will create a {}DS map{} and populate it with information for the given listener.":"此函数将创建一个{}DS map{}，并用给定监听器的信息填充它。",
-    "{}{}NOTE{} {}You are responsible for the destruction of the returned {}DS Map{} using the appropriate function.":"{}{}注意{}{} 您应负责使用适当的功能销毁归还的{} DS 映射{}。"
+    "{}{}NOTE{} {}You are responsible for the destruction of the returned {}DS Map{} using the appropriate function.":"{}{}注意{}{} 您应负责使用适当的函数销毁归还的{} DS 映射{}。"
 }

@@ -1,7 +1,7 @@
 {
     "If the function fails, then it will fail silently without replacing the given sprite font.":"如果函数失败，那么它将在不替换给定的sprite字体的情况下静默失败。",
     "It is also worth noting that there cannot be any {}spaces{} in the character map, so that if you, for example, use \u0027.\u0027 and \u00270\u0027 but not \u0027/\u0027, you need to either include \u0027/\u0027 anyway or leave a blank sub-image between the two used characters. The image below shows a typical sprite font layout:":"还值得注意的是，字符映射中不能有任何{}空格{}，因此，例如，如果您使用‘.’和‘0’，而不是‘/’，则需要包括‘/’，或者在两个使用的字符之间留下一个空白的子图。下图显示了典型的精灵字体布局：",
-    "The above code will replace the font asset indexed in the global variable \"Font\" with a new font asset from an external image file.":"上面的代码将用外部图像文件中的新字体资产替换全局变量 \"Font\" 中索引的字体资产。",
+    "The above code will replace the font asset indexed in the global variable \"Font\" with a new font asset from an external image file.":"上面的代码将用外部图像文件中的新字体资源替换全局变量 \"Font\" 中索引的字体资源。",
     "The index of the first available character.":"第一个可用字符的索引。",
     "The index of the font that shall be replaced (ie all references to this resource past this function will refer to the new font, not the original).":"将被替换的字体的索引(即在此函数之后对此资源的所有引用将引用新字体，而不是原始字体)。",
     "The space between each letter, 0 meaning the right of one letter just touches the left of the next one.":"每个字母之间的空格，0表示一个字母的右边刚好接触下一个字母的左边。",
