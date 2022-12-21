@@ -109,8 +109,11 @@ cd GameMakerManualExport
 npm config set registry https://registry.npmmirror.com # 如果速度慢执行该命令
 npm install
 
-# 同时导入文档和目录并注入翻译信息和 CSS
-npm run start:all
+# 同时导入文档、目录、词汇表并注入CSS
+pnpm run start:import
+
+# 注入翻译译者信息
+pnpm run start:team
 ```
 
 若是通过下载zip的方式获取，请到 [GameMakerManualExport](https://github.com/GamemakerChina/GameMakerManualExport) 手动下载解压并放到 `GameMakerManualExport` 下
