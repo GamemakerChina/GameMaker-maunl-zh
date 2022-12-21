@@ -3,5 +3,5 @@
     "The handle of the shader constant to set.":"要设置的着色器常量的句柄。",
     "The integer value (or values) to set the shader constant to.":"要将着色器常量设置为的整数值。",
     "With this function you can set the value (or values) of a shader constant. You must previously have gotten the \"handle\" of the constant using the function {}{}shader_get_uniform(){}{}, and you will have to know what type of constant it is to pass the correct number of integer values through to it, ie: if you have a {}vec2{} you will need to pass two values to the function.":"使用此函数，可以设置着色器常量的值。您必须之前使用函数{}{}shader_get_uniform(){}{}获得常量的\"句柄\"，并且您必须知道将正确数目的整数值传递给它的常量类型，即：如果您有一个{}vec2{}，则需要将两个值传递给函数。",
-    "{}{}{}NOTE{}: All uniforms must be set {}after{} calling the function {}{}{}shader_set(){}{}{}, and before calling {}{}{}shader_reset(){}{}{}.":"{}{}{}注意{}{}：在{}调用函数{}{}{}shader_set(){}{}{}后，在调用{}{}{}shader_reset(){}{}{}之前，必须设置所有uniforms。"
+    "{}{}{}NOTE{}: All uniforms must be set {}after{} calling the function {}{}{}shader_set(){}{}{}, and before calling {}{}{}shader_reset(){}{}{}.":"{}{}{}注意{}{}：在{}调用函数 {}{}{}shader_set(){}{}{} 之后，在调用 {}{}{}shader_reset(){}{}{} 之前，必须设置所有 uniform 。"
 }

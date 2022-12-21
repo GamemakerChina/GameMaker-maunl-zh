@@ -1,4 +1,4 @@
 {
     "The above code will set a shader to be used for drawing, then draw the current sprite used for the instance using it. Finally it will reset the shader to revert to GameMaker\u0027s default shader.":"上面的代码将设置用于绘制的着色器，然后绘制用于使用它的实例的当前精灵。最后，它将重置着色器以恢复到GameMaker的默认着色器。",
-    "This function resets the shader used for drawing&nbsp;and should be called when you no longer wish to use the current shader (set using {}{}shader_set(){}{}).":"此函数重置用于绘图的着色器，当您不再希望使用当前着色器(使用{}{}着色器_set(){}{}设置)时应调用该着色器。"
+    "This function resets the shader used for drawing&nbsp;and should be called when you no longer wish to use the current shader (set using {}{}shader_set(){}{}).":"此函数重置用于绘图的着色器，当您不再希望使用当前着色器(使用{}{}shader_set(){}{}设置)时应调用该着色器。"
 }

@@ -411,6 +411,7 @@
     "Sequences Preferences":"序列偏好",
     "Setting Up The Git Plugin":"设置 Git 插件",
     "Shader Language":"着色器语言",
+    "Shader Uniforms":"着色器 Uniforms 常量",
     "Shaders":"着色器",
     "Shaders.htm":"着色器",
     "Short for \u0027Graphical User Interface\u0027, which is a user interface that includes graphical elements, such as windows, icons and buttons. In GameMaker you have a specific set of object events (Draw GUI Events) that can draw to this layer specifically designed for things like score, lives, inventories, etc...":"“图形用户界面”（Graphical User Interface）的缩写，它是一个包含图形元素（例如窗口，图标和按钮）的用户界面。在GameMaker中，您有一组特定的对象事件（绘图GUI事件），可以将其吸引到专门为得分，生命，存货等事物设计的这一层。",
