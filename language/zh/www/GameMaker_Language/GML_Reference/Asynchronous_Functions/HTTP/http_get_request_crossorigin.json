@@ -1,4 +1,5 @@
 {
     "The above code will first check the currently set cross origin type and if it is not \"use-credentials\" then it is set to \"use-credentials\" and then a sprite is added from a file.":"上面的代码将首先检查当前设置的跨源类型，如果不是“use-credentials”，则将其设置为“use-credentials”，然后从文件中添加一个精灵。",
-    "This function can be used to get the cross-origin type set for HTML5 games and will return a string (on all other platforms an empty string \"\" will be returned).":"此函数可用于获取为 HTML5 游戏设置的跨源类型，并将返回一个字符串（在所有其他平台上将返回一个空字符串 \"\"）。"
+    "This function can be used to get the cross-origin type set for HTML5 games and will return a string (on all other platforms an empty string \"\" will be returned).":"此函数可用于获取为 HTML5 游戏设置的跨源类型，并将返回一个字符串（在所有其他平台上将返回一个空字符串 \"\"）。",
+    "This function can be used to get the cross-origin type set for HTML5 games and will return a string (on all other platforms an empty string {}\"\"{} will be returned).":"该函数用于获取 HTML5 游戏设置的跨域类型，返回一个字符串 (其他平台返回空字符串 {}\"\"{})。"
 }

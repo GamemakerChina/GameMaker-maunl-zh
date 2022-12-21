@@ -14,5 +14,6 @@
     "{}result: {}The data received (string only).":"{}result 结果: {}收到的数据(仅字符串)。",
     "{}status: {}Returns a value of less than 0 for an error, 0 for complete and 1 for receiving packets (see below for more details).":"{}status 状态：{}返回小于 0 的值表示错误，0 表示完成，1 表示接收数据包（详情请见下文）。",
     "{}url: {}The complete URL you requested.":"{}url：{}您请求的完整 URL。",
-    "{}{}NOTE{} {}You should be aware that due to XSS protection in browsers, requests to and attempts to load resources from across domains are blocked and may appear to return blank results. Please see the part on {}Cross Domain Issues{} for further details.":"{}{}注意{}{}您应该注意，由于浏览器中的XSS保护，从跨域加载资源的请求和尝试被阻止，可能会返回空白结果。请参阅{}跨域问题{}部分了解更多细节。"
+    "{}{}NOTE{} {}You should be aware that due to XSS protection in browsers, requests to and attempts to load resources from across domains are blocked and may appear to return blank results. Please see the part on {}Cross Domain Issues{} for further details.":"{}{}注意{}{}您应该注意，由于浏览器中的XSS保护，从跨域加载资源的请求和尝试被阻止，可能会返回空白结果。请参阅{}跨域问题{}部分了解更多细节。",
+    "{}{}NOTE{} {}You should be aware that due to XSS protection in browsers, requests to and attempts to load resources from across domains are blocked and may appear to return blank results. Please see&nbsp;{}Cross Domain Issues{}&nbsp;for further details.":"{}{}注意{}{} 您应该知道，由于浏览器中的 XSS 保护，跨域加载资源的请求和尝试都会被阻止，并且可能会返回空白结果。有关详细信息，请参阅 {} 跨域问题 {} 。"
 }
