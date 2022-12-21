@@ -1,5 +1,7 @@
 {
     "A dynamic instance is one that is fully simulated within the physics world and this {}read-only{} variable will return {}true{} if the instance being checked is fully simulated or {}false{} if it is not":"动态实例是在物理世界中完全模拟的实例，如果检查的实例是完全模拟的，则此 {} 只读 {} 变量将返回 {}true{}，如果不是，则返回 {}false{}",
+    "A dynamic instance is one that is fully simulated within the physics world and this {}read-only{} variable will return {}true{} if the instance being checked is fully simulated or {}false{} if it is not.":"动态实例是在物理世界中完全模拟的实例，如果被检查的实例是完全模拟的，则该{}只读{}变量将返回 {}true{}，否则返回 {}false{}。",
+    "The above code checks if the other instance is a dynamic physics instance. If it is, some code is executed in this other instance: the direction between the two instances is calculated using&nbsp;{}{}point_direction{}{} and an impulse of 100 is applied to the other instance using&nbsp;{}{}physics_apply_impulse{}{}.":"上面的代码检查另一个实例是否为动态物理实例。如果是，则在这个另一个实例中执行一些代码：使用 {}{}point_direction{}{} 计算两个实例之间的方向，并使用 {}{}physics_apply_impulse{}{} 对另一个实例应用脉冲 100。",
     "The above code creates a new instance and then defines it as being a \"bullet\" in the physics world before giving it a massive impulse along the y axis.":"上面的代码创建了一个新实例，然后将其定义为物理世界中的 \"子弹\"，然后沿 Y 轴给它一个巨大的脉冲。",
     "{}{}Boolean{}{} (or {}undefined{} if the instance is not physics enabled)":"{}{}Boolean{}{} (如果未启用物理实例，则为 {}undefined{})"
 }

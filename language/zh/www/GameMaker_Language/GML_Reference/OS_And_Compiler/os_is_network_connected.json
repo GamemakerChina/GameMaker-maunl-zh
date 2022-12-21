@@ -1,13 +1,19 @@
 {
-    "Attempt Connection Constant":"尝试连接常数",
+    "Attempt Connection Constant":"尝试连接常量",
     "It will return {}true{} if it does, or {}false{} if it does not. Depending on the value of the {}attempt_connection{} argument and the OS, it may attempt to make a connection before returning a value.":"如果是，它将返回{}TRUE{}，如果不是，它将返回{}FALSE{}。根据{}attempt_connection{}参数的值和OS ，它可能会尝试在返回值之前进行连接。",
     "The above code checks to see if the device has a connection to the internet and if so it sets a global variable.":"上面的代码检查设备是否连接到互联网，如果连接到互联网，它会设置一个全局变量。",
     "The function has an optional argument to enable/disable it attempting to make a connection when called, and this option is currently&nbsp;{}only{}&nbsp;for the Nintendo Switch target. When set to anything other than&nbsp;{}network_connect_none{} the function will attempt to make a connection, and when set to {}network_connect_none{}&nbsp;it will simply be limited to checking the connection. Note that attempting to make a connection using {}network_connect_blocking{}&nbsp;may cause the Switch OS to hang for a few seconds.":"该函数有一个可选参数，用于在调用时启用/禁用尝试建立连接，此选项当前{}仅{}用于Nintendo Switch目标。当设置为{}网络_连接_无{}以外的任何值时，该函数将尝试建立连接，而当设置为{}network_connect_none{}时，该函数将仅限于检查连接。请注意，尝试使用{}network_connect_blocking{}来建立连接可能会导致交换机操作系统挂起几秒钟。",
+    "The function has an optional argument to enable/disable it attempting to make a connection when called. When set to anything other than&nbsp;{}network_connect_none{} the function will attempt to make a connection, and when set to {}network_connect_none{}&nbsp;it will simply be limited to checking the connection. Note that attempting to make a connection using {}network_connect_blocking{}&nbsp;may cause the OS to hang for a few seconds.":"该函数有一个可选参数，用于启用 / 禁用它在调用时尝试建立连接。当设置为{}network_connect_none{} 以外的任何值时，该函数将尝试建立连接当设置为 {}network_connect_none{}时，它将仅限于检查连接。请注意，尝试使用 {}network_connect_blocking{}建立连接可能会导致操作系统挂起几秒钟。",
     "This attempts to connect and blocks execution while trying.":"这会尝试连接并在尝试时阻止执行。",
     "This does not attempt to connect.":"这不会尝试连接。",
     "This will actively prompt the user to fix the connection.":"这将主动提示用户修复连接。",
     "This will try to connect and silently fail if no succesful connection could be established.":"如果无法建立成功的连接，这将尝试连接并静默失败。",
+    "This will try to connect and silently fail if no successful connection could be established.":"这将尝试连接，如果无法成功建立连接，则会以静默方式失败。",
     "With this function you can check and see if your device currently has an internet connection.":"使用此函数，您可以检查您的设备当前是否有互联网连接。",
+    "With this function you can check if your device currently has an internet connection.":"使用此函数，您可以检查您的设备当前是否有互联网连接。",
+    "You can pass one of the following constants into the {}attempt_connection{} argument:":"您可以将以下常量之一传递给 {}attempt_connection{} 参数：",
+    "{}{}NOTE{}{}&nbsp;This function checks the internal device API that controls connections and so may return {}true{} if there is a Bluetooth connection, a Wi-Fi connection, or even just a normal network connection that permits internet access. This means it may not always be accurate on all platforms.":"{}{} 注意 {}{} 此函数检查控制连接的内部设备 API，因此如果存在蓝牙连接、Wi-Fi 连接，甚至只是允许互联网访问的正常网络连接，则可能返回 {}true{}。这意味着它在所有平台上可能并不总是准确的。",
     "{}{}NOTE{}{}&nbsp;This function checks the internal device API that controls connections and so may return {}true{} if there is a bluetooth connection, a Wi-Fi connection, or even just a normal network connection that permits internet access.":"{}{}注意{}{}此函数检查控制连接的内部设备API，因此如果有蓝牙连接、Wi-Fi连接，甚至只是允许互联网访问的普通网络连接，则可能会返回{}true{}。",
-    "{}{}OPTIONAL{}{}&nbsp;For the Nintendo Switch target&nbsp;{}only{}. Set this parameter to a value other than {}network_connect_none{} / {}false{}&nbsp;to attempt an OS level connection when called.":"{}{}可选{}{}{} 仅{}适用于任天堂Switch目标。将此参数设置为{}network_connect_none{}/{}false{}以外的值，以便在调用时尝试操作系统级别的连接。"
+    "{}{}OPTIONAL{}{}&nbsp;For the Nintendo Switch target&nbsp;{}only{}. Set this parameter to a value other than {}network_connect_none{} / {}false{}&nbsp;to attempt an OS level connection when called.":"{}{}可选{}{}{} 仅{}适用于任天堂Switch目标。将此参数设置为{}network_connect_none{}/{}false{}以外的值，以便在调用时尝试操作系统级别的连接。",
+    "{}{}OPTIONAL{}{}&nbsp;Set this parameter to a value other than {}network_connect_none{}&nbsp;to attempt an OS level connection when called.":"{}{}可选{}{} 将此参数设置为 {}network_connect_none{} 以外的值，以在调用时尝试操作系统级别的连接。"
 }
