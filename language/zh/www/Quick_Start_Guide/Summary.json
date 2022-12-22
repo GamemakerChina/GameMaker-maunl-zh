@@ -1,0 +1,21 @@
+{
+    "Additional Information":"额外的信息",
+    "Basic programming concepts like {}variables{}, {}functions {}and {}expressions{}":"基本编程概念，如{}变量{}、{}函数{}和{}表达式{}",
+    "Finally, there are a huge amount of {}GameMaker{} resources around the internet, so always try searching for infomation in your browser when stuck or looking for tutorials, and there are also number of active communities on sites like {}Reddit {}or {}Discord {}where you can sign up and participate.":"最后，互联网上有大量的 GameMaker 资源，所以当你陷入困境时，一定要尝试在浏览器中搜索信息或寻找教程，还有一些活跃的社区，比如 {}Reddit{} 或 {}Discord{}，你可以在那里注册和参与。",
+    "For further technical help with things like setting up the different target platforms you should see the {}GameMaker Helpdesk{}, and GameMaker&nbsp;also run a series of {}Tech Blogs{} which cover all sorts of different aspects of using {}GameMaker{}, from the most basic concepts to the most advanced techniques so there\u0027s something there for everybody. In particular, have a look at the following article:":"有关设置不同目标平台等方面的更多技术帮助，您应该查看  {}GameMaker 帮助台{}，GameMaker 还运行一系列 {} 技术博客 {}，这些博客涵盖了使用 {}GameMaker{} 的各种不同方面，从最基本的概念到最高级的技术，因此每个人都可以找到一些东西。尤其是下面这篇文章：",
+    "GML Code Reference":"GML 代码参考",
+    "GML Visual\u200B\u200B\u200B\u200B\u200B\u200B\u200B Reference":"GML 可视化参考",
+    "How to create {}Objects {}and {}Rooms{}":"如何创建{}对象{}和{}房间{}",
+    "How to create {}Sprites {}and {}Tile Sets {}and edit them in the {}Image Editor{}":"如何创建{}精灵{}和{}平铺集{}并在{}图像编辑器{}中编辑它们",
+    "How to move instances about in a {}room{}":"如何在{}房间{}中移动实例",
+    "How {}GameMaker{} draws things and how to use the {}Draw Event{}":"{}GameMaker{} 如何绘制东西以及如何使用{}绘制事件{}",
+    "IDE Reference":"IDE 参考",
+    "Summary":"总结",
+    "The difference between an {}object {}and an {}instance{}":"{}对象{}和{}实例{}之间的区别",
+    "The difference between the {}Draw&nbsp;{}event and the {}Draw GUI {}event":"{}绘制{}事件和{}绘制 GUI{} 事件之间的区别",
+    "We would also like to point out that {}GameMaker{} has its own forums called the {}GMC{} ( {}G{}ame {}M{}aker {}C{}ommunity) which are community run and full of helpful members that are willing to give up some of their time to help with any programming or technical issues that you may have.":"我们还想指出，{}GameMaker{} 有自己的论坛，名为 {}GMC{}({}G{}ame{}M{}aker{}C{} 社区)，这些论坛是由社区运营的，并且充满了乐于助人的成员，他们愿意放弃一些时间来帮助解决您可能遇到的任何编程或技术问题。",
+    "We\u0027re at the end of this Quick Start Guide and we hope you\u0027ve gained enough knowledge and confidence to go and start using {}GameMaker{} to make your own projects! if you\u0027ve gone through all the pages of this guide, then you should now know the following:":"我们已经读完了这篇快速入门指南，我们希望你已经获得了足够的知识和信心来开始使用 {}GameMaker{} 来制作你自己的项目！如果您已经阅读了本指南的所有页面，那么您现在应该知道以下内容：",
+    "Whatever you do, we hope that you have fun using {}GameMaker{}, and if (when!) you do make a game and publish it, don\u0027t forget to drop us a line to tell us about it for the {}GameMaker Showcase{}!":"无论您做什么，我们都希望您在使用 {}GameMaker{} 时玩得开心，如果 (当！)。如果您确实制作了一款游戏并将其发布，请不要忘记给我们写信，为 {}GameMaker Showcase{} 提供相关信息！",
+    "You can also get a number of {}GameMaker{} tutorials from the {}Start Page{} which use the core concepts you\u0027ve learned here to make small and fun games, like {}Space Rocks{}.":"您还可以从{}开始页{}获取许多 {0}GameMaker{1} 教程，这些教程使用您在此处学到的核心概念来制作小而有趣的游戏，如 {}Space Rocks{}。",
+    "You\u0027ve come a long way in a short time, but that\u0027s not the end of the journey. This manual has two extensive reference sections that cover every aspect of the IDE and how to program using either GML Visual or GML, and we highly recommend that you come back here to those sections whenever you are unsure of something or want to try something new:":"你在很短的时间内走了很长的路，但这并不是旅程的终点。本手册有两个广泛的参考章节，涵盖了 IDE 的各个方面，以及如何使用 GML 可视化或 GML 编程，我们强烈建议您在不确定某事或想尝试新事物时回到这里："
+}
