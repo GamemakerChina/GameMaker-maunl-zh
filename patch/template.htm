@@ -41,10 +41,50 @@
 		}
 	}
 
+	noTranslationState=function(){
+		return (window.localStorage.getItem("noTranslationState")=="true")
+	}
+
+	noTranslationStateToggle=function(){
+		window.localStorage.setItem("noTranslationState",!noTranslationState())
+	}
+
+	addNoTranslationStateButton=function(){
+
+		//html
+		var html=`
+		<button style="
+			float: right;
+			font-size: 20px;
+			padding: 4px 12px;
+		"
+		onclick="
+		noTranslationStateToggle();
+		location.reload();
+    	event.stopPropagation();
+		"
+		>T</button>
+		`
+
+		//意味着触发这段代码的地方处于主页
+		if($(".header").length){
+		$(".header").append(html)
+		}else{
+		//否则就是页内
+		$(".topic-header").append(html)
+		$(".topic-header button").css("position","relative").css("top","44px")
+		}
+	}
+
 	var json_global={global}
 	var json={json}
 
 	$(function(){
+
+		//添加按钮
+		addNoTranslationStateButton()
+		//跳过翻译
+		if(noTranslationState())return false
 
 	//这么做只是为了方便移植修改
 	const css1="div.footer a,h4,caption"
