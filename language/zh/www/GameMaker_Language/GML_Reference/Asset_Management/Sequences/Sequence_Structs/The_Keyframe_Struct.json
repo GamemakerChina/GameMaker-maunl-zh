@@ -4,5 +4,6 @@
     "Sequence Keyframe Struct":"序列关键帧结构",
     "The length of the keyframe. Default value is 1, and when set to larger values then the track property that the keyframe refers to will be maintained at the initial value for the duration of the length given. Note that the {}stretch{} property will override this if set to {}true{}.":"关键帧的长度。默认值为1，当设置为更大的值时，关键帧引用的轨迹属性将在给定长度的持续时间内保持初始值。请注意，如果设置为{}true{}，则{}stretch{}属性将覆盖此属性。",
     "The position (in frames) along the timeline for the keyframe. Default value is 0.":"关键帧沿时间线的位置(以帧为单位)。默认值为0。",
+    "The&nbsp;Keyframe Struct":"关键帧结构",
     "This property allows access to the list of {}keyframe data structs{} for the channels of the track. When getting this property an {}array{} of keyframe data structs is returned, and when setting this property an array of keyframe data structs should be specified.":"此属性允许访问轨道通道的{}关键帧数据结构列表{}。获取此属性时，返回关键帧数据结构的{}数组{}，设置此属性时，应指定关键帧数据结构数组。"
 }

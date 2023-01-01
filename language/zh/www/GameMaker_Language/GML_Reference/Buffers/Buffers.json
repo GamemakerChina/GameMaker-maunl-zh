@@ -1,5 +1,6 @@
 {
     "A buffer is a region of physical memory used to temporarily hold data while it is being moved from one place to another or manipulated in some way, for example you can use a buffer to hold packet data awaiting transmission over a network or for storing a packet that has been received over a network. {}GameMaker{} has a number of specific functions related to creating, modifying and loading/saving buffers, but before using them please note the following points:":"缓冲区是物理内存的一个区域，用于在数据从一个地方移动到另一个地方或以某种方式进行操作时临时保存数据，例如，您可以使用缓冲区来保存等待通过网络传输的数据包数据，或者用于存储通过网络接收到的数据包。{}GameMaker{}有许多与创建、修改和加载/保存缓冲区相关的特定函数，但在使用它们之前，请注意以下几点：",
+    "Buffers":"缓冲区",
     "Finally, you can also use special {}Vertex Buffers{} to create your own custom primitives or models, etc... You can find out more about these from the following section of the manual:":"最后，您还可以使用特殊的{}顶点缓冲区{}来创建自己的自定义原语或模型等...您可以从手册的以下部分中找到有关这些内容的更多信息:",
     "Primitive Building":"基元创建",
     "Some of the buffer functions also create a new buffer (like {}buffer_load{} for example). Remember that these buffers will also need to be removed from memory when not in use using the {}buffer_delete{} function.":"一些缓冲区函数还创建了一个新的缓冲区 (例如{}buffer_load{})。请记住，当不使用{}buffer_delete{}函数时，还需要从内存中删除这些缓冲区。",

@@ -18,6 +18,7 @@
     "The text will be centred vertically within the frame":"文本将在框架内垂直居中",
     "The text will be justified within the frame":"文本将在框架内对齐",
     "The {}playbackMode{} variable can be one of the following constants:":"{}playbackMode{}变量可以是以下常量之一：",
+    "The&nbsp;Keyframe&nbsp;Data Struct":"关键帧数据结构",
     "This is a boolean that indicates whether the text should be wrapped ({}true{}) or not ({}false{}).":"这是一个布尔值，指示文本是否应该换行({}true{})或不换行({}false{})。",
     "This is the channel that the keyframe data should be applied to. It is a positive integer value starting at 0, and it\u0027s worth noting that when creating parameter tracks for \"position\" or \"scale\" keyframes, then you need to use very specific channel values. These are: channel 0 is the X position or the X scale, channel 1 is the Y position or Y scale.":"这是应用关键帧数据的通道。这是一个从0开始的正整数值，值得注意的是，在为\"位置\"或\"缩放\"关键帧创建参数轨迹时，您需要使用非常特定的通道值。这些是：通道0是X位置或X比例，通道1是Y位置或Y比例。",
     "This is the horizontal alignment of the text, and will be one of the&nbsp;{}{}Sequence Text Alignment Constant{}{}s given below.":"这是文本的水平对齐方式，将是下面给出的{}{}序列文本对齐常数{}{}之一。",

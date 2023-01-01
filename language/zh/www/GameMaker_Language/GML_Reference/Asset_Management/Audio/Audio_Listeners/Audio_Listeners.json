@@ -1,6 +1,6 @@
 {
     "As well as for getting and setting mask data on emitters:":"以及用于获取和设置发射器上的遮罩数据：",
-    "Audio Listeners":"Audio Listeners",
+    "Audio Listeners":"音频监听器",
     "By default, there is one listener automatically created in the game, which uses the ID&nbsp;{}0{} (for reference in listener functions).{} {} {}GameMaker{} provides the following listener functions: ":"默认情况下，游戏中有一个自动创建的监听器，该监听器使用ID{}0{}(作为监听函数的参考)。{}{}{}GameMaker{}提供以下监听器函数：",
     "Certain target platforms can permit more than one listener, with each one corresponding to a different output device, ie: your target platform could permit two listeners, one for the headphones and one for the monitor. Therefore {}GameMaker{} provides you with a number of extra functions with which you can find the available listeners as well as set them for sounds being played:":"某些目标平台可以允许多个收听者，每个目标平台对应不同的输出设备，即：目标平台可以允许两个收听者，一个用于耳机，一个用于监视器。因此{}GameMaker{}为您提供了许多附加函数，您可以通过这些函数找到可用的收听者，并为播放的声音设置它们：",
     "There are also functions for getting and setting mask data on individual sounds:":"还有用于获取和设置单个声音的掩码数据的函数：",

@@ -25,6 +25,7 @@
     "To get the audio bus that an emitter is assigned, use {}{}audio_emitter_get_bus{}{}.":"要获得分配发射器的音频总线，请使用{}{}audio_emitter_get_bus{}{}。",
     "You can add effects to an&nbsp;{}audio emitter{}&nbsp;by creating a new audio bus using&nbsp;{}{}audio_bus_create{}{}&nbsp;and assigning it to the emitter using {}{}audio_emitter_bus{}{}:&nbsp;":"通过使用{}audio_bus_create{}创建新的音频总线并使用{}{}audio_emitter_bus{}{}将其分配给发射器，可以向{}音频发射器{}添加效果：",
     "You can {}create your own bus{} to apply effects to a few sounds. All custom buses are routed to the main bus, so the parameters and effects on the main bus are applied to all other buses.":"您可以{}创建自己的总线{}，以对一些声音应用效果。所有自定义总线均路由至主总线，因此对主总线的参数和效果适用于所有其他总线。",
+    "{}Audio Effects{}":"{}音效{}",
     "{}GameMaker{}&nbsp;has one audio bus by default, the main audio bus, which you can access through the built-in&nbsp;{}{}audio_bus_main{}{}&nbsp;struct.":"默认情况下，{}GameMaker{}有一条音频总线，即主音频总线，您可以通过内置的{}{}audio_bus_main{}{}struct来访问它。",
     "{}{}Applying Effects To Audio Emitters":"{}{}将效果应用于音频发射器",
     "{}{}IMPORTANT{}{}&nbsp;All effects have default parameters set that output the original signal. This means that you {}have to{} change the parameters in order for any effect to be heard.":"{}{}重要{}{}所有效果都有输出原始信号的默认参数设置。这意味着您{}必须{}更改参数才能听到任何效果。",

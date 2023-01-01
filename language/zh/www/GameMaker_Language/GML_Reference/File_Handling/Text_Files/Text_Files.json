@@ -1,5 +1,6 @@
 {
     "Please note that for games with localizations it is very important that accented letters can be read from external files. This means that you should create the txt file in {}UTF8{} format {}first{} and then add it into {}GameMaker{} as an included file so that it is exported on running the game and used instead of the default ANSI format txt file that is created by the {}GameMaker{} file functions when no file is previously supplied. In this way, you can read and write to it correctly with all accents and non-roman letters being maintained.":"请注意，对于进行本土化的游戏来说，能够从外部文件读取重音字母是非常重要的。这意味着你应该先以{}UTF8{}格式{}创建txt文件，然后将其添加到{}GameMaker{}中作为包含文件，以便在运行游戏时将其导出，并使用默认的ANSI格式txt文件，该文件是在之前没有提供文件时由{}GameMaker{}文件函数创建的。通过这种方式，您可以在保持所有重音和非罗马字母的情况下正确地对其进行读写。",
+    "Text Files":"文本文件",
     "Text files are a useful way to store large amounts of data externally from your game. Contrary to ini files, you can have up to 32 text files open at once, and you can read and write large chunks of data to them as well. However, it is up to you to decide how that data should be structured as there is no set \"section\" or \"key\" structure like with {}{}*.ini{} files{}.":"文本文件是存储大量游戏外部数据的有效方法。与ini文件不同，您可以同时打开多达32个文本文件，并且还可以对它们读写大量数据。但是，由于不存在像{}{}*.ini{}文件{}那样的集合“节”或“键”结构，因此应该由您来决定数据应该如何结构。",
     "The following functions exist that deal with files:":"存在下列处理文件的函数:"
 }
