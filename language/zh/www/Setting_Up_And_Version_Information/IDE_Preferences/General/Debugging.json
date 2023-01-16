@@ -1,0 +1,8 @@
+{
+    "Debugging Preferences":"调试首选项",
+    "The preferences here are related to the {}{}GameMaker{} Debugger{} and you have the following options:":"此处的首选项与{} {}GameMaker{} 调试器{}相关，您有以下选项：",
+    "{}Automatic response to closing the debugger{}: This option permits you to set the automatic response when closing the debugger. If set to \"Show message\", you will be shown the dialogue when you want to close the debugger, while setting it to \"Yes\" or \"No\" will not show this dialogue and perform the task as indicated.":"{}关闭调试器的自动响应{}：此选项允许您设置关闭调试器时的自动响应。如果设置为“显示信息”，当您想要关闭调试器时，将显示该对话框，而设置为“是”或“否”，则不会显示此对话框并执行所指示的任务。",
+    "{}Debugger port{}: This sets the port number for the Debug Module to use. The default value is 6509.":"{}调试器端口{}：设置调试模块要使用的端口号。默认值为 6509。",
+    "{}Enable real-time debugging{}: Checking this option will permit you to debug your game projects in real time as you run them from the IDE. This is checked by default.":"{}启用实时调试{}：选中此选项将允许您在从 IDE 运行游戏项目时实时调试它们。默认情况下选中此选项。",
+    "{}Show event icons in Debugger Resource View{}: Set whether icons should be shown in the Debugger resource view. This is checked by default.":"{}在调试器资源视图中显示事件图标{}：设置是否在调试器资源视图中显示图标。默认情况下选中此选项。"
+}
