@@ -1,0 +1,11 @@
+{
+    "Go To Preferences":"转到首选项",
+    "The preferences here are for the&nbsp;{}Go To{} window, which you can open using the keyboard shortcut {}&nbsp;/ {} + T or by&nbsp;{} right-clicking on the empty area in a workspace.":"此处的首选项是{}转到{}窗口，您可以使用键盘快捷键{}/{}+T或通过{}右击工作区中的空白区域来打开该窗口。",
+    "{}Enable styling on search results (turn off for better performance){}: This option enables or disables the text styling for the assets found in the Go To window, and is enabled by default. Disabling this should give better performance if you find the Go To search window to be slow on your system.":"{}在搜索结果上启用样式(关闭以获得更好的性能){}：此选项启用或禁用在转到窗口中找到的资源的文本样式，并且默认情况下处于启用状态。如果您发现系统上的转到搜索窗口速度较慢，禁用此功能应该会带来更好的性能。",
+    "{}Maximum number of search results to display{}: This option controls the maximum number of returned results when you use the Go To search window.":"{}要显示的最大搜索结果数{}：此选项控制使用转到搜索窗口时返回的最大结果数。",
+    "{}Search In Assets{}: This option allows the Go To window to search through the Asset Browser for any assets that match the search term, and is enabled by default.":"{}在资源中搜索{}：此选项允许转到窗口在资源浏览器中搜索与搜索项匹配的任何资源，并且默认情况下处于启用状态。",
+    "{}Search In Game Options{}: This option allows the Go To window to search through the Game Options for any options that match the search term, and is enabled by default.":"{}在游戏选项中搜索{}：此选项允许转到窗口在游戏选项中搜索与搜索词匹配的任何选项，默认情况下处于启用状态。",
+    "{}Search In Preferences{}: This option allows the Go To window to search through the Preferences for any options that&nbsp;match the search term, and is enabled by default.":"{}在首选项中搜索{}：此选项允许转到窗口在首选项中搜索与搜索词匹配的任何选项，并且默认情况下处于启用状态。",
+    "{}Search in Redefine Keys{}:&nbsp;This option allows the Go To window to search through the {}Redefine Keys{} menu for any options that&nbsp;match the search term, and is enabled by default.":"{}在重定义快捷键中搜索{}： 此选项允许转到窗口在{}重定义快捷键{}菜单中搜索与搜索项匹配的任何选项，并且默认情况下处于启用状态。",
+    "{}Search in user-defined Functions{}:&nbsp;This option allows the Go To window to search through your scripts and objects for any functions that match the search term, and is enabled by default. Note that this only works with the {}script function{} syntax ({}function name(){}) and not with the method variable syntax ({}name = function(){}).":"{}在用户定义的函数中搜索{}：此选项允许转到窗口在您的脚本和对象中搜索与搜索词匹配的任何函数，并且默认情况下处于启用状态。请注意，这只适用于{}脚本函数{}语法({}函数名(){})，而不适用于方法变量语法({}名称=函数(){})。"
+}

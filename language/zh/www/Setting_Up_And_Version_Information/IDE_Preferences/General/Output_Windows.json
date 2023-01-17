@@ -1,0 +1,9 @@
+{
+    "Output Window Preferences":"输出窗口首选项",
+    "The {}{}Output Window{}{} preferences control the different colour and formatting options for the various different output windows in the IDE. Each of the different windows has the same set of options, which are listed below:":"{}{}输出窗口{}{}首选项控制 IDE 中各种不同输出窗口的不同颜色和格式选项。每个不同的窗口都有相同的选项集，如下所示：",
+    "{}Anti-Aliasing{}: Here you can set the {}anti-aliasing{} mode for the output windows font rendering. You can choose to let the IDE decide by selecting {}Use Default{}, or you can force it {}On&nbsp;{}or {}Off&nbsp;{}by selecting either of those options.":"{}抗锯齿{}：您可以在此设置输出窗口字体渲染的{}抗锯齿{}模式。您可以选择让 IDE 通过选择{}使用默认设置{}来决定，也可以通过选择这两个选项之一来强制它{}打开{}或{}关闭{}。",
+    "{}Colour{}: The default colour for the text being written to the window.":"{}颜色{}：写入窗口的文本的默认颜色。",
+    "{}Font Name{}: The name of the font to use (available fonts will depend on those installed on your system).":"{}字体名称{}：要使用的字体的名称(可用的字体取决于系统上安装的字体)。",
+    "{}Size{}: The size to set the font to for the given output window.":"{}大小{}：为给定的输出窗口设置字体的大小。",
+    "{}Style{}: The font style to use, like {}bold&nbsp;{}or {}italics&nbsp;{}(note that not all windows will permit the same styles and it will also depend on the font used).":"{}样式{}：要使用的字体样式，如{}粗体{}或{}斜体{}(请注意，并不是所有窗口都允许使用相同的样式，它还取决于所使用的字体)。"
+}

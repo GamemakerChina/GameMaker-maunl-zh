@@ -1,0 +1,6 @@
+{
+    "Path Preferences":"路径首选项",
+    "The {}Path {}preferences control the different file paths required by elements in the {}GameMaker{} IDE as well as for any external editors that you require. The following options exist for the IDE:":"{}路径{}首选项控制 {}GameMaker{} IDE中的元素以及您所需的任何外部编辑器所需的不同文件路径。IDE 有以下选项：",
+    "{}IDE cache directory{}: The location for saving the IDE cache. By default on Windows this is {}\\Users\\&lt;Username&gt;\\AppData\\Roaming\\GameMaker\\Cache{} And on macOS it\u0027s: {}/Users/&lt;Username&gt;/.config/GameMaker/Cache{} {}&nbsp;{} ":"{}IDE缓存目录{}：保存IDE缓存的位置。在Windows上，默认情况下为 {}\\Users\\&lt;Username&gt;\\AppData\\Roaming\\GameMaker\\Cache{} 而在macOS上，它是： {}/Users/&lt;Username&gt;/.config/GameMaker/Cache{} {}&nbsp;{} ",
+    "{}Temp directory{}: The location for saving all the temporary folders. By default on Windows this is {}\\Users\\&lt;Username&gt;\\AppData\\Local\\Temp\\GameMaker{} And on macOS it\u0027s: {}/{}var{}/folders/&lt;Path_Hash&gt;/GameMaker{} {}&nbsp;{} ":"{}临时目录{}：保存所有临时文件夹的位置。在Windows上，默认情况下为{}\\Users\\&lt;Username&gt;\\AppData\\Local\\Temp\\GameMaker{} 而在macOS上，它是：{}/{}var{}/folders/&lt;Path_Hash&gt;/GameMaker{} {}&nbsp;{} "
+}
