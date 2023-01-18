@@ -1,0 +1,7 @@
+{
+    "Start Screen Preferences":"开始屏幕首选项",
+    "{}Recent Projects List Style{}: This allows you to change the display of the Recent Projects list on the Start Page between \"List\" and \"Grid\".":"{}最近项目列表样式{}：这允许您在起始页上将最近项目列表的显示方式在\"列表\"和\"网格\"之间更改。",
+    "{}Show Setup Wizard{}: This allows you to select whether the Setup Wizard is shown when the IDE is started. The Setup Wizard essentially takes you through the steps necessary to create a new project.":"{}显示安装向导{}：这允许您选择在启动 IDE 时是否显示安装向导。安装向导基本上会引导您完成创建新项目所需的步骤。",
+    "{}Show Tour{}: This allows you to select whether the introductory tour is shown when the IDE is started. This is automatically disabled the first time you skip the tour.":"{}显示 Tour{}：这允许您选择在启动 IDE 时是否显示介绍性教程。当您第一次跳过 Tour 时，此选项将自动禁用。",
+    "{}The Start Screen Preferences allow you to change how the Start Page behaves. The main options are:":"{}开始屏幕首选项允许您更改起始页的行为方式。主要选项包括："
+}

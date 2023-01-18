@@ -1,0 +1,8 @@
+{
+    "Power Saving Preferences":"节能首选项",
+    "The options here are:":"这里的选项包括：",
+    "The {}Power Saving{} preferences here will affect how much CPU power and GPU power will be used to generate the {}GameMaker{} IDE (essentially this will lower the base framerate at which the program runs and so lower power consumption).":"此处的{}节能{}首选项将影响将使用多少 CPU 功率和 GPU 功率来生成 {}GameMaker{} IDE (本质上，这将降低程序运行的基本帧速率，从而降低功耗)。",
+    "{}AC power framerate (%){}: The base IDE framerate modifier when connected to a power input. Default is 100%.":"{}交流电源帧速率 (%){}：连接到电源输入时的基本 IDE 帧速率修改器。默认值为 100%。",
+    "{}Background framerate (%){}: The base IDE framerate modifier when {}GameMaker{} is not in focus (regardless of the power supply). Default is 15%.":"{}后台帧速率 (%){}：当 {}GameMaker{} 未对焦时 (与电源无关)，基本 IDE 帧速率修改器。默认为 15%。",
+    "{}Battery power framerate (%){}: The base IDE framerate modifier when using battery to power the machine. Default is 35%.":"{}电池电源帧速率 (%){}：使用电池为机器供电时的基本 IDE 帧速率修改器。默认为 35%。"
+}

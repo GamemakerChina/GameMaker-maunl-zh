@@ -1,0 +1,7 @@
+{
+    "Recent Windows Preferences":"最近窗口首选项",
+    "The preferences here contain options for how the {}Recent Windows{}&nbsp;list will display items:":"此处的首选项包含有关{}最近窗口{}列表将如何显示项目的选项：",
+    "{}Display only currently open windows{}: Enabling this will make the Recent Windows list remove those items that are no longer open in a workspace (ie: closing any window will remove it from the list too). By default this is disabled.":"{}仅显示当前打开的窗口{}：启用此选项将使最近打开的窗口列表删除工作区中不再打开的那些项目(即：关闭任何窗口也会将其从列表中删除)。默认情况下，此选项处于禁用状态。",
+    "{}Maximum windows to display{}: This sets the maximum number of previously opened windows that will be shown within the Recent Windows list. Default is 10.":"{}显示的最大窗口数{}：设置将在最近打开的窗口列表中显示的先前打开的最大窗口数。默认值为 10。",
+    "{}Move focused windows to top{}: When this is enabled and you click on any item in the Recent Window list, the selected item will be moved to the top of the list. By default this is disabled.":"{}将焦点窗口移至顶部{}：启用此功能并单击最近窗口列表中的任何项目时，所选项目将移至列表顶部。默认情况下，此选项处于禁用状态。"
+}
