@@ -1,0 +1,17 @@
+{
+    "Spline Editor&nbsp;Preferences":"样条线编辑器首选项",
+    "{}Anchor point height{}:&nbsp;Set the height of the anchor points, in pixels. Default is 8px;":"{}锚点高度{}：设置锚点的高度，单位为像素。默认为 8px",
+    "{}Anchor point width{}: Set the width of the anchor points, in pixels. Default is 8px;":"{}锚点宽度{}：设置锚点的宽度，单位为像素。默认为 8px",
+    "{}Anchor points colour{}: The colour to be used to draw the path anchor points. Default is (ARGB) #FFC0C0C0.":"{}锚点颜色{}：用于绘制路径锚点的颜色。默认为 (ARGB) #FFC0C0C0。",
+    "{}Highlighted path segment colour{}:&nbsp;The colour to be used to highlight any selected path segments. Default is (ARGB) #FFFFFFFF.":"{}突出显示路径段颜色{}：用于突出显示任何选定路径段的颜色。默认为 (ARGB) #FFFFFFFF。",
+    "{}Insert path point precision (px){}:&nbsp;This sets the precision value (in pixels) for inserting points on a path, ie: the mouse must be within this range to insert the point rather than add a new one. Default is 20px.":"{}插入路径点精度(像素){}：此选项设置在路径上插入点的精确值(以像素为单位)，即：鼠标必须在此范围内才能插入点，而不是添加新点。默认大小为 20px。",
+    "{}Invalid anchor points colour{}:&nbsp;The colour to be used to draw the path anchor points. Default is (ARGB) #FF800000.":"{}无效锚点颜色{}：用于绘制路径锚点的颜色。默认为 (ARGB) #FF800000。",
+    "{}Invalid path colour{}: The colour to be used to highlight a path that is not valid. Default is (ARGB) #FF0000FF.":"{}无效路径颜色{}：用于突出显示无效路径的颜色。默认为 (ARGB) #FF0000FF。",
+    "{}Mask overlay colour{}:&nbsp;Set the overlay colour for masks if they are enabled (see above). Default is (ARGB) #FF404040.":"{}蒙版覆盖颜色{}：设置蒙版的覆盖颜色(如果启用)(请参见上文)。默认为 (ARGB) #FF404040。",
+    "{}Mouse-over anchor point colour{}:&nbsp;The colour to be used to draw the anchor points that are active. Default is (ARGB) #FFFFFFFF.":"{}鼠标悬停锚点颜色{}：用于绘制活动锚点的颜色。默认为 (ARGB) #FFFFFFFF。",
+    "{}Mouse-over invalid anchor point colour{}:&nbsp;The colour to be used to draw the anchor points that are active but invalid. Default is (ARGB) #FF0000FF.":"{}将鼠标悬停在无效锚点颜色上：用于绘制活动但无效的锚点的颜色。默认为 (ARGB) #FF0000FF。",
+    "{}Path colour{}:&nbsp;The colour to be used to show the path as you edit it. Default is ( {}ARGB{}) #FFFFFFFF.":"{}路径颜色{}：编辑时用于显示路径的颜色。默认为 ({}ARGB{}) #FFFFFFFF。",
+    "{}Selected anchor point colour{}:&nbsp;The colour to be used to draw the path anchor points that have been highlighted (selected). Default is (ARGB) #FF00A4FF.":"{}选定锚点颜色{}：用于绘制已突出显示(选定)的路径锚点的颜色。默认为 (ARGB) #FF00A4FF。",
+    "{}Selected invalid anchor point colour{}:&nbsp;The colour to be used to draw the anchor points that are highlighted but invalid. Default is (ARGB) #FFA400FF.":"{}选择无效的锚点颜色{}：用于绘制突出显示但无效的锚点的颜色。默认为 (ARGB) #FFA400FF。",
+    "{}The {} {}spline{} Editor Preferences{} are used primarily to define how the smooth paths in the {}Path Editor{} look, although they will affect certain other aspects of the {}IDE{} (like the Physics Shape Editor). The following options exist:":"{}{}{}样条线{}编辑器首选项{}主要用于定义{}路径编辑器{}中的平滑路径的外观，尽管它们会影响 {}IDE{} 的某些其他方面(如物理形状编辑器)。存在以下选项："
+}
