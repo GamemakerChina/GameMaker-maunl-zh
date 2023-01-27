@@ -1,0 +1,8 @@
+{
+    "GML Code Preferences":"GML 代码首选项",
+    "GML Visual Preferences":"GML 可视化首选项",
+    "Language Preferences":"语言首选项",
+    "The {}Language Preferences{}&nbsp;contain options for GameMaker Language:":"{}语言首选项{}包含 GameMaker 语言选项：",
+    "This section contains the following additional preference menus:":"此部分包含以下附加首选项菜单：",
+    "{}Default scripting language{}: Choose between&nbsp;{}GML Code{}&nbsp;and&nbsp;{}GML Visual{}&nbsp;for all scripts that are created throughout all projects. See&nbsp;{}GameMaker Language{}&nbsp;for more information.":"{}默认脚本语言{}：为在所有项目中创建的所有脚本选择 {}GML 代码{} 和 {}GML 可视化{}。有关详细信息，请参阅 {}GameMaker 语言{}。"
+}
