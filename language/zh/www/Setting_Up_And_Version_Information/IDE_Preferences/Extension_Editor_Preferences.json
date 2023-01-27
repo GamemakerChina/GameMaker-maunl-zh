@@ -1,0 +1,6 @@
+{
+    "Extension Editor Preferences":"扩展编辑器首选项",
+    "{}Automatic response to file deletion{}: The default setting here is to show a message asking if you are sure you want to delete, but you can set this to \"OK\" so that all deletions are completed without this message as if you\u0027d clicked okay already.":"{}自动响应文件删除{}：此处的默认设置是显示一条消息，询问您是否确实要删除，但您可以将其设置为 \"OK\"，以便在没有此消息的情况下完成所有删除，就好像您已经单击了 \"OK\"。",
+    "{}Automatic response to proxy file deletion{}: As above, this controls the message you are shown on deletion of any proxy files.":"{}自动响应代理文件删除{}：如上所述，此选项控制删除任何代理文件时显示的消息。",
+    "{}The {}Extension Editor preferences{} cover a few options related to the messages that you are shown when using it, with the exact details outlined below:":"{}扩展编辑器首选项{}包含与使用它时显示的消息相关的几个选项，详细信息概述如下："
+}

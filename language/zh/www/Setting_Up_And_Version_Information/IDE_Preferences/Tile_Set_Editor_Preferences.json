@@ -1,3 +1,7 @@
 {
-    "Tile Set Editor&nbsp;Preferences":"平铺图块集编辑器设置"
+    "The Tile Set Editor preferences also has a {}Confirm Dialogs {}sub-section:":"图块设置编辑器首选项也有一个{}确认对话框{}子项:",
+    "The {}Tile Set Editor Preferences{} has the following option for Auto Tiling:":"{}图块集编辑器首选项{}具有以下自动图块选项：",
+    "Tile Set Editor&nbsp;Preferences":"图块集编辑器设置",
+    "{}Auto tile background colour{}: This option sets the background colour within the tile set editor in the section for creating Auto Tiles. The default colour is (rgba) #808080FF.":"{}自动图块背景颜色{}: 该选项在创建自动图块部分的图块集编辑器中设置背景颜色。默认颜色是 (RGBA) #808080FF。",
+    "{}The option available here controls the message that pops up when you change the cell size of the tile set and this will affect how the room tilemap layers are rendered (resulting in cropped layers). By default you will be prompted to continue or cancel the operation, and this option lets you suppress this message by selecting \"Okay\" which will go ahead with the tile set cell change regardless of the impact on room tilemap layers. Default value is \"Show Message\".":"{}这里可用的选项控制当你改变图块集的单元格大小时弹出的消息，这将影响房间图块图层的呈现方式(导致裁剪图层)。默认情况下，您将被提示继续或取消操作，该选项允许您通过选择 \"OK\" 来阻止此消息，该选项将继续进行图块单元格更改，而不管对房间图块图层的影响。默认值为\"显示消息\"。"
 }
