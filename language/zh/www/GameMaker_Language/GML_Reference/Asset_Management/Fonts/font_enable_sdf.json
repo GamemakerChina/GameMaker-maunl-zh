@@ -1,0 +1,7 @@
+{
+    "Additional Information Goes Here.":"其他信息请点击这里。(译:???)",
+    "Explain The Code Example Here":"在此解释一下代码示例",
+    "The index of the font for which to enable SDF rendering":"启用SDF渲染的字体的索引。",
+    "This function enables SDF rendering for the given font.":"这个函数可以为给定的字体进行SDF渲染。",
+    "Whether to enable SDF rendering for the font or not":"是否为字体启用SDF渲染"
+}
