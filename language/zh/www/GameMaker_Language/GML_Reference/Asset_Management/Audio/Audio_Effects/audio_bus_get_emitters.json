@@ -1,0 +1,6 @@
+{
+    "The above code calls&nbsp;{}{}audio_bus_get_emitters{}{}&nbsp;to get the emitters connected to an audio bus {}bus_fx{}. The returned array is stored in a temporary variable {}_emitters{}.":"上面的代码调用 {}{}audio_bus_get_emitters{}{} 将发射器连接到音频总线 {}bus_fx{}。返回的数组存储在临时变量 {}_emitters{} 中。",
+    "The audio bus to get the connected emitters from":"要从中获取连接发射器的音频总线",
+    "This function returns an array of the&nbsp;{}Audio Emitters{} that are connected to the given&nbsp;{}AudioBus Struct{}.":"此函数用于返回连接到给定{}音频总线结构{}的{}音频发射器{}的数组。",
+    "{}{}NOTE{}{}&nbsp;To get the audio bus that an audio emitter is connected to, use&nbsp;{}{}audio_emitter_get_bus{}{}.":"{}{}注意{}{} 要获取音频发射器所连接的音频总线，请使用 {}{}audio_emitter_get_bus{}{}。"
+}

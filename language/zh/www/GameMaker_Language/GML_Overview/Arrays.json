@@ -8,6 +8,7 @@
     "Accessors":"访问器",
     "Again, all of this is not necessary if {}Copy on Write{} is {}disabled{} (which is the default and recommended option).":"同样，如果{}写时复制{}{}禁用{}(这是默认和推荐的选项)，则所有这些都不是必需的。",
     "Also see:&nbsp;{}&nbsp;{}":"另请参阅：{}变量函数{}",
+    "Alternatively, to access 2D arrays you can also use the following syntax:&nbsp;":"或者，要访问2D数组，还可以使用以下语法：",
     "Arrays":"Arrays 数组",
     "Arrays as Function Arguments":"作为函数参数的数组",
     "Arrays&nbsp;can be extremely useful and are an essential part of making games. It is essentially a type of variable that can hold multiple values as a \"list\" -- consider the following code:":"数组非常有用，是制作游戏的重要组成部分。它本质上是一种可以将多个值保存为\"list\"的变量类型--请考虑以下代码：",
@@ -60,5 +61,6 @@
     "{}Multi-Dimensional Arrays{}{}Multi-Dimensional Arrays{}":"{}Multi-Dimensional Arrays{}{}Multi-Dimensional Arrays{} 多维数组",
     "{}NOTE{}: The HTML5 export is the exception to the above rule, and when targeting that you should initialise arrays in consecutive order from 0 upwards.":"{}注意{}：HTML5导出是上述规则的例外情况，当确定要从0向上连续初始化数组时。",
     "{}NOTE{}{}&nbsp;{}The above code is not necessary if you are not changing any of the array\u0027s values, but rather referencing them. Referencing an array will not copy it and will be faster to parse.":"{}注意{}{}{}如果您不更改数组的任何值，而是引用它们，则不需要上面的代码。引用数组不会复制它，解析速度会更快。",
-    "{}We now know what a 1-dimensional array is, but in {}GameMaker{} you can have arrays with multiple dimensions, which are essentially structured as an array inside an array inside an array... For example, the following is a {}2D{}&nbsp;(two-dimensional) array:{}":"{}我们现在知道什么是一维数组，但是在{}GameMaker{}中，您可以有多个维度的数组，这些数组本质上是作为数组内部的数组构成的...例如，以下是{}2D{}(二维)数组：{}"
+    "{}We now know what a 1-dimensional array is, but in {}GameMaker{} you can have arrays with multiple dimensions, which are essentially structured as an array inside an array inside an array... For example, the following is a {}2D{}&nbsp;(two-dimensional) array:{}":"{}我们现在知道什么是一维数组，但是在{}GameMaker{}中，您可以有多个维度的数组，这些数组本质上是作为数组内部的数组构成的...例如，以下是{}2D{}(二维)数组：{}",
+    "{}{}NOTE{}{}&nbsp;The above syntax only works for 2D arrays.":"{}{}注意{}{} 以上语法仅适用于2D数组。"
 }

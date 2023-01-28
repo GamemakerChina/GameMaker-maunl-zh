@@ -1,0 +1,14 @@
+{
+    "Asset":"资源",
+    "Emitter":"发射器",
+    "Global/Listener":"全局/监听",
+    "Group":"组",
+    "Instance/Voice":"实例/语音",
+    "Notes":"注意事项",
+    "Result":"结果",
+    "The default asset-level gain is the value of the sound asset\u0027s \"Volume\" slider:&nbsp;":"默认的资源级别增益是声音资源的\"音量\"滑块的值： ",
+    "The table below lists all applicable levels for the basic audio properties, and lists the functions you can use the set and get each property at each level.":"下表列出了基本音频属性的所有适用级别，并列出了您可以在每个级别使用设置和获取每个属性的函数。",
+    "This page gives a detailed overview of the audio properties that&nbsp;{}GameMaker{}&nbsp;supports and the different \"levels\" at which you can set/change them.":"本页详细概述了 {}GameMaker{} 支持的音频属性以及您可以设置/更改这些属性的不同\"级别\"。",
+    "{}Audio Properties Overview{}":"{}音频属性概述{}",
+    "{}This can still be changed in-game later by calling {}{}audio_sound_gain{}{}&nbsp;with the sound {}asset{} ID as the argument:&nbsp;":"{}以后仍可以在游戏中通过调用以声音{5}资源{6} ID 作为参数的 {}{}audio_sound_gain{}{} 来更改此设置： "
+}
