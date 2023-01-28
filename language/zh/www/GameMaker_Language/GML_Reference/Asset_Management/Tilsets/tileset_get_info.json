@@ -1,0 +1,6 @@
+{
+    "The returned struct contains the following variables:&nbsp;":"返回的结构包含以下变量： ",
+    "The tile set to get the info from":"要从中获取信息的图块集",
+    "This function returns a {}struct{} containing information on a tile set.":"此函数返回一个包含有关图块集信息的{}结构{}。",
+    "Tile Set Info Struct":"图块集信息结构"
+}

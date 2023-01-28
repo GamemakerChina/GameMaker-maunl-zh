@@ -1,0 +1,15 @@
+{
+    "In audio processing an LFO is used to {}modulate{}&nbsp;audio effect parameters at {}audio rates{} (as opposed to game-frame rates)":"在音频处理中，LFO 用于以{}音频速率{}(与游戏帧速率相对)对音频效果参数进行调制",
+    "On the other hand, the audio that {}GameMaker{}&nbsp;plays&nbsp;has a much higher frequency (e.g. 44100, 48000, etc.). This means that a sample is played 44100 times a second or 48000 times a second. An LFO updates the parameter with every sample that is played instead of only a couple of times per second.":"另一方面，{}GameMaker{} 播放的音频的频率要高得多(例如 44100、48000 等)。这意味着一个样本每秒播放 44100 次或 48000 次。LFO 使用播放的每个样本更新参数，而不是每秒只更新几次。",
+    "This LFO type outputs a sawtooth shape. The shape looks like this:&nbsp;":"该 LFO 类型输出锯齿形。形状看起来像这样：",
+    "This LFO type outputs a sine shape ({}{}sin{}{}). The shape looks like this:&nbsp;":"此 LFO 类型输出正弦形状 ({}{}sin{}{})。形状看起来像这样：",
+    "This LFO type outputs a square shape. The shape looks like this:&nbsp;":"这种 LFO 类型输出的是正方形。形状看起来像这样： ",
+    "This LFO type outputs a triangle shape. The shape looks like this:&nbsp;":"这种 LFO 类型输出一个三角形。形状看起来像这样：",
+    "This LFO type outputs an inverse sawtooth shape. The shape looks like this:&nbsp;":"这种 LFO 类型输出的是反锯齿形状。形状看起来像这样：",
+    "This built-in enum contains the possible LFO types to select when using an {}audio effect{} that is {}modulated by{} an LFO.":"此内置枚举包含在使用由 LFO {2}调制{3}的{}音频效果{}时可能选择的 LFO 类型。",
+    "You could do this yourself through code, e.g. change the {}gain{} value of sound instances, but this will only happen as many times per second as the game speed that you set (see {}{}game_set_speed{}{}). If e.g. the game speed is set to 60 then an update will happen 60 times per second.":"您可以通过代码自己完成此操作，例如更改声音实例的{}增益{}值，但此操作每秒只会发生与您设置的游戏速度相同的次数(参见 {}{}game_set_speed{}{})。例如，如果游戏速度设置为 60，则每秒将发生 60 次更新。",
+    "{}AudioLFOType Enum{}":"音频 LFO 类型枚举",
+    "{}GameMaker{}&nbsp;has a few built-in Audio LFO types (or shapes):&nbsp;":"{}GameMaker{} 有几种内置的音频LFO类型(或形状)： ",
+    "{}{}IMPORTANT{}{}&nbsp;An LFO outputs a signal at a low frequency (0-20Hz) but calculates/updates the value at a high frequency (the audio\u0027s frequency, e.g. 44100 or 48000).":"{}{}重要{}{} LFO 以低频 (0-20 赫兹) 输出信号，但以高频 (音频频率，例如 44100 或 48000) 计算 / 更新值。",
+    "{}{}LFO stands for {}Low-Frequency Oscillation{}. Similarly, the thing that {}oscillates{}, i.e. goes up and down according to a certain shape, is called a Low-Frequency Oscillator. An LFO outputs a shape that repeats indefinitely; the shape is&nbsp;{}periodic{}&nbsp;(after a certain {}period{} the same shape returns)":"{}{}LFO 代表{}低频振荡{}。类似地，{}振荡{}，即按照一定的形状上下摆动的东西，称为低频振荡器。LFO 输出无限期重复的形状该形状是{}周期性的{}(在特定的{}周期{}之后，相同的形状返回)"
+}

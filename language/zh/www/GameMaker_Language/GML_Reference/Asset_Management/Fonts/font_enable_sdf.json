@@ -1,7 +1,11 @@
 {
     "Additional Information Goes Here.":"其他信息请点击这里。(译:???)",
     "Explain The Code Example Here":"在此解释一下代码示例",
+    "In the Draw the font is set to {}new_font{} and text alignment set to centered (both horizontally and vertically). Next some values are calculated to animate the text scale. Finally some text is drawn scaled using&nbsp;{}{}draw_text_transformed{}{}.":"在绘图中，字体设置为 {}new_font{}，文本对齐设置为居中 (水平和垂直)。接下来，计算一些值以设置文本比例的动画。最后，使用 {}{}draw_text_transformed{} 按比例绘制一些文本。",
+    "The above code shows the code of an object\u0027s Create event and Draw event. In the Create event a custom font is added using&nbsp;{}{}font_add{}{}&nbsp;and stored in an instance variable {}new_font{}. SDF rendering is enabled for the font by calling&nbsp;{}{}font_enable_sdf{}{}.":"上面的代码显示了对象的创建事件和绘制事件的代码。在创建事件中，使用 {}{}font_add{}{} 添加自定义字体，并将其存储在实例变量 {}new_font{} 中。通过调用 {}{}font_enable_sdf{}{} 为字体启用 SDF 渲染。",
     "The index of the font for which to enable SDF rendering":"启用SDF渲染的字体的索引。",
     "This function enables SDF rendering for the given font.":"这个函数可以为给定的字体进行SDF渲染。",
-    "Whether to enable SDF rendering for the font or not":"是否为字体启用SDF渲染"
+    "This function sets whether&nbsp;{}SDF Rendering{}&nbsp;for the given font is enabled or not.":"此函数用于设置是否启用给定字体的 {}SDF 渲染{}。",
+    "Whether to enable SDF rendering for the font or not":"是否为字体启用SDF渲染",
+    "{}{}NOTE{}{}&nbsp;SDF fonts are currently not supported on HTML5.":"{}{}注意{}{} HTML5 当前不支持 SDF 字体。"
 }

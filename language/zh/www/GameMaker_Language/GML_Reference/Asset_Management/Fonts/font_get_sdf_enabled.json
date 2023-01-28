@@ -1,5 +1,9 @@
 {
     "Additional Information Goes Here.":"其他信息请点击这里。",
+    "The above code checks if SDF rendering is enabled for the font {}fnt_title{} and stores the value in a variable&nbsp;{}_sdf_enabled{}. It then shows a readable debug message showing the result.":"上面的代码检查是否为字体 {}fnt_title{} 启用了 SDF 渲染，并将该值存储在变量 {}_sdf_enabled{} 中。然后，它会显示一条可读的调试消息，显示结果。",
     "The font to check":"要检查的字体",
-    "This function returns if SDF rendering is enabled for the given font.":"此函数返回是否为给定字体启用了SDF渲染。"
+    "The index of the font to check":"要检查的字体的索引",
+    "This function returns if SDF rendering is enabled for the given font.":"此函数返回是否为给定字体启用了SDF渲染。",
+    "This function returns if {}SDF Rendering{}&nbsp;is enabled for the given font.":"如果为给定字体启用了 {}SDF 渲染{} ，则此函数返回。",
+    "{}{}NOTE{}{}&nbsp;SDF fonts are currently not supported on HTML5.":"{}{}注意{}{} HTML5 当前不支持 SDF 字体。"
 }

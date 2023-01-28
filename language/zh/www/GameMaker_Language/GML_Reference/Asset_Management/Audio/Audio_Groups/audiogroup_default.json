@@ -1,0 +1,5 @@
+{
+    "All newly added&nbsp;{}{}Sound Asset{}{}s are added to this audio group by default, unless you create new ones and assign the sounds to one of those.":"默认情况下，所有新添加的{}{}声音资源{}{}都会添加到此音频组中，除非您创建新的资源并将声音分配给其中一个。",
+    "The above code sets the gain of the default audio group to 0.5. The change in gain takes place instantly.":"上面的代码将默认音频组的增益设置为 0.5。增益的变化会立即发生。",
+    "This is a built-in constant that represents the default audio group.":"这是表示默认音频组的内置常量。"
+}
