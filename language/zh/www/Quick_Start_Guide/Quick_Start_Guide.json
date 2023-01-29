@@ -1,6 +1,6 @@
 {
     "Add {}instances {}of these objects into a {}room {}where they will perform their programs.":"将这些对象的{}实例{}添加到{}房间{}中，它们将在那里执行程序。",
-    "Create {}image {}assets ({}sprites{}, {}tile sets{}, {}font{}{}s{}) and add them to the Asset Browser.":"创建{}图像{}资源({}精灵{}、{}瓦片集{}、{}字体{}{}{})并将它们添加到资源浏览器。",
+    "Create {}image {}assets ({}sprites{}, {}tile sets{}, {}font{}{}s{}) and add them to the Asset Browser.":"创建{}图像{}资源({}精灵{}、{}图块集{}、{}字体{}{}{})并将它们添加到资源浏览器。",
     "Create {}object {}assets to represent the things you want to use in your game and assign them the required image assets.":"创建{}object{}资源来表示你想在游戏中使用的东西，并为其分配所需的图像资源。",
     "In the above example, we talk about telling the object to move to the right, but how do we do that? Well, that\u0027s done using a {}program {}which we write using either {}GML Visual{}&nbsp;or {}GML Code{}. Which one you use is up to you and the way you want to work, but by using them you are {}programming {}your game. The next section deals with this in more detail.":"在上面的示例中，我们讨论了告诉对象向右移动，但是我们如何做到这一点呢？这是使用 {} 程序 {} 完成的，我们使用 {}GML 可视化 {} 或 {}GML 代码 {} 编写该程序。您使用的程序取决于您自己以及您希望的工作方式，但通过使用它们，您可以对您的游戏进行 {} 编程 {}。下一节将更详细地介绍这一点。",
     "Making games with {}GameMaker{} is, conceptually, a fairly simple and straightforward affair, following these general steps:":"从概念上讲，使用{}GameMaker{}制作游戏是一件相当简单明了的事情，请遵循以下一般步骤：",

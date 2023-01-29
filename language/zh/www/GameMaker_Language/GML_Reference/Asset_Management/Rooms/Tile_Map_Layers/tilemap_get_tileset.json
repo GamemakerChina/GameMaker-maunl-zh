@@ -1,5 +1,5 @@
 {
-    "The above code checks the current tile set assigned to the layer \"Tiles_trees\" and if it is not \"ts_Nighttime\" then that tile set is assigned to the tile map.":"上述代码检查分配给图层\"Tiles_trees\"的当前瓦片集，如果它不是\"ts_Nighttime\"，则该瓦片集被分配给瓦片映射。",
-    "The unique ID value of the Tile Map element to get the tile set from":"Tile Map元素的唯一ID值，用于从中获取瓦片集",
+    "The above code checks the current tile set assigned to the layer \"Tiles_trees\" and if it is not \"ts_Nighttime\" then that tile set is assigned to the tile map.":"上述代码检查分配给图层\"Tiles_trees\"的当前图块集，如果它不是\"ts_Nighttime\"，则该图块集被分配给图块映射。",
+    "The unique ID value of the Tile Map element to get the tile set from":"Tile Map元素的唯一ID值，用于从中获取图块集",
     "Using this function you can retrieve the index value of the Tile Set asset assigned to a given tile map element on a layer. You give the Tile Map element ID (which you get when you create a tile map element using {}{}layer_tilemap_create(){}{} or when you use the function {}{}layer_tilemap_get_id(){}{}), and the function will return the Tile Set asset index.":"使用此函数，可以检索分配给层上给定平铺贴图元素的平铺集资源的索引值。给定\"平铺贴图\"元素 ID(当使用{}{}layer_tilemap_create(){}{}创建平铺贴图元素时或使用函数{}{}layer_tilemap_get_id(){}{}时获得该 ID)，该函数将返回平铺集资源索引。"
 }

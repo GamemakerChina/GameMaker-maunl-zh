@@ -1,5 +1,5 @@
 {
-    "The above code gets the ID for the tile map \"Clouds\" on the layer \"Tiles_Sky\" and then uses that to get the data from the tile at position (64, 128). This tile data is then flipped before being used to set the tile on the tile map again.":"上面的代码获取\"Tiles_Sky\"层上的瓦片映射\"云\"的ID，然后使用该ID从位置(64，128)的瓦块中获取数据。然后翻转此平铺数据，然后再用于设置平铺贴图上的平铺。",
+    "The above code gets the ID for the tile map \"Clouds\" on the layer \"Tiles_Sky\" and then uses that to get the data from the tile at position (64, 128). This tile data is then flipped before being used to set the tile on the tile map again.":"上面的代码获取\"Tiles_Sky\"层上的图块映射\"云\"的ID，然后使用该ID从位置(64，128)的瓦块中获取数据。然后翻转此平铺数据，然后再用于设置平铺贴图上的平铺。",
     "The position along the x-axis to get the tile data from (in room pixels)":"沿x轴从(房间像素中)获取平铺数据的位置",
     "The position along the y-axis to get the tile data from (in room pixels)":"沿y轴从(房间像素中)获取平铺数据的位置",
     "The unique ID value of the tile map element to get the tile-data of":"磁贴图元素的唯一ID值，用于获取",

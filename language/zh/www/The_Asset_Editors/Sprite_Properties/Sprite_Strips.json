@@ -1,0 +1,13 @@
+{
+    "A strip image contains multiple frames, laid out horizontally, starting from the left. The name of a strip image file must end with \"{}_stripN{}\", where \"{}N{}\" is the number of frames in the animation.":"条带图像包含多个帧，从左开始水平布局。条带图像文件的名称必须以 \"{}_stripN{}\" 结尾，其中 \"{}N{}\" 是动画中的帧数。",
+    "Fonts":"字体",
+    "Saving Strip Images":"保存条带图像",
+    "Such a strip image can be loaded at runtime using {}{}font_add_sprite(){}{}.":"这样的条带图像可以在运行时使用 {}{}font_add_sprite(){}{} 加载。",
+    "The width of the final sprite will be equal to the {}total width of the strip image{} divided by the {}number of frames{} in its filename. For example, a 250px-wide strip with 5 frames will result in a 50px-wide image.":"最终精灵的宽度将等于条带图像的{}总宽度除以{}其文件名中的{}帧数量{}。例如，具有 5 个帧的 250px 宽的条带将产生 50px 宽的图像。",
+    "You can create a strip image to be used as a font, where each character is a frame in the strip image.":"您可以创建要用作字体的条带图像，其中每个字符都是条带图像中的一个帧。",
+    "You can save a sprite as a strip image file at runtime using {}{}sprite_save_strip(){}{}. This sprite may have previously been loaded via the IDE, at runtime with {}{}sprite_add(){}{}, or {}built from a surface{}.":"您可以在运行时使用 {}{}sprite_save_strip(){}{} 将精灵保存为条带图像文件。此精灵之前可能已通过 IDE 加载，在运行时使用 {}{}sprite_add(){}{} 或{}从表面构建{}加载。",
+    "You can save this image and drag it into GameMaker right now, and it will be imported as an animation:":"您可以立即保存此图像并将其拖动到 GameMaker 中，它将作为动画导入：",
+    "You can use \"strip images\" to easily import animated sprites into GameMaker.":"您可以使用\"条带图像\"轻松地将动画精灵导入到 GameMaker 中。",
+    "{}The above strip image contains 5 frames. Its filename is {}PlayerSprite{}_strip5{}.png{}, indicating it has 5 frames, which GameMaker uses to divide it into separate sub-images.":"{}上面的条带图像包含5帧。其文件名为 {1}PlayerSprite{2}_strip5{3}.png{4}，表示它有 5 帧，GameMaker 使用该帧将其划分为单独的子图像。",
+    "{}You can import a strip image via the \"Import\" button in the&nbsp;{}Sprite Editor{}, by dragging it into the IDE, or loading it at runtime with {}{}sprite_add(){}{}.":"{}您可以通过{}精灵编辑器{}中的\"导入\"按钮导入条带图像，方法是将其拖到 IDE 中，或者在运行时使用 {}{}sprite_add(){}{} 加载它。"
+}

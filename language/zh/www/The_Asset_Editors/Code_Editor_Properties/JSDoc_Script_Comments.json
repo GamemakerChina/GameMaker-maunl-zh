@@ -25,5 +25,6 @@
     "{}Type{} of data the function returns":"函数返回的数据{}类型{}",
     "{}You can wrap an argument name in {}[]{} brackets to indicate that it is optional. The code editor will then expect any number of arguments between the minimum required arguments and the total number of arguments.":"{}您可以用{}[]{}括号括起参数名称，以表明它是可选的。然后，代码编辑器将期望在最小必需参数和参数总数之间有任意数量的参数。",
     "{}{}NOTE{}{}&nbsp;You will get the same behaviour if you use optional arguments in the function declaration. See {}script functions{} for more information.":"{}{}注意{}{} 如果在函数声明中使用可选参数，将获得相同的行为。有关详细信息，请参阅{}脚本函数{}。",
-    "{}{}TIP{}{}&nbsp;You can generate these comments automatically using {}Feather{}\u0027s&nbsp;{}Quick Fixes{}&nbsp;menu (press&nbsp;{} /&nbsp;{}&nbsp;+ Q or click the {}&nbsp;icon).":"{}{} 提示 {}{} 您可以使用 {} 羽毛 {} 的 {} 快速修复 {} 菜单 (按 {}/{}+ Q 或单击 {} 图标) 自动生成这些注释。"
+    "{}{}TIP{}{}&nbsp;You can generate these comments automatically using {}Feather{}\u0027s&nbsp;{}Quick Fixes{}&nbsp;menu (press&nbsp;{} /&nbsp;{}&nbsp;+ Q or click the {}&nbsp;icon).":"{}{} 提示 {}{} 您可以使用 {} 羽毛 {} 的 {} 快速修复 {} 菜单 (按 {}/{}+ Q 或单击 {} 图标) 自动生成这些注释。",
+    "{}{}TIP{}{}&nbsp;You can generate these comments automatically using {}Feather{}\u0027s&nbsp;{}Quick Fixes{}&nbsp;menu (press&nbsp;{} /&nbsp;{}&nbsp;+ Q or click the {}&nbsp;icon). The option is visible when your text cursor is placed on a function header (i.e. the line where the function\u0027s name is defined).":"{}{} 提示 {}{} 您可以使用 {} 羽毛 {} 的 {} 快速修复 {} 菜单 (按 {}/{}+ Q 或单击 {} 图标) 自动生成这些注释。当文本光标放在函数标题(即定义函数名称的行)上时，该选项可见。"
 }

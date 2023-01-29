@@ -1,5 +1,5 @@
 {
-    "The above code will get the name of the tile set index for the given layer, storing the return string in the variable {}tileset_name{}.":"上面的代码将获取给定层的瓦片集索引的名称，并将返回字符串存储在变量{}tileset_name{}中。",
+    "The above code will get the name of the tile set index for the given layer, storing the return string in the variable {}tileset_name{}.":"上面的代码将获取给定层的图块集索引的名称，并将返回字符串存储在变量{}tileset_name{}中。",
     "The index of the tile set to get the name of.":"要获取其名称的平铺集的索引。",
     "This function will return the name {}as a string{} of the specified tile set asset. This name is the one that has been specified for the tile set in the Asset Browser of the main {}GameMaker{} window. Please note that this is {}only{} a string and cannot be used to reference the tile set directly - for that you would need the {}tile set index{}. You can, however, use this string to get the {}tile set index{} using the returned string along with the function {}{}asset_get_index(){}{}.":"此函数将返回指定平铺集资源的名称{}作为字符串{}。此名称是在{}GameMaker{}主窗口的资源浏览器中为平铺集指定的名称。请注意，这只是{}一个字符串，不能用于直接引用平铺集-为此，您将需要{}平铺集索引{}。但是，您可以使用此字符串来获取{}tile set index{}，方法是使用返回的字符串以及函数{}{}asset_get_index(){}{}。"
 }

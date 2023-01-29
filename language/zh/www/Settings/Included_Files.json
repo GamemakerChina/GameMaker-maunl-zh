@@ -1,6 +1,6 @@
 {
     "Adding Included Files":"添加包含文件",
-    "Clicking on {}Open In Explorer/Finder{} will open the {}datafiles{} folder in your project directory, which contains all the Included Files. You can add and remove files in this directory as you wish, and the interface in GameMaker will automatically update to reflect the structure in your {}datafiles{} folder.":"单击{} Open In Explorer/Finder {}将打开项目目录中的{} datafiles {}文件夹，其中包含所有包含的文件。您可以根据需要在此目录中添加和删除文件，GameMaker 中的接口将自动更新，以反映您的{}数据文件{}文件夹中的结构。",
+    "Clicking on {}Open In Explorer/Finder{} will open the {}datafiles{} folder in your project directory, which contains all the Included Files. You can add and remove files in this directory as you wish, and the interface in GameMaker will automatically update to reflect the structure in your {}datafiles{} folder.":"单击 {} 在资源管理器 / 访达打开 {} 将打开项目目录中的 {}datafiles{} 文件夹，其中包含所有包含的文件。您可以根据需要在此目录中添加和删除文件，GameMaker 中的接口将自动更新，以反映您的 {} 数据文件 {} 文件夹中的结构。",
     "For further information on how Included Files are stored with your game and how they are accessed, please see&nbsp;{}File System{}.":"有关如何与游戏一起存储包含的文件以及如何访问这些文件的进一步信息，请参见{}文件系统{}。",
     "Included Files":"包含文件",
     "Included Files Window":"包含文件窗口",

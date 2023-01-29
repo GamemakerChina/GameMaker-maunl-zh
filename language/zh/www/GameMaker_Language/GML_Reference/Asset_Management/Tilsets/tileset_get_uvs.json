@@ -1,5 +1,5 @@
 {
-    "The above code will store the UV coordinates for the given tile set in a local array and then assign the values to instance variables.":"上面的代码将在局部数组中存储给定瓦片集的UV坐标，然后将值分配给实例变量。",
+    "The above code will store the UV coordinates for the given tile set in a local array and then assign the values to instance variables.":"上面的代码将在局部数组中存储给定图块集的UV坐标，然后将值分配给实例变量。",
     "The index of the tile set to use.":"要使用的平铺集的索引。",
     "This array can then be used in other draw functions, particularly when working in 3D or using the {}2D primitive{}&nbsp;functions, as well as when working with the {}Shader{}&nbsp;functions.":"然后，可以在其他绘制函数中使用此数组，特别是在3D中工作或使用{}2D图元{}函数时，以及在使用{}着色器{}函数时。",
     "This function returns an {}array{} with the UV coordinates and other data for the texture of the given tile set on the texture page. The function returns an array with the following 8 elements:":"此函数返回一个{}数组{}，其中包含在纹理页面上设置的给定平铺纹理的UV坐标和其他数据。该函数返回包含以下8个元素的数组：",

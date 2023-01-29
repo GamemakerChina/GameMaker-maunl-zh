@@ -67,7 +67,7 @@
     "Vector{} Noise texture":"向量{}噪波纹理",
     "View Direction{} Perspective{} Cylinder{} Panorama Texture":"查看方向{}透视{}圆柱体{}全景纹理",
     "View Direction{} Perspective{} View Position{} Texture Scale{} Texture Depth{} Fog Colour{} Fog Range{} Fog Depth{} Parallax Texture":"视点方向{}透视图{}视点位置{}纹理比例{}纹理深度{}雾颜色{}雾范围{}雾深度{}视差纹理",
-    "View Position{} Perspective{} Shading{} Face Lighting{} Block Tiles{} Blocks Texture":"视图位置{}透视{}明暗处理{}面照明{}块瓷砖{}块纹理",
+    "View Position{} Perspective{} Shading{} Face Lighting{} Block Tiles{} Blocks Texture":"视图位置{}透视{}明暗处理{}面照明{}块图块{}块纹理",
     "Width{} Direction{} Offset{} Displacement{} Animation Speed{} Wave Scale{} Wave Amplitude{} Colour Count{} Sharpness{} Colour Palette":"宽度{}方向{}偏移{}位移{}动画速度{}波幅{}波幅{}颜色计数{}清晰度{}调色板",
     "{}Blocks Background{}{} {} \"_filter_blocks\" ":"{}块背景{}{} {} \"_filter_blocks\" ",
     "{}Boxes{}{} {} \"_filter_boxes\" ":"{}盒子{}{} {} \"_filter_boxes\" ",

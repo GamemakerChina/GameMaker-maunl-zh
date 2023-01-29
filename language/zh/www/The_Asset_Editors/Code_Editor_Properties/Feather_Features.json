@@ -9,6 +9,7 @@
     "Hovering over a function displays its manual description and lists all arguments.":"将鼠标悬停在函数上将显示其手动描述并列出所有参数。",
     "Hovering over a function, sprite, colour, or any other special value will show you its information. You can see some examples below.":"将鼠标悬停在函数、精灵、颜色或任何其他特殊值上将显示其信息。您可以在下面看到一些示例。",
     "Hovering over a sprite displays its first frame and other information.":"悬停在精灵上方会显示其第一帧和其他信息。",
+    "If you place your text cursor on a function header, you can open the Quick Fixes menu to generate JSDoc comments for the function:":"如果将文本光标放在函数标题上，则可以打开快速修复菜单以生成函数的 JSDoc 注释：",
     "If you rename an asset in your Asset Browser, Feather will automatically update all mentions of it in your project\u0027s code, so those references don\u0027t break. This can be enabled or disabled in the {}Feather settings{}.":"如果在资源浏览器中重命名资源，羽毛将自动更新项目代码中所有提到的资源，以便这些引用不会中断。可以在{}羽毛设置{}中启用或禁用此功能。",
     "In this example, the variable {}surf{}&nbsp;was selected.":"在此示例中，选择了变量 {}surf{}。",
     "List All References":"列出所有引用",

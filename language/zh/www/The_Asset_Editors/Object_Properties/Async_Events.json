@@ -10,6 +10,7 @@
     "Networking":"联网",
     "Please note that the Asynchronous Events are fired for {}all {}instances that have them, much like the keyboard events, so you can - for example - do an {}http_get(){} call&nbsp;in one instance, yet have the {}Asynchronous HTTP Event{} in another to deal with the callback.":"请注意，异步事件是为 {} 所有 {} 具有它们的实例触发的，就像键盘事件一样，因此您可以在一个实例中执行 {}http_get(){} 调用，但在另一个实例中使用 {} 异步 HTTP 事件 {} 来处理回调。",
     "Push Notifications":"推送通知",
+    "Save / Load":"保存/加载",
     "Social":"社交",
     "System":"系统",
     "The Async Events":"异步事件",
