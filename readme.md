@@ -107,13 +107,20 @@ cd GameMakerManualExport
 
 # 安装依赖
 npm config set registry https://registry.npmmirror.com # 如果速度慢执行该命令
-npm install
+npm install -g pnpm # 推荐使用 pnpm 加快安装
+pnpm install
 
-# 同时导入文档、目录、词汇表并注入CSS
-pnpm run start:import
+# （所有方式）复制需要准备的文件，无论使用哪种方式请必须先执行这个
+pnpm run init:build
 
-# 注入翻译译者信息
-pnpm run start:team
+# （静态式）生成依赖
+pnpm run static:gendep
+
+# （静态式）同时导入文档、目录、词汇表并外挂CSS
+pnpm run static:import
+
+# （静态式）注入翻译译者信息
+pnpm run static:team
 ```
 
 若是通过下载zip的方式获取，请到 [GameMakerManualExport](https://github.com/GamemakerChina/GameMakerManualExport) 手动下载解压并放到 `GameMakerManualExport` 下
