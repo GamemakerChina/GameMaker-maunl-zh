@@ -47,9 +47,9 @@ jobs:
         cd ..
 
     - name: Deploy to plugged branch
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: plugged
-          FOLDER: build
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: plugged
+        FOLDER: build
     
