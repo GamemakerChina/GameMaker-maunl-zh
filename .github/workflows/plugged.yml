@@ -1,4 +1,4 @@
-name: Build manual with static method
+name: Build manual with plugged method
 
 on:
   push:
@@ -36,9 +36,9 @@ jobs:
     - name: Import translations to manual
       run: |
         cd GameMakerManualExport
-        pnpm run static:gendep
-        pnpm run static:import
-        pnpm run static:team
+        pnpm run plugged:gendep
+        pnpm run plugged:import
+        pnpm run plugged:team
 
     - name: Clean temp files
       run: |
@@ -46,10 +46,10 @@ jobs:
         pnpm run clean:temp
         cd ..
 
-    - name: Deploy to static branch
+    - name: Deploy to plugged branch
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: static
+          BRANCH: plugged
           FOLDER: build
     
