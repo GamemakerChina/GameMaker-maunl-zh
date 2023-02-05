@@ -1,0 +1,56 @@
+name: Build manual with static method
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: 18.x
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Prepare submodules
+      run: git submodule update --init --remote GMS2-Robohelp-en/
+      run: git submodule update --init --remote GameMakerManualExport/
+
+    - name: Use pnpm instead npm
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - run: npm install -g pnpm
+
+    - name: Prepare environments
+      run: |
+        cd GameMakerManualExport
+        pnpm install
+        pnpm run init:build
+
+    - name: Import translations to manual
+      run: |
+        pnpm run static:gendep
+        pnpm run static:import
+        pnpm run static:team
+
+    - name: Clean temp files
+      run: |
+        pnpm run clean:temp
+        cd ..
+
+    - name: Build manual artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: GMS2-Manual
+        path: build
+    
