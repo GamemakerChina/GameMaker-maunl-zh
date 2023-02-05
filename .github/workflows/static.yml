@@ -35,12 +35,14 @@ jobs:
 
     - name: Import translations to manual
       run: |
+        cd GameMakerManualExport
         pnpm run static:gendep
         pnpm run static:import
         pnpm run static:team
 
     - name: Clean temp files
       run: |
+        cd GameMakerManualExport
         pnpm run clean:temp
         cd ..
 
