@@ -47,9 +47,9 @@ jobs:
         cd ..
 
     - name: Deploy to static branch
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: JamesIves/github-pages-deploy-action@releases/v4
       with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: static
-        FOLDER: build
+        token: ${{ secrets.ACCESS_TOKEN }}
+        branch: static
+        folder: build
     
