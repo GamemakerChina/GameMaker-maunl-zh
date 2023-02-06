@@ -52,4 +52,13 @@ jobs:
         token: ${{ secrets.ACCESS_TOKEN }}
         branch: plugged
         folder: build
+
+    - name: Deploy to B2 Cloud
+      uses: getpersio/backblaze-b2-action@main
+      env:
+        SOURCE_DIR: './build'
+        B2_BUCKET: ${{ secrets.B2_BUCKET_PLUGGED }}
+        B2_APPKEY_ID: ${{ secrets.B2_APPKEY_ID_PLUGGED }}
+        B2_APPKEY: ${{ secrets.B2_APPKEY_PLUGGED }}
+        B2_SYNC_THREADS: 1
     
