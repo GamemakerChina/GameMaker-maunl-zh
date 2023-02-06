@@ -60,7 +60,7 @@ jobs:
         folder: build
 
     - name: Deploy to B2 Cloud
-      uses: getpersio/backblaze-b2-action@main
+      uses: GamemakerChina/backblaze-b2-action@main
       env:
         SOURCE_DIR: './build'
         B2_BUCKET: ${{ secrets.B2_BUCKET_STATIC }}
