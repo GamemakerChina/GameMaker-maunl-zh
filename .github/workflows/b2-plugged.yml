@@ -19,7 +19,7 @@ jobs:
     - name: Deploy to B2 Cloud
       uses: GamemakerChina/backblaze-b2-action@main
       env:
-        SOURCE_DIR: './build'
+        SOURCE_DIR: './'
         B2_BUCKET: ${{ secrets.B2_BUCKET_PLUGGED }}
         B2_APPKEY_ID: ${{ secrets.B2_APPKEY_ID_PLUGGED }}
         B2_APPKEY: ${{ secrets.B2_APPKEY_PLUGGED }}
