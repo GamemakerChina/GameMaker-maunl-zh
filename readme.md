@@ -39,6 +39,13 @@ GameMaker文档翻译器,是为了方便的翻译文档而根据文档本身特�
  - 由于去字和嵌字工作难度较大，我们短期内不会对文档内的图片进行翻译
  - [了解已知问题](knownissues.md)
 
+### 推荐的辅助工具（可选）
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [CC Compare](https://gitee.com/cxasm/cc-compare)
+- [copytranslator](https://copytranslator.github.io/) / [QTranslator](http://quest-app.appspot.com/home)
+- [Watt Toolkit](https://steampp.net/) / [FastGithub](https://github.com/dotnetcore/FastGithub)
+
 ### 1.克隆项目
 
 https://github.com/GamemakerChina/gamemaker-maunl-zh.git
