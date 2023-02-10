@@ -1,0 +1,13 @@
+{
+    "If the value isn\u0027t found, -1 is returned.":"如果没有找到该值，则返回 -1。",
+    "In the above code an array {}_array{} is initialised with a set of letters. The position of the letter \"d\" is then looked up three times, with different values for offset and length. The results of the calls to&nbsp;{}{}array_get_index{}{}&nbsp;are shown in the comments.":"在上面的代码中，数组 {}_array{} 用一组字母进行了初始化。然后，使用不同的偏移量和长度值来查找字母 \"d\" 的位置三次。对 {}{}array_get_index{}{} 的调用结果显示在注释中。",
+    "Optionally an offset and length parameter can be provided to the function to define the range of the array in which to search.":"可选地，可以向该函数提供偏移量和长度参数，以定义要搜索的数组的范围。",
+    "The above code first creates a temporary array {}_array{} of size 100 and sets the value at index 7 to 13. It then looks for the index of that value 13 using&nbsp;{}{}array_get_index{}{}. Finally a debug message is shown showing the index.":"上面的代码首先创建一个大小为 100 的临时数组 {}_ARRAY{}，并将索引 7 处的值设置为 13。然后使用 {}{}array_get_index{}{} 查找该值 13 的索引。最后，将显示一条调试消息，显示该索引。",
+    "The array in which to look for the value":"要在其中查找值的数组",
+    "The value to look for":"要寻找的值",
+    "This function gets the index of a specific value in the given array.":"此函数用于获取给定数组中特定值的索引。",
+    "{}{}OPTIONAL{}{}&nbsp;The number of elements to traverse. A negative value will traverse the array backwards (i.e. in descending order of indices, e.g. 2, 1, 0 instead of 2, 3, 4). See:&nbsp;{}Offset And Length{}":"{}{}可选{}{} 要遍历的元素数。负值将向后遍历数组(即以索引的降序，例如 2、1、0 而不是2、3、4)。请参阅：{}偏移量和长度{}",
+    "{}{}OPTIONAL{}{}&nbsp;The offset, or starting index, in the array. Setting a negative value will count from the end of the array. The starting index will then be {}array_length(array) + offset{}. See:&nbsp;{}Offset And Length{}":"{}{}可选{}{} 数组中的偏移量或起始索引。设置负值将从数组的末尾开始计数。然后，起始索引将是 {}array_length(array)+offset{}。请参阅：{} 偏移量和长度 {}",
+    "{}{}Real{}{}&nbsp;(the index of the first occurrence of the value if found or -1 if it isn\u0027t found)":"{}{}Real{}{} (如果找到该值的第一个匹配项，则返回索引如果未找到，则返回 -1)",
+    "{}{}TIP{}{}&nbsp;If you\u0027re looking for&nbsp;the index of the first array element {}that satisfies a condition{}, use&nbsp;{}{}array_find_index{}{}.":"{}{}提示{}{} 如果您要查找满足条件{}的第一个数组元素{}的索引，请使用 {}{}array_find_index{}{}。"
+}

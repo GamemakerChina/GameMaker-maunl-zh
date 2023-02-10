@@ -51,6 +51,7 @@
     "{}Room Toolbox{}{}Room Toolbox{}":"{}房间工具箱{}{}房间工具箱{}",
     "{}Rulers / Guides{}{}Rulers / Guides{}":"{}尺子/辅助线{}{}尺子/辅助线{}",
     "{}Status Bar{}{}Status Bar{}":"{}状态栏{}{}状态栏{}",
+    "{}The Room Editor{}":"{}房间编辑器{}",
     "{}The distance that assets \"snap\" to guides, as well as other properties, can be set in the {}Room Editor Preferences{}.":"{}资源与辅助线的距离以及其他属性可在{}房间编辑器首选项{}中设置。",
     "{}The room editor is itself a {}workspace{} and as such you can click {}&nbsp;on the tab and drag it off of the main window into a new window of its own - perhaps in another display, for example. You can also place it back into the main window by dragging the tab to the top of the IDE and releasing the mouse button.":"{}房间编辑器本身就是一个{}工作区{}，因此您可以单击选项卡上的{} ，并将其从主窗口拖到它自己的新窗口中--例如，在另一个显示中。也可以通过将选项卡拖到IDE的顶部并释放鼠标按钮，将其放回到主窗口中。",
     "{}These menus are explained below:":"{}这些菜单的说明如下：",

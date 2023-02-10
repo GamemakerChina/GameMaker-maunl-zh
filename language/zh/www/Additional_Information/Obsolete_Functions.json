@@ -19,9 +19,9 @@
     "You can find out more about {}Background Layers{} from the section on the {}Room Editor{}, and for more information on the functions that control background layers using code see {}Background Layers{}.":"您可以从{}房间编辑器{}一节中了解更多关于{} 背景层 {}的信息，并查看{} 背景层 {}了解更多关于使用代码控制背景层的函数的信息。",
     "You can get our official&nbsp;extensions for advertising and other APIs from the&nbsp;{}Marketplace Page{}.":"你可以从 {}市场页面 {}获得我们的广告和其他api的官方扩展。",
     "{}3rd Party Support{}{}3rd Party Support{}":"第三方支持",
-    "{}Backgrounds{}{}Backgrounds{}":"{}背景{}背景{}",
+    "{}Backgrounds{}{}Backgrounds{}":"{}背景{}{}背景{}",
     "{}GameMaker{} moves a lot of built in functionality from previous versions into {}extensions{}, meaning that the following 3rd party support functions are considered obsolete:":"{} GameMaker {}将大量以前版本的内置功能移植到{}扩展{}中，这意味着以下第三方支持功能被认为是过时的:",
-    "{}Objects{}{}Objects{}":"{}对象{}对象{}",
+    "{}Objects{}{}Objects{}":"{}对象{}{}对象{}",
     "{}Sounds{}{}Sounds{}":"声音",
     "{}View Variables And Window Functions{}{}View Variables And Window Functions{}":"{}视图变量和窗口函数{}{}查看变量和窗口函数{}",
     "{}{}GML Visual{} Actions{}{}{}GML Visual{} Actions{}":"{}{} GML 可视化{}操作{}{} GML 可视化{}操作{}"

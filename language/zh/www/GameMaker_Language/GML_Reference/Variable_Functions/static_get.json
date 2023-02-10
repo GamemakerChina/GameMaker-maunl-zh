@@ -1,0 +1,9 @@
+{
+    "See:&nbsp;{}Static Struct{}":"请参阅：{}静态结构{}",
+    "The above code creates a function {}counter(){} with a static variable. The function is called repeatedly so its static variable\u0027s value is increased.":"上面的代码创建了带有静态变量的函数 {}counter(){}。该函数被重复调用，因此其静态变量的值会增加。",
+    "The static struct for that function is then returned, and stored in a variable ({}_static_counter{}). Then it prints the static variable from the function, by first reading it from the function directly ({}counter.count{}) and then reading it from the static struct ({}_static_counter.count{}). Both print the same value, as they refer to the exact same variable.":"然后返回该函数的静态结构，并将其存储在变量 ({}_static_counter{}) 中。然后，它打印函数中的静态变量，方法是首先直接从函数中读取静态变量 ({}counter.count{})，然后从静态结构中读取它 ({}_static_counter.count{})。两者都打印相同的值，因为它们引用完全相同的变量。",
+    "The struct or function for which to get the static struct":"要获取其静态结构的结构或函数",
+    "This function&nbsp;returns the static struct for the given function, or {}undefined{} if it has no static. The static struct is where all static variables for a function are stored.":"此函数 返回给定函数的静态结构，如果没有静态结构，则返回 {}undefined{}。静态结构是存储函数的所有静态变量的地方。",
+    "When using constructor inheritance, static structs are chained, i.e. you can get the static struct of a static struct, if the constructor has a parent constructor.":"在使用构造函数继承时，静态结构是链接的，也就是说，如果构造函数有父构造函数，则可以获得静态结构的静态结构。",
+    "You can also supply a struct, in which case it will give you the static struct for the constructor that was used to create the struct (or it may be a different struct if it was changed using {}{}static_set{}{}).":"您还可以提供一个结构，在这种情况下，它将为您提供用于创建该结构的构造函数的静态结构 (或者，如果它是使用 {}{}static_set{}{} 更改的，则它可能是一个不同的结构)。"
+}

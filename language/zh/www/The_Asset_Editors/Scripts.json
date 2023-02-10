@@ -39,6 +39,7 @@
     "{}Restore to workspace{}: This will take the script editor out of a maximised/workspace state and re-chain it to the object in the workspace.":"{}恢复到工作区{}：这将使脚本编辑器脱离最大化/工作区状态，并将其重新链接到工作区中的对象。",
     "{}Script / Event Tab{}{}Script / Event Tab{}":"{}脚本/事件选项卡{}{}脚本/事件选项卡{}",
     "{}Search / Replace{}{}Search / Replace{}":"{}搜索/替换{}{}搜索/替换{}",
+    "{}The Script Editor{}":"{}脚本编辑器{}",
     "{}This section deals with the&nbsp;{}script editor{}&nbsp;(also called the {}text editor{}) which is where you type in all the code that your game will require to run. This editor is used for creating&nbsp;custom script assets, as well as for coding&nbsp;{}object events{}, for adding&nbsp;{}room creation code{}, and for many other things.":"{}本节介绍{}脚本编辑器{}(也称为{}文本编辑器{})，您可以在该编辑器中键入运行游戏所需的所有代码。此编辑器用于创建自定义脚本资源，以及编码{}对象事件{}、添加{}房间创建代码{}和许多其他内容。",
     "{}You can find more information on Syntax errors (and general errors when testing or compiling your code) from the following section:":"{}有关语法错误(以及测试或编译代码时的一般错误)的详细信息，请参阅以下部分："
 }

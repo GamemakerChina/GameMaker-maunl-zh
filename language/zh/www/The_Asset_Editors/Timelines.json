@@ -22,5 +22,6 @@
     "{}Moment{}{}Moment{}":"{}时刻{}{}时刻{}",
     "{}Name{}{}Name{}":"{}名称{}{}名称{}",
     "{}Remove{}:&nbsp;This will remove the selected moment (or moments) from the timeline.":"{}删除{}：这将从时间轴中删除选定的时刻(或多个时刻)。",
-    "{}Select All{}:&nbsp;With this option you can select all the moments in a timeline. Selected moments can then be removed, merged, duplicated, cut, or copied.":"{}全选{}：使用此选项，您可以选择时间线中的所有时刻。然后可以删除、合并、复制、剪切或复制选定的力矩。"
+    "{}Select All{}:&nbsp;With this option you can select all the moments in a timeline. Selected moments can then be removed, merged, duplicated, cut, or copied.":"{}全选{}：使用此选项，您可以选择时间线中的所有时刻。然后可以删除、合并、复制、剪切或复制选定的力矩。",
+    "{}The Timeline Editor{}":"{}时间线编辑器{}"
 }

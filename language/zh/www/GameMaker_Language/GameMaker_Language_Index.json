@@ -2,5 +2,6 @@
     "Overview":"概述",
     "Reference":"参考",
     "The GameMaker Language (also called simply GML) is the {}proprietary{}&nbsp;{}{}{}GameMaker{} {}scripting language{}. This language is structured to permit users to create their games in an intuitive and flexible way while offering all the power of any other major programming language. It is also the basis for&nbsp;{}GML Visual{} and can be used in conjunction with that if required.":"GameMaker语言 (也简称为GML) 是 {} 专有的 {}&nbsp;{}{}{} GameMaker {}{} 脚本语言 {}。这种语言的结构允许用户以直观和灵活的方式创建他们的游戏，同时提供任何其他主要编程语言的所有函数。它也是 {} GML Visual{} 的基础，如果需要，可以与之结合使用。",
-    "The {}GML Code{}&nbsp;section of the manual is split into the following sections:":"手册的{} GML Code {}部分分为以下几个部分:"
+    "The {}GML Code{}&nbsp;section of the manual is split into the following sections:":"手册的{} GML Code {}部分分为以下几个部分:",
+    "{}GML Code{}":"{}GML 代码{}"
 }

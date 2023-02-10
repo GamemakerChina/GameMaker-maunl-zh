@@ -72,7 +72,7 @@
     "The Room Manager":"房间管理器",
     "This section covers an overview to GameMaker Language, and its two programming methods: Visual and Code.":"本节概述 GameMaker 语言及其两种编程方法：可视化和代码。",
     "This section is the obligatory first stop for using {}GameMaker{} and getting to grips with the contents of the IDE and how it works. You\u0027ll find that {}GameMaker{} is intuitive and simple to use, and even if you\u0027ve never used any tools like this before you shouldn\u0027t have any problems getting started and making games after reading through the {}Introduction{}&nbsp;and completing the {}Quick Start Guide {}(below). Once you have got to grips with the basics you can then move on to the more in-depth look at the components of {}GameMaker{} in the {}IDE {}sections below.":"本节是使用 {}GameMaker{} 的必经之路，让你掌握 IDE 的内容和它的工作方式。<br>你会发现 {}GameMaker{} 很直观，使用起来也很简单，即使你以前从未使用过这样的工具，<br>在读完 {} 简介 {} 和完成 {} 快速入门指南 {}（以下）后，开始制作游戏应该没有任何问题。<br>一旦你掌握了基础知识，你就可以在下面的 {}IDE{} 部分更深入地了解 {}GameMaker{} 的组成部分。",
-    "Tile Sets":"Tile Sets",
+    "Tile Sets":"图块集",
     "Tilesets":"Tilesets",
     "Timelines":"时间线",
     "To ease you into things we have created a handy Quick Start Guide, and even if you are familiar with other game creation tools we recommend that you start there to get an overview of the way that <span data-keyref=\"GameMaker Name\">GameMaker</span> works. You\u0027ll find <span data-keyref=\"GameMaker Name\">GameMaker</span> to be easy and intuitive to use and that, whatever your skill level, you will soon be making those games you\u0027ve&nbsp;always dreamed of.":"",

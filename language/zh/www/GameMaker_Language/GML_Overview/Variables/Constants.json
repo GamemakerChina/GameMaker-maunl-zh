@@ -41,6 +41,7 @@
     "You can define a macro anywhere in your code or in a script&nbsp;and it will be {}pre-compiled{} and included in your game as if it was there from the start, but we recommend that you create a dedicated script asset and define all your macros in there. It will be easier to organise and debug later!":"你可以在代码或脚本中的任何地方定义宏，它将被{}预编译{}并像从一开始就存在一样包含在游戏中，但我们建议你创建专用的脚本资源并在其中定义所有宏。以后组织和调试会更容易！",
     "You could then use this in your code like this:":"然后您可以在代码中这样使用它：",
     "You would then call this macro something like this:":"然后，您可以将此宏调用为类似以下内容：",
+    "{}Constants{}":"{}常量{}",
     "{}NOTE{}&nbsp;The GameMaker Language also has a number of built-in constant values that are used to identify specific things. These are outlined on the appropriate pages for the runtime functions that require them in the {}GML Reference{} section.":"{}注意{}GameMaker语言也有一些内置的常量值，用于识别特定的事物。这些常量值在需要它们的运行时函数的相应页面中进行了概述，见{}GML参考{}部分。",
     "{}NOTE{}: Enum values are stored as int64s, so running {}{}is_real(){}{} on them will return {}false{}.":"{}注意{}。枚举值以int64形式存储，因此对其运行{}{}is_real(){}{}将返回{}false{}。",
     "{}This constant that can be returned when the compiler cannot evaluate the results of an operation as a number - for example, 0 / 0 cannot be defined as a real number, and is therefore represented by&nbsp;{}{}NaN{}":"{}当编译器无法以数字形式计算操作结果时可返回的常量-例如，0/0不能定义为实数，因此用{}{}NaN{}表示",

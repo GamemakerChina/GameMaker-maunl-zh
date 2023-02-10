@@ -8,6 +8,7 @@
     "You can save a sprite as a strip image file at runtime using {}{}sprite_save_strip(){}{}. This sprite may have previously been loaded via the IDE, at runtime with {}{}sprite_add(){}{}, or {}built from a surface{}.":"您可以在运行时使用 {}{}sprite_save_strip(){}{} 将精灵保存为条带图像文件。此精灵之前可能已通过 IDE 加载，在运行时使用 {}{}sprite_add(){}{} 或{}从表面构建{}加载。",
     "You can save this image and drag it into GameMaker right now, and it will be imported as an animation:":"您可以立即保存此图像并将其拖动到 GameMaker 中，它将作为动画导入：",
     "You can use \"strip images\" to easily import animated sprites into GameMaker.":"您可以使用\"条带图像\"轻松地将动画精灵导入到 GameMaker 中。",
+    "{}Strip Images{}":"{}条带图像{}",
     "{}The above strip image contains 5 frames. Its filename is {}PlayerSprite{}_strip5{}.png{}, indicating it has 5 frames, which GameMaker uses to divide it into separate sub-images.":"{}上面的条带图像包含5帧。其文件名为 {1}PlayerSprite{2}_strip5{3}.png{4}，表示它有 5 帧，GameMaker 使用该帧将其划分为单独的子图像。",
     "{}You can import a strip image via the \"Import\" button in the&nbsp;{}Sprite Editor{}, by dragging it into the IDE, or loading it at runtime with {}{}sprite_add(){}{}.":"{}您可以通过{}精灵编辑器{}中的\"导入\"按钮导入条带图像，方法是将其拖到 IDE 中，或者在运行时使用 {}{}sprite_add(){}{} 加载它。"
 }

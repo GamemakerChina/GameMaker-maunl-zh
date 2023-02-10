@@ -1,0 +1,11 @@
+{
+    "If the method needs no arguments then an empty argument array {}[]{} can be passed.":"如果该方法不需要参数，则可以传递空的参数数组{}[]{}。",
+    "The above code first defines a struct {}struct_with_a_method{} that has a method {}show_message{}. The method is then assigned to a temporary variable {}_method{}. Next it is called using&nbsp;{}{}method_call{}{}&nbsp;with an argument array with 1 item in it: the string {}\"Hello World!\"{}. The {}show_message{} function calls&nbsp;{}{}show_debug_message{}{} which outputs \"The message is: Hello World!\".":"上面的代码首先定义了一个具有方法 {}show_message{} 的结构 {0}struct_with_a_method{1}。然后将该方法赋给临时变量 {}_method{}。接下来，使用 {}{}method_call{}{} 其中包含一个包含 1 项的参数数组：字符串 {}\"Hello World！\"{}。{}show_message{} 函数调用 {}{}show_debug_message{}{}，它输出\"消息是：Hello World！\"。",
+    "The array containing the arguments to pass into the method":"包含要传递到方法中的参数的数组",
+    "The method to call":"要调用的方法",
+    "This function calls a {}method{} with the arguments taken from an array or a range in an array.":"此函数使用从数组或数组中的范围获取的参数调用 {}method{}。",
+    "{}{}Any{}{}&nbsp;(the type returned by the method)":"{}{}Any{}{} (该方法返回的类型)",
+    "{}{}NOTE{}{}&nbsp;This function works similarly to&nbsp;{}{}script_execute_ext{}{}&nbsp;but works with methods instead.":"{}{}注意{}{} 此函数的工作方式类似于 {}{}script_execute_ext{}{} ，但使用的是方法。",
+    "{}{}OPTIONAL{}{}&nbsp;The number of elements to pass as an argument. A negative value will traverse the array backwards (i.e. in descending order of indices, e.g. 2, 1, 0 instead of 2, 3, 4). See:&nbsp;{}Offset And Length{}":"{}{}可选{}{} 要作为参数传递的元素数。负值将向后遍历数组(即以索引的降序，例如2、1、0而不是2、3、4)。请参阅： {}偏移量和长度{}",
+    "{}{}OPTIONAL{}{}&nbsp;The offset, or starting index, in the array. The item at this array index is the {}first{} argument for the method.&nbsp;Defaults to 0.{} Setting a negative value will count from the end of the array. The starting index will then be {}array_length(array) + offset{}. See:&nbsp;{}Offset And Length{}":"{}{}可选{}{} 数组中的偏移量或起始索引。此数组索引处的项是该方法的 {} 第一个 {} 参数。 默认为 0。{} 设置负值将从数组末尾开始计数。然后，起始索引将是 {}array_length(array)+offset{}。请参阅： {} 偏移量和长度 {}"
+}

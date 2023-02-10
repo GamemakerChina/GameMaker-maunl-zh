@@ -115,6 +115,7 @@
     "{}Spline{}":"{}样条{}",
     "{}Text{}":"{}文本{}",
     "{}The Effects menu is where you can add your own custom effects plugins, and has the following effects by default:":"{}在\"效果\"菜单中，您可以添加自己的自定义效果插件，默认情况下具有以下效果：",
+    "{}The Image Editor{}":"{}图像编辑器{}",
     "{}The Image menu has the following options (some of which may or may not be available depending on the currrent editor focus):":"{}\"图像\"菜单具有以下选项(其中某些选项可能可用，也可能不可用，具体取决于当前编辑器焦点)：",
     "{}The I{}mage Editor {}is where you can create your own {}sprites{} or edit those you have imported or created previously. If you have used any other image tools then this should be familiar to you but there are a few things to note when using the {}GameMaker{} Image Editor which may not be immediately apparent:":"{}您可以在{}图像编辑器{}中创建自己的{}精灵{}或编辑以前导入或创建的精灵。如果您使用了任何其他图像工具，则您应该熟悉这一点，但在使用 {}GameMaker{} 图像编辑器时需要注意一些事项，这些事项可能不会立即显示出来：",
     "{}The View menu has the following options:":"{}\"视图\"菜单具有以下选项：",
