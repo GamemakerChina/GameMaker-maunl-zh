@@ -1,8 +1,6 @@
-name: Deploy manual (static) to B2 Cloud
+name: Deploy manual (plugged) to B2 Cloud
 
 on:
-  schedule:
-    - cron: "0 0 * * 0"
   workflow_dispatch:
 
 jobs:
@@ -13,14 +11,14 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        ref: static
+        ref: plugged
         fetch-depth: 1
 
     - name: Deploy to B2 Cloud
       uses: GamemakerChina/backblaze-b2-action@main
       env:
         SOURCE_DIR: './'
-        B2_BUCKET: ${{ secrets.B2_BUCKET_STATIC }}
-        B2_APPKEY_ID: ${{ secrets.B2_APPKEY_ID_STATIC }}
-        B2_APPKEY: ${{ secrets.B2_APPKEY_STATIC }}
+        B2_BUCKET: ${{ secrets.B2_BUCKET }}
+        B2_APPKEY_ID: ${{ secrets.B2_APPKEY_ID }}
+        B2_APPKEY: ${{ secrets.B2_APPKEY }}
         B2_SYNC_THREADS: 1

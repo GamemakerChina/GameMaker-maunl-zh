@@ -1,0 +1,24 @@
+name: Deploy manual (plugged) to a shared host
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        ref: plugged
+        fetch-depth: 1
+
+    - name: Deploy to a shared host
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME_PLUGGED }}
+        password: ${{ secrets.FTP_PASSWORD_PLUGGED }}
