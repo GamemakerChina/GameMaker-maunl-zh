@@ -24,10 +24,28 @@ jobs:
 
     - name: Run build executable files
       run: .\GameMakerManualTranslatorBuild.exe
+    
+    - name: Upload Artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: manual
+          path: build
+  # https://github.com/JamesIves/github-pages-deploy-action#operating-system-support-
+  deploy:
+    concurrency: ci-${{ github.ref }}
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
 
-    - name: Deploy to plugged branch
-      uses: JamesIves/github-pages-deploy-action@releases/v4
-      with:
-        token: ${{ secrets.ACCESS_TOKEN }}
-        branch: plugged
-        folder: build
+      - name: Download Artifacts
+        uses: actions/download-artifact@v1
+        with:
+          name: manual
+
+      - name: Deploy to plugged branch
+        uses: JamesIves/github-pages-deploy-action@releases/v4
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          branch: plugged
+          folder: 'manual'
