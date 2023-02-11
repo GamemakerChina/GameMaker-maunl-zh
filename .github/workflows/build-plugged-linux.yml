@@ -1,10 +1,6 @@
-name: Build manual with plugged method
+name: Build manual with plugged method (Linux)
 
 on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
   workflow_dispatch:
 
 jobs:

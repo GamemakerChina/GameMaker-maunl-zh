@@ -1,4 +1,4 @@
-name: Deploy manual (plugged) to B2 Cloud
+name: Deploy manual package to B2 Cloud
 
 on:
   workflow_dispatch:
