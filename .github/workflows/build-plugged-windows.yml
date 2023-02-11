@@ -23,7 +23,7 @@ jobs:
       run: xcopy .\GMS2-Robohelp-en .\build /E /H /C /I
 
     - name: Run build executable files
-      run: GameMakerManualTranslatorBuild.exe
+      run: .\GameMakerManualTranslatorBuild.exe
 
     - name: Deploy to plugged branch
       uses: JamesIves/github-pages-deploy-action@releases/v4
