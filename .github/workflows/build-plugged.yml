@@ -19,7 +19,7 @@ jobs:
           git submodule update --init --remote GMS2-Robohelp-en/
           git submodule update --init --remote GameMakerManualExport/
 
-      - name: Set Node.js version to 18.x
+      - name: Set Node.js version
         uses: actions/setup-node@v3
         with:
           node-version: 16
