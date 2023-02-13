@@ -11,5 +11,7 @@
     "{}Queued Buffers Bars{} - a small box diagram of the processed/queued buffers with the play offset (current position) drawn as a blue line":"{}Queued Buffers Bars{} - 已处理/排队缓冲区的小方框图，其中播放偏移(当前位置)绘制为蓝线",
     "{}Queued Buffers{} - how many buffers have been queued (and are still waiting to play)":"{}Queued Buffers{} - 有多少缓冲区已排队(且仍在等待播放)",
     "{}{}NOTE{} {}This function does not work on the HTML5 target platform.":"{}{}注意{}{}该函数在HTML5目标平台上不工作。",
+    "{}{}NOTE{}{}&nbsp;For synchronised groups of audio, you also have the function&nbsp;{}{}audio_sync_group_debug{}{}.":"{}{}注意{}{} 对于同步的音频组，您还可以使用函数 {}{}audio_sync_group_debug{}{}。",
+    "{}{}NOTE{}{}&nbsp;This function does not work on the HTML5 target platform.":"{}{}注意{}{} 此函数在HTML5目标平台上不起作用。",
     "{}数据句柄{}-OpenAL缓冲区句柄(为具有相同源句柄的多个声音显示相同的值)":"{}数据句柄{}-OpenAL缓冲区句柄(为具有相同源句柄的多个声音显示相同的值)"
 }
