@@ -1,6 +1,8 @@
 {
     "The above code will draw a 4 vertex triangle strip textured with the texture held in the \"tex\" variable.":"上面的代码将绘制一个4顶点三角形条带纹理，纹理保存在\" tex \"变量中。",
+    "The above code will draw a 4 vertex triangle strip textured with the texture held in the {}tex{}&nbsp;variable.":"上面的代码将绘制一个带有纹理的 4 顶点三角形条带，纹理保存在 {}tex{} 变量中。",
     "The index of the tile set to use.":"要使用的平铺集的索引。",
+    "This function returns a special {}pointer{} for the tile set texture page. This value can then be used in other draw functions, particularly in the {}2D primitive{}&nbsp;functions, as well as the {}Shader{}&nbsp;functions. You can get more information about the returned texture page using the different {}texture_{} functions found on the {}Textures{}&nbsp;page.":"此函数为图块集纹理页面返回特殊的 {} 指针 {}。然后，可以在其他绘制函数中使用该值，特别是在 {}2D 基元 {} 函数以及 {} 着色器 {} 函数中。您可以使用 {} 纹理 {} 页面上的不同 {6}texture_{7} 函数获取有关返回的纹理页面的更多信息。",
     "This function returns a special {}pointer{} for the tile set texture page. This value can then be used in other draw functions, particularly in the {}2D primitive{}&nbsp;functions, as well as the {}Shader{}&nbsp;functions. You can get more information about the returned texture page using the different {}texture_{} functions found {}here{}.":"此函数为平铺集合纹理页面返回特殊{}指针{}。然后，此值可用于其他绘制函数，特别是{}2D 基元{}函数以及{}着色器{}函数。您可以使用此处{}找到的不同{}{}texture_函数{}来获取有关返回的纹理页的更多信息。",
     "{}NOTE{} On HTML5, this returns a struct instead of a texture pointer, as a pointer cannot be used on that platform. However this does not change the use of the returned value, as its usage in {}texture functions{} still remains the same.":"{}Note{}在 HTML5 上，这返回一个结构而不是纹理指针，因为指针不能在该平台上使用。然而，这并不改变返回值的使用，因为它在{}纹理函数{}中的使用仍然相同。"
 }
