@@ -14,5 +14,5 @@
     "[1] = Destination blend mode minus the alpha component (default is {}bm_inv_src_alpha{} (1-As, 1-As, 1-As))":"[ 1 ]=目标混合模式减去Alpha分量(默认为{}bm_inv_src_alpha{}(1-As，1-As，1-As))",
     "[2] = Source alpha component (default is {}bm_src_alpha{} (As))":"[ 2 ]=源Alpha组件(默认值为{}bm_src_alpha{}(As))",
     "[3] = Destination alpha component (default is {}bm_inv_src_alpha{} (1-As))":"[ 3 ]=目标Alpha组件(默认为{}bm_inv_src_alpha{}(1-As))",
-    "{}IMPORTANT!{} HTML5 without WebGL enabled will {}not{} be able to display use following modes correctly:":"{}重要信息！{}未启用WebGL的HTML5将无法{}正确显示以下使用模式："
+    "{}IMPORTANT!{} HTML5 without WebGL enabled will {}not{} be able to display use following modes correctly:":"{}重要！{}未启用WebGL的HTML5将无法{}正确显示以下使用模式："
 }

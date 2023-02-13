@@ -1,5 +1,5 @@
 {
-    "Animation Curve Channel Struct":"",
+    "Animation Curve Channel Struct":"动画曲线通道结构",
     "Animation Curve Interpolation Type Constant":"动画曲线插值类型常数",
     "If the channel is using catmull-rom (\"smooth\") interpolation this holds how many points have been generated for each segment of the curve (note that these extra points are internal to the function and only used for the runtime calculations). If the channel is using linear interpolation, this value will still exist but can be ignored as it has no bearing on how the curve is interpolated.":"如果通道使用catmull- rom (“平滑”) 插值，则可以保存为曲线的每段生成了多少个点 (请注意，这些额外的点在函数内部，仅用于运行时计算)。如果通道使用线性插值，则该值仍将存在，但可以忽略，因为它与曲线的插值方式无关。",
     "The above code creates a new animation curve struct and stores it in the variable \"my_curve\". This struct is then populated with a name and a channel array. The channel array contains a single channel with three points.":"上面的代码创建了一个新的动画曲线结构，并将其存储在变量 “my_curve” 中。然后用名称和通道数组填充此结构。通道阵列包含具有三个点的单个通道。",

@@ -112,7 +112,7 @@
     "{}GameMaker{} supports the following shader languages:":"{}GameMaker{}支持以下着色器语言:",
     "{}Here you can choose how to filter and display the assets listed in the asset browser. You can order them from A - Z or from Z - A as well as choose to order the groups first and then the assets within the groups, or order everything altogether. If you select the {}Custom Order{} filter, then you can select one or more assets and drag them up or down the asset browser tree and position them as you require (note that the \"Groups First\" option will be disabled).":"{}在这里，您可以选择如何过滤和显示资源浏览器中列出的资源。您可以从A- Z或Z- A订购它们，也可以选择先订购组，然后再订购组中的资源，或者全部订购。如果选择{}自定义订单{}过滤器，则可以选择一个或多个资源，并在资源浏览器树中向上或向下拖动它们，并根据需要对其进行定位(请注意，\"组优先\" 选项将被禁用)。",
     "{}Information{}{}Information{}":"{}信息{}{}信息{}",
-    "{}NOTE{} Tiles are always square, so if you need anything other than that, you should be using an instance with a sprite or an asset layer in the room editor.":"{}注意{}磁贴始终是正方形的，因此，如果您需要其他任何东西，则应该在房间编辑器中使用带有sprite或资源层的实例。",
+    "{}NOTE{} Tiles are always square, so if you need anything other than that, you should be using an instance with a sprite or an asset layer in the room editor.":"{}注意{}图块始终是正方形的，因此，如果您需要其他任何东西，则应该在房间编辑器中使用带有sprite或资源层的实例。",
     "{}NOTE{}: If you are adding fonts to your game, make sure you have the licence necessary to re-distribute it, unless it is public domain or copyright free.":"{}注意{}: 如果您要在游戏中添加字体，请确保您拥有重新分发它所需的许可证，除非它是公共领域或无版权的。",
     "{}Note that when opening the colour picker palette from a node like this, you can then right-click {}&nbsp;on any of the colour swatches to generate a custom colour to use.":"{}请注意，当从这样的节点打开颜色选择器调色板时，您可以在任何色板上右键单击{}以生成要使用的自定义颜色。",
     "{}Notes{}{}Notes{}":"{}注释{}{}注释{}",

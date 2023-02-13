@@ -6,5 +6,5 @@
     "The name of the new skin":"新皮肤的名称",
     "The new skin is created with the name that you provide and takes a list of existing skins in the skeletal animation sprite. The attachments that are linked to these skins are included in the new skin. By combining existing skins in this way you can create custom characters (by {}grouping attachments{}).":"新蒙皮使用您提供的名称创建，并采用骨骼动画精灵中的现有蒙皮列表。链接到这些外观的附件将包含在新外观中。通过以这种方式组合现有皮肤，您可以创建自定义角色(通过{}grouping attachments{})。",
     "This function creates a new {}runtime skin{} for skeletal animation sprites through code.":"此函数通过代码为骨骼动画精灵创建新的{}runtime skin{}。",
-    "{}{}IMPORTANT{}{}&nbsp;For skins created using this function you have to pass the struct that it returns&nbsp;to&nbsp;{}skeleton_skin_set{}&nbsp;instead of the skin name.":"{}{}要点{}{}对于使用此函数创建的皮肤，必须将它返回的结构传递给{}skeleton_skin_set{}，而不是皮肤名称。"
+    "{}{}IMPORTANT{}{}&nbsp;For skins created using this function you have to pass the struct that it returns&nbsp;to&nbsp;{}skeleton_skin_set{}&nbsp;instead of the skin name.":"{}{}重要{}{} 对于使用此函数创建的皮肤，必须将它返回的结构传递给{}skeleton_skin_set{}，而不是皮肤名称。"
 }

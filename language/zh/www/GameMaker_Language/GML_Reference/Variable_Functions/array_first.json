@@ -1,4 +1,5 @@
 {
+    "The above code gets the first enemy instance added to the array {}enemies{}&nbsp;and stores it in a temporary variable&nbsp;{}_first_added_enemy{}. It then lets the instance display a debug message with the id of the instance.":"上面的代码获取添加到数组 {}enemies{} 的第一个 enemy 实例，并将其存储在临时变量 {}first_added_enemy{} 中。然后，它让实例显示带有实例 ID 的调试消息。",
     "The above code gets the first enemy instance added to the array {}enemies{}&nbsp;and stores it in a temporary variable&nbsp;{}first_added_enemy{}. It then lets the instance display a debug message with the id of the instance.":"上面的代码获取添加到数组{}enemies{}的第一个enemy实例，并将其存储在临时变量{}first_added_enemy{}中。然后，它让实例显示带有实例ID的调试消息。",
     "The array to get the first value from":"从以下位置获取第一个值的数组",
     "This function returns the element at the start of the array, i.e. the first element at index 0.":"此函数返回数组开始处的元素，即索引0处的第一个元素。",

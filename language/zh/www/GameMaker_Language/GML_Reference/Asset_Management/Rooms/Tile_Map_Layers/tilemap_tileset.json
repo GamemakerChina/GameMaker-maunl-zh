@@ -1,6 +1,6 @@
 {
     "The above code checks the current tile set assigned to the tile map on the layer \"Tiles_trees\" and if it is not \"ts_Nighttime\" then that tile set is assigned to the tile map.":"上述代码检查分配给图层\"Tiles_trees\"上的平铺贴图的当前图块集，如果它不是\"ts_Nighttime\"，则该图块集被分配给图块贴图。",
     "The new tile set index to use":"要使用的新瓦集索引",
-    "The unique ID value of the tile map element to change":"要更改的磁贴图元素的唯一ID值",
+    "The unique ID value of the tile map element to change":"要更改的图块图元素的唯一ID值",
     "Using this function you can change the tile set asset assigned to a given tile map element on a layer. You give the tile map element ID (which you get when you create a tile map element using {}{}layer_tilemap_create(){}{} or when you use the function {}{}layer_tilemap_get_id(){}{}), and then supply a tile set index and the tile map will be given the new sprite.":"使用此函数，可以更改分配给图层上给定平铺贴图元素的平铺集资源。指定平铺贴图元素 ID(当使用{}{}layer_tilemap_create(){}{}创建平铺贴图元素时或使用函数{}{}layer_tilemap_get_id(){}{}时获得该 ID)，然后提供平铺集索引，将给平铺贴图指定新sprite。"
 }

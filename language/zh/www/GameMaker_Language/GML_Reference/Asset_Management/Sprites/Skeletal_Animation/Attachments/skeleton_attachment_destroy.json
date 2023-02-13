@@ -1,0 +1,6 @@
+{
+    "After destroying an attachment the name becomes available again and you can create a new attachment &nbsp;with that name using&nbsp;{}{}skeleton_attachment_create{}{}.":"销毁附件后，该名称将再次可用，您可以使用该名称并通过 {}{}skeleton_attachment_create{}{} 创建新附件.",
+    "The above code destroys an existing custom attachment with the name \"leg_left\".":"上面的代码销毁了名为 \"leg_left\" 的现有自定义附件。",
+    "The name of the attachment to destroy":"要销毁的附件的名称",
+    "This function destroys a custom attachment created using one of the&nbsp;{}{}skeleton_attachment_create{}{}/{}{}skeleton_attachment_create_colour{}{} or&nbsp;{}{}skeleton_attachment_replace{}{}/{}{}skeleton_attachment_replace_colour{}{}&nbsp;functions.":"此函数用于销毁使用 {}{}skeleton_attachment_create{}{}/{}{}skeleton_attachment_create_colour{}{} 或 {}{}skeleton_attachment_replace{}{}/{}{}skeleton_attachment_replace_colour{}{} 函数之一创建的自定义附件."
+}

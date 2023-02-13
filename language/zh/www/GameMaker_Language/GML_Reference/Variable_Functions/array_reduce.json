@@ -17,6 +17,7 @@
     "This function is used to obtain one value from an array, by processing all array elements one-by-one.":"此函数用于逐个处理所有数组元素，从而从数组中获取一个值。",
     "When the callback function returns a value, it\u0027s carried over into the next iteration. This process is repeated, until the given array (or the provided range) has been fully iterated. The function returns the value obtained from the final element\u0027s callback.":"当回调函数返回一个值时，它将被带到下一次迭代中。重复此过程，直到完全迭代给定的数组(或提供的范围)。该函数返回从最终元素的回调中获得的值。",
     "You supply a callback function which runs for each element of the given array. The callback function must return a value, which is passed to the next element\u0027s callback, in its {}previous{} argument.":"您提供了一个回调函数，该函数为给定数组的每个元素运行。回调函数必须在其{}前一个{}参数中返回一个值，该值被传递给下一个元素的回调。",
+    "You supply a {}Callback Method{} which runs for each element of the given array. The callback function must return a value, which is passed to the next element\u0027s callback, in its {}previous{} argument.":"您提供了一个{}回调方法{}，该函数为给定数组的每个元素运行。回调函数必须在其{}前一个{}参数中返回一个值，该值被传递给下一个元素的回调。",
     "{}Callback Function {}{}Callback Function {}":"{}回调函数{}{}回调函数{}",
     "{}This function {}reduces{} the elements of the array (or a range of it) to a single value.{}":"{}这个函数{}将{}数组（或数组的某个范围）中的元素变为一个单一的值。{}",
     "{}To do this, the function executes the predicate function for all elements of the array and carries the return value into the next execution. It returns the return value of the last execution of the predicate function.{}":"{}为此，该函数对数组的所有元素执行判断函数，并将返回值带入下一次执行。 它返回判断函数最后一次执行的返回值。{}。",

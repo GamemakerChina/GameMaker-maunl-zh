@@ -1,6 +1,6 @@
 {
-    "The above code gets the ID value of a tile map created in the room editor, and then clears it using \"empty\" tiles.":"上面的代码获取在房间编辑器中创建的磁贴图的ID值，然后使用\"空\"磁贴清除它。",
+    "The above code gets the ID value of a tile map created in the room editor, and then clears it using \"empty\" tiles.":"上面的代码获取在房间编辑器中创建的图块图的ID值，然后使用\"空\"图块清除它。",
     "The tile data to use to clear the layer":"用于清除图层的平铺数据",
-    "The unique ID value of the tile map element to change":"要更改的磁贴图元素的唯一ID值",
+    "The unique ID value of the tile map element to change":"要更改的图块图元素的唯一ID值",
     "Using this function you can clear/set all the tiles on a given tile-map. You give the tile map element ID (which you get when you create a tile map element using {}{}layer_tilemap_create(){}{} or when you use the function {}{}layer_tilemap_get_id(){}{}), and then supply the tile data that you wish to clear the layer with. A default value of 0 will clear all the tiles from the layer (essentially making all tiles \"empty\"), while you can use the dedicated {}tile_*{}&nbsp;functions to create your own tile data to clear the tile map with.":"使用此函数，可以清除/设置给定贴图上的所有图块。指定平铺贴图元素 ID(当使用{}{}layer_tilemap_create(){}{}创建平铺贴图元素时或使用函数{}{}layer_tilemap_get_id(){}{}时获得该 ID)，然后提供要清除该层的平铺数据。默认值0将清除该层的所有平铺(实质上使所有平铺\"为空\")，而您可以使用专用的{}tile_*{}函数创建自己的平铺数据以使用清除平铺贴图。"
 }

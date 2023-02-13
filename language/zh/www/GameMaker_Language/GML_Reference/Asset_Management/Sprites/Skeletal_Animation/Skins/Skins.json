@@ -1,4 +1,5 @@
 {
-    "Each skeletal animation can have one or more&nbsp;{}skins{}. What this means is that you can use the same base animation with different graphics to create 2 or more characters. For example, say you have an enemy that walks, runs and fights and want to have both a male and female form for it. Instead of creating two sprites, you\u0027d create one and then have two skins and simply switch between the skins when creating the sprite to choose either the male or female form.":"每个骨骼动画可以有一个或多个{}skins{}。这意味着您可以使用具有不同图形的相同基础动画来创建2个或更多角色。例如，假设你有一个会走、会跑、会打架的敌人，并且想要为它同时拥有男性和女性形态。不是创建两个精灵，而是创建一个，然后有两个皮肤，在创建精灵时只需在皮肤之间切换，以选择男性或女性形态。",
-    "The following functions are for dealing with skeleton animation skins:":"以下函数用于处理骨骼动画蒙皮："
+    "Each skeletal animation can have one or more&nbsp;{}skins{}. What this means is that you can use the same base animation with different graphics to create 2 or more characters. For example, say you have an enemy that walks, runs and fights and want to have both a male and female form for it. Instead of creating two sprites, you\u0027d create one and then have two skins and simply switch between the skins when creating the sprite to choose either the male or female form.":"每个骨骼动画可以有一个或多个{}皮肤{}。这意味着您可以使用具有不同图形的相同基础动画来创建2个或更多角色。例如，假设你有一个会走、会跑、会打架的敌人，并且想要为它同时拥有男性和女性形态。不是创建两个精灵，而是创建一个，然后有两个皮肤，在创建精灵时只需在皮肤之间切换，以选择男性或女性形态。",
+    "The following functions are for dealing with skeleton animation skins:":"以下函数用于处理骨骼动画蒙皮：",
+    "{}Skins{}":"{}皮肤{}"
 }

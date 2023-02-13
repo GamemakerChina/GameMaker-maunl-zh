@@ -1,0 +1,8 @@
+{
+    "The array to shuffle":"要打乱的数组",
+    "This function returns a {}new{} array in which the elements of the original array are randomly reordered.":"此函数返回一个{}新的{}数组，其中原始数组的元素被随机重新排序。",
+    "{}{}NOTE{}{}&nbsp;See&nbsp;{}{}array_shuffle_ext{}{}&nbsp;for the function that changes the original array in place.":"{}{}注意{}{} 有关更改原始数组位置的函数，请参阅 {}{}array_shuffle_ext{}{}。",
+    "{}{}NOTE{}{}&nbsp;This function will shuffle the items to the same positions every time the game is run afresh due to the fact that {}GameMaker{} generates the same initial random seed every time to make debugging code a far easier task. To avoid this behaviour use&nbsp;{}{}randomise{}{}&nbsp;at the start of your game. This is only true when testing and debugging the game, as the final executable package will not show this behaviour and will be random every play.":"{}{}注意{}{} 此函数将在每次重新运行游戏时将物品拖到相同的位置，因为 {}GameMaker{} 每次都会生成相同的初始随机种子，从而使调试代码变得容易得多。要避免这种行为，请在游戏开始时使用 {6}{7}randomise{8}{9} 。这只有在测试和调试游戏时才是正确的，因为最终的可执行包不会显示这种行为，并且在每次游戏中都是随机的。",
+    "{}{}OPTIONAL{}{}&nbsp;The number of elements to shuffle. Defaults to&nbsp;{}(array_length(array)&nbsp;- 1{}. See:&nbsp;{}Offset And Length{}":"{}{}可选{}{} 要打乱的元素数。默认为 {}(array_length(array)-1){}。请参阅：{}偏移量和长度{}",
+    "{}{}OPTIONAL{}{}&nbsp;The offset, or starting index, in the array to start shuffling.&nbsp;Defaults to 0. Setting a negative value will count from the end of the array. The starting index will then be {}array_length(array) + offset{}. See:&nbsp;{}Offset And Length{}":"{}{}可选{}{} 要开始打乱的数组中的偏移量或起始索引。默认为 0。设置负值将从数组的末尾开始计数。然后，起始索引将是 {}array_length(array)+offset{}。请参阅：{}偏移量和长度{}"
+}

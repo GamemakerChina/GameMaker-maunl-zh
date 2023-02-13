@@ -1,4 +1,5 @@
 {
+    "The above code will draw the first frame of the given skeletal animation sprite, using the \"jump\" animation set, the skin defined as \"skin1\" and at the same scale and position as the instance properties define, but with an alpha of 0.5.":"上面的代码将绘制给定骨骼动画子画面的第一帧，使用 \" 跳转 \" 动画集，蒙皮定义为 \"skin1\"，比例和位置与实例属性定义的相同，但 Alpha 为 0.5。",
     "The alpha of the sprite (from 0 to 1 where 0 is transparent and 1 opaque).":"精灵的alpha(从0到1，其中0表示透明，1表示不透明)。",
     "The animation frame to draw (from 0 to image_number - 1).":"要绘制的动画帧(从0到图像_数字-1)。",
     "The colour with which to blend the sprite.":"用于混合精灵的颜色。",

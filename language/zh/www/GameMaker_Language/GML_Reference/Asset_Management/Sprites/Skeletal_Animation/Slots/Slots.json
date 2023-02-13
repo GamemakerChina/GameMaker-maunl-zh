@@ -1,5 +1,6 @@
 {
     "Skeleton animation sprites can have \"slots\" where you can place \"attachments\". An attachment is simply an image that can used as a prop&nbsp;by the sprite, and is placed in a slot so that it will move along with the animation of the part where the slot is positioned. If you imagine the sprite of a warrior with an attachment slot on his hand - you can then place different weapon sprites on this slot and make the warrior look like he\u0027s using a sword or a pike or a shield or whatever.":"骨骼动画精灵可以具有\"插槽\"，您可以在其中放置\"附件\"。附件只是一个可以被精灵用作道具的图像，它被放置在一个槽中，这样它就会随着槽所在部分的动画一起移动。如果你想象一个手上有附加槽的战士的精灵，你可以在这个槽上放置不同的武器精灵，让战士看起来像是在使用剑、长矛、盾牌或其他东西。",
+    "Slots":"插槽",
     "The available slot functions are:":"可用的插槽函数包括：",
     "This section deals specifically with slots and their setup and use, however you can also setup attachments and get information about them from the functions listed {}here{}.":"本节专门介绍插槽及其设置和使用，但您也可以设置附件并从{}此处{}列出的函数中获取有关它们的信息。"
 }

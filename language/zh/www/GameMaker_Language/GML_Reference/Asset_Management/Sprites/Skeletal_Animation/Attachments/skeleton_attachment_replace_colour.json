@@ -1,0 +1,15 @@
+{
+    "The above code first checks if an attachment with the name \"fruit_attachment\" exists on the skeleton. If it does, it replaces the attachment image with a sprite \"spr_apple\", with no change in offset, rotation or scale and a&nbsp; colour of&nbsp;{}c_lime{}&nbsp;and alpha value of 1.":"上面的代码首先检查骨架上是否存在名为 \"fruit_attachment\" 的附件。如果是这样的话，它会用一个精灵 \"spr_apple\" 替换附件图像，而不会改变偏移、旋转或缩放，并且颜色为 {}c_lime{}，alpha 值为 1。",
+    "The alpha value to use when drawing the sprite":"绘制精灵时使用的 Alpha 值",
+    "The blend colour to use when drawing the sprite":"绘制精灵时使用的混合色",
+    "The change to the attachment will be visible in all&nbsp;{}Slots{}&nbsp;that have the attachment assigned.":"对附件所做的更改将在分配了附件的所有 {}插槽{} 中可见。",
+    "The horizontal scale factor of the image":"图像的水平比例因子",
+    "The image_index of the sprite to use":"要使用的精灵的图像索引 (image_index)",
+    "The index of the sprite asset to use for the attachment":"用于附件的精灵资源的索引",
+    "The name of the attachment to replace":"要替换的附件的名称",
+    "The rotation of the image. This is {}added{} to the bone\u0027s rotation.":"图像的旋转。这是将{}添加{}到骨骼的旋转中。",
+    "The vertical scale factor of the image":"图像的垂直比例因子",
+    "The x origin to use for the image. The sprite\u0027s origin is ignored.":"要用于图像的 X 原点。忽略精灵的原点。",
+    "The y origin to use for the image. The sprite\u0027s origin is ignored.":"要用于图像的 Y 原点。忽略精灵的原点。",
+    "This function replaces an existing custom attachment on the current instance\u0027s skeletal animation sprite with another one. It also sets the blend colour to use when drawing this attachment.":"此函数将当前实例的骨骼动画精灵上的现有自定义附件替换为另一个。它还设置绘制此附件时要使用的混合色。"
+}

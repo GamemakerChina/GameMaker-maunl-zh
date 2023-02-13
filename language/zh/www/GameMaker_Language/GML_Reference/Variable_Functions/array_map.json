@@ -20,6 +20,7 @@
     "This function returns a {}new{} array with a modified version of the elements in the array or a range of it.":"此函数返回一个{}新{}数组，其中包含数组或数组范围中元素的修改版本。",
     "This function takes a&nbsp;{}Predicate Function{}&nbsp;that operates on the given array. The predicate function is passed the following arguments:":"此函数接受在给定数组上操作的{}判断函数{}。向判断函数传递以下参数：",
     "You provide an array, and a callback function, which is called for each element in the given array. The callback function can return any value, which is applied to that index in a new copy of the array.":"您提供一个数组和一个回调函数，给定数组中的每个元素都会调用该函数。回调函数可以返回任何值，该值应用于数组的新副本中的索引。",
+    "You provide an array, and a {}Callback Method{}, which is called for each element in the given array. The callback function can return any value, which is applied to that index in a new copy of the array.":"您提供一个数组和一个{}回调方法{}，给定数组中的每个元素都会调用该函数。回调函数可以返回任何值，该值应用于数组的新副本中的索引。",
     "{}Callback Function{}{}Callback Function{}":"{}回调函数{}{}回调函数{}",
     "{}Predicate Function{}{}Predicate Function{}":"{}判断函数{}{}判断函数{}",
     "{}{}OPTIONAL{}{}&nbsp;The number of elements to traverse. A negative value will traverse the array backwards (i.e. in descending order of indices, e.g. 2 &gt; 1 &gt; 0 instead of 0 &gt; 1 &gt; 2).":"{}{}可选{}{}要遍历的元素数量。负值将向后遍历数组 (即按索引的降序排列，例如2 &gt; 1 &gt; 0而不是0 &gt; 1 &gt; 2)。",

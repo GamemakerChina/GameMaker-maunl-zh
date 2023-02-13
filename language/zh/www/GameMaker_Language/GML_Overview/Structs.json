@@ -64,7 +64,7 @@
     "is an {}item{}":"是一个 {}item{}",
     "is not an {}enemy{}":"不是一个 {}enemy{}",
     "{}NOTE{}: When working with inheritance, you cannot use method variables to define the constructor function, only script functions.":"{}注意{}:使用继承时，不能使用方法变量来定义构造函数，只能使用脚本函数。",
-    "{}{}IMPORTANT!{}{}&nbsp; You {}cannot {}use any built-in {}{}global {}{}scope variables as struct member names, eg: {}game_id{} or {}fps{}. You can find a full list of these global variables from the following page:":"{}{}重要信息!{}{}您{}不能{}使用任何内置的{}{}全局{}{}范围变量作为结构成员名称，例如：{}game_id{}或{}fps{}。您可以从以下页面找到这些全局变量的完整列表：",
+    "{}{}IMPORTANT!{}{}&nbsp; You {}cannot {}use any built-in {}{}global {}{}scope variables as struct member names, eg: {}game_id{} or {}fps{}. You can find a full list of these global variables from the following page:":"{}{}重要!{}{}您{}不能{}使用任何内置的{}{}全局{}{}范围变量作为结构成员名称，例如：{}game_id{}或{}fps{}。您可以从以下页面找到这些全局变量的完整列表：",
     "{}{}IMPORTANT{}{}&nbsp;You cannot use any built-in {}global variables{} as struct member names, eg: {}game_id{} or {}fps{}. You can find a full list of these global variables on&nbsp;{}Struct Forbidden Variables{}.":"{}{}重要!{}{} 您不能使用任何内置的{}全局{}范围变量作为结构成员名称，例如：{}game_id{} 或 {}fps{}。您可以在{}结构禁用变量{}上找到这些全局变量的完整列表。",
     "{}{}NOTE{}{}&nbsp;When working with inheritance, you cannot use method variables to define the constructor function, only script functions.":"{}{}注意{}{} 在使用继承时，不能使用方法变量来定义构造函数，只能使用脚本函数。"
 }

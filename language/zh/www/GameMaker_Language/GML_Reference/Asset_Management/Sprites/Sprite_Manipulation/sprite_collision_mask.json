@@ -20,5 +20,5 @@
     "{} Finally, tolerance is used to define how precise the precise the mask is (when used with a \"full image\" mask, this will have no effect), with a tolerance of 0 meaning that the mask will follow every single pixel that has a transparency over 0, while other values will shift the collision mask perimeter depending on the transparency of the pixels.":"{}最后，容差用于定义遮罩的精确程度（当与“全图像”遮罩一起使用时，这将不起作用），容差为0表示遮罩将跟随透明度大于0的每个像素，而其他值将根据像素的透明度移动碰撞遮罩周长。",
     "{}NOTE{}: This function does not permit the {}rotated rectangle{} collision mask kind.":"{}注意{}：此函数不允许{}旋转矩形{}碰撞掩码类型。",
     "{}NOTE{}: This function is only useful for {}bitmap{} sprites and will not work with SWF or JSON (Spine) sprites.":"{}注意{}：此函数仅适用于{}位图{}精灵，不适用于SWF或JSON（脊柱）精灵。",
-    "{}NOTE{}: This function will only work on added sprites or duplicated sprites and {}not{} directly on pre-made resources. You can duplicate sprites using the function {}{}{}sprite_duplicate(){}{}{}.":"{}注意{}：此函数只对添加的精灵或复制的精灵起作用，{}不能直接对预先制作的资源起作用。您可以使用函数{}{}{}sprite_Duplicate（）{}（{}）{}（{}）来复制sprite."
+    "{}NOTE{}: This function will only work on added sprites or duplicated sprites and {}not{} directly on pre-made resources. You can duplicate sprites using the function {}{}{}sprite_duplicate(){}{}{}.":"{}注意{}：此函数只对添加的精灵或复制的精灵起作用，{}不能{}直接对预先制作的资源起作用。您可以使用函数{}{}{}sprite_duplicate(){}{}{}）来复制sprite."
 }

@@ -5,5 +5,5 @@
     "These skins need to have been previously created and named in your animation program, and this name is passed into the function (as a string) to set the sprite to use that skin when being drawn.":"这些皮肤需要事先在动画程序中创建并命名，并且该名称被传递到函数中(作为字符串)，以设置精灵在绘制时使用该皮肤。",
     "This function sets the skin used to draw a skeletal animation sprite.":"此函数设置用于绘制骨骼动画精灵的皮肤。",
     "You can also add skins through code using&nbsp;{}skeleton_skin_create{}.":"您还可以使用{}skeleton_skin_create{}通过代码添加皮肤。",
-    "{}{}IMPORTANT{}{}&nbsp;For skins added using&nbsp;{}skeleton_skin_create{} you must pass the struct returned by the function instead of the name.":"{}{}重要信息{}{}对于使用{}skeleton_外观_create{}添加的外观，必须传递函数返回的结构而不是名称。"
+    "{}{}IMPORTANT{}{}&nbsp;For skins added using&nbsp;{}skeleton_skin_create{} you must pass the struct returned by the function instead of the name.":"{}{}重要{}{} 对于使用{}skeleton_skin_create{}添加的外观，必须传递函数返回的结构而不是名称。"
 }
