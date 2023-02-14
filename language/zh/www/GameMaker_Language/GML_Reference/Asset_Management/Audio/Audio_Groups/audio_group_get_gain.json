@@ -1,0 +1,5 @@
+{
+    "The ID of the audio group":"音频组的 ID",
+    "This function returns the gain of the audio group with the given ID.":"此函数用于返回具有给定 ID 的音频组的增益。",
+    "This gets the gain of the default audio group and stores it in a variable.":"这将获取默认音频组的增益并将其存储在一个变量中。"
+}

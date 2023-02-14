@@ -1,5 +1,5 @@
 {
-    "Array (1D, 8 elements)":"Array（1维，8个元素）",
+    "Array (1D, 8 elements)":"Array(1维，8个元素)",
     "The above code will store the UV coordinates for the given sprite in a local array and then assign the values to instance variables.":"上面的代码将给定sprite的UV坐标存储在局部数组中，然后将值分配给实例变量。",
     "The index of the sprite to use.":"要使用的sprite的索引。",
     "The sub-image of the sprite to use.":"要使用的sprite的子图像。",

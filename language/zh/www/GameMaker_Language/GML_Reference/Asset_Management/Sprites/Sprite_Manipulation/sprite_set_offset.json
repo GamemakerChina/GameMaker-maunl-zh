@@ -3,6 +3,6 @@
     "The index of the sprite to change the offset of.":"要更改偏移的sprite的索引。",
     "The x position of the origin.":"原点的X位置。",
     "The y position of the origin.":"原点的Y位置。",
-    "This function can be used to set the x and y origin of a sprite, and takes relative values based on the (0,0) position being the upper left corner of the sprite. The following image illustrates this:":"此函数可用于设置子画面的X和Y原点，并根据子画面左上角的（0，0）位置获取相对值。下图说明了这一点：",
+    "This function can be used to set the x and y origin of a sprite, and takes relative values based on the (0,0) position being the upper left corner of the sprite. The following image illustrates this:":"此函数可用于设置子画面的X和Y原点，并根据子画面左上角的(0，0)位置获取相对值。下图说明了这一点：",
     "{}{}NOTE{}{}&nbsp;This function affects the sprite&nbsp;{}asset&nbsp;{}so that all further instances with this sprite will have the same offset.":"{}{}注意{}{}此函数影响sprite{}资源{}，以便此sprite的所有其他实例将具有相同的偏移。"
 }

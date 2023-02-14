@@ -1,5 +1,14 @@
 {
+    "Audio Properties":"音频属性",
+    "Each audio group has its own gain. The gain of all sounds in an audio group is multiplied by that audio group\u0027s gain. The default value is 1 but it can be changed using&nbsp;{}{}audio_group_set_gain{}{}&nbsp;and retrieved using&nbsp;{}{}audio_group_get_gain{}{}&nbsp;respectively.":"每个音频组都有自己的增益。音频组中所有声音的增益乘以该音频组的增益。默认值为 1，但可以分别使用 {}{}audio_group_set_gain{}{} 和使用 {}{}audio_group_get_gain{}{} 进行更改。",
+    "Function Reference":"函数参考",
+    "Group Info":"组信息",
+    "Loading":"加载",
+    "Playing Sounds":"播放音频",
     "The following functions exist to deal with using audio groups:":"以下函数用于处理音频组的使用：",
+    "You can create these&nbsp;{}audio groups{} from the {}Audio Groups{}&nbsp;window - which can be opened from {}The Tools Menu{}&nbsp;at the top of the IDE -&nbsp;and you can assign your audio assets to a specific group from the {}Sound Properties Window{}.":"您可以从 IDE 顶部的{}{}工具{}{}菜单打开的{}音频组{}窗口创建这些{}音频组{}，还可以从{}声音属性窗口{}将音频资源分配给特定组。",
+    "Your audio assets can be grouped together from the IDE so they can be loaded and unloaded into memory as required by your game.":"您可以从 IDE 中将音频资源分组在一起，以便根据游戏要求将它们加载和卸载到内存中。",
     "Your audio assets can be grouped together from the IDE so they can be loaded and unloaded into memory as required by your game. You can create these&nbsp;{}audio groups{} from the {}Audio Groups{} window - which can be opened from the {}{}Tools{}{} menu at the top of the IDE -&nbsp;and you can assign your audio assets to a specific group from the {}Sound Properties Window{}.":"可以从IDE中将音频资源分组在一起，以便根据游戏要求将它们加载和卸载到内存中。可以从 IDE 顶部的{}{}工具{}{}菜单打开的{}音频组{}窗口创建这些{}音频组{}，还可以从{}声音属性窗口{}将音频资源分配给特定组。",
-    "{}Audio Groups{}":"{}音频组{}"
+    "{}Audio Groups{}":"{}音频组{}",
+    "{}{}NOTE{}{}&nbsp;All audio groups can be accessed in code through a constant that {}GameMaker{}&nbsp;defines for each of the groups. The default audio group is {}{}audiogroup_default{}{}. To get the name of the group as a string you can use&nbsp;{}{}audio_group_name{}{}.":"{}{}注意{}{} 所有音频组都可以通过代码访问，该常量由 {}GameMaker{} 为每个组定义。默认音频组为 {}{}audiogroup_default{}{}。要获取字符串形式的组名称，可以使用 {}{}audio_group_name{}{}。"
 }

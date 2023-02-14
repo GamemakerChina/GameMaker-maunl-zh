@@ -1,4 +1,4 @@
 {
     "The above code checks the matrix stack to see if it is empty and if it is not it clears it.":"上面的代码检查矩阵堆栈，看它是否为空，如果不是，则清除它。",
-    "This function can be used to check whether the matrix stack is empty (returns {}true{}) or not (returns {}false{}).":"此函数可用于检查矩阵堆栈是否为空（返回 {}true{}）或不为空（返回 {}false{}）。"
+    "This function can be used to check whether the matrix stack is empty (returns {}true{}) or not (returns {}false{}).":"此函数可用于检查矩阵堆栈是否为空(返回 {}true{})或不为空(返回 {}false{})。"
 }

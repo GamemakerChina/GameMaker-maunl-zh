@@ -10,8 +10,8 @@
     "The y component of the vector to transform":"变换向量的 y 分量",
     "The z component of the vector to transform":"变换向量的 z 分量",
     "This function transforms a vector by a matrix and returns the result as a new array.":"此函数通过矩阵转换向量，并以新数组的形式返回结果。",
-    "This function transforms a vector by a matrix. You supply the transform matrix ID (as returned by the function {}{}matrix build(){}{}), as well as the x, y and z values for the vector to transform. The function will return an&nbsp;{}array{} of 3 elements where:":"此函数通过矩阵变换向量。 您提供变换矩阵 ID（由函数 {}{}matrix build(){}{} 返回），以及要变换的向量的 x、y 和 z 值。 该函数将返回一个包含 3 个元素的{}数组{}，其中：",
+    "This function transforms a vector by a matrix. You supply the transform matrix ID (as returned by the function {}{}matrix build(){}{}), as well as the x, y and z values for the vector to transform. The function will return an&nbsp;{}array{} of 3 elements where:":"此函数通过矩阵变换向量。 您提供变换矩阵 ID(由函数 {}{}matrix build(){}{} 返回)，以及要变换的向量的 x、y 和 z 值。 该函数将返回一个包含 3 个元素的{}数组{}，其中：",
     "{}{}Array{}{} (3 elements (x, y and z are passed) or 4 elements (x, y, z and w are passed))":"{}{}Array{}{} (3 个元素 (传递 x、y 和 z) 或 4 个元素 (传递 x、y、z 和 w))",
-    "{}{}Array{}{} (3 elements)":"{}{}Array{}{} (3 elements) <br>数组（3 个元素）",
+    "{}{}Array{}{} (3 elements)":"{}{}Array{}{} (3 elements) <br>数组(3 个元素)",
     "{}{}OPTIONAL{}{}&nbsp;The w component of the vector to transform":"{}{}可选{}{} 变换向量的 w 分量"
 }

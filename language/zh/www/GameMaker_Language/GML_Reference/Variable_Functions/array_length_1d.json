@@ -1,7 +1,7 @@
 {
     "The above code will loop through an array and set each entry to -1.":"上面的代码将遍历一个数组并将每个条目设置为 -1。",
     "The index of the array to check.":"要检查的数组的索引。",
-    "With this function you can get the length (number of entries) of a 1D array. For 2D arrays you should be using the {}{}array_height_2d{}{} and {}{}array_length_2d{}{} functions.":"使用此函数，您可以获得一维数组的长度（条目数）。对于二维数组，你应该使用 {} {} array_height_2d {} {} 和 {} {} array_length_2d {} {} 函数。",
+    "With this function you can get the length (number of entries) of a 1D array. For 2D arrays you should be using the {}{}array_height_2d{}{} and {}{}array_length_2d{}{} functions.":"使用此函数，您可以获得一维数组的长度(条目数)。对于二维数组，你应该使用 {} {} array_height_2d {} {} 和 {} {} array_length_2d {} {} 函数。",
     "{}IMPORTANT!: {}If the array has over 32,000 entries this function will return an erroneous value and should not be used.":"{} 重要！:{} 如果数组有超过 32,000 个条目，则此函数将返回错误值，不应使用。",
-    "{}WARNING!{} This function is deprecated (and replaced by {}{}array_length(){}{}) as arrays are no longer limited to only 1 or 2 dimensions, and as such this function is only supplied for support of legacy projects. All new projects should use the current way of creating and accessing multi-dimension arrays (see {}here{}&nbsp;for more information).":"{} 警告！{} 此函数已弃用（替换为 {}{}array_length(){}{}），因为数组不再局限于 1 或 2 维，因此提供此函数仅用于支持传统项目。所有新项目都应使用当前创建和访问多维数组的方式（有关更多信息，请参见此处 {}{}）。"
+    "{}WARNING!{} This function is deprecated (and replaced by {}{}array_length(){}{}) as arrays are no longer limited to only 1 or 2 dimensions, and as such this function is only supplied for support of legacy projects. All new projects should use the current way of creating and accessing multi-dimension arrays (see {}here{}&nbsp;for more information).":"{} 警告！{} 此函数已弃用(替换为 {}{}array_length(){}{})，因为数组不再局限于 1 或 2 维，因此提供此函数仅用于支持传统项目。所有新项目都应使用当前创建和访问多维数组的方式(有关更多信息，请参见此处 {}{})。"
 }

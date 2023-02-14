@@ -6,5 +6,5 @@
     "The second to check.":"要检查的秒数。",
     "The year to check.":"要检查的年份。",
     "This will set \"mydatetime\" to 15th September 2011, 10:03.30, if it is a valid value (which it is).":"这将把“mydatetime”设置为2011年9月15日，10:03.30，如果它是一个有效值(它是)。",
-    "With this function you can check a datetime value to see if it is valid (returns {}true{}) or not (returns {}false{}). Note that this function will only consider a valid datetime as being {}after{} 1/1/1970 and anything before that will return {}false{}, so the earliest you can check would be:":"使用此函数，您可以检查日期时间值以查看它是否有效（返回 {}true{}）或无效（返回 {}false{}）。 请注意，此函数只会将有效的日期时间视为{}1970 年 1 月 1 日之后{}，而在此之前的任何内容都将返回 {}false{}，因此您最早可以检查的是："
+    "With this function you can check a datetime value to see if it is valid (returns {}true{}) or not (returns {}false{}). Note that this function will only consider a valid datetime as being {}after{} 1/1/1970 and anything before that will return {}false{}, so the earliest you can check would be:":"使用此函数，您可以检查日期时间值以查看它是否有效(返回 {}true{})或无效(返回 {}false{})。 请注意，此函数只会将有效的日期时间视为{}1970 年 1 月 1 日之后{}，而在此之前的任何内容都将返回 {}false{}，因此您最早可以检查的是："
 }

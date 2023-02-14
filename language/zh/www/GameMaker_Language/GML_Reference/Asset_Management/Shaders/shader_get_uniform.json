@@ -3,5 +3,5 @@
     "The above code will get the handle of the shader constant \"u_vRefractColour\".":"上面的代码将获得着色器常量\"u_vRefractColour\"的句柄。",
     "The index of the shader to use.":"要使用的着色器的索引。",
     "The shader constant to get the handle of (a string).":"获取(字符串)句柄的着色器常量。",
-    "{}NOTE{}: Although a shader is made up of two discreet programs (vertex and fragment) this function will not differentiate between the two and will return the handle of the shader constant from either of them.":"{}注释{}：虽然着色器由两个离散程序(顶点和片段)组成，但该函数不会区分这两个程序，并将从其中任一程序返回着色器常数的句柄。"
+    "{}NOTE{}: Although a shader is made up of two discreet programs (vertex and fragment) this function will not differentiate between the two and will return the handle of the shader constant from either of them.":"{}注意{}：虽然着色器由两个离散程序(顶点和片段)组成，但该函数不会区分这两个程序，并将从其中任一程序返回着色器常数的句柄。"
 }

@@ -1,5 +1,5 @@
 {
     "The date to check.":"要检查的日期。",
-    "This function returns the second of the given datetime value within the year (from the total number of seconds for the year, taking into account leap years).":"此函数返回一年内给定日期时间值的秒数（根据当年的总秒数，考虑闰年）。",
+    "This function returns the second of the given datetime value within the year (from the total number of seconds for the year, taking into account leap years).":"此函数返回一年内给定日期时间值的秒数(根据当年的总秒数，考虑闰年)。",
     "This would set \"mysecondyear\" to the current second of the year.":"这将把“mysecondyear”设置为当前年的秒。"
 }

@@ -1,6 +1,6 @@
 {
     "In cryptography, SHA-1 is a cryptographic hash function designed by the United States {}National Security Agency{} and is employed in several widely used applications and protocols like the popular {}Git{} where it is used to check for file changes. This function will take an input unicode string and returns a 160 bit message digest in ASCII format, for example:":"在密码学中，SHA-1 是一种由美国{}国家安全局{}设计的加密哈希函数，被广泛用于多种应用和协议中，例如流行的 {}Git{}，它用于检查文件更改 . 此函数将采用输入 unicode 字符串并返回 ASCII 格式的 160 位消息摘要，例如：",
-    "In this way you can generate a secure key which can be stored and used to check the integrity of the information being sent to (or received from) an external server (for example).":"通过这种方式，您可以生成一个安全密钥，该密钥可以存储并用于检查发送到（或从）外部服务器（例如）的信息的完整性。",
+    "In this way you can generate a secure key which can be stored and used to check the integrity of the information being sent to (or received from) an external server (for example).":"通过这种方式，您可以生成一个安全密钥，该密钥可以存储并用于检查发送到(或从)外部服务器(例如)的信息的完整性。",
     "The above code will base64 encode a string and then generate a sha1 hash. Finally, both the hash and the encoded string are sent to a server.":"上面的代码将对一个字符串进行base64编码，然后生成一个sha1散列。 最后，哈希和编码后的字符串都被发送到服务器。",
     "The string to hash.":"要散列的字符串。",
     "{}NOTE{}: SHA-1 is not completely secure and can be broken. See&nbsp;{}this page{}&nbsp;for more info.":"{}注意{}：SHA-1 并不完全安全，可能会被破解。 查看&nbsp;{}此页面{}&nbsp;了解更多信息。",

@@ -1,5 +1,5 @@
 {
     "See:&nbsp;{}The Game Window{}":"参见: {}游戏窗口{}",
     "The above code checks the width and height of the browser to see if either is larger than the current window width and height. If either of them are, it then calculates a new position for the game window within the browser.":"上面的代码检查浏览器的宽度和高度，看看是否有一个大于当前窗口的宽度和高度。 如果它们中的任何一个是，它就会计算游戏窗口在浏览器中的新位置。",
-    "This variable holds the width (in pixels) of the browser the game is being run in. If no browser is present then the window size is returned.":"此变量保存运行游戏的浏览器的宽度（以像素为单位）。如果不存在浏览器，则返回窗口大小。"
+    "This variable holds the width (in pixels) of the browser the game is being run in. If no browser is present then the window size is returned.":"此变量保存运行游戏的浏览器的宽度(以像素为单位)。如果不存在浏览器，则返回窗口大小。"
 }

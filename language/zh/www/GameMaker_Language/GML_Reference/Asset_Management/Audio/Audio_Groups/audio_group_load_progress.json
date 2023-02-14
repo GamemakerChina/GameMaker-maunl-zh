@@ -1,5 +1,6 @@
 {
     "The above code checks a variable and if it returns {}true{} then some text will be drawn showing the progress of the audio being loaded.":"上面的代码检查一个变量，如果它返回{}true{}，那么将绘制一些文本，显示正在加载的音频的进度。",
     "The index of the audio group to check (as defined in the {}Audio Groups Window{})":"要检查的音频组的索引(在{}音频组窗口{}中定义)",
+    "The index of the audio group to check (as defined in the {}Audio Groups{}&nbsp;window)":"要检查的音频组的索引(在{}音频组{}窗口中定义)",
     "This function will check the loading progress for an audio group and return an (approximate) value between 0 and 100.":"此函数将检查音频组的加载进度，并返回0到100之间的(近似)值。"
 }

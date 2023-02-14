@@ -1,5 +1,5 @@
 {
-    "Boolean&nbsp;(whether the condition checked in the {}function{} is {}true{} {}or{} {}false{})":"布尔值（在{}函数{}中检查的条件是{}true{}{}还是{}{}false{}）",
+    "Boolean&nbsp;(whether the condition checked in the {}function{} is {}true{} {}or{} {}false{})":"布尔值(在{}函数{}中检查的条件是{}true{}{}还是{}{}false{})",
     "By default the function checks the whole array. You can optionally supply&nbsp;{}Offset And Length{} arguments to check a part of the array, traversing the array forward or backward.":"默认情况下，该函数检查整个数组。您可以选择提供{}偏移量和长度{}参数来检查数组的一部分，向前或向后遍历数组。",
     "It then creates an array {}scores{}&nbsp;with various values between 0 and 100. Finally it calls {}array_filter{} on this array and stores the new array in a variable {}passed{}.":"然后，它创建一个具有介于 0 和 100 之间的各种值的数组 {}score{}。最后，它对该数组调用 {}array_filter{}，并将新数组存储在 {}passed{} 的变量中。",
     "See information and examples on&nbsp;{}Predicate Function{}.":"请参阅有关{}判断函数{}的信息和示例。",
@@ -22,13 +22,13 @@
     "{}Elements for which the predicate function returns {}true{} are included in the returned array, and ones that get{}&nbsp;{}false{} are ignored.":"{}判断函数为其返回 {}true{} 的元素包括在返回的数组中，而获得 {}{}false{} 的元素将被忽略。",
     "{}It only keeps those elements {}of the original array for which the predicate function returns {}true{}{}. Elements for which the predicate function returns {}false{}&nbsp;are {}not{} added to the new array.{}":"{}它只保留原数组中{}判断函数返回{}true{}{}的元素。 判断函数返回{}false{}的元素{}未{}添加到新数组。{}",
     "{}Predicate Function{}{}Predicate Function{}":"{}判断函数{}{}判断函数{}",
-    "{}This function returns a {}new{} array that is the {}filtered{} version of the array (or a range of it) that you pass into it.{}":"{}此函数返回一个{}新{}数组，该数组是您传递给它的数组（或数组的范围）的{}筛选{}版本。",
+    "{}This function returns a {}new{} array that is the {}filtered{} version of the array (or a range of it) that you pass into it.{}":"{}此函数返回一个{}新{}数组，该数组是您传递给它的数组(或数组的范围)的{}筛选{}版本。",
     "{}This function returns a {}new{} array that is the {}filtered{} version of the given array (or a range of it).{}":"{}此函数返回一个{}新的{}数组，该数组是给定数组(或其范围)的{}筛选{}版本。{}",
     "{}You supply a&nbsp;{}Predicate Function{}&nbsp;which runs for all elements in the array. It should return either&nbsp;{}true{} or {}false{}&nbsp;based on a condition.{}":"{} 您提供了一个对数组中的所有元素运行的 {} 判断函数 {}。它应根据条件返回 {}true{} 或 {}false{}。{}",
     "{}You supply a&nbsp;{}Predicate Method{}&nbsp;which runs for all elements in the array. It should return either&nbsp;{}true{} or {}false{}&nbsp;based on a condition.{}":"{}您提供了一个对数组中的所有元素运行的{}判断方法{}。它应根据条件返回 {}true{} 或 {}false{}。{}",
     "{}{}NOTE{}{}&nbsp;See&nbsp;{}{}array_copy_while{}{}&nbsp;for the function that stops execution after the first {}false{} value of the predicate function.":"{}{}注意{}{}请参见{}{}array_copy_while{}{}有关在判断函数的第一个{}false{}值之后停止执行的函数，。",
     "{}{}NOTE{}{}&nbsp;See&nbsp;{}{}array_copy_while{}{}&nbsp;which is similar, but stops execution after the first {}false{} return of the predicate function.":"{}{}注意{}{} 参见 {}{}array_copy_while{}{}，该方法类似，但在判断函数的第一个 {}false{} 返回后停止执行。",
-    "{}{}OPTIONAL{}{}&nbsp;The number of elements to traverse. A negative value will traverse the array backwards (i.e. in descending order of indices, e.g. 2 &gt; 1 &gt; 0 instead of 0 &gt; 1 &gt; 2).":"{}{}可选{}{}要遍历的元素数。负值将向后遍历数组（即按索引的降序排列，例如2&gt; 1> 0 而不是0&gt; 1> 2）.",
+    "{}{}OPTIONAL{}{}&nbsp;The number of elements to traverse. A negative value will traverse the array backwards (i.e. in descending order of indices, e.g. 2 &gt; 1 &gt; 0 instead of 0 &gt; 1 &gt; 2).":"{}{}可选{}{}要遍历的元素数。负值将向后遍历数组(即按索引的降序排列，例如2&gt; 1> 0 而不是0&gt; 1> 2).",
     "{}{}OPTIONAL{}{}&nbsp;The number of elements to traverse. A negative value will traverse the array backwards (i.e. in descending order of indices, e.g. 2, 1, 0 instead of 2, 3, 4). See:&nbsp;{}Offset And Length{}":"{}{}可选{}{} 要遍历的元素数。负值将向后遍历数组(即以索引的降序，例如 2、1、0 而不是 2、3、4)。请参阅：{}偏移量和长度{}",
     "{}{}OPTIONAL{}{}&nbsp;The offset, or starting index, in the array. Setting a negative value will count from the end of the array. The starting index will then be {}array_length(array) + offset{}. See:&nbsp;{}Offset And Length{}":"{}{}可选{}{} 数组中的偏移量或起始索引。设置负值将从数组的末尾开始计数。然后，起始索引将是 {}array_length(array) + offset{}。请参阅：{}偏移量和长度{}",
     "{}{}OPTIONAL{}{}&nbsp;The offset, or the starting index, in the array. Setting a negative value will count from the end of the array. The starting index will then be {}array_length(array) + offset{}.":"{}{}可选{}{}数组中的偏移量或起始索引。设置负值将从数组的末尾开始计数。然后，起始索引将为{}array_length(array) + offset{}。"

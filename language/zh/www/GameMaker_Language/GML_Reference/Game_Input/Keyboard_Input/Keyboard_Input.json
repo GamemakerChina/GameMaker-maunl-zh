@@ -8,7 +8,7 @@
     "The following constants can only be used with {}keyboard_check_direct(){}:":"以下常量只能与{}keyboard_check_direct(){}一起使用:",
     "The following functions are available for use when working with a keyboard:":"使用键盘时可以使用以下函数:",
     "There are also some functions that can be used to simulate keypresses:":"还有一些函数可以用来模拟按键:",
-    "Virtual Key Constant (vk_*)":"虚拟键常数（vk_*）",
+    "Virtual Key Constant (vk_*)":"虚拟键常数(vk_*)",
     "When dealing with the keyboard in {}GameMaker{} you have a variety of functions that can be used to recognise different keyboard states like pressed or released. There are also some that store all the key-presses as a string or that can tell you what the last key pressed was, as well as others that allow you to clear the keyboard state completely.":"在{}GameMaker{}中处理键盘时，您可以使用多种函数来识别不同的键盘状态，例如按下或释放。还有一些将所有按键存储为字符串，或者可以告诉您最后按下的按键是什么，以及其他允许您完全清除键盘状态的按键。",
     "add key on the numeric keypad":"在数字键盘上加法键",
     "alt key":"alt键",

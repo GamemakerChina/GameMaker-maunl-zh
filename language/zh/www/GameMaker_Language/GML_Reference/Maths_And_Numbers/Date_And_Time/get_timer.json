@@ -1,4 +1,4 @@
 {
-    "This function returns the time that your game has been running on the chosen platform in microseconds (there are 1 million microseconds per second).":"此函数返回您的游戏在所选平台上运行的时间，以微秒为单位（每秒有 100 万微秒）。",
+    "This function returns the time that your game has been running on the chosen platform in microseconds (there are 1 million microseconds per second).":"此函数返回您的游戏在所选平台上运行的时间，以微秒为单位(每秒有 100 万微秒)。",
     "This would store the timer value in the variable \"time\".":"这会将计时器值存储在变量“time”中。"
 }

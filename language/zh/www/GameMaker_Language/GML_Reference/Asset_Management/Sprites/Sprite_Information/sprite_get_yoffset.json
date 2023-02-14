@@ -1,5 +1,5 @@
 {
-    "The above code will ensure that an instance is maintained within the room based on the sprite (so the sprite is always visible).":"上面的代码将确保基于sprite在房间内维护实例（因此sprite始终可见）。",
+    "The above code will ensure that an instance is maintained within the room based on the sprite (so the sprite is always visible).":"上面的代码将确保基于sprite在房间内维护实例(因此sprite始终可见)。",
     "The index of the sprite to find the yoffset of.":"要查找的yOffset的sprite的索引。",
     "When you define a sprite in the sprite editor, you need to set the {}origin{} for that sprite. This is the point at which the sprite will be \"attached\" or \"drawn\" when used with an instance. This function returns the relative offset for the y-axis of the origin based on the upper left corner being the 0,0 position, with a +y being down and a -y being up from this. The following image illustrates this:":"在精灵编辑器中定义精灵时，需要设置该精灵的{}原点{}。当与实例一起使用时，这是精灵将被“附加”或“绘制”的点。此函数返回原点的y轴的相对偏移，基于左上角为0，0位置，a+y表示向下，a-y表示向上。下图说明了这一点："
 }

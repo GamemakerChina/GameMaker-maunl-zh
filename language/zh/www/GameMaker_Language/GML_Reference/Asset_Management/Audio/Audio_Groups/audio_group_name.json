@@ -1,5 +1,8 @@
 {
     "The above code retrieves the name of the given audio group constant and displays it on the screen.":"上面的代码检索给定音频组常量的名称，并将其显示在屏幕上。",
     "The index value constant of the audio group to check (as defined in the {}Audio Groups Window{})":"要检查的音频组的索引值常量(在{}音频组窗口{}中定义)",
-    "This function will return a string containing the name of the given audio group for displaying or checking. When you define an audio group in the Game Options, you give it a unique \"name\" which is really a constant to use as an ID {}v{}alue for the group. All this function does is take the ID and return a string of the ID name you gave.":"此函数将返回一个字符串，其中包含用于显示或检查的给定音频组的名称。当你在游戏选项中定义一个音频组时，你给它一个唯一的\"名称\"，它实际上是一个常量，用作组的ID{}V{}值。这个函数所做的全部工作就是获取ID并返回您给出的ID名称的字符串。"
+    "This function returns a string containing the name of the given audio group for displaying or checking.":"此函数将返回一个字符串，其中包含用于显示或检查的给定音频组的名称。",
+    "This function will return a string containing the name of the given audio group for displaying or checking. When you define an audio group in the Game Options, you give it a unique \"name\" which is really a constant to use as an ID {}v{}alue for the group. All this function does is take the ID and return a string of the ID name you gave.":"此函数将返回一个字符串，其中包含用于显示或检查的给定音频组的名称。当你在游戏选项中定义一个音频组时，你给它一个唯一的\"名称\"，它实际上是一个常量，用作组的ID{}值{}。这个函数所做的全部工作就是获取ID并返回您给出的ID名称的字符串。",
+    "When you define an audio group in the {}Audio Groups{}&nbsp;window, you give it a unique name which {}GameMaker{}&nbsp;turns into&nbsp;a constant to use as an ID value for the group. This function takes this ID and returns a string of the ID name you gave.":"当你在游戏选项中定义一个{}音频组{}时，你给它一个唯一的\"名称\"，它实际上是一个常量，用作组的ID{}值{}。这个函数所做的全部工作就是获取ID并返回您给出的ID名称的字符串。",
+    "{}{}NOTE{}{}&nbsp;The default audio group is {}{}audiogroup_default{}{}.":"{}{}注意{}{} 默认音频组为{}{}audiogroup_default{}{}。"
 }
