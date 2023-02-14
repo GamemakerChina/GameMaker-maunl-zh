@@ -5,5 +5,6 @@
     "The index of the font to check":"要检查的字体的索引",
     "This function returns if SDF rendering is enabled for the given font.":"此函数返回是否为给定字体启用了SDF渲染。",
     "This function returns if {}SDF Rendering{}&nbsp;is enabled for the given font.":"如果为给定字体启用了 {}SDF 渲染{} ，则此函数返回。",
+    "This function returns whether&nbsp;{}SDF Rendering{}&nbsp;is enabled for the given font or not.":"此函数返回是否为给定字体启用了 {}SDF 渲染 {}。",
     "{}{}NOTE{}{}&nbsp;SDF fonts are currently not supported on HTML5.":"{}{}注意{}{} HTML5 当前不支持 SDF 字体。"
 }
