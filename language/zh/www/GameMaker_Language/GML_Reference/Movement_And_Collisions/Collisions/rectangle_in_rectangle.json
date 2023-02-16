@@ -1,5 +1,5 @@
 {
-    "The above code checks two rectangular areas for collision, and will set the instance {}image_blend{} based on the return value.":"上述代码检查两个矩形区域是否存在冲突，并将根据返回值设置实例{}image_blend{}。",
+    "The above code checks two rectangular areas for collision, and will set the instance {}image_blend{} based on the return value.":"上述代码检查两个矩形区域是否存在碰撞，并将根据返回值设置实例{}image_blend{}。",
     "The x coordinate of the left side of the destination rectangle to check against.":"要检查的目标矩形左侧的x坐标。",
     "The x coordinate of the left side of the source rectangle.":"源矩形左侧的x坐标。",
     "The x coordinate of the right side of the destination rectangle to check against.":"要检查的目标矩形右侧的x坐标。",

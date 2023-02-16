@@ -1,5 +1,5 @@
 {
-    "The above code uses the {}rectangle_in_circle{} function to check for a collision within a circular area and the rectangle around a found instance. If there is a collision (either an edge overlap or encompassed) then a variable will be set to {}true{}.":"以上代码使用{}rectangle_in_circle{}函数检查圆形区域内是否存在碰撞以及找到的实例周围是否存在矩形。如果存在冲突(边缘重叠或包含)，则变量将设置为{}true{}。",
+    "The above code uses the {}rectangle_in_circle{} function to check for a collision within a circular area and the rectangle around a found instance. If there is a collision (either an edge overlap or encompassed) then a variable will be set to {}true{}.":"以上代码使用{}rectangle_in_circle{}函数检查圆形区域内是否存在碰撞以及找到的实例周围是否存在矩形。如果存在碰撞(边缘重叠或包含)，则变量将设置为{}true{}。",
     "The radius around the center point in which to check for a collision.":"要检查碰撞的中心点周围的半径。",
     "The x coordinate of the centre of the circle":"圆心的x坐标",
     "The x coordinate of the left side of the source rectangle.":"源矩形左侧的x坐标。",

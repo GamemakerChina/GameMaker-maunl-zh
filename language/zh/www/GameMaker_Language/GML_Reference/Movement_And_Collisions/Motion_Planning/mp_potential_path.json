@@ -1,5 +1,5 @@
 {
-    "The above code creates a new path resource and stores its index in the variable \"path\". It then generates a path using {}mp_potential_path{} between the object with this code and the object \"obj_Player\", checking for collisions with all instances in the room. Finally it starts the object along that path, even if the function has failed to return a complete route to the \"obj_Player\".":"上述代码创建新的路径资源并将其索引存储在变量\"路径\"中。然后在具有此代码的对象和对象\"obj_Player\"之间使用{}mp_potential_path{}生成路径，检查冲突以及房间中的所有实例。最后，它沿着该路径启动对象，即使函数未能返回到\"obj_Player\"的完整路由。",
+    "The above code creates a new path resource and stores its index in the variable \"path\". It then generates a path using {}mp_potential_path{} between the object with this code and the object \"obj_Player\", checking for collisions with all instances in the room. Finally it starts the object along that path, even if the function has failed to return a complete route to the \"obj_Player\".":"上述代码创建新的路径资源并将其索引存储在变量\"路径\"中。然后在具有此代码的对象和对象\"obj_Player\"之间使用{}mp_potential_path{}生成路径，检查碰撞以及房间中的所有实例。最后，它沿着该路径启动对象，即使函数未能返回到\"obj_Player\"的完整路由。",
     "The speed the instance moves in pixels per step.":"实例每步移动的速度(以像素为单位)。",
     "The target x position.":"目标x位置。",
     "The target y position.":"目标y位置。",

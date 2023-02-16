@@ -1,6 +1,6 @@
 {
-    "The above code will check beneath the instance for a collision with \"obj_Floor\", and if there is none, then it will move it down until there is a collision, or 1000 pixels have been covered.":"上述代码将在实例下检查是否与\"obj_Floor\"发生冲突，如果没有冲突，则会将其向下移动，直到发生冲突或者覆盖了1000个像素。",
+    "The above code will check beneath the instance for a collision with \"obj_Floor\", and if there is none, then it will move it down until there is a collision, or 1000 pixels have been covered.":"上述代码将在实例下检查是否与\"obj_Floor\"发生碰撞，如果没有碰撞，则会将其向下移动，直到发生碰撞或者覆盖了1000个像素。",
     "The direction to move in.":"移入的方向。",
     "The maximum distance the object can travel (-1 or 0 a default value of 1000 pixels).":"对象可以移动的最大距离(默认值为1000像素-1或0)。",
-    "This function will move the instance running the code a set number of pixels in the specified direction until it meets an instance with {}{}solid{}{} flagged as true. You can use -1 or 0 for the maxdist being a default 1000px, ie: {}GameMaker{} will move the instance continually up 1000 pixels until it is out of collision.":"此函数将在指定方向上将运行代码的实例移动一定数量的像素，直到遇到标记为True的{}{}实体{}{}的实例。您可以使用-1或0表示最大值为默认值1000 px，即：{}GameMaker{}将继续向上移动实例1000像素，直到它脱离冲突。"
+    "This function will move the instance running the code a set number of pixels in the specified direction until it meets an instance with {}{}solid{}{} flagged as true. You can use -1 or 0 for the maxdist being a default 1000px, ie: {}GameMaker{} will move the instance continually up 1000 pixels until it is out of collision.":"此函数将在指定方向上将运行代码的实例移动一定数量的像素，直到遇到标记为True的{}{}实体{}{}的实例。您可以使用-1或0表示最大值为默认值1000 px，即：{}GameMaker{}将继续向上移动实例1000像素，直到它脱离碰撞。"
 }
