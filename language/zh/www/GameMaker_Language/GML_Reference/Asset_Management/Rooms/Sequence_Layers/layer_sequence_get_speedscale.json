@@ -1,4 +1,5 @@
 {
+    "The above code checks the current playhead speed scale of the sequence element ID stored in the variable \"title_sequence\", and if it\u0027s not set to 1 it is set to this value.":"上述代码检查存储在变量 \"title_sequence\" 中的序列元素 ID 的当前播放头速度标度，如果它未设置为 1，则被设置为该值。",
     "The above code checks the the current playhead speed scale of the sequence element ID stored in the variable \"title_sequence\", and if it\u0027s not set to 1 it is set to this value.":"上述代码检查存储在变量\"title_sequence\"中的序列元素ID的当前播放头速度标度，如果它未设置为1，则被设置为该值。",
     "The unique ID value of the sequence element to target":"序列元素到目标的唯一ID值",
     "With this function you supply the sequence element ID - as returned by {}{}layer_sequence_create(){}{} or by one of the {}layer element functions{} - and it will return the current playback speed scale. This is the {}multiplier{} value used to slow down or speed up the playback speed. A value of 1 is the default value, and values lower than 1 mean that playback is slowed down and values greater than 1 mean that playback is sped up.":"使用此函数，您可以提供由{}{}layer_sequence_create(){}{}或{}层元素函数{}之一返回的序列元素ID，它将返回当前播放速度刻度。这是用于减慢或加快播放速度的{}乘法器{}值。值1为默认值，小于1表示回放减慢，大于1表示回放加速。"

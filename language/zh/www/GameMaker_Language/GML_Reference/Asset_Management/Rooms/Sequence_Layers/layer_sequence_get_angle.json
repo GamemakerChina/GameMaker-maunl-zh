@@ -1,4 +1,5 @@
 {
+    "The above code retrieves the current angle of the sequence element with the ID stored in the variable \"title_sequence\", and if it\u0027s not 0, then 1 is subtracted form the current angle.":"上面的代码利用存储在变量 \"title_sequence\" 中的 ID 检索序列元素的当前角度，如果它不是 0，则从当前角度中减去 1。",
     "The above code retrieves the current angle of the the sequence element with the ID stored in the variable \"title_sequence\", and if it\u0027s not 0, then 1 is subtracted form the current angle.":"上面的代码利用存储在变量\"title_sequence\"中的ID检索序列元素的当前角度，如果它不是0，则从当前角度中减去1。",
     "The unique ID value of the sequence element to target":"序列元素到目标的唯一ID值",
     "With this function you supply the sequence element ID - as returned by {}{}layer_sequence_create(){}{} or by one of the {}layer element functions{} - and it will return the current angle of the sequence element in the game room. Note that angles are returned in degrees, and 0º is to the right, 90º is up, 180º is to the left and 270º is down.":"使用此函数，您可以提供{}{}layer_sequence_create(){}{}或由其中一个{}层元素函数{}返回的序列元素 IDas，它将返回游戏室中序列元素的当前角度。注意，角度以度为单位返回，0o向右，90o向上，180o向左，270o向下。"

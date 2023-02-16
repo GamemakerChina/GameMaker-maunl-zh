@@ -1,4 +1,5 @@
 {
+    "The above code checks the current playhead direction of the sequence element ID stored in the variable {}title_sequence{}, and if it\u0027s not set to {}seqdir_left{}, it is set to this value.":"上述代码检查存储在变量 {}title_sequence{} 中的序列元素 ID 的当前播放头方向，如果未设置为 {}seqdir_left{}，则设置为该值。",
     "The above code checks the the current playhead direction of the sequence element ID stored in the variable {}title_sequence{}, and if it\u0027s not set to {}seqdir_left{}, it is set to this value.":"上述代码检查存储在变量{}title_sequence{}中的序列元素ID的当前播放头方向，如果未设置为{}seqdir_left{}，则设置为该值。",
     "The sequence will play frames in a decremental order from right to left":"该序列将以从右到左的递减顺序播放帧",
     "The sequence will play frames in an incremental order from left to right":"该序列将按从左到右递增的顺序播放帧",
