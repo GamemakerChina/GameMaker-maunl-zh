@@ -3,6 +3,7 @@
     "Any of the mouse buttons":"任何鼠标按钮",
     "Due to this, you may encounter frames where the mouse coordinates are the same as the previous frame, depending on the platform.":"因此，您可能会遇到鼠标坐标与前一帧相同的帧，具体取决于平台。",
     "Mouse Coordinates":"鼠标坐标",
+    "Mouse Input":"鼠标输入",
     "Mouse coordinates are updated every frame, however some platforms (such as macOS) use an event handler for capturing mouse position.":"鼠标坐标每帧都会更新，但是有些平台 (如 macOS) 使用事件处理程序来捕获鼠标位置。",
     "Mouse input is accepted on all platforms (on mobile devices it is accepted as a single screen touch - if you need to use multi-touch, you should be using the {}device specific functions{}) and has a few constants that are used to specify the buttons being pressed. These constants are shown in the following table:":"所有平台都接受鼠标输入 (在移动设备上，它被接受为单屏触摸-如果您需要使用多点触摸，您应该使用{}设备特定函数{})，并且有一些常量，用于指定按下的按钮。这些常数如下表所示:",
     "Mouse side button 1":"鼠标侧按钮1",
@@ -13,6 +14,7 @@
     "The left mouse button":"鼠标左键",
     "The middle mouse button (this may not be valid for all target platforms)":"鼠标中键 (这可能不适用于所有目标平台)",
     "The right mouse button":"鼠标右键",
+    "There are also a set of window functions related to using the mouse on desktop targets:":"还有一组与在桌面目标上使用鼠标相关的窗口函数：",
     "This means there may be frames where the mouse moved, but its position remained unchanged -- which would mean that there was no mouse event between the current and previous frame.":"这意味着可能存在鼠标移动的帧，但其位置保持不变 -- 这意味着在当前帧和前一帧之间没有鼠标事件。",
     "You can get the coordinates of the mouse within the room using {}{}mouse_x{}{} and {}{}mouse_y{}{}. There are also functions for getting the raw or GUI mouse coordinatees, please see&nbsp;{}Device Input{}.":"您可以使用 {}{}mouse_x{}{} 和 {}{}mouse_y{}{} 获取房间内鼠标的坐标。还有获取原始或图形用户界面鼠标坐标的函数，请参见{}设备输入{}。"
 }

@@ -8,6 +8,7 @@
     "Functions":"函数",
     "Gamepad Axis Constant":"游戏手柄轴常数",
     "Gamepad Button Constant":"游戏手柄按钮常数",
+    "Gamepad Input":"游戏手柄输入",
     "Gamepad support also extends to {}iOS {}with the iCade cabinet. The left axis maps to the stick controller (although the input is digital, not analogue), the four \"face\" buttons map to the cabinet front buttons, and the four shoulder buttons map to those at the back of the cabinet.":"通过iCade机柜，GamePad支持也扩展到了{}IOS{}。左轴映射到操纵杆控制器(尽管输入是数字的，而不是模拟的)，四个“面”按钮映射到机柜前面的按钮，四个肩部按钮映射到机柜后面的按钮。",
     "Ideally, on {}all{} target platforms, you want to enumerate a list of available gamepad \"slots\" and then check them to see if any devices are detected, something like this:":"理想情况下，在{}所有{}目标平台上，您要枚举可用的游戏手柄 “插槽” 列表，然后检查它们以查看是否检测到任何设备，如下:",
     "Input Constants":"输入常数",
