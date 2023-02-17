@@ -1,4 +1,5 @@
 {
+    "Cameras And Viewports":"相机和视口",
     "Something to note about cameras and view ports is that the total area of the bounding box for {}all active view ports in the first room of the game{} is what defines the {}background canvas size{} (or window size for macOS, Ubuntu (Linux) and Windows), and any areas that are not covered by a view port will default to drawing using the window colour as illustrated by the image below:":"有关相机和视口的一些注意事项是，游戏第一个房间中{}所有活动视口的边框总面积{}是定义{}背景画布大小{}(或 MacOS、Ubuntu(Linux) 和 Windows 的窗口大小)的因素，视口未覆盖的任何区域将默认使用下图所示的窗口颜色绘制：",
     "The following functions can be used to create and destroy cameras:":"以下函数可用于创建和销毁相机：",
     "The following {}global scope{}&nbsp;built-in variables are available:":"以下{}全局范围{}内置变量可用：",

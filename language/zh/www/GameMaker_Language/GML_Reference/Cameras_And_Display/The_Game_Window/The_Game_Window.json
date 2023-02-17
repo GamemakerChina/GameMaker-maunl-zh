@@ -1,4 +1,5 @@
 {
+    "The Game Window":"游戏窗口",
     "The following functions exist to change and get game window properties:":"以下函数用于更改和获取游戏窗口属性：",
     "The following image illustrates how some general window functions relate and interact with each other:":"下图说明了一些常规窗口函数如何相互关联和交互：",
     "The game you create happens in a window (even when fullscreen), and this window has a number of properties, like position, size, whether it is fullscreen, etc... These details are normally set automatically for you based on the room size and view ports enabled&nbsp;in combination with the settings from&nbsp;{}Game Options{}{}&nbsp;for the target platform,&nbsp;{}but you can change them during the game using the functions listed on this page.":"您创建的游戏将在窗口中进行(即使是全屏)，并且此窗口具有许多属性，如位置、大小、是否为全屏等等。这些详细信息通常会根据启用的房间大小和视口以及{2}目标平台{3}的{0}游戏选项{1}中的设置自动为您设置，但您可以在游戏过程中使用此页面上列出的函数进行更改。",
