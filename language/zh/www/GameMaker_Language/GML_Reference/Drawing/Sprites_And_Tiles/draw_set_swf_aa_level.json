@@ -1,5 +1,5 @@
 {
-    "The above code will check the AA value for SWF format sprites, and if it is 0 it enables AA and sets the value to 0.5.":"上述代码将检查Swf格式精灵的Aa值，如果为0，则启用Aa并将该值设置为0.5。",
+    "The above code will check the AA value for SWF format sprites, and if it is 0 it enables AA and sets the value to 0.5.":"上述代码将检查 SWF 格式精灵的 AA 值，如果为 0，则启用 AA 并将该值设置为 0.5。",
     "The anti-aliasing value to use from 0 to 1.":"要使用的0到1之间的抗锯齿值。",
-    "This function can be used to set the anti-aliasing (AA) level for SWF format vector sprites. This can be a real value from 0 to 1 and will \"smooth\" the edges of these sprites. Note that to see this effect, you must first have enabled AA using the function {}{}draw_enable_swf_aa(){}{}.":"此函数可用于设置Swf格式矢量精灵的抗锯齿(Aa)级别。这可以是从0到1的实数值，并将\"平滑\"这些精灵的边缘。请注意，要看到此效果，必须首先使用函数{}{}draw_enable_swf_aa(){}{}启用Aa。"
+    "This function can be used to set the anti-aliasing (AA) level for SWF format vector sprites. This can be a real value from 0 to 1 and will \"smooth\" the edges of these sprites. Note that to see this effect, you must first have enabled AA using the function {}{}draw_enable_swf_aa(){}{}.":"此函数可用于设置 SWF 格式矢量精灵的抗锯齿 (AA) 级别。这可以是从 0 到 1 的实数值，并将 \" 平滑 \" 这些精灵的边缘。请注意，要看到此效果，必须首先使用函数 {}{}draw_enable_swf_aa(){}{} 启用 AA。"
 }

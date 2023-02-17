@@ -1,8 +1,16 @@
 {
     "The above code will draw a string at the instance x/y position, which will use the string stored in the global variable \"Name\" and split it over two lines.":"上述代码将在实例x/y位置绘制一个字符串，该字符串将使用存储在全局变量\"Name\"中的字符串，并将其拆分为两行。",
+    "The above code will draw a string at the instance x/y position, which will use the string stored in the global variable {}global.Name{} and split it over two lines.":"上面的代码将在实例 x/y 位置绘制一个字符串，它将使用存储在全局变量 {}global.Name{} 中的字符串，并将其拆分成两行。",
+    "The colour and alpha set by&nbsp;{}{}draw_set_colour{}{} and&nbsp;{}{}draw_set_alpha{}{}":"由 {}{}draw_set_color{}{} 和 {}{}draw_set_alpha{}{} 设置的颜色和 Alpha",
+    "The font set by&nbsp;{}{}draw_set_font{}{}":"由 {}{}draw_set_font{}{} 设置的字体",
+    "The horizontal and vertical text alignment set by&nbsp;{}{}draw_set_halign{}{} {}{} {}{}and {}{}draw_set_valign{}{} ":"由 {}{}draw_set_halign{}{} {}{}{}{} 和 {}{}draw_set_valign{}{} 设置的水平和垂直文本对齐方式",
+    "The settings for drawing text are:&nbsp;":"绘制文本的设置为： ",
     "The string to draw.":"绘制的字符串。",
     "The x coordinate of the drawn string.":"绘制字符串的x坐标。",
     "The y coordinate of the drawn string.":"绘制字符串的y坐标。",
+    "This function draws a&nbsp;{}string{} at any position within the {}room{}, using the current settings for drawing text.":"此函数使用当前的文本绘制设置，在{}房间{}内的任何位置绘制一个{}字符串{}。",
+    "Usage Notes":"用法说明",
+    "Use the&nbsp;{}{}string{}{}&nbsp;function to convert real numbers into text for drawing and&nbsp;{}+{}&nbsp;to combine strings. Use \"\\n\"&nbsp;within a string to add a line break so it is drawn over multiple lines (for information on how to properly format a string and what escape characters you can use, please see the {}Strings{}&nbsp;page).":"使用 {}{}string{}{} 函数将实数转换为用于绘图的文本，并使用 {}+{} 函数组合字符串。在字符串中使用 \"\\n\" 可添加换行符，以便在多行中绘制 (有关如何正确格式化字符串以及可以使用哪些转义字符的信息，请参阅 {} 字符串 {} 页)。",
     "With this function you can draw any string at any position within the room (for drawing real numbers you should use the {}{}string{}{}(){}{}&nbsp;function to convert them into text). To combine strings you can use {}+{} (see example below) and you can also use {}\\n{} within a string to add a line break so it is drawn over multiple lines (for information on how to properly format a string and what escape characters you can use, please see {}here{}). The colour of the text and the alpha are governed by the current base alpha and colour values as set by {}{}draw_set_alpha{}{}(){}{}{}{} and {}{}draw_set_colour{}{}(){}{}{}{}.":"使用此函数，您可以在房间内的任何位置绘制任何字符串(对于绘制实数，应使用{}{}string{}{}(){}{}函数将它们转换为文本)。要组合字符串，您可以使用{}+{}(请参阅下面的示例)，也可以在字符串中使用{}\\n{}添加换行符，以便将其绘制在多行上(有关如何正确格式化字符串以及可以使用的转义字符的信息，请参阅{}此处{})。文本和字母的颜色由当前基本字母和颜色值控制，如{}{}{}draw_set_alpha{}{}{}{}{}和{}{}draw_set_colour{}{}(){}{}{}{}所设置。",
     "{}{}NOTE{}{}&nbsp;The actual position of the text will be influenced by the alignment values set by {}{}{}draw_set_halign{}{}{}(){}{}{}{} and {}{}{}draw_set_valign{}{}{}(){}{}{}{}.":"{}{}注意{}{}：文本的实际位置将受到{}{}{}draw_set_halign{}{}{}(){}{}{}{}和{}{}{}draw_set_valign{}{}{}(){}{}{}{}设置的对齐值的影响。",
     "{}}NOTE{}: The actual position of the text will be influenced by the alignment values set by {}{}{}draw_set_halign{}{}{}(){}{}{}{} and {}{}{}draw_set_valign{}{}{}(){}{}{}{}.":"{}注意{}：文本的实际位置将受到{}{}{}draw_set_halign{}}{}{}(){}{}{}}{}和{}{}{}draw_set_valign{}}{}{}(){}}{}{}{}设置的对齐值的影响。"

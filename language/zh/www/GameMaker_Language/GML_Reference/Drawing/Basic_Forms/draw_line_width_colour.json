@@ -6,7 +6,7 @@
     "The x coordinate of the start of the line.":"直线起点的x坐标。",
     "The y coordinate of the end of the line.":"直线端点的y坐标。",
     "The y coordinate of the start of the line.":"直线起点的y坐标。",
-    "This would draw a horizontal line from (50,50) to (300,50), four pixels wide, with a smooth red to blue gradient.":"这将绘制一条从(50, 50 )到(300,50 )的水平线，四个像素宽，具有平滑的红色到蓝色渐变。",
+    "This would draw a horizontal line from (50,50) to (300,50), four pixels wide, with a smooth red to blue gradient.":"这将绘制一条从 (50,50) 到 (300,50) 的水平线，四个像素宽，具有平滑的红色到蓝色渐变。",
     "With this function you can draw a line of a specific width with the colour blended between colour 1 at the first point and colour 2 at the second point. The colour settings will over-ride the base colour set with the function {}{}draw_set_colour(){}{}. Please note that the line being drawn may need different values (+/-1 on the x, y) to be drawn with the desired dimensions due to differences across the various supported platforms.":"使用此函数，您可以绘制一条特定宽度的线，其颜色在第一点的颜色1和第二点的颜色2之间混合。颜色设置将使用函数{}{}draw_set_colour(){}{}覆盖基本颜色集。请注意，由于各种支持的平台之间的差异，所绘制的线可能需要使用所需尺寸绘制不同的值(x上的+/-1，y)。",
     "{}NOTE{}: If you are wanting to draw a shape using a shader, you should be aware that most shaders expect the following inputs: vertex, texture, Colour. However, when using this function, only vertex and colour data are being passed in, and so the shader may not draw anything (or draw something but not correctly). If you need to draw shapes in this way then the shader should be customised with this in mind.":"{}注意{}：如果要使用着色器绘制形状，请注意，大多数着色器都需要以下输入：顶点、纹理、颜色。但是，使用此函数时，仅传入顶点和颜色数据，因此着色器可能无法绘制任何内容(或绘制某些内容但不正确)。如果需要以这种方式绘制形状，则应考虑到这一点对着色器进行自定义。"
 }

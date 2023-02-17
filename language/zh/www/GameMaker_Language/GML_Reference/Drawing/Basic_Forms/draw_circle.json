@@ -4,6 +4,6 @@
     "The y coordinate of the center of the circle.":"圆心的y坐标。",
     "This will draw a one pixel wide white circle outline with a radius of 50 pixels.":"这将绘制一个半径为50像素的一像素宽的白色圆圈轮廓。",
     "Whether the circle is drawn filled ({}false{}) or as a one pixel wide outline ({}true{}).":"无论绘制的圆是填充的({}false{})还是作为一个像素宽的轮廓({}true{})。",
-    "With this function you can draw either an outline of a circle or a filled circle. You can define how precise the drawing is with the function {}{}draw_set_circle_precision(){}{}.":"使用此函数，可以绘制圆的轮廓或填充圆。可以使用函数{}{}draw_set_circle_Precion(){}{}定义绘图的精度。",
+    "With this function you can draw either an outline of a circle or a filled circle. You can define how precise the drawing is with the function {}{}draw_set_circle_precision(){}{}.":"使用此函数，可以绘制圆的轮廓或填充圆。可以使用函数{}{}draw_set_circle_precision(){}{}定义绘图的精度。",
     "{}NOTE{}: If you are wanting to draw a shape using a shader, you should be aware that most shaders expect the following inputs: vertex, texture, Colour. However, when using this function, only vertex and colour data are being passed in, and so the shader may not draw anything (or draw something but not correctly). If you need to draw shapes in this way then the shader should be customised with this in mind.":"{}注意{}：如果要使用着色器绘制形状，请注意，大多数着色器都需要以下输入：顶点、纹理、颜色。但是，使用此函数时，仅传入顶点和颜色数据，因此着色器可能无法绘制任何内容(或绘制某些内容但不正确)。如果需要以这种方式绘制形状，则应考虑到这一点对着色器进行自定义。"
 }

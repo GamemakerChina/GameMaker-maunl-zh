@@ -1,13 +1,16 @@
 {
     "Light Type Constant":"灯光类型常量",
     "The above code will get the values used to define the light indexed as \"1\", then check the radius and if it is less than 200 it will be increased and the light radius set to the new value.":"上述代码将获取用于将光源步进定义为\"1\"的值，然后检查半径，如果小于200，则会增加半径，并将光源半径设置为新值。",
-    "The index number of the light (from 0 to 7)":"灯光的索引号(从0到7 )",
+    "The index number of the light (from 0 to 7)":"灯光的索引号(从0到7)",
     "The light is a directional light":"灯光是方向性灯光",
     "The light is a point light":"灯光是点光源",
     "The light type (element [1]) can be one of the following two constants:":"灯光类型(element[ 1 ])可以是以下两个常量之一：",
     "This function will get the specified light parameters as an array with the following 6 elements -":"该函数将获得指定的灯光参数，作为具有以下6个元素的数组-",
-    "[0] = enabled / disabled ({}true{} / {}false{})":"[ 0 ]=启用/禁用({}真{}/{}假{})",
-    "[1] =&nbsp;{}{}Light Type Constant{}{} (see table below)":"[ 1 ]={}{}灯光类型常数{}{}(参见下表)",
-    "[5] = light radius (only for point lights, will be 0 for directional)":"[ 5 ]=灯光半径(仅适用于点光源，对于定向光源为0)",
-    "[6] = light colour (a real)":"[ 6 ]=浅色(实数)"
+    "[0] = enabled / disabled ({}true{} / {}false{})":"[0] = 启用 / 禁用 ({}true{}/{}false{})",
+    "[1] =&nbsp;{}{}Light Type Constant{}{} (see table below)":"[1] = {}{}灯光类型常数{}{}(参见下表)",
+    "[2] = x position":"[2] = x 位置",
+    "[3] = y position":"[3] = y 位置",
+    "[4] = z position":"[4] = z 位置",
+    "[5] = light radius (only for point lights, will be 0 for directional)":"[5] = 灯光半径 (仅适用于点光源，对于定向光源为 0)",
+    "[6] = light colour (a real)":"[6] = 浅色 (实数)"
 }

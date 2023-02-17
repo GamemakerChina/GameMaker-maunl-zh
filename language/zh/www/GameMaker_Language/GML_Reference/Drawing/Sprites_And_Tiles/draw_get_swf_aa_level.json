@@ -1,4 +1,4 @@
 {
     "The above code will check the AA value for SWF format sprites, and if it is 0 it enables AA and sets the value to 0.5.":"上述代码将检查Swf格式精灵的Aa值，如果为0，则启用Aa并将该值设置为0.5。",
-    "This function can be used to get the anti-aliasing (AA) level for SWF format vector sprites. The return value will between 0 and 1 and shows how \"smooth\" the edges of these sprites will be drawn. You can set the AA level using the function {}{}draw_set_swf_aa_level(){}{}.":"该函数可用于获取Swf格式向量精灵的抗锯齿(Aa)级别。返回值将介于0和1之间，并显示将如何\"平滑\"这些精灵的边缘。您可以使用函数{}{}draw_set_swf_aa_level(){}{}设置Aa级别。"
+    "This function can be used to get the anti-aliasing (AA) level for SWF format vector sprites. The return value will between 0 and 1 and shows how \"smooth\" the edges of these sprites will be drawn. You can set the AA level using the function {}{}draw_set_swf_aa_level(){}{}.":"该函数可用于获取 SWF 格式向量精灵的抗锯齿 (AA) 级别。返回值将介于 0 和 1 之间，并显示将如何 \" 平滑 \" 这些精灵的边缘。您可以使用函数 {}{}draw_set_swf_aa_level(){}{} 设置 AA 级别。"
 }

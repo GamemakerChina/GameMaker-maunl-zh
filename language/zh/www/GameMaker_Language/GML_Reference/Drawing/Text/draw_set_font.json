@@ -1,5 +1,9 @@
 {
     "The above code will draw the given text using the font indexed in the variable \"fnt_Game\" and coloured blue.":"上述代码将使用变量\"fnt_Game\"中的索引字体和蓝色绘制给定文本。",
+    "The above code will draw the given text using the font indexed in the variable {}fnt_Game{}&nbsp;and coloured blue.":"上面的代码将使用变量 {}fnt_Game{} 中索引的字体绘制给定的文本，并涂上蓝色。",
+    "The font must have been added into the {}font assets{}&nbsp;of the game or have been created using either&nbsp;{}{}font_add{}{},&nbsp;{}{}font_add_sprite{}{} {}{} {}{}or {}{}font_add_sprite_ext{}{}. ":"字体必须已添加到游戏的 {} 字体资源 {} 中，或已使用 {}{}font_add{}{}、{}{}font_add_sprite{}{} {}{}{}{} 或 {}{}font_add_sprite_ext{}{} 创建。",
+    "The name of the font to use, or -1 for the&nbsp;default font":"要使用的字体的名称，或 -1 表示默认字体",
     "The name of the font to use.":"要使用的字体的名称。",
+    "This function sets the font used for drawing text.":"此函数用于设置绘制文本时使用的字体。",
     "This function will set the font to be used for all further text drawing. This font must have been added into the {}font assets{}&nbsp;of the game or have been created using either the {}{}font_add{}{}(){}{}{}{} or {}{}font_add_sprite{}{}(){}{}{}{}.":"此函数将设置用于所有进一步文本绘制的字体。此字体必须已添加到游戏的{}字体资源{}中，或者已使用{}{}font_add{}{}(){}{}{}{}或{}{}{}font_add_sprite{}{}(){}{}{}创建。"
 }

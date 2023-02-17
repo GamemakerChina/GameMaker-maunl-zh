@@ -1,6 +1,6 @@
 {
     "The above code will draw some text at the specified position with a shadow effect created by modified draw alpha and colour.":"上述代码将在指定位置绘制一些文本，并通过修改绘制Alpha和颜色创建阴影效果。",
     "The colour to set for drawing.":"要为绘图设置的颜色。",
-    "This will affect drawing of fonts, forms, primitives and 3D, however it will not affect sprites (drawn {}manually{} or by an instance). If any affected graphics are drawn with their own colour values, this value will be ignored.":"这将影响字体、窗体、基本体和3D的绘制，但不会影响精灵(手动绘制{}或通过实例绘制)。如果使用自己的颜色值绘制任何受影响的图形，则将忽略此值。",
+    "This will affect drawing of fonts, forms, primitives and 3D, however it will not affect sprites (drawn {}manually{} or by an instance). If any affected graphics are drawn with their own colour values, this value will be ignored.":"这将影响字体、窗体、基本体和3D的绘制，但不会影响精灵({}手动绘制{}或通过实例绘制)。如果使用自己的颜色值绘制任何受影响的图形，则将忽略此值。",
     "With this function you can set the base draw colour for the game.":"使用此函数，您可以设置游戏的基础绘制颜色。"
 }

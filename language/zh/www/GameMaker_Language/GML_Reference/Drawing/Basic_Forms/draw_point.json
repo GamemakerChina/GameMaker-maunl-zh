@@ -1,6 +1,6 @@
 {
     "The x coordinate of the point to be drawn.":"要绘制的点的x坐标。",
     "The y coordinate of the point to be drawn.":"要绘制的点的y坐标。",
-    "This will draw a yellow pixel at position (100,100).":"这将在位置(100, 100 )绘制一个黄色像素。",
+    "This will draw a yellow pixel at position (100,100).":"这将在位置 (100,100) 绘制一个黄色像素。",
     "With this function you can draw a single pixel anywhere on the screen, using the currently set draw colour and alpha.":"使用此函数，您可以使用当前设置的绘制颜色和Alpha在屏幕上的任意位置绘制单个像素。"
 }

@@ -1,5 +1,6 @@
 {
     "Colour And Alpha":"颜色和 Alpha",
+    "Drawing":"绘制",
     "Mipmapping":"纹理映射",
     "Shaders":"着色器",
     "There are two special functions available too, one which is used for enabling or disabling the {}Draw Event{} for your project, and the other for flushing the entire draw pipeline:":"还有两个特殊函数可用，一个用于启用或禁用项目的{}绘图事件{}，另一个用于刷新整个绘图管道：",

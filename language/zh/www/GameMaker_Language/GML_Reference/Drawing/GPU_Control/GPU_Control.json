@@ -1,8 +1,9 @@
 {
-    "Finally, there are the following functions which can be used to manipulate the GPU stack:":"最后，可以使用以下函数来操作Gpu堆栈：",
-    "GPU Control":"Gpu控制",
+    "Finally, there are the following functions which can be used to manipulate the GPU stack:":"最后，可以使用以下函数来操作GPU堆栈：",
+    "GPU Control":"GPU 控制",
+    "Guide To Using Blendmodes":"混合模式使用指南",
     "Please note that before using the {}blend mode{} functions it is important to understand how they work so that you get the correct results when applying them. For that we have created the following guide:":"请注意，在使用{}混合模式{}函数之前，必须了解它们的工作原理，以便在应用它们时获得正确的结果。为此，我们创建了以下指南：",
-    "The following functions can be used to get the values of different GPU properties:":"以下函数可用于获取不同Gpu属性的值：",
-    "The following functions can be used to set the values of different GPU properties:":"以下函数可用于设置不同Gpu属性的值：",
-    "When drawing things in a room, you\u0027ll often require a more granular control over exactly how drawing will be done. You may wish for there to be no alpha blending, or you may require culling, or you may need to switch texture interpolation on or off. All this is possible - and a lot more! - using the GPU controller functions listed below. Note that most of these functions are global in scope and once set or changed will affect how everything is drawn from then onwards.":"在房间中绘制东西时，通常需要对绘制的确切方式进行更精细的控制。您可能希望没有Alpha混合，或者您可能需要消隐，或者您可能需要打开或关闭纹理插值。所有这一切都是可能的——而且还有更多！-使用下面列出的Gpu控制器函数。请注意，这些函数中的大多数都是全局函数，一旦设置或更改，将影响从那时开始绘制所有内容的方式。"
+    "The following functions can be used to get the values of different GPU properties:":"以下函数可用于获取不同GPU属性的值：",
+    "The following functions can be used to set the values of different GPU properties:":"以下函数可用于设置不同GPU属性的值：",
+    "When drawing things in a room, you\u0027ll often require a more granular control over exactly how drawing will be done. You may wish for there to be no alpha blending, or you may require culling, or you may need to switch texture interpolation on or off. All this is possible - and a lot more! - using the GPU controller functions listed below. Note that most of these functions are global in scope and once set or changed will affect how everything is drawn from then onwards.":"在房间中绘制东西时，通常需要对绘制的确切方式进行更精细的控制。您可能希望没有Alpha混合，或者您可能需要消隐，或者您可能需要打开或关闭纹理插值。所有这一切都是可能的——而且还有更多！-使用下面列出的GPU控制器函数。请注意，这些函数中的大多数都是全局函数，一旦设置或更改，将影响从那时开始绘制所有内容的方式。"
 }

@@ -120,6 +120,7 @@
     "Code Snippets":"代码片段",
     "Collision Compatibility Mode":"碰撞兼容模式",
     "Collisions":"碰撞",
+    "Colour":"颜色",
     "Colour And Alpha":"颜色和 Alpha",
     "Command Line Parameters":"命令行参数",
     "Commenting Code":"代码注释",
@@ -160,6 +161,7 @@
     "Date And Time":"日期和时间",
     "Deactivating Instances":"停用实例",
     "Debugging":"调试",
+    "Decimal Value":"十进制值",
     "Defining Inputs":"定义输入",
     "Description":"描述",
     "Device Input":"设备输入",
@@ -200,6 +202,7 @@
     "Example 3: Playing a sound at a given position in 3D audio space (similar to audio_play_sound_at)":"示例 3：在 3D 音频空间中的给定位置播放声音 (类似于 audio_play_sound_at)",
     "Example:":"例子:",
     "Expressions And Operators":"表达式和运算符",
+    "Extended Blend Mode":"扩展混合模式",
     "Extended Example":"拓展示例",
     "Extended Example:":"扩展示例：",
     "Extension Editor Preferences":"扩展编辑器首选项",
@@ -642,6 +645,7 @@
     "{}Texture Group Status Constant{}":"{}纹理组状态常量{}",
     "{}Video Format Constant{}":"{}视频格式常量{}",
     "{}Video Status Constant{}":"{}视频状态常量{}",
+    "{}{}Blend Mode Factor Constant{}{}":"{}{}混合模式因子常数{}{}",
     "{}{}Device Type Constant{}{}":"{}{}设备类型常量{}{}",
     "{}{}Mouse Button Constant{}{}":"{}{}鼠标按钮常量{}{}"
 }

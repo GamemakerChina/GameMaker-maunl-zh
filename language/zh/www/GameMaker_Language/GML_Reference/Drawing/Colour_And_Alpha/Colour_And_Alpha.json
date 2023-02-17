@@ -1,5 +1,7 @@
 {
-    "For blending images using special {}blend modes{} and other GPU specific functions, see the section on the {}GPU Control{}.":"有关使用特殊{}混合模式{}和其他Gpu特定函数混合图像的信息，请参阅{}Gpu控件{}一节。",
+    "Colour":"颜色",
+    "Colour And Alpha":"颜色和 Alpha",
+    "For blending images using special {}blend modes{} and other GPU specific functions, see the section on the {}GPU Control{}.":"有关使用特殊{}混合模式{}和其他GPU特定函数混合图像的信息，请参阅{}GPU控件{}一节。",
     "Functions":"函数",
     "Here,&nbsp;{}FF{} is the blue component, {}CC{} is the green component and {}11{} is the red component.":"此处，{}F{}是蓝色分量，{}Cc{}是绿色分量，{}11{}是红色分量。",
     "Hex Colours":"十六进制颜色",

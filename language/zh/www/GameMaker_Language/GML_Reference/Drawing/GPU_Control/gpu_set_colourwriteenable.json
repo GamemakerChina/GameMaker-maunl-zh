@@ -2,7 +2,7 @@
     "Enable/disable the red channel, or an array containing all four values":"启用/禁用红色通道或包含全部四个值的数组",
     "The above code gets the current colour write values and then sets the alpha component to {}false{}.":"以上代码获取当前颜色写入值，然后将Alpha组件设置为{}假{}。",
     "The default value for each of the components is {}true{}, and can be supplied as either four unique arguments or as a 4 element 1D array with the following elements in it which will be either {}true{} (enabled) or {}false{} (disabled):":"每个组件的默认值为{}true{}，并且可以作为四个唯一参数提供，也可以作为包含以下元素的4 element 1D数组提供，这些元素将为{}true{}(已启用)或{}false{}(已禁用)：",
-    "With this function you can switch on or off the colour channels and the alpha channel for all further drawing. For example, you can use this function to create alpha-channel only surfaces (switch off the RGB writing before using the surface), or to create special effects while drawing to the screen.":"使用此函数，您可以打开或关闭颜色通道和Alpha通道，以便进一步绘制。例如，您可以使用此函数创建仅Alpha通道的曲面(在使用曲面之前关闭Rgb书写)，或者在绘制到屏幕时创建特殊效果。",
+    "With this function you can switch on or off the colour channels and the alpha channel for all further drawing. For example, you can use this function to create alpha-channel only surfaces (switch off the RGB writing before using the surface), or to create special effects while drawing to the screen.":"使用此函数，您可以打开或关闭颜色通道和Alpha通道，以便进一步绘制。例如，您可以使用此函数创建仅Alpha通道的表面(在使用表面之前关闭Rgb书写)，或者在绘制到屏幕时创建特殊效果。",
     "[0] = Red channel enabled/disabled":"[ 0 ]=红色通道使能/禁用",
     "[1] = Green channel enabled/disabled":"[ 1 ]=绿色通道使能/禁用",
     "[2] = Blue channel enabled/disabled":"[ 2 ]=蓝色通道使能/禁用",
