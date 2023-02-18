@@ -1,0 +1,6 @@
+{
+    "The iOS preferences have the following options:":"iOS 首选项有以下选项：",
+    "{}Default Team Identifier{}: Here you can add your default Team Identifier, {}as assigned to you by Apple{}. This Team Id will be used when your game files are sent to Xcode to build the app, and will permit Xcode to generate the required signing certificates. Note that this setting will be applied by default to all games built for iOS, but it can be over-ridden on a per-project basis from the General iOS {}Game Options{}.":"{}默认团队识别符{}：您可以在此处添加{} Apple 分配{}给您的默认团队识别符。当您的游戏文件被发送到 Xcode 以构建应用程序时，将使用此团队 ID，并将允许 Xcode 生成所需的签名证书。请注意，默认情况下，此设置将应用于为 iOS 构建的所有游戏，但它可以从常规 iOS{} 游戏选项 {} 中覆盖每个项目。",
+    "{}Suppress build and run{}: By default when you create an iOS project and then build a final executable package, {}GameMaker{} will build the package and then attempt to run it on any connected devices. Checking this option will suppress building the app and running it on the device and simply create an XCode project on the host Mac":"{}取消构建并运行{}：默认情况下，当您创建 iOS 项目，然后构建最终可执行程序包时，{}GameMaker{} 将构建该包，然后尝试在任何连接的设备上运行它。选中此选项将禁止在设备上构建和运行应用程序，而只是在主机 Mac 上创建一个 XCode 项目",
+    "{}macOS Install Path{}: The install path for the project files on the build Mac.":"{}macOS 安装路径{}：构建 Mac 上项目文件的安装路径。"
+}

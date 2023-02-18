@@ -1,6 +1,6 @@
 {
     "Advanced Audio":"高级音频",
-    "All sound assets, except for streamed audio, belong to a single {}audio group{}. Sounds in an audio group can be loaded and unloaded at the same time.":"除流式音频外，所有声音资产都属于单个{}音频组{}。音频组中的声音可以同时加载和卸载。",
+    "All sound assets, except for streamed audio, belong to a single {}audio group{}. Sounds in an audio group can be loaded and unloaded at the same time.":"除流式音频外，所有声音资源都属于单个{}音频组{}。音频组中的声音可以同时加载和卸载。",
     "Another way to play sounds is using&nbsp;{}{}audio_play_sound_ext{}{}. This function is identical to {}{}audio_play_sound{}{}&nbsp;but allows you to pass various audio parameters in a struct. Using this function, you only need to provide a&nbsp;{}{}Sound Asset{}{}&nbsp;through the \"sound\" key of the struct:&nbsp;":"播放声音的另一种方法是使用 {}{}audio_play_sound_ext{}{}。此函数与 {}{}audio_play_sound{}{} 相同，但允许您在结构中传递各种音频参数。使用此函数，您只需通过的 \" 声音 \" 键提供 {}{} 声音资源 {}{}",
     "Asset Info":"资源信息",
     "At a minimum you have to provide the {}{}Sound Asset{}{}, a priority for the new sound instance and whether the sound should loop.":"您至少必须提供{}{}声音资源{}{}、新声音实例的优先级以及声音是否应该循环。",

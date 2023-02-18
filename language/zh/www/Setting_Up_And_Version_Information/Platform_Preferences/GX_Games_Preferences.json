@@ -1,0 +1,7 @@
+{
+    "The GX.games preferences have the following options:":"GX.games 首选项有以下选项：",
+    "{}Default Web Server Address{}: Here you can change the default web server address for the GX.games web server.&nbsp;Default value is 127.0.0.1.":"{}默认 Web 服务器地址{}：您可以在此处更改 GX.games Web 服务器的默认 Web 服务器地址。 默认值为 127.0.0.1。",
+    "{}Default Web Server Allowed IPs{}: Here you can add in any allowed IPs for the web server and they will be set as default for all devices added through the Target Manager.":"{}默认 Web 服务器允许的 IP{}：您可以在此处添加 Web 服务器的任何允许 IP，这些 IP 将被设置为通过目标管理器添加的所有设备的默认 IP。",
+    "{}Default Web Server Port{}: This lets you change the default port for the GX.games web server. Default value is 51264.":"{}默认 Web 服务器端口{}：这允许您更改 GX.games Web 服务器的默认端口。默认值为 51264。",
+    "{}Emscripten SDK location{}: This is the location of the Emscripten SDK, required for YYC builds made for GX.games. Read {}Setting Up For GX.games{} for information on setting up the SDK.":"{}Emscripten SDK 位置 {}：这是为 GX.games 制作的 YYC 版本所必需的 Emscripten SDK 的位置。有关设置 SDK 的信息，请阅读 {} 设置 GX.games{}。"
+}

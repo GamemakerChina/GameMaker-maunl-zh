@@ -29,7 +29,7 @@
     "To set up options for your own extension, see:&nbsp;{}Creating Extension Options{}":"要为自己的扩展设置选项，请参阅：&nbsp;{}创建扩展选项{}。",
     "Uncompress on Build":"建立时解压",
     "You can find the extensions themselves from the following Marketplace page:":"你可以从以下市场页面找到这些扩展程序：",
-    "iOS / tvOS Extensions":"IOS / tvOS 扩展",
+    "iOS / tvOS Extensions":"iOS / tvOS 扩展",
     "{}All targets{}: GML extensions. These are extensions made using the GameMaker Language (GML) and are compatible with all target platforms. ({}{}{}Note that this is the only extension type that the GX.games target currently supports.{})":"{}所有目标{}：GML扩展。这些是使用GameMaker语言（GML）制作的扩展，与所有目标平台兼容。({}{}注意，这是GX.games目标目前唯一支持的扩展类型。{})",
     "{}Android{}: This platform requires an extension to be written in {}Java{} or an {}Android Framework SDK{}.":"{}Android{}：该平台需要用{}Java{}或{}Android框架SDK{}编写扩展。",
     "{}GameMaker{} Platforms And Setup":"{}GameMaker{} 的平台和设置",

@@ -15,7 +15,7 @@
     "This section outlines the different options available to you that control how your iOS game projects will be compiled. The different sections are:":"本节概述了可用于控制如何编译您的 iOS 游戏项目的不同选项。不同的章节是:",
     "You can also set how the launch screen should be displayed from the following options:":"您还可以通过以下选项设置启动屏幕的显示方式:",
     "You can then go to the {}Device Support{} section, with the following options available for setting what type of device to target:":"然后您可以转到{}设备支持{}部分，该部分有下列选项可用于设置目标设备的类型:",
-    "iOS&nbsp;Game Options":"IOS 游戏选项",
+    "iOS&nbsp;Game Options":"iOS 游戏选项",
     "{}Both{}: Both iPhone/iPod and iPad":"{}Both{}: iPhone/iPod 和 iPad",
     "{}Crop To Fit{}: This will keep the image 1:1 with the device screen and crop (or pad) the edges as required.":"{}裁剪至适合{} : 这将使图像与设备屏幕保持1:1，并根据需要裁剪(或填充)边缘。",
     "{}Half iPad 1 Textures:{} The iPad 1 has much less texture memory than more recent devices so you can enable this option to reduce the size of textures by half if you want to target this device or get maximum compatibility.":"{}半个 iPad 1的纹理{}: 与最新的设备相比，iPad 1的纹理内存要少得多，所以如果你想要针对这个设备或者获得最大的兼容性，你可以使用这个选项将纹理的大小减少一半。",

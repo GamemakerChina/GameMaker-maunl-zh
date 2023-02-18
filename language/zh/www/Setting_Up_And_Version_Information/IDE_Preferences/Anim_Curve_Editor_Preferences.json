@@ -1,0 +1,5 @@
+{
+    "Animation Curve Editor Preferences":"动画曲线编辑器首选项",
+    "The {}Animation Curves Preferences{} are used to define certain properties for when you are working with the {}Animation Curve Editor{}. The options available are:":"当您使用{2}动画曲线编辑器{3}时，{}动画曲线首选项{}用于定义的某些属性。可用的选项包括：",
+    "{}Automatic response to curve deletion{}: This option can be used to control the pop up message that is shown when you delete a curve from the Animation Curve editor. The default action here is to show a warning message, but you can set this to \"Okay\" and the dialog will not be shown.":"{}自动响应曲线删除{}：此选项可用于控制从动画曲线编辑器中删除曲线时显示的弹出消息。这里的默认操作是显示一条警告消息，但您可以将其设置为\"OK\"，对话框不会显示。"
+}

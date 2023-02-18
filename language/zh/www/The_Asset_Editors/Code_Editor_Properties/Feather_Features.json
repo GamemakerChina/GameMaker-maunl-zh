@@ -1,6 +1,6 @@
 {
     "Asset Refactoring":"资源重构",
-    "Enter a new name and hit \"{}Apply{}\". The asset itself, and all references to it in your project, will be renamed.":"输入新名称，然后单击\"{}应用{}\"。将重命名资产本身以及项目中对该资产的所有引用。",
+    "Enter a new name and hit \"{}Apply{}\". The asset itself, and all references to it in your project, will be renamed.":"输入新名称，然后单击\"{}应用{}\"。将重命名资源本身以及项目中对该资源的所有引用。",
     "Feather Features":"羽毛功能",
     "Feather allows you to find all references to a variable throughout your project.":"羽毛允许您查找整个项目中对某个变量的所有引用。",
     "Find All References":"查找所有引用",

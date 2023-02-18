@@ -1,3 +1,12 @@
 {
-    "Plugin Preferences":"插件首选项"
+    "Below this you can set up the {}Merge Tool{} and the {}Diff Tool{} for Source Control with these settings ({}optional{}):":"在此下面，您可以使用以下设置为源代码管理设置{}合并工具{}和{}比较工具{}({}可选{})：",
+    "Plugin Preferences":"插件首选项",
+    "The {}Plugins Preferences{} are used to control any extra plugins that have been added to the {}GameMaker{} IDE. By default this has one section dedicated to the {}Source Control{} plugin for integrating {}GameMaker{} projects with {}Git{}.":"{}插件首选项{} 用于控制已添加到 {}GameMaker{}IDE 中的任何额外插件。默认情况下，这里有一个专门介绍 {} 源代码管理 {} 插件的部分，用于集成 {}GameMaker{} 项目和 {}Git{}。",
+    "{}Git executable path{}: This is the location of the Git executable which GameMaker uses for all Source Control commands. As shown in the image above, this will be located in the {}cmd{} folder of your Git installation.":"{}Git 可执行文件路径{}：这是 GameMaker 用于所有源代码管理命令的 Git 可执行文件的位置。如上图所示，它将位于 Git 安装的 {}cmd{} 文件夹中。",
+    "{}Merge (Tool location){}: Here you specify the full file path to the Git merge tool.":"{}合并(工具位置){}：在此指定 Git 合并工具的完整文件路径。",
+    "{}Source Control (Git){}{}Source Control (Git){}":"{}源代码管理 (Git){}{}源代码管理 (Git){}",
+    "{}This section deals with the preferences that are required&nbsp;to get the {}Git SCM{} plugin to work with {}GameMaker{}.":"{}本节介绍使用 {}Git SCM{} 插件与 {}GameMaker{} 配合使用所需的首选项。",
+    "{}{}Diff (Tool location){}{}: Here you specify the full file path to the Git diff tool.":"{}{}比较(工具位置){}{}：在此指定 Git 比较工具的完整文件路径。",
+    "{}{}Merge (Tool options){}{}: In this field you can add any extra commands to be run whenever you use the merge Tool.":"{}{}合并(工具选项){}{}：在此字段中，您可以添加在使用合并工具时要运行的任何额外命令。",
+    "{}{}{}Diff (Tool options){}{}{}: In this field you can add any extra commands to be run whenever you use the diff Tool.":"{}{}{}比较(工具选项){}{}{}：在此字段中，您可以添加在使用比较工具时要运行的任何额外命令。"
 }

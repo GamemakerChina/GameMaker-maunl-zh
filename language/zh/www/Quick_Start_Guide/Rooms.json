@@ -14,7 +14,7 @@
     "We won\u0027t go into much more details about the room editor here (for that we have {}this section{} of the manual), but we will briefly explain how to add instances to an Instance Layer, as you\u0027ll need to know that for the next section of the Quick Start Guide.":"我们不会在这里深入讨论房间编辑器的更多细节(因为我们有手册的{}这一节{})，但我们将简要解释如何将实例添加到实例层，因为在快速入门指南的下一节中，您需要了解这一点。",
     "We\u0027ve mentioned that there are different layer types, so let\u0027s just go over what they are and how they can be used when building your games:":"我们已经提到过有不同的层类型，所以让我们来看看它们是什么，以及在构建游戏时如何使用它们：",
     "{}After having created a {}tile sets{}, you need to add the tiles to your room, which is done by creating a {}tile map{} layer. A tile map layer is a layer that permits you to add tiles from any of the tile set assets that you have created and will be set up automatically to use a grid the size of the tile set cells. You can only add a single tile to each grid cell, so if you require multiple tiles to occupy the same space, then you should be using multiple tile map layers.{}":"{}在创建了{}图块集{}之后，您需要将图块添加到您的房间，这是通过创建一个{}图块地图{}层来完成的。图块地图图层允许您从已创建的任何图块集资源添加图块，并且将自动设置为使用图块集单元格大小的栅格。您只能向每个网格单元格添加单个图块，因此，如果需要多个图块占据同一空间，则应使用多个图块地图层。{}",
-    "{}Asset Layer{}":"{}资产层{}",
+    "{}Asset Layer{}":"{}资源层{}",
     "{}Background Layer{}":"{}背景层{}",
     "{}In the above example the instance is placed in the middle of the room at position (X:512, Y:384). It\u0027s also possible to go outside of the room bounds and have positions that are greater than the room axis lengths, or even less than than the room origin - in which case the X/Y coordinates will be negative values.":"{} 在上例中，实例放置在房间中间的位置 (X：512，Y：384)。也可以超出房间边界，其位置大于房间轴线长度，甚至小于房间原点，在这种情况下，X/Y 坐标将为负值。",
     "{}Instance Layer{}":"{}实例层{}",

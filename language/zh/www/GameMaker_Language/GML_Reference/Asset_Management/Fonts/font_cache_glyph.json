@@ -1,6 +1,6 @@
 {
     "If you don\u0027t pre-cache a character using this function, it\u0027s automatically cached before it\u0027s drawn for the first time.":"如果不使用此函数预缓存角色，则会在第一次绘制之前自动缓存该角色。",
-    "The above code caches the glyph with the index {}65{} from a font asset, and stores the returned struct in a local variable.":"上面的代码缓存字体资产中带有索引 {}65{} 的字形，并将返回的结构存储在局部变量中。",
+    "The above code caches the glyph with the index {}65{} from a font asset, and stores the returned struct in a local variable.":"上面的代码缓存字体资源中带有索引 {}65{} 的字形，并将返回的结构存储在局部变量中。",
     "The font to cache a character or glyph from":"要缓存字符或字形的字体",
     "The index (or character code) of the glyph to cache (see {}{}ord{}{}/{}{}string_ord_at{}{})":"要缓存的字形的索引 (或字符代码) (参见{}{}ord{}{}/{}{}string_ord_at{}{})",
     "This can be useful for reasons of performance. If you don\u0027t pre-cache a character using this function it is automatically cached before it\u0027s drawn for the first time.":"出于性能原因，这可能很有用。如果不使用此函数预缓存字符，在第一次绘制字符之前会自动缓存该字符。",
