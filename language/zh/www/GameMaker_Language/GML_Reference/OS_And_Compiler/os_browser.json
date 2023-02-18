@@ -1,13 +1,14 @@
 {
     "Browser Type Constant":"浏览器类型常量",
     "Game is not being played in a browser":"游戏不在浏览器中进行",
-    "Google Chrome":"谷歌Chrome",
-    "Internet Explorer":"IE浏览器",
-    "Internet Explorer on a mobile device":"移动设备上的IE浏览器",
-    "Mozilla Firefox":"Mozilla火狐",
-    "Safari on a mobile device":"移动设备上的Safari",
+    "Google Chrome":"Google Chrome (Chrome 浏览器)",
+    "Internet Explorer":"Internet Explorer (IE浏览器)",
+    "Internet Explorer on a mobile device":"移动设备上的 Internet Explorer 浏览器",
+    "Mozilla Firefox":"Mozilla Firefox (火狐浏览器)",
+    "Safari on a mobile device":"移动设备上的 Safari",
     "The above code checks to see if the game is running in a browser or not and sets a global variable to a value depending on the result of the check.":"上面的代码检查游戏是否在浏览器中运行，并根据检查结果将全局变量设置为值。",
     "This {}read-only{} variable holds one of various constants (listed below) that&nbsp;{}GameMaker{} has to tell you which browser you are currently running the game in (if any).":"此 {}只读{} 变量包含各种常量之一(如下所列)，{}GameMaker{}必须告诉您当前在哪个浏览器中运行游戏(如果有)。",
-    "Tizen mobile device browser":"Tizen移动设备浏览器",
-    "Unknown browser":"未知浏览器"
+    "Tizen mobile device browser":"Tizen 移动设备浏览器",
+    "Unknown browser":"未知浏览器",
+    "Windows App":"Windows 应用"
 }

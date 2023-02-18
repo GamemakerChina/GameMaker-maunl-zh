@@ -17,7 +17,7 @@
     "Place your text cursor on a variable, and hit {}F3{}. You will see a small Search bar at the top of your workspace:":"将文本光标放在变量上，然后单击 {}F3{}。您将在工作区顶部看到一个小搜索栏：",
     "Place your text cursor on a variable, and hit {}SHIFT + F3{}. This will open the Search Results window and display all references of the selected variable in a list.":"将文本光标放在变量上，然后单击 {}Shift+ F3{}。这将打开 \"搜索结果\" 窗口，并在列表中显示所选变量的所有引用。",
     "Quick Fixes":"快速修复",
-    "The example above shows a quick fix used for fixing an event where the surface target was not reset after being changed.":"上面的示例显示了一个快速修复程序，用于修复曲面目标在更改后未重置的事件。",
+    "The example above shows a quick fix used for fixing an event where the surface target was not reset after being changed.":"上面的示例显示了一个快速修复程序，用于修复表面目标在更改后未重置的事件。",
     "This menu shows you a quick fix if possible, and allows you to disable the rule for that line, or change its {}severity{}.":"此菜单显示快速修复(如果可能)，并允许您禁用该行的规则或更改其{}严重性{}。",
     "This page lists the features Feather provides in the GML Code editor for {}scripts{} and {}object events{}. These features will only be available if Feather is {}enabled{}.":"本页列出了羽毛在 GML 代码编辑器中为 {} 脚本 {} 和 {} 对象事件 {} 提供的功能。只有 {} 启用 {} 了羽毛时，这些功能才可用。",
     "This search is smart, so instead of simply {}searching for a text string{}, it looks for references of the selected variable from its declared scope. This means that two variables that have the same name but exist separately in two different objects, will not match.":"这个搜索是明智的，因此它不是简单地{}搜索文本字符串{}，而是从其声明的范围中查找所选变量的引用。这意味着具有相同名称但分别存在于两个不同对象中的两个变量将不匹配。",

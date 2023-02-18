@@ -3,6 +3,7 @@
     "A buffer that will \"grow\" dynamically as data is added":"一个缓冲区，将在添加数据时动态 \"增长\"",
     "A buffer where the data will \"wrap\". When the data being added reaches the limit of the buffer size, the overwrite will be placed back at the start of the buffer, and further writing will continue from that point.":"数据将在其中\"包装\"的缓冲区。当添加的数据达到缓冲区大小的限制时，覆盖将被放回缓冲区的开头，并从该点继续进一步写入。",
     "Apart from the buffer type, you will also have to set the {}byte alignment{} for the buffer. This value will vary depending on the data that you wish to store in the buffer, and in most cases a value of 1 is perfectly fine. However, be aware that for some operations a specific alignment is {}essential{}, and an incorrect alignment may cause errors (for further details on alignment see {}Buffers{}). The following is a general guide to show which values are most appropriate for each data type (when in doubt, use an alignment of 1):":"除了缓冲区类型之外，您还必须为缓冲区设置{}字节对齐{}。此值将根据您希望存储在缓冲区中的数据而变化，并且在大多数情况下，值为1是完全可以的。但是，请注意，对于某些操作，特定的对齐是{}必不可少的{}，并且不正确的对齐可能会导致错误 (有关对齐的更多详细信息，请参见{}缓冲区{})。以下是显示哪些值最适合每种数据类型的通用指南 (如有疑问，请使用1的对齐方式):",
+    "Buffer Type Constant":"缓冲区类型常量",
     "Floats of up to 16bits should be aligned to 2 bytes. {}(Not currently supported!){}":"最多16位的浮点数应与2个字节对齐。{}(当前不支持!){}",
     "Floats of up to 32bits should be aligned to 4 bytes.":"最多32位的浮点数应与4字节对齐。",
     "Floats of up to 64bits should be aligned to 8 bytes.":"最多64位的浮点数应与8个字节对齐。",

@@ -4,5 +4,5 @@
     "The data offset value.":"数据偏移值。",
     "The index of the buffer to use.":"要使用的缓冲区的索引。",
     "The size of the buffer.":"缓冲区的大小。",
-    "{}NOTE{}: SHA-1 is not completely secure and can be broken. See&nbsp;{}this page{}&nbsp;for more info.":"{}注意{}：Sha-1并不完全安全，可能会被破坏。有关详细信息，请参阅{}本页{}。"
+    "{}NOTE{}: SHA-1 is not completely secure and can be broken. See&nbsp;{}this page{}&nbsp;for more info.":"{}注意{}：SHA-1并不完全安全，可能会被破坏。有关详细信息，请参阅{}本页{}。"
 }

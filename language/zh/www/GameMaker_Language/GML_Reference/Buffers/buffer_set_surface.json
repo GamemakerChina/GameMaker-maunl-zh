@@ -1,9 +1,10 @@
 {
-    "Both the buffer being read from and the surface being written to must have been created previously, and {}must have the same size{}. If the size of the buffer and the surface differs, the function will fail silently.":"从中读取的缓冲区和写入的曲面必须先前已创建，并且{}必须具有相同的大小{}。如果缓冲区和曲面的大小不同，则函数将静默失败。",
-    "The above code will copy all the data stored in the buffer indexed in the variable \"buff\" to the application surface with no offset.":"上述代码将把存储在变量\"buffe\"中索引的缓冲区中的所有数据复制到应用程序曲面中，不会有偏移。",
+    "Both the buffer and the surface must have been created previously, and the buffer\u0027s size must be equal to or greater than the surface\u0027s size. If the buffer is smaller than the surface, the function will silently fail.":"从中读取的缓冲区和写入的表面必须先前已创建，并且必须具有相同的大小。如果缓冲区和表面的大小不同，则函数将静默失败。",
+    "Both the buffer being read from and the surface being written to must have been created previously, and {}must have the same size{}. If the size of the buffer and the surface differs, the function will fail silently.":"从中读取的缓冲区和写入的表面必须先前已创建，并且{}必须具有相同的大小{}。如果缓冲区和表面的大小不同，则函数将静默失败。",
+    "The above code will copy all the data stored in the buffer indexed in the variable \"buff\" to the application surface with no offset.":"上述代码将把存储在变量\"buffe\"中索引的缓冲区中的所有数据复制到应用程序表面中，不会有偏移。",
     "The data offset value.":"数据偏移值。",
     "The index of the buffer to use.":"要使用的缓冲区的索引。",
-    "The index of the surface to use.":"要使用的曲面的索引。",
-    "With this function you can write information from a buffer to a given surface.":"使用此函数，您可以将信息从缓冲区写入给定曲面。",
+    "The index of the surface to use.":"要使用的表面的索引。",
+    "With this function you can write information from a buffer to a given surface.":"使用此函数，您可以将信息从缓冲区写入给定表面。",
     "You can provide an offset into the buffer to start reading from. Reading will always start at the beginning of the buffer plus the offset value and&nbsp;{}not{} at the current seek position plus the offset value.":"您可以在缓冲区中提供一个偏移量，以便开始读取。读取将始终从缓冲区的开始处开始，加上偏移值，并且{}不是{}位于当前寻道位置加上偏移值。"
 }
