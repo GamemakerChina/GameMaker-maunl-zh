@@ -1,9 +1,9 @@
 {
-    "The above code checks a DS grid for a specific value within a disk region. if it is found, it then stores the x and y position of the value in two variables for later use.":"上面的代码检查D网格中磁盘区域内的特定值。如果找到该值，则将该值的x和y位置存储在两个变量中以供以后使用。",
+    "The above code checks a DS grid for a specific value within a disk region. if it is found, it then stores the x and y position of the value in two variables for later use.":"上面的代码检查DS网格中磁盘区域内的特定值。如果找到该值，则将该值的x和y位置存储在两个变量中以供以后使用。",
     "The index of the grid.":"网格的索引。",
     "The radius of the disk on the grid.":"网格上磁盘的半径。",
     "The value to find.":"要查找的值。",
     "The x position of the disk on the grid.":"磁盘在网格上的x位置。",
     "The y position of the disk on the grid.":"磁盘在网格上的y位置。",
-    "With this function you can get the y coordinate (within the given grid disc-shaped region) of the value being searched for. You give the DS grid index (as returned by {}{}ds_grid_create(){}{}) along with the x/y positions for the center cell of the disk. Then you give the radius (as an integer value) around the center cell to search, before supplying the value to search for. If the value being searched for does not exist, then the function will return -1.":"使用此函数，您可以获取所搜索值的y坐标(在给定的网格圆盘形区域内)。提供D网格索引(由{}{}ds_grid_create(){}{}返回)以及磁盘中心单元格的x/ y位置。然后，在提供要搜索的值之前，提供要搜索的中心单元格周围的半径(整数值)。如果要搜索的值不存在，则函数将返回-1。"
+    "With this function you can get the y coordinate (within the given grid disc-shaped region) of the value being searched for. You give the DS grid index (as returned by {}{}ds_grid_create(){}{}) along with the x/y positions for the center cell of the disk. Then you give the radius (as an integer value) around the center cell to search, before supplying the value to search for. If the value being searched for does not exist, then the function will return -1.":"使用此函数，您可以获取所搜索值的y坐标(在给定的网格圆盘形区域内)。提供DS网格索引(由{}{}ds_grid_create(){}{}返回)以及磁盘中心单元格的x/ y位置。然后，在提供要搜索的值之前，提供要搜索的中心单元格周围的半径(整数值)。如果要搜索的值不存在，则函数将返回-1。"
 }

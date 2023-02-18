@@ -7,5 +7,5 @@
     "The y position of the bottom of the region in the grid.":"网格中区域底部的y位置。",
     "The y position of the top of the region in the grid.":"栅格中区域顶部的y位置。",
     "With this function you can specify a region of the grid in which to multiply each cell value by a given amount.":"使用此函数，可以指定要将每个单元格值乘以给定量的栅格区域。",
-    "{}{}NOTE{}{} This function will only work with real numbers, not strings.":"{}{}注意{}{}此函数仅适用于实数，不适用于字符串。"
+    "{}{}NOTE{}{} This function will only work with real numbers, not strings.":"{}{}注意{}{} 此函数仅适用于实数，不适用于字符串。"
 }

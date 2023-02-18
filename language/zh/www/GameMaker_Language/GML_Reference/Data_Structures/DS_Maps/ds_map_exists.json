@@ -1,6 +1,6 @@
 {
-    "The above code will check the DS map&nbsp;indexed in the variable \"inventory\" for the key \"potions\" and if it doesn\u0027t exist it will add it to the map.":"上述代码将检查变量\"清单\"中索引的Ds映射中的关键\"药剂\"，如果它不存在，则将其添加到映射中。",
+    "The above code will check the DS map&nbsp;indexed in the variable \"inventory\" for the key \"potions\" and if it doesn\u0027t exist it will add it to the map.":"上述代码将检查变量\"清单\"中索引的DS映射中的关键\"药剂\"，如果它不存在，则将其添加到映射中。",
     "The id of the data structure to check":"要检查的数据结构的ID",
     "The key to check for":"要检查的密钥",
-    "This function will return {}true{} if the specified key exists in the (previously created) DS map&nbsp;, and {}false{} if it does not.":"如果指定的密钥存在于(先前创建的)D映射中，则此函数将返回{}真{};如果不存在，则返回{}假{}。"
+    "This function will return {}true{} if the specified key exists in the (previously created) DS map&nbsp;, and {}false{} if it does not.":"如果指定的密钥存在于(先前创建的)DS映射中，则此函数将返回{}真{};如果不存在，则返回{}假{}。"
 }

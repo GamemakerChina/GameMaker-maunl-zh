@@ -3,6 +3,6 @@
     "The above code will get the value of the key \"food\" and store it in the variable \"amount\".":"上述代码将获得钥匙\"食物\"的价值，并以可变的\"金额\"存储。",
     "The id of the map to use.":"要使用的映射的ID。",
     "The key to find.":"找到的关键。",
-    "With this function you can get the value from a specified key. The input values of the function are the (previously created) DS map&nbsp;to use and the key to check for.":"使用此函数，您可以从指定的密钥获取值。函数的输入值是要使用的(先前创建的)D映射和检查的密钥。",
+    "With this function you can get the value from a specified key. The input values of the function are the (previously created) DS map&nbsp;to use and the key to check for.":"使用此函数，您可以从指定的密钥获取值。函数的输入值是要使用的(先前创建的)DS映射和检查的密钥。",
     "{}NOTE{}: If no such key exists then the function will return {}undefined{}. You should always check this using the {}{}{}is_undefined(){}{}{} function":"{}注意{}:如果不存在此类密钥，则函数将返回{}未定义的{}。您应该始终使用{}{}{}is_undefined(){}{}{}函数检查此项"
 }

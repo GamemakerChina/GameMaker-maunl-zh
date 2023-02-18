@@ -1,5 +1,5 @@
 {
-    "The above code will loop through the DS grid indexed in the variable \"grid\" and if the value found in any specific cell is equal to 1, it will then create an instance of \"obj_Wall\" at the appropriate position within the room.":"上述代码将循环通过变量\"网格\"中索引的D网格，如果在任何特定单元格中找到的值等于1，则将在房间内的适当位置创建\"obj_Wall\"实例。",
+    "The above code will loop through the DS grid indexed in the variable \"grid\" and if the value found in any specific cell is equal to 1, it will then create an instance of \"obj_Wall\" at the appropriate position within the room.":"上述代码将循环通过变量\"网格\"中索引的DS网格，如果在任何特定单元格中找到的值等于1，则将在房间内的适当位置创建\"obj_Wall\"实例。",
     "This function will return the height of the given grid. This value is the number of cells the grid has along the y-axis and is always an integer, as shown in the image below:":"此函数将返回给定网格的高度。此值是网格沿y轴的单元格数，始终为整数，如下图所示：",
     "This index of the grid to find the height of.":"此网格索引用于查找网格的高度。"
 }

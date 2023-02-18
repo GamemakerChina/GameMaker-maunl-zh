@@ -1,5 +1,5 @@
 {
-    "The above function creates a new instance and then in that instance it creates a new DS queue&nbsp;and copies the contents of the queue in the instance running the code block, into the newly created instance queue.":"上述函数创建一个新实例，然后在该实例中创建一个新的Ds队列，并将运行代码块的实例中的队列内容复制到新创建的实例队列中。",
+    "The above function creates a new instance and then in that instance it creates a new DS queue&nbsp;and copies the contents of the queue in the instance running the code block, into the newly created instance queue.":"上述函数创建一个新实例，然后在该实例中创建一个新的DS队列，并将运行代码块的实例中的队列内容复制到新创建的实例队列中。",
     "The id of the new queue.":"新队列的ID。",
     "The original queue to copy from.":"要从中复制的原始队列。",
     "This function can be used to copy the contents of one queue into another. Note that this does {}NOT{} remove the contents from the original queue, nor does it destroy the original queue. When using this function the queue being copied to must have been previously created and if it contained any items before the copy, then these will be cleared first (meaning this information will be lost).":"此函数可用于将一个队列的内容复制到另一个队列中。请注意，这不会{}不{}从原始队列中删除内容，也不会破坏原始队列。使用此函数时，必须先创建要复制到的队列，并且如果在复制之前包含任何项目，则会首先清除这些项目(这意味着此信息将丢失)。"

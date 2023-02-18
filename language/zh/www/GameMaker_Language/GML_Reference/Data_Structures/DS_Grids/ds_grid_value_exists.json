@@ -1,10 +1,10 @@
 {
-    "The above code checks a DS grid for a specific value within a rectangular region. if it is found, it then stores the x and y position of the value in two variables for later use.":"上述代码检查D网格中矩形区域内的特定值。如果找到该值，则将该值的x和y位置存储在两个变量中以供以后使用。",
+    "The above code checks a DS grid for a specific value within a rectangular region. if it is found, it then stores the x and y position of the value in two variables for later use.":"上述代码检查DS网格中矩形区域内的特定值。如果找到该值，则将该值的x和y位置存储在两个变量中以供以后使用。",
     "The index of the grid.":"网格的索引。",
     "The value to find.":"要查找的值。",
     "The x position of the left of the region in the grid.":"网格中区域左侧的x位置。",
     "The x position of the right of the region in the grid.":"网格中区域右侧的x位置。",
     "The y position of the bottom of the region in the grid.":"网格中区域底部的y位置。",
     "The y position of the top of the region in the grid.":"栅格中区域顶部的y位置。",
-    "With this function you can check to see if a specific value (real or string) is present within a rectangular area of a given DS grid. If it is present the function will return {}true{} otherwise it will return {}false{}.":"使用此函数，您可以检查给定D网格的矩形区域内是否存在特定的值(实数或字符串)。如果存在，则函数将返回{}个true{}，否则将返回{}个false{}。"
+    "With this function you can check to see if a specific value (real or string) is present within a rectangular area of a given DS grid. If it is present the function will return {}true{} otherwise it will return {}false{}.":"使用此函数，您可以检查给定DS网格的矩形区域内是否存在特定的值(实数或字符串)。如果存在，则函数将返回{}个true{}，否则将返回{}个false{}。"
 }

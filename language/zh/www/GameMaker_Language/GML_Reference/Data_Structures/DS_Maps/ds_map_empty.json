@@ -1,5 +1,5 @@
 {
-    "The above code checks to see if the DS map&nbsp;indexed in the variable \"inventory\" has any key/value pairs and if it does not it sets the variable \"weight\" to 0.":"上述代码检查变量\"清单\"中索引的Ds映射是否具有任何密钥/值对，以及是否将变量\"权重\"设置为0。",
+    "The above code checks to see if the DS map&nbsp;indexed in the variable \"inventory\" has any key/value pairs and if it does not it sets the variable \"weight\" to 0.":"上述代码检查变量\"清单\"中索引的DS映射是否具有任何密钥/值对，以及是否将变量\"权重\"设置为0。",
     "The id of the data structure to check.":"要检查的数据结构的ID。",
-    "This function will simply return {}false{} if the specified (previously created) DS map&nbsp;contains any key/value pairs, or {}true{} if it does not.":"如果指定的(以前创建的)D映射包含任何键/值对，则此函数将返回{}false{};如果不包含，则返回{}true{}。"
+    "This function will simply return {}false{} if the specified (previously created) DS map&nbsp;contains any key/value pairs, or {}true{} if it does not.":"如果指定的(以前创建的)DS映射包含任何键/值对，则此函数将返回{}false{};如果不包含，则返回{}true{}。"
 }

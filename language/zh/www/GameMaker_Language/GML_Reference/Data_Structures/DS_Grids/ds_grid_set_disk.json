@@ -1,5 +1,5 @@
 {
-    "The above code will set a circular region with a radius of 5 cells in the DS grid indexed in the variable \"grid\" to a value of -4.":"上述代码将变量\"网格\"中索引的D网格中半径为5个单元格的圆形区域设置为-4值。",
+    "The above code will set a circular region with a radius of 5 cells in the DS grid indexed in the variable \"grid\" to a value of -4.":"上述代码将变量\"网格\"中索引的DS网格中半径为5个单元格的圆形区域设置为-4值。",
     "The index of the grid.":"网格的索引。",
     "The radius of the disk on the grid.":"网格上磁盘的半径。",
     "The value to set with the cells within the disk.":"要与磁盘中的单元格一起设置的值。",

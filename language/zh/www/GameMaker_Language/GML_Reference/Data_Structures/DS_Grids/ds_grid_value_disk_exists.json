@@ -1,9 +1,9 @@
 {
-    "The above code checks a DS grid for a specific value within a disk region. if it is found, it then stores the x and y position of the value in two variables for later use.":"上面的代码检查D网格中磁盘区域内的特定值。如果找到该值，则将该值的x和y位置存储在两个变量中以供以后使用。",
+    "The above code checks a DS grid for a specific value within a disk region. if it is found, it then stores the x and y position of the value in two variables for later use.":"上面的代码检查DS网格中磁盘区域内的特定值。如果找到该值，则将该值的x和y位置存储在两个变量中以供以后使用。",
     "The index of the grid.":"网格的索引。",
     "The radius of the disk on the grid.":"网格上磁盘的半径。",
     "The value to find.":"要查找的值。",
     "The x position of the disk on the grid.":"磁盘在网格上的x位置。",
     "The y position of the disk on the grid.":"磁盘在网格上的y位置。",
-    "With this function you can check to see if a specific value (real or string) is present within a circular area of a given DS grid. If it is present the function will return {}true{} otherwise it will return {}false{}.":"使用此函数，您可以检查给定D网格的圆形区域内是否存在特定的值(实数或字符串)。如果存在，则函数将返回{}个true{}，否则将返回{}个false{}。"
+    "With this function you can check to see if a specific value (real or string) is present within a circular area of a given DS grid. If it is present the function will return {}true{} otherwise it will return {}false{}.":"使用此函数，您可以检查给定DS网格的圆形区域内是否存在特定的值(实数或字符串)。如果存在，则函数将返回{}个true{}，否则将返回{}个false{}。"
 }

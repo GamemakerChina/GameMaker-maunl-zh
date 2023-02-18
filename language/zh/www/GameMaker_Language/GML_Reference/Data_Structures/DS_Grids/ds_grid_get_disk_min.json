@@ -1,5 +1,5 @@
 {
-    "The above code will set the variable \"val\" to the minimum value contained within the given disk of the DS grid indexed in the variable \"grid\".":"上述代码将变量\"值\"设置为包含在变量\"网格\"中索引的D网格的给定磁盘中的最小值。",
+    "The above code will set the variable \"val\" to the minimum value contained within the given disk of the DS grid indexed in the variable \"grid\".":"上述代码将变量\"值\"设置为包含在变量\"网格\"中索引的DS网格的给定磁盘中的最小值。",
     "The index of the grid.":"网格的索引。",
     "The radius of the disk on the grid.":"网格上磁盘的半径。",
     "The x position of the disk on the grid.":"磁盘在网格上的x位置。",

@@ -1,5 +1,5 @@
 {
-    "The above code checks a variable to see if it has reached a specific value and if it has it clears the DS stack indexed in the variable \"AI_stack\", sets an alarm, and resets the variable to 0.":"上述代码检查变量是否达到特定值，以及是否清除变量\"AI_stack\"中索引的Ds堆栈，设置报警，并将变量重置为0。",
+    "The above code checks a variable to see if it has reached a specific value and if it has it clears the DS stack indexed in the variable \"AI_stack\", sets an alarm, and resets the variable to 0.":"上述代码检查变量是否达到特定值，以及是否清除变量\"AI_stack\"中索引的DS堆栈，设置报警，并将变量重置为0。",
     "The id of the data structure to check.":"要检查的数据结构的ID。",
-    "With this function you can check the given DS stack to see if it is empty (returns {}true{}) or not (returns {}false{}).":"使用此函数，您可以检查给定的Ds堆栈，查看它是否为空(返回{}真{})(返回{}假{})。"
+    "With this function you can check the given DS stack to see if it is empty (returns {}true{}) or not (returns {}false{}).":"使用此函数，您可以检查给定的DS堆栈，查看它是否为空(返回{}真{})(返回{}假{})。"
 }

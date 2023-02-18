@@ -1,7 +1,7 @@
 {
-    "The above code will resize the DS grid indexed in the global variable \"Grid\" and then clear it so that each cell holds the value -1.":"上述代码将调整在全局变量\"Grid\"中索引的D网格的大小，然后将其清除，以便每个单元格保留值-1。",
+    "The above code will resize the DS grid indexed in the global variable \"Grid\" and then clear it so that each cell holds the value -1.":"上述代码将调整在全局变量\"Grid\"中索引的DS网格的大小，然后将其清除，以便每个单元格保留值-1。",
     "The new height of the grid.":"网格的新高度。",
     "The new width of the grid.":"网格的新宽度。",
     "This index of the grid to resize.":"要调整大小的网格的此索引。",
-    "With this function you can resize the given DS grid to have a different width and/or height. If the grid size is larger than the current grid, the new cells will have a base value of 0, and if the size is smaller then the values held in the cells that are no longer within the new size will be lost. All other cells will be left untouched.":"使用此函数，可以调整给定D网格的大小，使其具有不同的宽度和/或高度。如果栅格大小大于当前栅格，则新单元格的基本值将为0，如果该大小小于单元格中保留的值不再在新大小范围内将丢失。所有其他单元格将保持不变。"
+    "With this function you can resize the given DS grid to have a different width and/or height. If the grid size is larger than the current grid, the new cells will have a base value of 0, and if the size is smaller then the values held in the cells that are no longer within the new size will be lost. All other cells will be left untouched.":"使用此函数，可以调整给定DS网格的大小，使其具有不同的宽度和/或高度。如果栅格大小大于当前栅格，则新单元格的基本值将为0，如果该大小小于单元格中保留的值不再在新大小范围内将丢失。所有其他单元格将保持不变。"
 }

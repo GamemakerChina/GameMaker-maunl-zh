@@ -1,8 +1,9 @@
 {
-    "The above code will multiply the value stored in the given DS grid cell by 2.":"上述代码将把存储在给定D网格单元中的值乘以2。",
+    "The above code will multiply the value stored in the given DS grid cell by 2.":"上述代码将把存储在给定DS网格单元中的值乘以2。",
     "The index of the grid.":"网格的索引。",
     "The value to multiply with the cell.":"要与单元格相乘的值。",
     "The x position of the cell in the grid.":"网格中单元格的x位置。",
     "The y position of the cell in the grid.":"单元格在网格中的y位置。",
-    "This function will multiply the value of the given grid cell by the specified amount.":"此函数将给定网格单元格的值乘以指定的数量。"
+    "This function will multiply the value of the given grid cell by the specified amount.":"此函数将给定网格单元格的值乘以指定的数量。",
+    "{}{}NOTE{}{} This function will only work with real numbers, not strings.":"{}{}注意{}{} 此函数仅适用于实数，不适用于字符串。"
 }

@@ -1,5 +1,5 @@
 {
-    "The above code opens an ini file and then writes a string containing the information stored in the DS queue&nbsp;indexed in the variable \"queue\". The queue is then cleared and the ini file closed.":"上述代码打开ini文件，然后写入一个字符串，其中包含变量\"队列\"中索引的Ds队列中存储的信息。然后清除队列并关闭ini文件。",
+    "The above code opens an ini file and then writes a string containing the information stored in the DS queue&nbsp;indexed in the variable \"queue\". The queue is then cleared and the ini file closed.":"上述代码打开ini文件，然后写入一个字符串，其中包含变量\"队列\"中索引的DS队列中存储的信息。然后清除队列并关闭ini文件。",
     "The id of the data structure to write.":"要写入的数据结构的ID。",
     "This function returns a string which can then be stored or transferred to another data structure using the {}{}ds_queue_read(){}{} function.":"此函数返回一个字符串，然后可以使用{}{}ds_queue_read(){}{}函数将该字符串存储或传输到另一个数据结构。",
     "{}NOTE{}: The returned string is not a human readable string, but rather a dump of the contents of the data-structure":"{}注意{}:返回的字符串不是人工可读字符串，而是数据结构内容的转储"
