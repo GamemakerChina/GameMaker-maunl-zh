@@ -3,6 +3,8 @@
     "The time zone to use for the base time.":"用于基准时间的时区。",
     "This code checks the base time zone setting for the game and if it is not UTC it then changes it.":"此代码检查游戏的基准时区设置，如果它不是 UTC，然后更改它。",
     "Time Zone Constant":"时区常量",
+    "Use Coordinated Universal Time":"使用协调世界时 (UTC)",
+    "Use the local time zone as set by the system (the default option)":"使用系统设置的本地时区(默认选项)",
     "use Coordinated Universal Time":"用协调世界时",
     "use the local time zone as set by the system":"使用系统设定的当地时区"
 }

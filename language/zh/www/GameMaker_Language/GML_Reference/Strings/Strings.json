@@ -27,6 +27,7 @@
     "Iteration":"重复",
     "Just using \"{}\\u00e2a{}\" would actually result in the Unicode character \"{}ส{}\" (essentially becoming \"{}\\ue2a{}\").{}{}":"只使用 \"{}\\u00e2a{}\" 实际上会产生 Unicode 字符 \"{}ส{}\"( 实质上变成 \"{}\\ue2a{}\")。",
     "Lastly,&nbsp;{}GameMaker{}&nbsp;also provides a convenient way to convert&nbsp;{}structs{}&nbsp;and&nbsp;{}instances{}&nbsp;to a string representation by assigning them a&nbsp;{} {}.":"最后，{}GameMaker{} 还提供了一种便捷的方法来转换{}结构{}和{}实例{}到字符串表示形式，方法是为它们分配一个{}{}。",
+    "Lastly,&nbsp;{}GameMaker{}&nbsp;also provides a convenient way to convert&nbsp;{}structs{}&nbsp;and&nbsp;{}instances{}&nbsp;to a string representation by assigning them a&nbsp;{}toString() Method{}.":"最后，{}GameMaker{} 还提供了一种便捷的方法来转换{}结构{}和{}实例{}到字符串表示形式，是为它们分配一个 {}toString() 方法{}。",
     "Manipulating Strings":"操作字符串",
     "Methods":"方法",
     "Multi-Line String Literal":"多行字符串文字",

@@ -4,5 +4,6 @@
     "The low end of the range from which the random number will be selected.":"从中选择随机数的范围的下限。",
     "This function returns a random floating-point (decimal) number between the specified lower limit (inclusive) and the specified upper limit (inclusive).":"该函数返回指定下限(含)和指定上限(含)之间的随机浮点(十进制)数。",
     "This will add anywhere between 500 and 600, to the total score.":"这将在总分中添加500到600之间的任何位置。",
+    "{}{}NOTE{}{}&nbsp;This function will return the same value every time the game is run afresh due to the fact that {}GameMaker{} generates the same initial random seed every time to make debugging code a far easier task. To avoid this behaviour use {}{}randomise{}{}&nbsp;at the start of your game.":"{}{}注意{}{} 此函数将在每次重新运行游戏时返回相同的值，因为 {}GameMaker{} 每次都会生成相同的初始随机种子，从而使调试代码变得容易得多。要避免这种行为，请在游戏开始时使用 {}{}randomise{}{}。",
     "{}{}NOTE{}{}&nbsp;This function will return the same value every time the game is run afresh due to the fact that {}GameMaker{} generates the same initial random seed every time to make debugging code a far easier task. To avoid this behaviour use {}{}{}randomise(){}{}{} at the start of your game.":"{}{}注意{}{} 由于 {}GameMaker{} 每次都会生成相同的初始随机种子以使调试代码更容易，因此每次重新运行游戏时此函数都会返回相同的值 任务。 为避免这种行为，请在游戏开始时使用 {}{}{}randomise(){}{}{}。"
 }

@@ -1,5 +1,9 @@
 {
+    "For example,&nbsp;{}sign(458){} will return 1, {}sign(-5){} will return -1 and {}sign(0){} will return 0.":"例如 {}sign(458){} 将返回 1，{}sign(-5){} 将返回 -1，{}sign(0){} 将返回 0。",
     "The above code will add 1, -1 or 0 onto y depending on the result of {}y - mouse_y{}.":"上述代码将根据 {}y - mouse_y{} 的结果将 1、-1 或 0 添加到 y 上。",
     "The number to get the sign of.":"要获取其符号的数字。",
-    "This function returns whether a number is positive, negative or neither and returns 1, -1, 0 respectively. For example - {}sign(458){} will return 1, {}sign(-5){} will return -1 and {}sign(0){} will return 0.":"此函数返回一个数是正数、负数还是两者都不是，分别返回 1、-1、0。 例如 - {}sign(458){} 将返回 1，{}sign(-5){} 将返回 -1，{}sign(0){} 将返回 0。"
+    "This function returns whether a number is positive, negative or neither and returns 1, -1, 0 respectively. For example - {}sign(458){} will return 1, {}sign(-5){} will return -1 and {}sign(0){} will return 0.":"此函数返回一个数是正数、负数还是两者都不是，分别返回 1、-1、0。 例如 - {}sign(458){} 将返回 1，{}sign(-5){} 将返回 -1，{}sign(0){} 将返回 0。",
+    "This function returns whether a number is positive, negative or neither and returns 1, -1, or 0, respectively.":"此函数返回一个数是正数、负数还是两者都不是，分别返回 1、-1、0。 ",
+    "Usage Notes":"用法说明",
+    "{}sign({}NaN{}){} will always return {}-1{}.":"{}sign({}NaN{}){} 将始终返回 {}-1{}."
 }
