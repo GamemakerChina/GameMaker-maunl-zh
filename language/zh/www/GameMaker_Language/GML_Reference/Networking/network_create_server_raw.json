@@ -1,15 +1,15 @@
 {
     "As this creates a \"raw\" server, it will not accept nor use any of the built in GameMaker data headers for communication, and so you should be using the functions {}{}network_send_raw(){}{} and {}{}network_send_udp_raw(){}{} to send unformatted data to the server created.":"由于这会创建\"原始\"服务器，因此不会接受也不会使用任何内置GameMaker数据头进行通信，因此您应该使用函数{}{}network_send_raw(){}{}和{}{}network_send_udp_raw(){}{}将未格式化的数据发送到创建的服务器。",
-    "Create a WebSocket using TCP. ({}{}NOTE{}: Use {}Async{} functions for connecting through WebSockets{})":"使用Tcp创建网络套接字。({}{}注{}:使用{}异步{}函数通过网络套接字进行连接{})",
-    "Create a secure WebSocket using TCP.":"使用Tcp创建安全的WebSocket。",
-    "Create a socket using TCP.":"使用Tcp创建套接字。",
-    "Create a socket using UDP.":"使用Udp创建套接字。",
+    "Create a WebSocket using TCP. ({}{}NOTE{}: Use {}Async{} functions for connecting through WebSockets{})":"使用TCP创建网络套接字。({}{}注{}:使用{}异步{}函数通过网络套接字进行连接{})",
+    "Create a secure WebSocket using TCP.":"使用TCP创建安全的WebSocket。",
+    "Create a socket using TCP.":"使用TCP创建套接字。",
+    "Create a socket using UDP.":"使用UDP创建套接字。",
     "Socket Type Constant":"套接字类型常量",
-    "The above code will try and create a server using TCP through port 6510. If that port is unavailable, it will then loop through the ports to find one that is.":"以上代码将尝试通过端口6510使用Tcp创建服务器。如果该端口不可用，则它将循环通过这些端口查找其中一个。",
+    "The above code will try and create a server using TCP through port 6510. If that port is unavailable, it will then loop through the ports to find one that is.":"以上代码将尝试通过端口6510使用TCP创建服务器。如果该端口不可用，则它将循环通过这些端口查找其中一个。",
     "The maximum number of clients that can connect at once.":"一次可以连接的最大客户端数。",
     "The port that the server will use.":"服务器将使用的端口。",
     "The type of server to create (see the constants listed below).":"要创建的服务器的类型(请参阅上面的常量列表)。",
     "This function is used to create a new network server for your game, using one of the permitted connection protocols (see the constants listed below). You supply the server type, then give it a port to use, and finally the number of maximum connections that should be permitted at any one time to the server (note that this number is up to you, but too many connected clients will saturate the network or the device CPU won\u0027t be able to handle the processing of that number of players, so use with care). The function returns a unique {}id{} which should be used stored in a variable and used to identify the server in all further network functions, or a value of less than 0 if the connection fails.":"此函数用于使用允许的连接协议之一为游戏创建新的网络服务器(请参阅下面列出的常量)。您提供服务器类型，然后为其提供一个要使用的端口，最后是在任何时候都应该允许与服务器建立的最大连接数(请注意，这个数目由您决定，但是连接的客户端太多会使网络饱和，或者设备Cpu无法处理该数目的播放器，因此请谨慎使用)。函数返回唯一的{}id{}，该值应存储在变量中并用于在所有其他网络函数中标识服务器;如果连接失败，则返回小于0的值。",
-    "{}NOTE 1{}&nbsp;It is also possible to secure your simple&nbsp;WebSocket&nbsp;({}network_socket_ws{}) by using the&nbsp;{}wss://{}&nbsp;protocol in your URLs.":"{}注意1{}还可以使用URL中的{}wss://{}协议来保护简单网络套接字({}network_socket_ws{})。",
-    "{}NOTE 2{}&nbsp;* Secure WebSockets will not work on UWP and Xbox One when using the legacy XDK platform, however they will work on those targets when using GDK.":"{}注2{}*使用传统Xdk平台时，安全网络套接字在Uwp和Xbox One上不起作用，但在使用Gdk时，它们将在这些目标上起作用。"
+    "{}NOTE 1{}&nbsp;It is also possible to secure your simple&nbsp;WebSocket&nbsp;({}network_socket_ws{}) by using the&nbsp;{}wss://{}&nbsp;protocol in your URLs.":"{}注意 1{} 还可以使用 URL 中的 {}wss://{} 协议来保护简单网络套接字 ({}network_socket_ws{})。",
+    "{}NOTE 2{}&nbsp;* Secure WebSockets will not work on UWP and Xbox One when using the legacy XDK platform, however they will work on those targets when using GDK.":"{}注意 2{}* 使用传统 XDK 平台时，安全网络套接字在 UWP 和 Xbox One 上不起作用，但在使用 GDK 时，它们将在这些目标上起作用。"
 }

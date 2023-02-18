@@ -1,6 +1,7 @@
 {
     "Built-In Time Sources":"内置时间源",
     "Order":"次序",
+    "States":"状态",
     "The Game&nbsp;{}Time Source{}":"游戏{}时间源{}",
     "The Game&nbsp;{}Time Source{}&nbsp;has {}states{}, meaning it can be {}paused{}. The Global&nbsp;{}Time Source{}&nbsp;doesn\u0027t have states and can\u0027t be paused.":"游戏{}时间源{}具有{}状态{}，这意味着可以{}暂停{}。全局{}时间源{}没有状态，无法暂停。",
     "The Global&nbsp;{}Time Source{}":"全局{}时间源{}",
@@ -9,5 +10,7 @@
     "Time Source Constant":"时间源常量",
     "You can use the Global&nbsp;{}Time Source{}&nbsp;for timers that should run regardless of the game state, and the Game&nbsp;{}Time Source{}&nbsp;for timers that are tied to your main game loop. You can then pause all of your game-related timers by pausing the Game&nbsp;{}Time Source{}.":"无论游戏状态如何，您都可以使用全局{}时间源{}运行计时器，而使用游戏{}时间源{}运行与主游戏循环相关的计时器。然后，您可以暂停游戏{}时间源{}，暂停所有与游戏相关的计时器。",
     "You can use the {}Global&nbsp;{}Time Source{}{}&nbsp;or the {}Game&nbsp;{}Time Source{}{}&nbsp;as a parent for your custom&nbsp;{}Time Source{}. Both&nbsp;{}Time Source{}s are globally available.":"您可以使用{}全局{}时间源{}{}或{}游戏{}时间源{}{}作为自定义{}时间源{}的父级。{}时间源{}都是全局可用的。",
-    "{}Time Source{}s inheriting from the Global&nbsp;{}Time Source{}&nbsp;are processed {}before{} the Game&nbsp;{}Time Source{}.":"{}在{}游戏{}时间源{}之前处理从全局{}时间源{}继承的{}时间源{}。"
+    "{}Built-In Time Sources{}":"{}内置时间源{}",
+    "{}Time Source{}s inheriting from the Global&nbsp;{}Time Source{}&nbsp;are processed {}before{} the Game&nbsp;{}Time Source{}.":"{}在{}游戏{}时间源{}之前处理从全局{}时间源{}继承的{}时间源{}。",
+    "{}{}NOTE{}{}&nbsp;See&nbsp;{}Event Order{}&nbsp;for more details.":"{}{}注意{}{} 有关详细信息，请参阅 {}事件顺序{} 。"
 }

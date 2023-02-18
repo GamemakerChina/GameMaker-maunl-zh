@@ -24,7 +24,7 @@
     "The units that the given period is in":"给定时段所在的单位",
     "This function creates a new&nbsp;{}Time Source{}. Read&nbsp;{}Time Sources{}&nbsp;for an overview.":"此函数将创建新的{}时间源{}。请阅读{}时间源{}以获得概述。",
     "This is a period of time that may be expressed in seconds or frames, depending on the unit specified in the next argument.":"这是一段时间，可以用秒或帧表示，具体取决于下一个参数中指定的单位。",
-    "This is the parent&nbsp;{}Time Source{}&nbsp;which controls the new&nbsp;{}Time Source{}. This may be {}time_source_global{}, {}time_source_game{} or a custom&nbsp;{}Time Source{}&nbsp;that already exists.{} {} See:&nbsp;{}Built-In Time Sources{} ":"这是控制新{}时间源{}的父{}时间源{}。这可能是{}全局时间源{}、{}游戏时间源{}或已经存在的自定义{}时间源{}。{}{}请参阅：{}内置时间源{}",
+    "This is the parent&nbsp;{}Time Source{}&nbsp;which controls the new&nbsp;{}Time Source{}. This may be {}time_source_global{}, {}time_source_game{} or a custom&nbsp;{}Time Source{}&nbsp;that already exists.{} {} See:&nbsp;{}Built-In Time Sources{} ":"这是控制新{}时间源{}的父{}时间源{}。这可能是{}time_source_global{}、{}time_source_game{}或已经存在的自定义{}时间源{}。{}{}请参阅：{}内置时间源{}",
     "This is the unit that the period is expressed in, and may be {}time_source_units_seconds{} or {}time_source_units_frames{}.":"这是周期所用的单位，可以是 {}time_source_units_seconds{} 或 {}time_source_units_frames{}。",
     "This may be {}time_source_expire_nearest{} or {}time_source_expire_after{}.":"这应该是 {}time_source_expire_nearest{} 或 {}time_source_expire_after{}。",
     "Time Source Units":"时间源单位",
