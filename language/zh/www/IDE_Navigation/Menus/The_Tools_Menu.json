@@ -1,0 +1,10 @@
+{
+    "The Tools Menu":"工具菜单",
+    "This menu permits you to open the various stand alone tools that are available to you within {}GameMaker{}, with the following options:":"此菜单允许您打开您可以在 {}GameMaker{} 中使用的各种独立工具，其中包含以下选项：",
+    "{}Audio Groups{} - View the {}Audio Group{}&nbsp;window.":"{}音频组{} - 查看{}音频组{}窗口。",
+    "{}Create Local Package{} - Opens the {}Asset Packager{}&nbsp;window, so you can make and save local asset packages for future use.":"{}创建本地包{} - 打开{}资源打包{}窗口，以便您可以创建并保存本地资产包以供将来使用。",
+    "{}Generate Project Images{} - Opens the {}Generate Project Images{}&nbsp;window.":"{}生成项目图像{} - 打开{}生成项目图像{}窗口。",
+    "{}Import Local Package{} - Opens a file explorer window where you can then select a {}Local Asset Package{} and import it, either adding it to the current project, or creating a new project for it.":"{}导入本地包{} - 打开文件资源管理器窗口，然后您可以在其中选择一个{}本地资产包{}并将其导入，将其添加到当前项目，或为其创建一个新项目。",
+    "{}Sound Mixer{} - View the {}Sound Mixer{}&nbsp;window.":"{}混音器{} - 查看{}混音器{}窗口。",
+    "{}Texture Groups{} - View the {}Texture Group{}&nbsp;window.":"{}纹理组{} - 查看{}纹理组{}窗口。"
+}

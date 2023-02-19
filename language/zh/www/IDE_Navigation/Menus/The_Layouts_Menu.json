@@ -1,0 +1,7 @@
+{
+    "The Layouts Menu":"布局菜单",
+    "{}Load Layout{} - This will open a file explorer where you can select a previously saved layout *.xml file for loading.":"{}加载布局{} - 这将打开一个文件资源管理器，您可以在其中选择要加载的先前保存的布局 *.xml 文件。",
+    "{}Reset Layout{} - This will reset the current IDE layout to the default settings.":"{}重置布局{} - 这会将当前的 IDE 布局重置为默认设置。",
+    "{}Save Layout{} - This will open a file explorer where you can name and save the current IDE layout as an *.xml file.":"{}保存布局{} - 这将打开一个文件资源管理器，您可以在其中命名当前的 IDE 布局并将其保存为 *.xml 文件。",
+    "{}This menu is related to saving and loading different IDE layouts. You can setup the IDE however you wish, with certain elements (like the Asset Browser, or the Output Windows) arranged differently to the default. This permits you to set {}GameMaker{} to suit to your workflow and with the options in this menu you can save out the current project layouts as an {}*.xml{} file which can then be loaded into any project to set the layouts to be the same. The options in this menu are as follows:":"{}此菜单与保存和加载不同的 IDE 布局相关。您可以随心所欲地设置 IDE，其中某些元素 (如资源浏览器或输出窗口) 的排列方式与默认设置不同。这允许您设置 {}GameMaker{} 以适合您的工作流程，并且使用此菜单中的选项，您可以将当前项目布局保存为 {}*.xml{} 文件，然后可以将该文件加载到任何项目中，以将布局设置为相同的。此菜单中的选项如下："
+}

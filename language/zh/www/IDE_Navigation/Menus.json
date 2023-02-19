@@ -1,0 +1,13 @@
+{
+    "Menus":"菜单",
+    "The Build Menu":"构建菜单",
+    "The Edit Menu":"编辑菜单",
+    "The File Menu":"文件菜单",
+    "The Help Menu":"帮助菜单",
+    "The Layouts Menu":"布局菜单",
+    "The Marketplace Menu":"市场菜单",
+    "The Tools Menu":"工具菜单",
+    "The Windows Menu":"窗口菜单",
+    "The default menus available are:":"可用的默认菜单为：",
+    "{}The top of the {}GameMaker{} IDE is occupied by the&nbsp; {}Menu Bar{}. Here you can find a number of drop-down menus that can be used to navigate the IDE, perform tasks or open additional windows with tools to help you craft your games. Note that we list here the&nbsp; {}default{}&nbsp;menus that are available, but some of the asset editors will add additional menus depending on context. These additional menus are explained on the pages relevant to the editor that created them.":"{}{}GameMaker{} IDE 的顶部被{}菜单栏{}占据。在这里，您可以找到许多下拉菜单，这些菜单可用于导航 IDE、执行任务或打开带有工具的附加窗口来帮助您定制游戏。请注意，我们在此处列出了可用的{}默认{}菜单，但某些资源编辑器将根据上下文添加其他菜单。这些附加菜单在与创建它们的编辑者相关的页面上进行了解释。"
+}
