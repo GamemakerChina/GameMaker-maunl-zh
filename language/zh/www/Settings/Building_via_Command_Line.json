@@ -138,6 +138,7 @@
     "Set the direct path to a licence file, can be used as an alternative to setting a user folder ({}/uf{})":"设置许可文件的直接路径，可以作为设置用户文件夹({}/uf{})的替代方法",
     "Set the local runtime install folder to list the installed runtimes or install new runtimes":"设置本地运行时安装文件夹以列出已安装的运行时或安装新的运行时",
     "Set the user folder used for retrieving licence information so {}GameMaker{} knows which modules can be installed":"设置用于检索许可证信息的用户文件夹，以便{} GameMaker {}知道可以安装哪些模块",
+    "Set up a CI environment (this depends on how you are going to build your games), like&nbsp;{}Jenkins{}":"设置CI环境(这取决于您将如何构建游戏)，如 {}Jenkins{}",
     "Set up a CI environment (this depends on how you are going to build your games); we suggest using {}Jenkins{}":"设置CI环境（这取决于您打算如何构建游戏）；我们建议使用{}Jenkins{}",
     "Set up your CI task&nbsp;and ensure that all the prerequisites are setup (i.e. source control sync to your project)":"设置您的CI任务并确保已设置所有先决条件(即源代码管理与项目同步)",
     "Setting Up":"设置",
