@@ -1,4 +1,10 @@
 {
     "Additional IDE Tools":"附加 IDE 工具",
+    "Local Asset Packages":"本地资源包",
+    "Project Image Generator":"项目图像生成器",
+    "Sound Mixer":"混音器",
+    "Source Control":"源码控制",
+    "The Debugger":"调试器",
+    "The Micro Web Server":"微型 Web 服务器",
     "This section of the manual outlines additional IDE tools that are available to help you make your games and which aren\u0027t covered in other parts of the manual, as well as those tools that are helpful accessories to the other sections of the IDE.&nbsp;":"本手册的这一部分概述了其他 IDE 工具，这些工具可用于帮助您制作游戏，手册的其他部分没有介绍这些工具，以及那些对 IDE 其他部分有帮助的附件工具。"
 }
