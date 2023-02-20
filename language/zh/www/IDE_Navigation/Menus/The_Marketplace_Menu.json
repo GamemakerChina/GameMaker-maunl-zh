@@ -1,8 +1,8 @@
 {
     "Apart from creating your own assets and code for your projects, you also have access to the {}GameMaker{} Marketplace where you can download both free and paid assets to be added to your projects. You can find out more about the Marketplace from the section on the {}GameMaker Marketplace{}, and the options from this menu are given below:":"除了为您的项目创建自己的资源和代码外，您还可以访问 {}GameMaker{} 市场，在那里您可以下载要添加到您的项目中的免费和付费资源。您可以在 {}GameMaker 市场 {} 上的部分中找到有关该市场的更多信息，该菜单中的选项如下：",
     "The Marketplace Menu":"市场菜单",
-    "{}Create Package{} - With this option you can open the {}Create Package Wizard{} to create a new asset package or tutorial for the Marketplace.{} ":"{}创建包{} - 使用此选项，您可以打开{}创建包向导{}，以便为市场创建新的资产包或教程。{}",
-    "{}Go to the Marketplace{} - Open the Marketplace window where you can browse for assets.":"{}转到市场{} - 打开市场窗口，您可以在其中浏览资产。",
+    "{}Create Package{} - With this option you can open the {}Create Package Wizard{} to create a new asset package or tutorial for the Marketplace.{} ":"{}创建包{} - 使用此选项，您可以打开{}创建包向导{}，以便为市场创建新的资源包或教程。{}",
+    "{}Go to the Marketplace{} - Open the Marketplace window where you can browse for assets.":"{}转到市场{} - 打开市场窗口，您可以在其中浏览资源。",
     "{}My Library{} - View your current Marketplace content library.":"{}我的库{} - 查看您当前的市场内容库。",
     "{}My Purchase History{} - This option will open a browser and take you to the account page for the logged in user so you can see the purchase history for that account.":"{}我的购买历史记录{} - 此选项将打开浏览器并将您带到登录用户的帐户页面，以便您可以查看该帐户的购买历史记录。",
     "{}Update Existing Package{} - This option will open the {}Update Package Wizard{} so you can update an existing Marketplace package that you have previously created.":"{}更新现有包{} - 此选项将打开{}更新包向导{}，以便您可以更新以前创建的现有市场包。"
