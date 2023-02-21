@@ -1,0 +1,7 @@
+{
+    "Before we can&nbsp;use the Git plugin, we need to set up the Git executable to use by going into the {}Plugins - Source Control (Git){} section of the {}Preferences{}:":"在使用 Git 插件之前，我们需要设置要使用的 Git 可执行文件，方法是进入{}首选项{}的{}插件-源代码管理 (Git){}部分：",
+    "Before you can use Source Control for your project, you need to go into the Game Options and enable Source Control:":"在将源代码管理用于项目之前，您需要进入游戏选项并启用源代码管理：",
+    "For the rest of the Git options, see the&nbsp;{}Plugin Preferences{} page.":"有关 Git 选项的其余内容，请参阅{}插件首选项{}页面。",
+    "Setting Up The Git Plugin":"设置 Git 插件",
+    "The Git executable path should be auto-filled if it\u0027s found by GameMaker, however if the field is empty, you can click on the&nbsp;{} button and manually select the {}git.exe{} file included in {}cmd{} folder of your Git installation, which is usually inside {}C:\\Program Files\\Git\\{}.":"如果 GameMaker 找到 Git 可执行文件路径，则应自动填充该路径，但如果该字段为空，则可以单击 {} 按钮并手动选择 Git 安装的 {}cmd{} 文件夹中包含的 {}git.exe{} 文件，该文件通常位于 {}C:\\ProgramFiles\\Git\\{} 中。"
+}
