@@ -2,5 +2,5 @@
     "The ID of the file to get the data from.":"要从中获取数据的文件的 ID。",
     "This function will return a byte of data from current position within the file with the given file ID. You supply the file ID value, as returned by the function {}{}file_bin_open(){}{}.":"此函数将从具有给定文件 ID 的文件中的当前位置返回一个字节的数据。 您提供函数 {}{}file_bin_open(){}{} 返回的文件 ID 值。",
     "This would open a file from the same directory as the game, and get a byte of data from it before closing it again.":"这将从与游戏相同的目录中打开一个文件，并从中获取一个字节的数据，然后再次关闭该文件。",
-    "{}NOTE{}: These functions {}do not{} work when the target module is HTML5.":"{}注意{}:当目标模块是HTML5时，这些函数{}不能工作。"
+    "{}NOTE{}: These functions {}do not{} work when the target module is HTML5.":"{} 注意 {}: 当目标模块是 HTML5 时，这些函数 {} 不能工作。"
 }

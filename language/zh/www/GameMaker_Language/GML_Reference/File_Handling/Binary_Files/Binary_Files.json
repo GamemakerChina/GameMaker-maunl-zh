@@ -1,7 +1,7 @@
 {
     "Binary Files":"二进制文件",
-    "In rare situations you might need to read data from binary files. These functions can be used for that purpose, although in general, we\u0027d recommend that you use the dedicated {}buffer functions{} to create, save and load binary data rather than these functions.":"在极少数情况下，您可能需要从二进制文件中读取数据。这些函数可以用于此目的，尽管一般情况下，我们建议您使用专用的{}缓冲区函数{}来创建、保存和加载二进制数据，而不是使用这些函数。",
-    "The following low-level routines exist for this:":"下面的底层例程是为此而存在的:",
+    "In rare situations you might need to read data from binary files. These functions can be used for that purpose, although in general, we\u0027d recommend that you use the dedicated {}buffer functions{} to create, save and load binary data rather than these functions.":"在极少数情况下，您可能需要从二进制文件中读取数据。这些函数可以用于此目的，尽管一般情况下，我们建议您使用专用的 {} 缓冲区函数 {} 来创建、保存和加载二进制数据，而不是使用这些函数。",
+    "The following low-level routines exist for this:":"为此，存在以下低级例程：",
     "{}NOTE{}: These functions {}do not{} work when the target module is HTML5.":"{}注意{}: 当目标模块为 HTML5时，这些函数{}不工作{}。",
-    "{}{}NOTE{}{}&nbsp;These functions {}do not{} work when the target module is HTML5.":"{}{}注意{}{} 当目标模块为HTML5时，这些函数{}不起作用{}。"
+    "{}{}NOTE{}{}&nbsp;These functions {}do not{} work when the target module is HTML5.":"{}{} 注意{}{} 当目标模块为 HTML5 时，这些函数 {} 不起作用 {}。"
 }

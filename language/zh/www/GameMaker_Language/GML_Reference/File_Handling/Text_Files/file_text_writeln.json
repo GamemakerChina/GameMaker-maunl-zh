@@ -1,4 +1,5 @@
 {
     "The above code opens a file for writing and then loops through two arrays, writing each array value to a new line of the file. The file is then closed when the loop has finished.":"上面的代码打开一个文件进行写入，然后循环通过两个数组，将每个数组值写入文件的新行。然后，循环结束时文件关闭。",
-    "With this function you can write a new line to an opened text file. In this way you can skip lines or write information on a line by line basis (see example code below).":"使用这个函数，您可以为打开的文本文件写入一行新的代码。通过这种方式，您可以跳过行或逐行写入信息(参见下面的示例代码)。"
+    "The id of the file to edit.":"要编辑的文件的ID。",
+    "With this function you can write a new line to an opened text file. In this way you can skip lines or write information on a line by line basis (see example code below).":"使用这个函数，您可以为打开的文本文件写入一行新的代码。通过这种方式，您可以跳过行或逐行写入信息 (参见下面的示例代码)。"
 }

@@ -5,8 +5,8 @@
     "The indicator of what can be done with the file.":"可以对文件执行哪些操作的指示符。",
     "The name of the file to read from.":"要从中读取的文件的名称。",
     "This function will open the binary file with the indicated name. The mode indicates what can be done with the file:":"此函数将打开具有指定名称的二进制文件。该模式指示可以对文件执行的操作:",
-    "This would open a file from the same directory as the game, and assign its index to the variable \"file\".":"这将从游戏的同一目录中打开一个文件，并将其索引分配给变量\"file\".",
-    "When the file does not exist it is created, and the function returns the id of the file that must be used in the other functions. You can open multiple files at the same time (32 max), but don\u0027t forget to close them once you are finished with them.":"当该文件不存在时，将创建该文件，并且该函数返回必须在其他函数中使用的文件的 id。您可以同时打开多个文件(最大32个) ，但是不要忘记在完成后关闭它们。",
-    "{}NOTE{}: These functions {}do not{} work when the target module is HTML5.":"{}注意{}:当目标模块是HTML5时，这些函数{}不能工作。",
-    "{}WARNING!{} This function may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on the&nbsp;{}File System{}&nbsp;for more information.":"{}警告!{} 由于{}GameMaker{}沙盒化，这个函数可能不会像你期望的那样工作!有关更多信息，请参见{} 文件系统 {}一节。"
+    "This would open a file from the same directory as the game, and assign its index to the variable \"file\".":"这将从游戏的同一目录中打开一个文件，并将其索引分配给变量 \"file\".",
+    "When the file does not exist it is created, and the function returns the id of the file that must be used in the other functions. You can open multiple files at the same time (32 max), but don\u0027t forget to close them once you are finished with them.":"当该文件不存在时，将创建该文件，并且该函数返回必须在其他函数中使用的文件的 id。您可以同时打开多个文件 (最大 32 个) ，但是不要忘记在完成后关闭它们。",
+    "{}NOTE{}: These functions {}do not{} work when the target module is HTML5.":"{} 注意 {}: 当目标模块是 HTML5 时，这些函数 {} 不能工作。",
+    "{}WARNING!{} This function may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on the&nbsp;{}File System{}&nbsp;for more information.":"{} 警告 !{} 由于 {}GameMaker{} 沙盒化，这个函数可能不会像你期望的那样工作 ! 有关更多信息，请参见 {} 文件系统 {} 一节。"
 }

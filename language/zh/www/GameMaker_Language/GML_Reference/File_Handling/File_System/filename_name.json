@@ -1,5 +1,5 @@
 {
-    "The above code gets the name (as a string) of the first \"doc\" type file found in the specified directory.":"以上代码获取在指定目录中找到的第一个“ doc”类型文件的名称(作为字符串)。",
+    "The above code gets the name (as a string) of the first \"doc\" type file found in the specified directory.":"以上代码获取在指定目录中找到的第一个“doc”类型文件的名称 (作为字符串)。",
     "The file to use.":"要使用的文件。",
     "Using this function returns the name part of the indicated file, {}with{} the extension but {}without{} the path.":"使用此函数返回指定文件的名称部分，{}带有{}扩展名，但{}没有{}路径。"
 }

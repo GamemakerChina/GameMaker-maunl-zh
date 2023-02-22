@@ -1,5 +1,5 @@
 {
-    "Once you have finished working with a given file (whether reading from it or writing to it), you must close the file again, or else you risk losing the information contained within. This also prevents memory leaks and makes sure that you never go over the file limit by having more than 32 files open.":"一旦您完成了对给定文件的操作(无论是从其中读取还是写入)，您必须再次关闭该文件，否则您可能会丢失其中所包含的信息。这还可以防止内存泄漏，并确保打开的文件数量不会超过32个，从而不会超过文件限制。",
+    "Once you have finished working with a given file (whether reading from it or writing to it), you must close the file again, or else you risk losing the information contained within. This also prevents memory leaks and makes sure that you never go over the file limit by having more than 32 files open.":"一旦您完成了对给定文件的操作 (无论是从其中读取还是写入)，您必须再次关闭该文件，否则您可能会丢失其中所包含的信息。这还可以防止内存泄漏，并确保打开的文件数量不会超过 32 个，从而不会超过文件限制。",
     "The above code opens a file for writing then loops through the lines of text already written to the file until it reaches the end. At this point it writes a string and then closes the file again.":"上面的代码打开一个用于写入的文件，然后循环遍历已经写入文件的文本行，直到文件到达结尾。此时，它写入一个字符串，然后再次关闭该文件。",
     "The id of the file to close.":"要关闭的文件的 ID。"
 }

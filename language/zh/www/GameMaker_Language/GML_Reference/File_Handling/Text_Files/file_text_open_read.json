@@ -1,7 +1,7 @@
 {
     "The name of the file to read from.":"要从中读取的文件的名称。",
-    "This function opens the text file with the indicated filename for {}reading only{}, returning the unique id of the file that which should be stored in a variable as it will be used for all further actions to do with that file. If the file does not exists then the function will return the value -1.":"这个函数打开指定文件名为{}只读{}的文本文件，返回文件的唯一id，该id应该存储在一个变量中，因为它将用于处理该文件的所有进一步操作。如果文件不存在，函数将返回值-1。",
+    "This function opens the text file with the indicated filename for {}reading only{}, returning the unique id of the file that which should be stored in a variable as it will be used for all further actions to do with that file. If the file does not exists then the function will return the value -1.":"这个函数打开指定文件名为 {} 只读 {} 的文本文件，返回文件的唯一 id，该 id 应该存储在一个变量中，因为它将用于处理该文件的所有进一步操作。如果文件不存在，函数将返回值 -1。",
     "This would open \"level.txt\" from the same directory as the game and store the file id in the variable \"file\".":"这将从与游戏相同的目录中打开“level.txt”，并将文件 ID 存储在变量“ file”中。",
-    "{}NOTE{}: You can only have a maximum of 32 files open at any one time. You should also {}always{} close files when finished as this writes the information and frees the memory associated with the file.":"{}说明{}:同一时间最多只能打开32个文件。你还应该{}总是{}在完成时关闭文件，因为这会写入信息和释放与文件相关的内存。",
-    "{}{}{}WARNING!{} This function may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on the&nbsp;{}File System{}&nbsp;for more information.":"{}{}{}警告!{}由于{}GameMaker{}被沙盒化，这个函数可能不会像你期望的那样工作!有关更多信息，请参见 {}文件系统{} 一节。"
+    "{}NOTE{}: You can only have a maximum of 32 files open at any one time. You should also {}always{} close files when finished as this writes the information and frees the memory associated with the file.":"{} 说明 {}: 同一时间最多只能打开 32 个文件。你还应该 {} 总是 {} 在完成时关闭文件，因为这会写入信息和释放与文件相关的内存。",
+    "{}{}{}WARNING!{} This function may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on the&nbsp;{}File System{}&nbsp;for more information.":"{}{}{} 警告 !{} 由于 {}GameMaker{} 被沙盒化，这个函数可能不会像你期望的那样工作 ! 有关更多信息，请参见 {} 文件系统 {} 一节。"
 }

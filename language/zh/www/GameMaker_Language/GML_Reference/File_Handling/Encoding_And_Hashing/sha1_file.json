@@ -1,6 +1,6 @@
 {
-    "In cryptography, SHA-1 is a cryptographic hash function designed by the United States {}National Security Agency{} and is employed in several widely used applications popular {}Git{} where it is used to check for file changes, and the protocols TLS and SSL, PGP, SSH, S/MIME, and IPsec. This function will take an input file and return a 160 bit message digest in ASCII format unique to that file to be used for integrity verification at any later date.":"在密码学中，SHA-1 是一种由美国{}国家安全局{}设计的加密哈希函数，被广泛用于流行的 {}Git{} 等几个广泛使用的应用程序中，用于检查文件更改和协议 TLS 和 SSL、PGP、SSH、S/MIME 和 IPsec。 此函数将获取一个输入文件并返回一个 160 位的 ASCII 格式的消息摘要，该摘要对于该文件是唯一的，以便在以后的任何时候用于完整性验证。",
-    "The above code will generate a sha1 hash for the specified file and store the returned value in the variable \"hash\".":"上面的代码将为指定的文件生成 sha1散列，并将返回值存储在变量“ hash”中。",
-    "The file to generate the sha1 hash for.":"要为其生成 sha1哈希的文件。",
-    "{}NOTE{}: SHA-1 is not completely secure and can be broken. See&nbsp;{}this page{}&nbsp;for more info.":"{}注意{}：SHA-1 并不完全安全，可能会被破解。 查看{}此页面{}&nbsp;了解更多信息。"
+    "In cryptography, SHA-1 is a cryptographic hash function designed by the United States {}National Security Agency{} and is employed in several widely used applications popular {}Git{} where it is used to check for file changes, and the protocols TLS and SSL, PGP, SSH, S/MIME, and IPsec. This function will take an input file and return a 160 bit message digest in ASCII format unique to that file to be used for integrity verification at any later date.":"在密码学中，SHA-1 是一种由美国 {} 国家安全局 {} 设计的加密哈希函数，被广泛用于流行的 {}Git{} 等几个广泛使用的应用程序中，用于检查文件更改和协议 TLS 和 SSL、PGP、SSH、S/MIME 和 IPsec。 此函数将获取一个输入文件并返回一个 160 位的 ASCII 格式的消息摘要，该摘要对于该文件是唯一的，以便在以后的任何时候用于完整性验证。",
+    "The above code will generate a sha1 hash for the specified file and store the returned value in the variable \"hash\".":"上面的代码将为指定的文件生成 sha1 散列，并将返回值存储在变量“ hash”中。",
+    "The file to generate the sha1 hash for.":"要为其生成 sha1 哈希的文件。",
+    "{}NOTE{}: SHA-1 is not completely secure and can be broken. See&nbsp;{}this page{}&nbsp;for more info.":"{} 注意 {}：SHA-1 并不完全安全，可能会被破解。 查看 {} 此页面 {}&nbsp; 了解更多信息。"
 }

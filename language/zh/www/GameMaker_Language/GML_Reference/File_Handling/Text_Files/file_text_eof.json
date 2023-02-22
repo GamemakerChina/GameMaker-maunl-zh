@@ -1,5 +1,5 @@
 {
     "The above code opens a file for writing then loops through the lines of text already written to the file until it reaches the end, storing each line in the array \"str\".":"上面的代码打开一个用于写入的文件，然后循环遍历已经写入文件的文本行，直到文件到达末尾，并将每一行存储在数组“ str”中。",
     "The id of the file to check.":"要检查的文件的 ID。",
-    "This function returns {}true{} when the end of a given opened text file has been reached or {}false{} if not.":"当到达给定打开的文本文件的结尾时，此函数返回{} true {} ，如果没有，返回{} false {}。"
+    "This function returns {}true{} when the end of a given opened text file has been reached or {}false{} if not.":"当到达给定打开的文本文件的结尾时，此函数返回 {} true {} ，如果没有，返回 {} false {}。"
 }

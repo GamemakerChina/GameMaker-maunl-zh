@@ -9,5 +9,5 @@
     "This would check a file to see if it is hidden or not, and if not it is deleted.":"这将检查一个文件，看看它是否隐藏，如果没有，它被删除。",
     "Volume-id files":"卷id文件",
     "You can use this function to check the attributes of a given file. You can add up the following constants to see the type of files you want:":"可以使用此函数检查给定文件的属性。您可以将下列常数相加，以查看所需的文件类型:",
-    "{}NOTE{}: This is a Windows only function.":"{}注意: 这是一个仅适用于 Windows 的函数。"
+    "{}NOTE{}: This is a Windows only function.":"{}注意: {}这是一个仅适用于 Windows 的函数。"
 }

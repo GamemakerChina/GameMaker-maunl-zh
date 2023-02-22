@@ -1,6 +1,6 @@
 {
     "The key to check for.":"要检查的键。",
-    "The section in the open .ini file to check a key in.":"打开的.ini文件中用于检入密钥的部分。",
-    "This function checks to see if a key exists in the currently open ini and will return {}true{} if it does or {}false{} otherwise. This is not a necessary check to prevent errors as, when a key does not exist, reading from a non-existent key will just return a default value. It can be useful to see if an ini file has saved specific data and a few other things, however.":"此函数检查当前打开的 ini 中是否存在键，如果存在，则返回{} true {} ，否则返回{} false {}。这不是防止错误的必要检查，因为当一个键不存在时，从一个不存在的键读取只会返回一个默认值。但是，查看 ini 文件是否保存了特定的数据和其他一些内容会很有用。",
+    "The section in the open .ini file to check a key in.":"打开的 .ini 文件中用于检入密钥的部分。",
+    "This function checks to see if a key exists in the currently open ini and will return {}true{} if it does or {}false{} otherwise. This is not a necessary check to prevent errors as, when a key does not exist, reading from a non-existent key will just return a default value. It can be useful to see if an ini file has saved specific data and a few other things, however.":"此函数检查当前打开的 ini 中是否存在键，如果存在，则返回 {} true {} ，否则返回 {} false {}。这不是防止错误的必要检查，因为当一个键不存在时，从一个不存在的键读取只会返回一个默认值。但是，查看 ini 文件是否保存了特定的数据和其他一些内容会很有用。",
     "This will set variable global.name to \"Player1\" if no such key as \"name\" exists.":"如果不存在诸如“name”之类的键，这将把变量 global.name 设置为“Player1”。"
 }

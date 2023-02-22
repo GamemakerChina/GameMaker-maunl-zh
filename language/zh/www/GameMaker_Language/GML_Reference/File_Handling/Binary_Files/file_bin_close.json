@@ -1,6 +1,6 @@
 {
-    "Closes a previously opened binary file. You supply the file ID value, as returned by the function {}{}file_bin_open(){}{}.":"关闭先前打开的二进制文件。提供文件ID值，由函数{}{}file_bin_open(){}{}返回。",
+    "Closes a previously opened binary file. You supply the file ID value, as returned by the function {}{}file_bin_open(){}{}.":"关闭先前打开的二进制文件。提供文件 ID 值，由函数 {}{}file_bin_open(){}{} 返回。",
     "The ID of the file to close.":"要关闭的文件的 ID。",
-    "This would open a file from the same directory as the game, and assign its index to the variable \"file\". It would then re-write the file (clearing it of data), and close it again.":"这将从与游戏相同的目录中打开一个文件，并将其索引分配给变量“ file”。然后它将重写文件(清除数据) ，并再次关闭它。",
-    "{}NOTE{}: These functions {}do not{} work when the target module is HTML5.":"{}注意{}:当目标模块是HTML5时，这些函数{}不能工作。"
+    "This would open a file from the same directory as the game, and assign its index to the variable \"file\". It would then re-write the file (clearing it of data), and close it again.":"这将从与游戏相同的目录中打开一个文件，并将其索引分配给变量“ file”。然后它将重写文件 (清除数据) ，并再次关闭它。",
+    "{}NOTE{}: These functions {}do not{} work when the target module is HTML5.":"{} 注意 {}: 当目标模块是 HTML5 时，这些函数 {} 不能工作。"
 }
