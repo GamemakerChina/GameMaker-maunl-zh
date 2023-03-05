@@ -1,0 +1,11 @@
+{
+    "At the game\u0027s start, a variable {}audio_initialised{}&nbsp;is set to {}false{}&nbsp;in an object\u0027s Create event. In its Step event, the function&nbsp;{}{}audio_system_is_initialised{}{}&nbsp;is called for as long as {}audio_initialised{} remains {}false{}. Once the function returns {}true{}, the contents after the first if statement are executed:&nbsp;{}audio_initialised{} is set to {}true{}, which prevents further calls to the function, and a custom audio bus and emitter are set up. Once {}audio_initialised{} is {}true{}, the code of the second if statement is executed, which can be interaction with the audio system, e.g. changing effect parameters.":"在游戏开始时，在对象的创建事件中，变量 {}audio_initialised{} 被设置为 {}false{}。在其步事件中，函数 {}{}audio_system_is_initialised{}{} 会被调用，只要 {}audio_initialised{} 保持 {}false{}。一旦函数返回 {}true{}，就会执行第一个 if 语句：{}audio_initialised{} 之后的内容被设置为 {}true{}，这将阻止对该函数的进一步调用，并设置一个定制音频总线和发射器。一旦 {}audio_initialised{} 为 {}true{}，则执行第二个 if 语句的代码，该代码可以与音频系统交互，例如改变效果参数。",
+    "Call&nbsp;{}{}audio_bus_create{}{} (this will return {}undefined{})":"调用 {}{}audio_bus_create{}{} (这将返回 {}undefined{})",
+    "Call&nbsp;{}{}audio_emitter_create{}{} (this will also return {}undefined{})":"调用 {}{}audio_emitter_create{}{} (这将返回 {}undefined{})",
+    "Create Event":"创建事件",
+    "On the HTML5 platform it is possible for the audio engine to not have finished loading on game start. Until it has, you should not do any of the following:&nbsp;":"在 HTML5 平台上，音频引擎可能在游戏开始时没有完成加载。在此之前，您不应执行以下任何操作：",
+    "Reference&nbsp;{}{}audio_bus_main{}{} directly (this will be {}undefined{})":"直接引用 {}{}audio_bus_main{}{} (这将是{}undefined{})",
+    "Step Event":"步事件",
+    "This function returns whether the audio system (the main bus) is initialised on HTML5.&nbsp;For targets other than HTML5, this function will always return {}true{}.":"此函数返回音频系统 (主总线) 是否在 HTML5 上初始化。对于 HTML5 以外的目标，此函数将始终返回 {}true{}。",
+    "{}{}NOTE{}{}&nbsp;This function differs from {}{}audio_system_is_available{}{}, which reflects the ability to play audio and&nbsp;depends on the state of the Web Audio context.&nbsp;The audio system has to be initialised first before it can be available.":"{}{}注意{}{} 此函数不同于 {}{}audio_system_is_available{}{}，后者反映播放音频的能力，并且取决于 Web Audio 上下文的状态。 必须先初始化音频系统，然后才能使用它。"
+}

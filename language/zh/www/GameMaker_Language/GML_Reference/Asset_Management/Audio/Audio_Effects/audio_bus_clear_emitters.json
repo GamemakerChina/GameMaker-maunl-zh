@@ -1,0 +1,6 @@
+{
+    "The above code clears all emitters linked to an existing audio bus {}bus1{}, reassigning them to the main audio bus&nbsp;{}{}audio_bus_main{}{}.":"上面的代码清除链接到现有音频总线 {}bus1{} 的所有发射器，将它们重新分配到主音频总线 {}{}audio_bus_main{}{}。",
+    "The bus of which to clear the emitters":"要清除发射器的总线",
+    "This function clears the list of all audio emitters on the given bus and relinks them to the main bus.":"此函数清除给定总线上所有音频发射器的列表，并将它们重新链接到主总线。",
+    "{}{}NOTE{}{}&nbsp;A bus that has no emitters linked to it is not processed.":"{}{}注意{}{} 未链接发射器的总线不会被处理。"
+}

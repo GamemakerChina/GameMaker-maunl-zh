@@ -10,5 +10,5 @@
     "The x coordinate of where to draw the sprite.":"绘制精灵的位置的X坐标。",
     "The y coordinate of where to draw the sprite.":"绘制精灵的位置的Y坐标。",
     "This function will draw the collision masks associated with the given skeletal animation. You supply the base sprite, the animation set to use and the frame to get the information from, and you can also set the transform properties to suit.":"此函数将绘制与给定骨骼动画关联的碰撞遮罩。您可以提供基础精灵、要使用的动画设置和从中获取信息的帧，还可以设置变换属性以适应。",
-    "{}NOTE{}&nbsp;The bounding box of a Spine sprite is set up in Spine itself, not in {}GameMaker{}.":"{}注意{}Spine Sprite的边界框是在Spine本身中设置的，而不是在{}GameMaker{}中。"
+    "{}NOTE{}&nbsp;The bounding box of a Spine sprite is set up in Spine itself, not in {}GameMaker{}.":"{}注意{}Spine 精灵的边界框是在Spine本身中设置的，而不是在{}GameMaker{}中。"
 }

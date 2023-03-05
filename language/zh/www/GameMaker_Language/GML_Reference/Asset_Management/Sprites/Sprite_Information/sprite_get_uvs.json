@@ -11,5 +11,6 @@
     "[5] = amount of pixels the asset compiler has trimmed from the sprites top side":"[5]=资源编译器从精灵顶部修剪的像素数量",
     "[6] = normalised percentage of pixel data from the original sprites width that has been saved to the texture page":"[6]=已保存到纹理页面的原始精灵宽度的归一化像素数据百分比",
     "[7] = normalised percentage of pixel data from the original sprites height that has been saved to the texture page":"[7]=已保存到纹理页面的原始子画面高度的归一化像素数据百分比",
-    "{}NOTE{}: This function will {}not{} work with vector sprites or skeleton animation sprites.":"{}注意{}：此函数{}不{}适用于矢量精灵或骨骼动画精灵。"
+    "{}NOTE{}: This function will {}not{} work with vector sprites or skeleton animation sprites.":"{}注意{}：此函数{}不{}适用于矢量精灵或骨骼动画精灵。",
+    "{}{}NOTE{}{}&nbsp;This function will {}not{} work with vector sprites or skeleton animation sprites.":"{}{}注意{}{}：此函数{}不{}适用于矢量精灵或骨骼动画精灵。"
 }

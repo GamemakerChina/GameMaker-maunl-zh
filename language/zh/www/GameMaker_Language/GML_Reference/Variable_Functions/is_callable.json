@@ -1,5 +1,5 @@
 {
-    "A function index can refer to either a {}built-in function{}, a&nbsp;{}{}Script Function{}{}&nbsp;or a&nbsp;{}{}Script Asset{}{}.":"函数索引可以引用{}内置函数{}、{}{}脚本函数{}{}或{}{}脚本资产{}{}。",
+    "A function index can refer to either a {}built-in function{}, a&nbsp;{}{}Script Function{}{}&nbsp;or a&nbsp;{}{}Script Asset{}{}.":"函数索引可以引用{}内置函数{}、{}{}脚本函数{}{}或{}{}脚本资源{}{}。",
     "The above code first defines a function {}my_function{} and a method {}my_method{}. It then shows three debug messages. Each shows the result of calling {}{}is_callable{}{}: the first on {}my_function{}, the second on {}my_method{} and the third on the built-in {}{}draw_text{}{}. All three debug messages will show 1, as all three are callable.":"上面的代码首先定义了函数 {}my_function{} 和方法 {}my_method{}。然后，它显示三条调试消息。每个函数都显示了调用 {}{}is_callable{}{} 的结果：第一个在 {}my_function{} 上，第二个在 {}my_method{} 上，第三个在内置的 {}{}draw_text{}{} 上。所有三条调试消息都将显示 1，因为这三条消息都是可调用的。",
     "The value to check":"要检查的值",
     "This function returns whether the given argument is {}callable{}, i.e.&nbsp;is a {}method{} or refers to an index of a function.":"此函数返回给定参数是否为{}可调用{}，即是否为{}方法{}或引用函数的索引。",

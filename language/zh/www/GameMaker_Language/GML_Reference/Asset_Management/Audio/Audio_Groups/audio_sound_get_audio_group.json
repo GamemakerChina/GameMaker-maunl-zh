@@ -1,0 +1,5 @@
+{
+    "The above code gets the ID of the audio group assigned to the sound {}snd_animal{}&nbsp;and stores it in a temporary variable {}_group{}.":"上面的代码获取分配给声音的音频组的 ID {}snd_animal{} 并将其存储在临时变量 {}_group{} 中。",
+    "The index of a sound asset or instance":"音频资源和实例的索引",
+    "This function returns the ID of the {}audio group{} the given sound asset or sound instance belongs to.":"此函数用于返回给定声音资源或声音实例所属的{}音频组{}的 ID。"
+}

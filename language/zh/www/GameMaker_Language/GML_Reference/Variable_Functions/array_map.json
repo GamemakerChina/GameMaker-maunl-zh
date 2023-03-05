@@ -1,5 +1,6 @@
 {
     "After the callback is executed for all elements, the modified array is returned. The original array is {}not changed{}; for that, see&nbsp;{}array_map_ext{}.":"对所有元素执行回调后，返回修改后的数组。原始数组为{}未更改{}有关这一点，请参阅 {}array_map_ext{}。",
+    "After the callback is executed for all elements, the modified array&nbsp;(or the affected range of it) is returned as a new array. The original array is {}not changed{}; for that, see&nbsp;{}array_map_ext{}.":"对所有元素执行回调后，返回修改后的数组(或其受影响的范围)。原始数组为{}未更改{}有关这一点，请参阅 {}array_map_ext{}。",
     "It creates a function {}_double{} that takes the array element and index, and returns the element multiplied by 2.":"它创建了一个函数 {}_double{}，该函数接受数组元素和索引，并返回乘以 2 的元素。",
     "See information and examples on&nbsp;{}Predicate Function{}.":"请参阅有关{}判断函数{}的信息和示例。",
     "The above code creates an array {}_numbers{} with numbers from 1 to 5.":"上面的代码创建了一个数字介于 1 到 5 之间的数组 {}_numbers{}。",
@@ -17,6 +18,7 @@
     "This callback function should return a value of&nbsp;{}{}Any{}{} type that will be applied back to the array element.":"此回调函数应返回一个{}{}任何{}{}将应用于数组元素的类型的值。",
     "This function is then used in an {}array_map{} call, which returns a modified version of the array with all numbers doubled: {}[2, 4, 6, 8, 10]{}.":"然后在一个 {}array_map{} 调用中使用该函数，该调用返回一个修改后的数组版本，所有数字都加倍：{}[2，4，6，8，10]{}。",
     "This function returns a modified version of the given array, based on a callback function.":"此函数基于回调函数返回给定数组的修改版本。",
+    "This function returns a {}new{} array that is a modified version of the given array {}(or a range of it){}, based on a callback function.":"此函数返回一个{}新{}数组，其中包含数组{}(或数组范围){}中元素的修改版本。",
     "This function returns a {}new{} array with a modified version of the elements in the array or a range of it.":"此函数返回一个{}新{}数组，其中包含数组或数组范围中元素的修改版本。",
     "This function takes a&nbsp;{}Predicate Function{}&nbsp;that operates on the given array. The predicate function is passed the following arguments:":"此函数接受在给定数组上操作的{}判断函数{}。向判断函数传递以下参数：",
     "You provide an array, and a callback function, which is called for each element in the given array. The callback function can return any value, which is applied to that index in a new copy of the array.":"您提供一个数组和一个回调函数，给定数组中的每个元素都会调用该函数。回调函数可以返回任何值，该值应用于数组的新副本中的索引。",

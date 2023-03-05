@@ -1,4 +1,5 @@
 {
+    "\u0027points\u0027 Array":"\u0027points\u0027 数组",
     "If the channel is using catmull-rom (\"smooth\") interpolation this holds how many points have been generated for each segment of the curve (note that these extra points are internal to the function and only used for the runtime calculations). If the channel is using linear interpolation, this value will still exist but can be ignored as it has no bearing on how the curve is interpolated.":"如果通道使用catmull- rom (“平滑”) 插值，则可以保存为曲线的每段生成了多少个点 (请注意，这些额外的点在函数内部，仅用于运行时计算)。如果通道使用线性插值，则该值仍将存在，但可以忽略，因为它与曲线的插值方式无关。",
     "Note that passing an index value will require less processing than passing in a channel name. If the function fails (ie: no channel exists with the given name or index) then you will get an error.":"请注意，传递索引值将比传递通道名称需要更少的处理。如果函数失败 (即: 没有给定名称或索引的通道存在)，则会出现错误。",
     "One point struct has the following variables:":"单点结构具有以下变量：",

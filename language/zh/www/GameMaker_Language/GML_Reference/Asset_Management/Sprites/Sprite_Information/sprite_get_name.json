@@ -1,5 +1,5 @@
 {
     "The above code will get the name of the sprite index for the instance running the code and store the return value in the variable \"str\".":"上面的代码将获取运行代码的实例的sprite索引的名称，并将返回值存储在变量 “str” 中。",
-    "The index of the sprite to get the name of.":"的精灵的索引，以获取的名称。",
+    "The index of the sprite to get the name of.":"要获取其名称的精灵的索引。",
     "This function will return the name {}as a string{} of the specified sprite. This name is the one that has been specified for the sprite in the resource tree of the main {}GameMaker{} window. Please note that this is {}only{} a string and cannot be used to reference the sprite directly - for that you would need the {}sprite index{}. You can, however, use this string to get the {}sprite index{} using the returned string along with the function {}{}asset_get_index(){}{}.":"该函数将返回名称{}作为指定精灵的字符串{}。此名称是在主{}GameMaker{}窗口的资源树中为精灵指定的名称。请注意，这只是{}一个字符串，不能用于直接引用精灵-为此，您需要{}精灵索引{}。但是，您可以使用此字符串来获取{}sprite索引{}使用返回的字符串以及函数{}{}asset_get_index(){}{}。"
 }

@@ -3,5 +3,5 @@
     "The above code checks to see if the game is being run in debug mode and if it is, it toggles the skeletal collision data for the instance to be shown.":"上面的代码检查游戏是否在调试模式下运行，如果是，则切换要显示的实例的骨骼碰撞数据。",
     "This function only works when the skeletal sprite drawing is being handled by the object. To draw the collision bounding box when drawing a skeletal sprite manually, use {}{}draw_skeleton_collision(){}{}.":"仅当骨骼精灵绘图由对象处理时，此函数才起作用。若要在手动绘制骨架精灵时绘制碰撞边界框，请使用{}{}draw_skeleton_collision(){}{}。",
     "With this function, you can toggle on ({}true{}) or off ({}false{}) drawing the collision data for the current skeletal animation sprite being used by the instance. If this is switched on, the bounding box and the precise collision mask will be drawn as outlines around the sprite.":"使用此函数，您可以打开({}true{})或关闭({}false{})绘制实例正在使用的当前骨骼动画精灵的碰撞数据。如果打开该选项，边界框和精确碰撞遮罩将绘制为精灵周围的轮廓。",
-    "{}NOTE{}&nbsp;The bounding box of a Spine sprite is set up in Spine itself, not in {}GameMaker{}.":"{}注意{}Spine Sprite的边界框是在Spine本身中设置的，而不是在{}GameMaker{}中。"
+    "{}NOTE{}&nbsp;The bounding box of a Spine sprite is set up in Spine itself, not in {}GameMaker{}.":"{}注意{}Spine 精灵的边界框是在Spine本身中设置的，而不是在{}GameMaker{}中。"
 }

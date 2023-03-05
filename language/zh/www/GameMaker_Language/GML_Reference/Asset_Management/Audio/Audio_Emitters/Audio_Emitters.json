@@ -1,6 +1,6 @@
 {
     "Adding an emitter":"添加发射器",
-    "Additional listeners":"其他listeners",
+    "Additional listeners":"其他侦听器",
     "After setting a falloff model and making sure the listener\u0027s position and orientation are updated correctly, you can start playing sounds in the 3D audio space using&nbsp;{}audio_play_sound_at{}:&nbsp;":"设置衰减模型并确保正确更新收听者的位置和方向后，可以使用{}audio_play_sound_at{}在3D音频空间中开始播放声音：",
     "All in all,&nbsp;{}audio_play_sound_at{}&nbsp;is a good way to play simple sounds in 3D audio space but it is limited. It doesn\u0027t allow you to change the position, the velocity or the falloff parameters once the sound is playing. Position and falloff parameters {}are{} passed to the function but cannot be changed afterwards.":"总之，{}audio_play_sound_at{}是在3D音频空间播放简单声音的好方法，但有限。一旦播放声音，它不允许您更改位置、速度或衰减参数。位置和衰减参数{}传递给函数，但以后无法更改。",
     "An audio emitter \"emits\" a sound. It can be compared to a speaker in the real world.":"音频发射器\"发出\"声音。它可以与现实世界中的扬声器相比较。",

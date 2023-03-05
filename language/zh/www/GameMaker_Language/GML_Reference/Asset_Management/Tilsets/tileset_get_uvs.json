@@ -4,8 +4,12 @@
     "This array can then be used in other draw functions, particularly when working in 3D or using the {}2D primitive{}&nbsp;functions, as well as when working with the {}Shader{}&nbsp;functions.":"然后，可以在其他绘制函数中使用此数组，特别是在3D中工作或使用{}2D图元{}函数时，以及在使用{}着色器{}函数时。",
     "This function returns an {}array{} with the UV coordinates and other data for the texture of the given tile set on the texture page. The array contains the following 8 elements:":"此函数返回一个 {} 数组 {}，其中包含在纹理页面上设置的给定平铺纹理的 UV 坐标和其他数据。该函数返回包含以下 8 个元素的数组：",
     "This function returns an {}array{} with the UV coordinates and other data for the texture of the given tile set on the texture page. The function returns an array with the following 8 elements:":"此函数返回一个{}数组{}，其中包含在纹理页面上设置的给定平铺纹理的UV坐标和其他数据。该函数返回包含以下8个元素的数组：",
-    "[4] = amount of pixels the asset compiler has trimmed from the tile set left side":"[4]=资源编译器已从图块集左侧修剪的像素数量",
-    "[5] = amount of pixels the asset compiler has trimmed from the tile set top side":"[5]=资源编译器从平铺设置顶部修剪的像素数量",
-    "[6] = normalised percentage of pixel data from the original tile set width that has been saved to the texture page":"[6]=已保存到纹理页面的原始拼贴集宽度的归一化像素数据百分比",
-    "[7] = normalised percentage of pixel data from the original tile set height that has been saved to the texture page":"[7]=已保存到纹理页面的原始拼贴集高度的归一化像素数据百分比"
+    "[0] = left":"[0] = 左侧",
+    "[1] = top":"[1] = 顶部",
+    "[2] = right":"[2] = 右侧",
+    "[3] = bottom":"[3] = 底部",
+    "[4] = amount of pixels the asset compiler has trimmed from the tile set left side":"[4] = 资源编译器已从图块集左侧修剪的像素数量",
+    "[5] = amount of pixels the asset compiler has trimmed from the tile set top side":"[5] = 资源编译器从平铺设置顶部修剪的像素数量",
+    "[6] = normalised percentage of pixel data from the original tile set width that has been saved to the texture page":"[6] = 已保存到纹理页面的原始拼贴集宽度的归一化像素数据百分比",
+    "[7] = normalised percentage of pixel data from the original tile set height that has been saved to the texture page":"[7] = 已保存到纹理页面的原始拼贴集高度的归一化像素数据百分比"
 }

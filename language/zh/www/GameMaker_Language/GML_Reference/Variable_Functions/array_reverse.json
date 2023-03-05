@@ -2,7 +2,9 @@
     "The above code creates an array {}countdown{}. It then creates an array {}countdown_reverse{} with the same elements but reversed.":"上面的代码创建了一个数组 {}countdown{}。然后，它创建一个具有相同元素但颠倒的数组 {}countdown_reverse{}。",
     "The array to reverse":"要反转的数组",
     "This function returns a {}new{} array with all the elements from the given array in a reversed order.":"此函数返回一个{}新的{}数组，该数组中的所有元素都以相反的顺序排列。",
+    "This function returns a {}new{} array with all the elements from the given array&nbsp;{}(or a range of it){} in a reversed order.":"此函数返回一个{}新的{}数组，该数组{}(或其范围){}中的所有元素都以相反的顺序排列。",
     "You can also reverse only a part of the array by supplying&nbsp;{}Offset And Length{}&nbsp;values.":"您还可以通过提供{}偏移量和长度{}值来仅反转数组的一部分。",
+    "You can also reverse only a part of the array by supplying&nbsp;{}Offset And Length{}&nbsp;values. In this case the returned array will have a length corresponding to the range given by these values (e.g. if {}offset{} and {}length{} refer to a range of 5 elements then the new array will contain 5 elements).":"您还可以通过提供{}偏移量和长度{}值来仅反转数组的一部分。在这种情况下，返回的数组将具有与这些值给出的范围相对应的长度(例如，如果{}偏移量{}和{}长度{}指的是 5 个元素的范围，则新数组将包含 5 个元素)。",
     "{}{}OPTIONAL{}{}&nbsp;The number of elements to traverse. A negative value will traverse the array backwards (i.e. in descending order of indices, e.g. 2 &gt; 1 &gt; 0 instead of 0 &gt; 1 &gt; 2). See:&nbsp;{}Offset And Length{}":"{}{}可选{}{} 要遍历的元素数。负值将向后遍历数组(即按索引的降序排列，例如 2>1>0 而不是 0>1>2)。请参阅： {}偏移量和长度{}",
     "{}{}OPTIONAL{}{}&nbsp;The offset, or the starting index, in the array. Setting a negative value will count from the end of the array. The starting index will then be {}array_length(array) + offset{}. See:&nbsp;{}Offset And Length{}":"{}{}可选{}{} 数组中的偏移量或起始索引。设置负值将从数组的末尾开始计数。然后，起始索引将是 {}array_length(array)+offset{}。请参阅：{}偏移量和长度{}"
 }
