@@ -1,5 +1,7 @@
 {
+    "After applying the static struct for {}potion{} to it (which is a constructor), it becomes an instance of {}potion{} (as tested with {}is_instanceof(){}) and also gets any static variables and static methods contained in the {}potion{} constructor.":"在将 {}potion{} 的静态结构应用于它之后，它将成为 {}potion{} 的实例 (如用 {}is_instanceof(){} 测试的那样)，并且还获得包含在 {}potion{} 构造函数中的任何静态变量和静态方法。",
     "After applying the static struct for {}potion{} to it, it becomes an instance of {}potion{} (as tested with {}{}is_instanceof{}(){}) and also gets any static variables and static methods contained in the {}potion{} constructor.":"在将 {}potion{} 的静态结构应用于它之后，它将成为 {}potion{} 的实例 (如用 {}{}is_instanceof{}(){} 测试的那样)，并且还获得包含在 {}potion{} 构造函数中的任何静态变量和静态方法。",
+    "In the code above, upon loading the potion struct from a JSON string, it\u0027s only created as a simple struct and doesn\u0027t belong to a constructor, nor does it have any static variables.":"在上面的代码中，在加载 potion 结构时，它只被创建为一个简单的结构，不属于构造函数，也没有任何静态变量。",
     "In the code above, upon loading the potion struct, it\u0027s only created as a simple struct and doesn\u0027t belong to a constructor, nor does it have any static variables.":"在上面的代码中，在加载 potion 结构时，它只被创建为一个简单的结构，不属于构造函数，也没有任何静态变量。",
     "The new static struct to use for the struct":"要用于结构的新静态结构",
     "The struct to set the static struct for":"要为其设置静态结构的结构",
