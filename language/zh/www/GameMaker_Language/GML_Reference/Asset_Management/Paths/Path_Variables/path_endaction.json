@@ -1,5 +1,6 @@
 {
     "Continue from start position, jumping to the start if the path is not closed":"从开始位置继续，如果路径未闭合，则跳到开始位置",
+    "Path End Action Constant":"路径结束动作常量",
     "Reverse the speed of the path (run the path in reverse)":"倒转路径速度(反向运行路径)",
     "Start the path again from the current position":"从当前位置重新开始路径",
     "Stop the path":"停止路径",

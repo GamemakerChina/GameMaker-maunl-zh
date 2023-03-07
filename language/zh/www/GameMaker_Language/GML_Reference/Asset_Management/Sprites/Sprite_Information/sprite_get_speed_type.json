@@ -4,7 +4,7 @@
     "Sprite Speed Constant":"Sprite Speed常量",
     "The above code gets the sprite speed and the sprite animation type and stores them in instance variables for future use.":"上面的代码获取了精灵速度和精灵动画类型，并将它们存储在实例变量中，以备将来使用。",
     "The following two examples illustrate the difference this can make when calculating animation speeds for the sprite:":"以下两个示例说明了在计算精灵的动画速度时可以产生的差异:",
-    "The index of the sprite to get the animation type of":"的子画面的索引，以获得的动画类型",
+    "The index of the sprite to get the animation type of":"的精灵的索引，以获得的动画类型",
     "The sprite was defined with animation in {}frames per second{}.":"精灵是用每秒{}帧的动画定义的。",
     "The sprite was defined with in animation in {}frames per game frame{}.":"精灵是在动画中以{}帧为每个游戏帧{}定义的。",
     "This function can be used to retrieve the sprite animation type as defined for the sprite resource in the {}Sprite Editor{}. The value returned will be one of the following constants:":"此函数可用于检索{}精灵编辑器{}中针对精灵资源定义的精灵动画类型。返回的值将是以下常量之一:",

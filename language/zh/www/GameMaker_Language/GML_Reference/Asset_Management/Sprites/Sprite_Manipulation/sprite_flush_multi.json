@@ -1,5 +1,5 @@
 {
-    "Array with the sprite indices to flush":"包含要刷新的sprite索引的数组",
+    "Array with the sprite indices to flush":"包含要刷新的精灵索引的数组",
     "The above code creates an array where each element holds a sprite index. This array is then used to clear those sprite textures from memory.":"上面的代码创建了一个数组，其中每个元素都保存了一个精灵索引。然后，该数组用于从内存中清除这些精灵纹理。",
     "With this function you can remove the any number of texture pages for the given sprites from texture memory. You supply the sprite indices as an array and the texture pages they are assigned to will be removed from texture memory. Note that if one of the texture pages is used elsewhere in the room (by another instance sprite or a background, etc...) you may get a minor performance hit as the page is immediately reloaded back into memory again, so care should be taken when using this function. Note that the function will return {}-1{} if flush is not supported for the chosen resources, or it will return {}0{} if all worked correctly.":"使用此函数，您可以从纹理内存中删除给定精灵的任意数量的纹理页。您以数组的形式提供sprite索引，分配给它们的纹理页将从纹理内存中删除。请注意，如果其中一个纹理页面在房间中的其他地方使用(由另一个实例Sprite或背景等使用)。您可能会受到轻微的性能影响，因为页面会立即重新加载到内存中，因此在使用此函数时应小心。请注意，如果所选资源不支持刷新，则函数将返回{}-1{}，或者如果一切正常，则函数将返回{}0{}。"
 }

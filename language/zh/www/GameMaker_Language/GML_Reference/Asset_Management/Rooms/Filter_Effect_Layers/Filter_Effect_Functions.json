@@ -12,7 +12,7 @@
     "Limitations":"限制",
     "Modify a parameter in an FX struct by calling&nbsp;{}{}fx_set_parameter(){}{}: {}fx_set_parameter(fx_struct, {}\"g_CellSize\"{}, 8);{}":"通过调用{}{}fx_set_parameter(){}{}：{}fx_set_parameter( fx_struct，{}\" g_CellSize\"{}， 8)修改FX结构中的参数;{}",
     "Modify a variable in a parameter struct using the {}${} accessor and a string: {}params_struct[$ {}\"g_CellSize\"{}] = 8;{}":"使用{}${}访问器和字符串修改参数结构中的变量：{}params_struct[${}\" g_CellSize\"{}]= 8;{}",
-    "Modify a variable in a parameter struct: {}params_struct.{}g_CellSize{} = 8;{} {} {}{}NOTE{} {}Make sure to get the parameter struct first by calling {}{}fx_get_parameters(){}{}.{}{} {} ":"修改参数结构中的变量：{}params_struct.{}g_CellSize{}= 8;{}{}{}{}注释{}{}调用{}{}fx_get_parameters(){}{}.{}{}{}",
+    "Modify a variable in a parameter struct: {}params_struct.{}g_CellSize{} = 8;{} {} {}{}NOTE{} {}Make sure to get the parameter struct first by calling {}{}fx_get_parameters(){}{}.{}{} {} ":"修改参数结构中的变量：{}params_struct.{}g_CellSize{}= 8;{}{}{}{}注意{}{}调用{}{}fx_get_parameters(){}{}.{}{}{}",
     "Modify&nbsp;FX At Runtime":"运行时修改FX",
     "Overview":"概述",
     "Please note that there are currently only two ways to ensure that GameMaker loads a particular filter/effect in your game:":"请注意，目前只有两种方法可确保GameMaker在游戏中加载特定过滤器/效果：",

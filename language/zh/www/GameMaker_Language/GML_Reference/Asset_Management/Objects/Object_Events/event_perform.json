@@ -9,7 +9,7 @@
     "Animation event that runs for skeletal animations as assigned in the skeletal animation tool":"为骨骼动画工具中指定的骨骼动画运行的动画事件",
     "Asynchronous events can be called using {}{}event_perform_async(){}{}.":"可以使用{}{}event_perform_async(){}{}调用异步事件。",
     "Begin Step":"步开始",
-    "Broadcast Message event used for sprites and sequences":"用于子画面和序列的广播消息事件",
+    "Broadcast Message event used for sprites and sequences":"用于精灵和序列的广播消息事件",
     "Clean Up Event":"清理事件",
     "Collision with an object":"与物体碰撞",
     "Create event":"创建事件",

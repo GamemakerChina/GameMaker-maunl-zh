@@ -12,5 +12,5 @@
     "{}\"id\": {}the ID of the async function as returned by the save function.":"{}\"ID\": {}save函数返回的异步函数的ID。",
     "{}\"status\": {}will return {}true{} if the data was saved/loaded correctly, and {}false{} otherwise.":"{}\"status\": {}如果数据保存/加载正确，将返回{}true{}，否则返回{}false{}。",
     "{}NOTE{}: On HTML5 \"default/\" is not added automatically and you may have to account for this in your code.":"{}注意{}：在HTML5上，\" default/\"不会自动添加，您可能需要在代码中考虑这一点。",
-    "{}NOTE{}: On HTML5 the returned results are saved&nbsp;as base64 encoded strings when saved to a file.":"{}注释{}：在 HTML5 上，当保存到文件时，返回的结果被保存为 base64 编码字符串。"
+    "{}NOTE{}: On HTML5 the returned results are saved&nbsp;as base64 encoded strings when saved to a file.":"{}注意{}：在 HTML5 上，当保存到文件时，返回的结果被保存为 base64 编码字符串。"
 }

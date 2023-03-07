@@ -1,5 +1,5 @@
 {
-    "The above code checks an array to see if it contains a valid sprite index and if so it assigns that sprite to the instance, but if not, it assigns a sprite from the included resources.":"上面的代码检查一个数组，看它是否包含一个有效的sprite索引，如果是，它会将该sprite分配给实例，但如果不是，它会从包含的资源中分配一个sprite.",
-    "The index of the sprite to check.":"要检查的sprite的索引。",
-    "This function returns whether a sprite with the specified index exists or not in the project being run.":"此函数返回正在运行的项目中是否存在具有指定索引的sprite."
+    "The above code checks an array to see if it contains a valid sprite index and if so it assigns that sprite to the instance, but if not, it assigns a sprite from the included resources.":"上面的代码检查一个数组，看它是否包含一个有效的精灵索引，如果是，它会将该sprite分配给实例，但如果不是，它会从包含的资源中分配一个sprite.",
+    "The index of the sprite to check.":"要检查的精灵的索引。",
+    "This function returns whether a sprite with the specified index exists or not in the project being run.":"此函数返回正在运行的项目中是否存在具有指定索引的精灵."
 }

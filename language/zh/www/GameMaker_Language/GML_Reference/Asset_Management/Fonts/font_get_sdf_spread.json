@@ -1,0 +1,7 @@
+{
+    "If the font doesn\u0027t exist, the function will return -1.":"如果字体不存在，函数将返回 -1。",
+    "The above code gets the spread value for a font, and passes it into a shader uniform.":"上面的代码获取字体的跨距值，并将其传递到着色器统一。",
+    "The index of the font for which to get the spread value":"要获取其跨距值的字体的索引",
+    "This function returns the {}spread value{} used for the given font. The font must be {}SDF-enabled{}.":"此函数用于返回用于给定字体的{}跨距值{}。字体必须为{}启用SDF的{}。",
+    "{}{}NOTE{}{}&nbsp;SDF fonts are currently not supported on HTML5.":"{}{}注意{}{} HTML5 当前不支持 SDF 字体。"
+}

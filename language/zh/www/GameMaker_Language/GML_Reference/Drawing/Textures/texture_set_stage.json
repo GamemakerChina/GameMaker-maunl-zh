@@ -1,5 +1,5 @@
 {
-    "The above code will get the {}handle{} for the sampler within the shader indexed as \"GlassShader\" and then set that shader constant to the given sprite texture.":"以上代码将获取着色器索引为\"GlassShader\"的采样器的{}句柄{}，然后将该着色器设置为给定子画面纹理的常量。",
+    "The above code will get the {}handle{} for the sampler within the shader indexed as \"GlassShader\" and then set that shader constant to the given sprite texture.":"以上代码将获取着色器索引为\"GlassShader\"的采样器的{}句柄{}，然后将该着色器设置为给定精灵纹理的常量。",
     "The texture \"slot\" to use.":"要使用的纹理\"槽\"。",
     "The texture to use.":"要使用的纹理。",
     "This function will set the given stage \"slot\" a texture to be used. The number of stage \"slots\" available will depend on the platform you are compiling to, with a maximum of 8 being available for Windows, Mac and Linux, but on lower end Android devices (for example) this number can be as low as 2. It is also worth noting that the first stage slot (1) is always used automatically by {}GameMaker{}.":"此函数将为给定的舞台\"时隙\"设置要使用的纹理。可用的阶段\"插槽\"的数量将取决于您正在编译的平台，Windows、Mac和Linux最多可用8个，但在低端Android设备(例如)上，此数量可以低至2个。另外值得注意的是，{}GameMaker{}始终自动使用第一级插槽(1 )。",

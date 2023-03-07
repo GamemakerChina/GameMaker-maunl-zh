@@ -1,12 +1,12 @@
 {
     "The height of the area the stretched sprite will occupy.":"拉伸精灵将占据的区域的高度。",
-    "The index of the sprite to draw.":"要绘制的子画面的索引。",
-    "The subimg (frame) of the sprite to draw (image_index or -1 correlate to the current frame of animation in the object).":"要绘制的sprite的subimg(帧)(image_index或-1)与对象中动画的当前帧相关联。",
+    "The index of the sprite to draw.":"要绘制的精灵的索引。",
+    "The subimg (frame) of the sprite to draw (image_index or -1 correlate to the current frame of animation in the object).":"要绘制的精灵的subimg(帧)(image_index或-1)与对象中动画的当前帧相关联。",
     "The width of the area the stretched sprite will occupy.":"拉伸精灵将占据的区域的宽度。",
     "The x coordinate of where to draw the sprite.":"绘制精灵的位置的x坐标。",
     "The y coordinate of where to draw the sprite.":"绘制精灵的位置的y坐标。",
-    "This function simply takes a sprite resource and stretches it over the given width and height so that it occupies that area. As with {}{}draw_sprite(){}{} you can specify a sprite and a sub-image for drawing, then the x / y position in the room for the sprite to be drawn at and finally a width and a height (which must be pixel values). The image below shows the result of this function with different sets of arguments:":"此函数只是采用sprite资源，并将其延伸到给定的宽度和高度，以便占用该区域。对于{}{}draw_sprite(){}{}，可以指定要绘制的子画面和子图像，然后指定要绘制的子画面在房间中的x/y位置，最后指定宽度和高度(必须是像素值)。下图显示了此函数使用不同参数集的结果：",
-    "This will draw the instance\u0027s assigned sprite and its sub-image with the left corner at the instance x/y position. Its width is set to the same as the sprite, and the height is the sprite height divided by two.":"这将绘制实例的指定子画面及其子图像，其中左角位于实例x/y位置。其宽度设置为与精灵相同，高度为精灵高度除以两。",
+    "This function simply takes a sprite resource and stretches it over the given width and height so that it occupies that area. As with {}{}draw_sprite(){}{} you can specify a sprite and a sub-image for drawing, then the x / y position in the room for the sprite to be drawn at and finally a width and a height (which must be pixel values). The image below shows the result of this function with different sets of arguments:":"此函数只是采用精灵资源，并将其延伸到给定的宽度和高度，以便占用该区域。对于{}{}draw_sprite(){}{}，可以指定要绘制的精灵和子图像，然后指定要绘制的精灵在房间中的x/y位置，最后指定宽度和高度(必须是像素值)。下图显示了此函数使用不同参数集的结果：",
+    "This will draw the instance\u0027s assigned sprite and its sub-image with the left corner at the instance x/y position. Its width is set to the same as the sprite, and the height is the sprite height divided by two.":"这将绘制实例的指定精灵及其子图像，其中左角位于实例x/y位置。其宽度设置为与精灵相同，高度为精灵高度除以两。",
     "{}If used with a Nine Slice enabled sprite, it will retain any detail&nbsp;after scaling depending on your Nine Slice settings in the {}Sprite Editor{}. See the page on {}Nine Slice{} for more information.{}":"{}如果与启用九宫格的精灵配合使用，则根据{}精灵编辑器{}中的\"九宫格\"设置进行缩放后，它将保留任何详细信息。有关详细信息，请参阅{}九宫格{}上的页面。{}",
-    "{}NOTE{}&nbsp;When drawing with this function, the sprite {}x offset{} and {}y offset{}&nbsp;(or origins) are ignored and the sprite is drawn with the top-left corner at the specified x/y position in the room.":"{}注意{}使用此函数绘制时，将忽略精灵{}x偏移{}和{}y偏移{}(或原点)，并使用房间中指定的x/ y位置的左上角绘制子画面。"
+    "{}NOTE{}&nbsp;When drawing with this function, the sprite {}x offset{} and {}y offset{}&nbsp;(or origins) are ignored and the sprite is drawn with the top-left corner at the specified x/y position in the room.":"{}注意{}使用此函数绘制时，将忽略精灵{}x偏移{}和{}y偏移{}(或原点)，并使用房间中指定的x/ y位置的左上角绘制精灵。"
 }

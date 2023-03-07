@@ -34,6 +34,6 @@
     "This property will return (or requires, if being set) an object index and is only available for tracks of the type {}seqtracktype_instance{}.":"此属性将返回(或需要(如果已设置))对象索引，并且仅适用于类型为{}seqtracktype_instance{}的轨迹。",
     "When you define a {}keyframe struct{} for a track, you need to also define the data that will be associated with it. This is comprised of different {}channels{}, where each channel is simply a Keyframe Data Struct. A channel can be given specific type of data depending on what type of track you are setting the keyframe data for.":"为轨迹定义{}关键帧结构{}时，还需要定义与其关联的数据。这由不同的{}通道{}组成，其中每个通道仅是关键帧数据结构。根据要设置关键帧数据的曲目类型，可以为通道指定特定类型的数据。",
     "{}Any additional variables listed in the table(s) below{}":"{}下表中列出的任何其他变量{}",
-    "{}alignmentH{} can be any of the following constants:":"{}ALIGNMENTH{}可以是以下任何常量：",
-    "{}alignmentV{} can be any of the following constants:":"{}AlignmentV{}可以是以下任何常量："
+    "{}alignmentH{} can be any of the following constants:":"{}alignmentH{} 可以是以下任何常量：",
+    "{}alignmentV{} can be any of the following constants:":"{}alignmentV{} 可以是以下任何常量："
 }

@@ -1,6 +1,6 @@
 {
     "Since you cannot change the value of a shader sampler within the shader itself, you have to set it before calling the shader using one of the available {}uniform set{} functions. However, to be able to do {}that{} you must first call this function to get the \"handle\" of the shader sampler that you will want to set.":"由于无法在着色器本身中更改着色器采样器的值，因此必须在使用可用的{}Uniform Set{}函数之一调用着色器之前设置它。但是，为了能够执行{}{}，必须首先调用此函数以获取要设置的着色器采样器的\"句柄\"。",
-    "The above code will get the {}handle{} for the sampler within the shader indexed as \"GlassShader\" and then set that shader constant to the given sprite texture.":"上面的代码将获取被索引为\"GlassShader\"的着色器中的采样器的{}句柄{}，然后将着色器常量设置为给定的sprite纹理。",
+    "The above code will get the {}handle{} for the sampler within the shader indexed as \"GlassShader\" and then set that shader constant to the given sprite texture.":"上面的代码将获取被索引为\"GlassShader\"的着色器中的采样器的{}句柄{}，然后将着色器常量设置为给定的精灵纹理。",
     "The index of the shader to use.":"要使用的着色器的索引。",
     "The shader sampler to get the handle of (a string).":"获取(字符串)句柄的着色器采样器。",
     "{}NOTE{}&nbsp;Although a shader is made up of two discreet programs (vertex and fragment) this function will not differentiate between the two and will return the handle of the shader sample from either of them.":"{}注意{}尽管着色器由两个独立的程序(Vertex和Fragment)组成，但此函数不会区分这两个程序，并将从其中任何一个程序返回着色器示例的句柄。"

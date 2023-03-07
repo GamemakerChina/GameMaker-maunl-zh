@@ -3,5 +3,5 @@
     "The maximum number of cached copies of the font that can be stored.":"可存储的字体缓存副本的最大数量。",
     "This will set the font cache of the font indexed in the variable \"fnt_MainMenu\" to 2 copies.":"这将将变量\"fnt_MainMenu\"中索引的字体的字体缓存设置为2个副本。",
     "When performing image blending and colouring, HTML5 cannot do it dynamically in the same way an executable could be performed. Therefore {}GameMaker{} has to temporarily save a blended copy of the images and load them in when needed. This function sets how many blended copies of the given font can be cached before old ones are overwritten. The default value is 4.":"当执行图像混合和着色时，HTML5不能像执行可执行文件那样动态地执行。因此，{}GameMaker{}必须临时保存图像的混合副本，并在需要时加载它们。此函数设置在覆盖旧字体之前可以缓存多少给定字体的混合副本。默认值为4。",
-    "{}{}NOTE{} {}for sprite fonts you should be using the equivalent function for sprites, {}{}sprite_set_cache_size(){}{}.":"{}{}注释{}{}对于 sprite 字体，您应该使用 sprites 的等效函数，{}{}sprite_set_cache_size(){}{}。"
+    "{}{}NOTE{} {}for sprite fonts you should be using the equivalent function for sprites, {}{}sprite_set_cache_size(){}{}.":"{}{}注意{}{}对于精灵字体，您应该使用 sprites 的等效函数，{}{}sprite_set_cache_size(){}{}。"
 }

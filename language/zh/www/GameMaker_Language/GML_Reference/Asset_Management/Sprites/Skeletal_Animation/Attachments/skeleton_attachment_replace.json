@@ -1,5 +1,5 @@
 {
-    "The above code first checks if an attachment named \"weapon_attachment\" exists. If it exists, the attachment is replaced with a new one that uses a sprite \"spr_baseball\" and has no change in origin (offset), scale or rotation.":"上面的代码首先检查是否存在名为 \"weapon_attachment\" 的附件。如果存在，附件将被替换为使用子画面 \"spr_ball\" 的新附件，并且不会更改原点 (偏移)、比例或旋转。",
+    "The above code first checks if an attachment named \"weapon_attachment\" exists. If it exists, the attachment is replaced with a new one that uses a sprite \"spr_baseball\" and has no change in origin (offset), scale or rotation.":"上面的代码首先检查是否存在名为 \"weapon_attachment\" 的附件。如果存在，附件将被替换为使用精灵 \"spr_ball\" 的新附件，并且不会更改原点 (偏移)、比例或旋转。",
     "The change to the attachment will be visible in all&nbsp;{}Slots{}&nbsp;that have the attachment assigned.":"对附件所做的更改将在分配了附件的所有 {}插槽{} 中可见。",
     "The horizontal scale factor of the image":"图像的水平比例因子",
     "The image_index of the sprite to use":"要使用的精灵的图像索引 (image_index)",

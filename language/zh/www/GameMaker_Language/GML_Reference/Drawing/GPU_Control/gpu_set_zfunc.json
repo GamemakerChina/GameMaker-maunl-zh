@@ -7,7 +7,7 @@
     "Less or Equal":"小于或等于",
     "Never":"从不",
     "Not Equal":"不等于",
-    "The above code switches on z-buffer testing and sets its comparison mode before drawing a background sprite and then switches it back off again to continue drawing.":"上述代码在绘制背景子画面之前打开z缓冲区测试并设置其比较模式，然后再次关闭该子画面以继续绘制。",
+    "The above code switches on z-buffer testing and sets its comparison mode before drawing a background sprite and then switches it back off again to continue drawing.":"上述代码在绘制背景精灵之前打开z缓冲区测试并设置其比较模式，然后再次关闭该精灵以继续绘制。",
     "The comparison mode to use (see list above)":"要使用的比较模式(请参阅上面的列表)",
     "This function can be used to set the z-buffer testing comparison mode (see {}{}gpu_set_ztestenable(){}{} for more information). The values available for use are any of the following constants (the default value is {}cmpfunc_lessequal{}):":"此函数可用于设置z缓冲区测试比较模式(有关详细信息，请参阅{}{}gpu_set_ztestenable(){}{})。可用的值是以下任何常量(默认值为{}cmpfunc_lessequal{})："
 }

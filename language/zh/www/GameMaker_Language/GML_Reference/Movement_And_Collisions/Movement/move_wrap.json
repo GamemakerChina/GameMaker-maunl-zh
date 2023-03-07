@@ -1,7 +1,7 @@
 {
     "How far outside the room, in pixels, the object must be to initiate wrapping.":"对象必须在房间外多远的位置(以像素为单位)才能启动环绕。",
     "This function will automatically \"wrap\" an instance that has left the room on either the horizontal or vertical (or both) axis. You can specify a margin outside the edges of the room for this to occur, and when the instance has travelled outside of that margin {}GameMaker{} will automatically wrap it back into the room at the other side. Note that the instance must have a speed for wrapping to work, because the direction of wrapping is based on the direction of the motion.":"此函数将自动\"包裹\"一个在水平轴或垂直轴(或两者)上离开房间的实例。您可以指定房间边缘之外的边距，以便发生这种情况，并且当实例移动到该边距之外时{}GameMaker{}将自动将其包裹回另一侧的房间。请注意，实例必须具有换行速度才能工作，因为换行方向基于运动的方向。",
-    "This will make the instance wrap horizontally but not vertically, when it is over its own sprite width outside of the room.":"当实例在房间外部超出其自身的子画面宽度时，这将使实例水平环绕，但不是垂直环绕。",
+    "This will make the instance wrap horizontally but not vertically, when it is over its own sprite width outside of the room.":"当实例在房间外部超出其自身的精灵宽度时，这将使实例水平环绕，但不是垂直环绕。",
     "Whether to wrap horizontally (true) or not (false).":"是否水平包装(真)或不包装(假)。",
     "Whether to wrap vertically (true) or not (false).":"是否垂直包装(真)或不包装(假)。"
 }
