@@ -2,7 +2,7 @@
     "The above code first retrieves the texture for the surface stored in {}surf_back{}, and then gets the UV coordinates for that texture. It then retrieves the left, top, right and bottom UV coordinates from the returned array and stores them in local variables.":"以上代码首先检索存储在{}surfac_back{}中的表面的纹理，然后获取该纹理的Uv坐标。然后从返回的数组中检索左侧、顶部、右侧和底部的Uv坐标，并将其存储在局部变量中。",
     "The texture pointer to get the UVS for":"用于获取UV的纹理指针",
     "This function returns a 1D {}array{} with 4 elements representing the UV coordinates for the given texture pointer, filling in the array with the following values:":"此函数返回一个 1D{} 数组 {}，其中包含 4 个元素，表示给定纹理指针的 UV 坐标，并使用以下值填充数组：",
-    "This value can then be used in other draw functions, particularly in general 3D and some of the 2D primitive functions, as well as the Shader functions. If you need the UVS for a sprite then you can use the {}{}sprite_get_uvs(){}{}&nbsp;and for a font, {}{}font_get_uvs(){}{}.":"然后可以在其他绘制函数中使用该值，特别是在常规3D和某些2D基本体函数以及着色器函数中。如果您需要sprite的紫外线，则可以使用{}{}sprite_get_uvs(){}{}和字体，{}{}font_get_uvs(){}{}。",
+    "This value can then be used in other draw functions, particularly in general 3D and some of the 2D primitive functions, as well as the Shader functions. If you need the UVS for a sprite then you can use the {}{}sprite_get_uvs(){}{}&nbsp;and for a font, {}{}font_get_uvs(){}{}.":"然后可以在其他绘制函数中使用该值，特别是在常规3D和某些2D基本体函数以及着色器函数中。如果您需要精灵的紫外线，则可以使用{}{}sprite_get_uvs(){}{}和字体，{}{}font_get_uvs(){}{}。",
     "[0] = left":"[0] = 左",
     "[1] = top":"[1] = 上",
     "[2] = right":"[2] = 右",

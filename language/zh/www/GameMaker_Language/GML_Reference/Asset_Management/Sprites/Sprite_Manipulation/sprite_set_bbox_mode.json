@@ -1,11 +1,11 @@
 {
     "Bounding Box Mode Constant":"边界框模式常量",
-    "The above code checks the bbox mode for the current sprite and if it\u0027s not {}automatic{}, then it is set to that value.":"上面的代码检查当前sprite的bbox模式，如果它不是{}自动{}，则将其设置为该值。",
+    "The above code checks the bbox mode for the current sprite and if it\u0027s not {}automatic{}, then it is set to that value.":"上面的代码检查当前精灵的bbox模式，如果它不是{}自动{}，则将其设置为该值。",
     "The index of the sprite to change the mode of.":"要更改模式的精灵的索引。",
     "The mode to set (a constant).":"设置(常数)的模式。",
     "This function can be used to set the bounding box mode for a sprite. You supply the sprite index and the mode to use, which should be one of the following constants:":"此函数可用于设置精灵的边界框模式。您可以提供sprite索引和要使用的模式，它应该是以下常量之一：",
     "{}Automatic {}- The bounding box will be calculated automatically, based on the tolerance setting for the sprite":"{}自动{}-将根据精灵的公差设置自动计算边界框。",
     "{}Full Image{} - The bounding box will be set to use the full width and height of the sprite, regardless of the tolerance and \"empty\" pixels":"{}完整图像{}-边界框将被设置为使用精灵的完整宽度和高度，而不考虑公差和“空”像素。",
     "{}Manual{} - The bounding box is being set manually to user defined values, which requires the use of the function {}{}sprite_set_bbox(){}{}":"{}手动{}-边界框被手动设置为用户定义的值，这需要使用函数{}{}sprite_set_bbox(){}{}",
-    "{}NOTE{}&nbsp;This function affects the sprite&nbsp;{}asset&nbsp;{}so that all further instances with this sprite will have the same bounding box mode.":"{}注意{}此函数影响sprite{}资源{}，以便此sprite的所有其他实例将具有相同的边界框模式。"
+    "{}NOTE{}&nbsp;This function affects the sprite&nbsp;{}asset&nbsp;{}so that all further instances with this sprite will have the same bounding box mode.":"{}注意{}此函数影响sprite{}资源{}，以便此精灵的所有其他实例将具有相同的边界框模式。"
 }

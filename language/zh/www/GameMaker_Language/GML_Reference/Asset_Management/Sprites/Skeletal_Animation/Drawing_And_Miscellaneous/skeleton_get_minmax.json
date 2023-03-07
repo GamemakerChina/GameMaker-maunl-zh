@@ -5,5 +5,5 @@
     "[1] - the minimum y position for all bounding boxes":"[1]-所有边界框的最小Y位置",
     "[2] - the maximum x position for all bounding boxes":"[2]-所有边界框的最大X位置",
     "[3] - the maximum y position for all bounding boxes":"[3]-所有边界框的最大Y位置",
-    "{}NOTE{}&nbsp;The bounding box of a Spine sprite is set up in Spine itself, not in {}GameMaker{}.":"{}注意{}Spine Sprite的边界框是在Spine本身中设置的，而不是在{}GameMaker{}中。"
+    "{}NOTE{}&nbsp;The bounding box of a Spine sprite is set up in Spine itself, not in {}GameMaker{}.":"{}注意{}Spine 精灵的边界框是在Spine本身中设置的，而不是在{}GameMaker{}中。"
 }

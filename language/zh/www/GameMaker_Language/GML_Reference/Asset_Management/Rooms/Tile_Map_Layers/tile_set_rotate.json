@@ -1,0 +1,6 @@
+{
+    "Set to {}true{} to rotate and {}false{} to leave it as-is":"设置为 {}true{} 可旋转，设置为 {}false{} 可保持原样",
+    "The above code gets the tile map ID from the given layer and then gets the x and y cell position for the tile under the mouse. This position is then used to get the tile-data which is rotated and then used to set the tile again.":"上面的代码从给定层获取图块地图 ID，然后在鼠标下方获得图块的 X 和 Y 单元位置。然后，该位置被用来获得图块数据，该图块数据被旋转，然后用来再次设置图块。",
+    "The tile-data to set":"要设置的切片数据",
+    "This function can be used to set a given set of tile-data to rotate the tile 90 degrees or not. You give the tile-data, which can be retrieved using the function {}{}tilemap_get(){}{}, and then set the rotate argument to either {}true{} if you want the tile rotated, or {}false{} if you want the tile to be in its default, un-rotated state. The function will return a modified tile-data set which can then be applied using the {}{}tilemap_set(){}{} function.":"此函数可用于设置一组给定的图块数据以将图块旋转 90 度或不旋转。给出可使用函数 {}{}tilemap_get(){}{} 检索的图块数据，如果希望旋转图块，则将旋转参数设置为 {}true{}，如果希望图块处于默认的未旋转状态，则将旋转参数设置为 {}false{}。该函数将返回修改后的图块数据集，然后可以使用 {}{}tilemap_set(){}{} 函数应用该数据集。"
+}

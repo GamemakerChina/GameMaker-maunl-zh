@@ -6,7 +6,7 @@
     "Font Glyph Struct":"字体字形结构",
     "Font Info Struct":"字体信息结构",
     "Glyphs&nbsp;Struct":"字形结构",
-    "If the font was created from a sprite, this will be the image index of the glyph from that sprite, otherwise it will be its Unicode character number{} {} {}{}Note{}: All variables below this will not be present in the struct if the font was created from a sprite{} ":"如果字体是从sprite创建的，则这将是来自该sprite的字形的图像索引，否则它将是其Unicode字符编号{}{}{}{}注意{}：如果字体是从sprite创建的，则以下所有变量都不会出现在结构中{}",
+    "If the font was created from a sprite, this will be the image index of the glyph from that sprite, otherwise it will be its Unicode character number{} {} {}{}Note{}: All variables below this will not be present in the struct if the font was created from a sprite{} ":"如果字体是从sprite创建的，则这将是来自该精灵的字形的图像索引，否则它将是其Unicode字符编号{}{}{}{}注意{}：如果字体是从sprite创建的，则以下所有变量都不会出现在结构中{}",
     "If the supplied font doesn\u0027t exist, the function will return {}undefined{}.":"如果提供的字体不存在，函数将返回{}undefined{}。",
     "The X position of the glyph on the texture page (in texels)":"字形在纹理页面上的X位置(以纹理像素为单位)",
     "The Y position of the glyph on the texture page (in texels)":"字形在纹理页面上的Y位置(以纹理像素为单位)",

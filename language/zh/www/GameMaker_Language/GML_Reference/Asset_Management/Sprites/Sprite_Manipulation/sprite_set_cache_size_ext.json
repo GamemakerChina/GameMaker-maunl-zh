@@ -3,5 +3,5 @@
     "The maximum number of cached copies of the sprite that can be stored.":"可以存储的精灵缓存副本的最大数量。",
     "The sub-image of ind to change the cache size of.":"要更改缓存大小的IND的子映像。",
     "This will set the sprite cache of the first sub-image of sprite0 to 2 copies.":"这将把sprite0的第一个子图像的精灵缓存设置为2个副本。",
-    "When performing image blending, HTML5 cannot do it dynamically in the same way an executable could be performed. Therefore {}GameMaker{} has to temporarily save a blended copy of the image and load it in. This function sets how many blended copies of the given sprite can be cached before old ones are overwritten. Default is 4. This is applied to one single given sub-image of the sprite.":"当执行图像混合时，HTML5不能以与执行可执行文件相同的方式动态执行。因此，{}GameMaker{}必须临时保存图像的混合副本并将其加载。此函数设置在覆盖旧的精灵之前可以缓存多少个给定sprite的混合副本。默认值为4。这被应用于精灵的一个单个给定的子图像。"
+    "When performing image blending, HTML5 cannot do it dynamically in the same way an executable could be performed. Therefore {}GameMaker{} has to temporarily save a blended copy of the image and load it in. This function sets how many blended copies of the given sprite can be cached before old ones are overwritten. Default is 4. This is applied to one single given sub-image of the sprite.":"当执行图像混合时，HTML5不能以与执行可执行文件相同的方式动态执行。因此，{}GameMaker{}必须临时保存图像的混合副本并将其加载。此函数设置在覆盖旧的精灵之前可以缓存多少个给定精灵的混合副本。默认值为4。这被应用于精灵的一个单个给定的子图像。"
 }

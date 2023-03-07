@@ -1,5 +1,5 @@
 {
     "The above code gets the tile map ID from the given layer and then proceeds to check every tile cell on the map to see if it has data or not. If it does, the tile is set to empty.":"上面的代码从给定层获取块映射ID，然后继续检查映射上的每个块单元，以查看它是否有数据。如果是，则图块设置为空。",
-    "This function can be used to check whether a given set of tile-data is for an empty tile or not. You give the tile-data, which can be retrieved using the function {}{}tilemap_get(){}{}, and the function will return {}true{} if the tile is empty, or {}false{} if there is a tile index.":"此函数可用于检查给定的平铺数据集是否用于空平铺。提供了可以使用函数{}{}tilemap_get(){}{}检索的平铺数据，如果平铺为空，则函数将返回{}true{};如果有平铺索引，则返回{}false{}。",
+    "This function can be used to check whether a given set of tile-data is for an empty tile or not. You give the tile-data, which can be retrieved using the function {}{}tilemap_get(){}{}, and the function will return {}true{} if the tile is empty, or {}false{} if there is a tile index.":"此函数可用于检查给定的图块数据集是否用于空图块。提供了可以使用函数{}{}tilemap_get(){}{}检索的图块数据，如果图块为空，则函数将返回{}true{};如果有图块索引，则返回{}false{}。",
     "the tile-data to check":"要检查的图块数据"
 }
