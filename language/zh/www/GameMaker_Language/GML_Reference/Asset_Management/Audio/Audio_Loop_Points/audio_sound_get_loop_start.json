@@ -1,0 +1,5 @@
+{
+    "The ID of a sound asset or a sound instance":"声音资源或声音实例的 ID",
+    "The above code calls&nbsp;{}{}audio_sound_get_loop_start{}{}&nbsp;on an existing sound asset {}snd_loop{}&nbsp;and stores the returned value in a variable {}_loop_start_time{}.":"上述代码对现有的声音资源 {4}snd_loop{5} 调用 {}{}audio_sound_get_loop_start{}{}，并将返回值存入变量 {}_loop_start_time{}。",
+    "This function returns the loop {}start point{} in seconds for the given sound asset or sound instance.":"此函数返回给定声音资源或声音实例的循环{}起始点{}(以秒为单位)。"
+}

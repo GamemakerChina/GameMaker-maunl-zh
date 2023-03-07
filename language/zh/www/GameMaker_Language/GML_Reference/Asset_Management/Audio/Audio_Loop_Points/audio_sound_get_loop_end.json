@@ -1,0 +1,5 @@
+{
+    "The above code calls&nbsp;{}{}audio_sound_get_loop_end{}{}&nbsp;on an existing sound asset {}snd_loop{}&nbsp;and stores the returned value in a variable {}_loop_end_time{}.":"上述代码对现有的声音资源 {4}snd_loop{5} 调用 {}{}audio_sound_get_loop_end{}{}，并将返回值存入变量 {}_loop_end_time{}。",
+    "The index of the sound asset or instance":"声音资源或实例的索引",
+    "This function returns the loop {}end point{} in seconds for the given sound asset or sound instance.":"此函数用于返回给定声音资源或声音实例的循环{}终点{}，单位为秒。"
+}

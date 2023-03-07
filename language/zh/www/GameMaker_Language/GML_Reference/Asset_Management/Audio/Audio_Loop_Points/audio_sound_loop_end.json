@@ -1,0 +1,7 @@
+{
+    "See:&nbsp;{}Audio Loop Points{}":"请参阅：{}音频循环点{}",
+    "The above code sets the loop start point for the existing sound asset {}snd_machine{} to 4 seconds and the loop end point to 10 seconds. The sound is then played with a priority of 100 and {}loop{} set to {}true{}. The new sound {}instance{} gets its loop start and end position from the sound&nbsp;{}asset{}. Its ID is stored in a variable {}ins_sound{}.":"上面的代码将现有声音资源 {}snd_machine{} 的循环起点设置为 4 秒，将循环结束点设置为 10 秒。然后播放优先级为 100 的声音，并将 {}loop{} 设置为 {}true{}。新的声音{}实例{}从声音{}资源{}获取其循环开始和结束位置。其 id 存储在变量 {}ins_sound{} 中。",
+    "The loop end time in seconds":"循环结束时间(秒)",
+    "The sound asset or sound instance for which to set the loop end time":"要设置循环结束时间的声音资源或声音实例",
+    "This function sets the loop end point in seconds for the given sound asset or sound instance. This must be higher than the set {}loop start{} point, except when it\u0027s 0, which is the end of the sound - this means you can specify 0 to set the loop end point to the end of the sound.":"这个函数为给定的声音资源或声音实例设置以秒为单位的循环结束点。它必须高于设置的{}循环开始{}点，除非它是 0，也就是声音的结束点--这意味着你可以指定 0 来设置循环结束点为声音的结束。"
+}

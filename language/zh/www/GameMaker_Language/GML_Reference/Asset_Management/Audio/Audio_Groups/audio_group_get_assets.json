@@ -1,5 +1,5 @@
 {
-    "In the above code, an array containing all asset IDs in the default audio group&nbsp;{}{}audiogroup_default{}{}&nbsp;is returned by a call to&nbsp;{}{}audio_group_get_assets{}{}&nbsp;and stored in a temporary variable {}_assets{}.":"在上面的代码中，调用 {}{}audio_group_get_assets{}{} 返回一个包含默认音频组 {}{}audiogroup_default{}{} 中所有资产 ID 的数组，并将其存储在一个临时变量 {}_assets{} 中。",
+    "In the above code, an array containing all asset IDs in the default audio group&nbsp;{}{}audiogroup_default{}{}&nbsp;is returned by a call to&nbsp;{}{}audio_group_get_assets{}{}&nbsp;and stored in a temporary variable {}_assets{}.":"在上面的代码中，调用 {}{}audio_group_get_assets{}{} 返回一个包含默认音频组 {}{}audiogroup_default{}{} 中所有资源 ID 的数组，并将其存储在一个临时变量 {}_assets{} 中。",
     "The index of the audio group":"音频组的索引",
     "This function returns an array containing the sound asset IDs belonging to the {}audio group{} with the given ID.":"此函数用于返回一个数组，其中包含属于具有给定 ID 的{}音频组{}的声音资源 ID。"
 }

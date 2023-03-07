@@ -1,0 +1,7 @@
+{
+    "The above example calls&nbsp;{}{}audio_play_sound{}{} to play a sound {}snd_car{}, not looping. The new sound instance is stored in a variable {}snd_car1{}. Then&nbsp;{}{}audio_sound_loop{}{}&nbsp;is called to enable looping for the sound.":"上面的示例调用 {}{}audio_play_sound{}{} 来播放声音 {}snd_car{}，而不是循环。新的声音实例存储在变量 {}snd_car1{} 中。然后调用 {}{}audio_sound_loop{}{} 以启用声音循环。",
+    "The index of the sound instance":"声音实例的索引",
+    "This function enables or disables looping for a playing sound instance (returned by any of the {}audio_play_sound_{} functions).":"此函数用于启用或禁用播放声音实例的循环 (由任何 {}audio_play_sound_{} 函数返回)。",
+    "Whether to loop the sound between the loop {}start{} and {}end{} or not":"是否在循环{}开始{}和{}结束{}之间循环声音",
+    "{}{}NOTE{}{}&nbsp;This function will set the loop state of a playing sound but the sound will not loop if the track position is already past the loop end point. Set the track position to a position before the loop end point using&nbsp;{}{}audio_sound_set_track_position{}{}&nbsp;or set the loop end point past the track position so the end point can be reached.":"{}{}注意{}{} 此函数将设置播放声音的循环状态，但如果曲目位置已超过循环终点，则声音不会循环。将轨迹位置设置为循环终点之前的位置使用 {}{}audio_sound_set_track_position{}{} 或将循环终点设置在轨迹位置之后，以便可以到达终点。"
+}

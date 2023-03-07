@@ -1,0 +1,5 @@
+{
+    "The above code calls&nbsp;{}{}audio_sound_get_loop{}{}&nbsp;on an existing sound asset {}snd_car{} and stores the result in a temporary variable {}_loop{}.":"上述代码在现有的声音资源 {4}snd_car{5} 上调用 {}{}audio_sound_get_loop{}{}，并将结果存储在一个临时变量 {}_loop{} 中。",
+    "The index of the sound instance":"声音实例的索引",
+    "This function returns whether the given sound instance being played is set to loop.":"此函数用于返回正在播放的给定声音实例是否设置为循环。"
+}
