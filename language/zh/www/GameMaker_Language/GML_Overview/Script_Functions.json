@@ -16,7 +16,7 @@
     "Note that if you create a script function with&nbsp;{}no{}&nbsp;return value then in your code check for one, you will get the value {}undefined{}&nbsp;by default.":"注意，如果你创建的脚本函数{}没有{}返回值，那么在你的代码中检查时，你将得到{}undefined{}的默认值。",
     "One final thing to note about script functions is that if you are developing for {}Web {}(ie: targeting {}HTML5{}), then there is an additional function protocol that you can use when adding functions to scripts, which is to prefix a function name with {}gmcallback_{}, for example:":"关于脚本函数需要注意的最后一件事是，如果您正在为 {}Web{} 开发（即：以 {}HTML5{} 为目标），那么在向脚本添加函数时可以使用一个额外的函数协议，即在函数名称前加上 {}gmcallback_{}，例如：",
     "Optional Arguments":"可选参数",
-    "Parameters/Arguments":"Parameters/Arguments 参数",
+    "Parameters/Arguments":"参数/自变量",
     "Return Value":"返回值",
     "Script Functions And Variables":"脚本函数和变量",
     "Script Names vs. Function Names":"脚本名称与函数名称",

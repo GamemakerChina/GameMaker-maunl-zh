@@ -56,7 +56,7 @@
     "{}Pointer{}{}Pointer{}":"{}Pointer{}{}Pointer{} 指针",
     "{}Real Numbers{}{}Real Numbers{}":"{}Real Numbers{}{}Real Numbers{} 实数",
     "{}Strings{}{}Strings{}":"{}Strings{}{}Strings{} 字符串",
-    "{}Structs{}{}Structs{}":"{}Structs{}{}Structs{}结构",
+    "{}Structs{}{}Structs{}":"{}Structs{}{}Structs{} 结构",
     "{}Undefined{}{}Undefined{}":"{}Undefined{}{}Undefined{} 未定义",
     "{}{}NaN{}&nbsp;stands for \"not a number\", and is a constant that can be returned when the compiler cannot evaluate the results of an operation as a number. For example, 0/0 cannot be defined as a real number, and is therefore represented by&nbsp;{}NaN{}, or the square root of a negative number - which is considered an \"imaginary\" number - cannot be represented as a real number, and so is represented by&nbsp;{}NaN{}.{}":"{}{}NaN{}代表\"非数字\"，是一个常量，当编译器无法将操作结果作为数字计算时，可以返回该常量。例如，0/0不能定义为实数，因此用{}NaN{}表示，或者负数的平方根(被认为是\"想象的\"数)不能用实数表示，因此用{}NaN{}表示。{}"
 }
