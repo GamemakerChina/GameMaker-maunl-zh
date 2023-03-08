@@ -2,6 +2,8 @@
 
 **查看在线成品文档：[外挂式](https://manual-plugged.gm-cn.top/) [静态式](https://manual-static.gm-cn.top/)**
 
+**直接下载成品文档：[外挂式](https://ghproxy.com/https://github.com/GamemakerChina/GameMaker-maunl-zh/archive/refs/heads/plugged.zip) [静态式](https://ghproxy.com/https://github.com/GamemakerChina/GameMaker-maunl-zh/archive/refs/heads/static.zip)** 
+
 GameMaker文档翻译器,是为了方便的翻译文档而根据文档本身特别订制的工具,目的是解决一些痛点
 
 具有以下特点
