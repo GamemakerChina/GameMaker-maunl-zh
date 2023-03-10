@@ -1,5 +1,5 @@
 {
     "The above code will check the current maximum anisotropic filtering level and if it is not 8 it is set to 8.":"上述代码将检查当前最大各向异性滤波电平，如果不是8，则设置为8。",
-    "The maximum level for anisotropic filtering (default: 16)":"各向异性过滤的最大级别(默认值：16 )",
+    "The maximum level for anisotropic filtering (default: 16)":"各向异性过滤的最大级别(默认值：16)",
     "With this function you can set the current maximum level of anisotropy when using the {}tf_anisotropic{} filter mode (see {}{}gpu_get_tex_mip_filter(){}{} for more information). The input value must range between 1 and 16.":"使用此函数，您可以在使用{}tf_anisotropic{}过滤器模式时设置当前各向异性的最大级别(有关详细信息，请参阅{}{}gpu_get_tex_mip_filter(){}{})。输入值必须介于1和16之间。"
 }

@@ -1,5 +1,5 @@
 {
-    "The GPU state to set as a {}DS Map{}.":"要设置为{}个D映射{}的Gpu状态。",
-    "The above code sets the GPU state using the map supplied in the variable \"gpu_map\".":"上述代码使用变量\"gpu_map\"中提供的映射设置Gpu状态。",
-    "This function will set the current GPU state using the passed-in {}DS Map{}. The supplied map can be created using the function {}{}gpu_get_state(){}.{}":"此函数将使用传入的{}DS映射{}设置当前Gpu状态。可以使用函数{}{}gpu_get_state(){}{}创建提供的映射。"
+    "The GPU state to set as a {}DS Map{}.":"要设置为 {}DS 映射 {} 的 GPU 状态。",
+    "The above code sets the GPU state using the map supplied in the variable \"gpu_map\".":"上述代码使用变量 \"gpu_map\" 中提供的映射设置 GPU 状态。",
+    "This function will set the current GPU state using the passed-in {}DS Map{}. The supplied map can be created using the function {}{}gpu_get_state(){}.{}":"此函数将使用传入的 {}DS 映射 {} 设置当前 GPU 状态。可以使用函数 {}{}gpu_get_state(){}{} 创建提供的映射。"
 }

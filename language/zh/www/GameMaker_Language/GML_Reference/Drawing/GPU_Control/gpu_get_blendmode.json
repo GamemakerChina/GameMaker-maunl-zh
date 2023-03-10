@@ -5,6 +5,6 @@
     "Normal blending (the default blend mode).":"正常混合(默认混合模式)。",
     "Subtractive blending. Luminosity values of light areas are subtracted.":"减法混合。减去灯光区域的亮度值。",
     "The above code gets the current blend mode and if it is not {}bm_normal{} it is set to that constant.":"以上代码获取当前混合模式，如果不是{}bm_normal{}，则设置为该常量。",
-    "This function can be used to retrieve the current blend mode being used for drawing. The returned value will be one of the following constants (the default value is {}bm_normal{}):":"此函数可用于检索用于绘图的当前混合模式。返回的值将是以下常量之一(默认值为{}bm_normal{})：",
+    "This function can be used to retrieve the current blend mode being used for drawing. The returned value will be one of the following constants (the default value is {}bm_normal{}):":"此函数可用于检索用于绘制的当前混合模式。返回的值将是以下常量之一(默认值为{}bm_normal{})：",
     "{}{}Blend Mode Constant{}{} (see above for constants)":"{}{}Blend Mode Constant{}{} (有关常量，请参见上文)"
 }

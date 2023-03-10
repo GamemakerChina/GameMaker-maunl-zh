@@ -1,4 +1,4 @@
 {
     "The above code stores the current draw alpha into a local variable, and changes the draw alpha based on an instance variable. After drawing some text, it resets the alpha back to the value stored in the local variable.":"上述代码将当前绘制Alpha存储到局部变量中，并基于实例变量更改绘制Alpha。绘制某些文本后，它会将Alpha重置为存储在局部变量中的值。",
-    "This function returns the current value of the draw alpha, which will range between 0 (fully transparent) and 1 (fully opaque). The draw alpha affects the transparency of all draw functions, and can be set with the {}{}draw_set_alpha(){}{}&nbsp;function.":"此函数返回绘图Alpha的当前值，其范围为0(完全透明)和1(完全不透明)。绘制Alpha会影响所有绘制函数的透明度，并且可以使用{}{}draw_set_alpha(){}{}函数进行设置。"
+    "This function returns the current value of the draw alpha, which will range between 0 (fully transparent) and 1 (fully opaque). The draw alpha affects the transparency of all draw functions, and can be set with the {}{}draw_set_alpha(){}{}&nbsp;function.":"此函数返回绘制Alpha的当前值，其范围为0(完全透明)和1(完全不透明)。绘制Alpha会影响所有绘制函数的透明度，并且可以使用{}{}draw_set_alpha(){}{}函数进行设置。"
 }

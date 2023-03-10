@@ -1,10 +1,10 @@
 {
-    "Index of the mp_grid that is to be used":"要使用的mp_grid的索引",
-    "The above code will mark as forbidden all cells of the mp_grid indexed in the variable \"grid\" that fall within the area 0,0 to 100,200.":"上述代码将标记为禁止变量\"网格\"中索引在0, 0到100,200区域内的mp_grid的所有单元格。",
-    "The x coordinate of the bottom side of the rectangle to check.":"要检查的矩形底边的x坐标。",
-    "The x coordinate of the left side of the rectangle to check.":"要检查的矩形左侧的x坐标。",
-    "The x coordinate of the right side of the rectangle to check.":"要检查的矩形右侧的x坐标。",
-    "The y coordinate of the top side of the rectangle to check.":"要检查的矩形顶边的y坐标。",
+    "Index of the mp_grid that is to be used":"要使用的 mp_grid 的索引",
+    "The above code will mark as forbidden all cells of the mp_grid indexed in the variable \"grid\" that fall within the area 0,0 to 100,200.":"上述代码将标记为禁止变量\"网格\"中索引在 0,0 到 100,200 区域内的 mp_grid 的所有单元格。",
+    "The x coordinate of the bottom side of the rectangle to check.":"要检查的矩形底边的 Y 坐标。",
+    "The x coordinate of the left side of the rectangle to check.":"要检查的矩形左侧的 X 坐标。",
+    "The x coordinate of the right side of the rectangle to check.":"要检查的矩形右侧的 X 坐标。",
+    "The y coordinate of the top side of the rectangle to check.":"要检查的矩形顶边的 Y 坐标。",
     "This function asks you to define a rectangle within the room, and then it marks all MP grid cells \"touch\" that rectangle as being forbidden, meaning that the path-finding functions cannot cross them. The image below illustrates how this works:":"此函数要求您在房间中定义一个矩形，然后将所有矩形的Mp网格单元格\"触摸\"标记为禁止，这意味着路径查找函数无法穿过它们。下图说明了这种方法的工作原理：",
-    "{}As you can see, the rectangle defined by (50, 90) to (200, 180) marks all the equivalent MP grid cells that it touches as being forbidden.":"{}如您所见，由(50,90 )到(200,180 )定义的矩形将触摸的所有等效Mp网格单元格标记为禁止。"
+    "{}As you can see, the rectangle defined by (50, 90) to (200, 180) marks all the equivalent MP grid cells that it touches as being forbidden.":"{} 如您所见，由 (50,90) 到 (200,180) 定义的矩形将触摸的所有等效 Mp 网格单元格标记为禁止。"
 }

@@ -1,5 +1,5 @@
 {
-    "The alpha of the sprite (from 0 to 1 where 0 is transparent and 1 opaque).":"精灵的α(从0到1，其中0是透明的，1是不透明的)。",
+    "The alpha of the sprite (from 0 to 1 where 0 is transparent and 1 opaque).":"精灵的alpha(从0到1，其中0是透明的，1是不透明的)。",
     "The colour with which to blend the sprite. c_white is to display it normally.":"混合精灵的颜色。c_white将正常显示精灵。",
     "The height of the area the stretched sprite will occupy.":"拉伸精灵将占据的区域的高度。",
     "The index of the sprite to draw.":"要绘制的精灵的索引。",

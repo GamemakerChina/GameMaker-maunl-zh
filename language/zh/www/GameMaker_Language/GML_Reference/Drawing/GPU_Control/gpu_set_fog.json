@@ -1,15 +1,15 @@
 {
     "Enable or disable fog":"启用或禁用雾",
     "For example, a position of 0 is nearest to the camera, and with each increase it gets farther away. By default, a view\u0027s camera is placed at -16000 depth, so if you wanted the fog to start at depth 0 and end at depth 1000, you would set the start distance to 16000 and the end distance to 17000.":"例如，位置0离摄影机最近，每增加一次，它就会离得更远。默认情况下，视图的摄影机位于-16000深度，因此，如果希望雾从深度0开始，到深度1000结束，则应将开始距离设置为16000，将结束距离设置为17000。",
-    "The above code gets the current fog settings and then sets the colour element of the array to {}c_red{} before setting the fog again using the changed array.":"以上代码获取当前雾设置，然后将数组的颜色元素设置为{}c_red{}，然后使用更改的数组再次设置雾。",
+    "The above code gets the current fog settings and then sets the colour element of the array to {}c_red{} before setting the fog again using the changed array.":"以上代码获取当前雾设置，然后将数组的颜色元素设置为 {}c_red{}，然后使用更改的数组再次设置雾。",
     "The distance to end the fog (relative to the camera)":"结束雾的距离(相对于摄影机)",
     "The distance to start applying fog from (relative to the camera)":"从(相对于摄影机)开始施加雾的距离",
     "The fog colour":"雾的颜色",
     "The function can take four individual arguments (given above), or a single array with the following structure (the example code below shows this method):":"该函数可以采用四个单独的参数(如上所示)，也可以采用具有以下结构的单个数组(下面的示例代码显示了此方法)：",
-    "This function can be used to enable or disable fog drawing. Fog can be used in 3D games to make instances in the distance look faded or even invisible, which helps in creating atmosphere as well as masking the fact that you are not drawing instances that are far away.":"此函数可用于启用或禁用雾绘图。\"雾\"可用于3D游戏中，使远处的实例看起来褪色甚至不可见，这有助于创建大气，并掩盖绘制实例不是很远的事实。",
+    "This function can be used to enable or disable fog drawing. Fog can be used in 3D games to make instances in the distance look faded or even invisible, which helps in creating atmosphere as well as masking the fact that you are not drawing instances that are far away.":"此函数可用于启用或禁用雾绘制。\"雾\"可用于3D游戏中，使远处的实例看起来褪色甚至不可见，这有助于创建大气，并掩盖绘制实例不是很远的事实。",
     "You set whether it is enabled ({}true{}) or disabled ({}false{}), the colour that the fog should use for blending, as well as the start and end draw distances. The distance values are essentially depth values in pixels, and are relative to the camera\u0027s position.":"可以设置是启用({}true{})还是禁用({}false{})、雾应用于混合的颜色，以及开始和结束绘制距离。距离值基本上是以像素为单位的深度值，并且相对于摄影机的位置。",
-    "[0] = enabled toggle (a boolean, either {}true{} or {}false{}), default {}false{}":"[ 0 ]=启用切换(布尔值，{}真{}或{}假{})，默认为{}假{}",
-    "[1] = colour (real), default {}c_black{}":"[ 1 ]=颜色(实数)，默认值{}c_black{}",
-    "[2] = start distance (real), default 0":"[ 2 ]=起始距离(实数)，默认值0",
-    "[3] = end distance (real), default 1":"[ 3 ]=结束距离(实数)，默认值1"
+    "[0] = enabled toggle (a boolean, either {}true{} or {}false{}), default {}false{}":"[0] = 启用切换 (布尔值，{}true{} 或 {}false{})，默认为 {}false{}",
+    "[1] = colour (real), default {}c_black{}":"[1] = 颜色 (实数)，默认值 {}c_black{}",
+    "[2] = start distance (real), default 0":"[2] = 起始距离 (实数)，默认值 0",
+    "[3] = end distance (real), default 1":"[3] = 结束距离 (实数)，默认值 1"
 }

@@ -1,5 +1,5 @@
 {
-    "The ID of the surface to set as the drawing target.":"要设置为绘图目标的表面的Id。",
+    "The ID of the surface to set as the drawing target.":"要设置为绘制目标的表面的Id。",
     "The above code will check to see if the user presses the \"S\" key on the keyboard and if they do it will save the surface indexed in the variable \"surf\" to disc.":"上述代码将检查用户是否按下键盘上的\"S\"键，如果按下，则会将变量\"washing\"中的索引表面保存到光盘中。",
     "The name of the saved image file.":"保存的图像文件的名称。",
     "This function will save a surface to disc using the given filename. The surface {}must{} be saved as a {}*.png{} format file.":"此函数将使用给定的文件名将表面保存到光盘。表面{}必须保存为{}*.png{}格式的文件。"

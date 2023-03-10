@@ -6,7 +6,7 @@
     "The y coordinate of the triangle\u0027s second corner.":"三角形第二个拐角的y坐标。",
     "The y coordinate of the triangle\u0027s third corner.":"三角形第三个角点的y坐标。",
     "This will draw a filled aquamarine-coloured isosceles right-angled triangle, with its first corner at (50,50), its second at (200,50) and its third at (50,200).":"这将绘制一个填充的水蓝色等腰直角三角形，其中第一个拐角位于 (50,50)，第二个拐角位于 (200,50)，第三个拐角位于 (50,200)。",
-    "Whether the triangle is drawn filled (false) or as a one pixel wide outline (true).":"绘制三角形是填充(假)还是作为一个像素宽的轮廓(真)。",
+    "Whether the triangle is drawn filled (false) or as a one pixel wide outline (true).":"绘制三角形是填充(false)还是作为一个像素宽的轮廓(true)。",
     "With this function you can draw either an outline of a triangle or a filled triangle.":"使用此函数，您可以绘制三角形或填充三角形的轮廓。",
     "{}NOTE{}: If you are wanting to draw a shape using a shader, you should be aware that most shaders expect the following inputs: vertex, texture, colour. However, when using this function, only vertex and colour data are being passed in, and so the shader may not draw anything (or draw something but not correctly). If you need to draw shapes in this way then the shader should be customised with this in mind.":"{}注意{}：如果要使用着色器绘制形状，请注意，大多数着色器都需要以下输入：顶点、纹理、颜色。但是，使用此函数时，仅传入顶点和颜色数据，因此着色器可能无法绘制任何内容(或绘制某些内容但不正确)。如果需要以这种方式绘制形状，则应考虑到这一点对着色器进行自定义。"
 }

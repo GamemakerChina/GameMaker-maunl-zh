@@ -7,7 +7,7 @@
     "{}Cyan{} - The text rendering time":"{}青色{}-文本渲染时间",
     "{}Dark Red{} - The GPU flush, which is how long the GPU takes to clear images from memory":"{}暗红色{}-GPU刷新，即GPU从内存中清除图像所需的时间",
     "{}Green{} - Input / Output processing (ie: keyboard, mouse, gamepad, networking etc...)":"{}绿色{}-输入/输出处理(即：键盘，鼠标，游戏手柄，网络等..)",
-    "{}Grey{} - The time required to clear screen each draw step":"{}灰色{}-每个绘图步骤清除屏幕所需的时间",
+    "{}Grey{} - The time required to clear screen each draw step":"{}灰色{}-每个绘制步骤清除屏幕所需的时间",
     "{}NOTE{}: This function will not work on the HTML5 target due to the different way it works compared to all the other targets.":"{}注意{}：此函数不适用于HTML5目标，因为它的工作方式与所有其他目标不同。",
     "{}Orange{} -Debug update time, which is only normally visible when you use the debug module":"{}橙色{}-调试更新时间，通常只有在使用调试模块时才可见",
     "{}Red{} - The update speed of the step event":"{}红色{}-步骤事件的更新速度",

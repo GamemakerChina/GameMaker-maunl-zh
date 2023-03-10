@@ -1,5 +1,5 @@
 {
     "The above code will check the current mipmap bias and if it is not 0 it is set to 0.":"上述代码将检查当前mipmap偏移，如果不为0，则设置为0。",
-    "The mipmap bias value to use (default: 0)":"要使用的mipmap偏移值(默认值：0 )",
+    "The mipmap bias value to use (default: 0)":"要使用的mipmap偏移值(默认值：0)",
     "With this function you can set the mipmap bias value, where a value of 0 equals no bias, 1 equals the first mipmap, 2 equals the second mipmap etc... This controls the rate at which the mip map is swapped and will generally make rendered textures blurrier the higher the value and the greater the \"distance\" being viewed. Note that this function can take negative values too, in which case rendered textures will be sharper over a greater distance the lower the value.":"使用此函数可以设置mipmap偏移值，其中0值等于无偏移，1等于第一个mipmap，2等于第二个mipmap等等...这样可以控制mip贴图的交换速率，并且通常会使渲染纹理越模糊，值越高，查看的\"距离\"越大。请注意，该函数也可以采用负值，在这种情况下，渲染纹理在较大距离内越锐化，值越低。"
 }

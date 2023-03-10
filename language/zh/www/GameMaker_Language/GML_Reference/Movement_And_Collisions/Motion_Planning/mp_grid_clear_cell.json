@@ -1,7 +1,7 @@
 {
     "Horizontal position of the cell to clear":"要清除的单元格水平位置",
-    "Index of the mp_grid that is to be used":"要使用的mp_grid的索引",
-    "The above code will make all \"obj_Box\" destroy themselves and have them mark the cells they occupied in the mp_grid indexed in the variable \"grid\" as free. In this example, we find the appropriate cell by taking the x/y coordinate of the object and dividing them by the resolution of the grid (using {}floor{} to keep the values as integers).":"上述代码将使所有\"obj_Box\"自行销毁，并将它们在变量\"网格\"中索引的mp_grid中所占用的单元格标记为可用。在本例中，我们通过获取对象的x/y坐标并将其除以网格的分辨率(使用{}floor{}将值保留为整数)来找到合适的单元格。",
+    "Index of the mp_grid that is to be used":"要使用的 mp_grid 的索引",
+    "The above code will make all \"obj_Box\" destroy themselves and have them mark the cells they occupied in the mp_grid indexed in the variable \"grid\" as free. In this example, we find the appropriate cell by taking the x/y coordinate of the object and dividing them by the resolution of the grid (using {}floor{} to keep the values as integers).":"上述代码将使所有 \"obj_Box\" 自行销毁，并将它们在变量 \" 网格 \" 中索引的 mp_grid 中所占用的单元格标记为可用。在本例中，我们通过获取对象的 x/y 坐标并将其除以网格的分辨率 (使用 {}floor{} 将值保留为整数) 来找到合适的单元格。",
     "This function can be used to clear a specific \"cell\" of an MP grid. Cells are {}not{} calculated as room coordinates, but rather as grid coordinates, where (0,0) is the top let corner of the grid. this means that to clear a cell at a specific position in the room, we must change the x and y coordinates into cell coordinate dividing them by the resolution of the MP grid. The code example below shows how this works.":"此函数可用于清除Mp网格的特定\"单元格\"。单元格{}不是{}作为房间坐标来计算的，而是作为栅格坐标来计算的，其中(0,0 )是栅格的最上角。这意味着，要清除房间中特定位置的单元格，必须将x和y坐标更改为单元格坐标，然后将其除以Mp栅格的分辨率。下面的代码示例显示了此操作的工作原理。",
     "vertical position of the cell to clear":"要清除的单元格的垂直位置"
 }

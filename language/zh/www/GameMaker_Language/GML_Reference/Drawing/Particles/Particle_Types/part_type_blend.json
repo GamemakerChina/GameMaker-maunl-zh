@@ -1,6 +1,6 @@
 {
     "The above code will set all particles created of the particle type indexed in the variable \"part_Fire\" to have an additive blend mode.":"上述代码将设置在变量\"part_Fire\"中索引的粒子类型创建的所有粒子具有加性混合模式。",
     "The index of the particle type to change.":"要更改的粒子类型的索引。",
-    "Whether the particles should be blended additively (true) or normally (false).":"这些颗粒是否应该添加(真)或正常(假)混合。",
+    "Whether the particles should be blended additively (true) or normally (false).":"这些颗粒是否应该添加(true)或正常(false)混合。",
     "With this function you can make your particles be drawn with an additive blend mode ({}true{}) or not ({}false{}). Additive blending is a special blend mode that adds the luminosity values of each particle as they overlap, so that light colours will gradually get brighter (until they appear white) as they overlap, and dark colours become more and more transparent with black being almost invisible. This function can give some beautiful particle effects but may not always be necessary. For example, a smoke trail would have additive blending off to keep the effect gray, but a flame effect would probably have it on to make the particles more translucent and brighter.":"使用此函数，可以使用添加剂混合模式({}true{})或非({}false{})绘制粒子。添加剂混合是一种特殊的混合模式，可以在每个粒子重叠时添加它们的亮度值，这样当它们重叠时，浅色将逐渐变亮(直到它们显示为白色)，并且黑色几乎不可见时，深色将变得越来越透明。该函数可以提供一些漂亮的粒子效果，但并不总是必需的。例如，烟雾轨迹会有添加剂混合以使效果保持灰色，但火焰效果可能会启用以使粒子更加半透明和明亮。"
 }

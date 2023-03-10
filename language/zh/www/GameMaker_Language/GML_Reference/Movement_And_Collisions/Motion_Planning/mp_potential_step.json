@@ -4,5 +4,5 @@
     "The target x position.":"目标x位置。",
     "The target y position.":"目标y位置。",
     "This function lets the instance take a step towards a particular position defined by xgoal/ygoal, all the while trying to avoid obstacles. When the instance would run into a solid instance (or any instance when checkall is true) it will change the direction of motion to try to avoid that instance and move around it. This approach is not guaranteed to work but in most easy cases it will effectively move the instance towards the goal. The function returns whether the goal was reached or not.":"此函数允许实例向由xgoal/ygoal定义的特定位置迈进一步，同时尽量避免障碍。如果实例将运行到实体实例(或任何检查全部为真时的实例)中，则会更改运动方向，以尝试避开该实例并绕其移动。这种方法不能保证有效，但在最简单的情况下，它会有效地将实例推向目标。该函数返回是否达到目标。",
-    "Whether to check all instances (true) or just solid ones (false).":"是检查所有实例(真)还是只检查实例(假)。"
+    "Whether to check all instances (true) or just solid ones (false).":"是检查所有实例(true)还是只检查实例(false)。"
 }

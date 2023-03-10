@@ -2,5 +2,5 @@
     "The above code would go in a collision event and checks to see if the \"other\" instance in the collision is flagged as \"solid\". If it is, it will then move the instance out of collision.":"上述代码将在碰撞事件中执行，并检查碰撞中的\"其他\"实例是否标记为\"实体\"。如果是，则会将实例移出碰撞。",
     "The direction to move in.":"移入的方向。",
     "The maximum distance the object can travel (-1 or 0 a default value of 1000 pixels).":"对象可以移动的最大距离(默认值为1000像素-1或0)。",
-    "With this function you can tell an instance to move out of a collision with any instance flagged as {}{}solid{}{} in any direction and any number of pixels each step, with a value of -1 or 0 for the maxdist being a default 1000px, ie: {}GameMaker{} will move the instance continually up 1000 pixels until it is out of collision.":"使用此函数，您可以告诉实例从与标记为{}{}固体{}}{}的任何实例的碰撞中移出，每个步骤的任意方向和任意数量的像素，maxdist的值为-1或0是默认的1000 px，即：{}GameMaker{}将继续向上移动实例1000像素，直到它脱离碰撞。"
+    "With this function you can tell an instance to move out of a collision with any instance flagged as {}{}solid{}{} in any direction and any number of pixels each step, with a value of -1 or 0 for the maxdist being a default 1000px, ie: {}GameMaker{} will move the instance continually up 1000 pixels until it is out of collision.":"使用此函数，您可以告诉实例从与标记为{}{}固体{}{}的任何实例的碰撞中移出，每个步骤的任意方向和任意数量的像素，maxdist的值为-1或0是默认的1000 px，即：{}GameMaker{}将继续向上移动实例1000像素，直到它脱离碰撞。"
 }

@@ -5,7 +5,7 @@
     "A primitive made up of a individual lines in a list.":"由列表中的单个行组成的基元。",
     "A primitive made up of individual triangles in a list.":"由列表中的各个三角形组成的基元。",
     "For a visual example of the different base primitives available, see the image below:":"有关可用的不同基本基元的可视示例，请参见下图：",
-    "The above code will submit the vertex buffer indexed in the variable \"buff\" for drawing with the shader \"shader_prim\", using a triangle list as the base primitive and the texture of the sprite for the instance running the code.":"上述代码将提交在变量\"buffe\"中索引的顶点缓冲区，以便使用着色器\"shader_prir\"绘制，并使用三角形列表作为运行代码的实例的基元和sprite纹理。",
+    "The above code will submit the vertex buffer indexed in the variable \"buff\" for drawing with the shader \"shader_prim\", using a triangle list as the base primitive and the texture of the sprite for the instance running the code.":"上述代码将提交在变量\"buff\"中索引的顶点缓冲区，以便使用着色器\"shader_prim\"绘制，并使用三角形列表作为运行代码的实例的基元和sprite纹理。",
     "The buffer to use.":"要使用的缓冲区。",
     "The primitive base type.":"基本体基本类型。",
     "The texture to use (or -1 for no texture).":"要使用的纹理(或-1表示无纹理)。",

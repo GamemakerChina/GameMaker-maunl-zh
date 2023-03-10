@@ -1,6 +1,6 @@
 {
     "The above code sets the maximum level of anisotropy to 8 for the given shader texture sampler if it has not already been set to 8.":"如果尚未将给定着色器纹理采样器的各向异性最大级别设置为8，则上述代码会将其设置为8。",
     "The index of the shader sampler to get":"要获取的着色器采样器的索引",
-    "The maximum anisotropic level to use (default: 16).":"要使用的最大各向异性级别(默认值：16 )。",
+    "The maximum anisotropic level to use (default: 16).":"要使用的最大各向异性级别(默认值：16)。",
     "With this function you can set the maximum level of anisotropy when using the {}tf_anisotropic{} filter mode (see {}{}gpu_get_tex_mip_filter(){}{} for more information) on a shader sampler. You supply the index value for the shader sampler (as returned by the function {}{}shader_get_sampler_index(){}{}, and then a value within the range of 1 and 16 to set the level.":"使用此函数，可以在着色器采样器上使用{}tf_anisotropic{}过滤器模式(有关详细信息，请参见{}{}gpu_get_tex_mip_filter(){}{})时设置各向异性的最大级别。为着色器采样器提供索引值(由函数{}{}shader_get_sampler_index(){}{}返回)，然后提供1到16范围内的值来设置级别。"
 }

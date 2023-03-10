@@ -1,8 +1,8 @@
 {
-    "If it has been occupied or the position being checked is out of the grid\u0027s bounds, the function will return -1, otherwise it will return 0.":"如果它已被占用或被检查的位置超出了网格的界限，则该函数将返回-1，否则将返回0。",
-    "Index of the mp_grid that is to be used":"要使用的mp_grid的索引",
-    "The above code will check the mp_grid cell that corresponds to the mouse position and if it is occupied it sets the {}image_blend{} variable to red, and if it is not occupied it sets it to green.":"上述代码将检查与鼠标位置对应的mp_grid单元格，如果它被占用，则将{}image_blend{}变量设置为红色;如果它未被占用，则将其设置为绿色。",
-    "The x coordinate of the grid to check.":"要检查的栅格的x坐标。",
-    "The y coordinate of the grid to check.":"要检查的栅格的y坐标。",
-    "With this function you can check any given cell of the mp_grid to see if it has been flagged as occupied or not, giving the index of the (previously created) mp_grid and the x and y coordinates of the cell to check.":"使用此函数，您可以检查mp_grid的任何给定单元格，以查看它是否已标记为\"已占用\"，并给出(先前创建的)mp_grid的索引以及要检查的单元格的x和y坐标。"
+    "If it has been occupied or the position being checked is out of the grid\u0027s bounds, the function will return -1, otherwise it will return 0.":"如果它已被占用或被检查的位置超出了网格的界限，则该函数将返回 -1，否则将返回 0。",
+    "Index of the mp_grid that is to be used":"要使用的 mp_grid 的索引",
+    "The above code will check the mp_grid cell that corresponds to the mouse position and if it is occupied it sets the {}image_blend{} variable to red, and if it is not occupied it sets it to green.":"上述代码将检查与鼠标位置对应的 mp_grid 单元格，如果它被占用，则将 {}image_blend{} 变量设置为红色 ; 如果它未被占用，则将其设置为绿色。",
+    "The x coordinate of the grid to check.":"要检查的栅格的 X 坐标。",
+    "The y coordinate of the grid to check.":"要检查的栅格的 Y 坐标。",
+    "With this function you can check any given cell of the mp_grid to see if it has been flagged as occupied or not, giving the index of the (previously created) mp_grid and the x and y coordinates of the cell to check.":"使用此函数，您可以检查 mp_grid 的任何给定单元格，以查看它是否已标记为\"已占用\"，并给出(先前创建的) mp_grid 的索引以及要检查的单元格的 x 和 y 坐标。"
 }

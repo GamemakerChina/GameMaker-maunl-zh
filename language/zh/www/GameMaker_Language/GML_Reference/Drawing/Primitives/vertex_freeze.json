@@ -1,5 +1,5 @@
 {
-    "The above code will freeze the given vertex buffer in the Create event, so it can be used as a \"static\" buffer in other events for faster access.":"上述代码将在Create事件中冻结给定的顶点缓冲区，因此可以在其他事件中用作\"静态\"缓冲区，以便更快地访问。",
+    "The above code will freeze the given vertex buffer in the Create event, so it can be used as a \"static\" buffer in other events for faster access.":"上述代码将在创建事件中冻结给定的顶点缓冲区，因此可以在其他事件中用作\"静态\"缓冲区，以便更快地访问。",
     "The function will return 0 on successfully freezing the specified vertex buffer, however if it failed for any reason, it will return -1.":"函数在成功冻结指定的顶点缓冲区时将返回0，但如果由于任何原因失败，将返回-1。",
     "The vertex buffer to freeze.":"要冻结的顶点缓冲区。",
     "This function can be used to \"freeze\" a vertex buffer. This buffer becomes {}read-only{}, meaning that should you need to change it, you would have to delete the whole buffer and re-create it. A frozen buffer can be submitted to the shader faster than a normal, dynamic buffer and is recommended for those effects that require an unchanging custom primitive for the duration of a level or the game.":"此函数可用于\"冻结\"顶点缓冲区。此缓冲区变为{}只读{}，这意味着如果需要更改它，您必须删除整个缓冲区并重新创建它。冻结的缓冲区可以比普通的动态缓冲区更快地提交到着色器，建议用于那些在级别或游戏期间需要不变的自定义基本体的效果。"

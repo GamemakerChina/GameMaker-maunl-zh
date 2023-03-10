@@ -1,5 +1,5 @@
 {
     "Index of the font to check.":"要检查的字体的索引。",
     "This function returns whether a font with the specified index exists or not. You can check font indices as defined&nbsp;from the Asset Browser, or fonts that have been added using functions like {}font_add(){}.":"此函数返回是否存在具有指定索引的字体。您可以检查从\"资源浏览器\"中定义的字体索引，或使用{}font_add(){}等函数添加的字体。",
-    "This will set the active drawing font to {}fnt_Main{} if it exists.":"这会将活动绘图字体设置为{}fnt_main{}(如果存在)。"
+    "This will set the active drawing font to {}fnt_Main{} if it exists.":"这会将活动绘制字体设置为{}fnt_main{}(如果存在)。"
 }

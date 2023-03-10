@@ -1,6 +1,6 @@
 {
     "The x position to check.":"要检查的x位置。",
     "The y position to check.":"要检查的y位置。",
-    "This function will check to see if a given position enters into collision with {}any instance{} with a valid collision mask at the given position.":"此函数将检查给定位置是否与{}给定位置处具有有效碰撞掩码的任何实例{}发生碰撞。",
+    "This function will check to see if a given position enters into collision with {}any instance{} with a valid collision mask at the given position.":"此函数将检查给定位置是否与{}给定位置处具有有效碰撞遮罩的任何实例{}发生碰撞。",
     "This will check a random position somewhere in the room for a collision and if there is none it will create an instance of obj_Bomb.":"这将检查房间中某处的随机位置是否存在碰撞，如果没有碰撞，则将创建obj_Bomb实例。"
 }

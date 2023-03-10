@@ -1,5 +1,5 @@
 {
     "The above code will clear the particle type indexed in the global variable \"explode_part\" to its default values.":"以上代码将全局变量\"explode_part\"中索引的粒子类型清除为其默认值。",
     "The index of the particle type to clear.":"要清除的粒子类型的索引。",
-    "With this function you can \"reset\" a particle, returning all the values for each of the functions relating to the particle (life, colour, alpha, orientation etc...) to their default values. Note that this function does not remove any particles currently visible in the room from the screen, for that you should be using {}{}part_particles_clear(){}{}.":"使用此函数可以\"重置\"粒子，将与粒子相关的每个函数(寿命、颜色、α、方向等)的所有值返回到其默认值。请注意，此函数不会从屏幕中移除房间中当前可见的任何粒子，因为您应该使用{}{}part_particles_clear(){}{}。"
+    "With this function you can \"reset\" a particle, returning all the values for each of the functions relating to the particle (life, colour, alpha, orientation etc...) to their default values. Note that this function does not remove any particles currently visible in the room from the screen, for that you should be using {}{}part_particles_clear(){}{}.":"使用此函数可以\"重置\"粒子，将与粒子相关的每个函数(寿命、颜色、alpha、方向等)的所有值返回到其默认值。请注意，此函数不会从屏幕中移除房间中当前可见的任何粒子，因为您应该使用{}{}part_particles_clear(){}{}。"
 }

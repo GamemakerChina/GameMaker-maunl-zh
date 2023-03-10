@@ -1,6 +1,6 @@
 {
     "The above code will make all particles created of the type indexed in the variable \"part_Health\" have an alpha blend from 0.5 to 1 to 0 over their lifetime.":"上述代码将使在变量\"part_Health\"中创建的索引类型的所有粒子在其生存期内具有从0.5到1到0的Alpha混合。",
-    "The ending alpha of the particle.":"粒子的末端α。",
+    "The ending alpha of the particle.":"粒子的末端alpha。",
     "The halfway point alpha of the particle.":"粒子的中点Alpha。",
     "The index of the particle type to change.":"要更改的粒子类型的索引。",
     "The starting alpha of the particle.":"粒子的起始Alpha。",

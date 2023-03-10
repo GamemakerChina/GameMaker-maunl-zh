@@ -1,6 +1,6 @@
 {
     "Destination blend mode factor (see constants above)":"目标混合模式因子(参见上面的常量)",
-    "Guide To Using Blendmodes":"使用混合模式的指南",
+    "Guide To Using Blendmodes":"混合模式使用指南",
     "Note that you can either supply two individual arguments to this function or you can supply an array of arguments (as returned by the function {}{}gpu_get_blendmode_ext(){}{} for example). If supplying an array it should have the following two elements:":"请注意，您可以为此函数提供两个单独的参数，也可以提供一个参数数组(例如，由函数{}{}gpu_get_blendmode_ext(){}{}返回)。如果提供数组，则应具有以下两个元素：",
     "Source blend mode factor (see constants above).":"源混合模式因子(请参见上面的常量)。",
     "This function permits you to set the different component parts that should be factored together to create a custom blend mode. The source and destination both have a red, green, blue and alpha component, and in the following chart the source\u0027s RGBA are considered (Rs, Gs, Bs, As) while the destination\u0027s are (Rd, Gd, Bd, Ad). The eleven constants that are available for use can be either source or destination (or both) when used in this function.":"此函数允许您设置不同的零部件，这些零部件应该被系数化在一起以创建自定义混合模式。源和目的地都有红色、绿色、蓝色和Alpha分量，在下表中，源的Rgba被视为(R、G、B、As)，而目的地的Rgba被视为(Rd、Gd、Bd、Ad)。在此函数中使用时，可用的十一个常量可以是源或目标(或两者)。",

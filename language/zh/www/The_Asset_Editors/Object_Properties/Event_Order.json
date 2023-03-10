@@ -1,7 +1,7 @@
 {
-    "All of the events for drawing are also always dealt with in the same order as follows (except for the {}Window Resize {}event, which is triggered differently):":"所有绘图事件也总是以相同的顺序处理，如下所示({}窗口调整大小{}事件除外，它的触发方式不同)：",
+    "All of the events for drawing are also always dealt with in the same order as follows (except for the {}Window Resize {}event, which is triggered differently):":"所有绘制事件也总是以相同的顺序处理，如下所示({}窗口调整大小{}事件除外，它的触发方式不同)：",
     "Event Order":"事件顺序",
-    "For more detailed information on how these events are related to {}GameMaker{}\u0027s drawing, see&nbsp;{}Draw Events{}.":"有关这些事件如何与 {}GameMaker{} 的绘图相关的更多详细信息，请参阅{}绘制事件{}。",
+    "For more detailed information on how these events are related to {}GameMaker{}\u0027s drawing, see&nbsp;{}Draw Events{}.":"有关这些事件如何与 {}GameMaker{} 的绘制相关的更多详细信息，请参阅{}绘制事件{}。",
     "It is also worth noting that you can also set the order in which specific instances are created within the room editor itself by moving them up or down the list of the {}Instance Layer Properties{}&nbsp;window.":"还值得注意的是，您还可以通过在 {} 实例层属性 {} 窗口的列表中上下移动特定实例来设置在房间编辑器本身中创建特定实例的顺序。",
     "Other than those specific events, the only known order that will always occur in the same way no matter what belongs to the three {}step {}events and the different {}draw {}events. These will always remain consistent, so if you have code that relies on specific timing during each step of your game, you should use:":"除了这些特定事件之外，唯一已知的顺序将始终以相同的方式发生，无论属于三个 {} 步骤 {} 事件和不同的 {} 绘制 {} 事件。这些将永远保持一致，所以如果您的代码在游戏的每一步都依赖于特定的时间，您应该使用：",
     "The first set of events that will always happen the same way are those that occur when a room is first entered. The order that the different events will fire is:":"第一组总是以同样的方式发生的事件是第一次进入房间时发生的事件。不同事件触发的顺序是：",

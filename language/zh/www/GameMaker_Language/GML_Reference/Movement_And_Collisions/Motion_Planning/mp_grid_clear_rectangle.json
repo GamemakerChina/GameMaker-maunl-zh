@@ -1,9 +1,9 @@
 {
-    "Index of the mp_grid that is to be used":"要使用的mp_grid的索引",
+    "Index of the mp_grid that is to be used":"要使用的 mp_grid 的索引",
     "The above code will mark as free all cells of the mp_grid indexed in the variable \"grid\" that fall within the area 0,0 to 100,200.":"上述代码将标记为变量\"网格\"中索引在0, 0到100,200区域内的mp_grid的所有单元格的空闲空间。",
-    "The x coordinate of the bottom side of the rectangle to check.":"要检查的矩形底边的x坐标。",
-    "The x coordinate of the left side of the rectangle to check.":"要检查的矩形左侧的x坐标。",
-    "The x coordinate of the right side of the rectangle to check.":"要检查的矩形右侧的x坐标。",
-    "The y coordinate of the top side of the rectangle to check.":"要检查的矩形顶边的y坐标。",
+    "The x coordinate of the bottom side of the rectangle to check.":"要检查的矩形底边的 Y 坐标。",
+    "The x coordinate of the left side of the rectangle to check.":"要检查的矩形左侧的 X 坐标。",
+    "The x coordinate of the right side of the rectangle to check.":"要检查的矩形右侧的 X 坐标。",
+    "The y coordinate of the top side of the rectangle to check.":"要检查的矩形顶边的 Y 坐标。",
     "With this function you can define an area {}in room coordinates{} which will then clear the corresponding cells in the specified MP grid. Even if a cell partially falls within the defined rectangular region it will be cleared.":"使用此函数，您可以在房间坐标{}中定义一个面积{}，然后将清除指定Mp网格中的相应单元格。即使单元格部分落在定义的矩形区域内，也会被清除。"
 }

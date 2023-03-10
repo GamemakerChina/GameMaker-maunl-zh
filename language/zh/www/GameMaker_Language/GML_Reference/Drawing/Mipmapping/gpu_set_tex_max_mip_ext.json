@@ -1,6 +1,6 @@
 {
     "The above code sets the maximum mipmap level to 4 for the given shader texture sampler if it has not already been set to 4.":"上述代码将给定着色器纹理采样器的最大mipmap级别设置为4(如果尚未将其设置为4)。",
     "The index of the shader sampler to get":"要获取的着色器采样器的索引",
-    "The maximum mipmap level value to use (default: 16)":"要使用的最大mipmap级别值(默认值：16 )",
+    "The maximum mipmap level value to use (default: 16)":"要使用的最大mipmap级别值(默认值：16)",
     "With this function you can get the currently set maximum mipmap level which is to be used for a given shader sampler. You supply the index value for the shader sampler (as returned by the function {}{}shader_get_sampler_index(){}{}, and the function will return the current maximum mipmap level, where a value of 0 is the highest resolution, 1 is to use the first mipmap, 2 is the second etc... Note that this can be quite useful for avoiding bleeding artifacts when rendering textures, for example, setting the texture page border to 8px and then setting the max mipmap level to 3 will ensure you don\u0027t get any bleeding problems at greater render distances.":"使用此函数，您可以获得当前设置的最大mipmap级别，该级别将用于给定着色器采样器。为着色器采样器提供索引值(由函数{}{}shader_get_sampler_index(){}{}返回)，该函数将返回当前最大mipmap级别，其中值0表示最高分辨率，1表示使用第一个mipmap，2表示第二个mipmap等...请注意，这对于在渲染纹理时避免出血瑕疵非常有用，例如，将纹理页面边界设置为8 px，然后将最大mipmap级别设置为3将确保在较大的渲染距离下不会出现任何出血问题。"
 }

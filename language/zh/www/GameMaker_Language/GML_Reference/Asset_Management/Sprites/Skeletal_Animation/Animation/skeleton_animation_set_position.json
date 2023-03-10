@@ -1,5 +1,5 @@
 {
-    "The above code will set the position for track 1 of the skeleton animation to 0.25 or, put differently, at 25% from the start of the animation.":"上面的代码将骨架动画的轨迹1的位置设置为0.25，或者换一种说法，设置为距离动画开始的25%。",
+    "The above code will set the position for track 1 of the skeleton animation to 0.25 or, put differently, at 25% from the start of the animation.":"上面的代码将骨骼动画的轨迹1的位置设置为0.25，或者换一种说法，设置为距离动画开始的25%。",
     "The animation track to set the frame of.":"要设置帧的动画轨迹。",
     "The new position for the animation frame.":"动画帧的新位置。",
     "This function will set the animation assigned to the given track to the position you supply. The position should be a real value between 0 and 1. If you supply a value outside of this range, then the track position will be set to the fractional part of that value. Suppose you use a value of 0.4, a value of 1.4, a value of 2.4, ... These will all set the position to 0.4.":"此函数将指定给给定轨迹的动画设置为您提供的位置。位置应为介于0和1之间的实际值。如果提供的值超出此范围，则轨迹位置将设置为该值的小数部分。假设您使用的值为0.4、1.4、2.4……这些都会将位置设置为0.4。"
