@@ -6,7 +6,7 @@
     "RGBA Videos":"RGBA 视频",
     "Read&nbsp;{}YUV Videos{}&nbsp;for steps on drawing these two surfaces using a shader.":"有关使用着色器绘制这两个表面的步骤，请阅读{}YUV 视频{}。",
     "Return Data":"返回数据",
-    "The above code calls {}video_draw(){}, and checks if the returned status is 0, meaning the video is playing. In that case it gets the surface ID and draws it at the instance\u0027s position. This will only work for RGBA videos.":"以上代码调用{}video_draw(){}，并检查返回的状态是否为0(表示正在播放视频)。在这种情况下，它将获取表面Id并在实例的位置绘制它。这只适用于Rgba视频。",
+    "The above code calls {}video_draw(){}, and checks if the returned status is 0, meaning the video is playing. In that case it gets the surface ID and draws it at the instance\u0027s position. This will only work for RGBA videos.":"以上代码调用{}video_draw(){}，并检查返回的状态是否为0(表示正在播放视频)。在这种情况下，它将获取表面Id并在实例的位置绘制它。这只适用于 RGBA 视频。",
     "The function also returns data regarding the status of the video, which is expanded upon below.":"该函数还返回有关视频状态的数据，该数据在下面展开。",
     "The function will return an array, the first element ({}[0]{}) of which will be a real value. This value tells the status of the video, and will be:":"函数将返回一个数组，其中第一个元素({}[ 0 ]{})将是实数值。此值将显示视频的状态，并且将为：",
     "This function draws the current frame of the {}opened video{} to a surface (or two surfaces). It returns the surface(s) as part of its return array, which can be {}drawn manually{}.":"此函数将{}打开的视频{}的当前帧绘制到一个表面(或两个表面)。它返回表面作为其返回数组的一部分，可以手动{}绘制该返回数组。",
@@ -14,8 +14,8 @@
     "YUV Videos":"YUV 视频",
     "{}-1{}, if there was an error":"{}-1{}，如果存在错误",
     "{}0{}, if the video is playing without any issues":"{}0{}，如果播放的视频没有任何问题",
-    "{}For RGBA videos, the position {}[1]{} will contain the surface where the video frame was drawn. You can get this surface and {}draw it{} manually.{}":"{}对于Rgba视频，位置{}[ 1 ]{}将包含绘制视频帧的表面。您可以获取此表面并{}手动绘制它{}。{}",
-    "{}Some platforms (especially consoles) use the YUV colour format for videos, which makes use of two surfaces. In that case the array will have positions {}[1]{} and {}[2]{}&nbsp;with two surfaces:{}":"{}某些平台(尤其是控制台)对视频使用Yuv颜色格式，该格式使用两个表面。在这种情况下，阵列的位置{}[ 1 ]{}和{}[ 2 ]{}具有两个表面：{}",
+    "{}For RGBA videos, the position {}[1]{} will contain the surface where the video frame was drawn. You can get this surface and {}draw it{} manually.{}":"{}对于 RGBA 视频，位置{}[ 1 ]{}将包含绘制视频帧的表面。您可以获取此表面并{}手动绘制它{}。{}",
+    "{}Some platforms (especially consoles) use the YUV colour format for videos, which makes use of two surfaces. In that case the array will have positions {}[1]{} and {}[2]{}&nbsp;with two surfaces:{}":"{}某些平台(尤其是控制台)对视频使用 YUV  颜色格式，该格式使用两个表面。在这种情况下，阵列的位置{}[ 1 ]{}和{}[ 2 ]{}具有两个表面：{}",
     "{}{}[1]{} is the main video surface in black and white{}":"{}{}[ 1 ]{}是黑白视频的主表面{}",
     "{}{}[2]{} is the chroma surface that contains all the colour data{}":"{}{}[ 2 ]{}是包含所有颜色数据的色度表面{}"
 }

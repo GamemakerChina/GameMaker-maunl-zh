@@ -1,7 +1,7 @@
 {
     "Add a video file to the {}Included Files{} ({}/datafiles{} directory) of your project.":"将视频文件添加到项目的{}包含文件{}({}/datafiles{}目录)。",
     "Async Callbacks":"异步回调",
-    "Draw it in a Draw event using {}{}video_draw(){}{}. {} {}This functions draws the video to an internal surface, which it returns as part of its return array.{} {}You must draw that surface manually using {}{}draw_surface(){}{} for the video to appear. {} {}Drawing&nbsp;{}YUV Videos{}&nbsp;will require extra steps.{} {} {} {} ":"使用{}{}video_draw(){}{}在绘制事件中绘制它。{}{}此函数将视频绘制到内部表面，并将其作为返回数组的一部分返回。{}{}要显示视频，必须使用{}{}draw_surface(){}{}手动绘制该表面。{}{}绘制{}Yuv视频{}将需要额外的步骤。{}{}{}{}",
+    "Draw it in a Draw event using {}{}video_draw(){}{}. {} {}This functions draws the video to an internal surface, which it returns as part of its return array.{} {}You must draw that surface manually using {}{}draw_surface(){}{} for the video to appear. {} {}Drawing&nbsp;{}YUV Videos{}&nbsp;will require extra steps.{} {} {} {} ":"使用{}{}video_draw(){}{}在绘制事件中绘制它。{}{}此函数将视频绘制到内部表面，并将其作为返回数组的一部分返回。{}{}要显示视频，必须使用{}{}draw_surface(){}{}手动绘制该表面。{}{}绘制{} YUV  视频{}将需要额外的步骤。{}{}{}{}",
     "Follow these steps to load videos at runtime and play them:":"按照以下步骤在运行时加载和播放视频：",
     "For distribution on console platforms, check with your account representative to find out what formats you are allowed to use without having to pay extra licencing fees.":"对于在控制台平台上的分发，请咨询您的客户代表，了解您可以使用哪些格式，而无需支付额外的许可费用。",
     "Formats":"格式",
@@ -16,6 +16,7 @@
     "The video formats that you are able to load and play in your game will depend on your target platform, and the codecs that are supported on that platform.":"您可以在游戏中加载和播放的视频格式将取决于您的目标平台以及该平台支持的编解码器。",
     "The {}Async Social{} event is triggered at the stages given below, with the {}\"type\"{} key in its {}async_load{} map set to the given value:":"{}异步社交{}事件在下面给定的阶段触发，其{}async_load{}映射中的{}类型\"{}\"键设置为给定值：",
     "Video Codecs &amp; Licensing":"视频编解码器和许可",
+    "Video Playback":"视频播放",
     "When the video ends, it sets that same variable to {}false{}, and then calls {}{}video_close(){}{} to remove the video from memory.":"视频结束时，会将相同的变量设置为{}假{}，然后调用{}{}video_close(){}{}从内存中删除视频。",
     "When the video is finished, remove it from memory by calling {}{}video_close(){}{}. {} {}Use the {}Async Callbacks{} to run code when the video ends.{} {} ":"视频完成后，通过调用{}{}video_close(){}{}将其从内存中删除。{}{}使用{}异步回调{}在视频结束时运行代码。{}{}",
     "You can load, play and manipulate video files at runtime using the following functions:":"您可以使用以下函数在运行时加载、播放和操作视频文件：",

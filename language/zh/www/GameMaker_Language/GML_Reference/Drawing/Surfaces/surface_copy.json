@@ -1,6 +1,6 @@
 {
     "The ID of surface to be copied.":"要复制的表面的ID。",
-    "The ID of the surface to copy the other surface to.":"要将另一个表面复制到的表面的Id。",
+    "The ID of the surface to copy the other surface to.":"要将另一个表面复制到的表面的ID。",
     "The above code will check the current view being drawn and if it is view[0] it copies the surface indexed in the variable \"temp_surf\" onto the surface indexed in the variable \"surf\". If the current view is anything other than view[0] the surface \"surf\" is drawn to the screen.":"上述代码将检查正在绘制的当前视图，如果它是view[ 0 ]，则将变量\"temp_surfing\"中的索引表面复制到变量\"beach\"中的索引表面上。如果当前视图不是view[ 0 ]，则会将表面\"浏览\"绘制到屏幕上。",
     "The x position to copy to.":"要复制到的x位置。",
     "The y position to copy to.":"要复制到的y位置。",

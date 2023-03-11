@@ -1,4 +1,4 @@
 {
-    "The above code creates a local array and gets the current source and destination blending factors for the alpha component. This array is then used to manipulate the RGB component of the blending factors.":"上述代码将创建一个本地数组，并获取Alpha组件的当前源和目标混合因子。然后使用该数组来操纵混合因子的Rgb分量。",
+    "The above code creates a local array and gets the current source and destination blending factors for the alpha component. This array is then used to manipulate the RGB component of the blending factors.":"上述代码将创建一个本地数组，并获取Alpha组件的当前源和目标混合因子。然后使用该数组来操纵混合因子的 RGB 分量。",
     "This function can be used to retrieve the current {}source{} extended blend mode alpha factor. The value returned will be one of the following constants (\"s\" denotes a value taken from the source while a \"d\" denotes a value from the destination) with only the \"A\" component being used when drawing:":"此函数可用于检索当前{}源{}扩展混合模式Alpha因子。返回的值将是下列常量之一(\"s\"表示从源获取的值，\"d\"表示从目标获取的值)，绘制时仅使用\"A\"组件："
 }

@@ -1,8 +1,13 @@
 {
-    "The ID of the surface.":"表面的Id。",
+    "For these formats, the function will return a regular {}colour{} value. Any unused channels are set to 0.":"对于这些格式，该函数将返回常规的{}颜色{}值。所有未使用的通道都设置为 0。",
+    "For these formats, the function will return an array with 3 values (R, G, B) with each being a 32-bit float. Any unused channels are set to 0.{} {} To get the pixel colour with the alpha channel, use&nbsp;{}{}surface_getpixel_ext{}{}. ":"对于这些格式，该函数将返回一个包含 3 个值 (R, G, B) 的数组，每个值都是一个 32 位浮点数。任何未使用的通道都设置为 0。{}{} 要获得 Alpha 通道的像素颜色，请使用 {}{}surface_getpixel_ext{}{}。",
+    "The ID of the surface.":"表面的ID。",
+    "The data type returned by this function will depend on the {}format{} of the given surface:":"此函数返回的数据类型将取决于给定曲面的{}格式{}：",
     "The x position on the surface from which to get the pixel.":"表面上用于获取像素的x位置。",
     "The y position on the surface from which to get the pixel.":"表面上用于获取像素的y位置。",
     "This function can be used to get the colour of a specific pixel from a surface, using the local coordinates of the surface where (0,0) is the top left corner. This function should {}not{} be used very often as it is extremely slow and may cause a pause in your game.":"此函数可用于使用表面的局部坐标从表面获取特定像素的颜色，其中(0,0 )是左上角。此函数不应经常使用{}，因为它速度非常慢，可能会导致游戏暂停。",
-    "This will return the colour of the pixel at coordinates (56,78) of the surface indexed in the variable \"surf\".":"这将返回在可变\"冲浪\"中索引的表面坐标(56，78 )处的像素颜色。",
-    "{}NOTE{}: When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}注意{}：使用表面时，由于表面存储在纹理内存中，因此表面可能随时停止存在。在直接引用表面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查表面是否存在。"
+    "This will return the colour of the pixel at coordinates (56,78) of the surface indexed in the variable \"surf\".":"这将返回在可变 \"surf\" 中索引的表面坐标(56，78 )处的像素颜色。",
+    "This will return the colour of the pixel at coordinates (56,78) of the surface indexed in the variable {}surf{}.":"这将返回在变量 {}\"surf\"{} 中索引的表面坐标 (56, 78) 处的像素颜色。",
+    "{}NOTE{}: When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}注意{}：使用表面时，由于表面存储在纹理内存中，因此表面可能随时停止存在。在直接引用表面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查表面是否存在。",
+    "{}{}NOTE{}{}&nbsp;When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}{}注意{}{}：使用表面时，由于表面存储在纹理内存中，因此表面可能随时停止存在。在直接引用表面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查表面是否存在。"
 }

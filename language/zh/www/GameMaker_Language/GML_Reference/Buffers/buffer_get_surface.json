@@ -1,5 +1,5 @@
 {
-    "Note that the function writes each pixel of the surface to the buffer using an&nbsp;{}RGBA{} formatting on the Windows target, but on other targets it may be different depending on the OS or even the device.":"请注意，该函数在Windows目标上使用{}Rgba{}格式将表面的每个像素写入缓冲区，但在其他目标上，该函数可能会有所不同，具体取决于O甚至设备。",
+    "Note that the function writes each pixel of the surface to the buffer using an&nbsp;{}RGBA{} formatting on the Windows target, but on other targets it may be different depending on the OS or even the device.":"请注意，该函数在Windows目标上使用{} RGBA {}格式将表面的每个像素写入缓冲区，但在其他目标上，该函数可能会有所不同，具体取决于O甚至设备。",
     "The data offset value (in bytes).":"数据偏移值(以字节为单位)。",
     "The index of the buffer to use.":"要使用的缓冲区的索引。",
     "The index of the surface to use.":"要使用的表面的索引。",

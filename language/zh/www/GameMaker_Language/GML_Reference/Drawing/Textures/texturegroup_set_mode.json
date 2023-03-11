@@ -1,5 +1,5 @@
 {
-    "The mode used for Dynamic Texture Groups: Implicit ({}false{}), or Explicit ({}true{})":"用于动态纹理组的模式：隐式({}假{})或显式({}真{})",
+    "The mode used for Dynamic Texture Groups: Implicit ({}false{}), or Explicit ({}true{})":"用于动态纹理组的模式：隐式({}false{})或显式({}true{})",
     "This function allows you to set three things:":"此函数允许您设置三件事：",
     "This will enable Explicit mode, disable debugging and set {}spr_fallback{} as the fallback sprite for unloaded textures.":"这将启用\"显式\"模式，禁用调试，并将{}spr_fallback{}设置为卸载纹理的回退子程序。",
     "{}Debug{}: You can enable debugging, which will show you all of your game\u0027s Texture Pages along with their {}status{}&nbsp;in-game.{} {} ":"{}调试{}：您可以启用调试，这将显示游戏中的所有纹理页面以及游戏中的{}状态{}。{}{}",

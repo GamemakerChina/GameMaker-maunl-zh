@@ -1,0 +1,5 @@
+{
+    "The surface format to check":"要检查的表面格式",
+    "This checks if the&nbsp;{}{}surface_rgba32float{}{} format is supported on the current platform, and in that case it creates a surface with that format. However if the format is not supported, it instead prints a message to the output log.":"这将检查当前平台是否支持 {}{}surface_rgba32float{}{} 格式，在这种情况下，它会创建具有该格式的曲面。但是，如果该格式不受支持，则会在输出日志中打印一条消息。",
+    "This function returns whether the given surface format is supported on the current platform. All formats are {}listed here{}.":"此函数用于返回当前平台是否支持给定的表面格式。{}此处{}列出了所有格式。"
+}

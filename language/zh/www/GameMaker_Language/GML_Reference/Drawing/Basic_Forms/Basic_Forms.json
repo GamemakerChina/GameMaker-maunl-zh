@@ -1,4 +1,5 @@
 {
+    "Basic Forms":"基本绘制",
     "The following drawing functions exist for drawing basic shapes. Note that these functions are slow to call and only supplied as basic drawing tools:":"下列绘制函数适用于绘制基本形状。请注意，这些函数调用速度较慢，仅作为基本绘制工具提供：",
     "The following functions are also included in {}GameMaker{} to set drawing precision and draw some very specific things:":"{}GameMaker{}中还包括以下函数，用于设置绘制精度和绘制一些非常具体的内容：",
     "{}GameMaker{} has a whole collection of functions available for drawing different forms and shapes. These functions should only ever be used in the draw event of an instance (you {}can{} use them elsewhere but you won\u0027t see anything!) and create purely graphic effects, which means that they do not generate collision events as those can only be done through the sprite or collision mask that has been assigned to an instance. All these functions are affected by the current draw colour, alpha and blend mode (see the section on {}Colour{}).":"{}GameMaker{}具有完整的函数集合，可用于绘制不同的表单和形状。这些函数只能在实例的绘制事件中使用(您{}可以{}在其他位置使用它们，但您不会看到任何内容！)并创建纯粹的图形效果，这意味着它们不会生成碰撞事件，因为这些事件只能通过指定给实例的精灵或碰撞掩码来完成。所有这些函数都受当前绘制颜色、Alpha和混合模式的影响(请参阅{}颜色{}一节)。",

@@ -13,6 +13,7 @@
     "A squarish cloud of smoke \u0027 requires multiple colours to resemble an explosion.":"方形的烟雾云需要多种颜色才能像爆炸一样。",
     "A thin cloud, requires up scaling and multiple particles to resemble a cloud.":"薄云，需要向上缩放和多个粒子才能类似于云。",
     "An 8px wide horizontal line.":"8 px宽的水平线。",
+    "Overview of Particle Type Shapes":"粒子类型形状概览",
     "Particle Shape Constant":"粒子形状常量",
     "The above code sets the particle type indexed in the global variable \"p1\" to the shape of a square, then sets various other particle properties.":"上述代码将全局变量\"p 1\"中索引的粒子类型设置为正方形，然后设置其他各种粒子属性。",
     "The index of the particle type to set.":"要设定的粒子类型的索引。",

@@ -1,5 +1,5 @@
 {
-    "As the drawing methods for RGBA and YUV videos are different, the return value from this function may be used to run different code based on the format of the playing video. See&nbsp;{}Draw Video{}&nbsp;for an example.":"由于Rgba和Yuv视频的绘制方法不同，可以根据播放视频的格式，使用该函数的返回值来运行不同的代码。有关示例，请参见{}绘制视频{}。",
+    "As the drawing methods for RGBA and YUV videos are different, the return value from this function may be used to run different code based on the format of the playing video. See&nbsp;{}Draw Video{}&nbsp;for an example.":"由于 RGBA 和 YUV 视频的绘制方法不同，可以根据播放视频的格式，使用该函数的返回值来运行不同的代码。有关示例，请参见{}绘制视频{}。",
     "The video surface uses the RGBA color model":"视频表面使用 RGBA 颜色模型",
     "The video surface uses the YUV color model":"视频表面使用 YUV 颜色模型",
     "This function returns the colour format of the currently loaded video. This can be any one of the following constants:":"此函数返回当前加载的视频的颜色格式。这可以是以下常量中的任意一个：",
