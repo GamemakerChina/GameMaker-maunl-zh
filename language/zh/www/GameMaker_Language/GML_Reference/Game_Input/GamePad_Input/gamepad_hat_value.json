@@ -1,7 +1,17 @@
 {
-    "Note that these can be combined (for example, supplying a hat index of 3 would be checking up and right, or you can use the {}|{} operator to combine the various values) but only at most 2 bits can be pressed at once. The function will return a real value between 0 and 1, where 0 is not pressed and 1 is fully pressed (and there may be values in between depending on whether the gamepad supports analog input for hats).":"请注意，这些值可以合并(例如，提供 3 的帽子索引就是向上和向右检查，或者你可以使用{}|{}运算符合并各种值)，但一次最多只能按下 2 位。该函数将返回介于 0 和 1 之间的实数值，其中不按下 0，完全按下 1(根据游戏手柄是否支持帽子的模拟输入，介于两者之间可能会有值)。",
-    "The above code stores the state of the hat \"0\" in a local variable, then checks to see what the return value is and acts accordingly.":"上面的代码将帽子 “0” 的状态存储在局部变量中，然后检查返回值是什么并采取相应的行动。",
+    "Down = 4 (binary&nbsp;{}0b0100{})":"下 = 4 (二进制&nbsp;{}0b0100{})",
+    "Left = 8 (binary&nbsp;{}0b1000{})":"左 = 8 (二进制&nbsp;{}0b1000{})",
+    "Note that these can be combined (for example, supplying a hat index of 3 would be checking up and right, or you can use the {}|{} operator to combine the various values) but only at most 2 bits can be pressed at once. The function will return a real value between 0 and 1, where 0 is not pressed and 1 is fully pressed (and there may be values in between depending on whether the gamepad supports analog input for hats).":"请注意，这些值可以合并(例如，提供 3 的十字键索引就是向上和向右检查，或者你可以使用{}|{}运算符合并各种值)，但一次最多只能按下 2 位。该函数将返回介于 0 和 1 之间的实数值，其中不按下 0，完全按下 1(根据游戏手柄是否支持十字键的模拟输入，介于两者之间可能会有值)。",
+    "Note that these can be combined; e.g. a hat value of 3 would be checking up and right (the sum of 1 and 2). You can also use the {}bitwise operator{}&nbsp;{}|{}to combine the values of various directions to get the same result, e.g. {}0b0001 | 0b0010{}. A value of 0 means no direction is set.":"请注意，这两个值可以组合在一起例如，十字键值 3 表示检查正确 (1 和 2 的总和)。您也可以使用{}位运算符{} {}|{} 将不同方向的值组合在一起，得到相同的结果，例如 {}0b0001|0b0010{}。值为 0 表示未设置方向。",
+    "Right = 2 (binary&nbsp;{}0b0010{})":"右 = 2 (二进制&nbsp;{}0b0010{})",
+    "The above code stores the state of the hat \"0\" in a local variable, then checks to see what the return value is and acts accordingly.":"上面的代码将十字键 “0” 的状态存储在局部变量中，然后检查返回值是什么并采取相应的行动。",
+    "The above code stores the state of the hat with index 0 on gamepad device slot {}global.PadIndex{} in a local variable {}_dir{}, then checks to see what the returned hat value is and acts accordingly.":"上面的代码将游戏手柄设备插槽 {}global.PadIndex{} 上索引为 0 的十字键的状态存储在本地变量 {}_dir{} 中，然后检查返回的十字键值，并采取相应的操作。",
+    "Up = 1 (binary&nbsp;{}0b0001{})":"上 = 1 (二进制&nbsp;{}0b0001{})",
     "Which gamepad device \"slot\" to check.":"要检查哪个游戏手柄设备 “插槽”。",
-    "Which gamepad hat (or hats) to check for.":"要检查哪顶游戏手柄帽子(或帽子)。",
-    "With this function you can get the current value of a gamepad \"hat\". Each hat value is a bit-mask for the different directions where:":"使用此函数，您可以获得游戏手柄 “帽子” 的当前值。每个帽子值都是不同方向的位掩码，其中："
+    "Which gamepad hat (or hats) to check for (a value from 0 to {}{}gamepad_hat_count{}(device) - 1{})":"要检查哪个 (或哪些) 游戏手柄十字键 (值从 0 到 {}{}gamepad_hat_count{}(device) - 1{})",
+    "Which gamepad hat (or hats) to check for.":"要检查哪顶游戏手柄十字键(或十字键)。",
+    "With this function you can get the current value of a gamepad \"hat\". Each hat value is a bit-mask for the different directions where:":"使用此函数，您可以获得游戏手柄 “十字键” 的当前值。每个十字键值都是不同方向的位掩码，其中：",
+    "With this function you can get the current value of a gamepad \"hat\". The returned hat value is a bitmask for the different directions where:":"使用此函数，您可以获得游戏手柄\"十字键\"的当前值。返回的十字键值是不同方向的位掩码，其中：",
+    "{}{}NOTE{}{}&nbsp;Only values where {}at&nbsp;most 2 bits{} are set can be returned (e.g. a value of 7&nbsp;will never be returned because it is impossible to press up (1), right (2) and down (4) all at the same time).":"{}{}注意{}{} 只有设置了最多 2 位的值才能返回(例如，值 7 永远不会返回，因为不可能同时按上(1)、右(2)和下(4))。",
+    "{}{}NOTE{}{}&nbsp;This function also returns a bitmask for gamepads that support analog input for hats.":"{}{}注意{}{} 此函数还返回支持十字键模拟输入的游戏手柄的位掩码。"
 }
