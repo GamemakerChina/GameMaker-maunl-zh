@@ -1,4 +1,5 @@
 {
+    "Cursor Constant":"光标常量",
     "The above code will change the window cursor to the standard windows drag cursor if the left mouse button has been pressed and it has not already been changed previously.":"上面的代码将把窗口光标改为标准的 Windows 拖动光标，如果鼠标左键被按下并且之前还没有被改变的话。",
     "With this function you can get the current cursor being used in the game window, with the return value being any one of the constants listed below (to set the current cursor being used you can use the function {}{}window_set_cursor(){}{} which also takes these constants):":"使用此函数，您可以在游戏窗口中使用当前光标，返回值为下面列出的任何一个常量(要设置当前使用的光标，您可以使用函数 {}{}window_set_cursor(){}{}，它也采用这些常量)："
 }

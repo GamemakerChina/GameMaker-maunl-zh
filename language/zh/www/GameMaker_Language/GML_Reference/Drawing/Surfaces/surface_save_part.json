@@ -7,5 +7,5 @@
     "The starting y position within the surface.":"表面内的起始y位置。",
     "The width of the part to save.":"要保存的零件的宽度。",
     "This function will save a part of a surface to disc using the given filename. The surface {}must{} be saved as a {}*.png{} format file, and the (x,y) position must be given as local coordinates to the surface, bearing in mind that the top left corner of the surface is always (0,0).":"此函数将使用给定的文件名将表面的一部分保存到光盘。{} 表面 {} 必须保存为 {}*.png{} 格式的文件，并且必须将 (x，y) 位置作为表面的局部坐标指定，同时请记住表面的左上角始终为 (0,0)。",
-    "{}{}NOTE{}{}&nbsp;This function will only work with surfaces that use the&nbsp;{}{}surface_rgba8unorm{}{} (default) surface format.":"{}{}注意{}{} 此函数仅适用于使用 {}{}surface_rgba8unorm{}{} (默认)曲面格式的曲面。"
+    "{}{}NOTE{}{}&nbsp;This function will only work with surfaces that use the&nbsp;{}{}surface_rgba8unorm{}{} (default) surface format.":"{}{}注意{}{} 此函数仅适用于使用 {}{}surface_rgba8unorm{}{} (默认)表面 格式的表面 。"
 }
