@@ -1,5 +1,5 @@
 {
-    "The above code would copy the region of cells from (0,0) to (1,5) of the DS grid indexed in the variable \"grid\" and add them to the cells from position (2,0) of the same DS grid .":"上述代码将从变量\"网格\"中索引的DS网格的(0,0 )到(1,5 )复制单元区域，并将它们从相同DS网格的位置(2,0 )添加到单元中。",
+    "The above code would copy the region of cells from (0,0) to (1,5) of the DS grid indexed in the variable \"grid\" and add them to the cells from position (2,0) of the same DS grid .":"上述代码将从变量\"网格\"中索引的DS网格的(0,0)到(1,5)复制单元区域，并将它们从相同DS网格的位置(2,0)添加到单元中。",
     "The bottom position of the region of cells to copy from the source grid.":"要从源网格复制的单元格区域的底部位置。",
     "The index of the destination grid.":"目标网格的索引。",
     "The index of the source grid.":"源网格的索引。",

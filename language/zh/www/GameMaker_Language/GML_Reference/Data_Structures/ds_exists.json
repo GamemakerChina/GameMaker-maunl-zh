@@ -5,6 +5,7 @@
     "A {}priority{} data structure":"{}优先级{}数据结构",
     "A {}queue{} data structure":"{}队列{}数据结构",
     "A {}stack{} data structure":"{}堆栈{}数据结构",
+    "DS Type Constant":"DS 类型常量",
     "The above code checks the (previously initialised) variable \"ai_grid\" to see if it indexes a DS grid type data structure, and if it does not then it creates one and stores its index in the variable.":"上述代码检查(先前初始化的)变量\"ai_grid\"以查看它是否对DS网格类型的数据结构建立索引，如果不建立索引，则创建一个变量并将其索引存储在变量中。",
     "The type of data structure to check for (see the list of constants above)":"要检查的数据结构类型(参见上面的常量列表)",
     "The variable index to check for the data structure":"用于检查数据结构的变量索引",
