@@ -14,7 +14,7 @@
     "How to Use Time Sources?":"如何使用时间源？",
     "See:&nbsp;{}Built-In Time Sources{}":"请参阅：{}内置时间源{}",
     "Simple Timers":"简单计时器",
-    "The following constants are used with&nbsp;{}Time Source{}&nbsp;functions:":"以下常量用于{}Time Source{}函数：",
+    "The following constants are used with&nbsp;{}Time Source{}&nbsp;functions:":"以下常量用于{}时间源{}函数：",
     "The following functions are used to create and modify&nbsp;{}Time Source{}s:":"下列函数用于创建和修改{}时间源{}：",
     "The following helper functions are provided for converting time periods:":"提供了以下辅助函数用于转换时间段：",
     "The following two functions provide a simpler, shorthand way of creating a&nbsp;{}Time Source{}&nbsp;and stopping it:&nbsp;":"以下两个函数提供了创建{}时间源{}并停止它的更简单的简写方式:",
