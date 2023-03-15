@@ -50,6 +50,7 @@
     "CTRL + Minus(-) / Numpad Minus":"CTRL + 减号(-) / 小键盘减号(-)",
     "CTRL + MouseWheel UP":"CTRL + 向上滚动鼠标滚轮",
     "CTRL + NUMPA D\"+\"":"CTRL + 小键盘\"+\"",
+    "CTRL + NUMPAD \"-\"":"CTRL + 小键盘\"-\"",
     "CTRL + Plus (+)":"CTRL + 加号(+)",
     "CTRL + Plus(+) / Numpad Plus":"CTRL + 加号(+) / 小键盘加号(+)",
     "Cancel current selection / break in progress arc or polygon":"取消当前选择/打断正在进行的圆弧或多边形",

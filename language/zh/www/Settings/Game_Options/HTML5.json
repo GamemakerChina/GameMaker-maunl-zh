@@ -6,7 +6,7 @@
     "For information on the functions that you can use to send analytics data, please see {}here{}.":"有关可用于发送分析数据的函数的信息，请参见{}此处{}。",
     "General":"常规",
     "Graphics":"图形",
-    "HTML5&nbsp;Game Options":"HTML5游戏选项",
+    "HTML5&nbsp;Game Options":"HTML5 游戏选项",
     "Images":"图像",
     "It is worth noting that {}GameMaker{} has a {}Project Image Generator{} tool which can be used to automatically create all the images required for all the different target platforms your game is being compiled to. If you use this tool, you should revise the images created to ensure that they are what you require.":"值得注意的是，{}GameMaker{}具有{}项目图像生成器{}工具，可用于自动创建正在编译游戏的所有不同目标平台所需的所有图像。如果使用此工具，则应修改创建的图像，以确保这些图像符合您的要求。",
     "Social":"社交",

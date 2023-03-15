@@ -1,3 +1,16 @@
 {
-    "{}Version &amp; Account Details{}":"版本和帐户详细信息"
+    "Account Menu":"账户菜单",
+    "Notifications":"通知",
+    "Opening the Notification menu allows you to click on the runtime notification, which takes you to the&nbsp;{}Runtime Feeds Preferences{}&nbsp;where you can choose a newer runtime version.":"打开通知菜单后，您可以单击运行时通知，这会将您带到{}运行时源首选项{}，您可以在其中选择较新的运行时版本。",
+    "The top-right section of the {}GameMaker{} IDE contains details about the current version, a menu for account details and a notifications button.":"{}GameMaker{} IDE 的右上角部分包含有关当前版本的详细信息、账户详细信息菜单和通知按钮。",
+    "This shows you the current IDE and Runtime versions. The Runtime version can be changed from the&nbsp;{}Runtime Feeds Preferences{}.":"这将向您显示当前的 IDE 和 Runtime 版本。可以从{}运行时源首选项{}更改运行时版本。",
+    "{}GX.games{}: This takes you to the GX.games website.":"{}GX.games{}: 这将把您带到 GX.games 网站。",
+    "{}GameMaker Account{}: This takes you to the GameMaker website where you can log into your account and manage it.":"{}GameMaker 账户{}：这会将您带到 GameMaker 网站，在那里您可以登录到您的账户并对其进行管理。",
+    "{}Login{}: This opens the log-in window so you can log into the IDE.":"{}登录{}：这将打开登录窗口，以便您可以登录到 IDE。",
+    "{}Logout{}: This logs you out of the IDE.":"{}注销{}：这将使您从 IDE 中注销。",
+    "{}Opera Account{}: This opens your Opera account on the Opera website, if you logged into the IDE with an Opera account.":"{}Opera 账户{}：如果您使用 Opera 账户登录到 IDE，则此操作将在 Opera 网站上打开您的 Opera 账户。",
+    "{}The Notification button is highlighted when you have a new notification. This notifies you when a new runtime update is available, and when your license expires.":"{}当您收到新通知时，通知按钮会突出显示。这会通知您何时有新的运行时更新可用，以及您的许可证何时到期。",
+    "{}This menu contains the following options:":"{}此菜单包含以下选项：",
+    "{}Update License{}: This updates your license details in the IDE, e.g. if you purchased something from your account, use this option to have the IDE reflect your new exports without having to restart it.":"{}更新许可证{}：这会在 IDE 中更新您的许可证详细信息，例如，如果您是从您的账户购买的东西，则使用此选项可以让 IDE 更新您的新导出，而不必重新启动它。",
+    "{}Version &amp; Account Details{}":"版本和账户详细信息"
 }

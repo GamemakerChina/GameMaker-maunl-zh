@@ -1,4 +1,5 @@
 {
+    "GX.games Preferences":"GX.games 首选项",
     "The GX.games preferences have the following options:":"GX.games 首选项有以下选项：",
     "{}Default Web Server Address{}: Here you can change the default web server address for the GX.games web server.&nbsp;Default value is 127.0.0.1.":"{}默认 Web 服务器地址{}：您可以在此处更改 GX.games Web 服务器的默认 Web 服务器地址。 默认值为 127.0.0.1。",
     "{}Default Web Server Allowed IPs{}: Here you can add in any allowed IPs for the web server and they will be set as default for all devices added through the Target Manager.":"{}默认 Web 服务器允许的 IP{}：您可以在此处添加 Web 服务器的任何允许 IP，这些 IP 将被设置为通过目标管理器添加的所有设备的默认 IP。",

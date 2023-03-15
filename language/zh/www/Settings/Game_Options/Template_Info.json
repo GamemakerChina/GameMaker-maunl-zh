@@ -2,5 +2,6 @@
     "Game Options":"游戏设置",
     "Template Info":"模板信息",
     "This section allows you to set information for your project which is used when it\u0027s {}exported as a template{}.":"此部分允许您设置项目的信息，该信息在将项目{}导出为模板{}时使用。",
+    "{}Any templates you create will be tied to the account you are logged in with. If you later log in through a different account, you won\u0027t be able to access the same custom templates.{}":"{}您创建的任何模板都将绑定到您登录时使用的帐户。如果您稍后通过其他帐户登录，您将无法访问相同的自定义模板。{}",
     "{}Here you can assign an image, icon and description for the template project, however this will only be used when it\u0027s actually exported as a template. You can do that by opening the {}File Menu{}, hovering on \"Export Project\" and selecting \"As Template\".":"{}这里您可以为模板项目分配图像、图标和说明，但是这只有在它实际导出为模板时才会使用。可以通过打开{}文件菜单{} ，将鼠标停留在“导出项目”上并选择“作为模板”来实现。"
 }
