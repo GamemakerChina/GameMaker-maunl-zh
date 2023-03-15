@@ -1,6 +1,6 @@
 {
     "If the specified layer already has an FX struct assigned to it, it will be replaced by the new one.":"如果指定的层已经分配了FX结构，它将被新的替换。",
-    "If you specify a layer that is not a Filter/Effect Layer but is of another type&nbsp;(such as an Instance Layer, Asset Layer, Tile Layer, etc.) then the effect will be applied to the contents of that layer as well as to any layers below it.":"如果指定的图层不是滤镜/效果图层，而是其他类型的图层(如实例图层、资源图层、平铺图层等)，则效果将应用于该图层的内容及其下面的任何图层。",
+    "If you specify a layer that is not a Filter/Effect Layer but is of another type&nbsp;(such as an Instance Layer, Asset Layer, Tile Layer, etc.) then the effect will be applied to the contents of that layer as well as to any layers below it.":"如果指定的图层不是滤镜/效果图层，而是其他类型的图层(如实例图层、资源图层、图块图层等)，则效果将应用于该图层的内容及其下面的任何图层。",
     "The FX struct to apply to the layer":"应用于层的 FX 结构",
     "The above code creates a new FX struct from the&nbsp;{}\"_filter_tintfilter\"{} effect, which is the \"Colour Tint\" filter found in the Room Editor. It assigns a value to its {}\"g_TintCol\"{}&nbsp;parameter which is the colour of the tint, and as it\u0027s a {}vec4{} internally, it takes an array containing four values (corresponding to its red, green, blue and alpha values). The FX struct for the tint is then applied to an FX layer.":"上面的代码从{}\"_filter_tintfilter\"{}效果创建一个新的FX结构，该效果是在房间编辑器中找到的\"色调\"过滤器。它为其{}\" g_TintCol\"{}参数分配一个值，该参数是色调的颜色，由于它在内部是{}vec4{}，它采用包含四个值(对应于其红色、绿色、蓝色和alpha值)的数组。然后，将色调的 FX 结构应用于 FX 层。",
     "The name or ID of the layer to modify":"要修改的层的名称或ID",

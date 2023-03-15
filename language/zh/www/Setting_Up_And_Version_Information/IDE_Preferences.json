@@ -27,5 +27,5 @@
     "{}Image Editor{}":"{}图像编辑器{}",
     "{}Once the Preferences window is open you will have the following different options (this list omits all platform specific preferences, for those, please see {}here{}):":"{}首选项窗口打开后，您将有以下不同的选项(此列表忽略所有特定于平台的首选项，有关这些选项，请参阅{}此处{})：",
     "{}The {}Preferences Window{} is an essential part of {}GameMaker{}, as it is where you can set up and customise your experience using the IDE as well as set up any specific platform SDK\u0027s etc... In this section we cover the IDE specific areas of the preferences window - for the individual target platforms please see the section on {}Target Platform Preferences{}. Note that after changing any preferences from this window you need to click the {}Apply {}button for them to take effect.":"{}{} 首选项窗口 {} 是 {}GameMaker{} 的重要组成部分，因为您可以在其中使用 IDE 设置和定制您的体验，以及设置任何特定的平台 SDK 等。在本节中，我们将介绍首选项窗口的 IDE 特定区域-有关各个目标平台的信息，请参阅 {} 目标平台首选项 {} 一节。请注意，在从此窗口更改任何首选项后，您需要单击 {} 应用 {} 按钮才能使其生效。",
-    "{}Tile Set Editor{}":"{}平铺图块集编辑器{}"
+    "{}Tile Set Editor{}":"{}图块图块集编辑器{}"
 }

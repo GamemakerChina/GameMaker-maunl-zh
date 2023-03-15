@@ -9,5 +9,5 @@
     "{}NOTE{}: Nine Slicing will not work with functions that draw only a part of the sprite or distort it, such as&nbsp;{}{}draw_sprite_part(){} {}or&nbsp;{}{}draw_sprite_pos(){}{}.":"{}注意{}：九宫格对于只绘制精灵的一部分或扭曲精灵的函数，如&nbsp;{}{}draw_sprite_part(){} {}或&nbsp;{}{}draw_sprite_pos(){}{}，将无法工作。",
     "{}Nine Slicing{}&nbsp;(also known as 9-slicing) is a technique used to scale rectangular images for preserving details, making them retain their original form after scaling.":"{}九宫格{} (又称9-slicing)是一种用于缩放矩形图像以保留细节的技术，使其在缩放后保持原有形态。",
     "{}Nine Slicing{}&nbsp;can be enabled on Sprites in the IDE. For more information,&nbsp;see {}The Sprite Editor{}.":"{}九宫格{} 可以在 IDE 中启用精灵。更多信息，请参阅{}精灵编辑器{}。",
-    "{}The {}Tile Mode{} of a slice determines how that slice is displayed when the sprite is scaled. It can only be set for the edge and centre slices (as corner slices are not scaled).":"{}一个片断的{}平铺模式{}决定了当精灵被缩放时，该片断的显示方式。它只能被设置为边缘和中心的片断（因为角落的片断不会被缩放）。"
+    "{}The {}Tile Mode{} of a slice determines how that slice is displayed when the sprite is scaled. It can only be set for the edge and centre slices (as corner slices are not scaled).":"{}一个片断的{}图块模式{}决定了当精灵被缩放时，该片断的显示方式。它只能被设置为边缘和中心的片断（因为角落的片断不会被缩放）。"
 }
