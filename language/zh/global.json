@@ -202,6 +202,7 @@
     "Example 2:":"示例2：",
     "Example 2: Check if all values are present in an array":"示例2：检查数组中是否存在所有值",
     "Example 2: Playing a sound on an emitter (similar to audio_play_sound_on)":"示例 2：在发射器上播放声音 (类似于 audio_play_sound_on)",
+    "Example 2: Pretty Print":"示例2：美化输出",
     "Example 2: Replace the first instance of an object ID with an instance ID":"示例 2：将对象 ID 的第一个实例替换为实例 ID",
     "Example 2: Reserved Strings":"示例2：保留字符串",
     "Example 2: Showing Instances Collided With":"例2：显示与之碰撞的实例",

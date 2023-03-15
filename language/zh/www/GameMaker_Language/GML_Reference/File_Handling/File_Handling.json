@@ -2,7 +2,7 @@
     "Also note that there are some basic file&nbsp;functions for saving games available from the following pages (be aware that these functions are designed for beginners to get a basic save system up and running as quickly as possible, but for more complex projects, you should create your own save system using the functions listed in the sections above):":"还需要注意的是，以下页面中有一些用于保存游戏的基本 文件函数(注意，这些函数是为初学者设计的，以便尽快建立并运行基本的保存系统，但对于更复杂的项目，你应该使用上面列出的函数创建自己的保存系统):",
     "At some point while creating your game it will be necessary to store information externally and be able to retrieve this information. For example, you may wish to store login details, or hi-scores, or maybe the progression of the player through your levels. Whatever the reason, you will need to know how to use the different file functions that are available to you when working with {}GameMaker{}.":"在创造游戏的过程中，有必要在外部存储信息并能够检索这些信息。例如，你可能希望存储登录细节，或最高分列表，或玩家在关卡中的进程。不管是什么原因，你都需要知道在使用 {}GameMaker{} 时如何使用不同的文件函数。",
     "Binary Files":"二进制文件",
-    "Encoding&nbsp;And Hashing":"编码 和 哈希运算",
+    "Encoding&nbsp;And Hashing":"编码和哈希运算",
     "File Directories":"文件目录",
     "File Handling":"文件处理",
     "File System":"文件系统",
