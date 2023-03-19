@@ -1,3 +1,18 @@
 {
-    "Rollback Multiplayer":"回滚多人游戏（Beta版文档有，可酌情翻译）"
+    "After making your first multiplayer game, read the following pages to get a better understanding of the Rollback system and know what you can do with it:":"在制作了第一个多人游戏后，请阅读以下页面，以更好地了解回滚系统，并了解您可以使用它做什么：",
+    "Defining Inputs":"定义输入",
+    "Getting Started":"入门指南",
+    "Player Preferences":"玩家首选项",
+    "Read&nbsp;{}Create a Multiplayer Game{}&nbsp;and follow the steps to create your first multiplayer project.":"阅读{}创建一个多人游戏{}并按照步骤创建您的第一个多人项目。",
+    "Reference pages: {} {}{}Rollback Functions{}{} {}{}Rollback Variables{}{} {} ":"参考页面：{} {}{}Rollback Functions{}{} {}{}Rollback Variables{}{} {} ",
+    "Rollback Constraints":"回滚约束",
+    "Rollback Errors":"回滚错误",
+    "Rollback Events":"回滚事件",
+    "Rollback Functions":"回滚函数",
+    "Rollback Multiplayer":"回滚多人游戏（Beta版文档有，可酌情翻译）",
+    "Rollback System":"回滚系统",
+    "Rollback Variables":"回滚变量",
+    "Rollback multiplayer in GameMaker allows you to quickly set up and create a networked multiplayer game for the GX.games&nbsp;target.":"使用 GameMaker 中的回滚多人游戏，您可以快速设置和创建 GX.games 目标的联网多人游戏。",
+    "This functionality uses GX&nbsp;servers to connect players and synchronise input, so no server set-up is required by the developer to start a new online game.":"此功能使用 GX 服务器连接玩家并同步输入，因此开发人员无需设置服务器即可启动新的在线游戏。",
+    "While the online functionality can only be used with the GX.games target, you can use \"Sync Test\" to test your multiplayer game locally, with random or mock input being applied to the other players. Sync Test is functional on the Windows and macOS targets in addition to GX.games.":"虽然在线功能只能与 GX.games 目标一起使用，但您可以使用\"同步测试\"在本地测试您的多人游戏，并将随机或模拟输入应用于其他玩家。除了 GX.games 外，同步测试还可以在 Windows 和 MacOS 目标上运行。"
 }
