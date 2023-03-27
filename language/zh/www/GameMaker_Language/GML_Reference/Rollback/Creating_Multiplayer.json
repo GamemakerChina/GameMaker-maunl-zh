@@ -39,9 +39,9 @@
     "See the example on {}{}rollback_sync_on_frame(){}{} for doing this properly.":"有关正确操作的信息，请参阅 {}{}rollback_sync_on_frame(){}{} 上的示例。",
     "Sign into&nbsp;{}GX.games{}&nbsp;and set a region in your {}profile settings{}.":"登录 {}GX.games{}，然后在您的{}个人资料设置{}中设置区域。",
     "Since our game has two players, our first player will have the ID {}0{}, and the second player will have the ID {}1{}.":"因为我们的游戏有两个玩家，所以第一个玩家的 ID 为 {}0{}，第二个玩家的 ID 为 {}1{}。",
-    "Start a new project, and create a sprite for your player object. You can import an image or just create a filled square.":"开始一个新项目，并为您的球员对象创建一个精灵。您可以导入图像或只创建一个实心正方形。",
+    "Start a new project, and create a sprite for your player object. You can import an image or just create a filled square.":"开始一个新项目，并为您的玩家对象创建一个精灵。您可以导入图像或只创建一个实心正方形。",
     "Starting the Game":"开始游戏",
-    "The Rollback system will automatically create player instances when all players have joined, as long as you\u0027re using {}{}rollback_define_player(){}{}.":"回滚系统会在所有玩家都加入后自动创建播放器实例，只要您使用的是 {}{}rollback_define_player(){}{}。",
+    "The Rollback system will automatically create player instances when all players have joined, as long as you\u0027re using {}{}rollback_define_player(){}{}.":"回滚系统会在所有玩家都加入后自动创建玩家实例，只要您使用的是 {}{}rollback_define_player(){}{}。",
     "The code above will create two instances of {}obj_player{} at the top-left corner of the room, but they will not yet be controllable.":"上面的代码将在房间的左上角创建 {}obj_player{} 的两个实例，但它们还不是可控制的。",
     "The second player is moving erratically on its own, which is a feature of the Rollback system. It automatically provides random values every frame for all defined inputs, as a basic form of test for your game.":"第二个玩家自己不规律地移动，这是回滚系统的一个特征。它自动为所有定义的输入提供每一帧的随机值，作为游戏的基本测试形式。",
     "This page will take you through the detailed steps for creating your first multiplayer game.{} {} For information on the Rollback system, read&nbsp;{}Rollback System{}.{} {} For details on all Rollback functions, read&nbsp;{}Rollback Functions{}. ":"本页将带您完成创建第一款多人游戏的详细步骤。{}{}有关回滚系统的信息，请阅读{}回滚系统{}。{}{}有关所有回滚功能的详细信息，请阅读{}回滚功能{}。",
@@ -61,5 +61,5 @@
     "{}You can open both windows side-by-side by dragging and resizing them.":"{}您可以通过拖动和调整大小来并排打开这两个窗口。",
     "{}obj_game{}: This will manage your multiplayer game.":"{}obj_game{}: 这将管理您的多人游戏。",
     "{}obj_player{}: This will be your actual player object. Each connected player will have their own instance of this object that they can control.{} {} Assign your player sprite to the player object. ":"{}obj_player{}: 这将是您的实际玩家对象。每个连接的玩家都将拥有他们可以控制的该对象的自己的实例。{}{}将您的玩家精灵分配给玩家对象。",
-    "{}{}player_id{}{}&nbsp;is a built-in instance variable that stores the ID of the player instance.":"{}{}player_id{}{} 是一个内置的实例变量，存储播放器实例的ID。"
+    "{}{}player_id{}{}&nbsp;is a built-in instance variable that stores the ID of the player instance.":"{}{}player_id{}{} 是一个内置的实例变量，存储玩家实例的ID。"
 }
