@@ -54,12 +54,8 @@ jobs:
       - name: Deploy to static branch
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
+          repository-name: GamemakerChina/manual-static
           token: ${{ secrets.ACCESS_TOKEN }}
-          branch: static
+          branch: main
           folder: build
           
-      - name: Upload logs to artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: logs
-          path: GameMakerManualExport/logs.txt
