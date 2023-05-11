@@ -54,7 +54,7 @@ jobs:
       - name: Deploy to plugged branch
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
-          repository-name: GamemakerChina/manual-static
+          repository-name: GamemakerChina/manual-plugged
           token: ${{ secrets.ACCESS_TOKEN }}
           branch: main
           folder: build
