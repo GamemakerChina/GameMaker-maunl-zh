@@ -51,6 +51,10 @@ jobs:
           pnpm run clean:temp
           cd ..
 
+      - name: Copy CNAME files
+        run: |
+          cp patch/CNAME.plugged CNAME
+
       - name: Deploy to plugged branch
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:

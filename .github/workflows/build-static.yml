@@ -51,6 +51,10 @@ jobs:
           pnpm run clean:temp
           cd ..
 
+      - name: Copy CNAME files
+        run: |
+          cp patch/CNAME.static CNAME
+
       - name: Deploy to static branch
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
