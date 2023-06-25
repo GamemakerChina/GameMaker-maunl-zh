@@ -87,15 +87,7 @@ qqq_translate_set=function(str){
 
 }
 
-qqq_translate=async function (engine){
-	var old=$(".qqq_menu .old").val()
-
-	//翻译前转义空格的转义
-	old=old.replace(/\&nbsp\;/g," ")
-	var json=await translate(old,engine).catch((e) => {})
-	if(!json){alert("接口报空,请检查token")}
-	var str=json.data.target
-
+qqq_translate_patch=function(str){
 	//翻译后的内容清除{}周遭空格
 	str=str.replace(/\} */g,"}")
 	str=str.replace(/ *{/g,"{")
@@ -114,7 +106,42 @@ qqq_translate=async function (engine){
 	str=str.replace(/ ?；/g,";")
 	str=str.replace(/& ?/g,"&")
 	
+	return str
+}
 
+//复合翻译引擎
+qqq_translate=async function (engine){
+	var old=$(".qqq_menu .old").val()
+
+	//翻译前转义空格的转义
+	old=old.replace(/\&nbsp\;/g," ")
+	var json=await translate(old,engine).catch((e) => {})
+	if(!json){alert("接口报空,请检查token")}
+	var str=json.data.target
+
+	//修正返回内容
+	str=qqq_translate_patch(str)
+	
+
+	//console.log(str)
+
+	qqq_translate_set(str)
+
+}
+
+//腾讯交互翻译
+qqq_translate_tts=async function (engine){
+	var old=$(".qqq_menu .old").val()
+
+	//翻译前转义空格的转义
+	old=old.replace(/\&nbsp\;/g," ")
+	var str=await translate_tts(old).catch((e) => {})
+	if(!str){alert("接口挂了(悲")}
+
+
+	//修正返回内容
+	str=qqq_translate_patch(str)
+	
 	//console.log(str)
 
 	qqq_translate_set(str)
@@ -239,16 +266,19 @@ html=`<div class="hide">
 
 		<div class="layui-col-md6">
 		old(content)
-		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_caiyun()>彩云</button>
-		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("deepl")>DeepL</button>
-		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("lang-x")>LangX</button>
-		<br>
-		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("aws")>AWS</button>
-		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("ali")>阿里</button>
-		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("xinyi")>新译</button>
-		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("xunfei")>讯飞</button>
-		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("modern-mt")>modern-mt</button>
-		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("huoshan")>火山</button>
+		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_tts()>腾讯交互</button>
+		<!--
+			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_caiyun()>彩云</button>
+			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("deepl")>DeepL</button>
+			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("lang-x")>LangX</button>
+			<br>
+			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("aws")>AWS</button>
+			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("ali")>阿里</button>
+			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("xinyi")>新译</button>
+			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("xunfei")>讯飞</button>
+			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("modern-mt")>modern-mt</button>
+			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("huoshan")>火山</button>
+		-->
 		<textarea oninput="qqq_hight_light()" class="lr input old" contenteditable="true"></textarea>
 		</div>
 

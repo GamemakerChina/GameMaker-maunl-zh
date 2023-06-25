@@ -66,3 +66,28 @@ translate_caiyun=function(str){
 	if !result return null
 	return result[["target"]]
 }
+
+
+//腾讯交互翻译tencentTranSmart
+translate_tts=function(str){
+	import inet.http;
+	import web.json
+	
+	var url=//https://transmart.qq.com/api/imt
+	
+	var http = inet.http();
+	var data=//{"header":{"fn":"auto_translation","client_key":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"en","text_list":["测试"]},"target":{"lang":"zh"}}
+	
+	data=web.json.parse(data)
+	data.source.text_list={[1]:str}
+	data=web.json.stringify(data)
+	
+	var ret=http.post(url,data)
+	if ret{
+		ret=web.json.parse(ret)
+		return ret.auto_translation[1]
+	}else{
+		return null
+	}
+}
+var http =inet.http();

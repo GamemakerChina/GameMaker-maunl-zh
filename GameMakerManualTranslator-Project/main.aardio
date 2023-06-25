@@ -176,6 +176,12 @@ theView.export({
 		if !ret ret=""
 		return ret
 	}
+	translate_tts=function(str){
+		var ret=translate_tts(str)
+		//console.log(ret)
+		if !ret ret=""
+		return ret
+	}
 })
 
 
