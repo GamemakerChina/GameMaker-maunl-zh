@@ -1,0 +1,16 @@
+{
+    "A section struct requires the following format:&nbsp;":"节结构需要以下格式：&nbsp;",
+    "An array containing section and option structs as detailed above":"包含节和选项结构的数组，如上文所述",
+    "An option struct requires the following format:&nbsp;":"选项结构需要以下格式：&nbsp;",
+    "Depending on the type, you must provide extra properties to the option struct:&nbsp;":"根据类型的不同，必须为选项结构提供额外的属性：&nbsp;",
+    "Each entry in this array is either a {}section{} or an {}option{}.":"此数组中的每个条目都是{}节{}或{}选项{}。",
+    "Option Struct":"选项结构",
+    "Section Struct":"节结构",
+    "Settings Array":"设置数组",
+    "The array should have the following format:&nbsp;":"数组应具有以下格式：&nbsp;",
+    "The code above shows an example of the&nbsp;{}{}wallpaper_set_config{}{} function with two sections. The first section contains three options (a range and two booleans) and the second section contains two options (a colour and a range).":"上面的代码显示了&nbsp;{}{}wallpaper_set_config{}{}函数的示例，其中包含两个部分。 第一部分包含三个选项（一个范围和两个布尔值），第二部分包含两个选项（一个颜色和一个范围）。",
+    "The following types are allowed for the type property: {}\"range\"{}, {}\"boolean\"{}, {}\"string\"{}, {}\"string_multiline\"{}, {}\"color\"{}&nbsp;(or {}\"colour\"{}),&nbsp;{}\"file\"{} and {}\"folder\"{}.":"type属性允许使用以下类型：<br>{}“range”{}、{}“boolean”{}、{}“string”{}、{}“string_multiline”{}、{}“color”{}&nbsp;（或{}“colour”{}）、&nbsp;{}“file”{}和{}“folder”{}。",
+    "This example initialises the array first in a local variable, and passes that into the function call. You can skip the variable stuff and initialise the array in the function arguments directly if you wish to do so.":"此示例首先在局部变量中初始化数组，然后将其传递到函数调用中。 如果你愿意，你可以跳过变量stuff，直接在函数参数中初始化数组。",
+    "This function sends the configuration for your wallpaper to the companion app. It takes a \"settings\" array containing your options/sections, where each option/section is a {}struct{}.":"此功能将壁纸的配置发送到配套应用程序。它接受一个包含 选项/节 的“settings”数组，其中每个 选项/节 都是一个{}结构{}。",
+    "{}The {}children{} property in a section struct is an {}array.{}&nbsp;Each entry in this array is either another section&nbsp;struct&nbsp;or an option struct.{}":"{}节结构中的{}children{}属性是{}数组。{}&nbsp;此数组中的每个条目都是另一个节&nbsp;结构体&nbsp;或选项结构体。{}"
+}
