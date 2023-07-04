@@ -2,5 +2,6 @@
     "The Windows preferences have the following options:":"Windows 首选项具有以下选项：",
     "Windows&nbsp;Preferences":"Windows 首选项",
     "{}Default packaging type{}: When building a final Windows executable package, you can choose between creating either an installer (using {}NSIS{}) or a compressed {}ZIP {}file that will have the game and any additional files within it. By default you will be shown a dialog to choose between these two options on compile, but you can set this preference to always use one or the other. Note that when this option is set to {}Show Dialog{}, in the actual dialog&nbsp;window that pops up on compile, enabling \"Remember Packaging Option\" will set this preference to the option you select.":"{}默认打包类型{}：构建最终的 Windows 可执行程序包时，您可以选择创建安装程序(使用 {}NSIS{}) 或压缩的 {}ZIP{} 文件，该文件将包含游戏和其中的任何其他文件。默认情况下，会显示一个对话框让您在编译时在这两个选项之间进行选择，但您可以将此首选项设置为始终使用其中一个。请注意，当此选项设置为{}显示对话框{}时，在编译时弹出的实际对话框和窗口中，启用\"记住打包选项\"会将此首选项设置为您选择的选项。",
-    "{}Visual Studio location:{} This option is for pointing {}GameMaker{} to the Microsoft Visual Studio installation on the build PC.":"{}Visual Studio 位置 {}：此选项用于将 {}GameMaker{} 指向生成 PC 上的 Microsoft Visual Studio 安装位置。"
+    "{}Visual Studio location:{} This option is for pointing {}GameMaker{} to the Microsoft Visual Studio installation on the build PC.":"{}Visual Studio 位置 {}：此选项用于将 {}GameMaker{} 指向生成 PC 上的 Microsoft Visual Studio 安装位置。",
+    "{}Windows{}&nbsp;Preferences":"{}Windows{}&nbsp;首选项"
 }

@@ -18,5 +18,6 @@
     "when the game is started from the OS dashboard by selecting a challenge":"当游戏从操作系统仪表板开始时，通过选择一个挑战",
     "when you complete a challenge":"当你完成一项挑战",
     "when your game is launched from the OS dashboard":"当您的游戏从操作系统仪表板启动时",
+    "{}Social{}":"{}社交{}",
     "{}This event can only be triggered by the {}callback{}{}s{} from various specific {}Social Functions{}&nbsp;and {}Xbox Live Functions{} and will return a {}DS Map{}&nbsp;stored in the variable {}{}async_load{}{}, containing different key/value pairs depending on the callback from the function that has triggered the event.":"{} 此事件只能由来自各种特定 {5} 社交函数 {6} 和 {7}Xbox Live 函数 {8} 的 {} 回调 {}{}{} 触发，并将返回存储在变量 {}{}async_load{}{} 中的 {9}DS Map{10}，其中包含不同的键 / 值对，具体取决于触发事件的函数的回调。"
 }

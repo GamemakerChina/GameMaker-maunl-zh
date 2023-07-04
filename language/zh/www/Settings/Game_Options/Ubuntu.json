@@ -18,5 +18,6 @@
     "{}Start Fullscreen{}: If this is checked, the game will start in fullscreen mode otherwise it will start windowed. This is off by default.":"{}启动全屏{} : 如果选中此选项，游戏将在全屏模式下启动。默认关闭。",
     "{}The graphics options are those that you should configure to determine how your game will use the graphics card of your target Ubuntu machine. The following options are included for you to modify:":"{}图形选项是那些您应该配置来确定您的游戏将如何使用您的目标 Ubuntu 机器的显卡。下列选项可供您修改:",
     "{}This tab is where you set the name of your game as it is to be displayed while running, and can also supply a contact email and a description (short and long), as well as a URL for the homepage of the game or the developer.":"{}这个选项卡是你设置游戏名称的地方，因为它将在运行时显示，也可以提供一个联系电子邮件和描述(短和长) ，以及一个游戏或开发者的网址主页。",
+    "{}Ubuntu{}&nbsp;Game Options":"{}Ubuntu{}&nbsp;游戏设置",
     "{}Use synchronization to avoid tearing{}: This toggles {}v-sync{} on or off. Note, that if you have a game with a room speed of 120 and the player has a monitor with a refresh rate of 60, turning this option on will lock your game speed to 60 too. This is off by default.":"{}使用同步以避免撕裂{}：这将打开或关闭{}v-sync{}。请注意，如果您有一个房间速度为120的游戏，并且玩家有一个刷新率为60的显示器，则启用此选项也会将您的游戏速度锁定为60。默认情况下，此选项处于禁用状态。"
 }

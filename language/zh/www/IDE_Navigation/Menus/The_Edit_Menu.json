@@ -2,6 +2,7 @@
     "All results from using the Search &amp; Replace window will be shown in the {}Search Output Window{}&nbsp;at the bottom of the IDE. Each result can be {}&nbsp;double-clicked to open the asset with the term in the current workspace and pan to it, ready for editing.":"使用搜索和替换窗口的所有结果将显示在 IDE 底部的{}搜索输出窗口{}中。可以{}双击每个结果，以在当前工作区中打开带有术语的资源并平移到该资源，以供编辑。",
     "Pressing the {}Escape {}key while this window is open will clear the selected field, however if that field is already empty, then it will close the window.":"在此窗口打开时按下{}ESC{}键将清除选定的字段，但如果该字段已为空，则它将关闭窗口。",
     "Searches can be general or you can refine them using the options below the search term inputs:":"搜索可以是常规搜索，也可以使用搜索词输入下面的选项进行优化：",
+    "The Edit Menu":"编辑菜单",
     "The edit menu is where you can use the general edition tools of the {}GameMaker{} interface. The available options are:":"在编辑菜单中，您可以使用 {}GameMaker{} 界面的常规编辑工具。可用选项包括：",
     "When you select Search &amp; Replace from the Edit menu, it will open the following window:":"当您从编辑菜单中选择搜索和替换时，将打开以下窗口：",
     "You can apply a {}filter {}on the search results based on the different asset types in the asset browser. By default this is set to \"Everything\", but clicking on this will open the following menu where you can check or uncheck assets to be included in the search:":"您可以根据资源浏览器中的不同资源类型对搜索结果应用{}过滤器{}。默认情况下，此选项设置为\"每一个\"，但单击此选项将打开以下菜单，您可以在其中选中或取消选中要包括在搜索中的资源：",

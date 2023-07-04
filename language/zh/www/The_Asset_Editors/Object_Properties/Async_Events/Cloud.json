@@ -12,5 +12,6 @@
     "The exact meaning of the returned \"status\" map entry is explained in the following table:":"下表解释了返回的\"状态\"地图条目的确切含义：",
     "You have not successfully logged in to the given Cloud Service":"您尚未成功登录到给定的云服务",
     "data from {}cloud_string_save(){} or {}cloud_file_save(){} was successfully uploaded to the cloud":"来自 {}cloud_string_save(){} 或 {}cloud_file_save(){} 的数据已成功上传到云端",
+    "{}Cloud{}":"{}云{}",
     "{}The Cloud Event is one that is triggered by the call back from one of the {}{}cloud_*(){}{}&nbsp;functions, like {}{}cloud_synchronise(){}{}. It actually generates a DS map that is exclusive to this event and is stored in the special variable {} {}async_load{} {} (please see the individual functions for code examples that explain the use of this event in further detail). This DS map has the following structure:":"{} 云事件是由 {}{}cloud_*(){}{} 函数之一的回调触发的事件，像 {}{}cloud_synchronise(){}{}. 它实际上生成了一个 DS 映射，该映射对此事件是独占的，并存储在特殊变量 {}{}async_load{}{}( 请参阅各个函数以获取解释此用法的代码示例事件的进一步细节)。这个 DS 地图有以下结构："
 }

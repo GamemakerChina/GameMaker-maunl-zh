@@ -1,0 +1,21 @@
+{
+    "At the root is the main project file, with a {}*.yyp{}&nbsp;extension. It&nbsp;describes the resources in the project and other meta data specific to it.":"在根目录的是主项目文件，扩展名为 {}*.yyp{} 。它描述了项目中的资源以及特定于该项目的其他元数据。",
+    "Format Basics":"基本格式",
+    "GMEZ - Compressed Marketplace Asset 1.x; older again formatted marketplace asset. These will be upgraded on import.":"GMEZ - 压缩市场资源 1.x，较旧的、再次格式化的市场资源。这些将在导入时进行升级。",
+    "GMX - Resource File 1.x; older formatted resource file. project.gmx are project files and will be upgraded on import. Importing GMX resources as standalone is not supported.":"GMX - 资源文件 1.x，较旧的格式化资源文件。project.gmx 是项目文件，将在导入时升级。不支持将 GMX 资源作为独立资源导入。",
+    "Local Asset Packages":"本地资源包",
+    "Next to it is another file with the same name, but a {}*.resource_order{} extension instead. This file stores the order of groups and assets in&nbsp;{}The Asset Browser{}&nbsp;used when the filter is set to&nbsp;{}Custom Order{}.":"接下来这是另一个同名的文件，但扩展名为 {}*.resource_order{}。此文件将组和资源的顺序存储在{}资源浏览器{}中，当过滤器设置为{}自定义顺序{}时使用。",
+    "The .resource_order File":".resource_order 文件",
+    "The YYP Project File":"YYP 项目文件",
+    "The following is an overview of the file formats used by different&nbsp;{}GameMaker{}&nbsp;versions:&nbsp;":"以下是不同版本的 {}GameMaker{} 使用的文件格式的概述：",
+    "These are created and imported from (part of) a project\u0027s contents using {}Create Local Package{} and {}Import Local Package{} respectively in&nbsp;{}The Tools Menu{}.":"这些文件是使用{4}工具菜单{5}中的{}创建本地包{}和{}导入本地包{}从项目内容(部分)创建和导入的。",
+    "These are resource files; they store information on individual assets in a&nbsp;{}GameMaker{} project. They describe the data for the resource and any other files belonging to the resource (e.g. scripts, shaders, images and audio files). These data are stored in a JSON-like format.":"这些是资源文件，它们存储有关 {}GameMaker{} 项目中各个资源的信息。它们描述资源的数据以及属于该资源的任何其他文件 (例如，脚本、着色器、图像和音频文件)。这些数据以类似 JSON 的格式存储。",
+    "This page contains details on the project format used by&nbsp;{}GameMaker{}.":"本页面包含 {}GameMaker{} 使用的项目格式的详细信息。",
+    "This type of file stores a compressed project export, created via the&nbsp;{}Export Project{} &gt; {}YYZ{} option in {}The File Menu{}. Depending on the version of&nbsp;{}GameMaker{}, the compression method used may vary.":"此类型的文件存储压缩项目导出，该项目导出是通过{}文件菜单{}中的{}导出项目{} > {}YYZ{} 选项创建的。根据 {}GameMaker{} 的版本不同，使用的压缩方法可能会有所不同。",
+    "YYMP - Compressed Marketplace Asset &lt; 2.3; older formatted marketplace asset stored in a compressed manner. These will be upgraded on import.":"YYMP - 压缩市场资源 &lt; 2.3，以压缩方式存储的较旧格式的市场资源。这些将在导入时进行升级。",
+    "YYMPS - Compressed Marketplace Asset 2.3+; a file containing a marketplace asset stored in a compressed manner.":"YYMPS - 压缩市场资源 2.3+，包含以压缩方式存储的市场资源的文件。",
+    "YYZ Files":"YYZ 文件",
+    "{}Project Format{}":"{}项目格式{}",
+    "{}YY Files{}":"{}YY 文件{}",
+    "{}{}TIP{}{}&nbsp;When using version control, you can e.g. add this&nbsp;file to .gitignore so each user of the project can have their own custom ordering in&nbsp;{}The Asset Browser{}.":"{}{}提示{}{} 使用版本控制时，您可以将此文件添加到 .gitignore 文件中，以便项目的每个用户都可以在{}资源浏览器{}中拥有自己的定制顺序。"
+}
