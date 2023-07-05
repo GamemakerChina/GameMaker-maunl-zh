@@ -24,5 +24,6 @@
     "When you have a {}network_type_data{}&nbsp;type event, which signifies that your network has received data, the map created will have the following keys:":"{}network_type_data{}类型的事件表示您的网络已收到数据时，创建的映射将具有以下键：",
     "When you have an event of the type {}network_type_connect{} or {}network_type_disconnect{}, the {}async_load {}map will have the following additional key:":"{}网络类型连接{}或{}网络类型断开{}类型的事件时，{}async_load{}映射将具有以下附加密钥：",
     "{}NOTE{}&nbsp;The buffer created is only valid in these events and will be automatically freed when the event is over.":"{}注意{}创建的缓冲区仅在这些事件中有效，并将在事件结束时自动释放。",
-    "{}Networking{}":"{}网络{}"
+    "{}Networking{}":"{}网络{}",
+    "{}{}NOTE{}{}&nbsp;The buffer created is only valid in these events and will be automatically freed when the event is over.":"{}{}注意{}{} 创建的缓冲区仅在这些事件中有效，并将在事件结束时自动释放。"
 }

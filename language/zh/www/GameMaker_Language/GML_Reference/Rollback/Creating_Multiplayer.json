@@ -35,7 +35,7 @@
     "Rollback Constraints":"回滚约束",
     "Rollback Events":"回滚事件",
     "Rollback System":"回滚系统",
-    "Run the game through the {}GX.games{} target. When the Rollback system begins, it creates a new \"room\": not a GameMaker room asset, but a {}virtual room{} in which the players will play together.":"通过 {}GX.games{} 目标运行游戏。当回滚系统开始时，它会创建一个新的\"房间\"：不是一个 GameMaker 房间资产，而是一个虚拟房间，玩家将在其中一起游戏。",
+    "Run the game through the {}GX.games{} target. When the Rollback system begins, it creates a new \"room\": not a GameMaker room asset, but a {}virtual room{} in which the players will play together.":"通过 {}GX.games{} 目标运行游戏。当回滚系统开始时，它会创建一个新的\"房间\"：不是一个 GameMaker 房间资源，而是一个虚拟房间，玩家将在其中一起游戏。",
     "See the example on {}{}rollback_sync_on_frame(){}{} for doing this properly.":"有关正确操作的信息，请参阅 {}{}rollback_sync_on_frame(){}{} 上的示例。",
     "Sign into&nbsp;{}GX.games{}&nbsp;and set a region in your {}profile settings{}.":"登录 {}GX.games{}，然后在您的{}个人资料设置{}中设置区域。",
     "Since our game has two players, our first player will have the ID {}0{}, and the second player will have the ID {}1{}.":"因为我们的游戏有两个玩家，所以第一个玩家的 ID 为 {}0{}，第二个玩家的 ID 为 {}1{}。",

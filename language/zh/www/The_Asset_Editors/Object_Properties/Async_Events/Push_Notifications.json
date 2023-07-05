@@ -2,5 +2,6 @@
     "Push Notifications":"推送通知",
     "This event is exclusively used by extensions (such as the {}Firebase Cloud Messaging{} extension), so please refer to your extension\u0027s documentation for instructions on using this event.":"此事件仅由扩展程序(例如{}Firebase Cloud Message{}扩展程序)使用，因此请参阅扩展程序的留档以获取有关使用此事件的说明。",
     "{}Push Notifications{}":"{}推送通知{}",
-    "{}The Push Notification Event is triggered by the {}callback{} from {}{}push notifications{}{} on the device OS, either from a local source or a remote source. It generates a {}DS Map{} that is exclusive to this event and is stored in the special variable {} {}async_load{}{}.":"{} 推送通知事件由设备操作系统上来自 {}{} 推送通知 {}{} 的 {1} 回调 {2} 触发，无论是来自本地源还是远程源。它生成此事件独占的 {}DS Map{}，并存储在特殊变量 {}{}async_load{}{} 中。"
+    "{}The Push Notification Event is triggered by the {}callback{} from {}{}push notifications{}{} on the device OS, either from a local source or a remote source. It generates a {}DS Map{} that is exclusive to this event and is stored in the special variable {} {}async_load{}{}.":"{}推送通知事件由设备操作系统上来自{}{}推送通知{}{}的{1}回调{2}触发，无论是来自本地源还是远程源。它生成此事件独占的 {}DS Map{}，并存储在特殊变量 {}{}async_load{}{} 中。",
+    "{}The Push Notification Event is triggered by the {}callback{} from {}{}push notifications{}{} on the device OS, either from a local source or a remote source. It generates a {}DS Map{} that is exclusive to this event and is stored in the special variable {}{}async_load{}{}.":"{}推送通知事件由设备操作系统上来自{}{}推送通知{}{}的{1}回调{2}触发，无论是来自本地源还是远程源。它生成此事件独占的 {}DS Map{}，并存储在特殊变量 {}{}async_load{}{} 中。"
 }
