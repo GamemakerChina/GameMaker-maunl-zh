@@ -1,0 +1,9 @@
+{
+    "Also see:&nbsp;{}{}lin_to_db{}{}":"另请参阅:&nbsp;{}{}lin_to_db{}{}",
+    "Changes in gain can be expressed in dB. This corresponds better to how we perceive changes in amplitude (human perception&nbsp;of sound&nbsp;is not linear).":"增益的变化可以用分贝表示。这更符合我们对幅度变化的感知方式(人类对声音的感知不是线性的)。",
+    "The above code calculates the linear gain reduction corresponding to a reduction&nbsp;of 3dB. The result&nbsp;of the conversion&nbsp;is stored in a temporary variable {}_lin{}.":"上面的代码计算的线性增益减少对应于 3dB 的减少。转换的结果 存储在临时变量 {}_lin{} 中。",
+    "The conversion from a gain expressed in dB to a linear gain is done using the following formula: {}gain_linear = power(10, gain_db/20);{}":"使用以下公式完成从以分贝表示的增益到线性增益的转换：{}gain_linear = power(10, gain_db/20);{}",
+    "The value to convert":"要转换的值",
+    "This function converts a gain expressed in decibels (dB) to a linear gain, which can be used with functions such as&nbsp;{}{}audio_sound_gain{}{}.":"此函数将以分贝(分贝)表示的增益转换为线性增益，可与 {}{}audio_sound_gain{}{} 等函数一起使用。",
+    "{}{}TIP{}{}&nbsp; 0dB means no change in gain (i.e. a linear gain of 1). An increase&nbsp;of 6dB roughly corresponds to a doubling of the linear gain, a decrease&nbsp;of 6dB (i.e. an increase of -6dB) to a halving of it.":"{}{}提示{}{} 0dB 表示增益不变(即线性增益为 1)。增加 6dB 大致相当于线性增益的两倍，减少 6dB (即增加 -6dB) 到其减半。"
+}

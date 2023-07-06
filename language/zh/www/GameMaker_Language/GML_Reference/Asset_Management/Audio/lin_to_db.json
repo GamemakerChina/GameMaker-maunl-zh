@@ -1,0 +1,7 @@
+{
+    "Changes in gain can be expressed in dB. This corresponds better to how we perceive changes in amplitude (human perception&nbsp;of sound&nbsp;is not linear).":"增益的变化可以用分贝表示。这更符合我们对幅度变化的感知方式(人类对声音的感知不是线性的)。",
+    "The above code calculates the gain in dB corresponding to a linear gain&nbsp;of 1.5. The result&nbsp;of the conversion is stored in a temporary variable {}_db{}.":"上面的代码以分贝为单位计算与 1.5 的线性增益对应的增益。转换的结果存储在临时变量 {}_db{} 中。",
+    "The conversion from a gain expressed in dB to a linear gain is done using the formula: {}gain_db = 20 * log10(gain_linear);{}":"从以分贝表示的增益到线性增益的转换使用公式：{}gain_db = 20 * log10(gain_linear);{}",
+    "The value to convert":"要转换的值",
+    "This function converts a linear gain to a gain expressed in decibels (dB). You get a linear gain value from functions such as&nbsp;{}{}audio_sound_get_gain{}{}.":"此函数将线性增益转换为以分贝(分贝)表示的增益。您可以从 {}{}audio_sound_get_gain{}{} 等函数获得线性增益值。"
+}
