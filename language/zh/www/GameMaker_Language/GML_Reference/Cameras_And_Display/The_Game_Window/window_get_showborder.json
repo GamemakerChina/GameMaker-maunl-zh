@@ -1,0 +1,6 @@
+{
+    "It&nbsp;corresponds to the {}Borderless&nbsp;Window{} option in the Windows&nbsp;{}Graphics{}&nbsp;options; it gets the value of that checkbox {}in-game{}.":"它对应于 Windows {2}图形{3}选项中的{}无边框和窗口{}选项，它会在{}游戏中{}获取该复选框的值。",
+    "The above code gets whether the window border is shown and stores the result in a temporary variable {}_border_shown{}.":"上面的代码获取是否显示窗口边框并将结果存储在临时变量 {}_border_shown{} 中。",
+    "This function gets whether the game is shown in a borderless window or not.":"此函数用于获取游戏是否显示在无边框窗口中。",
+    "{}{}NOTE{}{}&nbsp;This function only works on Windows.":"{}{}注意{}{} 此函数仅适用于Windows。"
+}

@@ -1,0 +1,7 @@
+{
+    "It corresponds to the {}Borderless&nbsp;Window{} option in the Windows&nbsp;{}Graphics{}&nbsp;options; it changes the value of that checkbox {}in-game{}.":"它对应于 Windows {2}图形{3}选项中的{}无边框和窗口{}选项，它会在{}游戏中{}更改该复选框的值。",
+    "The above line of code toggles the window border.&nbsp;":"上面的代码行用于切换窗口边框。",
+    "This function sets whether the game is shown in a borderless window or not.":"此功能用于设置游戏是否显示在无边框窗口中。",
+    "Whether to show the window border":"是否显示窗口边框",
+    "{}{}NOTE{}{}&nbsp;This function only works on Windows.":"{}{}注意{}{} 此函数仅适用于Windows。"
+}

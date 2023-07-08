@@ -1,0 +1,14 @@
+{
+    "Struct":"结构",
+    "The above code first creates a temporary variable {}_inventory{}&nbsp;that contains a mapping&nbsp;of an inventory item to the number&nbsp;of that item held in the inventory.&nbsp;{}{}struct_foreach{}{}&nbsp;is then called to display all the amounts using a debug message.":"上面的代码首先创建一个临时变量{}_inventory{} ，该变量包含库存项目到库存. {}{}struct_foreach{}{} 中保存的该项目编号的映射，然后调用该变量以使用调试消息显示所有金额。",
+    "The callback function to pass into this function should take the following arguments:&nbsp;":"要传递到此函数的回调函数应采用以下参数： ",
+    "The function to execute on each member of the struct":"要在结构的每个成员上执行的函数",
+    "The name&nbsp;of the struct member":"结构成员的名称",
+    "The struct to use":"要使用的结构",
+    "The value assigned to the struct member":"分配给结构成员的值",
+    "This callback function should not return a value. It simply executes the function on all elements in the given range.":"此回调函数不应返回值。它只是对给定范围内的所有元素执行该函数。",
+    "This function calls the provided callback function&nbsp;on each member&nbsp;of the struct.":"此函数对结构的每个成员调用提供的回调函数。",
+    "{}Callback Function{}{}Callback Function{}":"{}回调函数{}{}回调函数{}",
+    "{}{}Function{}{}&nbsp;or&nbsp;{}{}Method{}{}":"{}{}函数{}{}或{}{}方法{}{}",
+    "{}{}NOTE{}{} The member name and value are available in the callback function, but cannot be modified through it.":"{}{}注意{}{} 成员名称和值在回调函数中可用，但不能通过回调函数修改。"
+}
