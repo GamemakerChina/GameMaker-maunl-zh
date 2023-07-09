@@ -1,8 +1,13 @@
 {
     "The above code will get the memory address of the buffer indexed in the variable \"buff_model\" and then get the memory address for the end of the buffer using the {}buffer_get_size(){} function, storing both values in local variables for further use.":"以上代码将获取变量buff_model中索引的缓冲区内存地址，然后使用{}buffer_get_size(){}函数获取缓冲区末尾的内存地址，并将这两个值存储在进一步使用。",
+    "The above code will get the memory address of the buffer indexed in the variable {}buff_model{} and then get the memory address for the end of the buffer using the&nbsp;{}{}buffer_get_size{}{}&nbsp;function, storing both values in local variables for further use.":"上面的代码将获取在变量{}buff_model{}中索引的缓冲区的内存地址，然后使用{}{}buffer_get_size{}{}函数获取缓冲区末尾的内存地址，将两个值存储在局部变量中以供进一步使用。",
     "The index of the buffer to use.":"要使用的缓冲区的索引。",
+    "This function gets a {}pointer{} to the raw, {}aligned{} buffer address.":"此函数获取指向原始{}对齐{}缓冲区地址的{}指针{}。",
+    "This is primarily for use with extensions as you can pass this value through to them, allowing them to access the buffer data.":"这主要用于扩展，因为您可以将此值传递给它们，允许它们访问缓冲区数据。",
+    "Usage Notes":"使用说明",
     "With this function you can get the a {}pointer{} to the raw, {}aligned{} buffer address. This is primarily for use with extensions as you can pass this value through to them, allowing them to access the buffer data. Note that there are a few things you cannot do with the buffer when accessing from an extension:":"使用此函数，您可以获取指向原始，{}对齐{}缓冲区地址的{}指针{}。这主要用于扩展，因为您可以将此值传递给它们，从而允许它们访问缓冲区数据。请注意，有几件事从扩展名访问时，您不能使用缓冲区:",
     "You cannot free the memory.":"您无法释放内存。",
     "You cannot not write past the buffer address plus the buffer size (you can use the {}{}buffer_get_size(){}{} function for this) or you will get an out of bounds error.":"不能写入超过缓冲区地址和缓冲区大小(您可以使用{}{}buffer_get_size(){}{}函数)，否则将出现超出界限的错误。",
-    "You cannot resize the memory.":"您无法调整内存大小。"
+    "You cannot resize the memory.":"您无法调整内存大小。",
+    "You cannot write past the buffer address plus the buffer size (you can use the&nbsp;{}{}buffer_get_size{}{}&nbsp;function for this) or you will get an out of bounds error.":"您不能写入超过缓冲区地址加上缓冲区大小 (您可以使用 {}{}buffer_get_size{}{} 函数)，否则您将获得越界错误。"
 }
