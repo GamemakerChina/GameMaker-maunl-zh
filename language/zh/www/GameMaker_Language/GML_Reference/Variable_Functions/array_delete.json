@@ -1,7 +1,17 @@
 {
+    "A reference to an array.":"对数组的引用。",
+    "Note that you can achieve the same by setting the index to the third last element and using a positive number:&nbsp;{}{}array_delete{}(_values, -3, 3);{}":"请注意，您可以通过将索引设置为倒数第三个元素并使用正数来实现同样的效果：{}{}array_delete{}(_values, -3, 3);{}",
+    "The above code creates a temporary array {}_values{} and then deletes the last 3 elements using&nbsp;{}{}array_delete{}{}.&nbsp;":"上面的代码创建了一个临时数组 {}_values{}，然后使用 {}{}array_delete{}{} 删除最后 3 个元素。",
+    "The above code deletes the first 5 elements in the given array {}_score_array{}, starting at index 0 (so indices 0 to 4 will be removed from the array). After the function has executed, the contents of the array are&nbsp;{}[93, 80, 12, 65, 71]{}.":"上面的代码从索引 0 开始删除给定数组 {}_score_array{} 中的前 5 个元素 (因此索引 0 到 4 将从数组中删除)。函数执行后，数组的内容为 {}[93，80，12，65，71]{}。",
+    "The above code removes all the {}undefined{} values in the array&nbsp;{}_array_with_undefined{}. The index of 6 refers to the index of the first {}undefined{} value, the number of 3 to the number of {}undefined{} values.":"上面的代码删除了数组 {2}_array_with_undefined{3} 中的所有 {}undefined{} 值。索引 6 是指索引中的第一个 {}undefined{} 值，编号为 3 的 {}undefined{} 值。",
     "The above code will delete the first 10 values&nbsp;in the given array starting at index 0 (so indices 0 to 9 will be removed from the array).":"上面的代码将删除给定数组中从索引0开始的前10个值(因此索引0到9将从数组中删除)。",
+    "The function supports specifying negative values for the index and number of elements, as described under&nbsp;{}Offset And Length{}.":"该函数支持为索引和元素数量指定负值，如{}偏移量和长度{}中所述。",
     "The index (position) in the array to delete the value(s) from.":"要从中删除值的数组中的索引(位置)。",
+    "The index (position) in the array to delete the value(s) from. Negative indices are supported and count from the end of the array. An offset of -1 refers to the last element of the array, an offset of -2 to the one before last element, etc. (see&nbsp;{}Offset And Length{})":"要从中删除值的数组中的索引(位置)。支持负索引，并从数组的末尾开始计数。偏移量-1表示数组的最后一个元素，偏移量-2表示最后一个元素之前的一个元素，依此类推(参见{}偏移量和长度{})",
     "The number of values to delete.":"要删除的值的数目。",
+    "The number of values to delete. A negative number means elements are deleted backwards, starting at the offset index. E.g. when index is 5, the indices 5, 6 and 7 will be deleted when number is 3, and indices 5, 4 and 3 will be deleted when number is -3. (see&nbsp;{}Offset And Length{})":"要删除的值数。负数表示从偏移量索引开始向后删除元素。例如，当索引为5时，当编号为3时，索引5、6、7将被删除当编号为-3时，索引5、4、3将被删除。(请参阅{}偏移量和长度{})",
     "The variable that holds the array.":"保存数组的变量。",
-    "With this function you can delete a value (or values) from an array at any given position. The function requires you to provide a variable that holds the array, the index (position) in the array to delete from, as well as the number of values to delete.":"使用此函数，您可以从数组中的任何给定位置删除一个值(或多个值)。该函数要求您提供保存数组的变量、要从中删除的数组中的索引(位置)以及要删除的值的数量。"
+    "This function deletes a single value or a range of values from an array at any given position.":"此函数用于从数组中的任意给定位置删除单个值或一系列值。",
+    "With this function you can delete a value (or values) from an array at any given position. The function requires you to provide a variable that holds the array, the index (position) in the array to delete from, as well as the number of values to delete.":"使用此函数，您可以从数组中的任何给定位置删除一个值(或多个值)。该函数要求您提供保存数组的变量、要从中删除的数组中的索引(位置)以及要删除的值的数量。",
+    "You provide a variable that holds the array, the index (position) in the array to delete from and the number of values to delete.":"您可以提供一个变量来保存数组、要从中删除的索引(位置)和要删除的值数。"
 }

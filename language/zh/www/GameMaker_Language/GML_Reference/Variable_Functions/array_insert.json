@@ -1,9 +1,16 @@
 {
     "Note that if the given index is outside of the length of the array, the values will be added at the given index, and any empty slots in the array between its last value and the inserted values will be set to a default value of 0.":"请注意，如果给定的索引超出了数组的长度，则将在给定的索引处添加值，并且数组中最后一个值和插入的值之间的任何空槽都将设置为默认值0。",
+    "The above code creates a temporary array {}_array{} and then uses&nbsp;{}{}array_insert{}{}&nbsp;to insert a couple of values at index 6. After that,&nbsp;{}{}string_join_ext{}{}&nbsp;is called n the array to concatenate the letters and the resulting string is output as a debug message.":"上面的代码创建了一个临时数组 {}_array{}，然后使用 {}{}array_insert{}{} 在索引 6 处插入几个值。之后，调用 {}{}string_join_ext{}{} 将数组中的字母连接起来，并将结果字符串作为调试消息输出。",
+    "The above code inserts a missing value into an array {}array{},&nbsp;at index 3. A debug message shows the array\u0027s contents after insertion of the value.":"上面的代码将缺少的值插入到索引为3的数组{}数组{}中。插入该值后，调试消息会显示数组的内容。",
     "The above code will insert the current score into the score array,&nbsp;at the index defined by the {}score_rank{} variable.":"上面的代码将把当前得分插入到得分数组中由{}score_rank{}变量定义的索引处。",
     "The index (position) in the array to insert the value(s)&nbsp;":"数组中要插入值的索引(位置)",
+    "The index (position) in the array to insert the value(s).&nbsp;Negative indices are supported and count from the end of the array. An offset of -1 refers to the last element of the array, an offset of -2 to the one before last element, etc. (see&nbsp;{}Offset And Length{})":"数组中要插入值的索引(位置)。支持负索引，从数组末尾开始计数。偏移量-1表示数组的最后一个元素，偏移量-2表示最后一个元素之前的一个元素，依此类推(参见{}偏移量和长度{})",
     "The value to insert":"要插入的值",
     "The variable that holds the array.":"保存数组的变量。",
+    "This function inserts a value (or multiple values) into an array at any given position.":"此函数用于将一个值(或多个值)插入到数组中的任何给定位置。",
     "With this function you can insert a value (or values) into an array at any given position. The function requires you to provide a variable that holds the array, the index (position) in the array to insert at, as well as at least&nbsp;{}one{}&nbsp;value to insert, although you can optionally provide further arguments and they will all be inserted into the array in consecutive order from the given index.":"使用此函数，您可以在数组中的任何给定位置插入一个值(或多个值)。该函数要求您提供一个保存数组的变量、数组中要插入的索引(位置)以及至少{}一个要插入的{}值，尽管您可以选择提供更多的参数，它们都将从给定的索引开始按连续顺序插入到数组中。",
-    "{}OPTIONAL{} Further values to insert into the array":"{}可选{}要插入到数组中的其他值"
+    "You provide the array, the index (position) in the array to insert at, as well as at least&nbsp;{}one{}&nbsp;value to insert, although you can optionally provide further arguments and they\u0027ll all be inserted into the array in consecutive order from the given index.":"您可以提供数组、数组中要插入的索引(位置)以及至少{}要插入的一个{}值，但您可以选择提供更多参数，并且它们都将从给定索引开始按连续顺序插入到数组中。",
+    "{}OPTIONAL{} Further values to insert into the array":"{}可选{}要插入到数组中的其他值",
+    "{}{}NOTE{}{}&nbsp;If the given index is outside of the length of the array, the values will be added at the given index, and any empty slots in the array between its last value and the inserted values will be set to a default value of 0.":"{}{}注意{}{} 如果给定的索引超出了数组的长度，则将在给定的索引处添加值，并且数组中最后一个值和插入的值之间的任何空槽都将设置为默认值0。",
+    "{}{}OPTIONAL{}{}&nbsp;Additional values to insert into the array":"{}{}可选{}{} 要插入数组的其他值"
 }
