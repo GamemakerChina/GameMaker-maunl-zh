@@ -1,4 +1,13 @@
 {
+    "Asset Properties":"资源属性",
+    "Blending (HTML5)":"混合 (HTML5)",
+    "Creating &amp; Modifying Sprites":"创建/修改精灵",
+    "Function Reference":"函数参考",
+    "Prefetching":"预读取",
+    "Saving Sprites":"保存精灵",
     "Sprite Manipulation":"精灵操作",
-    "The functions below are all related to changing the sprite asset (resource) itself. This means that the majority of these functions will affect {}all instances{} that reference the sprite being changed, it also means that you must take great care to ensure that a sprite exists before referencing it, or to make sure it is not being referenced before changing it.":"下面的函数都与更改精灵资源(资源)本身有关。这意味着这些函数中的大多数将影响{}所有引用正在更改的精灵的实例{}，这也意味着您必须非常小心，以确保在引用sprite之前它是存在的，或者在更改它之前确保它没有被引用。"
+    "The functions below are all related to changing the sprite asset (resource) itself.":"下面的函数都与更改精灵资源(资源)本身有关。",
+    "The functions below are all related to changing the sprite asset (resource) itself. This means that the majority of these functions will affect {}all instances{} that reference the sprite being changed, it also means that you must take great care to ensure that a sprite exists before referencing it, or to make sure it is not being referenced before changing it.":"下面的函数都与更改精灵资源(资源)本身有关。这意味着这些函数中的大多数将影响{}所有引用正在更改的精灵的实例{}，这也意味着您必须非常小心，以确保在引用sprite之前它是存在的，或者在更改它之前确保它没有被引用。",
+    "This means that the majority of these functions will affect {}all instances, sprite elements, code, etc.{}&nbsp;that reference the sprite being changed. It also means that you must take great care to ensure that a sprite exists before referencing it, or to make sure it is not being referenced before changing it.":"这意味着这些函数中的大多数将影响{}所有引用正在更改的精灵的实例{}，这也意味着您必须非常小心，以确保在引用精灵之前它是存在的，或者在更改它之前确保它没有被引用。",
+    "{}Sprite Manipulation{}":"{}精灵操作{}"
 }

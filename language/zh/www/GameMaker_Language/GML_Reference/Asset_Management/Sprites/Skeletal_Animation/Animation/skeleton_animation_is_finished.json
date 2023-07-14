@@ -1,5 +1,7 @@
 {
     "The above code first checks if the animation on track 1 has finished playing and stores the result in a local variable {}_finished{}. It then shows a debug message in case the animation did finish playing.":"上面的代码首先检查轨迹1上的动画是否已经完成播放，并将结果存储在局部变量{}_finished{}中。 然后，在动画完成播放的情况下，显示调试消息。",
     "The index of the animation track":"动画轨迹的索引",
-    "With this function you can check if the current non-looping skeletal animation has finished playing on the given track.":"使用此函数，您可以检查当前非循环骨骼动画是否已在给定轨道上完成播放。"
+    "With this function you can check if the current non-looping skeletal animation has finished playing on the given track.":"使用此函数，您可以检查当前非循环骨骼动画是否已在给定轨道上完成播放。",
+    "With this function you can check if the current skeletal animation has finished playing on the given track.":"使用此函数，您可以检查当前骨骼动画是否已在给定轨道上完成播放。",
+    "{}{}NOTE{}{}&nbsp;This function will always return {}false{}&nbsp;if the animation is set to loop ({}{}skeleton_animation_is_looping{}{}), as an animation cannot have finished if it is still looping.":"{}{}注意{}{} 如果动画设置为循环 ({6}{7}skeleton_animation_is_looping{8}{9})，则此函数将始终返回 {}false{}，因为如果动画仍在循环，则不可能完成。"
 }

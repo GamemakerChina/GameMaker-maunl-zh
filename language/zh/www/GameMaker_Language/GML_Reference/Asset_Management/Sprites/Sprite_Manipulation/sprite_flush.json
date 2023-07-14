@@ -1,5 +1,5 @@
 {
-    "The above code flushes the sprite \"spr_Player_Aura\" from memory.":"上面的代码将sprite “ SPR_播放器_AURA ”从内存中清除。",
+    "The above code flushes the sprite \"spr_Player_Aura\" from memory.":"上面的代码将精灵 \"spr_Player_Aura\" 从内存中清除。",
     "The index (resource name) of the sprite asset to flush":"要刷新的精灵资源的索引(资源名称)",
     "With this function you can remove the texture page for the given sprite from texture memory (VRAM). The texture will stay in RAM after being flushed.":"使用此函数，您可以从纹理内存(VRAM)中删除给定精灵的纹理页面。刷新后，纹理将保留在RAM中。",
     "You supply the sprite index (as defined when creating the sprite resource) and the texture page it is assigned to will be removed from texture memory. Note that if the texture page is used elsewhere in the room (by another instance sprite or a background, etc...) you may get a minor performance hit as the page is immediately reloaded, so care should be taken when using this function. Note that the function will return {}-1{} if flush is not supported for the chosen resource, or it will return {}0{} if all worked correctly.":"您提供精灵索引(如创建精灵资源时所定义的)，它所分配到的纹理页面将从纹理内存中删除。请注意，如果在房间的其他地方使用纹理页面(通过另一个实例Sprite或背景等)，您可能会受到轻微的性能影响，因为页面会立即重新加载，因此在使用此函数时应小心。请注意，如果所选资源不支持刷新，则函数将返回{}-1{}，或者如果一切正常，则函数将返回{}0{}。"
