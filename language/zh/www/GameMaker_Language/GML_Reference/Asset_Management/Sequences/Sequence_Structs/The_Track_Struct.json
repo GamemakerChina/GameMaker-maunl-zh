@@ -27,6 +27,7 @@
     "This is a clip mask sprite asset track used for generating the clip mask.":"这是一个用于生成剪辑蒙版的剪辑遮罩子资源轨迹。",
     "This is a colour data parameter track.":"这是一个颜色数据参数轨道。",
     "This is a graphics (sprite) asset track.":"这是一个图形(精灵)资源跟踪。",
+    "This is a particle system track.":"这是粒子系统轨迹。",
     "This is a real number parameter track.":"这是一个实数参数轨迹。",
     "This is a sequence asset track.":"这是序列资源跟踪。",
     "This is a text track.":"这是一个文本轨道。",
