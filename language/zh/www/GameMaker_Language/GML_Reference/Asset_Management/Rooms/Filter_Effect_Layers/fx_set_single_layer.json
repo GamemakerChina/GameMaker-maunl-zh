@@ -1,5 +1,5 @@
 {
-    "A&nbsp;{}boolean{} value to enable ({}true{}) or disable ({}false{}) Single Layer Mode":"用于启用({}真{})或禁用({}假{})单层模式的{}布尔值{}",
+    "A&nbsp;{}boolean{} value to enable ({}true{}) or disable ({}false{}) Single Layer Mode":"用于启用({}true{})或禁用({}false{})单层模式的{}布尔值{}",
     "The FX struct to modify":"要修改的FX结构",
     "The above code creates a new screenshake FX, enables Single Layer mode on it and then applies it to a room layer. This means that the screenshake filter will only be applied to the {}\"ShakeyThings\"{} layer.":"上面的代码创建一个新的屏幕交换FX，在它上启用单层模式，然后应用到房间层。这意味着屏幕切换过滤器将只应用于{}\"ShakeyThings\"{}层。",
     "The following visual shows a filter being used with Single Layer mode disabled (which is the default behaviour for all FX layers) and the same filter with Single Layer mode enabled:":"下图显示了在禁用单层模式(这是所有FX层的默认行为)和启用单层模式时使用同一过滤器的过滤器：",

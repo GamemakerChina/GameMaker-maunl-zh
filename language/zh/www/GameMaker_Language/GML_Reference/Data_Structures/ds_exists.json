@@ -9,6 +9,6 @@
     "The above code checks the (previously initialised) variable \"ai_grid\" to see if it indexes a DS grid type data structure, and if it does not then it creates one and stores its index in the variable.":"上述代码检查(先前初始化的)变量\"ai_grid\"以查看它是否对DS网格类型的数据结构建立索引，如果不建立索引，则创建一个变量并将其索引存储在变量中。",
     "The type of data structure to check for (see the list of constants above)":"要检查的数据结构类型(参见上面的常量列表)",
     "The variable index to check for the data structure":"用于检查数据结构的变量索引",
-    "With this function you can check to see if a data structure of the given type exists. You supply the \"index\" value (as held in a variable) and the DS \"type\", which can be any of the constants listed below, and the function will return {}true{} if the data structure exists and {}false{} otherwise.":"使用此函数，您可以检查给定类型的数据结构是否存在。提供\"index\"值(保存在变量中)和\"Ds type\"(可以是下面列出的任何常量)，如果数据结构存在，则函数将返回{}真{};否则，函数将返回{}假{}。",
+    "With this function you can check to see if a data structure of the given type exists. You supply the \"index\" value (as held in a variable) and the DS \"type\", which can be any of the constants listed below, and the function will return {}true{} if the data structure exists and {}false{} otherwise.":"使用此函数，您可以检查给定类型的数据结构是否存在。提供\"index\"值(保存在变量中)和\"Ds type\"(可以是下面列出的任何常量)，如果数据结构存在，则函数将返回{}true{};否则，函数将返回{}false{}。",
     "{}NOTE{} You cannot use this function to check the type of a data structure, as the same index number may be used by multiple data structures of differing types.":"{}注意{}不能使用此函数检查数据结构的类型，因为不同类型的多个数据结构可能使用相同的索引号。"
 }

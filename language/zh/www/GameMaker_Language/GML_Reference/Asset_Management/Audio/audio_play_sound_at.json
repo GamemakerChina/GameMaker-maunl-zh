@@ -3,7 +3,7 @@
     "Optional Properties":"可选属性",
     "Set the channel priority for the sound.":"设置声音的通道优先级。",
     "The above code checks the global variable \"SFX\" and if it returns {}true{} then the sound indexed in the variable \"snd_Waterfall\" will be looped at its room position using the given falloff settings and no change in gain. The sound immediately starts playing from second 2.":"上述代码检查全局变量\"SFX\"，如果它返回{}true{}，则变量\"snd_Waterfall\"中索引的声音将使用给定衰减设置在其房间位置循环，且增益没有变化。声音从第二秒立即开始播放。",
-    "The above code checks the global variable \"SFX\" and if it returns {}true{} then the sound indexed in the variable \"snd_Waterfall\" will be looped at its room position, with a fall-off reference of 100, a falloff distance of 300, a falloff factor of 1 and a low priority.":"上面的代码检查全局变量\"SFX\"，如果它返回{}真{}，变量\"snd_Waterfall\"中索引的声音将在其房间位置循环，衰减参考为100，衰减距离为300，衰减因子为1，优先级较低。",
+    "The above code checks the global variable \"SFX\" and if it returns {}true{} then the sound indexed in the variable \"snd_Waterfall\" will be looped at its room position, with a fall-off reference of 100, a falloff distance of 300, a falloff factor of 1 and a low priority.":"上面的代码检查全局变量\"SFX\"，如果它返回{}true{}，变量\"snd_Waterfall\"中索引的声音将在其房间位置循环，衰减参考为100，衰减距离为300，衰减因子为1，优先级较低。",
     "The falloff factor (default 1).":"衰减系数(默认值1)。",
     "The falloff reference relative to the listener (clamp).":"相对于监听器(钳位)的衰减参考。",
     "The index of the sound to play.":"播放声音的索引。",

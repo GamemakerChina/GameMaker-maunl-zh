@@ -4,5 +4,5 @@
     "The id of the data structure to read into.":"要读入的数据结构的ID。",
     "The string to read from.":"要从中读取的字符串。",
     "With this function you can recreate a saved DS stack (one that has previously been written as a string using {}{}ds_stack_write(){}{}). You must first create a new DS stack to read the string into, and if the DS stack already exists and has information stored in it, then this will be cleared before reading. This function is of vital importance when creating save/load mechanisms for your game.":"使用此函数，您可以重新创建保存的DS堆栈(以前使用{}{}ds_stack_write(){}{}作为字符串写入的堆栈)。您必须首先创建一个新的DS堆栈来读取该字符串，如果DS堆栈已经存在并且其中存储了信息，则在读取之前将清除该堆栈。为游戏创建保存/加载机制时，此函数至关重要。",
-    "{}OPTIONAL{} Can be either {}true{} or {}false{} or omitted completely.":"{}可选{}可以为{}真{}或{}假{}，也可以完全省略。"
+    "{}OPTIONAL{} Can be either {}true{} or {}false{} or omitted completely.":"{}可选{}可以为{}true{}或{}false{}，也可以完全省略。"
 }

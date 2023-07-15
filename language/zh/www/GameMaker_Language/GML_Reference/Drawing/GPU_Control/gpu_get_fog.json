@@ -2,7 +2,7 @@
     "Note that you can change these values and pass the full array to the {}{}gpu_set_fog(){}{} function as a single argument.":"请注意，您可以更改这些值并将完整数组作为单个参数传递给{}{}gpu_set_fog(){}{}函数。",
     "The above code gets the current fog settings and then sets the colour element of the array to {}c_red{} before setting the fog again using the changed array.":"以上代码获取当前雾设置，然后将数组的颜色元素设置为{}c_red{}，然后使用更改的数组再次设置雾。",
     "This function can be used to retrieve the fog settings. The function returns a 4 element 1D array with the following information:":"此函数可用于检索雾设置。该函数返回一个4 element 1D数组，其中包含以下信息：",
-    "[0] = enabled toggle (a {}{}Boolean{}{}, either {}true{} or {}false{}), default {}false{}":"[0] = 启用切换({}{}布尔值{}{}，{}真{}或{}假{})，默认为{}假{}",
+    "[0] = enabled toggle (a {}{}Boolean{}{}, either {}true{} or {}false{}), default {}false{}":"[0] = 启用切换({}{}布尔值{}{}，{}true{}或{}false{})，默认为{}false{}",
     "[1] = {}{}Colour{}{}, default {}c_black{}":"[1] = {}{}颜色{}{}，默认为 {}c_Black{}",
     "[2] = start distance ({}{}Real{}{}), default 0":"[2] = 起始距离 ({}{}实数{}{}), 默认为 0",
     "[3] = end distance ({}{}Real{}{}), default 1":"[3] = 终止距离 ({}{}实数{}{}), 默认为 1",

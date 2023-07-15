@@ -1,5 +1,5 @@
 {
     "The above code reads data from a buffer that was received via networking. Since it contains an object ID (used for spawning instances), we first need to ensure that the value is not invalid and that the object actually exists. For that we call {}object_exists(){} in a condition, and if that is true, we create an instance of that object at the received position.":"上述代码从通过网络接收的缓冲器读取数据。由于它包含一个对象ID(用于生成实例)，我们首先需要确保该值不无效，并且该对象实际上存在。为此，我们在条件中调用{}object_exists(){}，如果是，则在接收位置创建该对象的实例。",
     "The index of the object to check.":"要检查的对象的索引。",
-    "This function returns whether the specified value is an object asset ({}true{}) or not ({}false{}). Note that this checks to see if an object is present in the Asset Browser, and not actually in the game room. For that you should use the function {}{}instance_exists(){}{}.":"此函数返回指定的值是否为对象资源({}true{})({}false{})。 请注意，这会检查资源浏览器中是否存在对象，而不是游戏室中的对象。为此，应使用函数{}{}instance_exists(){}{}。"
+    "This function returns whether the specified value is an object asset ({}true{}) or not ({}false{}). Note that this checks to see if an object is present in the Asset Browser, and not actually in the game room. For that you should use the function {}{}instance_exists(){}{}.":"此函数返回指定的值是否为对象资源({}true{})({}false{})。 请注意，这会检查资源浏览器中是否存在对象，而不是游戏房间中的对象。为此，应使用函数{}{}instance_exists(){}{}。"
 }

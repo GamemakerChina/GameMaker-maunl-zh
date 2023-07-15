@@ -1,4 +1,4 @@
 {
     "The above code checks the state of the alpha blending and if it is disabled it is then enabled again.":"上述代码检查Alpha混合的状态，如果禁用了Alpha混合，则会再次启用该代码。",
-    "This function can be used to retrieve the alpha-blending state. If it returns {}true{} then alpha-blending is enabled, and if it returns {}false{} it is disabled. By default this is on and so the function will return {}true{}":"此函数可用于检索字母混合状态。如果返回{}真{}，则启用字母混合;如果返回{}假{}，则禁用字母混合。默认情况下，此选项处于启用状态，因此函数将返回{}true{}"
+    "This function can be used to retrieve the alpha-blending state. If it returns {}true{} then alpha-blending is enabled, and if it returns {}false{} it is disabled. By default this is on and so the function will return {}true{}":"此函数可用于检索字母混合状态。如果返回{}true{}，则启用字母混合;如果返回{}false{}，则禁用字母混合。默认情况下，此选项处于启用状态，因此函数将返回{}true{}"
 }

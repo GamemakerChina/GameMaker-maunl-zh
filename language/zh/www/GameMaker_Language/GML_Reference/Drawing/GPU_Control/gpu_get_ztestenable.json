@@ -1,4 +1,4 @@
 {
     "The above code checks to see if z-testing is enabled or not and if it is disabled it is then enabled again.":"上述代码检查z-测试是否已启用，以及是否已禁用，然后再次启用。",
-    "This function can be used to retrieve whether z-testing is enabled (the function returns {}true{}) or not (the function returns {}false{}). The default value is that z-testing is {}disabled{}, so the function will return {}false{}.":"此函数可用于检索是否启用Z-测试(函数返回{}真{})(函数返回{}假{})。默认值为Z-测试被{}禁用{}，因此函数将返回{}假{}。"
+    "This function can be used to retrieve whether z-testing is enabled (the function returns {}true{}) or not (the function returns {}false{}). The default value is that z-testing is {}disabled{}, so the function will return {}false{}.":"此函数可用于检索是否启用Z-测试(函数返回{}true{})(函数返回{}false{})。默认值为Z-测试被{}禁用{}，因此函数将返回{}false{}。"
 }

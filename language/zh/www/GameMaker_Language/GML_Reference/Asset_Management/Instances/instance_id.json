@@ -1,4 +1,4 @@
 {
     "The above code will loop through all instances within the room and add 0.1 to their speed.":"上面的代码将遍历房间内的所有实例，并将它们的速度增加0.1。",
-    "This {}read only{} {}array{} holds all the {}{}id{}s{} of every {}active {}instance within the room. This means that if you have used any of the {}Instance Deactivate{} functions those instances that have been deactivated will not be included in this array (if you have used a value from this array previously, it will now return the keyword {}noone{}).":"此{}只读{}{}数组{}保存房间内每个{}活动{}实例的所有{}{}id{}s{}。这意味着，如果您使用了任何{}实例取消激活{}函数，则那些已取消激活的实例将不会包括在此数组中(如果您以前使用过此数组中的值，则现在将返回关键字{}noone{})。"
+    "This {}read only{} {}array{} holds all the {}{}id{}s{} of every {}active {}instance within the room. This means that if you have used any of the {}Instance Deactivate{} functions those instances that have been deactivated will not be included in this array (if you have used a value from this array previously, it will now return the keyword {}noone{}).":"此{}只读{}{}数组{}保存房间内每个{8}活动{9}实例的所有{}{}id{}s{}。这意味着，如果您使用了任何{}实例取消激活{}函数，则那些已取消激活的实例将不会包括在此数组中(如果您以前使用过此数组中的值，则现在将返回关键字{}noone{})。"
 }

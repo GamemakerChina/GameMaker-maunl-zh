@@ -21,7 +21,7 @@
     "This function takes a&nbsp;{}Predicate Function{}&nbsp;that operates on the given array. The predicate function is passed the following arguments:":"此函数接受在给定数组上操作的{}判断函数{}。向判断函数传递以下参数：",
     "This function takes a&nbsp;{}Predicate Method{}&nbsp;that operates on the given array. The predicate function is passed the following arguments:":"此函数接受在给定数组上操作的{}判断方法{}。向判断函数传递以下参数：",
     "{}Predicate Function{}{}Predicate Function{}":"{}判断函数{}{}判断函数{}",
-    "{}{}Boolean{}{}&nbsp;(whether the function returned {}true{} for all elements in the array or range)":"{}{}布尔{}{}(对于数组或范围中的所有元素，函数是否返回{}真{})",
+    "{}{}Boolean{}{}&nbsp;(whether the function returned {}true{} for all elements in the array or range)":"{}{}布尔{}{}(对于数组或范围中的所有元素，函数是否返回{}true{})",
     "{}{}OPTIONAL{}{}&nbsp;The number of elements to traverse. A negative value will traverse the array backwards (i.e. in descending order of indices, e.g. 2 &gt; 1 &gt; 0 instead of 0 &gt; 1 &gt; 2).":"{}{}可选{}{} 要遍历的元素数量。负值将向后遍历数组 (即按索引的降序排列，例如2 &gt; 1 &gt; 0而不是0 &gt; 1 &gt; 2)。",
     "{}{}OPTIONAL{}{}&nbsp;The number of elements to traverse. A negative value will traverse the array backwards (i.e. in descending order of indices, e.g. 2, 1, 0 instead of 2, 3, 4). See:&nbsp;{}Offset And Length{}":"{}{}可选{}{} 要遍历的元素数。负值将向后遍历数组(即以索引的降序，例如 2、1、0 而不是 2、3、4)。请参阅：{}偏移量和长度{}",
     "{}{}OPTIONAL{}{}&nbsp;The offset, or starting index, in the array. Setting a negative value will count from the end of the array. The starting index will then be {}array_length(array) + offset{}. See:&nbsp;{}Offset And Length{}":"{}{}可选{}{} 数组中的偏移量或起始索引。设置负值将从数组的末尾开始计数。然后，起始索引将是 {}array_length(array) + offset{}。请参阅：{}偏移量和长度{}",

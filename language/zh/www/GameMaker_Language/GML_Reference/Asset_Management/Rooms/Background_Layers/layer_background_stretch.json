@@ -1,6 +1,6 @@
 {
     "The above code checks for a mouse button press and if one is detected it will toggle the stretching of the background element sprite assigned to the layer the instance running the code is on.":"上面的代码检查鼠标按钮的按下，如果检测到一个，它将切换分配给运行代码的实例所在层的背景元素精灵的拉伸。",
-    "The stretch toggle, which can be {}true{} or {}false{}":"拉伸切换，可以是{}真{}或{}假{}",
+    "The stretch toggle, which can be {}true{} or {}false{}":"拉伸切换，可以是{}true{}或{}false{}",
     "The unique ID value of the background element to change":"要更改的背景元素的唯一ID值",
     "Using this function you can toggle a background element sprite to stretch to fit the room or remain at 1:1 with the resolution. You supply the background element ID (which you get when you create a background element using {}{}layer_background_create(){}{} or when you use the function {}{}layer_background_get_id(){}{}), and then set the stretch argument to {}true{} or {}false{}. When set to {}true{} the element sprite will be stretched to fit the room (either scaled up or scaled down depending on the sizes of the sprite and the room), and when set to {}false{}, the element sprite will be displayed at its native resolution.":"使用此函数，您可以切换背景元素sprite以拉伸以适合房间或保持1：1分辨率。提供背景元素 ID(当使用{}{}layer_background_create(){}{}创建背景元素时或使用函数{}{}layer_background_get_id(){}{}时获得)，然后将拉伸参数设置为{}true{}或{}false{}。 设置为{}true{}时，元素 sprite 将被拉伸以适合房间(根据精灵和房间的大小按比例放大或缩小)，当设置为{}false{}时，将以其本机分辨率显示元素 sprite。"
 }

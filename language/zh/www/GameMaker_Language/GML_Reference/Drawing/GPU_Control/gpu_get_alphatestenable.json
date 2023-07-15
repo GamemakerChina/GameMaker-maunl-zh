@@ -1,4 +1,4 @@
 {
     "The above code will check to see if alpha testing is enabled and if not it will switch on alpha testing and set the test threshold to 128 (only pixels with an alpha over 0.5 will be drawn).":"上述代码将检查Alpha测试是否已启用，如果未启用，将打开Alpha测试并将测试阈值设置为128(仅绘制Alpha大于0.5的像素)。",
-    "With this function you can check to see whether alpha testing is enabled (returns {}true{}) or not (returns {}false{}). For more information on alpha testing, see the function {}{}gpu_set_alphatestref(){}{}.":"使用此函数，您可以检查是否启用Alpha测试(返回{}真{})(返回{}假{})。有关Alpha测试的详细信息，请参阅函数{}{}gpu_set_alphatestref(){}{}。"
+    "With this function you can check to see whether alpha testing is enabled (returns {}true{}) or not (returns {}false{}). For more information on alpha testing, see the function {}{}gpu_set_alphatestref(){}{}.":"使用此函数，您可以检查是否启用Alpha测试(返回{}true{})(返回{}false{})。有关Alpha测试的详细信息，请参阅函数{}{}gpu_set_alphatestref(){}{}。"
 }

@@ -4,5 +4,5 @@
     "The id of the data structure to read the string into":"要将字符串读入的数据结构的ID",
     "The string to read":"要读取的字符串",
     "This function will take a string that has previously been created by the function {}{}ds_map_write(){}{} and then read it into a previously created DS map. If the map that the string is being read into contains any key/value pairs, these will be cleared first before the saved map is re-constructed.":"此函数将采用以前由函数{}{}ds_map_write(){}{}创建的字符串，然后将其读入以前创建的DS映射。如果要读入字符串的映射包含任何密钥/值对，则在重新构造保存的映射之前，将首先清除这些密钥/值对。",
-    "{}OPTIONAL{}&nbsp;Can be either {}true{} or {}false{} or omitted completely.":"{}可选{}可以为{}真{}或{}假{}，也可以完全省略。"
+    "{}OPTIONAL{}&nbsp;Can be either {}true{} or {}false{} or omitted completely.":"{}可选{}可以为{}true{}或{}false{}，也可以完全省略。"
 }

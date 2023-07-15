@@ -1,5 +1,5 @@
 {
-    "The above code uses the {}point_in_circle{} function to check if the mouse position falls within the defined circular area, setting the variable \"over\" to {}true{} if it does, or {}false{} otherwise.":"以上代码使用{}point_in_circle{}函数检查鼠标位置是否落在定义的圆形区域内，如果是，则将变量over\"设置为{}真{}，否则设置为{}假{}。",
+    "The above code uses the {}point_in_circle{} function to check if the mouse position falls within the defined circular area, setting the variable \"over\" to {}true{} if it does, or {}false{} otherwise.":"以上代码使用{}point_in_circle{}函数检查鼠标位置是否落在定义的圆形区域内，如果是，则将变量over\"设置为{}true{}，否则设置为{}false{}。",
     "The radius of the circle.":"圆的半径。",
     "The x coordinate of the circle centre.":"圆心的x坐标。",
     "The x coordinate of the point to check.":"要检查的点的x坐标。",

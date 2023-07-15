@@ -1,5 +1,5 @@
 {
-    "The above code checks for the mouse button being pressed and if it returns {}true{} it generates 5 particles at the mouse position.":"上述代码检查是否按下鼠标按钮，如果返回{}真{}，则会在鼠标位置生成5个粒子。",
+    "The above code checks for the mouse button being pressed and if it returns {}true{} it generates 5 particles at the mouse position.":"上述代码检查是否按下鼠标按钮，如果返回{}true{}，则会在鼠标位置生成5个粒子。",
     "The index (type) of the particles to be created.":"要创建的粒子的索引(类型)。",
     "The index of the particle system.":"粒子系统的索引。",
     "The number of particles to create.":"要创建的粒子数。",

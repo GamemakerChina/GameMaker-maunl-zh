@@ -24,7 +24,7 @@
     "Multiple Assignment of Audio Effects":"音效的多重赋值",
     "Platform Limitations":"平台限制",
     "Setting Up Audio Effects":"设置音频效果",
-    "Setting {}bypass{} to {}true{} means that what comes out of the bus or effect is the same as what goes in -- the input is the output.":"将{}旁路{}设置为{}真{}意味着从总线或效果出来的与进入的相同，输入就是输出。",
+    "Setting {}bypass{} to {}true{} means that what comes out of the bus or effect is the same as what goes in -- the input is the output.":"将{}旁路{}设置为{}true{}意味着从总线或效果出来的与进入的相同，输入就是输出。",
     "Sometimes you might want to turn off individual effects or turn off all effects on a bus. You can do this by setting {}bypass{} for an effect or a bus to {}true{}:&nbsp;":"有时您可能想关闭单个效果或关闭总线上的所有效果。通过将效果或总线的{}旁路{}设置为{}true{}，可以执行此操作：",
     "Sounds are always played through \"buses\". All sounds in GameMaker are played through its {}main bus{}.":"声音总是通过\"总线\"播放。GameMaker中的所有声音都通过其{}主总线{}播放。",
     "The effect is then assigned to the main audio bus\u0027s {}effects{} array. Assigning the effect to a slot in the array enables the effect.":"然后将效果分配给主音频总线的{}效果{}阵列。将效果指定给阵列中的槽可以启用效果。",

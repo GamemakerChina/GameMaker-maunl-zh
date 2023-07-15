@@ -1,5 +1,5 @@
 {
-    "Enable or disable alpha blending value ({}true{} or {}false{}).":"启用或禁用Alpha混合值({}真{}或{}假{})。",
+    "Enable or disable alpha blending value ({}true{} or {}false{}).":"启用或禁用Alpha混合值({}true{}或{}false{})。",
     "The above code switches off alpha blending to draw a background sprite and then switches it back on again to continue drawing.":"上述代码关闭Alpha混合以绘制背景精灵，然后再次打开以继续绘制。",
-    "This function can be used to toggle alpha-blending on and off. Basically, if you have this set to {}false{}, all images being drawn will be drawn 100% opaque, meaning that any transparent, or semi transparent, areas of a sprite or background will be visible as a solid colour. It is a good idea to have alpha blending {}off{} whenever possible (especially when developing for mobile devices) as this greatly increases the draw speed.":"此函数可用于打开和关闭Alpha混合。基本上，如果将此设置为{}假{}，则所有正在绘制的图像都将被绘制为100%不透明，这意味着精灵或背景的任何透明或半透明区域都将可视为纯色。最好尽可能关闭Alpha混合{}(尤其是针对移动设备进行开发时)，因为这会大大提高绘制速度。"
+    "This function can be used to toggle alpha-blending on and off. Basically, if you have this set to {}false{}, all images being drawn will be drawn 100% opaque, meaning that any transparent, or semi transparent, areas of a sprite or background will be visible as a solid colour. It is a good idea to have alpha blending {}off{} whenever possible (especially when developing for mobile devices) as this greatly increases the draw speed.":"此函数可用于打开和关闭Alpha混合。基本上，如果将此设置为{}false{}，则所有正在绘制的图像都将被绘制为100%不透明，这意味着精灵或背景的任何透明或半透明区域都将可视为纯色。最好尽可能关闭Alpha混合{}(尤其是针对移动设备进行开发时)，因为这会大大提高绘制速度。"
 }
