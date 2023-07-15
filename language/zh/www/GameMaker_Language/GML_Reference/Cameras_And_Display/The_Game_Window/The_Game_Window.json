@@ -1,9 +1,20 @@
 {
+    "Border &amp; Caption":"边框和标题",
+    "Dimensions &amp; Position":"尺寸和位置",
+    "Drawing":"绘制",
+    "Function Reference":"函数参考",
+    "Mouse &amp; Cursor":"鼠标和光标",
     "The Game Window":"游戏窗口",
     "The following functions exist to change and get game window properties:":"以下函数用于更改和获取游戏窗口属性：",
     "The following image illustrates how some general window functions relate and interact with each other:":"下图说明了一些常规窗口函数如何相互关联和交互：",
+    "The game you create happens in a window (even when fullscreen), and this window has a number of properties, like position, size, whether it is fullscreen, etc. These details are normally set automatically for you based on the room size and view ports enabled&nbsp;in combination with the settings from&nbsp;{}Game Options{}{}&nbsp;for the target platform,&nbsp;{}but you can change them during the game using the functions listed on this page.":"您创建的游戏将在窗口中进行(即使是全屏)，并且此窗口具有许多属性，如位置、大小、是否为全屏等等。这些详细信息通常会根据启用的房间大小和视口以及{2}目标平台{3}的{0}游戏选项{1}中的设置自动为您设置，但您可以在游戏过程中使用此页面上列出的函数进行更改。",
     "The game you create happens in a window (even when fullscreen), and this window has a number of properties, like position, size, whether it is fullscreen, etc... These details are normally set automatically for you based on the room size and view ports enabled&nbsp;in combination with the settings from&nbsp;{}Game Options{}{}&nbsp;for the target platform,&nbsp;{}but you can change them during the game using the functions listed on this page.":"您创建的游戏将在窗口中进行(即使是全屏)，并且此窗口具有许多属性，如位置、大小、是否为全屏等等。这些详细信息通常会根据启用的房间大小和视口以及{2}目标平台{3}的{0}游戏选项{1}中的设置自动为您设置，但您可以在游戏过程中使用此页面上列出的函数进行更改。",
+    "The image above shows the game window drawn in a browser, but for the other targets, you can replace the browser with the display, so a function like&nbsp;{}{}window_get_y{}{} will return the position of the top of the game window relative to the display.":"上图显示了在浏览器中绘制的游戏窗口，但对于其他目标，您可以用显示器替换浏览器，因此类似 {}{}window_get_y(){}{} 的函数将返回游戏窗口顶部相对于显示器的位置。",
     "The image above shows the game window drawn in a browser, but the for the other targets, you can replace the browser with the display, so a function like {}{}window_get_y(){}{} will return the position of the top of the game window relative to the display.":"上图显示了在浏览器中绘制的游戏窗口，但对于其他目标，您可以用显示器替换浏览器，因此类似{}{}window_get_y(){}{}的函数将返回游戏窗口顶部相对于显示器的位置。",
+    "Window Info":"窗口信息",
     "{}NOTE{}&nbsp;These functions are for {}Windows{}, {}Ubuntu{}, {}macOS{},{}&nbsp;GX.games&nbsp;{}and {}HTML5{} targets only and may not work on any other device.":"{}注意{} 这些函数仅适用于 {}Windows{}、{}Ubuntu{}、{}macOS{}、{}GX.games{} 和 {}HTML5{} 目标，不能在任何其他设备上使用。",
-    "{}{}IMPORTANT{}{}&nbsp;The above diagram shows the HTML5 runner. Even tough the GX.games target runs in a browser, the {}{}window_get_width(){}{} and {}{}window_get_height(){}{} values returned on that target will be the same as {}{}browser_width{}{} and {}{}browser_height{}{}&nbsp;respectively.":"{}{}重要{}{} 上图显示了 HTML5 运行程序。即使 GX.games 目标在浏览器中运行也很困难，在该目标上返回的 {}{}window_get_width(){}{} 和 {}{}window_get_height(){}{} 值将分别与 {}{}browser_width{}{}}和 {}{}browser_height{}{} 相同。"
+    "{}The_Game_Window{}":"{}游戏窗口{}",
+    "{}{}IMPORTANT{}{}&nbsp;The above diagram shows the HTML5 runner. Even though the GX.games target runs in a browser, the {}{}window_get_width(){}{} and {}{}window_get_height(){}{} values returned on that target will be the same as {}{}browser_width{}{} and {}{}browser_height{}{}&nbsp;respectively.":"{}{}重要{}{} 上图显示了 HTML5 运行程序。即使 GX.games 目标在浏览器中运行也很困难，在该目标上返回的 {}{}window_get_width(){}{} 和 {}{}window_get_height(){}{} 值将分别与 {}{}browser_width{}{}}和 {}{}browser_height{}{} 相同。",
+    "{}{}IMPORTANT{}{}&nbsp;The above diagram shows the HTML5 runner. Even tough the GX.games target runs in a browser, the {}{}window_get_width(){}{} and {}{}window_get_height(){}{} values returned on that target will be the same as {}{}browser_width{}{} and {}{}browser_height{}{}&nbsp;respectively.":"{}{}重要{}{} 上图显示了 HTML5 运行程序。即使 GX.games 目标在浏览器中运行也很困难，在该目标上返回的 {}{}window_get_width(){}{} 和 {}{}window_get_height(){}{} 值将分别与 {}{}browser_width{}{}}和 {}{}browser_height{}{} 相同。",
+    "{}{}NOTE{}{}&nbsp;These functions are for {}Windows{}, {}Ubuntu{}, {}macOS{},{}&nbsp;GX.games&nbsp;{}and {}HTML5{} targets only and may not work on any other device.":"{}{}注意{}{} 这些函数仅适用于 {}Windows{}、{}Ubuntu{}、{}macOS{}、{}GX.games{} 和 {}HTML5{} 目标，不能在任何其他设备上使用。"
 }
