@@ -14,8 +14,8 @@
     "YUV Videos":"YUV 视频",
     "{}-1{}, if there was an error":"{}-1{}，如果存在错误",
     "{}0{}, if the video is playing without any issues":"{}0{}，如果播放的视频没有任何问题",
-    "{}For RGBA videos, the position {}[1]{} will contain the surface where the video frame was drawn. You can get this surface and {}draw it{} manually.{}":"{}对于 RGBA 视频，位置{}[ 1 ]{}将包含绘制视频帧的表面。您可以获取此表面并{}手动绘制它{}。{}",
-    "{}Some platforms (especially consoles) use the YUV colour format for videos, which makes use of two surfaces. In that case the array will have positions {}[1]{} and {}[2]{}&nbsp;with two surfaces:{}":"{}某些平台(尤其是控制台)对视频使用 YUV  颜色格式，该格式使用两个表面。在这种情况下，阵列的位置{}[ 1 ]{}和{}[ 2 ]{}具有两个表面：{}",
-    "{}{}[1]{} is the main video surface in black and white{}":"{}{}[ 1 ]{}是黑白视频的主表面{}",
-    "{}{}[2]{} is the chroma surface that contains all the colour data{}":"{}{}[ 2 ]{}是包含所有颜色数据的色度表面{}"
+    "{}For RGBA videos, the position {}[1]{} will contain the surface where the video frame was drawn. You can get this surface and {}draw it{} manually.{}":"{}对于 RGBA 视频，位置 {}[1]{} 将包含绘制视频帧的表面。您可以获取此表面并{}手动绘制它{}。{}",
+    "{}Some platforms (especially consoles) use the YUV colour format for videos, which makes use of two surfaces. In that case the array will have positions {}[1]{} and {}[2]{}&nbsp;with two surfaces:{}":"{}某些平台(尤其是游戏主机平台)对视频使用 YUV 颜色格式，该格式使用两个表面。在这种情况下，阵列的位置 {}[1]{} 和 {}[2]{} 具有两个表面：{}",
+    "{}{}[1]{} is the main video surface in black and white{}":"{}{}[1]{} 是黑白视频的主表面{}",
+    "{}{}[2]{} is the chroma surface that contains all the colour data{}":"{}{}[2]{} 是包含所有颜色数据的色度表面{}"
 }

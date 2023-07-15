@@ -718,6 +718,7 @@
     "{}Setting Up And Version Information{}{}Setting Up And Version Information{}":"{}设置和版本信息{}{}设置和版本信息{}",
     "{}Syntax:{}":"{}语法:{}",
     "{}Texture Group Status Constant{}":"{}纹理组状态常量{}",
+    "{}Variable \"Type_Constant_Surface_Format\" is not defined{}":"{}变量\"Type_Constant_Surface_Format\"未定义{}",
     "{}Video Format Constant{}":"{}视频格式常量{}",
     "{}Video Status Constant{}":"{}视频状态常量{}",
     "{}{}Blend Mode Factor Constant{}{}":"{}{}混合模式因子常量{}{}",

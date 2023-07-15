@@ -1,4 +1,5 @@
 {
+    "Mipmapping Constant":"Mipmapping 常量",
     "Mipmapping for all textures is enabled.":"已启用所有纹理的Mipmap。",
     "Mipmapping is disabled.":"Mipmap已禁用。",
     "Mipmapping is enabled for textures that have it enabled in the Texture Group options (default).":"对于在\"纹理组\"选项中启用了Mipmap的纹理(默认)。",

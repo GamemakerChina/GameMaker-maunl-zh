@@ -1,7 +1,9 @@
 {
+    "Mipmapping Constant":"Mipmapping 常量",
     "Mipmapping for all textures is enabled.":"已启用所有纹理的Mipmap。",
     "Mipmapping is disabled.":"Mipmap已禁用。",
     "Mipmapping is enabled for textures that have it enabled in the Texture Group options (default).":"对于在\"纹理组\"选项中启用了Mipmap的纹理(默认)。",
+    "Shader Sampler Handle":"着色器采样器控制柄",
     "The above code enables mipmapping for the given shader texture sampler if it has not already been enabled.":"如果尚未启用给定着色器纹理采样器，则上述代码将为其启用mipmap。",
     "The index of the shader sampler to get":"要获取的着色器采样器的索引",
     "The mipmap setting (a constant, default: {}mip_markedonly{})":"mipmap设置(常量，默认值：{}mip_markedonly{})",

@@ -1,5 +1,6 @@
 {
     "Enable or disable texture filtering ({}true{} / {}false{})":"启用或禁用纹理过滤 ({}true{}/{}false{})",
+    "Shader Sampler Handle":"着色器采样器控制柄",
     "The above code checks to see if texture filtering is on or off for a specific sampler ID (stored in a local variable) and switches it accordingly.":"上述代码检查特定采样器ID(存储在局部变量中)的纹理过滤是打开还是关闭，并相应地进行切换。",
     "The sampler id from the shader.":"着色器中的采样器 ID。",
     "This function can be used to set the linear interpolation for a single sampler \"slot\" when using {}Shaders{} in {}GameMaker{}. When this is enabled ({}true{}) the sampler texture will be smoothed and if this is disabled ({}false{}) then images will be drawn based on the nearest pixel. The default value is that set by the {}Global Game Options{} for your game, or that set using the function {}{}gpu_set_texfilter(){}{}.":"在{}GameMaker{}中使用{2}着色器{3}时，此函数可用于设置单个采样器插槽的线性插值。启用此函数时 ({}true{}) 将平滑采样器纹理，如果禁用此函数 ({}false{})，则将基于最近的像素绘制图像。默认值由游戏的{}全局游戏选项{}设置，或者使用函数 {}{}gpu_set_texfilter(){}{} 设置。",

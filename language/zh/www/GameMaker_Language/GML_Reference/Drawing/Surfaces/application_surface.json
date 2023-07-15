@@ -1,5 +1,5 @@
 {
-    "The above code will resize the application surface to have a 1:1 ratio with the GUI layer.":"上述代码将重新调整应用程序表面的大小，使其与ui层的比例为1:1。",
-    "The regular Draw events ({}Draw Begin{}, {}Draw{} and {}Draw End{}) draw to this surface by default. Other Draw events (like {}Pre/Post Draw{} and {}Draw GUI{}) do not draw on the application surface. See&nbsp;{}Draw Events{}&nbsp;for more information on how those events work.":"默认情况下，常规绘制事件({}绘制开始{}、{}绘制{}和{}绘制结束{})将绘制到此表面。其他绘制事件(如{}绘制前/绘制后{}和{}绘制Gui{})不会在应用程序表面上绘制。有关这些事件如何工作的详细信息，请参阅{}绘制事件{}。",
+    "The above code will resize the application surface to have a 1:1 ratio with the GUI layer.":"上述代码将重新调整应用程序表面的大小，使其与 UI 层的比例为 1:1。",
+    "The regular Draw events ({}Draw Begin{}, {}Draw{} and {}Draw End{}) draw to this surface by default. Other Draw events (like {}Pre/Post Draw{} and {}Draw GUI{}) do not draw on the application surface. See&nbsp;{}Draw Events{}&nbsp;for more information on how those events work.":"默认情况下，常规绘制事件({}绘制开始{}、{}绘制{}和{}绘制结束{})将绘制到此表面。其他绘制事件(如{}绘制前/绘制后{}和{}绘制 GUI{}) 不会在应用程序表面上绘制。有关这些事件如何工作的详细信息，请参阅{}绘制事件{}。",
     "This global, built-in variable can be used to access the application surface, for use in any of the {}surface functions{}. This surface is permanently available and is where the game is drawn by {}GameMaker{}.":"此全局内置变量可用于访问应用程序表面，用于任何{}表面函数{}。此表面是永久可用的，并且是{}GameMaker{}绘制游戏的地方。"
 }

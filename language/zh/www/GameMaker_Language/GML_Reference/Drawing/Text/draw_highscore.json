@@ -4,5 +4,5 @@
     "The y coordinate of the bottom of the highscore rectangle.":"高分矩形底部的y坐标。",
     "The y coordinate of the top of the highscore rectangle.":"高分矩形顶部的y坐标。",
     "This simple function will draw the current list of internally stored high scores using the currently set font, colour and alpha values within the specified rectangle. You provide the coordinates for the upper left corner and lower right corner of the rectangular area to draw the text, and {}GameMaker{} will take care of the rest, with spacing and position being done automatically.":"此简单函数将使用指定矩形内当前设置的字体、颜色和字母值绘制内部存储的高分的当前列表。提供的坐标分别为矩形区域绘制文本，{}GameMaker{}将处理其余部分，并自动进行间距和位置调整。",
-    "This would draw the highscore table in a rectangle in the middle of the room with a 100px border.":"这将在具有100 px边框的房间中间的矩形中绘制高分表。"
+    "This would draw the highscore table in a rectangle in the middle of the room with a 100px border.":"这将在具有 100px 边框的房间中间的矩形中绘制高分表。"
 }

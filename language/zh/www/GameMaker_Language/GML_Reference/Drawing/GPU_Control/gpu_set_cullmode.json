@@ -1,6 +1,7 @@
 {
     "All clockwise triangles will be culled":"所有顺时针三角形都将被剔除",
     "All counter-clockwise triangles will be culled":"将剔除所有逆时针三角形",
+    "Culling Mode Constant":"剔除模式常量",
     "No culling will be done":"不会进行剔除",
     "The above code gets the current cull mode and if it is not {}cull_clockwise{} it is set to that constant.":"以上代码获取当前剔除模式，如果不是{}cull_clockwise{}，则将其设置为该常量。",
     "The cull mode to use (see list above)":"要使用的剔除模式(请参阅上面的列表)",

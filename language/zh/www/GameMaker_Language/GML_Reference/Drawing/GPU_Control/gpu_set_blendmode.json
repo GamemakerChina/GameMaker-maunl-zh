@@ -1,6 +1,7 @@
 {
     "Additive blending. Luminosity values of light areas are added.":"添加剂混合。将添加灯光区域的亮度值。",
     "As you can see from the above table, these four blend modes are really composites of {}extended{} blend modes which can be found on the page describing {}{}gpu_set_blendmode_ext(){}{}.":"如上表所示，这四种混合模式实际上是{}扩展{}混合模式的组合，可在描述{}{}gpu_set_blendmode_ext(){}{}的页面上找到。",
+    "Blend Mode Constant":"混合模式常量",
     "Guide To Using Blendmodes":"混合模式使用指南",
     "Max blending. Similar to additive blending.":"最大混合。类似于添加剂混合。",
     "Normal blending (the default blend mode).":"正常混合(默认混合模式)。",

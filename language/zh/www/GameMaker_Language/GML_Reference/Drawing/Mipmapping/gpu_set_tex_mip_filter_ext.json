@@ -1,4 +1,6 @@
 {
+    "Mipmapping Filter Constant":"Mipmapping 过滤器常量",
+    "Shader Sampler Handle":"着色器采样器控制柄",
     "The above code sets the mip filter mode to {}tf_point{} (disabling mipmapping) for the given shader texture sampler if it has not already been set.":"以上代码将给定着色器纹理采样器的mip过滤器模式设置为{}tf_point{}(禁用mipmapping)(如果尚未设置)。",
     "The index of the shader sampler to get.":"要获取的着色器采样器的索引。",
     "The mip filter mode to use (a constant, default: {}tf_point{}).":"要使用的mip过滤器模式(常量，默认值：{}tf_point{})。",

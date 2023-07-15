@@ -1,4 +1,5 @@
 {
+    "Blend Mode Factor Constant":"混合模式系数常量",
     "Destination blend mode factor (see constants above)":"目标混合模式因子(参见上面的常量)",
     "Guide To Using Blendmodes":"混合模式使用指南",
     "Note that you can either supply two individual arguments to this function or you can supply an array of arguments (as returned by the function {}{}gpu_get_blendmode_ext(){}{} for example). If supplying an array it should have the following two elements:":"请注意，您可以为此函数提供两个单独的参数，也可以提供一个参数数组(例如，由函数{}{}gpu_get_blendmode_ext(){}{}返回)。如果提供数组，则应具有以下两个元素：",
