@@ -1,5 +1,5 @@
 {
-    "The above code checks a DS priority queue to see if it is empty or not, and if it is not, it gets the number of items that it contains and stores the value in a variable.":"上述代码检查Ds的优先级队列以查看其是否为空;如果不为空，则获取其包含的项目数，并将该值存储在变量中。",
+    "The above code checks a DS priority queue to see if it is empty or not, and if it is not, it gets the number of items that it contains and stores the value in a variable.":"上述代码检查DS的优先级队列以查看其是否为空;如果不为空，则获取其包含的项目数，并将该值存储在变量中。",
     "The id of the data structure to check.":"要检查的数据结构的ID。",
     "This function will return the \"size\" of the priority queue, ie: the number of items that have been prioritized in it.":"此函数将返回优先级队列的\"大小\"，即优先级队列中已排定优先级的项目数。"
 }

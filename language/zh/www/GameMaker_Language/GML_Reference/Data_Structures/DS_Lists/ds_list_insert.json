@@ -1,5 +1,5 @@
 {
-    "The above code will add the value stored in the variable \"score\" into the 10th position of the list indexed by the variable \"list\" (lists are counted from 0, so a ten value list is numbered from 0 - 9).":"上述代码会将存储在变量\"分数\"中的值添加到变量\"列表\"索引的列表的第10个位置(列表从0开始计数，因此10个值列表从0到9进行编号)。",
+    "The above code will add the value stored in the variable \"score\" into the 10th position of the list indexed by the variable \"list\" (lists are counted from 0, so a ten value list is numbered from 0 - 9).":"上述代码会将存储在变量\"score\"中的值添加到变量\"list\"索引的列表的第10个位置(列表从0开始计数，因此10个值列表从0到9进行编号)。",
     "The id of the list to add to.":"要添加到的列表的ID。",
     "The position to add the value, where 0 corresponds to the very beginning of the list and the final position is {}ds_list_size(id)-1{}.":"添加值的位置，其中0对应于列表的最初位置，最终位置为{}ds_list_size(id)-1{}。",
     "The value to add to the list.":"要添加到列表中的值。",

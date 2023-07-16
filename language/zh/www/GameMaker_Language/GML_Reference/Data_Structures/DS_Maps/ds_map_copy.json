@@ -1,5 +1,5 @@
 {
-    "The above code will create a new map and assign it to the variable \"inventory_2\". It will then copy the contents of the DS map&nbsp;indexed in the variable \"inventory_1\" to this new map.":"以上代码将创建一个新映射并将其分配给变量\"inventory 2\"。然后，它会将变量\"inventory 1\"中索引的DS映射的内容复制到此新映射。",
+    "The above code will create a new map and assign it to the variable \"inventory_2\". It will then copy the contents of the DS map&nbsp;indexed in the variable \"inventory_1\" to this new map.":"以上代码将创建一个新映射并将其分配给变量\"inventory_2\"。然后，它会将变量\"inventory_1\"中索引的DS映射的内容复制到此新映射。",
     "The id of the map you are copying {}from{}":"正在从中复制{}的映射的ID。{}",
     "The id of the map you are copying {}to{}":"正在将{}复制到{}的映射的ID",
     "You can use this function to copy the contents of one map into another one that you have previously created using {}{}ds_map_create(){}{}. If the DS map&nbsp;that is being copied {}to{} is not empty, then this function will clear it first before copying. The original DS map&nbsp;remains unchanged by this process.":"您可以使用此函数将一个映射的内容复制到您以前使用{}{}ds_map_create(){}{}创建的另一个映射中。如果要将{}复制到{}的DS映射不为空，那么这个函数将在复制之前首先清除它。原始DS映射通过此过程保持不变。"

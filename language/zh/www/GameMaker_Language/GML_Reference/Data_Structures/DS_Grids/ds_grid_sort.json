@@ -2,6 +2,6 @@
     "The column to use for sorting the rows":"用于对行进行排序的列",
     "The index of the grid to sort.":"要排序的网格的索引。",
     "This function can be used to sort a DS grid based on the values from a given column (much as you would sort files by date, size etc... in the OS file explorer). The following image shows an example:":"此函数可用于根据给定列中的值对DS网格进行排序(就像您在Os文件资源管理器中按日期、大小等对文件进行排序一样)。下图显示了一个示例：",
-    "This would take all the values in the DS grid indexed in the variable \"grid\" and sort them according to the values found in the 3rd column of the grid (as shown in the above image).":"这将获取变量\"网格\"中索引的DS网格中的所有值，并根据网格第3列中的值对其进行排序(如上图所示)。",
+    "This would take all the values in the DS grid indexed in the variable \"grid\" and sort them according to the values found in the 3rd column of the grid (as shown in the above image).":"这将获取变量\"grid\"中索引的DS网格中的所有值，并根据网格第3列中的值对其进行排序(如上图所示)。",
     "Whether to sort lowest to highest ({}true{}), or highest to lowest ({}false{}).":"是从最低到最高({}true{})还是从最高到最低({}false{})进行排序。"
 }

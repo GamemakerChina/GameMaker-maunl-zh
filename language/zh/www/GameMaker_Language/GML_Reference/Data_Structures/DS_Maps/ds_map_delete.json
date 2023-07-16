@@ -1,5 +1,5 @@
 {
-    "The above code will delete the key \"shield\" (and the value it is paired with) from the DS map&nbsp;(inventory).":"上述代码将从DS映射(清单)中删除密钥\"shield\"(屏蔽)(以及与其配对的值)。",
+    "The above code will delete the key \"shield\" (and the value it is paired with) from the DS map&nbsp;(inventory).":"上面的代码将从 DS 映射 (inventory) 中删除键 \"shield\" (以及与之配对的值)。",
     "The id of the map to change.":"要更改的映射的ID。",
     "The key to delete (along with its associated value).":"要删除的密钥(及其关联值)。",
     "With this function you can remove any given key (and its corresponding value) from the given, previously created, {}DS{} map&nbsp;.":"使用此函数，您可以从给定的先前创建的{}Ds{}映射中删除任何给定的密钥(及其对应的值)。"

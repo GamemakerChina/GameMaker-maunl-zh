@@ -1,6 +1,6 @@
 {
     "Index of the mp_grid that is to be used":"要使用的 mp_grid 的索引",
-    "The above code will mark as forbidden all cells of the mp_grid indexed in the variable \"grid\" that fall within the area 0,0 to 100,200.":"上述代码将标记为禁止变量\"网格\"中索引在 0,0 到 100,200 区域内的 mp_grid 的所有单元格。",
+    "The above code will mark as forbidden all cells of the mp_grid indexed in the variable \"grid\" that fall within the area 0,0 to 100,200.":"上述代码将标记为禁止变量\"grid\"中索引在 0,0 到 100,200 区域内的 mp_grid 的所有单元格。",
     "The x coordinate of the bottom side of the rectangle to check.":"要检查的矩形底边的 Y 坐标。",
     "The x coordinate of the left side of the rectangle to check.":"要检查的矩形左侧的 X 坐标。",
     "The x coordinate of the right side of the rectangle to check.":"要检查的矩形右侧的 X 坐标。",

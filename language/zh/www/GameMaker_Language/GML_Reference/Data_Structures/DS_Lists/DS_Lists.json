@@ -6,6 +6,6 @@
     "The following functions exist that deal with DS lists:":"存在以下处理DS列表的函数：",
     "When accessing DS list data structures, you should always try to use {}integer values{} for the list position, and all non-integer indices will be floored by {}GameMaker{} if you do not. If that is not what you require, then you will need to do the rounding yourself previously before passing the index that you wish to check.":"访问DS列表数据结构时，您应该始终尝试使用{}整数值{}作为列表位置，如果不这样做，所有非整数索引都将被{}GameMaker{}打乱。如果这不是您所需要的，那么在传递您希望检查的索引之前，您需要自己进行四舍五入。",
     "You can find more information, plus examples, from from the GML Overview page on {}Accessors{}.":"您可以从{}访问器{}的GML概述页面中找到更多信息和示例。",
-    "{}NOTE{}: As with all dynamic resources, data structures take up memory and so should {}always{} be destroyed when no longer needed to prevent memory leaks which will slow down and eventually crash your game.":"{}注意{}：与所有动态资源一样，数据结构占用内存，因此当不再需要防止内存泄漏时，应始终销毁{}个{}，这将降低速度并最终导致游戏崩溃。",
+    "{}NOTE{}: As with all dynamic resources, data structures take up memory and so should {}always{} be destroyed when no longer needed to prevent memory leaks which will slow down and eventually crash your game.":"{}注意{}：与所有动态资源一样，数据结构占用内存，因此当不再需要防止内存泄漏时，应始终销毁{}{}，这将降低速度并最终导致游戏崩溃。",
     "{}NOTE{}: It is recommended to use {}arrays{} over DS lists as they have similar features, are easier to use and are garbage collected automatically.":"{}注意{}：建议在DS列表上使用{}数组{}，因为它们具有相似的函数、更易于使用并且会自动进行垃圾收集。"
 }

@@ -58,7 +58,7 @@
     "You can pass arrays into&nbsp;{}script&nbsp;functions{} and {}method variables{} as arguments, and modify those arrays anywhere inside the function. Doing so will modify the original arrays as well.":"你可以将数组作为参数传入{}脚本函数{}和{}方法变量{}，并在函数中的任何地方修改这些数组。这样做也会修改原来的数组。",
     "You should always take care to only access valid array positions, as trying to access a value outside of an array will also give an error. For example, this will cause the project to crash when run:":"应始终注意只访问有效的数组位置，因为尝试访问数组外部的值也会导致错误。例如，这将导致项目在运行时崩溃：",
     "{}1-Dimensional Arrays{}{}1-Dimensional Arrays{}":"{}1-Dimensional Arrays{}{}1-Dimensional Arrays{} 一维数组",
-    "{}A basic array is classed as having 1 {}dimension{}, but you can have arrays with more than one dimension too. The sections below explain both types of arrays:{}":"{}一个基本的数组被归类为有1{}个维度{}，但是你也可以有不止一个维度的数组。下面的章节解释了这两种类型的数组：{}。",
+    "{}A basic array is classed as having 1 {}dimension{}, but you can have arrays with more than one dimension too. The sections below explain both types of arrays:{}":"{}一个基本的数组被归类为有1{}维度{}，但是你也可以有不止一个维度的数组。下面的章节解释了这两种类型的数组：{}。",
     "{}Multi-Dimensional Arrays{}{}Multi-Dimensional Arrays{}":"{}Multi-Dimensional Arrays{}{}Multi-Dimensional Arrays{} 多维数组",
     "{}NOTE{}: The HTML5 export is the exception to the above rule, and when targeting that you should initialise arrays in consecutive order from 0 upwards.":"{}注意{}：HTML5导出是上述规则的例外情况，当确定要从0向上连续初始化数组时。",
     "{}NOTE{}{}&nbsp;{}The above code is not necessary if you are not changing any of the array\u0027s values, but rather referencing them. Referencing an array will not copy it and will be faster to parse.":"{}注意{}{}{}如果您不更改数组的任何值，而是引用它们，则不需要上面的代码。引用数组不会复制它，解析速度会更快。",

@@ -1,5 +1,5 @@
 {
-    "The above code selects a random cell from the DS grid indexed in the variable \"grid\" and stores its value in the variable \"val\".":"上述代码从变量\"网格\"中索引的DS网格中选择随机单元格，并将其值存储在变量\"值\"中。",
+    "The above code selects a random cell from the DS grid indexed in the variable \"grid\" and stores its value in the variable \"val\".":"上述代码从变量\"grid\"中索引的DS网格中选择随机单元格，并将其值存储在变量\"val\"中。",
     "The index of the grid.":"网格的索引。",
     "The x position of the cell you want to find the value of.":"要查找其值的单元格的x位置。",
     "The y position of the cell you want to find the value of.":"要查找其值的单元格的y位置。",

@@ -1,5 +1,5 @@
 {
-    "Note that this will only detect lists that were manually marked&nbsp;using the{}&nbsp;{}{}{}ds_list_mark_as_list(){}{}{}&nbsp;{}function.":"请注意，这将仅检测使用{}{}{}{}ds_list_mark_as_list(){}{}{}{}{}函数手动标记的列表。",
+    "Note that this will only detect lists that were manually marked&nbsp;using the{}&nbsp;{}{}{}ds_list_mark_as_list(){}{}{}&nbsp;{}function.":"请注意，这将仅检测使用{}{}{}{}ds_list_mark_as_list(){}{}{}{}函数手动标记的列表。",
     "The above code loops through a DS list and checks to see if any of the entries contain other list IDs. If they do, then these lists are destroyed, and then the main list is destroyed after the loop is finished.":"上述代码循环浏览DS列表并检查是否有任何条目包含其他列表ID。如果是这样，则会销毁这些列表，并在循环完成后销毁主列表。",
     "The id of the list to check.":"要检查的列表的ID。",
     "The position within the list to check.":"列表中要检查的位置。",

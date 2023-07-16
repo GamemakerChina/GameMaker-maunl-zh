@@ -1,7 +1,7 @@
 {
     "A DS priority queue is a special data structure similar to a {}{}DS queue{}{}, only here the queue of values is ordered by the priorities (always real numbers) that the values have been assigned. This structure can be very useful for constructing leaderboards or information lists where the importance of each entry can be weighted.":"DS优先队列是一种类似于{}{}DS队列{}{}的特殊数据结构，只有在这里，值队列才按照已分配值的优先级(始终为实数)排序。此结构对于构建可以权衡每个条目的重要性的排行榜或信息列表非常有用。",
     "DS&nbsp;Priority Queues":"DS 优先队列",
-    "The following functions exist that deal with DS priority queues:":"存在以下处理Ds优先级队列的函数：",
+    "The following functions exist that deal with DS priority queues:":"存在以下处理DS优先级队列的函数：",
     "{}NOTE{}: As with all dynamic resources, data structures take up memory and so should {}always{} be destroyed when no longer needed to prevent memory leaks which will slow down and eventually crash your game.":"{}注意{}：与所有动态资源一样，数据结构占用内存，因此当不再需要防止内存泄漏时，应{}始终{}销毁，这将降低速度并最终导致游戏崩溃。",
     "{}NOTE{}: If you need to check if a data structure exists, you can use the {}{}{}ds_exists(){}{}{} function.":"{}注意{}：如果需要检查是否存在数据结构，可以使用{}{}{}ds_exists(){}{}{}函数。"
 }

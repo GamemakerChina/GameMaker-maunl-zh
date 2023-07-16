@@ -2,6 +2,6 @@
     "A DS queue is somewhat similar to a {}DS stack{} but it works on a first-in first-out (FIFO) basis. The value that is put into the queue {}first{} is also the first to be removed from it. You can think of it like a queue in a shop for paying, where the person that is first in the queue pays first and then leaves the shop. Queues are typically used to store actions or behaviours (in the form of scripts, for example) that still need to be done by an instance but there are many other uses.":"DS队列有点类似于{}DS堆栈{}，但它以先进先出(FIFO)为基础工作。首先放入队列{}的值{}也是第一个从其中删除的值。你可以把它想象成在商店里排队付款，排队的第一个人先付款，然后离开商店。队列通常用于存储操作或行为(例如，以脚本的形式)，这些操作或行为仍然需要由实例完成，但还有许多其他用途。",
     "DS&nbsp;Queues":"DS 队列",
     "The following functions exist that deal with DS queues:":"存在以下处理DS队列的函数：",
-    "{}NOTE{}: As with all dynamic resources, data structures take up memory and so should {}always{} be destroyed when no longer needed to prevent memory leaks which will slow down and eventually crash your game.":"{}注意{}：与所有动态资源一样，数据结构占用内存，因此当不再需要防止内存泄漏时，应始终销毁{}个{}，这将降低速度并最终导致游戏崩溃。",
+    "{}NOTE{}: As with all dynamic resources, data structures take up memory and so should {}always{} be destroyed when no longer needed to prevent memory leaks which will slow down and eventually crash your game.":"{}注意{}：与所有动态资源一样，数据结构占用内存，因此当不再需要防止内存泄漏时，应始终销毁{}{}，这将降低速度并最终导致游戏崩溃。",
     "{}NOTE{}: if you need to check if a data structure exists, you can use the {}{}{}ds_exists(){}{}{} function.":"{}注意{}：如果需要检查是否存在数据结构，可以使用{}{}{}ds_exists(){}{}{}函数。"
 }

@@ -1,5 +1,5 @@
 {
-    "The above code checks a variable to see if it has reached a specific value and if it has it clears the DS priority queue indexed in the variable \"command_queue\", sets an alarm, and resets the variable to 0.":"以上代码检查变量是否已达到特定值，以及是否清除变量\"command_queue\"中索引的Ds优先级队列，设置报警，并将变量重置为0。",
+    "The above code checks a variable to see if it has reached a specific value and if it has it clears the DS priority queue indexed in the variable \"command_queue\", sets an alarm, and resets the variable to 0.":"以上代码检查变量是否已达到特定值，以及是否清除变量\"command_queue\"中索引的DS优先级队列，设置报警，并将变量重置为0。",
     "The id of the data structure to clear.":"要清除的数据结构的ID。",
     "With this function you can clear all data from the given priority queue data-structure. This does {}NOT{} destroy the data-structure (for that you should use {}{}ds_priority_destroy(){}{}) it only wipes all data from it and returns an empty priority queue.":"使用此函数，您可以清除给定优先级队列数据结构中的所有数据。这不会{}不{}破坏数据结构(对于应使用{}{}ds_priority_destroy(){}{}的数据结构)，它只会擦除其中的所有数据，并返回一个空的优先级队列。"
 }

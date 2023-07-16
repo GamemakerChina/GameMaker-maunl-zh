@@ -6,5 +6,5 @@
     "The y position of the bottom of the region in the grid.":"网格中区域底部的y位置。",
     "The y position of the top of the region in the grid.":"栅格中区域顶部的y位置。",
     "This function can be used to set a rectangular region of a given grid to a specified value (which can be either a real or a string) as illustrated by the image shown below:":"此函数可用于将给定网格的矩形区域设置为指定值(可以是实数或字符串)，如下图所示：",
-    "This would set all cells within the region of the grid indexed in the variable \"grid\" from (5,5) to (10,10) to 99.":"这将设置在变量\"网格\"(5，5 )到(10，10 )到99中索引的网格区域内的所有单元格。"
+    "This would set all cells within the region of the grid indexed in the variable \"grid\" from (5,5) to (10,10) to 99.":"这将设置在变量\"grid\"(5，5 )到(10，10 )到99中索引的网格区域内的所有单元格。"
 }

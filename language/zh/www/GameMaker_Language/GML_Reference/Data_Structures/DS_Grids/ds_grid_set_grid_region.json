@@ -8,5 +8,5 @@
     "The x position on the destination grid to copy the source region to.":"要将源区域复制到的目标栅格上的x位置。",
     "The y position on the destination grid to copy the source region to.":"要将源区域复制到的目标栅格上的y位置。",
     "This function can be used to copy the contents of a rectangular area of grid cells from one (previously defined) DS grid to another, {}or{} it can be used to copy a region from within the same grid. The following images illustrate both ways that this function can be used:":"此函数可用于将网格单元格矩形区域的内容从一个(先前定义的)DS网格复制到另一个，{}或{}它可用于从同一网格内复制区域。下图说明了两种方法：此函数可用于：",
-    "This would copy the region of cells from (0,0) to (5,5) of the grid indexed in the variable \"t_grid\" and copy them to position (10,10) in the grid indexed in the variable \"grid\".":"这将复制在变量\"t_grid\"中索引的网格的(0,0 )到(5,5 )的单元格区域，并将它们复制到在变量\"网格\"中索引的网格中的位置(10,10 )。"
+    "This would copy the region of cells from (0,0) to (5,5) of the grid indexed in the variable \"t_grid\" and copy them to position (10,10) in the grid indexed in the variable \"grid\".":"这将复制在变量\"t_grid\"中索引的网格的(0,0 )到(5,5 )的单元格区域，并将它们复制到在变量\"grid\"中索引的网格中的位置(10,10 )。"
 }

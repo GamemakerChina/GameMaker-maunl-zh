@@ -16,7 +16,7 @@
     "The above code will create a medium, yellow, explosion above the instance and destroy it should the \"health\" variable be less than or equal to 0.":"如果\"Health\"变量小于或等于0，则上述代码将在实例上方创建中等、黄色的爆炸，并销毁它。",
     "The available constants for the different particle kinds are:":"不同粒子类型的可用常量包括：",
     "The colour of the effect.":"效果的颜色。",
-    "The kind of effect (use one of the constants listed{}&nbsp;above{}).":"类型的效果(使用上面列出的{}个常量之一{})。",
+    "The kind of effect (use one of the constants listed{}&nbsp;above{}).":"类型的效果(使用上面列出的{}常量之一{})。",
     "The size of the effect.":"效果的大小。",
     "The x positioning of the effect if relevant.":"效果的x定位(如果相关)。",
     "The y positioning of the effect if relevant.":"效果的y定位(如果相关)。",
