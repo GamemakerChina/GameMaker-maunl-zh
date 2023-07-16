@@ -7,5 +7,8 @@
     "Why is this important? Well, since it allows {}GameMaker{} to continue functioning while sending or receiving data, and this means that you can do many things all without blocking the game loop like:":"这有什么重要的？嗯，因为它允许{} GameMaker {}在发送或接收数据时继续工作，这意味着你可以做很多事情，而不会阻塞游戏循环，比如:",
     "communicate and interchange data with a web server":"与网络服务器通信和交换数据",
     "have callback events to do things only when the correct information is received":"只有在收到正确的信息时才有回调事件做事",
-    "stream data from the device into your game without the player waiting for things to load":"将数据从设备流式传输到您的游戏中，而无需玩家等待内容加载"
+    "stream data from the device into your game without the player waiting for things to load":"将数据从设备流式传输到您的游戏中，而无需玩家等待内容加载",
+    "{}Cloud Saving{}":"{}云存储{}",
+    "{}Dialog{}":"{}对话框{}",
+    "{}Push Notifications{}":"{}推送通知{}"
 }

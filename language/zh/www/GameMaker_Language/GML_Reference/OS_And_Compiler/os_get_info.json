@@ -2,7 +2,7 @@
     "Additional keys containing OpenGL graphics info {} ":"包含OpenGL图形信息的其他密钥{}",
     "Below you can find some details on the extra data that will be made available to the DS map specific to the following platforms, and it should be noted that on&nbsp;all&nbsp;platforms {}except{}&nbsp;HTML5 the map will have the key \"{}{}is64bit{}\" which will either be {}true{} or {}false{} depending on whether the runner is running in 64-bit mode or not.{}":"您可以在下面找到有关将提供给特定于以下平台的DS映射的额外数据的一些详细信息，<br>并且应该注意的是，在所有平台上，{}除了{}HTML5之外，映射都将具有键\"{}{}is64bit{}\"，<br>该键将是{}true{}或{}false{}，具体取决于运行器是否在64位模式下运行。{}",
     "Here are some keys that this platform returns in addition to the ones listed under Windows:&nbsp;":"以下是除了Windows下列出的键之外，此平台还返回的一些键：",
-    "Here are the keys returned on iOS and tvOS (for detailed information, please refer to the Apple Developer documentation):":"以下是iOS和tvOS上返回的密钥(详细信息请参考Apple Developer留档)：",
+    "Here are the keys returned on iOS and tvOS (for detailed information, please refer to the Apple Developer documentation):":"以下是iOS和tvOS上返回的键值(详细信息请参考Apple Developer留档)：",
     "On Windows, you will get some extra data from DX11 with the following keys available in the DS map (useful for extensions):":"在Windows上，您将使用DS映射中可用的以下键从DX11获取一些额外数据(对扩展有用)：",
     "On the {}Android{} platform you will get some extra data from various different APIs with the following keys available in the DS map:":"在{}Android{}平台上，您将从DS地图中提供以下密钥的各种不同API中获取一些额外数据：",
     "Returns {}-1{}.":"返回 {}-1{}。",

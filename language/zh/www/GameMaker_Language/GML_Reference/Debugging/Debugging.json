@@ -1,12 +1,22 @@
 {
+    "Apart from those specialist functions and macros, to help you out when creating your game, {}GameMaker{} also has a long list of error messages that can be shown either when writing your game code, compiling your game, or when the game itself is running. These messages point to the specific error in question and can be used to pinpoint a problem within a specific object or script function, helping greatly with the process of debugging your game. However, it may not always be obvious exactly what the error message means and so the following sections list&nbsp;all of the possible messages and explain what they mean to make life easier for you:":"除了这些专业函数和宏外，为了帮助您创建游戏，{}GameMaker{} 还提供了一个很长的错误消息列表，可以在编写游戏代码、编译游戏或运行游戏本身时显示。这些消息指向有问题的特定错误，并可用于查明特定对象或脚本函数中的问题，这对调试游戏的过程有很大帮助。但是，错误消息的确切含义可能并不总是很明显，因此以下部分列出了所有可能的消息，并解释了它们的含义，以使您的工作更轻松：",
     "Apart from those specialist functions, to help you out when creating your game, {}GameMaker{} also has a long list of error messages that can be shown either when writing your game code, compiling your game, or when the game itself is running. These messages point to the specific error in question and can be used to pinpoint a problem within a specific object or script function, helping greatly with the process of debugging your game. However, it may not always be obvious exactly what the error message means and so the following sections list&nbsp;all of the possible messages and explain what they mean to make life easier for you:":"除了这些专业函数外，为了帮助您创建游戏，{}GameMaker{}还提供了一个很长的错误消息列表，可以在编写游戏代码、编译游戏或运行游戏本身时显示。这些消息指向有问题的特定错误，并可用于查明特定对象或脚本函数中的问题，这对调试游戏的过程有很大帮助。但是，错误消息的确切含义可能并不总是很明显，因此以下部分列出了所有可能的消息，并解释了它们的含义，以使您的工作更轻松：",
     "Compiler&nbsp;Errors":"编译器错误",
+    "Debug Macros":"调试宏",
     "Debugging":"调试",
+    "Errors":"错误",
+    "Function Reference":"函数参考",
+    "Functions &amp; Variables":"函数 / 变量",
     "Runner Errors":"Runner错误",
     "Syntax Errors":"语法错误",
+    "The debug output will be the following in case of the above screenshot:":"如果出现上述屏幕截图，调试输出将如下所示：",
     "While making a game, it is often very important that you know certain details of the game mechanics at specific points in time, or to be able to input certain key values for some functions to test out different methods and ideas for your game. To that end {}GameMaker{} provides you with a number of debug functions that will show messages and ask for input while in debug mode (or on a Windows target) but that will be ignored when compiled for other target modules due to the fact that these functions put the game in a closed loop until the input is resolved.":"在制作游戏时，了解特定时间点的游戏机制的某些细节，或者能够为某些函数输入某些键值以测试游戏的不同方法和想法，通常是非常重要的。为此，{}GameMaker{}为您提供了许多调试函数，这些函数将在调试模式下(或在Windows目标上)显示消息并要求输入，但在为其他目标模块编译时将被忽略，因为这些函数将游戏置于闭环中，直到输入被解析。",
     "You can also find further information on how to debug your game in the section on&nbsp;{}The Debugger{}.":"您还可以在{}调试器{}一节中找到有关如何调试游戏的更多信息。",
     "{}Debugging{}":"{}调试{}",
+    "{}GameMaker{}&nbsp;also has a couple&nbsp;of built-in macros&nbsp;that you can use to make it easier to debug your game:&nbsp;":"{}GameMaker{} 还有几个内置宏，您可以使用它们来更轻松地调试游戏：",
+    "{}_GMFILE_{} - This is the name of the current code file this macro is used in. This will look like e.g. {}\"gml_GlobalScript_Script1\"{} for a&nbsp;{}{}Script Asset{}{}, {}\"gml_Object_Object1_Create_0\"{} for&nbsp;{}Object Events{}&nbsp;and {}\"gml_Room_Room1_Create\"{} for the&nbsp;{}Room_Creation_Code{}.":"{}_GMFILE_{} - 这是使用此宏的当前代码文件的名称。这将看起来像例如。{}{}脚本资源{}{}的 {}\"gml_GlobalScript_Script1\"{}、{}对象事件{}的 {}\"gml_Object_Object1_Create_0\"{} 和 {}Room_Creation_Code{} 的 {}\"gml_Room_Room1_Create\"{}。",
+    "{}_GMFUNCTION_{} - This is the name of the innermost function this macro is used in. This holds the same value as {}_GMFILE_{} if it is used outside of any function definition, i.e. directly inside an object event or script.":"{}_GMFUNCTION_{} - 这是使用此宏的最内层函数的名称。如果在任何函数定义之外使用，则它与 {}_GMFILE_{} 具有相同的值，即直接在对象事件或脚本中。",
+    "{}_GMLINE_{} - This is the line number as shown in {}The Script Editor{}&nbsp;(you can enable these in the&nbsp;{}Code Editor{}&nbsp;preferences).":"{}_GMLINE_{} - 这是{}脚本编辑器{}中显示的行号(您可以在{}代码编辑器{}首选项中启用这些行号)。",
     "{}{}NOTE{}{} Although they may work on certain platforms they are not to be used for anything other than debugging.":"{}{}注意{}{}尽管它们可以在某些平台上工作，但它们只能用于调试。",
     "{}{}NOTE{}{}&nbsp;Although they may work on certain platforms they are not to be used for anything other than debugging.":"{}{}注意{}{} 尽管它们可能在某些平台上工作，但除了调试之外，不能用于任何其他用途。"
 }

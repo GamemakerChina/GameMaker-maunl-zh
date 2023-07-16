@@ -1,0 +1,6 @@
+{
+    "The above code first defines a string with many newlines at the end and stores it in a temporary variable {}_the_string{}. It then calls&nbsp;{}{}string_trim_end{}{}&nbsp;to remove all the newline characters at the end of the string (but {}not{} the ones between the letters) and stores the result in another temporary variable {}_clean_string{}.":"上面的代码首先定义了一个末尾有很多换行符的字符串，并将其存储在临时变量 {}_the_string{} 中。然后调用 {}{}string_trim_end{}{} 删除字符串末尾的所有换行符 (但{}不{}删除字母之间的换行符)，并将结果存储在另一个临时变量 {}_clean_string{} 中。",
+    "The string to trim":"要修剪的字符串",
+    "{}This function returns a new string with all trailing white-space characters removed.{}":"{}此函数返回一个删除所有尾随空白字符的新字符串。{}",
+    "{}{}NOTE{}{}&nbsp;The following characters are white-space characters: space (\" \"), tab (\"\\t\"), carriage return (\"\\r\"), newline (\"\\n\"), form feed (\"\\f\") and vertical tab (\"\\v\"). See&nbsp;{}White-space Characters{}&nbsp;for the full list, including Unicode characters.":"{}{}注意{}{} 以下字符为空白字符：空格(\"\")、制表符(\"\\t\")、回车符(\"\\r\")、换行符(\"\\n\")、换页符(\"\\f\")和垂直制表符(\"\\v\")。有关完整列表(包括 Unicode 字符)，请参见{}空白字符{}。"
+}

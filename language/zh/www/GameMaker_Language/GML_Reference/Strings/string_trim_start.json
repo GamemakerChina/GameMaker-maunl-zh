@@ -1,0 +1,6 @@
+{
+    "The above code first creates a temporary string named&nbsp;{}_string_with_a_bit_of_everything{}. This string contains a couple of leading spaces and tabs before the actual text. It then trims all whitespace from the start of the string by calling&nbsp;{}{}string_trim_start{}{}&nbsp;and the result is stored in a new temporary variable&nbsp;{}_trimmed_string{}. Finally this new string is shown in a debug message.":"上面的代码首先创建一个名为 {}_string_with_a_bit_of_everything{} 的临时字符串。此字符串在实际文本之前包含几个前导空格和制表符。然后，它通过调用 {}{}string_trim_start{}{} 从字符串的开头修剪所有空格，结果存储在一个新的临时变量 {}_trimmed_string{} 中。最后，这个新字符串显示在调试消息中。",
+    "The string to trim":"要修剪的字符串",
+    "{}This function returns a new string with all leading white-space characters removed.{}":"{}此函数返回删除了所有前导空格字符的新字符串。{}",
+    "{}{}NOTE{}{}&nbsp;The following characters are white-space characters: space (\" \"), tab (\"\\t\"), carriage return (\"\\r\"), newline (\"\\n\"), form feed (\"\\f\") and vertical tab (\"\\v\"). See&nbsp;{}White-space Characters{}&nbsp;for the full list, including Unicode characters.":"{}{}注意{}{} 以下字符为空白字符：空格(\"\")、制表符(\"\\t\")、回车符(\"\\r\")、换行符(\"\\n\")、换页符(\"\\f\")和垂直制表符(\"\\v\")。有关完整列表(包括 Unicode 字符)，请参见{}空白字符{}。"
+}

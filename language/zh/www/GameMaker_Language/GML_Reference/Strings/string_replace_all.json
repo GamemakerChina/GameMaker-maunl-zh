@@ -2,6 +2,6 @@
     "The new substring to replace the previous one(s).":"替换先前子字符串的新子字符串。",
     "The string to be copied.":"要复制的字符串。",
     "The substring within the string to be replaced in all instances.":"在所有情况下要替换的字符串中的子字符串。",
-    "This will set {}str2{} to {}str1{}, but with its instances of \"x\" replaced with \"l\", resulting in {}str2{} being \"Hello World\".":"这将把{}str2{}设置为{}str1{}，但将其“ X ”替换为“ l ”，从而导致{}str2{}为“ Hello World ”。",
+    "This will set {}str2{} to {}str1{}, but with its instances of \"x\" replaced with \"l\", resulting in {}str2{} being \"Hello World\".":"这将把 {}str2{} 设置为 {}str1{}，但将其 \"X\" 替换为 \"l\"，从而导致 {}str2{} 为 \"Hello World\"。",
     "You can use this function to parse a string looking for specific parts, which can then be replaced by the new string that you have specified in all places that they occur.":"您可以使用此函数解析字符串以查找特定部分，然后可以用您在它们出现的所有位置指定的新字符串替换该字符串。"
 }

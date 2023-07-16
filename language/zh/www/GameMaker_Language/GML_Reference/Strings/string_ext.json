@@ -6,5 +6,6 @@
     "This function creates a new string, allowing you to insert placeholders in the main \"format string\", and to specify an array containing the values to be inserted into those placeholders.":"此函数创建一个新字符串，允许您在主\"格式化字符串\"中插入占位符，并指定包含要插入这些占位符的值的数组。",
     "This function works in a similar manner, but instead of the values being passed as separate arguments, they\u0027re passed as an array in the second argument.":"该函数的工作方式类似，但不是将值作为单独的参数传递，而是在第二个参数中作为数组传递。",
     "When only one argument is provided to the function, this argument is considered to be a value, which will be converted to a string from its original&nbsp;{}data type{}. When the second argument is given, the first argument is considered a {}Format String{}&nbsp;and the second argument an array that contains values to be inserted into the format string.":"当只向函数提供一个参数时，该参数被视为一个值，该值将从其原始{}数据类型{}转换为字符串。当给定第二个参数时，第一个参数被视为{}格式字符串{}，第二个参数被视为包含要插入到格式字符串中的值的数组。",
+    "{}{}NOTE{}{}&nbsp;You can also use&nbsp;{}Template Strings{} to insert variables and expressions into strings.":"{}{}注意{}{} 还可以使用{}模板字符串{}将变量和表达式插入字符串中。",
     "{}{}OPTIONAL{}{}&nbsp;An array&nbsp;of values to be inserted at the placeholder positions.":"{}{}可选{}{} 要插入到占位符位置的值的数组。"
 }

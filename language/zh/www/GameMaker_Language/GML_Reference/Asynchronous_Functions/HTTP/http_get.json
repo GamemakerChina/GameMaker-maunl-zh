@@ -14,5 +14,5 @@
     "{}id: {}The ID which was returned from the command. If you fire off a series of {}http_{} requests then you need to know which one you are getting the reply to, and so you would use this value to compare to the value you stored when you originally sent the request to find the right one.":"{}id：{}从命令返回的 ID。 如果您发出一系列 {}http_{} 请求，那么您需要知道您收到的是哪个请求的回复，因此您将使用此值与您最初发送请求时存储的值进行比较，以找到 正确的那一个。",
     "{}result: {}The data received (string only).":"{}result 结果: {}收到的数据(仅字符串)。",
     "{}status: {}Returns a value of less than 0 for an error, 0 for complete and 1 for receiving packets (see below for more details).":"{}status 状态：{}返回小于 0 的值表示错误，0 表示完成，1 表示接收数据包(详情请见下文)。",
-    "{}url: {}The complete URL you requested.":"{} url: {}请求的完整 URL。"
+    "{}url: {}The complete URL you requested.":"{}url: {}请求的完整 URL。"
 }
