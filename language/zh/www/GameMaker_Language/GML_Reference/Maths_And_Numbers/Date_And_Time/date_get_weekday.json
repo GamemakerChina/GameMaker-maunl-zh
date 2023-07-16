@@ -1,5 +1,5 @@
 {
     "The date to check.":"要检查的日期。",
-    "This function returns the week day value of the given datetime. This will be a value from 0 to 6.":"该函数返回给定 时间日期 的星期几。这将是一个从0到6的值。",
+    "This function returns the week day value of the given datetime. This will be a value from 0 to 6.":"该函数返回给定时间日期的星期几。这将是一个从0到6的值。",
     "This would set \"myweekday\" to the current weekday.":"这将把“myweekday”设置为当前星期几。"
 }

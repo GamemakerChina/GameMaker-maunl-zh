@@ -2,5 +2,5 @@
     "The datetime to add to.":"要添加到的日期时间。",
     "The number of weeks (must be an integer) to add.":"要添加的周数(必须是整数)。",
     "This would set mynewdatetime to the current date but with 52 weeks added.":"这会将 mynewdatetime 设置为当前日期，但添加了 52 周。",
-    "With this function you can increment a given datetime value by a specific number of weeks, and it will return the new datetime value.":"使用这个函数，您可以将给定的 时间日期 值增加特定的周数，它将返回新的 时间日期 值。"
+    "With this function you can increment a given datetime value by a specific number of weeks, and it will return the new datetime value.":"使用这个函数，您可以将给定的时间日期值增加特定的周数，它将返回新的时间日期值。"
 }
