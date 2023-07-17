@@ -1,5 +1,5 @@
 {
     "The section to delete.":"要删除的部分。",
-    "This example will open \"savedata.ini\" and write a value to \"save1\" &gt; \"Score\". It will then delete the \"save1\" section and close the .ini file.":"这个例子将打开 \"savedata.ini\" 并将值写入 \"save1\" >“Score”。然后它将删除“save1”节 并关闭 .ini 文件。",
+    "This example will open \"savedata.ini\" and write a value to \"save1\" &gt; \"Score\". It will then delete the \"save1\" section and close the .ini file.":"这个例子将打开 \"savedata.ini\" 并将值写入 \"save1\">\"Score\"。然后它将删除 \"save1\" 节并关闭 .ini 文件。",
     "With this function you can delete a whole section of an ini file, which will also remove all key-value pairs that are associated with it.":"使用这个函数，您可以删除一个 ini 文件的整个部分，这也将删除与之关联的所有键-值对。"
 }

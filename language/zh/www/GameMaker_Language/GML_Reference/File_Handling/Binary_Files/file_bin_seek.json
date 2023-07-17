@@ -2,6 +2,6 @@
     "The ID of the file to read from.":"要从中读取的文件的 ID。",
     "The position in the file to move to.":"要移动到的文件中的位置。",
     "This function moves the current read position within the file to the indicated position. You supply the file ID value, as returned by the function {}{}file_bin_open(){}{}, and to append a file, move the position to the size of the file before writing.":"此函数将文件中的当前读取位置移动到指定位置。 您提供函数 {}{}file_bin_open(){}{} 返回的文件 ID 值，并在写入前将位置移动到文件大小以附加文件。",
-    "This would open a file from the same directory as the game, and assign its index to the variable \"file\", then get the size of the file and set the next writing position to that size.":"这将从与游戏相同的目录中打开一个文件，并将其索引赋给变量“ file”，然后获取文件的大小并将下一个写入位置设置为该大小。",
+    "This would open a file from the same directory as the game, and assign its index to the variable \"file\", then get the size of the file and set the next writing position to that size.":"这将从与游戏相同的目录中打开一个文件，并将其索引赋给变量 \"file\"，然后获取文件的大小并将下一个写入位置设置为该大小。",
     "{}NOTE{}: These functions {}do not{} work when the target module is HTML5.":"{} 注意 {}: 当目标模块是 HTML5 时，这些函数 {} 不能工作。"
 }
