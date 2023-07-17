@@ -1,5 +1,5 @@
 {
     "The above code checks the speed of the physics enabled instance and then changes the linear damping based on the returned value.":"上述代码检查启用物理的实例的速度，然后根据返回的值更改线性阻尼。",
-    "This {}read-only{} variable returns the current speed of the physics enabled instance, defined in pixels per step. Should you need to change this value, you must do so by changing the x and y vectors using the variables {}{}phy_speed_x{}{} and {}{}phy_speed_y{}.{}":"此 {} 只读 {} 变量返回启用物理的实例的当前速度，定义为每步像素数。如果需要更改此值，则必须使用变量 {}{}phy_speed_x{}{} 和 {}{}phy_speed_y{}{} 更改 X 和 Y 向量。",
+    "This {}read-only{} variable returns the current speed of the physics enabled instance, defined in pixels per step. Should you need to change this value, you must do so by changing the x and y vectors using the variables {}{}phy_speed_x{}{} and {}{}phy_speed_y{}.{}":"此{}只读{}变量返回启用物理的实例的当前速度，定义为每步像素数。如果需要更改此值，则必须使用变量 {}{}phy_speed_x{}{} 和 {}{}phy_speed_y{}{} 更改 X 和 Y 向量。",
     "{}{}Real{}{} (single precision floating point value, or {}undefined{} if the instance is not physics enabled)":"{}{}Real{}{} (单精度浮点值，或 {}undefined{} (如果未启用物理实例)"
 }

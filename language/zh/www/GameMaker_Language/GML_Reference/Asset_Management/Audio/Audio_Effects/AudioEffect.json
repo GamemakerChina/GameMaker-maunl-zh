@@ -5,7 +5,7 @@
     "A {}read-only{} property that stores the type of audio effect stored in this struct. It is set to&nbsp;{}AudioEffectType.HPF2{}&nbsp;for HPF.":"一个{}只读{}属性，用于存储本结构中的音频效果类型。 它被设置为&nbsp;{}AudioEffectType.HPF2{}&nbsp;用于HPF。",
     "A {}read-only{} property that stores the type of audio effect stored in this struct. It is set to&nbsp;{}AudioEffectType.LPF2{}&nbsp;for LPF.":"一个{}只读{}属性，用于存储本结构中的音频效果类型。 它被设置为&nbsp;{}AudioEffectType.LPF2{}&nbsp;用于LPF。",
     "A {}read-only{} property that stores the type of audio effect stored in this struct. It is set to&nbsp;{}AudioEffectType.Reverb1{}&nbsp;for Reverb.":"一个{}只读{}属性，用于存储本结构中的音频效果类型。 它被设置为&nbsp;{}AudioEffectType.Reverb1{}&nbsp;用于混响。",
-    "A {}read-only{} property that stores the type of audio effect stored in this struct. It is set to&nbsp;{}AudioEffectType.Tremolo{}&nbsp;for Tremolo.":"存储此结构中存储的音频效果类型的 {} 只读 {} 属性。对于颤音，它设置为 {}AudioEffectType.Tremolo{} 。",
+    "A {}read-only{} property that stores the type of audio effect stored in this struct. It is set to&nbsp;{}AudioEffectType.Tremolo{}&nbsp;for Tremolo.":"存储此结构中存储的音频效果类型的{}只读{}属性。对于颤音，它设置为 {}AudioEffectType.Tremolo{} 。",
     "All structs of this type have a {}type{} and {}bypass{} property. All other properties are specific to certain types of effects.":"这种类型的所有结构都有一个{}type{}和{}bypass{}属性。 所有其他属性都是特定于某些类型的效果。",
     "An AudioEffect struct stores the parameters used by an audio effect. You can change these values to adjust the effect in real-time.":"AudioEffect 结构存储音频效果使用的参数。您可以更改这些值以实时调整效果。",
     "Below is a list of struct members depending on the type of effect created.":"下面是一个结构成员的列表，取决于创建的效果类型。",
