@@ -19,7 +19,7 @@
     "Static Variables":"静态变量",
     "Structs &amp; Constructors":"结构和构造函数",
     "Variables and Conditions":"变量和条件",
-    "You can use {}Feather{}&nbsp;for intelligent code completion and error reporting in your GML Code scripts.":"您可以在GML 代码脚本中使用{}羽毛(Feather){}进行智能代码完成和错误报告。",
+    "You can use {}Feather{}&nbsp;for intelligent code completion and error reporting in your GML Code scripts.":"您可以在GML 代码脚本中使用{}语法检查(Feather){}进行智能代码完成和错误报告。",
     "if / else and Conditional Operators":"if/ else和条件运算符",
     "{}Addressing Variables In Other Instances{}":"{}在其他实例中寻址变量{}",
     "{}GML Code{} Overview":"{}GML 代码{}概述",
