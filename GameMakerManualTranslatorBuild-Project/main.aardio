@@ -1,8 +1,27 @@
+
+import win.ui;
+import win.ui.menu;
+/*DSG{{*/
+mainForm = win.form(text="GameMaker Manual_Build";right=895;bottom=679)
+mainForm.add(
+button={cls="button";text="1, Unpack Manual";left=24;top=16;right=200;bottom=80;z=2};
+button3={cls="button";text="1,Build init";left=264;top=16;right=440;bottom=80;z=3};
+button4={cls="button";text="3,Packing Manual";left=264;top=160;right=440;bottom=224;disabled=1;z=4};
+button5={cls="button";text="2,Build!!!!";left=264;top=88;right=440;bottom=152;z=5};
+log={cls="edit";left=8;top=232;right=872;bottom=672;autohscroll=false;bgcolor=0;color=16777215;db=1;dl=1;dr=1;edge=1;font=LOGFONT(h=-16);hidesel=1;multiline=1;readonly=1;vscroll=1;z=1}
+)
+/*}}*/
+
 import console
 import fsys
 import web.json
+
+import System.IO.Compression.ZipFile;
+var ZipFile = System.IO.Compression.ZipFile;
+import zlib.zip
+	
+//根据有无debug文件判断是否是在ide调试
 debug=io.exist("debug")
-//global_json=string()
 
 if debug{
 	path=//../
@@ -10,112 +29,100 @@ if debug{
 	path=//./
 }
 
-//读取或初始化setting.json
+//读取setting.json
 var file=path+"setting.json"
 if !io.exist(file){
-var str=`{
-	"group":"zh",
-	"importPath":"patch/import",//依赖路径,通用加载的js与css
-	"mainJs":"patch/main.js",//翻译器的主要前端逻辑,这个文件最后加载
-	"template":"patch/template.htm",//编译时插入的模板
-	"team":"patch/team.htm",//编译后插入主页的汉化组信息
-}`
-	string.save(file,str)
+	win.msgbox("你搞丢了配置文件setting.json","注意!")
+	return 0
 }
 setting=web.json.parse(string.load(file))
 
-//设置语言组
-if setting.group{
-	group=setting.group
-}else{
-	group="def"
+manualFile=io.fullpath(setting.manualPath+"\"+setting.manualFileName)
+manualNewFile=io.fullpath(setting.manualPath+"\"+setting.manualNewFileName)
+
+manualUnpackDir=io.fullpath(path+"\"+setting.manualUnpackDirName)
+buildDir=io.fullpath(path+"\"+setting.buildDirName)
+
+mainForm.log.log("load 'setting.json' over",'\r\n' )
+mainForm.log.log("=======================",'\r\n')
+
+mainForm.log.log("manualFile:",manualFile,'\r\n' )
+mainForm.log.log("manualNewFile:",manualNewFile,'\r\n' )
+mainForm.log.log("manualUnpackDir:",manualUnpackDir,'\r\n' )
+mainForm.log.log("buildDir:",buildDir,'\r\n')
+
+mainForm.button.oncommand = function(id,event){
+	
+	mainForm.log.log("=======================",'\r\n')
+	
+	var t=time.tick()
+	
+	//删除目录
+	mainForm.log.log("Deleting directory:",manualUnpackDir)
+	fsys.delete(manualUnpackDir)
+	mainForm.log.log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
+
+	var t=time.tick()
+	
+	//解压
+	mainForm.log.log("Unzipping manual to:",manualFile)
+	ZipFile.ExtractToDirectory(manualFile,manualUnpackDir)
+	mainForm.log.log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
 }
 
 
-//生成导入依赖的html
-	importHtml=""
-	//依赖js
-	fsys.enum(path+setting.importPath,"*.js",function(dirname,filename,fullpath,findData){
-		if(filename){
-			var p=fsys.path.relative(fullpath,path+setting.importPath)
-			importHtml+=//<script type="text/javascript" src="{path}
-			importHtml+=p
-			importHtml+=//"></script>
-			console.log("import:",p)
-		}
-	},);
+mainForm.button3.oncommand = function(id,event){
+	mainForm.log.log("=======================",'\r\n')
 	
-	//依赖css
-	fsys.enum(path+setting.importPath,"*.css",function(dirname,filename,fullpath,findData){
-		if(filename){
-			var p=fsys.path.relative(fullpath,path+setting.importPath)
-			importHtml+=//<link rel="stylesheet" href="{path}
-			importHtml+=p
-			importHtml+=//">
-			console.log("import:",p)
-		}
-	},);
+	var t=time.tick()
+	
+	//删除目录
+	mainForm.log.log("Deleting directory:",buildDir)
+	fsys.delete(buildDir)
+	mainForm.log.log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
 
-//设置路径
-path_manual		= path+"GMS2-Robohelp-en/"
-path_build		= path+"build/"
-path_language	= path+"language/"+group+"/"
+	var t=time.tick()
+	
+	//解压到build
+	
+	mainForm.log.log("Unzipping manual to:",buildDir)
+	ZipFile.ExtractToDirectory(manualFile,buildDir)
+	mainForm.log.log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
 
-//读取模板与全局内容
-var template=string.load(path+"/patch/template.htm")
-var json_global=string.load(fsys.path.canonicalize(path_language+"/global.json"))
-if !json_global json_global="{}"
+}
 
-//将内容注入文档
-fsys.enum(path_manual,"*.htm",function(dirname,filename,fullpath,findData){
-	if(filename){
-		
-		//相对路径
-		var p=string.replace(fsys.path.relative(fullpath,path_manual),".htm","")
-		
-		//文档原html
-		var html=string.load(fullpath)
-		
-		var path_base=string.match(html,'src="(.*?)template/scripts')
-		var json=string.load(fsys.path.canonicalize(path_language+"/www/"+p+".json"))
-		if !json json="{}"
-		
-		//替换基础路径
-		var tmp=string.replace(template,"@{path}",path_base)
-		//替换字典
-		var tmp=string.replace(tmp,"@{global}",json_global)
-		var tmp=string.replace(tmp,"@{json}",json)
-		//替换插入依赖js,css
-		var tmp=string.replace(
-			tmp,"@{importHtml}",
-			string.replace(importHtml,"@{path}",path_base+"assets\import")
-		)
-		
-		//加入
-		html=string.replace(html,"@<head>","<head>"+'\r\n'+tmp)
-		
-		console.log("patch:",p)
-		
-		//保存修改过的html
-		var path_out_htm=fsys.path.canonicalize(path_build+p+".htm")
-		string.save(path_out_htm,html)
-	}
-},);
+mainForm.button5.oncommand = function(id,event){
+	
+	mainForm.log.log("=======================",'\r\n')
+	var t=time.tick()
+	
+	//编译
 
+	mainForm.log.log("Building!!!!")
+	loadcodex("\res\build.aardio");
+	mainForm.log.log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
+	
+}
 
-//复制import
-fsys.copy(
-	fsys.path.canonicalize(path+"/patch/import")
-	,fsys.path.canonicalize(path+"/build/assets/import")
-)
-console.log("copy:","!!!import!!!")
+mainForm.button4.oncommand = function(id,event){
+	
+	mainForm.log.log("=======================",'\r\n')
+	var t=time.tick()
+	
+	//删除文件
+	mainForm.log.log("Deleting file:",manualNewFile)
+	fsys.delete(manualNewFile)
+	mainForm.log.log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
+	
+	var t=time.tick()
+	//打包回去
+	mainForm.log.log("Pack manual to:",manualNewFile)
+	
+	//zlib.zip(manualNewFile).compress(buildDir,,,0).close()  
+	ZipFile.CreateFromDirectory(buildDir,manualNewFile,2,false)
+	
+	mainForm.log.log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
+}
 
-//打上汉化组信息
-content_html=string.load(path+"/build/Content.htm")
-team_html=string.load(path+"/patch/team.htm")
-h1="<h1"
-html=string.replace(content_html,"@"+h1,team_html+h1,1)
-string.save(path+"/build/Content.htm",html)
-console.log("team patch:","Content.htm")
-
-console.pause()
+mainForm.show();
+win.loopMessage();

@@ -1,11 +1,22 @@
 {
 	"chromeCondition":"--disable-web-security --disable-features=site-per-process --allow-no-sandbox-job",
 	"group":"zh",
+	
 	"importPath":"patch/import",
 	"staticPath":"patch/static_patch",
 	"mainJs":"patch/main.js",
 	"template":"patch/template.htm",
 	"team":"patch/team.htm",
+	
 	"patch_eq": 4,
-	"export_mode": "plugged"
+	"export_mode": "plugged",
+
+
+	"manualPath":"C:\\ProgramData\\GameMakerStudio2-Beta\\Manual",
+	
+	"manualFileName":"GMS2-Robohelp-en.zip",
+	"manualNewFileName":"GMS2-Robohelp-zh.zip",
+	
+	"manualUnpackDirName":"GMS2-Robohelp-en",
+	"buildDirName":"build"
 }

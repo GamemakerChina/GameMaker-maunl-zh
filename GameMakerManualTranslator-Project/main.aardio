@@ -1,3 +1,6 @@
+
+
+
 import win.ui;
 import win.ui.menu;
 /*DSG{{*/
@@ -9,35 +12,56 @@ import console
 import fsys;
 
 
-debug=io.exist("debug")
 
+//取启动参数
+arg=_ARGV[1]
+
+//去除多余斜杠和多余协议头
+if ( arg!=null ){
+	arg=string.replace(arg,"/","")
+	arg=string.match(arg,"<@gmmt:@>(.*)")
+}
+
+//尝试补正#
+if ( arg!=null ){
+	arg=string.replace("#"+arg,"#+","#")
+	//console.log(arg)
+	//gmmt://#t=GameMaker_Language%2FGML_Reference%2FAsset_Management%2FSequences%2FSequences.htm
+}else{
+	arg=""
+}
 
 robohelp=//GMS2-Robohelp-en
 mainfile=//index.htm
+
+debug=io.exist("debug")
 if debug{
 	path=//../
 }else{
-	path=//./
+	path=io.splitpath(io._exepath).dir
+	
+	//注册协议链接
+	import sys.reg;
+	sys.reg.setValue(null,"GameMakerManualTranslator","Software\Classes\gmmt")
+	sys.reg.setValue("URL Protocol","","Software\Classes\gmmt")
+	sys.reg.setValue(null,'"'+io._exepath+'" "%1"',"Software\Classes\gmmt\Shell\Open\Command")
 }
 
 mainPath=fsys.path.canonicalize(path+"\"+robohelp+"\"+mainfile)
 
 //console.log(mainPath)
 
-//读取或初始化setting.json
+
+//读取setting.json
 var file=path+"setting.json"
 if !io.exist(file){
-var str=`{
-	"chromeCondition":"--disable-web-security --disable-features=site-per-process -–allow-no-sandbox-job",
-	"group":"zh",
-	"importPath":"patch/import",
-	"mainJs":"patch/main.js",
-	"template":"patch/template.htm",
-	"team":"patch/team.htm",
-}`
-	string.save(file,str)
+	win.msgbox("你搞丢了配置文件setting.json","注意!")
+	return 0
 }
 setting=web.json.parse(string.load(file))
+
+
+
 
 //设置语言组
 if setting.group{
@@ -68,7 +92,8 @@ try{
 	//刷新加载
 	if !f5{
 		f5=true
-		theView.go(mainPath)
+		theView.go(mainPath+arg)
+		arg=""
 	}
 	//主界面
 	var hack=theView.eval("hackState")

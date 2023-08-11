@@ -1,0 +1,96 @@
+
+
+//设置语言组
+if setting.group{
+	group=setting.group
+}else{
+	group="def"
+}
+
+
+//生成导入依赖的html
+	importHtml=""
+	//依赖js
+	fsys.enum(path+setting.importPath,"*.js",function(dirname,filename,fullpath,findData){
+		if(filename){
+			var p=fsys.path.relative(fullpath,path+setting.importPath)
+			importHtml+=//<script type="text/javascript" src="{path}
+			importHtml+=p
+			importHtml+=//"></script>
+			//console.log("import:",p)
+		}
+	},);
+	
+	//依赖css
+	fsys.enum(path+setting.importPath,"*.css",function(dirname,filename,fullpath,findData){
+		if(filename){
+			var p=fsys.path.relative(fullpath,path+setting.importPath)
+			importHtml+=//<link rel="stylesheet" href="{path}
+			importHtml+=p
+			importHtml+=//">
+			//console.log("import:",p)
+		}
+	},);
+
+//设置路径
+path_manual		= path+"GMS2-Robohelp-en/"
+path_build		= path+"build/"
+path_language	= path+"language/"+group+"/"
+
+//读取模板与全局内容
+var template=string.load(path+"/patch/template.htm")
+var json_global=string.load(fsys.path.canonicalize(path_language+"/global.json"))
+if !json_global json_global="{}"
+
+//将内容注入文档
+fsys.enum(path_manual,"*.htm",function(dirname,filename,fullpath,findData){
+	if(filename){
+		
+		//相对路径
+		var p=string.replace(fsys.path.relative(fullpath,path_manual),".htm","")
+		
+		//文档原html
+		var html=string.load(fullpath)
+		
+		var path_base=string.match(html,'src="(.*?)template/scripts')
+		var json=string.load(fsys.path.canonicalize(path_language+"/www/"+p+".json"))
+		if !json json="{}"
+		
+		//替换基础路径
+		var tmp=string.replace(template,"@{path}",path_base)
+		//替换字典
+		var tmp=string.replace(tmp,"@{global}",json_global)
+		var tmp=string.replace(tmp,"@{json}",json)
+		//替换插入依赖js,css
+		var tmp=string.replace(
+			tmp,"@{importHtml}",
+			string.replace(importHtml,"@{path}",path_base+"assets\import")
+		)
+		
+		//加入
+		html=string.replace(html,"@<head>","<head>"+'\r\n'+tmp)
+		
+		//console.log("patch:",p)
+		
+		//保存修改过的html
+		var path_out_htm=fsys.path.canonicalize(path_build+p+".htm")
+		string.save(path_out_htm,html)
+	}
+},);
+
+
+//复制import
+fsys.copy(
+	fsys.path.canonicalize(path+"/patch/import")
+	,fsys.path.canonicalize(path+"/build/assets/import")
+)
+//console.log("copy:","!!!import!!!")
+
+//打上汉化组信息
+content_html=string.load(path+"/build/Content.htm")
+team_html=string.load(path+"/patch/team.htm")
+h1="<h1"
+html=string.replace(content_html,"@"+h1,team_html+h1,1)
+string.save(path+"/build/Content.htm",html)
+//console.log("team patch:","Content.htm")
+
