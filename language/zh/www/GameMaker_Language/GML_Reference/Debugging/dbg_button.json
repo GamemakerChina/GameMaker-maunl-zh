@@ -1,0 +1,10 @@
+{
+    "A reference to a&nbsp;{}{}Function{}{}&nbsp;or&nbsp;{}{}Script Function{}{} created using&nbsp;{}{}ref_create{}{}&nbsp;or a function":"对使用{}{}ref_create{}{}创建的{}{}函数{}{}或{}{}脚本函数{}{}的引用或函数",
+    "The above code creates a button control in an&nbsp;{}object{}\u0027s Create event using&nbsp;{}{}dbg_button{}{}. Since no calls are made to&nbsp;{}{}dbg_view{}{}&nbsp;or&nbsp;{}{}dbg_section{}{}, the button is added to a new debug section named&nbsp;{}\"Default\"{}&nbsp;in a new debug view named&nbsp;{}\"Default\"{}. Clicking the button calls a function that shows a debug message using&nbsp;{}{}show_debug_message{}{}.":"上面的代码使用{}{}dbg_button{}{}在{0}对象{1}的创建事件中创建按钮控件。由于没有调用&nbsp;{}{}dbg_view{}{}&nbsp;或&nbsp;{}{}dbg_section{}{}，按钮被添加到名为&nbsp;{}“Default”{}的新调试视图中名为&nbsp;{}“Default”{}的新调试部分中。单击该按钮将调用一个函数，该函数使用&nbsp;{}{}show_debug_message{}{}显示调试消息。",
+    "The current debug section is the&nbsp;one last created using&nbsp;{}{}dbg_section{}{}.":"当前调试节是上次使用{}{}dbg_section{}{}创建的调试节。",
+    "The text label to show next to the button":"按钮旁边显示的文本标签",
+    "This function creates a button control within the current debug section. Clicking the button executes a {}{}Function{}{}.":"此函数在当前调试部分中创建一个按钮控件。单击按钮执行{}{}函数{}{}。",
+    "{}{}NOTE{}{}&nbsp;This control takes up a single column and can be shown&nbsp;on the same line with another single-column control using&nbsp;{}{}dbg_same_line{}{}.":"{}{}注意{}{}此控件占用一列，可以使用{}{}dbg_same_line{}{}与另一个单列控件显示在同一行上。",
+    "{}{}OPTIONAL{}{}&nbsp;The height&nbsp;of the button in pixels":"{}{}可选{}{}按钮的高度(像素)",
+    "{}{}OPTIONAL{}{}&nbsp;The width&nbsp;of the button in pixels":"{}{}可选{}{}按钮的宽度(以像素为单位)"
+}

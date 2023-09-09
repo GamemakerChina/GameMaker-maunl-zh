@@ -5,3 +5,5 @@ node_modules
 token.struct
 hotkey.struct
 package-lock.json
+GameMakerManualExport
+启动文档翻译器.bat

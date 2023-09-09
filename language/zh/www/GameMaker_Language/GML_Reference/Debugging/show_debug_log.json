@@ -1,0 +1,8 @@
+{
+    "The code above opens&nbsp;{}The Debug Overlay{}&nbsp;with the {}Log{} window open.":"上面的代码打开{}调试覆盖{}并打开{}日志{}窗口。",
+    "This function opens&nbsp;{}The Debug Overlay{}&nbsp;with only the {}Log{} window open. This&nbsp;overlay is disabled by default.":"此函数打开{}调试覆盖{}，但仅打开{}日志{}窗口。默认情况下禁用此覆盖。",
+    "This window allows you to enter basic commands in the text input at the bottom. See the&nbsp;{}Log{}&nbsp;section for more info.":"此窗口允许您在底部的文本输入中输入基本命令。有关详细信息，请参阅{}日志{}部分。",
+    "Whether to show the debug log":"是否显示调试日志",
+    "{}{}NOTE{}{}&nbsp;All scripts are executed within the scope of the global struct.":"{}{}注意{}{}所有脚本都在全局结构的范围内执行。",
+    "{}{}NOTE{}{}&nbsp;To bring up&nbsp;{}The Debug Overlay{}&nbsp;with the {}FPS{} window open, use&nbsp;{}{}show_debug_overlay{}{}&nbsp;instead.":"{}{}注意{}{}要在{}FPS{}窗口打开的情况下调出{}调试覆盖{}，请使用{}{}show_debug_overlay{}{}。"
+}

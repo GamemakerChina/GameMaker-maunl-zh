@@ -1,0 +1,16 @@
+{
+    "A debug view contains one or more debug sections, that you add using&nbsp;{}{}dbg_section{}{}.":"调试视图包含一个或多个调试部分，您可以使用{}{}dbg_section{}{}添加这些部分。",
+    "A debug view is a custom window in this&nbsp;overlay that contains sections that you can add controls to. The controls can change the value&nbsp;of the variable they reference.":"调试视图是此覆盖中的一个自定义窗口，其中包含可以向其中添加控件的部分。控件可以更改它们引用的变量的值。",
+    "All custom debug views are listed under the&nbsp;{}Views{}{}&nbsp;{}menu and can have their visibility changed there.":"所有自定义调试视图都列在{}视图{}菜单下，可以在那里更改其可见性。",
+    "References to variables can be created using&nbsp;{}{}ref_create{}{}.":"可以使用{}{}ref_create{}{}创建对变量的引用。",
+    "The above code creates a new debug view named \"CustomDebugView\" and brings up&nbsp;{}The Debug Overlay{}&nbsp;with the debug view visible.":"上面的代码创建了一个名为\"CustomDebugView\"的新调试视图，并显示了调试视图可见的{}The Debug Overlay{}。",
+    "The function returns a pointer to the debug view that can be used with&nbsp;{}{}dbg_view_delete{}{}&nbsp;to delete it again.":"该函数返回一个指向调试视图的指针，该指针可与{}{}dbg_view_delete{}{}一起使用以再次删除该视图。",
+    "The name&nbsp;of the debug view":"调试视图的名称",
+    "This function creates a custom debug view and&nbsp;{}sh{}ows it in{}{}&nbsp;{}The Debug Overlay{}.":"这个函数创建一个自定义的调试视图，并{}显示{}它在{}{} {} debug Overlay{}中。",
+    "Usage Notes":"用法注释",
+    "Whether the debug view should be visible when the debug&nbsp;overlay is&nbsp;opened":"打开调试覆盖时调试视图是否应可见",
+    "{}{}OPTIONAL{}{}&nbsp;The height of the debug view (default is {}400{})":"{}{}可选{}{}调试视图的高度(默认值为{}400{})",
+    "{}{}OPTIONAL{}{}&nbsp;The width of the debug view (default is {}500{})":"{}{}可选{}{}调试视图的宽度(默认值为{}500{})",
+    "{}{}OPTIONAL{}{}&nbsp;The x position of the debug view, the default -1 indicates it can be placed anywhere":"{}{}可选{}{}调试视图的x位置，默认值表示它可以放置在任何位置",
+    "{}{}OPTIONAL{}{}&nbsp;The y position of the debug view, the default -1 indicates it can be placed anywhere":"{}{}可选{}{}调试视图的y位置，默认值表示它可以放置在任何位置"
+}

@@ -1,0 +1,10 @@
+{
+    "A reference to a&nbsp;{}{}Real{}{} value, created using&nbsp;{}{}ref_create{}{}":"对{}{}实数{}{}值的引用，使用{}{}ref_create{}{}创建",
+    "The above code is executed in an&nbsp;{}object{}\u0027s Create event,&nbsp;or any&nbsp;other event that isn\u0027t performed continuously. First, an {}instance variable{}&nbsp;{}my_var{}&nbsp;is set. Then, a slider control is created using&nbsp;{}{}dbg_slider{}{}. It receives a reference to the variable, returned by&nbsp;{}{}ref_create{}{}, and values of 0 and 10 for the {}minimum{} and {}maximum{}&nbsp;parameters. Dragging the slider changes the value&nbsp;of the instance\u0027s {}my_var{}&nbsp;variable.":"上面的代码在{}对象{}的Create事件或任何其他不连续执行的事件中执行。首先，设置{}实例变量{}{}my_var{}。然后，使用{}{}dbg_slider{}{}创建滑块控件。它接收由{}{}ref_create{}{}返回的变量引用，以及{}minimum{}和{}maximum{}参数的值0和10。拖动滑块会更改实例的{}my_var{}变量的值。",
+    "This function creates a slider control for a&nbsp;{}{}Real{}{}&nbsp;value within the current debug section.":"此函数为当前调试部分中的{}{}实数{}{}值创建滑块控件。",
+    "You can optionally provide a minimum and maximum value for the slider.":"您可以选择为滑块提供最小值和最大值。",
+    "{}{}NOTE{}{}&nbsp;This debug control spans two columns.":"{}{}注意{} {}此调试控制跨越两列。",
+    "{}{}OPTIONAL{}{}&nbsp;The label to show next to the slider":"{}{}可选{}{}滑块旁边显示的标签",
+    "{}{}OPTIONAL{}{}&nbsp;The maximum value that the slider can have":"{}{}可选{}{}滑块可以具有的最大值",
+    "{}{}OPTIONAL{}{}&nbsp;The minimum value that the slider can have":"{}{}可选{}{}滑块可以具有的最小值"
+}

@@ -1,0 +1,10 @@
+{
+    "A reference to a variable created with&nbsp;{}{}ref_create{}{}":"对使用{}{}ref_create{}{}创建的变量的引用",
+    "Each value is converted to a&nbsp;{}{}String{}{}&nbsp;and displayed.":"每个值都将转换为{}{}字符串{}{}并显示。",
+    "In the Step event, the counter is incremented, a change that will be shown by the watch.":"在步事件中，计数器递增，监视将显示此更改。",
+    "The above code first initialises a variable {}counter{} in the Create event.&nbsp;It then adds a watch for this variable using&nbsp;{}{}dbg_watch{}{}.":"上面的代码首先在Create事件中初始化变量{}counter{}。然后使用{}{}dbg_watch{}{}为该变量添加一个监视。",
+    "This function creates a watch for a variable within the current debug section.":"此函数为当前调试部分中的变量创建监视。",
+    "This is simply used to monitor a variable\u0027s value, and cannot be used to change it. Look at the Debug View&nbsp;{}Function Reference{} for controls that allow variable modification.":"这只是用来监视变量的值，不能用来改变它。查看调试视图{}函数参考{}以了解允许修改变量的控件。",
+    "{}{}NOTE{}{}&nbsp;This debug control spans two columns.":"{}{}注意{} {}此调试控制跨越两列。",
+    "{}{}OPTIONAL{}{}&nbsp;The label to show":"{}{}可选{} {}要显示的标签"
+}

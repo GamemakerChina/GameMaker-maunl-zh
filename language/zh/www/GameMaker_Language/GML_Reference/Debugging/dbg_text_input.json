@@ -1,0 +1,8 @@
+{
+    "A reference to a variable created using&nbsp;{}{}ref_create{}{}":"对使用{}{}ref_create{}{}创建的变量的引用",
+    "The above code first assigns some text to an instance variable {}description{}. It then creates a reference to this variable using&nbsp;{}{}ref_create{}{}. Next, it creates a text input control using&nbsp;{}{}dbg_text_input{}{}, the reference {}links{}&nbsp;the control to the variable.":"上面的代码首先将一些文本赋给实例变量{}description{}。然后使用{}{}ref_create{}{}创建对此变量的引用。接下来，它使用{}{}dbg_text_input{}{}创建一个文本输入控件，引用{}将该控件链接{}到变量。",
+    "This function creates a text field within the current debug section. You can use this to modify a string variable.":"此函数在当前调试部分中创建一个文本字段。您可以使用它来修改字符串变量。",
+    "description = {}\"This description can be changed\"{};{} {}var{} _ref = {}ref_create{}({}self{}, {}\"description\"{});{} {}dbg_text_input{}(_ref, {}\"Enter the description here:\"{}); ":"description = {}\"此说明可以更改\"{};{} {}var{} _ref = {}ref_create{}({}self{}, {}\"描述\"{});{} {}dbg_text_input{}(_ref, {}\"在此处输入描述:\"{}); ",
+    "{}{}NOTE{}{}&nbsp;This debug control spans two columns.":"{}{}注{}{}此调试控制跨越两列。",
+    "{}{}OPTIONAL{}{}&nbsp;The label to show next to the text input":"{}{}可选{}{} 显示在文本输入旁边的标签"
+}

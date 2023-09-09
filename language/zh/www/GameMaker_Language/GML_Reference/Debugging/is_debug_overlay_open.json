@@ -1,0 +1,4 @@
+{
+    "The above code first calls&nbsp;{}{}is_debug_overlay_open{}{}&nbsp;and assigns the result to a temporary variable {}_open{}. It then toggles the debug overlay by passing the negated value to&nbsp;{}{}show_debug_overlay{}{}.":"上面的代码首先调用{}{}is_debug_overlay_open{}{}并将结果赋给临时变量{}_open{}。然后，它通过将取反值传递给{}{}show_debug_overlay{}{}来切换调试覆盖。",
+    "This function returns whether&nbsp;{}The Debug Overlay{}&nbsp;is currently&nbsp;open&nbsp;or not.":"此函数返回{}调试覆盖{}当前是否打开。"
+}

@@ -27,8 +27,11 @@
     "{}\"&lt;resource&gt;ArrayAllocatedSize\"{}: The highest number of resources that were ever created for the given resource type":"{}\"&lt;resource&gt;ArrayAllocatedSize\"{}: 为给定资源类型创建的最大资源数量",
     "{}\"&lt;resource&gt;Count\"{}: The number of resources of this type that exist when the function is called":"{}\"&lt;resource&gt;Count\"{}: 调用函数时存在的此类资源的数量",
     "{}\"&lt;resource&gt;MaxIndex\"{}: The maximum valid integer index that exists for the resource":"{}\"&lt;resource&gt;MaxIndex\"{}: 资源存在的最大有效整数索引",
+    "{}DumpMemory {}{}DumpMemory {}":"{}DumpMemory {}{}DumpMemory {} 转储内存",
+    "{}ResourceCounts{}{}ResourceCounts{}":"{}ResourceCounts{}{}ResourceCounts{} 资源计数",
     "{}free{}: How much allocated memory is unused":"{}free{}: 有多少已分配的内存未使用",
     "{}peakUsage{}: The highest amount of memory your game used since it was started":"{}peakUsage{}: 您的游戏自启动以来使用的最大内存量",
     "{}totalUsed{}: How much memory your game is using at the moment":"{}totalUsed{}: 您的游戏目前使用了多少内存",
-    "{}{}OPTIONAL{}{}&nbsp;This parameter makes the function silently return the result to the runner in a struct rather than printing the value to the console. Defaults to {}false{}.":"{}{}可选{}{} 此参数使函数以结构形式将结果静默返回给运行器，而不是将值打印到控制台。默认为 {}false{}。"
+    "{}{}OPTIONAL{}{}&nbsp;This parameter makes the function silently return the result to the runner in a struct rather than printing the value to the console. Defaults to {}false{}.":"{}{}可选{}{} 此参数使函数以结构形式将结果静默返回给运行器，而不是将值打印到控制台。默认为 {}false{}。",
+    "{}{}Struct{}{}&nbsp;(for some options) or&nbsp;{}N/A{}":"{}{}Struct{}{}&nbsp;(对于某些选项) or&nbsp;{}N/A{}"
 }

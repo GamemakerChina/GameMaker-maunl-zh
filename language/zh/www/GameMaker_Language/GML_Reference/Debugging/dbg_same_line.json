@@ -1,0 +1,5 @@
+{
+    "Single Column Debug Controls":"单列调试控件",
+    "The code above first defines a new debug view using&nbsp;{}{}dbg_view{}{}&nbsp;and sets it to be visible.&nbsp;It then adds two buttons directly to the debug view, meaning they will be added to a new debug section&nbsp;{}\"Default\"{}. After that, two button controls are added using {}{}dbg_button{}{}, which will be placed&nbsp;on the same line because&nbsp;of the&nbsp;{}{}dbg_same_line{}{}&nbsp;between the two function calls. Both functions show a basic debug message.":"上面的代码首先使用{}{}dbg_view{}{}定义了一个新的调试视图，并将其设置为可见。然后，它将两个按钮直接添加到调试视图中，这意味着它们将被添加到新的调试部分{}\"Default\"{}中。之后，使用{}{}dbg_button{}{}添加了两个按钮控件，由于两个函数调用之间的{}{}dbg_same_line{}{}，这两个按钮控件将被放置在同一行上。这两个函数都显示了基本的调试消息。",
+    "This function tells&nbsp;{}GameMaker{}&nbsp;to place the next debug control&nbsp;on the same line as the current&nbsp;one&nbsp;{}(if both&nbsp;are single column controls).{}":"此函数告诉{}GameMaker{}将下一个调试控件与当前控件放在同一行{}(如果两者都是单列控件)。{}"
+}

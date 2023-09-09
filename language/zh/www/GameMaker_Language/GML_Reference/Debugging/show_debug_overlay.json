@@ -1,9 +1,13 @@
 {
+    "Enable ({}true{}) or disable ({}false{}) the debug overlay":"启用({}true{})或禁用({}false{})调试覆盖",
     "Inside this window, you have two sections: a graph and a bar.":"在此窗口中，您有两个部分：一个图表和一个条形图。",
     "The \"{}History{}\" bar controls the horizontal range that is visible in the graph. You can set this between 1 and 30 seconds.":"\"{}历史{}\"栏控制图形中可见的水平范围。您可以将其设置为1到30秒。",
+    "The above code toggles the debug on or off whenever the \"O\" key is pressed.":"上面的代码在按下\"O\"键时打开或关闭调试。",
     "The above code will toggle the debug on or off depending on the value of a global variable.":"上面的代码将根据全局变量的值打开或关闭调试。",
     "The above code will toggle the debug on or off whenever the \"O\" key is pressed.":"上面的代码将在按下\"O\"键时打开或关闭调试。",
+    "The above code&nbsp;opens the debug&nbsp;overlay minimised and draws it with a scale factor&nbsp;of 2 and an alpha&nbsp;of 0.5.":"上面的代码打开了最小化的调试覆盖，并使用缩放值2和alpha值0.5绘制它。",
     "The bar below the graph shows you the current time values for the parameters described above.":"图形下方的条形图显示了上述参数的当前时间值。",
+    "The debug overlay enables a menu with three options: {}FPS{}&nbsp;(open by default),&nbsp;{}Log{}, and {}Audio{}. It displays the {}GameMaker{}&nbsp;version in the top-right corner, along with the version and name of the project:&nbsp;":"调试覆盖启用具有三个选项的菜单：{}FPS{}(默认打开)、{}日志{}和{}音频{}。它会在右上角显示{}GameMaker{}版本，所属项目的版本和名称：",
     "The graph displays the FPS by default, where the horizontal axis is the amount of time passed since the FPS menu was opened, and the vertical axis is the frame time in seconds.":"图形默认显示FPS，其中水平轴是自打开FPS菜单以来经过的时间量，垂直轴是帧时间(以秒为单位)。",
     "The graph displays the most recent output buffer on the audio thread. This is the output signal that GameMaker sends to the audio device, after all mixing and processing.":"图形显示音频线程上最近的输出缓冲区。这是GameMaker在所有混合和处理之后发送到音频设备的输出信号。",
     "The horizontal axis in this graph is the frame number in the buffer, and the vertical axis is the amplitude, typically ranging between -1 and 1.":"该图中的水平轴是缓冲器中的帧编号，并且垂直轴是幅度，通常范围在-1和1之间。",
@@ -11,8 +15,10 @@
     "These sources are limited by the&nbsp;{}{}audio_channel_num{}{}&nbsp;value.":"这些源受{}{}audio_channel_num{}{}值的限制。",
     "This function can be used to switch on and off the standard debug overlay when testing your game and is disabled by default. The debug overlay shows a graphic CPU/GPU usage bar in the actual game window itself along with the current real fps value, number of texture swaps and the number of vertex batches (note that texture swaps and vertex batches will never be zero and will normally show values of 2 or 3, since even with an empty room an no objects {}GameMaker{} still has to draw and batch things).":"此函数可用于在测试游戏时打开和关闭标准调试覆盖，默认情况下处于禁用状态。调试覆盖在实际游戏窗口本身中显示图形CPU/GPU使用栏，以及当前实际FPS值、纹理交换数量和顶点批次数量(请注意，纹理交换和顶点批次永远不会为零，并且通常会显示2或3的值，因为即使有一个空房间，没有对象{}GameMaker{}仍然必须绘制和批处理内容)。",
     "This function is used to enable or disable the debug overlay that appears on your game, and is disabled by default.":"此功能用于启用或禁用出现在游戏上的调试覆盖，默认情况下禁用。",
+    "This function opens&nbsp;{}The Debug Overlay{} with the {}{}FPS{}{} window open. This overlay is disabled by default.":"此函数打开{}调试覆盖{}，同时打开{}{}FPS{}{}窗口。默认情况下禁用此覆盖图。",
     "This window displays the Output Log, same as the one that appears in the IDE under \"Output\". You can clear the output and copy its contents.":"此窗口显示输出日志，与IDE中\"输出\"下显示的日志相同。您可以清除输出并复制其内容。",
     "This window shows debug information related to the audio playing in your game.":"此窗口显示与游戏中播放的音频相关的调试信息。",
+    "To create custom debug views that will appear under the {}Views{} menu, see&nbsp;{}Creating Debug Views{}.":"要创建出现在{}\"Views\"(视图){}菜单下的自定义调试视图，请参阅{}\"创建调试视图\"{}。",
     "Using this function you can add the overlay whether in debug mode or not, and in this way, you can see how efficiently your game runs and get a visual cue as to how it is using the available resources, without the over-head of having the debugger running alongside.":"使用此函数，无论是否处于调试模式，您都可以添加覆盖，通过这种方式，您可以看到游戏运行的效率，并获得有关如何使用可用资源的视觉提示，而无需同时运行调试器。",
     "You can click on each value in the top-right corner (next to their coloured boxes) to toggle their visibilities.":"您可以单击右上角的每个值(在其彩色框旁边)以切换其可见性。",
     "switch on ({}true{}) or off ({}false{}) the debug overlay.{}{}":"打开({}true{})或关闭({}false{})调试覆盖。",
@@ -24,6 +30,7 @@
     "{}Green{} - Input / Output processing (ie: keyboard, mouse, gamepad, networking etc...)":"{}绿色{}-输入/输出处理(即：键盘，鼠标，游戏手柄，网络等..)",
     "{}Grey{} - The time required to clear screen each draw step":"{}灰色{}-每个绘制步骤清除屏幕所需的时间",
     "{}IO&amp;YoYo{}: Time spent for input/output (keyboard, mouse, gamepads, networking), and some OS processing":"{}IO&amp;YoYo{}：输入/输出(键盘、鼠标、游戏手柄、网络)和一些操作系统处理所花费的时间",
+    "{}If the optional&nbsp;{}minimised{}&nbsp;parameter is set to {}false{}, the overlay is opened with the&nbsp;{}FPS{} window minimised, only showing basic info in the header.":"{}如果可选的 {}minimised(最小化){} 参数设置为{}false{}，则覆盖打开时 {}FPS{}窗口最小化，仅在标题中显示基本信息。",
     "{}NOTE{}: This function will not work on the HTML5 target due to the different way it works compared to all the other targets.":"{}注意{}：此函数不适用于HTML5目标，因为它的工作方式与所有其他目标不同。",
     "{}Orange{} -Debug update time, which is only normally visible when you use the debug module":"{}橙色{}-调试更新时间，通常只有在使用调试模块时才可见",
     "{}Red{} - The update speed of the step event":"{}红色{}-步骤事件的更新速度",
@@ -45,5 +52,9 @@
     "{}pos{}: The current playback position of the source in frames (as a hex value)":"{}pos{}：源的当前播放位置(以帧为单位)(十六进制值)",
     "{}source{}: The ID of the source":"{}source{}：源的ID",
     "{}{}NOTE{}{} Texture swaps and vertex batches will never be zero and will normally show values of 2 or 3, since even with an empty room and no objects {}GameMaker{} still has to draw and batch things.":"{}{}注意{}{}纹理交换和顶点批处理永远不会为零，通常会显示2或3的值，因为即使有一个空房间和没有对象{}GameMaker{}仍然需要绘制和批处理东西。",
-    "{}{}NOTE{}{}&nbsp;This function will not work on the HTML5 target due to the different way it works compared to all the other targets.":"{}{}注意{}{}此函数在HTML5目标上不起作用，因为与所有其他目标相比，它的工作方式不同。"
+    "{}{}NOTE{}{}&nbsp;This function will not work on the HTML5 target due to the different way it works compared to all the other targets.":"{}{}注意{}{}此函数在HTML5目标上不起作用，因为与所有其他目标相比，它的工作方式不同。",
+    "{}{}NOTE{}{}&nbsp;To bring up&nbsp;{}The Debug Overlay{} with the {}Log{}&nbsp;window open, use&nbsp;{}{}show_debug_log{}{}&nbsp;instead.":"{}{}注意{} {}要在{}Log{}窗口打开的情况下调出{}调试覆盖{}，请改用{}{}show_debug_log{}{}。",
+    "{}{}OPTIONAL{}{}&nbsp;The alpha value to draw the&nbsp;overlay with (default is {}0.8{})":"{}{}可选{}{}用于绘制叠加的alpha值(默认值为{}0.8{})",
+    "{}{}OPTIONAL{}{}&nbsp;The scale factor to draw the overlay&nbsp;with (default is {}1{})":"{}{}可选{}{}用于绘制叠加的缩放系数(默认值为{}1{})",
+    "{}{}OPTIONAL{}{}&nbsp;Whether to open the {}FPS{} window minimised (doesn\u0027t apply to any other windows or debug views)":"{}{}可选{}{}是否最小化打开{}FPS{}窗口(不适用于任何其他窗口或调试视图)"
 }

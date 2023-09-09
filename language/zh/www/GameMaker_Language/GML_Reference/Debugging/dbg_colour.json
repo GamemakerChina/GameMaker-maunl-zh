@@ -1,0 +1,11 @@
+{
+    "A reference created using&nbsp;{}{}ref_create{}{}&nbsp;to a&nbsp;{}{}Colour{}{} variable":"使用{}{}ref_create{}{}对{}{}Colour{}{}变量创建的引用",
+    "In the Clean Up event, every instance&nbsp;of this object deletes its debug view and section that it created ({}my_view{} and {}my_section{} respectively).":"在清理事件中，此对象的每个实例都将删除其创建的调试视图和节(分别为{}my_view{}和{}my_section{})。",
+    "The code above is added to an&nbsp;{}object{}\u0027s Create event. Every {}instance{}&nbsp;of this object that executes the code creates a new debug view using&nbsp;{}{}dbg_view{}{}, stores it in an instance variable {}my_view{}&nbsp;and adds a section named \"Colours\" to it using {}{}dbg_section{}{}, stored in a variable {}my_section{}. Each&nbsp;of them then adds a colour control using&nbsp;{}{}dbg_colour{}{}&nbsp;that changes that instance\u0027s&nbsp;{}{}image_blend{}{}&nbsp;colour.":"上面的代码被添加到{}对象{}的Create事件中。执行代码的此对象的每个{}实例{}使用{}{}dbg_view{}{}创建新的调试视图，将其存储在实例变量{}my_view{}中，并使用{}{}dbg_section{}{}向其添加名为\"Colours\"的节，该节存储在变量{}my_section{}中。然后，它们中的每一个都使用{}{}dbg_colour{}{}添加一个颜色控件，以更改该实例的{}{}image_blend{}{}颜色。",
+    "The control takes the value of a&nbsp;{}{}Colour{}{}&nbsp;variable and shows the R, G and B component:&nbsp;":"该控件接受{}{}Colour{}{}变量的值，并显示R、G和B分量：",
+    "This function creates a colour control&nbsp;within the current debug section.":"此函数在当前调试部分中创建颜色控制。",
+    "{}You can change the R, G and B value by double-clicking on the value and entering a new value. You can also&nbsp;click the square on the right that shows the colour to bring up a colour picker dialog to select a new colour.":"{}你可以通过双击值并输入新值来更改R、G和B值。你也可以点击右边显示颜色的方块，弹出一个颜色选择器对话框来选择新的颜色。",
+    "{}{}NOTE{}{}&nbsp;The value is an RGB colour value, {}without{} an alpha component.":"{}{}注意{} {}该值为RGB颜色值，{}不含{}Alpha分量。",
+    "{}{}NOTE{}{}&nbsp;This debug control spans two columns.":"{}{}注意{} {}此调试控制跨越两列。",
+    "{}{}OPTIONAL{}{}&nbsp;A label to show next to the colour control":"{}{}可选{}{}显示在颜色控件旁边的标签"
+}
