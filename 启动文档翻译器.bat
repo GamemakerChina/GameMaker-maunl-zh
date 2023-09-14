@@ -2,6 +2,6 @@
 
 git pull
 
-git submodule update --init --remote GMS2-Robohelp-en/
+::git submodule update --init --remote GMS2-Robohelp-en/
 
 start GameMakerManualTranslator.exe

@@ -6,5 +6,6 @@
     "The {}exit{} statement has the following syntax:":"{}exit{} 语句具有以下语法：",
     "When used in an event, {}exit{} is typically used to avoid an instance running any further code when a specific condition has been met (or not). The code below outlines an example of how it could be used, in this case within a Collision Event, although it can be used in any event.":"在事件中使用时，{}exit{} 通常用于避免实例在满足（或不满足）特定条件时运行任何进一步的代码。下面的代码概述了如何使用它的示例，在本例中是在碰撞事件中，尽管它可以在任何事件中使用。",
     "{}NOTE{}: It does not end the execution of the game. For that you need to use the function {}{}{}game_end(){}{}{}.":"{}注意{}：它不会结束游戏的执行。为此，您需要使用函数 {}{}{}game_end(){}{}{}。",
-    "{}exit{} simply ends the execution of the current {}script&nbsp;function{}, {}method{}, or {}event{}. Note there is a slight difference in use here depending on the scope:":"{}exit{} 只是结束当前{}脚本函数{}、{}方法{}或{}事件{}的执行。请注意，根据范围，此处的使用略有不同："
+    "{}exit{} simply ends the execution of the current {}script&nbsp;function{}, {}method{}, or {}event{}. Note there is a slight difference in use here depending on the scope:":"{}exit{} 只是结束当前{}脚本函数{}、{}方法{}或{}事件{}的执行。请注意，根据范围，此处的使用略有不同：",
+    "{}{}NOTE{}{}&nbsp;It does not end the execution of the game. For that you need to use the function {}{}{}game_end(){}{}{}.":"{}{}注意{}{}它不会结束游戏的执行。为此，您需要使用函数{}{}{}game_end(){}{}{}。"
 }
