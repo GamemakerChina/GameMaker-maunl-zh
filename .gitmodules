@@ -1,7 +1,7 @@
 [submodule "GMS2-Robohelp-en"]
 	path = GMS2-Robohelp-en
-	# url = https://github.com/GamemakerChina/GMS2_Manual_RoboHelp.git
-	url = https://e.coding.net/YUNZL/gms2manual_zh/GMS2-Robohelp-en.git # 速度慢请取消注释这一行并注释上一行
+	url = https://github.com/GamemakerChina/GMS2_Manual_RoboHelp.git
+	# url = https://e.coding.net/YUNZL/gms2manual_zh/GMS2-Robohelp-en.git # 速度慢请取消注释这一行并注释上一行，完成克隆后改回
 [submodule "GameMakerManualExport"]
 	path = GameMakerManualExport
 	url = https://github.com/GamemakerChina/GameMakerManualExport.git
