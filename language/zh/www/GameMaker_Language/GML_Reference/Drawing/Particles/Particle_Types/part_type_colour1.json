@@ -2,5 +2,6 @@
     "The above code will set all particles created of the particle type indexed in the global variable \"Snow_Part\" to be white only.":"以上代码将在全局变量\"Snow_Part\"中为索引的粒子类型创建的所有粒子设置为仅白色。",
     "The index of the particle type to change.":"要更改的粒子类型的索引。",
     "The single colour to make the particle type.":"要创建粒子类型的单一颜色。",
-    "This function is used to set a particle type to be a single colour for the total duration of the lifetime of each individual particle.":"此函数用于将粒子类型设置为每个单个粒子寿命的总持续时间内的单个颜色。"
+    "This function is used to set a particle type to be a single colour for the total duration of the lifetime of each individual particle.":"此函数用于将粒子类型设置为每个单个粒子寿命的总持续时间内的单个颜色。",
+    "This function sets a particle type\u0027s colour to be a single colour for the total duration of the lifetime of each individual particle.":"此函数将粒子类型的颜色设置为单个颜色，持续时间为每个粒子的生命周期的总持续时间。"
 }

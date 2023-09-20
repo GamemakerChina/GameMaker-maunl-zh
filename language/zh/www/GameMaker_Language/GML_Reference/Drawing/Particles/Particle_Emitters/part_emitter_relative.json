@@ -1,0 +1,10 @@
+{
+    "By default, new particle emitters created using&nbsp;{}{}part_emitter_create{}{}&nbsp;don\u0027t have relative mode enabled.":"默认情况下，使用{}{}part_emitter_create{}{}创建的新粒子发射器未启用相对模式。",
+    "The above code creates a particle system {}ps{} and adds a single emitter {}pe{}&nbsp;to it. The emitter is set to emit particles in a rectangular region of 100x100 pixels, starting at (20, 20). It is then set to emit particles in relative mode. Next, a particle type is created and configured to draw a flare shape {}pt_shape_flare{}. Finally, the emitter is set to stream particles of the created type continuously. Since relative mode was enabled, the {}number{} of 2 means that the emitter will create the number of particles needed to cover 2% of the emitter area every step.":"上面的代码创建了一个粒子系统{}ps{}，并向其中添加了一个发射器{}pe{}。将发射器设置为在100 x100像素的矩形区域中发射粒子，从(20，20)开始。然后将其设置为以相对模式发射粒子。接下来，创建粒子类型并对其进行配置以绘制光斑形状{}pt_shape_flare{}。最后，将发射器设置为连续流式传输所创建类型的粒子。由于启用了相对模式，{}number{}为2意味着发射器将在每一步生成覆盖发射器面积的2%所需的粒子数量。",
+    "The index&nbsp;of the particle emitter":"粒子发射器的索引",
+    "The index&nbsp;of the particle system the emitter belongs to":"发射器所属的粒子系统的索引",
+    "The larger the emitter area set using&nbsp;{}{}part_emitter_region{}{}, the more particles that will be created.":"使用{}{}part_emitter_region{}{}设置的发射器区域越大，将创建的粒子越多。",
+    "The {}number{} parameter of the functions&nbsp;{}{}part_emitter_stream{}{}&nbsp;and&nbsp;{}{}part_emitter_burst{}{}&nbsp;changes: it becomes the percentage of the emitter area that should be covered with new particles.":"函数{}{}part_emitter_stream{}{}和{}{}part_emitter_burst{}{}的{0}number{1}参数发生变化：它变成发射器面积中应该被新粒子覆盖的百分比。",
+    "This function sets relative mode for a particle emitter.&nbsp;With relative mode enabled, the number&nbsp;of particles created becomes relative to its area.":"此函数设置粒子发射器的相对模式。启用相对模式后，创建的粒子数将相对于其面积。",
+    "Whether to enable&nbsp;or disable relative mode for the emitter":"是否启用或禁用发射器的相对模式"
+}

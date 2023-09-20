@@ -1,0 +1,6 @@
+{
+    "The index of the particle system to change.":"要更改的粒子系统的索引。",
+    "The new angle of the particle system.":"粒子系统的新视角。",
+    "This function changes the angle that the given particle system is rendered with.":"此函数更改渲染给定粒子系统的角度。",
+    "This gets the direction from the position of the instance towards the mouse cursor, and applies that as the angle of a particle system.":"这将获取从实例的位置到鼠标光标的方向，并将其应用为粒子系统的角度。"
+}

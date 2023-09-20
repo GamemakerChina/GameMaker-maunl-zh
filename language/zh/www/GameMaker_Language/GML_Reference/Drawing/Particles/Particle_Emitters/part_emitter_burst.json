@@ -1,8 +1,14 @@
 {
+    "If the emitter has relative mode enabled using&nbsp;{}{}part_emitter_relative{}{}, the number parameter does not refer to the actual number&nbsp;of particles created but&nbsp;indicates the percent coverage of the emitter region.":"如果使用{}{}part_emitter_relative{}{}启用了发射器的相对模式，则number参数不是指创建的粒子的实际数量，而是指示发射器区域的覆盖百分比。",
     "The above code will burst a random number of particles between 30 and 60 from the chosen emitter.":"上述代码将从选定的发射器中突发出30到60之间的随机粒子数。",
     "The index (type) of the particles to be created.":"要创建的粒子的索引(类型)。",
     "The index of the emitter to burst from.":"要突发的发射器的索引。",
+    "The number of particles to create,&nbsp;or the density (i.e. percent coverage of the emitter region) with relative mode enabled (see&nbsp;{}{}part_emitter_relative{}{})":"要创建的粒子的数量或密度(即发射器区域的覆盖百分比)，并启用相对模式(参见{}{}part_emitter_relative{}{})",
     "The number of particles to create.":"要创建的粒子数。",
     "The particle system that the emitter is in.":"发射器所在的粒子系统。",
-    "This function allows you to set an emitter to burst a specific type of particle and is typically used in alarms and destroy events as it is a one off code that creates the number of particles specified all at once following the distribution, shape and position set by the function {}{}part_emitter_region(){}{}. Should you need the particles to appear every step, you should be using the function {}{}part_emitter_stream(){}{} rather than calling this function every step.":"此函数允许您将发射器设置为爆发特定类型的粒子，并且通常用于报警和销毁事件，因为它是一次性代码，可以根据函数{}{}part_emitter_region(){}{}设置的分布、形状和位置一次性创建指定的粒子数。如果需要每个步骤都显示粒子，则应使用函数{}{}part_emitter_stream(){}{}，而不是每个步骤都调用此函数。"
+    "This function allows you to set an emitter to burst a specific type of particle and is typically used in alarms and destroy events as it is a one off code that creates the number of particles specified all at once following the distribution, shape and position set by the function {}{}part_emitter_region(){}{}. Should you need the particles to appear every step, you should be using the function {}{}part_emitter_stream(){}{} rather than calling this function every step.":"此函数允许您将发射器设置为爆发特定类型的粒子，并且通常用于报警和销毁事件，因为它是一次性代码，可以根据函数{}{}part_emitter_region(){}{}设置的分布、形状和位置一次性创建指定的粒子数。如果需要每个步骤都显示粒子，则应使用函数{}{}part_emitter_stream(){}{}，而不是每个步骤都调用此函数。",
+    "This function is typically used in alarms and destroy events as it is a one-off code that creates the number of particles specified all at once following the distribution, shape and position set by the function {}{}part_emitter_region{}{}.":"此函数通常用于报警和销毁事件，因为它是一次性代码，可根据函数{}{}part_emitter_region{}{}设置的分布、形状和位置一次性创建指定数量的粒子。",
+    "This function sets an emitter to burst a specific type of particle.":"此函数将发射器设置为爆发特定类型的粒子。",
+    "Usage Notes":"用法注释",
+    "{}{}NOTE{}{}&nbsp;Should you need the particles to appear every step, you should be using the function&nbsp;{}{}part_emitter_stream{}{} rather than calling this function every step.":"{}{}注意{}{}如果需要粒子在每一步都出现，则应使用函数{}{}part_emitter_stream{}{}，而不是在每一步都调用此函数。"
 }

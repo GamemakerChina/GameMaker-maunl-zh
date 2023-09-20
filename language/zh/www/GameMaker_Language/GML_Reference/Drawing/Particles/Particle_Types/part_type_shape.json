@@ -16,7 +16,13 @@
     "Overview of Particle Type Shapes":"粒子类型形状概览",
     "Particle Shape Constant":"粒子形状常量",
     "The above code sets the particle type indexed in the global variable \"p1\" to the shape of a square, then sets various other particle properties.":"上述代码将全局变量\"p 1\"中索引的粒子类型设置为正方形，然后设置其他各种粒子属性。",
+    "The following constants are accepted for the particle type shape:":"粒子类型形状接受以下常量：",
+    "The index of the particle type to set":"要设置的粒子类型的索引",
     "The index of the particle type to set.":"要设定的粒子类型的索引。",
+    "The shape to choose":"要选择的形状",
     "The shape to choose.":"要选择的形状。",
-    "With this function you can set the sprite shape to use for the particle type, with the following constants being acceptable:":"使用此函数，可以设置要用于粒子类型的精灵形状，并且以下常量是可接受的："
+    "With this function you can set the sprite shape to use for the particle type, with the following constants being acceptable:":"使用此函数，可以设置要用于粒子类型的精灵形状，并且以下常量是可接受的：",
+    "With this function you can set the sprite shape to use for the particle type.":"使用此功能，可以设置用于粒子类型的精灵形状。",
+    "{}{}NOTE{}{}&nbsp;This function can be used to change the shape of existing particles of a particle type.":"{}{}注意{}{}此功能可用于更改粒子类型的现有粒子的形状。",
+    "{}{}NOTE{}{}&nbsp;Use&nbsp;{}{}part_type_sprite{}{}&nbsp;to use a custom sprite instead of a built-in shape.":"{}{} 注意{}{} 使用 {}{}part_type_sprite{}{} 可使用自定义 sprite 而不是内置形状。"
 }

@@ -1,4 +1,5 @@
 {
+    "The above code creates a new particle type, stores its index in a variable {}pt_stars{}&nbsp;and gives it a star shape {}pt_shape_star{}. It then sets each particle emitted of this particle type to have different colours and saturations, but the same value (luminosity).":"上面的代码创建了一个新的粒子类型，将其索引存储在变量{}pt_stars{}中，并为其提供星形{}pt_shape_star{}。然后，它将此粒子类型发射的每个粒子设置为具有不同的颜色和饱和度，但具有相同的值(亮度)。",
     "The above code sets each particle emitted of the particle type indexed in the global variable \"Stars\" to have different colours and saturations, but the same value (luminosity).":"上面的代码设置每个在全局变量\"恒星\"中索引的粒子类型发射的粒子具有不同的颜色和饱和度，但是具有相同的值(亮度)。",
     "The index of the particle type to change.":"要更改的粒子类型的索引。",
     "The maximum the final colour\u0027s hue component can be.":"最终颜色的色调分量的最大值。",
@@ -7,5 +8,7 @@
     "The minimum the final colour\u0027s hue component can be.":"最终颜色的色调分量可以是最小值。",
     "The minimum the final colour\u0027s saturation component can be.":"最终颜色的饱和度分量可以是最小值。",
     "The minimum the final colour\u0027s value component can be.":"最终颜色的值分量可以是最小值。",
-    "With this function you can set a hue, saturation and value range for all particles of the given type. You supply a minimum value and a maximum value for each of the three components and the particles created will have a random colour based on the given range of parameters. In this way you can create particles of the same hue but different saturations, or of different hues but the same value (luminosity) etc... All values must be between 0 and 255.":"使用此函数，可以为给定类型的所有粒子设定色调、饱和度和值范围。为三个组件中的每个组件提供最小值和最大值，创建的粒子将具有基于给定参数范围的随机颜色。通过这种方式，你可以创建色调相同但饱和度不同的粒子，或者色调不同但值(亮度)相同的粒子。所有值必须介于0和255之间。"
+    "This function sets a hue, saturation and value range for all particles of the given type.":"此函数为给定类型的所有粒子设置色调、饱和度和值范围。",
+    "With this function you can set a hue, saturation and value range for all particles of the given type. You supply a minimum value and a maximum value for each of the three components and the particles created will have a random colour based on the given range of parameters. In this way you can create particles of the same hue but different saturations, or of different hues but the same value (luminosity) etc... All values must be between 0 and 255.":"使用此函数，可以为给定类型的所有粒子设定色调、饱和度和值范围。为三个组件中的每个组件提供最小值和最大值，创建的粒子将具有基于给定参数范围的随机颜色。通过这种方式，你可以创建色调相同但饱和度不同的粒子，或者色调不同但值(亮度)相同的粒子。所有值必须介于0和255之间。",
+    "You supply a minimum value and a maximum value for each of the three components and the particles created will have a random colour based on the given range of parameters. In this way you can create particles of the same hue but different saturations, or of different hues but the same value (luminosity), etc. All values must be between 0 and 255 (inclusive).":"您为三个组件中的每一个组件提供最小值和最大值，创建的粒子将具有基于给定参数范围的随机颜色。通过这种方式，您可以创建具有相同色调但不同饱和度的粒子，或者具有不同色调但具有相同值(亮度)的粒子，等等。所有值必须介于0和255之间(含0和255)。"
 }

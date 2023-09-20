@@ -2,5 +2,6 @@
     "The above code checks to see if a global variable value is less than or equal to zero, and if it is then it destroys the particle system referenced in the given variable and then goes to the next room.":"以上代码检查全局变量值是否小于或等于零，如果是，则会销毁给定变量中引用的粒子系统，然后转到下一个房间。",
     "The index of the particle system to destroy.":"要破坏的粒子系统的索引。",
     "With this function you can destroy a given particles system and remove it from memory. This should always be called when the system is no longer needed, like at the end of a room, or in the destroy event of an instance, otherwise you could end up with particles appearing in later rooms and no way to remove them as well as a memory leak which will eventually crash your game.":"使用此函数，可以销毁给定的粒子系统并将其从内存中删除。当不再需要系统时，应该始终调用此命令，例如在房间的末尾，或者在实例的破坏事件中，否则您可能会遇到以下情况：粒子出现在后面的房间中，无法删除它们，以及内存泄漏，这将最终导致游戏崩溃。",
-    "{}NOTE{}: This function will also destroy and remove any emitters that may have been created and associated with the system being destroyed.":"{}注意{}：此函数还将销毁和删除可能已创建并与要销毁的系统相关联的所有发射器。"
+    "{}NOTE{}: This function will also destroy and remove any emitters that may have been created and associated with the system being destroyed.":"{}注意{}：此函数还将销毁和删除可能已创建并与要销毁的系统相关联的所有发射器。",
+    "{}{}NOTE{}{}&nbsp;This function will also destroy and remove any emitters that may have been created and associated with the system being destroyed.":"{}{}注意{}{}此功能还将销毁和移除可能已创建并与被销毁系统相关的任何发射器。"
 }

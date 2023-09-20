@@ -14,10 +14,14 @@
     "It is worth noting that these effects can have their drawing toggled on and off, as well as have their drawing paused, by using the functions {}{}part_system_automatic_draw(){}{} and {}{}part_system_automatic_update(){}{} with the appropriate value for the particle system index (where 0 is for effects below and 1 is for effects above).":"值得注意的是，通过使用函数{}{}part_system_automatic_draw(){}{}和{}{}part_system_automatic_update(){}{}以及粒子系统索引的适当值(其中0表示下面的效果，1表示上面的效果)，可以打开和关闭这些效果的图形，以及暂停其图形。",
     "The above code will create a small puff of gray smoke every step that the instance speed is greater than 0 at the instance x,y coordinates.":"上述代码将在实例x，y坐标下实例速度大于0的每一步创建一小股灰色烟雾。",
     "The available constants for the different particle kinds are:":"不同粒子类型的可用常量包括：",
+    "The available constants for the different particle kinds are:&nbsp;":"不同粒子种类的可用常数为：",
     "The colour of the effect.":"效果的颜色。",
+    "The effect types {}ef_rain{}&nbsp;and {}ef_snow{} don\u0027t use the x/y position (although you must provide them). The size can be a value of 0, 1, or 2, where 0 is small, 1 is medium and 2 is large.":"效果类型{}ef_rain{}和{}ef_snow{}不使用x/y位置(尽管您必须提供它们)。大小可以是0、1或2的值，其中0是小的，1是中等的，2是大的。",
     "The kind of effect (use one of the constants listed above).":"效果的种类(使用上面列出的常量之一)。",
     "The size of the effect.":"效果的大小。",
     "The x positioning of the effect if relevant.":"效果的x定位(如果相关)。",
     "The y positioning of the effect if relevant.":"效果的y定位(如果相关)。",
-    "With this function you can create a simple effect beneath all instances of your room (it is actually created at a depth of 100000). If the effect is anything other {}ef_rain{} or {}ef_snow{} then you can define an x/y position to create the effect, and the size can be a value of 0, 1, or 2, where 0 is small, 1 is medium and 2 is large.":"使用此函数，您可以在房间的所有实例下创建一个简单的效果(它实际上是在100000深度处创建的)。如果效果是任何其他{}ef_rain{}或{}ef_snow{}，则可以定义x/ y位置来创建效果，并且大小可以是0、1或2的值，其中0表示小，1表示中等，2表示大。"
+    "This function creates a simple effect below all instances of your room (it is actually created at a depth of 50).":"此函数在房间的所有实例下方创建一个简单的效果(实际上是在深度为50处创建的)。",
+    "With this function you can create a simple effect beneath all instances of your room (it is actually created at a depth of 100000). If the effect is anything other {}ef_rain{} or {}ef_snow{} then you can define an x/y position to create the effect, and the size can be a value of 0, 1, or 2, where 0 is small, 1 is medium and 2 is large.":"使用此函数，您可以在房间的所有实例下创建一个简单的效果(它实际上是在100000深度处创建的)。如果效果是任何其他{}ef_rain{}或{}ef_snow{}，则可以定义x/ y位置来创建效果，并且大小可以是0、1或2的值，其中0表示小，1表示中等，2表示大。",
+    "{}{}NOTE{}{}&nbsp;This function is deprecated. To create a particle effect at any depth or layer, you can use&nbsp;{}{}effect_create_depth{}{}&nbsp;or&nbsp;{}{}effect_create_layer{}{}&nbsp;instead.":"{}{}注意{}{}此函数已弃用。要在任何深度或层创建粒子效果，可以使用{}{}effect_create_depth{}{}或{}{}effect_create_layer{}{}。"
 }

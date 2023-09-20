@@ -1,5 +1,6 @@
 {
     "The above code will check a particle system to see what layer it is on and if it is not on the given layer it will be changed.":"上面的代码将检查粒子系统，以查看粒子系统位于哪个层上，如果粒子系统不位于给定层上，则粒子系统将被更改。",
     "The particle system ID value to get the layer ID of":"要获取的层Id的粒子系统Id值",
-    "This function can be used to retrieve the unique layer ID value for the given particle system. You supply the particle system ID value (as returned by the function {}{}part_system_create_layer(){}{}) and the function will return the ID value of the layer.":"此函数可用于检索给定粒子系统的唯一图层Id值。提供粒子系统ID值(由函数{}{}part_system_create_layer(){}{}返回)，该函数将返回层的ID值。"
+    "This function can be used to retrieve the unique layer ID value for the given particle system. You supply the particle system ID value (as returned by the function {}{}part_system_create_layer(){}{}) and the function will return the ID value of the layer.":"此函数可用于检索给定粒子系统的唯一图层Id值。提供粒子系统ID值(由函数{}{}part_system_create_layer(){}{}返回)，该函数将返回层的ID值。",
+    "{}{}Layer ID{}{} or 0 (if the layer is an internally managed one)":"{}{}图层ID{}{}或0(如果图层是内部管理的图层)"
 }

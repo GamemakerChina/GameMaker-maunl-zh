@@ -1,0 +1,12 @@
+{
+    "Finally, in the Clean Up event, both the particle system and particle type are destroyed.":"最后，在\"清理\"事件中，粒子系统和粒子类型都将被破坏。",
+    "In the Step event, 3 particles&nbsp;of this new type are created in the particle system {}ps{}&nbsp;at the mouse position using {}{}part_particles_create{}{}.":"在Step事件中，使用{}{}part_particles_create{}{}在粒子系统{0}ps{1}中的鼠标位置创建3个此新类型的粒子。",
+    "The \"wiggle\" value; the maximum random value that can be added every step":"\"摆动\"值;每一步可以添加的最大随机值",
+    "The above code first creates a new particle system in the Create event, as well as a particle type using&nbsp;{}{}part_type_create{}{}. The index is stored in an instance variable {}pt{}. It then sets the size&nbsp;on the x axis for particles&nbsp;of the newly created type using {}{}part_type_size_x{}{}: when they\u0027re created, particles&nbsp;of this type will get a random size&nbsp;on the x axis that is at least 1 and at most 2. For every step&nbsp;of their lifetime, 0.2 will be added to the size&nbsp;on the x axis of each&nbsp;of them, along with a random value of at most 0.1.":"上面的代码首先在Create事件中创建一个新的粒子系统，并使用{}{}part_type_create{}{}创建一个粒子类型。索引存储在实例变量{}pt{}中。然后使用{}{}part_type_size_x{}{}为新创建类型的粒子设置x轴上的大小：当它们被创建时，这种类型的粒子将在x轴上获得随机大小，该大小至少为1，最多为2。对于它们生命周期中的每一步，0.2将被添加到它们每个的x轴上的大小，沿着最多0.1的随机值。",
+    "The maximum size along the x axis that particles&nbsp;of this type can be created with":"沿着x轴的最大尺寸，此类型的粒子可以使用该尺寸创建",
+    "The minimum size along the x axis that particles&nbsp;of this type can be created with":"沿着x轴的最小尺寸，此类型的粒子可以使用该尺寸创建",
+    "The particle type index":"颗粒类型指数",
+    "The size&nbsp;along the x axis to add every step":"沿着x轴添加每一步的大小",
+    "This function sets a range for the starting size of the given particle type on the X axis, and how it changes over its lifetime.":"此函数设置X轴上给定粒子类型的起始大小的范围，以及它在其生命周期内的变化方式。",
+    "{}{}NOTE{}{}&nbsp;If the size must be the same on both axes, use&nbsp;{}{}part_type_size{}{}&nbsp;instead.":"{}{}注意{}{}如果两个轴上的尺寸必须相同，则使用{}{}part_type_size{}{}。"
+}

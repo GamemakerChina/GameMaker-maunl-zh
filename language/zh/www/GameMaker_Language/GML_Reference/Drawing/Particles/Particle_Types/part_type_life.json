@@ -1,5 +1,6 @@
 {
     "The above code will set all particles created of the particle type indexed in the variable \"part_Flare\" to have a lifetime of between 1 and 2 seconds, based on the current room-speed.":"以上代码将基于当前房间速度，将在变量\"part_Flare\"中索引的粒子类型创建的所有粒子的生存期设定为1到2秒。",
+    "The above code will set all particles created of the particle type indexed in the variable {}part_Flare{}&nbsp;to have a lifetime of between 1 and 2 seconds, based on the current game speed.":"以上代码将根据当前游戏速度，将所有创建的粒子类型(在变量{}part_Flare{}中索引)的粒子设置为具有1到2秒的寿命。",
     "The index of the particle type to change.":"要更改的粒子类型的索引。",
     "The maximum lifespan of the particles.":"粒子的最大寿命。",
     "The minimum lifespan of the particles.":"粒子的最短寿命。",

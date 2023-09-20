@@ -1,9 +1,22 @@
 {
+    "If you choose to animate it you can also choose to {}stretch {}the animation; i.e. have&nbsp;the sub-images changed at an interval such that the animation will begin and end at the beginning and end of the lifetime of each particle created (so that if you have a lifetime set to a 15 step minimum and a 30 step maximum, no matter what value the lifetime has the animation will be made to fit, with it running faster for the shorter lifetimes and slower for the longer).":"如果您选择动画，您也可以选择{}拉伸{}动画;即，以一定的间隔更改子图像，以便动画将在创建的每个粒子的生命周期的开始和结束时开始和结束(因此，如果将生命周期设置为最小15步和最大30步，则无论生命周期具有什么值，动画都将适合，对于较短的生命周期，动画运行得更快，对于较长的生命周期，动画运行得更慢)。",
     "The above code sets the particle type indexed in the global variable \"p1\" to the shape of the sprite indexed in \"spr_Coins\", and then sets various other particle properties.":"上述代码将全局变量\"p1\"中索引的粒子类型设置为spr_Coins中索引的精灵的形状，然后设置各种其他粒子属性。",
+    "The index of the particle type to change":"要更改的粒子类型的索引",
     "The index of the particle type to change.":"要更改的粒子类型的索引。",
+    "The index of the sprite to set the particle type to":"要设置粒子类型的精灵的索引",
     "The index of the sprite to set the particle type to.":"要将粒子类型设置为的精灵的索引。",
     "This function can be used to set a particle type to use a custom sprite from the game assets. You can select the sprite and then tell {}GameMaker{} to use the sprite and animate it or not, and if you choose animated, then you can also choose to have the sub-images changed at an interval such that the animation will begin and end at the beginning and end of the lifetime of each particle created (so that if you have a lifetime set to a 15 step minimum and a 30 step maximum, no matter what value the lifetime has the animation will be made to fit, with it running faster for the shorter lifetimes and slower for the longer). You can also select to choose a random sub-image so that if the sprite is not animated, a different image will be chosen at random to create the sprite, or if the particle is animated it will start the animation at a random point.":"此函数可用于设置粒子类型以使用游戏资源中的自定义sprite。您可以选择精灵，然后告诉{}GameMaker{}使用精灵并设置其动画或不设置其动画，如果选择动画，则还可以选择以一定的间隔更改子图像，以便动画在创建的每个粒子的生命周期的开始和结束时开始和结束(因此，如果将生命周期设置为最小15步和最大30步，则无论生命周期的值如何，都将使动画适合，并且在较短的生命周期内运行得更快，在较长的生命周期内运行得更慢)。也可以选择选择随机子图像，以便如果精灵未设置动画，则将随机选择不同的图像来创建精灵，或者如果粒子已设置动画，则将从随机点开始动画。",
+    "This function sets a particle type to use a custom sprite from the game assets.":"此函数将粒子类型设置为使用游戏资源中的自定义精灵。",
+    "Usage Notes":"用法注释",
     "Whether to choose a random sub-image (true) or not (false).":"是否选择随机子图像(true)或不选择(false)。",
+    "Whether to choose a random sub-image at the start ({}true{}) or not ({}false{})":"开始时是否选择随机子图({}true{})或不选择({}false{})",
     "Whether to follow the sprite\u0027s animation normally (true) or not (false).":"是否正常跟随精灵的动画(true)或不跟随精灵的动画(false)。",
-    "Whether to stretch the sprite\u0027s animation to match the particle lifespan (true) or not (false).":"是否拉伸精灵的动画以匹配粒子寿命(true)或不匹配(false)。"
+    "Whether to follow the sprite\u0027s animation normally ({}true{}) or not ({}false{})":"是否遵循精灵的动画正常({}true{})或不({}false{})",
+    "Whether to stretch the sprite\u0027s animation to match the particle lifespan (true) or not (false).":"是否拉伸精灵的动画以匹配粒子寿命(true)或不匹配(false)。",
+    "Whether to stretch the sprite\u0027s animation to match the particle lifespan ({}true{}) or not ({}false{}), as set using&nbsp;{}{}part_type_life{}{}":"是否拉伸精灵的动画以匹配粒子寿命({}true{})或({}false{})，使用{}{}part_type_life{}{}设置",
+    "You can also select to choose a {}random{} sub-image so that if the sprite isn\u0027t animated, a different image will be chosen at random to create the sprite, or if the particle is animated it will start the animation at a random point.":"您还可以选择{}随机{}子图像，以便如果精灵未设置动画，则会随机选择不同的图像来创建精灵，或者如果粒子已设置动画，则会在随机点开始动画。",
+    "You can select the sprite and then tell {}GameMaker{} to use the sprite and {}animate{} it or not.":"您可以选择精灵，然后告诉{}GameMaker{}使用精灵并设置{}动画{}。",
+    "You can use&nbsp;{}{}part_type_subimage{}{}&nbsp;to change the sub-image of the sprite to create the particle with, or start the animation with, in case random is&nbsp;{}false{}.":"如果random为{}false{}，可以使用{0}{1}part_type_subimage{2}{3}更改子画面，以创建粒子或启动动画。",
+    "{}{}NOTE{}{}&nbsp;This function can be used to change the sprite of existing particles of a particle type.":"{}{}注意{}{}此功能可用于更改粒子类型的现有粒子的精灵。",
+    "{}{}NOTE{}{}&nbsp;Use&nbsp;{}{}part_type_shape{}{}&nbsp;to use&nbsp;one&nbsp;of the built-in particle shapes instead.":"{}{}注意{}{}使用{}{}part_type_shape{}{}可使用内置粒子形状之一。"
 }
