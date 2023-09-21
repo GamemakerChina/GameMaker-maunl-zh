@@ -58,6 +58,7 @@
     "{}Arrays{}{}Arrays{}":"{}Arrays{}{}Arrays{} 数组",
     "{}Binary Literals{}{}Binary Literals{}":"{}Binary Literals 二进制文字{}{}Binary Literals 二进制文字{}",
     "{}Boolean{}{}Boolean{}":"{}Boolean{}{}Boolean{} 布尔",
+    "{}Data Types{}":"{}数据类型{}",
     "{}Enum{}{}Enum{}":"{}Enum{}{}Enum{} 枚举",
     "{}GameMaker{}&nbsp;will accept&nbsp;{}hexadecimal literals{}&nbsp;as legitimate values. Hexadecimal values are especially common when working with colours, but can be used anywhere a positive integer value is required. Hexadecimal values can be formatted in the following two ways, where {}{}abcd{}{}&nbsp;would be the actual hex value:":"{}GameMaker{}将接受{}十六进制文字{}作为合法值。使用颜色时，十六进制值尤其常见，但可以在需要正整数值的任何地方使用。十六进制值可以通过以下两种方式进行格式化，其中{}{}abcd{}{}将是实际的十六进制值：",
     "{}Handles{}{}Handles{}":"{}Handles{}{}Handles{} 句柄",
