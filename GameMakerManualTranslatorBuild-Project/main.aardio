@@ -4,17 +4,18 @@ import win.ui.menu;
 /*DSG{{*/
 mainForm = win.form(text="GameMaker Manual_Build";right=895;bottom=679)
 mainForm.add(
-button={cls="button";text="1, Unpack Manual";left=24;top=16;right=200;bottom=80;z=2};
-button3={cls="button";text="1,Build init";left=264;top=16;right=440;bottom=80;z=3};
-button4={cls="button";text="3,Packing Manual";left=264;top=160;right=440;bottom=224;disabled=1;z=4};
-button5={cls="button";text="2,Build!!!!";left=264;top=88;right=440;bottom=152;z=5};
-log={cls="edit";left=8;top=232;right=872;bottom=672;autohscroll=false;bgcolor=0;color=16777215;db=1;dl=1;dr=1;edge=1;font=LOGFONT(h=-16);hidesel=1;multiline=1;readonly=1;vscroll=1;z=1}
+button={cls="button";text='1, Unpack Manual\r\n解压手册到预读取目录';left=24;top=16;right=200;bottom=80;dl=1;dt=1;z=2};
+button3={cls="button";text='1,Build init\r\n解压手册到build目录';left=264;top=16;right=440;bottom=80;dl=1;dt=1;z=3};
+button4={cls="button";text='3,Packing Manual\r\n打包build目录到IDE手册目录';left=264;top=160;right=440;bottom=224;dl=1;dt=1;z=4};
+button5={cls="button";text='2,Build!!!!\r\n编译字典覆盖到build目录';left=264;top=88;right=440;bottom=152;dl=1;dt=1;z=5};
+log={cls="edit";left=8;top=232;right=888;bottom=672;autohscroll=false;bgcolor=0;color=16777215;db=1;dl=1;dr=1;dt=1;edge=1;font=LOGFONT(h=-16);hidesel=1;multiline=1;readonly=1;vscroll=1;z=1}
 )
 /*}}*/
 
 import console
 import fsys
 import web.json
+import process.popen
 
 import System.IO.Compression.ZipFile;
 var ZipFile = System.IO.Compression.ZipFile;
@@ -35,93 +36,116 @@ if !io.exist(file){
 	win.msgbox("你搞丢了配置文件setting.json","注意!")
 	return 0
 }
+
+//日志输出
+log=function(...){
+	mainForm.log.log(...)
+}
+nlog=function(...){
+	mainForm.log.log(...,'\r\n')
+}
+
 setting=web.json.parse(string.load(file))
 
-manualFile=io.fullpath(setting.manualPath+"\"+setting.manualFileName)
-manualNewFile=io.fullpath(setting.manualPath+"\"+setting.manualNewFileName)
 
-manualUnpackDir=io.fullpath(path+"\"+setting.manualUnpackDirName)
-buildDir=io.fullpath(path+"\"+setting.buildDirName)
+manualFile					=	string.replace(io.fullpath(setting.manualPath+"\"+setting.manualFileName),"\\","/")
+manualNewFile			=	string.replace(io.fullpath(setting.manualPath+"\"+setting.manualNewFileName),"\\","/")
 
-mainForm.log.log("load 'setting.json' over",'\r\n' )
-mainForm.log.log("=======================",'\r\n')
+manualUnpackDir		=	string.replace(io.fullpath(path+"\"+setting.manualUnpackDirName),"\\","/")
+buildDir						=	string.replace(io.fullpath(path+"\"+setting.buildDirName),"\\","/")
 
-mainForm.log.log("manualFile:",manualFile,'\r\n' )
-mainForm.log.log("manualNewFile:",manualNewFile,'\r\n' )
-mainForm.log.log("manualUnpackDir:",manualUnpackDir,'\r\n' )
-mainForm.log.log("buildDir:",buildDir,'\r\n')
+log("load 'setting.json' over",'\r\n' )
+log("=======================",'\r\n')
+
+log("manualFile:",'\r\n',manualFile,'\r\n' ,'\r\n')
+log("manualNewFile:",'\r\n',manualNewFile,'\r\n' ,'\r\n')
+log("manualUnpackDir:",'\r\n',manualUnpackDir,'\r\n' ,'\r\n')
+log("buildDir:",'\r\n',buildDir,'\r\n','\r\n')
+
+
 
 mainForm.button.oncommand = function(id,event){
 	
-	mainForm.log.log("=======================",'\r\n')
+	log("=======================",'\r\n')
 	
 	var t=time.tick()
 	
 	//删除目录
-	mainForm.log.log("Deleting directory:",manualUnpackDir)
+	log("Deleting directory:",manualUnpackDir)
 	fsys.delete(manualUnpackDir)
-	mainForm.log.log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
+	log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
 
 	var t=time.tick()
 	
 	//解压
-	mainForm.log.log("Unzipping manual to:",manualFile)
-	ZipFile.ExtractToDirectory(manualFile,manualUnpackDir)
-	mainForm.log.log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
+	log("Unzipping manual to:",manualFile)
+	var cmdText="7za.exe x "+ manualFile + " -o" + manualUnpackDir
+	var prcs = process.popen.cmd("cd "+path+" && "+cmdText)
+	prcs.read(-1)
+	prcs.close()
+	log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
 }
 
 
 mainForm.button3.oncommand = function(id,event){
-	mainForm.log.log("=======================",'\r\n')
+	log("=======================",'\r\n')
 	
 	var t=time.tick()
 	
 	//删除目录
-	mainForm.log.log("Deleting directory:",buildDir)
+	log("Deleting directory:",buildDir)
 	fsys.delete(buildDir)
-	mainForm.log.log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
+	log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
 
 	var t=time.tick()
 	
 	//解压到build
 	
-	mainForm.log.log("Unzipping manual to:",buildDir)
-	ZipFile.ExtractToDirectory(manualFile,buildDir)
-	mainForm.log.log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
+	log("Unzipping manual to:",buildDir)
+	
+	var cmdText="7za.exe x "+ manualFile + " -o" + buildDir
+	var prcs = process.popen.cmd("cd "+path+" && "+cmdText)
+	prcs.read(-1)
+	prcs.close()
+	
+	//ZipFile.ExtractToDirectory(manualFile,buildDir)
+	log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
 
 }
 
 mainForm.button5.oncommand = function(id,event){
 	
-	mainForm.log.log("=======================",'\r\n')
+	log("=======================",'\r\n')
 	var t=time.tick()
 	
 	//编译
 
-	mainForm.log.log("Building!!!!")
+	log("Building!!!!")
 	loadcodex("\res\build.aardio");
-	mainForm.log.log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
+	log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
 	
 }
 
 mainForm.button4.oncommand = function(id,event){
 	
-	mainForm.log.log("=======================",'\r\n')
+	log("=======================",'\r\n')
 	var t=time.tick()
 	
 	//删除文件
-	mainForm.log.log("Deleting file:",manualNewFile)
+	log("Deleting file:",manualNewFile)
 	fsys.delete(manualNewFile)
-	mainForm.log.log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
+	log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
 	
 	var t=time.tick()
 	//打包回去
-	mainForm.log.log("Pack manual to:",manualNewFile)
+	log("Pack manual to:",manualNewFile)
 	
-	//zlib.zip(manualNewFile).compress(buildDir,,,0).close()  
-	ZipFile.CreateFromDirectory(buildDir,manualNewFile,2,false)
+	var cmdText="7za.exe -mx1 -tzip a "+manualNewFile+" "+buildDir+"/*"
+	var prcs = process.popen.cmd("cd "+path+" && "+cmdText)//打包到指定ide手册目录
+	prcs.read(-1)//单纯为了堵塞进程
+	prcs.close() 
 	
-	mainForm.log.log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
+	log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
 }
 
 mainForm.show();
