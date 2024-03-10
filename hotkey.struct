@@ -1,16 +1,16 @@
 {
 	"esc"=//layer.closeAll()
 	
-	,"1"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('腾讯交互')").click()
-	//,"1"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('彩云')").click()
-	//,"2"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('DeepL')").click()
-	//,"3"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('LangX')").click()
-	//,"4"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('AWS')").click()
-	//,"5"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('阿里')").click()
-	//,"6"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('新译')").click()
-	//,"7"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('讯飞')").click()
+	,"1"=//if(!$('.input:focus').length)$(".layui-layer button:contains('腾讯交互')").click()
+	//,"1"=//if(!$('.input:focus').length)$(".layui-layer button:contains('彩云')").click()
+	//,"2"=//if(!$('.input:focus').length)$(".layui-layer button:contains('DeepL')").click()
+	//,"3"=//if(!$('.input:focus').length)$(".layui-layer button:contains('LangX')").click()
+	//,"4"=//if(!$('.input:focus').length)$(".layui-layer button:contains('AWS')").click()
+	//,"5"=//if(!$('.input:focus').length)$(".layui-layer button:contains('阿里')").click()
+	//,"6"=//if(!$('.input:focus').length)$(".layui-layer button:contains('新译')").click()
+	//,"7"=//if(!$('.input:focus').length)$(".layui-layer button:contains('讯飞')").click()
 	
-	,"`"=//layer.close("distinction");if(!$('textarea:focus').length)$(".layui-layer button:contains('distinction')").click()
+	,"`"=//layer.close("distinction");if(!$('.input:focus').length)$(".layui-layer button:contains('distinction')").click()
 	
-	,"space"=//if(!$('textarea:focus').length)$(".layui-layer button:contains('Ok!')").click()
+	,"space"=//if(!$('.input:focus').length)$(".layui-layer button:contains('Ok!')").click()
 }

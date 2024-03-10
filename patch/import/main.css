@@ -8,16 +8,37 @@ textarea{
 .qqq{
 	padding: 10px 20px;
 }
-.qqq textarea{
+.qqq .input{
     border: 1px solid #dbdbdb;
     width: 100%;
     padding: 7px;
     margin: 5px 0px;
     font-family: sans-serif;
 }
-textarea.lr{
-	height:400px;
+.qqq .key{
+	height:50px;
 }
+
+div.lr{
+	min-height:380px;
+	font-size:18px;
+    font-weight:bolder;
+}
+.lr_col{
+    overflow-y:scroll;
+    height:400px;
+}
+
+.qqq .old_show,.qqq .new_show{
+    position: absolute;
+    top: 0px;
+    pointer-events: none;
+}
+.qqq .old,.qqq .new{
+    color: #00000000;
+    caret-color: rgb(255, 0, 0);
+}
+
 
 .qqq_hightlight div{
 	padding: 10px;

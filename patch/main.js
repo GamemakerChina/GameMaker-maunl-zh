@@ -69,8 +69,8 @@ restT=function(ele){
 qqq_ok=function(){
 	var form=$(".layui-layer-content .qqq_menu .form").val()
 	var key=$(".layui-layer-content .qqq_menu .key").val()
-	var old=$(".layui-layer-content .qqq_menu .old").val()
-	var lnew=$(".layui-layer-content .qqq_menu .new").val()
+	var old=$(".layui-layer-content .qqq_menu .old").html()
+	var lnew=$(".layui-layer-content .qqq_menu .new").html()
 
 	restT(target)
 	
@@ -81,7 +81,7 @@ qqq_ok=function(){
 
 qqq_translate_set=function(str){
 
-	$(".qqq_menu .new").val(str)
+	$(".qqq_menu .new").html(str)
 
 	qqq_hight_light()
 
@@ -111,7 +111,7 @@ qqq_translate_patch=function(str){
 
 //复合翻译引擎
 qqq_translate=async function (engine){
-	var old=$(".qqq_menu .old").val()
+	var old=$(".qqq_menu .old").html()
 
 	//翻译前转义空格的转义
 	old=old.replace(/\&nbsp\;/g," ")
@@ -131,7 +131,7 @@ qqq_translate=async function (engine){
 
 //腾讯交互翻译
 qqq_translate_tts=async function (engine){
-	var old=$(".qqq_menu .old").val()
+	var old=$(".qqq_menu .old").html()
 
 	//翻译前转义空格的转义
 	old=old.replace(/\&nbsp\;/g," ")
@@ -150,7 +150,7 @@ qqq_translate_tts=async function (engine){
 
 qqq_caiyun=async function (){
 
-		var str=await caiyun($(".qqq_menu .old").val()).catch((e) => {})
+		var str=await caiyun($(".qqq_menu .old").html()).catch((e) => {})
 		if(!str){alert("接口报空,请检查token")}
 		//console.log(str)
 		qqq_translate_set(str)
@@ -160,9 +160,9 @@ qqq_caiyun=async function (){
 qqq_hight_light=function(){
 	var reg=new RegExp('\{\}','g')
 	var rs="<b class='score' style='color:red;'>{}</b>"
-	var left=$(".qqq_menu .old").val()
-	var right=$(".qqq_menu .new").val()
-
+	var left=$(".qqq_menu .old").html()
+	var right=$(".qqq_menu .new").html()
+	
 	var lc=left.split("{}").length-1 //左得分
 	var rc=right.split("{}").length-1 //右得分
 
@@ -172,6 +172,11 @@ qqq_hight_light=function(){
 	left=left.replace(reg,rs)
 	right=right.replace(reg,rs)
 
+	//显示在显示层
+	$(".old_show").html(left)
+	$(".new_show").html(right)
+
+	//增加序号
 	for (let i = 0; i < lc; i++) {
 		//console.log(left)
 		left=left.replace('{}',"{"+i+"}")
@@ -199,48 +204,48 @@ qqq_hight_light=function(){
 }
 
 qqq_onekey_copy=function() {
-	var right = $(".qqq_menu .new").val();
+	var right = $(".qqq_menu .new").html();
 	navigator.clipboard.writeText(right);
 }
 
 qqq_onekey_paste=function() {
 	navigator.clipboard.readText().then(
 		translated_text => {
-			$(".qqq_menu .new").val(translated_text);
+			$(".qqq_menu .new").html(translated_text);
 			qqq_hight_light();
 		}
 	);
 }
 
 qqq_add_space_by_pangujs=function() {
-	var right = $(".qqq_menu .new").val();
+	var right = $(".qqq_menu .new").html();
 	var pangu1 = pangu.spacing(right);
-	$(".qqq_menu .new").val(pangu1);
+	$(".qqq_menu .new").html(pangu1);
 	// console.log(pangu1);
 	qqq_hight_light();
 }
 
 qqq_clean_space=function() {
-	var right = $(".qqq_menu .new").val();
-	$(".qqq_menu .new").val(right.replace(/\s*/g,""));
+	var right = $(".qqq_menu .new").html();
+	$(".qqq_menu .new").html(right.replace(/\s*/g,""));
 	qqq_hight_light();
 }
 
 qqq_toUpper=function() {
-	var right = $(".qqq_menu .new").val().toUpperCase();
-	$(".qqq_menu .new").val(right);
+	var right = $(".qqq_menu .new").html().toUpperCase();
+	$(".qqq_menu .new").html(right);
 	qqq_hight_light();
 }
 
 qqq_toLower=function() {
-	var right = $(".qqq_menu .new").val().toLowerCase();
-	$(".qqq_menu .new").val(right);
+	var right = $(".qqq_menu .new").html().toLowerCase();
+	$(".qqq_menu .new").html(right);
 	qqq_hight_light();
 }
 
 qqq_clean_semicolon=function() {
-	var right = $(".qqq_menu .new").val();
-	$(".qqq_menu .new").val(right.replace(/[\uff1b\u003b]/g,"")
+	var right = $(".qqq_menu .new").html();
+	$(".qqq_menu .new").html(right.replace(/[\uff1b\u003b]/g,"")
 								.replace(/[\u201C\u201D]/g,"\"")
 								.replace(/[\uff5b]/g,"\{")
 								.replace(/[\uff5d]/g,"\}"));
@@ -255,7 +260,7 @@ html=`<div class="hide">
 		form(save file)
 		<textarea class="input form"contenteditable="true"></textarea>
 	<hr>
-		key(struct key)<textarea class="input key"contenteditable="true" style="height:50px"></textarea>
+		key(struct key)<textarea class="input key"contenteditable="true"></textarea>
 	<hr>
 	<div class="qqq qqq_hightlight layui-row">
 		<div class="hl_old layui-col-md6">123</div>
@@ -264,42 +269,54 @@ html=`<div class="hide">
 	<hr>
 	<div class="layui-row">
 
-		<div class="layui-col-md6">
-		old(content)
-		<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_tts()>腾讯交互</button>
-		<!--
-			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_caiyun()>彩云</button>
-			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("deepl")>DeepL</button>
-			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("lang-x")>LangX</button>
-			<br>
-			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("aws")>AWS</button>
-			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("ali")>阿里</button>
-			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("xinyi")>新译</button>
-			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("xunfei")>讯飞</button>
-			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("modern-mt")>modern-mt</button>
-			<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("huoshan")>火山</button>
-		-->
-		<textarea oninput="qqq_hight_light()" class="lr input old" contenteditable="true"></textarea>
+		<div class="layui-row">
+			<div class="layui-col-md6">
+				old(content)
+				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_tts()>腾讯交互</button>
+				<!--
+					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_caiyun()>彩云</button>
+					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("deepl")>DeepL</button>
+					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("lang-x")>LangX</button>
+					<br>
+					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("aws")>AWS</button>
+					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("ali")>阿里</button>
+					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("xinyi")>新译</button>
+					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("xunfei")>讯飞</button>
+					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("modern-mt")>modern-mt</button>
+					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("huoshan")>火山</button>
+				-->
+			</div>
+
+			<div class="layui-col-md6">
+				new(translate)<span class="num"></span>
+				<button class="layui-btn  layui-btn-xs" onclick=qqq_hight_light()>hightlight</button>
+				<button class="layui-btn  layui-btn-xs" onclick=qqq_onekey_copy()>复制原文</button>
+				<button class="layui-btn  layui-btn-xs" onclick=qqq_onekey_paste()>粘贴译文</button>
+				<br>
+				<button class="layui-btn  layui-btn-xs" onclick=qqq_add_space_by_pangujs()>添加空格</button>
+				<button class="layui-btn  layui-btn-xs" onclick=qqq_clean_space()>删除空格</button>
+				<button class="layui-btn  layui-btn-xs" onclick=qqq_toUpper()>全大写</button>
+				<button class="layui-btn  layui-btn-xs" onclick=qqq_toLower()>全小写</button>
+				<button class="layui-btn  layui-btn-xs" onclick=qqq_clean_semicolon()>去多余分号</button>
+			</div>
+
 		</div>
 
-		<div class="layui-col-md6">
-		new(translate)<span class="num"></span>
-		<button class="layui-btn  layui-btn-xs" onclick=qqq_hight_light()>hightlight</button>
-		<button class="layui-btn  layui-btn-xs" onclick=qqq_onekey_copy()>复制原文</button>
-		<button class="layui-btn  layui-btn-xs" onclick=qqq_onekey_paste()>粘贴译文</button>
-		<br>
-		<button class="layui-btn  layui-btn-xs" onclick=qqq_add_space_by_pangujs()>添加空格</button>
-		<button class="layui-btn  layui-btn-xs" onclick=qqq_clean_space()>删除空格</button>
-		<button class="layui-btn  layui-btn-xs" onclick=qqq_toUpper()>全大写</button>
-		<button class="layui-btn  layui-btn-xs" onclick=qqq_toLower()>全小写</button>
-		<button class="layui-btn  layui-btn-xs" onclick=qqq_clean_semicolon()>去多余分号</button>
-		<textarea oninput="qqq_hight_light()" class="lr input new" contenteditable="true"></textarea>
+		<div class="layui-col-md6 lr_col">
+			<div class="lr input old_show"></div>
+			<div oninput="qqq_hight_light()" class="lr input old" contenteditable="true"></div>
 		</div>
+
+		<div class="layui-col-md6 lr_col">
+			<div class="lr input new_show"></div>
+			<div oninput="qqq_hight_light()" class="lr input new" contenteditable="true"></div>
+		</div>
+
+
 	</div>
 	<button class="layui-btn layui-btn-lg layui-btn-fluid" onclick=qqq_ok()>Ok!</button>
 
 </div>
-
 
 
 </div>`
@@ -384,13 +401,13 @@ add_event=async function(ins,file){
 		//console.log({key:key,str:str})
 
 		$(".qqq_menu .key").val(key)
-		$(".qqq_menu .old").val(key)
+		$(".qqq_menu .old").html(key)
 		var ele=$(".qqq_menu .new")
-		ele.val(key)
+		ele.html(key)
 
 		//如果使用异步函数,会无法阻止冒泡
 		L(form,key).then((result,v=ele)=>{
-			if (result.length)v.val(result)
+			if (result.length)v.html(result)
 			qqq_hight_light()
 		})
 		
