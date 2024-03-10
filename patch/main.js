@@ -130,8 +130,12 @@ qqq_translate=async function (engine){
 }
 
 //腾讯交互翻译
-qqq_translate_tts=async function (engine){
+qqq_translate_tts=async function (is_filt){
 	var old=$(".qqq_menu .old").html()
+
+	if( is_filt ){
+		old=old.replaceAll('{}',"")
+	}
 
 	//翻译前转义空格的转义
 	old=old.replace(/\&nbsp\;/g," ")
@@ -273,6 +277,7 @@ html=`<div class="hide">
 			<div class="layui-col-md6">
 				old(content)
 				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_tts()>腾讯交互</button>
+				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_tts(1)>腾讯交互(去标签)</button>
 				<!--
 					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_caiyun()>彩云</button>
 					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("deepl")>DeepL</button>
