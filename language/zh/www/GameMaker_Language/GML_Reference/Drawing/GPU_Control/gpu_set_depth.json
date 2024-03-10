@@ -1,0 +1,7 @@
+{
+    "After this, a couple&nbsp;of circles are drawn in a for loop using&nbsp;{}{}draw_circle{}{}. The depth used to draw each circle is set to the value of the loop variable&nbsp;{}z{}, which is increased by 10 every iteration. The radius of the circle varies in a way that the final shape looks like an hourglass shape. The draw colour is changed to bring variation in the colours&nbsp;of the circles.":"在此之后，使用{}{}draw_circle{}{}在for循环中绘制几个圆。用于绘制每个圆的深度设置为循环变量{}z{}的值，每次迭代时增加10。圆的半径以某种方式变化，最终形状看起来像沙漏形状。绘制颜色会改变，以改变圆的颜色。",
+    "Finally, the draw colour and depth are set back to the values they had before, in&nbsp;order to not affect further drawing&nbsp;on the instance\u0027s layer.":"最后，绘制颜色和深度被设置回它们之前的值，以便不影响在实例层上的进一步绘制。",
+    "The new depth value to use for drawing":"用于绘制的新深度值",
+    "This function sets the depth (i.e. the z coordinate) for&nbsp;{}GameMaker{}\u0027s&nbsp;2D drawing functions (sprites, shapes, primitives, text, etc.)":"此函数为{}GameMaker{}的2D绘图功能(精灵、形状、图元、文本等)设置深度(即z坐标)。",
+    "{}By default,&nbsp;{}GameMaker{}&nbsp;uses the layer\u0027s depth when drawing flat graphics, but this function allows you to use your own. This can be used to draw at a different depth, or draw individual sprites/primitives at their own depths.{}":"{}默认情况下，{}GameMaker{} 在绘制平面图形时使用层的深度，但此功能允许您使用自己的深度。此功能可用于在不同的深度绘制，或在各自的深度绘制单个精灵/图元。{}"
+}

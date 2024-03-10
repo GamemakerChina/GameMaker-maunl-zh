@@ -1,10 +1,8 @@
 {
     "It clones nested structs and arrays up to a given depth (128 by default), which you can override by providing the&nbsp;optional {}depth{} parameter.":"它克隆嵌套的结构和数组，直到给定深度(默认情况下为 128)，您可以通过提供可选的 {}depth{} 参数来覆盖该深度。",
-    "It clones nested structs and arrays up to a given depth ({}128{} by default), which you can override by providing the&nbsp;optional {}depth{} parameter.":"它克隆嵌套的结构和数组，直到给定深度(默认情况下为 {}128{})，您可以通过提供可选的 {}depth{} 参数来覆盖该深度。",
     "The above code first defines a temporary struct variable {}_the_original{}. A clone is then created from this variable using&nbsp;{}{}variable_clone{}{}. The new variable is stored in another variable {}_the_clone{}.":"上面的代码首先定义了一个临时结构变量 {}_the_original{}。然后使用 {}{}variable_clone{}{} 从此变量创建克隆。新变量存储在另一个变量 {}_the_clone{} 中。",
     "The value to clone":"要克隆的值",
     "This function clones the value you pass it and returns the new clone.":"此函数克隆您传递给它的值，并返回新的克隆。",
     "{}{}NOTE{}{}&nbsp;The built-in&nbsp;{}Data Structures{}&nbsp;and&nbsp;{}Instances{}&nbsp;are {}not{} cloned; for this type of variable the actual value (data structure ID&nbsp;or instance ID, respectively) is written.":"{}{}注意{}{} 内置的{}数据结构{}和{}实例{}是{}未{}克隆的，对于此类型的变量写入实际值(分别为数据结构 ID 或实例 ID)。",
-    "{}{}OPTIONAL{}{}&nbsp;The maximum depth level to clone the variable, in case this is e.g. a nested struct. The default is 128, the maximum possible value.":"{}{}可选{}{} 克隆变量的最大深度级别，如果这是嵌套结构的话。默认值为 128，这是可能的最大值。",
-    "{}{}OPTIONAL{}{}&nbsp;The maximum depth level to clone the variable, in case this is e.g. a nested struct. The default is {}128{}, the maximum possible value.":"{}{}可选{}{} 克隆变量的最大深度级别，如果这是嵌套结构的话。默认值为 {}128{}，这是可能的最大值。"
+    "{}{}OPTIONAL{}{}&nbsp;The maximum depth level to clone the variable, in case this is e.g. a nested struct. The default is 128, the maximum possible value.":"{}{}可选{}{} 克隆变量的最大深度级别，如果这是嵌套结构的话。默认值为 128，这是可能的最大值。"
 }

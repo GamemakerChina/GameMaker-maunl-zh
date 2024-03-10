@@ -1,5 +1,4 @@
 {
-    "Accessing a variable through a hash allows for faster access when using a string, compared to using the {}struct[$ \"string\"]{} syntax.":"与使用 {}struct[$ \"string\"]{} 相比，通过散列访问变量可以在使用字符串时更快地访问。",
     "Accessing a variable through a hash allows for faster access when using a string, compared to using the {}struct[? \"string\"]{} syntax.":"与使用 {}struct[? \"string\"]{} 相比，通过散列访问变量可以在使用字符串时更快地访问。",
     "The above code creates a temporary&nbsp;struct {}_the_struct{} with three member variables: {}a{}, {}b{} and {}c{}. It then gets the hash&nbsp;of a variable {}a{}. This hash is then used in&nbsp;{}{}struct_get_from_hash{}{}&nbsp;to retrieve the value&nbsp;of the struct member with the corresponding name. The returned value is assigned to another temporary variable {}_value{}.":"上面的代码创建了一个具有三个成员变量的临时结构{}_the_struct{}：{}a{}、{}b{}和{}c{}。然后，它获得变量 {}a{} 的散列。然后在 {}{}struct_get_from_hash{}{} 中使用此散列来检索具有相应名称的结构成员的值。返回值被赋给另一个临时变量 {}_value{}。",
     "The hash&nbsp;of the variable to get (as returned by&nbsp;{}{}variable_get_hash{}{})":"要获取的变量的哈希(由 {}{}variable_get_hash{}{} 返回)",
