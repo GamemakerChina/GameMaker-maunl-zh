@@ -1,10 +1,18 @@
 {
     "The Tools Menu":"工具菜单",
     "This menu permits you to open the various stand alone tools that are available to you within {}GameMaker{}, with the following options:":"此菜单允许您打开您可以在 {}GameMaker{} 中使用的各种独立工具，其中包含以下选项：",
+    "This menu permits you to open the various stand-alone tools that are available to you within {}GameMaker{}, with the following options:":"此菜单允许您使用以下选项打开{}GameMaker{}中提供的各种独立工具：",
+    "{}Audio Groups{} - This lets you view the&nbsp;{}Audio Groups{} window.":"{} 音频组 {}- 这使您可以查看 {} 音频组 {} 窗口。",
     "{}Audio Groups{} - View the {}Audio Group{}&nbsp;window.":"{}音频组{} - 查看{}音频组{}窗口。",
     "{}Create Local Package{} - Opens the {}Asset Packager{}&nbsp;window, so you can make and save local asset packages for future use.":"{}创建本地包{} - 打开{}资源打包{}窗口，以便您可以创建并保存本地资源包以供将来使用。",
+    "{}Create Local Package{} - This opens the {}Asset Packager{}&nbsp;window, so you can make and save local asset packages for future use.":"{} 创建本地包 {}- 这将打开 {} 资产打包器 {} 窗口，以便您可以制作和保存本地资产包以备将来使用。",
     "{}Generate Project Images{} - Opens the {}Generate Project Images{}&nbsp;window.":"{}生成项目图像{} - 打开{}生成项目图像{}窗口。",
+    "{}Generate Project Images{} - This opens the {}Generate Project Images{}&nbsp;window.":"{} 生成项目图像 {}- 这将打开 {} 生成项目图像&nbsp;{} 窗口。",
     "{}Import Local Package{} - Opens a file explorer window where you can then select a {}Local Asset Package{} and import it, either adding it to the current project, or creating a new project for it.":"{}导入本地包{} - 打开文件资源管理器窗口，然后您可以在其中选择一个{}本地资源包{}并将其导入，将其添加到当前项目，或为其创建一个新项目。",
+    "{}Import Local Package{} - This opens a file explorer window where you can then select a {}Local Asset Package{} and import it, either adding it to the current project, or creating a new project for it.":"{} 导入本地包 {}- 这将打开一个文件资源管理器窗口，然后您可以在其中选择 {} 本地资产包 {} 并将其导入，将其添加到当前项目或为其创建新项目。",
+    "{}Project Tool{} - This opens the {}ProjectTool{}, which performs conversions between current and older&nbsp;{}GameMaker{}&nbsp;project format versions.":"{} 项目工具 {}- 这将打开 {}ProjectTool{}，该工具可执行当前和旧 {}GameMaker{} 项目格式版本之间的转换。",
+    "{}Sound Mixer{} - This lets you view the&nbsp;{}Sound Mixer{} window.":"{} 混音器 {}- 此选项允许您查看 {} 混音器 {} 窗口。",
     "{}Sound Mixer{} - View the {}Sound Mixer{}&nbsp;window.":"{}混音器{} - 查看{}混音器{}窗口。",
+    "{}Texture Groups{} - This opens the&nbsp;{}Texture Groups{} window.":"{} 纹理组 {}- 打开 {} 纹理组 {} 窗口。",
     "{}Texture Groups{} - View the {}Texture Group{}&nbsp;window.":"{}纹理组{} - 查看{}纹理组{}窗口。"
 }

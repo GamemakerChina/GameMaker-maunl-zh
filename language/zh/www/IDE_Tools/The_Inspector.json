@@ -4,6 +4,7 @@
     "Click on the empty area in the list to return to the multi-select view.":"单击列表中的空白区域以返回到多选视图。",
     "Editing Values":"编辑属性值",
     "Editor Elements":"编辑器元素",
+    "Finally, when&nbsp;{}The Inspector{}&nbsp;shows an&nbsp;{}Included File{}, clicking \"Open Editor\" will execute the action set under&nbsp;{}Default option for opening included files{}, in the Paths preferences under&nbsp;{}External Editors{}.":"最后，当 {} 检查器 {} 显示 {} 包含的文件 {} 时，单击 \" 打开编辑器 \" 将执行 {6} 外部编辑器 {7} 下的路径首选项中的 {} 打开包含的文件的默认选项 {} 下设置的操作。",
     "For example, doing this with an object will open the Object Editor, where you can modify its properties, add events, etc.":"例如，对对象执行此操作将打开对象编辑器，您可以在其中修改其属性、添加事件等。",
     "For example, you may usually edit your event code in fullscreen, and frequently navigate back into a Workspace to edit that object\u0027s properties.":"例如，您通常可以在全屏中编辑事件代码，并经常导航回工作区以编辑该对象的属性。",
     "However if the items have different values for a property, the editor will simply show {}-{}&nbsp;in place of that value.":"但是，如果属性的项具有不同的值，则编辑器将简单地显示{}-{} 来代替该值。",
@@ -41,13 +42,15 @@
     "While this particular example only covers objects, the Inspector can do much more and allow you to edit many different kinds of assets (e.g. Sprites, Fonts, Animation Curves, etc.).":"虽然此特定示例仅涵盖对象，但检查器可以执行更多操作，并允许您编辑许多不同类型的资源(例如精灵、字体、动画曲线等)。",
     "With the Inspector, you can view an object\u0027s details&nbsp;while remaining in fullscreen view:":"使用检查器，您可以在保持全屏视图的同时查看对象的详细信息：",
     "You can change any of these fields. Changing a value will apply it to all of your selected items.":"您可以更改这些字段中的任何一个。更改一个值会将其应用于所有选定的项目。",
-    "You can change the colour of this outline in the {}Room Preferences{} and {}Sequence Preferences{}.":"您可以在{}房间首选项{}和{}序列首选项{}中更改此轮廓的颜色。",
+    "You can change the colour of this outline in the {}Room Preferences{} and {}Sequence Preferences{}.":"您可以在 {} 房间首选项 {} 和 {} 序列首选项 {} 中更改此轮廓的颜色。",
     "You can open more Inspector windows from {}The Windows Menu{}&nbsp;at the top of the GameMaker window:":"您可以从位于 GameMaker 窗口顶部的{}窗口菜单{}打开更多的检查器窗口：",
+    "You can open more Inspector windows from {}The Windows Menu{}&nbsp;at the top of the {}GameMaker{}&nbsp;window:":"您可以从 {}GameMaker{} 窗口顶部的 {}Windows 菜单 {} 打开更多检查器窗口：",
     "You can open multiple Inspector windows at any time, and each one can be linked to a specific element in the IDE.":"您可以随时打开多个检查器窗口，并且每个窗口都可以链接到 IDE 中的特定元素。",
     "You can select any one item within your multi-select list to view and edit its properties, without having to reset your selection.":"您可以在多选列表中选择任何一项来查看和编辑其属性，而不必重置您的选择。",
     "You can select one or multiple elements in any editor, and view or change its various properties:":"可以在任何编辑器中选择一个或多个元素，并查看或修改其各种属性：",
     "{}After opening an Inspector window, you can dock it anywhere in the IDE, or use it as a floating window:":"{}打开检查器窗口后，您可以将其停靠在 IDE 中的任何位置，或将其用作浮动窗口：",
     "{}NOTE{} When you apply a filter/effect to a non-FX layer using the Inspector, it will always be applied as a \"single layer\" effect, i.e. its effect will only be applied on that particular layer and not on other layers below it.":"{}注意{} 当您使用检查器将滤镜/效果应用于非FX层时，该滤镜/效果将始终作为\"单层\"效果应用，即其效果将仅应用于该特定层，而不会应用于其下的其他层。",
     "{}Note that a locked inspector window does not lock the editing of any values for the element being inspected. It simply locks the inspector to the selected element and you can continue to edit it at any time, even when the original element is not the main focus of the IDE.":"{}请注意，锁定的检查器窗口不会锁定正在检查的元素的任何值的编辑。它只是将检查器锁定到选定的元素，您可以随时继续编辑它，即使原始元素不是IDE的主要焦点也是如此。",
-    "{}This makes it possible to modify an object\u0027s properties and&nbsp;delete/change events while editing its code in fullscreen, and also set up&nbsp;Parenting, Variable Definitions, and more.":"{}这样可以在全屏编辑对象代码的同时修改对象的属性和删除/更改事件，还可以设置父子关系、变量定义等。"
+    "{}This makes it possible to modify an object\u0027s properties and&nbsp;delete/change events while editing its code in fullscreen, and also set up&nbsp;Parenting, Variable Definitions, and more.":"{}这样可以在全屏编辑对象代码的同时修改对象的属性和删除/更改事件，还可以设置父子关系、变量定义等。",
+    "{}{}NOTE{}{}&nbsp;When you apply a filter/effect to a non-FX layer using the Inspector, it will always be applied as a \"single layer\" effect, i.e. its effect will only be applied on that particular layer and not on other layers below it.":"{}{}注意{}{} 当您使用检视器将滤镜/效果应用到非特效层时，它将始终作为\"单层\"效果应用，即其效果将仅应用于该特定层，而不会应用于其下方的其他层。"
 }

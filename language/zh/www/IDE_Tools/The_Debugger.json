@@ -41,5 +41,6 @@
     "{}Toolbar{}{}Toolbar{}":"{}工具栏{}{}工具栏{}",
     "{}Watches{}{}Watches{}":"{}监视器{}{}监视器{}",
     "{}When running the game in debug and mousing over these events, a list will be shown of all the events that were triggered at that point in the game, and you have the option of pulling the list out into a separate window for revising by clicking the \"{}Click to open in a new window{}\" text:":"{}在调试中运行游戏并将鼠标悬停在这些事件上时，将显示在游戏中该点触发的所有事件的列表，您可以选择将列表拉出到单独的窗口中进行修改，方法是单击\"{}点击以在新窗口中打开{}\"文本：",
+    "{}{}NOTE{}{}&nbsp;On some systems you may see a very small memory increase due to the way that&nbsp;{}GameMaker{} measures memory usage.":"{}{}注意{}{}在某些系统上，由于{}GameMaker{}测量内存使用情况的方式，您可能会看到非常小的内存增加。",
     "{}{}NOTE{}{}&nbsp;You may be prompted by Windows Firewall (or any other firewall program that you run) to create a security exception for this module. {}You must do this otherwise it will not work correctly{}. This is due to the way the Debugger works and is essential for debugging mobile platforms.":"{}{}注意{}{} Windows 防火墙 (或您运行的任何其他防火墙程序)可能会提示您为此模块创建安全例外。{}您必须这样做，否则它将无法正常工作{}。这是由于调试器的工作方式，并且对于调试移动平台是必不可少的。"
 }

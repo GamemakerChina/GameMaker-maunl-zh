@@ -9,6 +9,7 @@
     "Modify Current Runtime Modules":"修改当前运行时模块",
     "Once a Runtime Feed has been created it will be listed in this section as a sub-category, and you should always have at least one feed listed (by default this would be the {}Master {}feed). Regardless of the runtime being used, they will all have the same features, outlined below using the Master feed as an example:":"创建运行时源后，它将作为子类别在本节中列出，并且您应该始终至少列出一个源 (默认情况下，这将是 {}Master{} 源)。无论使用哪种运行时，它们都将具有相同的功能，下面以 Master 源为例进行了概述：",
     "Once the new runtime has been installed you will be asked to close and restart the IDE so that the runtime can be initialised.":"一旦安装了新的运行时，系统将要求您关闭并重新启动 IDE，以便可以初始化运行时。",
+    "Remember last selection of modules":"记住上次选择的模块",
     "Remember last selection of {}{}{}{}{}{}modules":"记住上次选择的{}{}{}{}{}{}模块",
     "Runtime Feeds":"运行时源",
     "Runtime RSS Feeds":"运行时 RSS 源",

@@ -1,7 +1,10 @@
 {
     "Help Preferences":"帮助首选项",
     "The help manual is designed to operate like a web page and even though the files may be stored locally (depending on your settings), it requires the use of an external browser to view them. The following settings related to the help manual can be changed here:":"帮助手册旨在像网页一样操作，即使文件可能存储在本地(取决于您的设置)，它也需要使用外部浏览器才能查看它们。可在此处更改与帮助手册相关的以下设置：",
+    "The help manual is designed to operate like a web page and even though the files may be stored locally (depending on your settings), it requires the use of an external browser to view them. The following settings related to the help manual can be changed here:&nbsp;":"帮助手册的操作方式类似于网页，即使文件可能存储在本地(取决于您的设置)，也需要使用外部浏览器才能查看它们。可以在此处更改与帮助手册相关的以下设置：",
     "{}Help manual port{}: This sets the port number for the manual micro web server to use, if \"Use online manual\" is disabled. The default value is 51290.":"{}帮助手册端口{}：如果禁用使用在线手册，则设置手册微型 Web 服务器要使用的端口号。默认值为 51290。",
+    "{}Help manual port{}: This sets the port number for the manual micro web server to use, if {}Use online manual{} is disabled. The default value is {}51290{}.":"{}帮助手册端口{}：如果禁用了{}使用联机手册{}，则此操作将设置手动微型Web服务器要使用的端口号。默认值为{}51290{}。",
     "{}Manual Language{}: This sets the language of the manual. The default is \"English\".":"{}手册语言{}：设置手册的语言。默认为“English”。",
+    "{}Manual Language{}: This sets the language of the manual. The default is {}English / English{}.":"{}手册语言{}：设置手册的语言。默认为{}英语/英语{}。",
     "{}Use online manual:{}&nbsp;Enable this to use the online {}manual website{} whenever the manual is opened, or disable it to run the manual locally. This is disabled by default.":"{}使用在线手册：{} 启用此选项可在打开手册时使用在线{}手册网站{}，或禁用该网站以在本地运行手册。默认情况下，此选项处于禁用状态。"
 }
