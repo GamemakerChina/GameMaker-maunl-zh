@@ -134,7 +134,7 @@ qqq_translate_tts=async function (is_filt){
 	var old=$(".qqq_menu .old").html()
 
 	if( is_filt ){
-		old=old.replaceAll('{}',"")
+		old=old.replaceAll('{}'," ")
 	}
 
 	//翻译前转义空格的转义
@@ -186,15 +186,31 @@ qqq_hight_light=function(){
 		left=left.replace('{}',"{"+i+"}")
 	}
 	for (let i = 0; i < lc; i++) {
+
 		var rs="<b class='score' style='color:orange;'>{"+i+"}</b>"
 		var tmp=right.replace("{"+i+"}",rs)
-		right_show=right_show.replace("{"+i+"}",rs)
 		if(tmp===right){
 			right=right.replace('{}',"{"+i+"}")
 		}else{
 			right=tmp
 			rc++
 		}
+
+		tmp=left_show.replace("{"+i+"}",rs)
+		if(tmp===left_show){
+			left_show=left_show.replace('{}',"{<span>"+i+"</span>}")
+		}else{
+			left_show=tmp
+		}
+
+		tmp=right_show.replace("{"+i+"}",rs)
+		if(tmp===right_show){
+			right_show=right_show.replace('{}',"{<span>"+i+"</span>}")
+		}else{
+			right_show=tmp
+		}
+
+
 	}
 
 	//显示在显示层

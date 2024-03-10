@@ -14,19 +14,30 @@ textarea{
     padding: 7px;
     margin: 5px 0px;
     font-family: sans-serif;
+    word-break: break-all;
 }
 .qqq .key{
 	height:50px;
 }
 
 div.lr{
-	min-height:380px;
+	min-height:720px;
 	font-size:18px;
+    line-height: 2;
     font-weight:bolder;
+}
+div.lr span{
+    position: absolute;
+    margin-left: -4px;
+    margin-top: -6px;
+    font-size: 12px;
+    color: #0537f9;
+    text-shadow: 1px 1px 1px #ffffff61;
 }
 .lr_col{
     overflow-y:scroll;
-    height:400px;
+    overflow-x:hidden;
+    height: 740px;
 }
 
 .qqq .old_show,.qqq .new_show{
