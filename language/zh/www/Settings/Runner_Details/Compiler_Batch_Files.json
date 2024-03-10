@@ -20,6 +20,7 @@
     "This is executed before the asset compiler is started for building the game":"这是在资源编译器开始构建游戏之前执行的",
     "This is executed before the final packaging step, which is when all files are ready but the final ZIP file or store package is about to be created":"这在最终打包步骤之前执行，最终打包步骤是所有文件都准备就绪但即将创建最终 ZIP 文件或存储包的时候",
     "This is executed before the game deployment is about to start":"这是在游戏部署即将开始之前执行的",
+    "This is executed on the remote machine, when you are on a Windows machine and compiling remotely for macOS/iOS/tvOS or Ubuntu.":"当您在Windows机器上并为macOS/iOS/tvOS或Ubuntu远程编译时，这将在远程机器上执行。",
     "This is executed when the game is prepared and ready to run; after the script\u0027s execution the game is started":"这是在游戏准备好并准备运行时执行的。在脚本执行之后，游戏就开始了",
     "Version number:&nbsp;{}GMEXT_&lt;ExtensionName&gt;_version{}":"版本号:&nbsp;{}GMEXT_&lt;ExtensionName&gt;_version{}",
     "You can retrieve the extension version and any of the extension options in the Batch files/Shell scripts:&nbsp;":"您可以在批处理文件/外壳脚本中检索扩展版本和任何扩展选项："
