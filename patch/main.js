@@ -176,9 +176,9 @@ qqq_hight_light=function(){
 	left=left.replace(reg,rs)
 	right=right.replace(reg,rs)
 
-	//显示在显示层
-	$(".old_show").html(left)
-	$(".new_show").html(right)
+	//缓存显示字符串
+	left_show=left
+	right_show=right
 
 	//增加序号
 	for (let i = 0; i < lc; i++) {
@@ -188,6 +188,7 @@ qqq_hight_light=function(){
 	for (let i = 0; i < lc; i++) {
 		var rs="<b class='score' style='color:orange;'>{"+i+"}</b>"
 		var tmp=right.replace("{"+i+"}",rs)
+		right_show=right_show.replace("{"+i+"}",rs)
 		if(tmp===right){
 			right=right.replace('{}',"{"+i+"}")
 		}else{
@@ -196,6 +197,11 @@ qqq_hight_light=function(){
 		}
 	}
 
+	//显示在显示层
+	$(".old_show").html(left_show)
+	$(".new_show").html(right_show)
+
+	//显示在编辑层
 	$(".hl_old").html(left)
 	$(".hl_new").html(right)
 
