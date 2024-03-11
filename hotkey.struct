@@ -1,7 +1,7 @@
 {
 	"esc"=//layer.closeAll()
 	
-	,"1"=//if(!$('.input:focus').length)$(".layui-layer button:contains('腾讯交互')").click()
+	,"1"=//if(!$('.input:focus').length)$(".layui-layer button:contains('腾讯交互(带标签)')").click()
 	//,"1"=//if(!$('.input:focus').length)$(".layui-layer button:contains('彩云')").click()
 	//,"2"=//if(!$('.input:focus').length)$(".layui-layer button:contains('DeepL')").click()
 	//,"3"=//if(!$('.input:focus').length)$(".layui-layer button:contains('LangX')").click()

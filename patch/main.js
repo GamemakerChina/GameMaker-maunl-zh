@@ -298,7 +298,7 @@ html=`<div class="hide">
 		<div class="layui-row">
 			<div class="layui-col-md6">
 				old(content)
-				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_tts()>腾讯交互</button>
+				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_tts()>腾讯交互(带标签)</button>
 				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_tts(1)>腾讯交互(去标签)</button>
 				<!--
 					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_caiyun()>彩云</button>
