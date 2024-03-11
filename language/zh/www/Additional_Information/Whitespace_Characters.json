@@ -1,4 +1,5 @@
 {
+    "For a detailed&nbsp;list of all these characters, see {}Whitespace character{}.":"有关所有这些字符的详细列表，请参阅{}空白字符{}。",
     "For a detailed&nbsp;list of all these characters, see {}Whitespace_character{}.":"有关所有这些字符的详细列表，请参阅{}空格字符{}。",
     "The following table lists the character codes and escape sequences that&nbsp;{}GameMaker{}&nbsp;considers to be white-space characters. An empty cell in the table indicates there is no escape sequence for that character code.":"下表列出了 {}GameMaker{} 认为是空白字符的字符代码和转义序列。表中的空单元格表示该字符代码没有转义序列。",
     "carriage return":"回车符",
