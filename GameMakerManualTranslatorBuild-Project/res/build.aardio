@@ -17,7 +17,7 @@ if setting.group{
 			importHtml+=//<script type="text/javascript" src="{path}
 			importHtml+=p
 			importHtml+=//"></script>
-			//console.log("import:",p)
+			console.log("import:",p)
 		}
 	},);
 	
@@ -28,7 +28,7 @@ if setting.group{
 			importHtml+=//<link rel="stylesheet" href="{path}
 			importHtml+=p
 			importHtml+=//">
-			//console.log("import:",p)
+			console.log("import:",p)
 		}
 	},);
 
@@ -70,7 +70,7 @@ fsys.enum(path_manual,"*.htm",function(dirname,filename,fullpath,findData){
 		//加入
 		html=string.replace(html,"@<head>","<head>"+'\r\n'+tmp)
 		
-		//console.log("patch:",p)
+		console.log("patch:",p)
 		
 		//保存修改过的html
 		var path_out_htm=fsys.path.canonicalize(path_build+p+".htm")
@@ -84,7 +84,7 @@ fsys.copy(
 	fsys.path.canonicalize(path+"/patch/import")
 	,fsys.path.canonicalize(path+"/build/assets/import")
 )
-//console.log("copy:","!!!import!!!")
+console.log("copy:","!!!import!!!")
 
 //打上汉化组信息
 content_html=string.load(path+"/build/Content.htm")
@@ -92,5 +92,5 @@ team_html=string.load(path+"/patch/team.htm")
 h1="<h1"
 html=string.replace(content_html,"@"+h1,team_html+h1,1)
 string.save(path+"/build/Content.htm",html)
-//console.log("team patch:","Content.htm")
+console.log("team patch:","Content.htm")
 

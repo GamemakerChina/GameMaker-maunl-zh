@@ -1,4 +1,3 @@
-
 import win.ui;
 import win.ui.menu;
 /*DSG{{*/
@@ -41,6 +40,7 @@ if !io.exist(file){
 log=function(...){
 	mainForm.log.log(...)
 }
+
 nlog=function(...){
 	mainForm.log.log(...,'\r\n')
 }
@@ -147,6 +147,15 @@ mainForm.button4.oncommand = function(id,event){
 	
 	log(" -> over! ","time:",time.tick()-t,"ms",'\r\n')
 }
+
+
+if _CMDLINE=="build"{
+	log_enabled=true
+	loadcodex("\res\build.aardio");
+	console.pause()
+	return 0
+}
+
 
 mainForm.show();
 win.loopMessage();
