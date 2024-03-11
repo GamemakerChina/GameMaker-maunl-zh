@@ -7,6 +7,7 @@
     "However, writing that into the code editor will show you the argument variable names directly ({}_id{} and {}_obj{}) which in most cases is not very descriptive.&nbsp;You can use JSDoc to define custom argument names and descriptions, along with information for the function as well:":"但是，将其写入代码编辑器将直接显示参数变量名称 ({}_id{} 和 {}_obj{})，在大多数情况下，这些名称的描述性不强。您可以使用 JSDoc 定义自定义参数名称和说明，以及函数的信息：",
     "If you haven\u0027t specified a type for your arguments or return value, and you\u0027re using {}Feather{}, it will assume a data type for them automatically, based on your function body.":"如果您尚未为参数或返回值指定类型，并且正在使用{}语法检查{}，则它将根据您的函数体自动为这些参数指定数据类型。",
     "If you wish your custom functions to have code completion and to show the required arguments in a specific manner&nbsp;in the code editor, then you need to add some {}JSDoc style{} comments. These comments are used to tell the auto-complete feature how the function should be used and filled out in the {}script editor{}.":"如果希望自定义函数具有代码完成功能并在代码编辑器中以特定方式显示所需的参数，则需要添加一些 {}JSDoc 样式 {} 注释。这些注释用于告诉自动完成功能应如何在 {} 脚本编辑器 {} 中使用和填写该函数。",
+    "Information on an argument, with an optional {}type{}&nbsp;in {}{}{} (or multiple acceptable types separated by {},{} or&nbsp;{}|{})":"有关参数的信息，在中具有可选的 {0}type{1} {}{ }{} （或由 {}、{} 或 {}|{} 分隔的多个可接受的类型）",
     "Information on arguments, with an optional {}type{}":"有关具有可选{}类型{}的参数的信息",
     "Marks the function as deprecated":"将函数标记为已弃用",
     "Marks the function as&nbsp;{}pure{}":"将函数标记为 {}pure{}",

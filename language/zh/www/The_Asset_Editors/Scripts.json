@@ -12,6 +12,7 @@
     "GML Visual Scripts":"GML 可视化脚本",
     "If you have opened the search window using&nbsp;{}&nbsp;/&nbsp;{}&nbsp;+ \"{}F{}\", then the replace functionality will not be visible, so you need to click the Replace button {}&nbsp;to open it. Once open, you can then enter a string that will be used to replace any given search string, using the following buttons to perform the action:":"如果已使用 {}/{}+\"{}F{}\" 打开搜索窗口，则替换功能将不可见，因此需要单击 \" 替换 \" 按钮 {} 将其打开。打开后，您可以使用以下按钮输入将用于替换任何给定搜索字符串的字符串来执行操作：",
     "JSDoc Comments":"JSDoc 脚本注释",
+    "JSDoc Script Comments":"JSDoc脚本注释",
     "Note that any optional arguments in your script functions will be shown with {}[]{} brackets around them. If you have used the {}JSDoc Script Comments{}&nbsp;within a script asset then the information you have supplied will also show here.":"请注意，脚本函数中的任何可选参数都将带有 {}[]{} 括号。如果您在脚本资源中使用了 {}JSDoc 脚本注释 {}，则您提供的信息也将显示在此处。",
     "Note that if you are editing code from an {}object event {}in the script editor and you have maximised the script editor or have it on a separate window or workspace, then the right-click {}&nbsp;editor menu will have some extra options:":"请注意，如果您正在脚本编辑器中编辑来自{}对象事件{}的代码，并且已最大化脚本编辑器或已将其放置在单独的窗口或工作区中，则右键单击{}编辑器菜单将具有一些额外的选项：",
     "Note that if you want to do a {}global {}search (ie: search the whole project rather than the current script or event), then you can press {}&nbsp;/&nbsp;{}&nbsp;+&nbsp;{}&nbsp;+ \"F\".":"请注意，如果要执行 {} 全局 {} 搜索 (即：搜索整个项目而不是当前脚本或事件)，则可以按 {}/{}+{}+\" F\"。",

@@ -1,9 +1,17 @@
 {
     "Here is an example using the same settings defined on the {}{}wallpaper_set_config{}{}&nbsp;page:&nbsp;":"以下是使用{}{}wallpaper_set_config{}{}页面上定义的相同设置的示例&nbsp;：&nbsp;",
+    "Or, when using nested sections:&nbsp;":"或者，当使用嵌套节时：",
+    "There are two events used for making&nbsp;{}Live Wallpapers{}.":"有两个事件用于制作{}动态壁纸{}。",
+    "This event is triggered when information is received on a metric that you are {}subscribed{} to. For details on what is included in this event, see {}Receiving Metrics{}.":"当收到有关您{}订阅{}的指标的信息时，将触发此事件。有关此事件中包含的内容的详细信息，请参阅{}订阅指标{}。",
     "This event is used with the Live Wallpaper functionality, and runs whenever a {}setting{} for the wallpaper is changed in the companion app.":"此事件与 动态壁纸 功能一起使用，并且每当配套应用程序中壁纸的{}设置{}发生更改时运行。",
+    "This event runs whenever a {}setting{} for the wallpaper is changed in the companion app.":"每当配套应用中墙纸的{}设置{}发生更改时，此事件就会运行。",
     "This variable is a {}struct{} containing your sections. Each section is a struct containing the options and sections within that section.":"此变量是包含节的{}struct{}。 每个节都是一个结构，其中包含该节中的选项和节。",
     "To access an option from this struct, you would use this syntax:&nbsp;":"要访问此结构体中的选项，可以使用以下语法：&nbsp;",
+    "Wallpaper Config":"壁纸配置",
+    "Wallpaper Subscription Data":"壁纸订阅数据",
+    "You get the updated wallpaper settings in the {}{}{}wallpaper_config{} variable.":"您可以在{}wallpaper_config{}变量中获取更新的墙纸设置。",
     "{}Wallpaper Config Event{}":"{}壁纸配置事件{}",
+    "{}Wallpaper Events{}":"{}壁纸事件{}",
     "{}You get the updated wallpaper settings in the {}{}{}wallpaper_config{} variable.":"{}你在{}{}{}wallpaper_config{}变量中获取更新的壁纸设置。",
     "{}{}{}{}{}Or, when using nested sections:&nbsp;{}{}{}":"{}{}{}{}{}或者，使用嵌套节时：&nbsp;{}{}{}"
 }
