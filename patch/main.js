@@ -328,15 +328,15 @@ html=`<div class="hide">
 			</div>
 
 		</div>
-
+		
 		<div class="layui-col-md6 lr_col">
 			<div class="lr input old_show"></div>
-			<div oninput="qqq_hight_light()" class="lr input old" contenteditable="true"></div>
+			<div oninput="qqq_hight_light()" class="lr input old" contenteditable="plaintext-only"></div>
 		</div>
 
 		<div class="layui-col-md6 lr_col">
 			<div class="lr input new_show"></div>
-			<div oninput="qqq_hight_light()" class="lr input new" contenteditable="true"></div>
+			<div oninput="qqq_hight_light()" class="lr input new" contenteditable="plaintext-only"></div>
 		</div>
 
 
