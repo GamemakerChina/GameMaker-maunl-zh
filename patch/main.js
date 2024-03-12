@@ -152,6 +152,18 @@ qqq_translate_tts=async function (is_filt){
 
 }
 
+//谷歌转发翻译
+qqq_translate_googleR=async function(){
+	var old=$(".qqq_menu .old").html()
+	$.post("http://127.0.0.1:1182",{t:old},function(data){
+		data=JSON.parse(data)
+		if (data.state!="ok") return 0
+		str=data.translate
+		str=qqq_translate_patch(str)
+		qqq_translate_set(str)
+	});
+}
+
 qqq_caiyun=async function (){
 
 		var str=await caiyun($(".qqq_menu .old").html()).catch((e) => {})
@@ -300,18 +312,7 @@ html=`<div class="hide">
 				old(content)
 				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_tts()>腾讯交互(带标签)</button>
 				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_tts(1)>腾讯交互(去标签)</button>
-				<!--
-					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_caiyun()>彩云</button>
-					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("deepl")>DeepL</button>
-					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("lang-x")>LangX</button>
-					<br>
-					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("aws")>AWS</button>
-					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("ali")>阿里</button>
-					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("xinyi")>新译</button>
-					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("xunfei")>讯飞</button>
-					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("modern-mt")>modern-mt</button>
-					<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate("huoshan")>火山</button>
-				-->
+				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_googleR()>谷歌翻译(转发)</button>
 			</div>
 
 			<div class="layui-col-md6">
