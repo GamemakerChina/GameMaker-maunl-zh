@@ -12,8 +12,8 @@ $("head").append(cssHtml);
 ///////////////////////////////////////////////////////////////////////////////////
 
 //移除并替换给定字符串的所有标签到{}
-removeHtml=function(str){
-
+removeHtml=function(str,isOld){
+	if (isOld)	str=str.replaceAll("{}", "{ }");
 	//替换标签到{}
 	str=str.replace(/(<([^>]+)>)/ig, "{}");
 
@@ -79,9 +79,18 @@ qqq_ok=function(){
 	
 }
 
+///来源预处理
+qqq_translate_form_path=function(str){
+
+	//翻译前转义空格的转义
+	str=str.replace(/\&nbsp\;/g," ")
+
+	return str
+}
+
 qqq_translate_set=function(str){
 
-	$(".qqq_menu .new").html(str)
+	$(".qqq_menu .new").html(pangu.spacing(str))
 
 	qqq_hight_light()
 
@@ -106,6 +115,9 @@ qqq_translate_patch=function(str){
 	str=str.replace(/ ?；/g,";")
 	str=str.replace(/& ?/g,"&")
 	
+	//修正&
+	str=str.replaceAll("&amp;","&")
+	
 	return str
 }
 
@@ -113,8 +125,8 @@ qqq_translate_patch=function(str){
 qqq_translate=async function (engine){
 	var old=$(".qqq_menu .old").html()
 
-	//翻译前转义空格的转义
-	old=old.replace(/\&nbsp\;/g," ")
+	old=qqq_translate_form_path(old)
+
 	var json=await translate(old,engine).catch((e) => {})
 	if(!json){alert("接口报空,请检查token")}
 	var str=json.data.target
@@ -122,7 +134,6 @@ qqq_translate=async function (engine){
 	//修正返回内容
 	str=qqq_translate_patch(str)
 	
-
 	//console.log(str)
 
 	qqq_translate_set(str)
@@ -137,8 +148,8 @@ qqq_translate_tts=async function (is_filt){
 		old=old.replaceAll('{}'," ")
 	}
 
-	//翻译前转义空格的转义
-	old=old.replace(/\&nbsp\;/g," ")
+	old=qqq_translate_form_path(old)
+
 	var str=await translate_tts(old).catch((e) => {})
 	if(!str){alert("接口挂了(悲")}
 
@@ -155,6 +166,9 @@ qqq_translate_tts=async function (is_filt){
 //谷歌转发翻译
 qqq_translate_googleR=async function(){
 	var old=$(".qqq_menu .old").html()
+	old=qqq_translate_form_path(old)
+
+
 	$.post("http://127.0.0.1:1182",{t:old},function(data){
 		data=JSON.parse(data)
 		if (data.state!="ok") return 0
@@ -425,11 +439,12 @@ add_event=async function(ins,file){
 		//处理html标签为{}
 		var str=target.html()
 		var key=removeHtml(str)
+		var old=removeHtml(str,true)//额外处理{} => { }
 		
 		//console.log({key:key,str:str})
 
 		$(".qqq_menu .key").val(key)
-		$(".qqq_menu .old").html(key)
+		$(".qqq_menu .old").html(old)
 		var ele=$(".qqq_menu .new")
 		ele.html(key)
 

@@ -1,0 +1,17 @@
+arg_path=function(arg){
+	//去除多余斜杠和多余协议头
+	if ( arg!=null ){
+		arg=string.replace(arg,"/","")
+		arg=string.match(arg,"<@gmmt:@>(.*)")
+	}
+	
+	//尝试补正#
+	if ( arg!=null ){
+		arg=string.replace("#"+arg,"#+","#")
+		//console.log(arg)
+		//gmmt://#t=GameMaker_Language%2FGML_Reference%2FAsset_Management%2FSequences%2FSequences.htm
+	}else{
+		arg=""
+	}
+	return arg
+}

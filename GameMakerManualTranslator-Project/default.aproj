@@ -4,6 +4,7 @@
 	<folder name="资源文件" path="res" embed="true" local="false" ignored="false">
 		<file name="翻译.aardio" path="res\翻译.aardio" comment="res\翻译.aardio"/>
 		<file name="热键设置.aardio" path="res\热键设置.aardio" comment="res\热键设置.aardio"/>
+		<file name="函数.aardio" path="res\函数.aardio" comment="res\函数.aardio"/>
 	</folder>
 	<folder name="窗体文件" path="dlg" comment="目录" embed="true"/>
 </project>
