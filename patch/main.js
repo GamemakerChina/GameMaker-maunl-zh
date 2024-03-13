@@ -116,6 +116,7 @@ qqq_translate_patch=function(str){
 	str=str.replace(/& ?/g,"&")
 	
 	//修正&
+	str=str.replaceAll('& amp;',"&")
 	str=str.replaceAll("&amp;","&")
 	
 	return str
@@ -164,8 +165,13 @@ qqq_translate_tts=async function (is_filt){
 }
 
 //谷歌转发翻译
-qqq_translate_googleR=async function(){
+qqq_translate_googleR=async function(is_filt){
 	var old=$(".qqq_menu .old").html()
+
+	if( is_filt ){
+		old=old.replaceAll('{}'," ")
+	}
+
 	old=qqq_translate_form_path(old)
 
 
@@ -326,7 +332,9 @@ html=`<div class="hide">
 				old(content)
 				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_tts()>腾讯交互(带标签)</button>
 				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_tts(1)>腾讯交互(去标签)</button>
+				<br>
 				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_googleR()>谷歌翻译(转发)</button>
+				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_googleR(1)>谷歌翻译(去标签转发)</button>
 			</div>
 
 			<div class="layui-col-md6">
@@ -531,5 +539,5 @@ window.setInterval(function(){
 		add_translate($(this),file,"title")
 	})
 	
-},500)
+},300)
 

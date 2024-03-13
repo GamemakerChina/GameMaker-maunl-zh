@@ -4,7 +4,7 @@
 	,"1"=//if(!$('.input:focus').length)$(".layui-layer button:contains('腾讯交互(带标签)')").click()
 	,"2"=//if(!$('.input:focus').length)$(".layui-layer button:contains('腾讯交互(去标签)')").click()
 	,"3"=//if(!$('.input:focus').length)$(".layui-layer button:contains('谷歌翻译(转发)')").click()
-	//,"4"=//if(!$('.input:focus').length)$(".layui-layer button:contains('AWS')").click()
+	,"4"=//if(!$('.input:focus').length)$(".layui-layer button:contains('谷歌翻译(去标签转发)')").click()
 	//,"5"=//if(!$('.input:focus').length)$(".layui-layer button:contains('阿里')").click()
 	//,"6"=//if(!$('.input:focus').length)$(".layui-layer button:contains('新译')").click()
 	//,"7"=//if(!$('.input:focus').length)$(".layui-layer button:contains('讯飞')").click()
