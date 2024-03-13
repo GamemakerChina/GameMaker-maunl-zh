@@ -1,5 +1,7 @@
 {
     "Enable or disable the texture debug messages":"启用或禁用纹理调试消息",
     "The above code will check the value of a global variable and if it is set to {}true{} then texture debug messages are enabled.":"以上代码将检查全局变量的值，如果设置为{}true{}，则启用纹理调试消息。",
-    "This function can be used to enable or disable texture debug messages. When enabled (set to {}true{}), additional information about texture page use will be sent to the output window. Set to {}false{} to disable this output again.":"此函数可用于启用或禁用纹理调试消息。启用时(设置为{}true{})，有关纹理页面使用的其他信息将发送到输出窗口。设置为{}false{}以再次禁用此输出。"
+    "This function can be used to enable or disable texture debug messages. When enabled (set to {}true{}), additional information about texture page use will be sent to the output window. Set to {}false{} to disable this output again.":"此函数可用于启用或禁用纹理调试消息。启用时(设置为{}true{})，有关纹理页面使用的其他信息将发送到输出窗口。设置为{}false{}以再次禁用此输出。",
+    "This function enables or disables texture debug messages.":"此函数启用或禁用纹理调试消息。",
+    "When enabled (set to {}true{}), additional information about texture page use will be sent to the output window. Set to {}false{} to disable this output again.":"启用后 (设置为 {}true{})，有关纹理页面使用的附加信息将发送到输出窗口。设置为 {}false{} 可再次禁用此输出。"
 }

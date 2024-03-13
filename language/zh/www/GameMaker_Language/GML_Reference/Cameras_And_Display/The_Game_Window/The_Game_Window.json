@@ -4,6 +4,7 @@
     "Drawing":"绘制",
     "Function Reference":"函数参考",
     "Mouse &amp; Cursor":"鼠标和光标",
+    "Mouse Lock":"鼠标锁",
     "The Game Window":"游戏窗口",
     "The following functions exist to change and get game window properties:":"以下函数用于更改和获取游戏窗口属性：",
     "The following image illustrates how some general window functions relate and interact with each other:":"下图说明了一些常规窗口函数如何相互关联和交互：",

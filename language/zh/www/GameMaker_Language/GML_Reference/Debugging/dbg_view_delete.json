@@ -1,6 +1,7 @@
 {
     "A pointer to a debug view":"指向调试视图的指针",
     "In the Space Key Pressed event, the debug view is deleted using&nbsp;{}{}dbg_view_delete{}{}.":"在 空格键按下事件 中，使用{}{}dbg_view_delete{}{}删除调试视图。",
+    "The above code first creates a debug view using&nbsp;{}{}dbg_view{}{}&nbsp;named \"View\" in the Create event and stores the pointer to it in an instance variable {}debug_view{}.":"上面的代码首先在 Create 事件中使用名为 \"View\" 的 {}{}dbg_view{}{} 创建一个调试视图，并将指向它的指针存储在实例变量 {}debug_view{} 中。",
     "The above code first creates a debug view using&nbsp;{}{}dbg_view{}{}&nbsp;named \"View\" in the Create event and stores the pointer to it in an instance variable {}debug_view{}.&nbsp;{}The Debug Overlay{}&nbsp;is then sh{}own using&nbsp;{}{}show_debug_overlay{}{}.{}":"上面的代码首先在创建事件中使用 {}{}dbg_view{}{} 创建一个名为“view”的调试视图，并将指向该视图的指针存储在一个实例变量{}debug_view{}. {}调试视图{}在之后{}使用{}{}show_debug_overlay{}{}来设置。{}",
     "This function deletes an existing debug view created using&nbsp;{}{}dbg_view{}{}.":"此函数删除使用{}{}dbg_view{}{}创建的现有调试视图。"
 }

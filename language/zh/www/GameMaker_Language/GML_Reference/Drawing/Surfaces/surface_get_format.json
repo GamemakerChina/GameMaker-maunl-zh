@@ -1,6 +1,7 @@
 {
     "If the format matches, it creates a buffer and writes the surface to that buffer. It then seeks to the start of the buffer and reads the first four bytes, i.e. the RGBA values for the first pixel. It prints each channel\u0027s value to the output log.":"如果格式匹配，则创建缓冲区并将表面 写入该缓冲区。然后，它查找到缓冲区的开始处，并读取前四个字节，即第一个像素的 RGBA 值。它将每个通道的值打印到输出日志。",
     "The ID of the surface to get the format of":"要获取其格式的表面 的 ID",
+    "The surface to get the format of":"要获取格式的表面",
     "This function returns the format of the given surface. All formats are {}listed here{}.":"此函数用于返回给定表面 的格式。{}此处{}列出了所有格式。",
     "This gets the format of a surface, and checks if it\u0027s {}{}surface_rgba8unorm{}{}, meaning each pixel has 4 channels (RGBA)&nbsp;with each channel having 8 bits (1 byte).":"这将获取表面的格式，并检查它是否为 {}{}surface_rgba8unorm{}{}，这意味着每个像素有 4 个通道 (RGBA)，每个通道有 8 位 (1 字节)。"
 }

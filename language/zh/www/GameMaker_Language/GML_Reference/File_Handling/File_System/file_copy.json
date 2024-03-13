@@ -5,5 +5,6 @@
     "The name of the new, copied file.":"新复制文件的名称。",
     "This function will copy the specified file, giving it the new name that you choose.":"此函数将复制指定的文件，并为其指定您选择的新名称。",
     "This would check for a file and if it exists it is copied.":"这将检查一个文件，如果它存在，它将被复制。",
-    "{}WARNING!{} This function may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on {}File System Limits{} for more information.":"{} 警告 !{} 由于 {}GameMaker{} 被沙盒化，这个函数可能不会像你期望的那样工作! 有关更多信息，请参见 {} 文件系统限制 {} 一节。"
+    "{}WARNING!{} This function may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on {}File System Limits{} for more information.":"{} 警告 !{} 由于 {}GameMaker{} 被沙盒化，这个函数可能不会像你期望的那样工作! 有关更多信息，请参见 {} 文件系统限制 {} 一节。",
+    "{}{}{}WARNING{}{}&nbsp;{}This may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on&nbsp;{}The File System{} for more information.":"{}{}{} 警告{}{}{} 由于 {}GameMaker{} 处于沙盒状态，这可能无法按您的预期工作！请参阅有关 {} 文件系统 {} 的部分了解更多信息。"
 }

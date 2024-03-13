@@ -1,0 +1,5 @@
+{
+    "By default, when you run the game, you see debug messages in the top-left corner of your game, displaying multiplayer events as they happen. You can disable those messages by calling this function with {}false{} as its argument, and enable them again by specifying {}true{}.":"默认情况下，当您运行游戏时，您会在游戏的左上角看到调试消息，显示发生的多人游戏事件。您可以通过使用 {}false{} 作为参数调用此函数来禁用这些消息，并通过指定 {}true{} 再次启用它们。",
+    "Specifies whether event display should be enabled ({}true{}) or disabled ({}false{}). By default, it\u0027s enabled.":"指定是应启用 ({}true{}) 还是禁用 ({}false{}) 事件显示。默认情况下，它是启用的。",
+    "The code above disabled the displaying of events.":"上面的代码禁用了事件的显示。"
+}

@@ -1,0 +1,8 @@
+{
+    "In the Gl{}obal Left Pressed and Gl{}obal Left Released events, the m{}ouse is set t{}o l{}ocked and unl{}ocked respectively, using&nbsp;{}{}window_mouse_set_locked{}{}.{}{}{}{}{}{}":"在全局左按下和全局左释放事件中，使用 {6}{7}window_mouse_set_locked{8}{9} 将鼠标分别设置为锁定和解锁。",
+    "In the Step event, the l{}ocked state&nbsp;{}of the mouse is checked using&nbsp;{}{}window_mouse_get_locked{}{}. If it is l{}ocked, the delta x ({}{}window_mouse_get_delta_x{}{}) and y ({}{}window_mouse_get_delta_y{}{}) are added t{}o the instance\u0027s x and y.{}{}{}{}":"在 Step 事件中，使用 {2}{3}window_mouse_get_locked{4}{5} 检查鼠标的锁定状态。如果它被锁定，则增量 x( {7}{8}window_mouse_get_delta_x{9}{10} ) 和 y( {11}{12}window_mouse_get_delta_y{13}{14} ) 将添加到实例的 x 和 y 中。",
+    "The above code adds the {}change{} in mouse position to the&nbsp;instance\u0027s position while the left mouse button is held down.":"上面的代码在按住鼠标左键的同时将鼠标位置的 {} 更改 {} 添加到实例的位置。",
+    "This function returns the Y movement delta of the mouse cursor.":"该函数返回鼠标光标的 Y 移动增量。",
+    "This is the amount of pixels the cursor has moved on the Y axis, between the previous and current step of the game.":"这是在游戏的上一步和当前步骤之间光标在 Y 轴上移动的像素量。",
+    "{}{}NOTE{}{}&nbsp;This function returns the delta value both when the mouse is locked&nbsp;and when it\u0027s &nbsp;not&nbsp;(see&nbsp;{}{}window_mouse_get_locked{}{}).":"{}{} 注意{}{} 此函数在鼠标锁定和未锁定时都会返回增量值 (请参阅 {}{}window_mouse_get_locked{}{})。"
+}

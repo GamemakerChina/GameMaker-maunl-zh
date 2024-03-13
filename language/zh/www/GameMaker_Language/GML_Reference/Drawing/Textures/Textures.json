@@ -1,8 +1,20 @@
 {
+    "Debugging":"调试",
+    "Dynamic Textures":"动态纹理",
     "Finally, we have the following functions which are primarily for use to debug the project and ensure efficient use of texture memory:":"最后，我们具有以下函数，这些函数主要用于调试项目并确保纹理内存的有效使用：",
+    "Function Reference":"功能参考",
+    "Texture Page Info":"纹理页面信息",
     "Textures":"纹理",
+    "Textures refer to:&nbsp;":"纹理参考：",
     "The first set of functions available are used to retrieve information about specific images and their position or size on the {}Texture Page{}, as well as set certain texture features:":"第一组可用函数用于检索有关特定图像及其在{}纹理页面{}上的位置或大小的信息，以及设置某些纹理函数：",
     "The following functions are all related to \"textures\", i.e.: images that are stored in {}VRAM{} to be used as sprites or other things within your game.":"以下函数都与\"纹理\"相关，即存储在 {}VRAM{} 中的图像，用作游戏中的精灵或其他东西。",
+    "The following functions are primarily for use to debug the project and ensure efficient use of texture memory:":"以下函数主要用于调试项目并确保纹理内存的有效使用：",
+    "The following functions are related to the managing the VRAM associated with individual textures as well as whole texture groups:":"以下功能与管理与单个纹理以及整个纹理组关联的 VRAM 相关：",
+    "The following functions are used to retrieve information about specific images and their position or size on the {}Texture Page{}, as well as set certain texture features:":"以下函数用于检索有关特定图像及其在 {} 纹理页面 {} 上的位置或大小的信息，以及设置某些纹理特征：",
     "The following functions are used with {}Dynamic Texture Pages{}:":"以下函数用于{}动态纹理页{}：",
-    "{}GameMaker{} also has a number of functions related to the managing the VRAM associated with individual textures as well as whole texture groups:":"{}GameMaker{}还具有许多与管理与单个纹理以及整个纹理组关联的 VRAM 相关的函数："
+    "VRAM Management":"显存管理",
+    "{}GameMaker{} also has a number of functions related to the managing the VRAM associated with individual textures as well as whole texture groups:":"{}GameMaker{}还具有许多与管理与单个纹理以及整个纹理组关联的 VRAM 相关的函数：",
+    "{}Surfaces{}: custom textures that provide a canvas that you can draw anything to":"{} 表面 {}：自定义纹理，提供您可以在其上绘制任何内容的画布",
+    "{}Texture Pages{}&nbsp;created by {}GameMaker{}, which contain:&nbsp; {} {}Sprites that you add to&nbsp;{}Texture Groups{}&nbsp;or&nbsp;place on&nbsp;a&nbsp;{}Separate Texture Page{}{} {}Font glyphs{} {}{}Tile Sets{}{} {} ":"由 {}GameMaker{} 创建的 {} 纹理页面 {}，其中包含：{}{} 您添加到 {} 纹理组 {} 或放置在 {} 单独的纹理页面 {} 上的精灵 {}{} 字体字形 {}{}{} 图块集 {}{}{}",
+    "{}Textures{}":"{} 纹理 {}"
 }

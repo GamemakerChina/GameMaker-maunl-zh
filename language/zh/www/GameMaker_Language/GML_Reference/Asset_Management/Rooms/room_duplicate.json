@@ -1,6 +1,10 @@
 {
     "The index of the original room to be duplicated.":"要复制的原始房间的索引。",
+    "The original room to be duplicated.":"原来的房间要复制。",
+    "This function duplicates a given room and returns the duplicate\u0027s index to be used in all further calls to reference the new room.":"此函数复制给定房间并返回副本的索引，以便在所有进一步的调用中使用以引用新房间。",
     "This will duplicate a given room and return the duplicates index to be used in all further calls to reference the new room.":"这将复制给定的房间，并返回要在引用新房间的所有进一步调用中使用的重复项索引。",
     "This will duplicate the room indexed by \"rm_level\" and assign the room index of this new room to the variable \"global.myroom\".":"这将复制由\"rm_level\"索引的房间，并将此新房间的房间索引分配给变量\"global.myroom\"。",
-    "{}NOTE{}: New rooms are not part of usual room ordering, so they do not have a \"previous\" or \"next\" room (meaning that the functions {}{}{}room_next(){}{}{} and {}{}{}room_previous(){}{}{} will not work). To jump from the added room to another, you must use the index of the room itself.":"{}注意{}：新客房不是通常客房订购的一部分，因此它们没有\"上一个\"或\"下一个\"客房(这意味着函数{}{}{}房间_next(){}{}{}和{}{}{}房间_foreous(){}{}{}将不起作用)。要从添加的房间跳转到另一个房间，必须使用房间本身的索引。"
+    "This will duplicate the room {}rm_level{} and assign the room index of this new room to the variable {}global.myroom{}.":"这将复制房间 {}rm_level{} 并将该新房间的房间索引分配给变量 {}global.myroom{}。",
+    "{}NOTE{}: New rooms are not part of usual room ordering, so they do not have a \"previous\" or \"next\" room (meaning that the functions {}{}{}room_next(){}{}{} and {}{}{}room_previous(){}{}{} will not work). To jump from the added room to another, you must use the index of the room itself.":"{}注意{}：新客房不是通常客房订购的一部分，因此它们没有\"上一个\"或\"下一个\"客房(这意味着函数{}{}{}房间_next(){}{}{}和{}{}{}房间_foreous(){}{}{}将不起作用)。要从添加的房间跳转到另一个房间，必须使用房间本身的索引。",
+    "{}{}NOTE{}{}&nbsp;New rooms are not part of usual room ordering, so they do not have a \"previous\" or \"next\" room (meaning that the functions&nbsp;{}{}room_next{}{} and&nbsp;{}{}room_previous{}{} will not work). To jump from the added room to another, you must use the index of the room itself.":"{}{} 注意{}{} 新房间不属于常规房间排序的一部分，因此它们没有 \" 上一个 \" 或 \" 下一个 \" 房间 (这意味着函数 {}{}room_next{}{} 和 {}{}ro\u200B\u200Bom_previous{}{} 不起作用)。要从添加的房间跳转到另一个房间，您必须使用房间本身的索引。"
 }

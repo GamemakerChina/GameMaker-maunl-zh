@@ -1,0 +1,7 @@
+{
+    "Calling this function will disable the flipped versions of both orientations, which are found in the {}Android{} / {}iOS{} Game Options.":"调用此函数将禁用两个方向的翻转版本，这些版本可在 {}Android{}/{}iOS{} 游戏选项中找到。",
+    "Set to {}true{} or {}false{} to enable or disable landscape orientations.":"设置为 {}true{} 或 {}false{} 可启用或禁用横向方向。",
+    "Set to {}true{} or {}false{} to enable or disable portrait orientations.":"设置为 {}true{} 或 {}false{} 可启用或禁用纵向。",
+    "This enables both landscape and portrait orientations.":"这可以实现横向和纵向。",
+    "This function changes the orientations that are allowed for the game. You can enable or disable landscape and portrait orientations separately.":"此功能更改游戏允许的方向。您可以分别启用或禁用横向和纵向。"
+}

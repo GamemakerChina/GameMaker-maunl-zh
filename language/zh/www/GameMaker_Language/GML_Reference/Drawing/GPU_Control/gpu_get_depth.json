@@ -1,0 +1,5 @@
+{
+    "By default, it will be equal to the current layer\u0027s depth, but this can be changed using {}{}gpu_set_depth{}{}.":"默认情况下，它等于当前层的深度，但可以使用 {}{}gpu_set_depth{}{} 进行更改。",
+    "The code above gets the current depth value used for drawing using&nbsp;{}{}gpu_get_depth{}{}&nbsp;and&nbsp;outputs it in a debug message.":"上面的代码使用 {}{}gpu_get_depth{}{} 获取用于绘制的当前深度值，并将其输出到调试消息中。",
+    "This function returns the current depth (i.e. the z coordinate) for the 2D drawing functions (such as sprites or primitives).":"此函数返回 2D 绘图函数 (例如精灵或图元) 的当前深度 (即 z 坐标)。"
+}

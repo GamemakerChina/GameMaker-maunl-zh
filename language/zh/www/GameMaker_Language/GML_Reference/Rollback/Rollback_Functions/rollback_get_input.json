@@ -1,0 +1,9 @@
+{
+    "For an extended example, see&nbsp;{}Create a Multiplayer Game{}.":"有关扩展示例，请参阅 {} 创建多人游戏 {}。",
+    "For information on what inputs are returned and how they can be changed, see&nbsp;{}Defining Inputs{}.":"如需了解返回哪些输入以及如何更改它们的信息，请参阅 {} 定义输入 {}。",
+    "The code above gets the input struct in a player instance that was automatically created by the Rollback system. Based on the returned values, it moves the instance by 2 pixels in each direction.":"上面的代码获取由回滚系统自动创建的播放器实例中的输入结构。根据返回的值，它将实例在每个方向上移动 2 个像素。",
+    "This function returns a struct containing the input values for a player. It takes an optional argument specifying the ID of the player for which inputs will be returned.":"此函数返回一个包含玩家输入值的结构。它需要一个可选参数来指定将返回输入的玩家的 ID。",
+    "When used in a player instance that was created by {}{}rollback_define_player(){}{}, you do not need to specify a player ID, so you can call this function without any arguments.":"当在由 {}{}rollback_define_player(){}{} 创建的播放器实例中使用时，您不需要指定播放器 ID，因此您可以在不带任何参数的情况下调用此函数。",
+    "When used in any other instances, or player instances that were created manually, you must specify a player ID.":"在任何其他实例或手动创建的玩家实例中使用时，您必须指定玩家 ID。",
+    "{}OPTIONAL{} The ID of the player for which inputs will be returned.":"{} 可选{} 将返回其输入的玩家的 ID。"
+}

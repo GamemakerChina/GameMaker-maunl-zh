@@ -4,5 +4,6 @@
     "The index of the sprite to save.":"要保存的精灵的索引。",
     "The sub-image of the sprite to save.":"要保存的精灵的子图像。",
     "This function can be used to save any sub-image of a sprite to disc, giving it the specified filename. The sprite must have been {}added{} at runtime (you cannot save sprites added through the IDE) and the file must be saved with&nbsp;a {}*.png{} extension.":"此函数可用于将精灵的任何子图像保存到光盘，并为其提供指定的文件名。精灵必须在运行时{}添加{}(不能保存通过IDE添加的精灵)，并且必须使用{}*保存文件。PNG{}扩展名。",
-    "{}NOTE{}: Depending on the target platform that is chosen you are limited as to where you can save and load files from. See {}File Handling{} for more information.":"{}注意{}：根据所选的目标平台，保存和加载文件的位置会受到限制。有关详细信息，请参阅{}文件处理{}。"
+    "{}NOTE{}: Depending on the target platform that is chosen you are limited as to where you can save and load files from. See {}File Handling{} for more information.":"{}注意{}：根据所选的目标平台，保存和加载文件的位置会受到限制。有关详细信息，请参阅{}文件处理{}。",
+    "{}{}NOTE{}{}&nbsp;Depending on the target platform that is chosen you are limited as to where you can save and load files from. See&nbsp;{}The File System{}&nbsp;for more information.":"{}{}注意{}{}根据所选的目标平台，您保存和加载文件的位置会受到限制。如需了解更多信息，请参阅{}文件系统{}。"
 }

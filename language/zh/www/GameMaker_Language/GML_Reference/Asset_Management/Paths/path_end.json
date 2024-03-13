@@ -1,4 +1,6 @@
 {
     "Calling this function will end the current path that the instance is following, as set when the function {}{}path_start(){}{} was called..":"调用此函数将结束实例所遵循的当前路径，与调用函数{}{}path_start(){}{}时设置的路径相同。",
-    "The above code will end the current path if the instance detects any collision with any instance of the given&nbsp;object.":"如果实例检测到与给定对象的任何实例的任何冲突，则上面的代码将结束当前路径。"
+    "The above code will end the current path if the instance detects any collision with any instance of the given&nbsp;object.":"如果实例检测到与给定对象的任何实例的任何冲突，则上面的代码将结束当前路径。",
+    "This function ends the current path that the instance is following, as set when the function&nbsp;{}{}path_start{}{}&nbsp;was called.":"此函数结束实例所遵循的当前路径，如调用函数{}{}path_start{}{} 时设置的那样。",
+    "{}{}WARNING{}{}&nbsp;This function should be called from the scope of an instance. An error will be thrown&nbsp;if it\u0027s not.":"{}{} 警告{}{} 应从实例的范围内调用此函数。如果不是，则会抛出错误。"
 }

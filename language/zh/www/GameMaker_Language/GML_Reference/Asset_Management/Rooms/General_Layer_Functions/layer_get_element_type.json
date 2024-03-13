@@ -8,11 +8,14 @@
     "The element is a legacy background tile (this is only valid for projects that have been imported from previous versions of {}GameMaker{}).":"该元素是传统背景磁贴 (这仅对从以前版本的 {}GameMaker{} 导入的项目有效)。",
     "The element is a particle system.":"该元素是一个粒子系统。",
     "The element is a sequence asset.":"元素是序列资源。",
+    "The element is a sequence.":"该元素是一个序列。",
     "The element is a sprite asset.":"该元素是\"精灵\"资源。",
     "The element is a tilemap.":"该元素是一个TileMap.",
     "The element is an instance.":"元素是一个实例。",
+    "The element is an old type tilemap.":"该元素是旧类型的 tilemap。",
     "The unique ID value of the element to get the type of":"要获取类型的元素的唯一ID值",
     "You can use this function to get the {}element type{} for the given element. You supply the unique element ID value (for example, as returned the function that created the element or from the room editor) and the function will return one of the following constants (or -1 if the element does not exist or the ID value is erroneous):":"您可以使用此函数获取给定元素的{}元素类型{}。提供唯一的元素 ID 值(例如，如创建该元素的函数或从房间编辑器返回的函数)，该函数将返回以下常量之一(如果元素不存在或 ID 值错误，则返回 - 1)：",
     "You can use this function to get the {}element type{} for the given element. You supply the unique element ID value (for example, as returned the function that created the element or from the room editor) and the function will return one of the following constants:&nbsp;":"您可以使用此函数获取给定元素的{}元素类型{}。提供唯一的元素 ID 值(例如，如创建该元素的函数或从房间编辑器返回的函数)，该函数将返回以下常量之一：",
+    "You can use this function to get the {}element type{} for the given element. You supply the unique element ID value (for example, as returned the function that created the element or from {}The Room Editor{}) and the function will return one of the following constants:&nbsp;":"您可以使用此函数获取给定元素的 {} 元素类型 {}。您提供唯一的元素 ID 值 (例如，返回创建元素的函数或从 {} 房间编辑器 {} 返回的值)，该函数将返回以下常量之一：",
     "{}{}NOTE{}{}&nbsp;This function is most useful when you have multiple different element types assigned to the one layer, and that you can get a list of all the elements on any given layer using the function {}{}layer_get_all_elements{}{}.":"{}{}注意{}{} 当您为一个层分配了多个不同的元素类型，并且您可以使用函数 {}{}layer_get_all_elements{}{} 获取任何给定层上的所有元素的列表时，此函数最有用。"
 }

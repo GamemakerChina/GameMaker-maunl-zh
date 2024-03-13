@@ -1,5 +1,9 @@
 {
+    "Please note that this is {}only{} a string and cannot be used to reference the room directly - for that you would need the {}room index{}. You can, however, use this string to get the {}room index{} using the returned string along with the function {}{}asset_get_index(){}{}.":"请注意，这 {} 只是 {} 一个字符串，不能用于直接引用房间 - 为此，您需要 {} 房间索引 {}。不过，您可以使用返回的字符串以及函数 {}{}asset_get_index(){}{}，使用该字符串来获取 {4} 房间索引 {5}。",
+    "The above code gets the name of the current room and draws it on the screen.":"上面的代码获取当前房间的名称并将其绘制在屏幕上。",
     "The above code will get the name of the current room and draw it on the screen.":"上面的代码将获取当前房间的名称并将其绘制在屏幕上。",
     "The index of the room to check the name of.":"要检查名称的房间的索引。",
-    "This function can be used to return the name of the specified room as a string. Please note that this is {}only{} a string and cannot be used to reference the room directly - for that you would need the {}room index{}. You can, however, use this string to get the {}room index{} using the returned string along with the function {}{}asset_get_index(){}{}.":"此函数可用于以字符串形式返回指定房间的名称。请注意，这只是{}字符串，不能用于直接引用房间，因为您需要{}房间索引{}。 但是，您可以使用此字符串获得{}房间索引{}，使用返回的字符串和函数{}{}asset_get_index(){}{}。"
+    "The room to check the name of.":"要检查名称的房间。",
+    "This function can be used to return the name of the specified room as a string. Please note that this is {}only{} a string and cannot be used to reference the room directly - for that you would need the {}room index{}. You can, however, use this string to get the {}room index{} using the returned string along with the function {}{}asset_get_index(){}{}.":"此函数可用于以字符串形式返回指定房间的名称。请注意，这只是{}字符串，不能用于直接引用房间，因为您需要{}房间索引{}。 但是，您可以使用此字符串获得{}房间索引{}，使用返回的字符串和函数{}{}asset_get_index(){}{}。",
+    "This function returns the name of the given room as a string.":"此函数以字符串形式返回给定房间的名称。"
 }

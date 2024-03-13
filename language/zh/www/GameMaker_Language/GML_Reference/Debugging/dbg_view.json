@@ -6,6 +6,7 @@
     "The above code creates a new debug view named \"CustomDebugView\" and brings up&nbsp;{}The Debug Overlay{}&nbsp;with the debug view visible.":"上面的代码创建了一个名为\"CustomDebugView\"的新调试视图，并显示了调试视图可见的{}The Debug Overlay{}。",
     "The function returns a pointer to the debug view that can be used with&nbsp;{}{}dbg_view_delete{}{}&nbsp;to delete it again.":"该函数返回一个指向调试视图的指针，该指针可与{}{}dbg_view_delete{}{}一起使用以再次删除该视图。",
     "The name&nbsp;of the debug view":"调试视图的名称",
+    "This function creates a custom debug view and&nbsp;shows it in&nbsp;{}The Debug Overlay{}.":"此函数创建自定义调试视图并在 {} 调试叠加层 {} 中显示它。",
     "This function creates a custom debug view and&nbsp;{}sh{}ows it in{}{}&nbsp;{}The Debug Overlay{}.":"这个函数创建一个自定义的调试视图，并{}显示{}它在{}{} {} debug Overlay{}中。",
     "Usage Notes":"用法注释",
     "Whether the debug view should be visible when the debug&nbsp;overlay is&nbsp;opened":"打开调试覆盖时调试视图是否应可见",

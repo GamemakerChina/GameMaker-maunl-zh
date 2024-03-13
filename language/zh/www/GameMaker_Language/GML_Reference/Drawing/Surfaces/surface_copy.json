@@ -1,9 +1,14 @@
 {
     "The ID of surface to be copied.":"要复制的表面的ID。",
     "The ID of the surface to copy the other surface to.":"要将另一个表面复制到的表面的ID。",
+    "The above code checks the current view being drawn. If it is view[0] it copies the surface stored&nbsp;in the variable {}temp_surf{} onto the surface in the variable {}surf{}. If the current view is anything other than view[0] the surface {}surf{} is drawn to the screen.":"上面的代码检查当前正在绘制的视图。如果是 view[0]，则会将变量 {}temp_surf{} 中存储的表面复制到变量 {}surf{} 中的表面。如果当前视图不是 view[0]，则表面 {}surf{} 会绘制到屏幕上。",
     "The above code will check the current view being drawn and if it is view[0] it copies the surface indexed in the variable \"temp_surf\" onto the surface indexed in the variable \"surf\". If the current view is anything other than view[0] the surface \"surf\" is drawn to the screen.":"上述代码将检查正在绘制的当前视图，如果它是view[ 0 ]，则将变量\"temp_surfing\"中的索引表面复制到变量\"beach\"中的索引表面上。如果当前视图不是view[ 0 ]，则会将表面\"浏览\"绘制到屏幕上。",
+    "The surface to be copied.":"要复制的表面。",
+    "The surface to copy the other surface to.":"将另一个曲面复制到的曲面。",
     "The x position to copy to.":"要复制到的x位置。",
     "The y position to copy to.":"要复制到的y位置。",
+    "This function simply takes the image from one surface and copies it onto another one at the specified local position within that surface (where the (0, 0) position is the top left corner of the destination surface). If the destination surface already has information this will be overwritten by the copy, and the function does {}not{} change the source surface in any way.{}{}":"此函数只是从一个表面获取图像，并将其复制到另一个表面上该表面内指定的本地位置 (其中 (0, 0) 位置是目标表面的左上角)。如果目标表面已有信息，该信息将被副本覆盖，并且该函数 {} 不会 {} 以任何方式更改源表面。{}{}",
     "This function simply takes the image from one surface and copies it onto another one at the specified local position within that surface (where the (0,0) position is the top left corner of the destination surface). If the destination surface already has information this will be overwritten by the copy, and the function does {}not{} change the source surface in any way.":"此函数只需从一个表面获取图像，并将其复制到该表面内指定局部位置(其中(0,0 )位置是目标表面的左上角)的另一个表面上。如果目标表面已有信息，则副本将覆盖此信息，并且函数不会{}以任何方式更改源表面。",
+    "{}{}NOTE{}{}&nbsp;When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using&nbsp;{}{}surface_exists{}{} {} {}before referencing them directly. ":"{}{} 注意{}{} 在处理表面时，由于表面存储在纹理内存中，因此它们可能随时不再存在。在直接引用表面之前，您应该 {} 始终 {} 使用 {}{}surface_exists{}{}{}{} 检查表面是否存在。",
     "{}{}{}NOTE{}: When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}{}{}注意{}：使用表面时，由于表面存储在纹理内存中，因此表面可能随时停止存在。在直接引用表面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查表面是否存在。"
 }

@@ -1,0 +1,8 @@
+{
+    "If a player ID is not specified, the function must be called inside a player instance, in which case the preferences for that player will be returned.":"如果未指定玩家 ID，则必须在玩家实例内调用该函数，在这种情况下，将返回该玩家的首选项。",
+    "The above code gets the preferences set for the current player, and applies a preference to an instance variable.":"上面的代码获取当前玩家的首选项设置，并将首选项应用于实例变量。",
+    "This function returns the last preferences that were synchronised for the given player, so setting the preferences will not immediately update the preferences that this function returns.":"此函数返回为给定玩家同步的最后首选项，因此设置首选项不会立即更新此函数返回的首选项。",
+    "This function returns the preferences set for the given player ID.":"此函数返回给定玩家 ID 的首选项设置。",
+    "You can also use the instance variable {}{}player_prefs{}{}.":"您还可以使用实例变量 {}{}player_prefs{}{}。",
+    "{}OPTIONAL{}&nbsp;The ID of the player for which preferences are returned.":"{} 可选{} 为其返回首选项的玩家的 ID。"
+}

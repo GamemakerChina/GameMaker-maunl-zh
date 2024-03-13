@@ -1,4 +1,5 @@
 {
+    "If you pass it an&nbsp;{}{}Audio Queue ID{}{}, it will remove all buffers from that queue&nbsp;and run the {}Audio Playback{}&nbsp;event for each buffer removed, with the key {}\"queue_shutdown\"{} set to 1.":"如果您向其传递一个{}{}音频队列 ID{}{}，它将从该队列中移除所有缓冲区，并使用键{6}\"queue_shutdown\"{7}为每个移除的缓冲区运行{}音频播放{}事件设置为 1。",
     "The above code checks the global variable \"SFX\" and if it returns {}false{}, it will stop the sound indexed in the variable \"snd_Waterfall\" that is currently playing, and if it returns {}true{}, it will loop the sound.":"上面的代码检查全局变量\"SFX\"，如果它返回{}false{}，它将停止当前播放的变量\"snd_Waterfall\"中索引的声音，如果它返回{}true{}，它将循环声音。",
     "The index of the sound to stop.":"声音的索引停止。",
     "The sound can either be a single instance of a sound (the index for individual sounds being played can be stored in a variable when using the&nbsp;{}{}audio_play_sound{}{}&nbsp;or&nbsp;{}{}audio_play_sound_at{}{}&nbsp;functions) or a sound asset, in which case {}all{} instances of the given sound will be stopped.":"声音可以是声音的单个实例(当使用{}{}audio_play_sound(){}{}或{}audio_play_sound_at(){}{}{}函数时，播放的单个声音的索引可以存储在变量中)或声音资源，在这种情况下{}给定声音的所有{}实例将停止。",

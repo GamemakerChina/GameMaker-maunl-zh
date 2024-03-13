@@ -1,0 +1,6 @@
+{
+    "The code above displays text in the top-left corner of the room indicating if the game&nbsp;is running sandboxed.":"上面的代码在房间的左上角显示文本，指示游戏是否正在沙盒中运行。",
+    "This boolean constant holds&nbsp;{}true{} when the game&nbsp;is running sandboxed or {}false{} when it isn\u0027t. Its value is determined by&nbsp;{}the Compiler{} at compile time.":"当游戏在沙盒中运行时，该布尔常量为 {}true{}; 当游戏不在沙盒中时，该常量为 {}false{}。其值由 {} 编译器 {} 在编译时确定。",
+    "When your game is running sandboxed (the default), the writable area on the file system is limited to the&nbsp;{}Save Area{}. See&nbsp;{}The File System{}&nbsp;for more information on the sandbox.":"当您的游戏在沙盒中运行 (默认) 时，文件系统上的可写区域仅限于 {} 保存区域 {}。有关沙箱的更多信息，请参阅 {} 文件系统 {}。",
+    "{}{}IMPORTANT{}{}&nbsp;It is possible to turn off sandboxing&nbsp;on the Desktop targets (Windows, macOS, and Ubuntu) by checking the {}Disable file system sandbox{} option in the&nbsp;{}Game Options{}&nbsp;for the target platform. You do this at your own risk, and while this will open up file saving and loading and permit you to access files anywhere on the given system, it may still be limited by the OS permissions.":"{}{} 重要提示{}{} 可以通过选中 {} 游戏选项 {} 中的 {} 禁用文件系统沙箱 {} 选项来关闭桌面目标 (Windows、macOS 和 Ubuntu) 上的沙箱目标平台。您需要自行承担执行此操作的风险，虽然这将打开文件保存和加载并允许您访问给定系统上的任何位置的文件，但它仍然可能受到操作系统权限的限制。"
+}

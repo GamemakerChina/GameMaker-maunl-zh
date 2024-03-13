@@ -6,5 +6,5 @@
     "The name of the Texture Group as a string. These are defined in the&nbsp;{}Texture Groups{}&nbsp;window.":"作为字符串的纹理组的名称。这些在{}\"纹理组\"{}窗口中定义。",
     "This function is used to load a {}Dynamic Texture Group{} from disk into RAM.":"此函数用于将{}动态纹理组{}从磁盘加载到RAM中。",
     "This will attempt to load the Dynamic Texture Group with the name \"{}tg_UI{}\" into memory and also pre-fetch it.":"这将尝试将名为\"{}tg_UI{}\"的动态纹理组加载到内存中，并且还会预取它。",
-    "{}{}OPTIONAL{}{}&nbsp;If {}true{} (default), the group is decompressed and fetched into VRAM. If {}false{}, it\u0027s only loaded into RAM, remaining compressed.":"{}{}可选{}{}如果{}为真{}(默认值)，则组将被解压缩并提取到 VRAM 中。如果{}为假{}，则仅将其加载到RAM中，并保持压缩状态。"
+    "{}{}OPTIONAL{}{}&nbsp;If {}true{} (default), the group is decompressed and fetched into VRAM. If {}false{}, it\u0027s only loaded into RAM, remaining compressed.":"{}{} 可选{}{} 如果为 {}true{}( 默认)，则该组将被解压缩并提取到 VRAM 中。如果为 {}false{}，则仅将其加载到 RAM 中，并保持压缩状态。"
 }

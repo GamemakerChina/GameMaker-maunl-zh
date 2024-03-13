@@ -1,0 +1,8 @@
+{
+    "A struct containing input names as variables, and their assigned inputs as values.":"一个结构体，其中包含作为变量的输入名称以及作为值的指定输入。",
+    "For an extended example, see&nbsp;{}Defining Inputs{}.":"如需扩展示例，请参阅 {} 定义输入 {}。",
+    "If used, this function must run before the {}join{}/{}create{} function.":"如果使用，该函数必须在 {}join{}/{}create{} 函数之前运行。",
+    "The code above defines custom inputs for all players. The last two inputs use multiple controls, by listing them in an array.":"上面的代码为所有玩家定义了自定义输入。最后两个输入通过在数组中列出来使用多个控件。",
+    "This function is used to define custom inputs for all players. It takes a struct which should contain all inputs with their assigned input constants.":"此函数用于为所有玩家定义自定义输入。它采用一个结构，该结构应包含所有输入及其分配的输入常量。",
+    "To know how to assign custom inputs, see&nbsp;{}Custom Controls{}.":"要了解如何分配自定义输入，请参阅 {} 自定义控件 {}。"
+}

@@ -1,10 +1,18 @@
 {
+    "Cursor":"光标",
     "Finally, we have a function that permits you to assign a sprite to the mouse cursor:":"最后，我们有一个函数，允许您为鼠标光标分配一个精灵:",
+    "Function Reference":"功能参考",
     "General Game Control":"通用游戏控制",
+    "Highscores":"高分榜",
     "The following functions are used for general game control:":"以下函数用于一般的游戏控制:",
     "The following functions exist that deal with the internal high score list.":"存在以下处理内部高分列表的函数。",
+    "The following {}global scope{}&nbsp;{}built-in{} variables are useful for debugging your game - they can be used as the output to a log file in the case of issues, for example - as well as for showing the current build ID, etc. to the user:&nbsp;":"以下 {} 全局范围 {}{} 内置 {} 变量对于调试您的游戏非常有用 - 例如，在出现问题时，它们可以用作日志文件的输出 - 以及显示当前的情况为用户构建 ID 等：",
     "The following {}global scope{}&nbsp;{}built-in{} variables are useful for debugging your game - they can be used as the output to a log file in the case of issues, for example - as well as for showing the current build ID, etc... to the user:":"以下{}全局范围{}{}内置{}变量对于调试您的游戏很有用-例如，在出现问题的情况下，它们可以用作日志文件的输出-以及显示当前构建ID等...对用户:",
     "These functions and variables are all related to game specific functionality, like loading/saving, restarting and so on.":"这些函数和变量都与游戏特定函数有关，例如加载/保存，重新启动等。",
+    "This page lists all functions and variables that are related to game specific functionality, like loading/saving, restarting and so on.":"此页面列出了与游戏特定功能相关的所有函数和变量，例如加载 / 保存、重新启动等。",
     "To help you create and maintain highscores for your games, {}GameMaker{} creates a global high score {}array{} of 10 places which you can access, add to, and change to create your own custom high score lists without too much fuss. This functionality is local to the game and works on all platforms, so you can easily store and maintain a basic high score table using these functions along with the {}File Handling Functions{}.":"为了帮助您创建和维护游戏的高分，{}GameMaker{}创建了一个包含10个位置的全局高分{}数组{}，您可以访问、添加和更改该数组，以创建您自己的自定义高分列表，而不会有太多麻烦。此函数是游戏的本地函数，适用于所有平台，因此您可以使用这些函数以及{}文件处理函数{}轻松存储和维护基本的高分表。",
-    "{}GameMaker{} also includes a function for drawing the highscores out on the screen as a list, however it is very basic and it is recommended that you use this for debugging more than anything else as making your own high score table is easy and will give you far more control over how it is displayed:":"{}GameMaker{}还包括一个函数，用于将屏幕上的高分作为列表绘制出来，然而，这是非常基本的，建议您使用它进行调试，而不是其他任何事情，因为制作自己的高分表很容易，并且可以让您更好地控制它的显示方式:"
+    "Variable Reference":"变量引用",
+    "{}GameMaker{} also includes a function for drawing the highscores out on the screen as a list, however it is very basic and it is recommended that you use this for debugging more than anything else as making your own high score table is easy and will give you far more control over how it is displayed:":"{}GameMaker{}还包括一个函数，用于将屏幕上的高分作为列表绘制出来，然而，这是非常基本的，建议您使用它进行调试，而不是其他任何事情，因为制作自己的高分表很容易，并且可以让您更好地控制它的显示方式:",
+    "{}GameMaker{} also includes a very basic function for drawing the highscores out on the screen as a list. This is meant for debugging more than anything else as making your own high score table is easy and will give you far more control over how it is displayed:":"{}GameMaker{} 还包含一个非常基本的功能，用于将高分作为列表绘制在屏幕上。这比其他任何事情都更适合调试，因为制作自己的高分表很容易，并且可以让您更好地控制它的显示方式：",
+    "{}General Game Control{}":"{} 通常游戏控制 {}"
 }

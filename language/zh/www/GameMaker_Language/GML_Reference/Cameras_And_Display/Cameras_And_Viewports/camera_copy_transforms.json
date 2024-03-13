@@ -1,0 +1,9 @@
+{
+    "More specifically, it copies&nbsp;the source camera\u0027s view and projection matrices, as well as the view position, size, speed, border and angle values.":"更具体地说，它复制源相机的视图和投影矩阵，以及视图位置、大小、速度、边界和角度值。",
+    "The above code assigns the camera that {}GameMaker{}&nbsp;creates internally for view 0 (that you can first configure in&nbsp;{}The Room Editor{}) to&nbsp;an instance variable&nbsp;{}cam1{}. Then it creates a new, \"empty\" camera {}cam2{} using the function&nbsp;{}{}camera_create{}{}. It then copies {}cam1{}\u0027s transform-related settings to {}cam2{} by calling&nbsp;{}{}camera_copy_transforms{}{}.":"上述代码将 {}GameMaker{} 内部为视图 0 创建的摄像头 (您可以首先在 {}房间编辑器{} 中配置) 分配给实例变量 {}cam1{}。然后，它使用函数 {}{}camera_create{}{} 创建一个新的 \" 空 \" 相机 {6}cam2{7}。然后，它通过调用 {}{}camera_copy_transforms{}{} 将 {12}cam1{13} 的变换相关设置复制到 {14}cam2{15}。",
+    "The camera to copy the source camera\u0027s transforms to (projection and view matrix)":"将源相机的变换复制到的相机 (投影和视图矩阵)",
+    "The camera&nbsp;that contains the projection and view matrices that you want to copy":"包含要复制的投影和视图矩阵的相机",
+    "This function copies all transform-related settings of the source camera to the destination camera.":"此功能将源相机的所有与变换相关的设置复制到目标相机。",
+    "{}{}NOTE{}{}&nbsp;This function&nbsp;is mostly meant for internal use by&nbsp;{}GameMaker{}&nbsp;when working with filters and effects though you can use it as a convenient way to copy one camera\u0027s transforms to another one.":"{}{} 注意{}{} 此函数主要供 {}GameMaker{} 在处理滤镜和效果时内部使用，但您也可以将其用作将一台摄像机的变换复制到另一台摄像机的便捷方式。",
+    "{}{}WARNING{}{}&nbsp;The function {}doesn\u0027t{} copy the source camera\u0027s {}begin, end and update scripts{}.":"{}{} 警告{}{} 该函数 {} 不会 {} 复制源相机的 {} 开始、结束和更新脚本 {}。"
+}

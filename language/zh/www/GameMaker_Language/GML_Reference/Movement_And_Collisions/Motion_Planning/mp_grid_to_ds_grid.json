@@ -1,6 +1,11 @@
 {
+    "A cell in the DS grid will contain the value {}-1{} if it\u0027s flagged as occupied in the MP grid, or {}0{} if it isn\u0027t.":"如果 DS 网格中的单元格在 MP 网格中被标记为已占用，则该单元格将包含值 {}-1{}; 如果未标记为已占用，则该单元格将包含值 {}0{}。",
     "Index of the ds_grid that is to be used to copy the grid data to.":"要用于将网格数据复制到的 ds_grid 的索引。",
     "Index of the mp_grid that is to be used":"要使用的 mp_grid 的索引",
     "The above code will create a new DS grid and then copy the MP grid data contained in the variable \"mp_grid\" into the new DS grid.":"上述代码将创建一个新的 DS 网格，然后将变量 \"mp_grid\" 中包含的 MP 网格数据复制到新的 DS 网格中。",
-    "With this function you can copy the given MP grid into a {}DS&nbsp;grid{}. The DS grid should be the same size as the MP grid, although it doesn\u0027t have to be (data will be lost if it is smaller, and if it is larger all extra grid cells will be 0). A cell in the DS grid will contain the value -1 if it was flagged as occupied in the MP grid, or 0 if it wasn\u0027t.":"使用此函数，您可以将给定的 MP 网格复制到 {}DS 网格{}中。DS 网格的大小应与 MP 网格的大小相同，但不一定非得如此 (如果数据较小，则会丢失。如果数据较大，则所有额外的网格单元格都将为 0)。DS 网格中的单元格将包含值 -1 (如果在 MP 网格中标记为\"已占用\") 或 0( 如果未标记为\"已占用\")。"
+    "The above code will create a new DS grid {}motion_grid{} and then copy the MP grid data contained in the variable {}mp_grid{} into the new DS grid.":"上述代码将创建一个新的 DS 网格 {}motion_grid{}，然后将变量 {}mp_grid{} 中包含的 MP 网格数据复制到新的 DS 网格中。",
+    "This function copies the given MP grid into a {}DS&nbsp;grid{}.":"此函数将给定的 MP 网格复制到 {}DS 网格 {} 中。",
+    "With this function you can copy the given MP grid into a {}DS&nbsp;grid{}. The DS grid should be the same size as the MP grid, although it doesn\u0027t have to be (data will be lost if it is smaller, and if it is larger all extra grid cells will be 0). A cell in the DS grid will contain the value -1 if it was flagged as occupied in the MP grid, or 0 if it wasn\u0027t.":"使用此函数，您可以将给定的 MP 网格复制到 {}DS 网格{}中。DS 网格的大小应与 MP 网格的大小相同，但不一定非得如此 (如果数据较小，则会丢失。如果数据较大，则所有额外的网格单元格都将为 0)。DS 网格中的单元格将包含值 -1 (如果在 MP 网格中标记为\"已占用\") 或 0( 如果未标记为\"已占用\")。",
+    "{}{}NOTE{}{}&nbsp;To convert from MP grid to DS grid, see&nbsp;{}{}ds_grid_to_mp_grid{}{}.":"{}{} 注意{}{} 要从 MP 网格转换为 DS 网格，请参阅 {}{}ds_grid_to_mp_grid{}{}。",
+    "{}{}WARNING{}{}&nbsp;The DS grid and MP grid {}must{} have the same width and height. If the grids\u0027 dimensions don\u0027t match, the conversion will fail and an error \"Error, grid sizes do not match\" is thrown.":"{}{} 警告{}{}DS网格和 MP网格 {} 必须 {} 具有相同的宽度和高度。如果网格尺寸不匹配，转换将失败并抛出错误 \" 错误，网格尺寸不匹配\"。"
 }

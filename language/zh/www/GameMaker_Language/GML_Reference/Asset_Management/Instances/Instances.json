@@ -1,11 +1,27 @@
 {
+    "Add it to a room that\u0027s not the current&nbsp;{}room{}&nbsp;using&nbsp;{}{}room_instance_add{}{}.":"使用 {}{}room_instance_add{}{} 将其添加到非当前 {0} 房间 {1} 的房间。",
+    "Add it to a sequence in&nbsp;{}The Sequence Editor{}&nbsp;and add the sequence in&nbsp;{}The Room Editor{}&nbsp;or through code.":"将其添加到 {} 序列编辑器 {} 中的序列，并在 {} 房间编辑器 {} 中或通过代码添加序列。",
+    "Alarms":"警报",
+    "Create it at runtime, using the functions&nbsp;{}{}instance_create_depth{}{}&nbsp;and&nbsp;{}{}instance_create_layer{}{}.":"使用函数 {}{}instance_create_depth{}{} 和 {}{}instance_create_layer{}{} 在运行时创建它。",
+    "Creating Instances":"创建实例",
+    "Deactivating Instances":"停用实例",
+    "Drag it on an Instance Layer in&nbsp;{}The Room Editor{}.":"将其拖动到 {} 房间编辑器 {} 中的实例层上。",
     "Finally, you also have the possibility of&nbsp;{}deactivating{}&nbsp;instances, which means they won\u0027t process any of their events, although they will still exist within the game. The functions relating to that are available from the following page:":"最后，您还可以{}取消{}实例的激活，这意味着它们不会处理任何事件，尽管它们仍然存在于游戏中。相关函数可从以下页面获得：",
+    "Function Reference":"功能参考",
+    "General":"常规",
+    "Global":"全局",
+    "Instance":"实例",
     "Instances":"实例",
     "Instances have a built-in array variable&nbsp;{}{}alarm{}{} that can be use to get or set Alarm Event values, but there are also two functions that can be used to do the same thing:":"实例有一个内置的数组变量 {}{}alarm{}{} 可以用来获取或设置告警事件值，但也有两个函数可以用来做同样的事情：",
     "Instances have an {}array variable{} that can be use to get or set Alarm Event values, but there are also two functions that can be used to do the same thing:":"实例有一个{}数组变量{}，可用于获取或设置报警事件值，但也有两个函数可用于执行相同的操作：",
     "Note that there are two additional built in variables (these are {}global scope{} variables) and one function related to using instances which can be useful for retrieving&nbsp;certain details:":"请注意，有两个额外的内置变量(这些是{}全局范围{}变量)和一个与使用实例相关的函数，可用于检索某些详细信息：",
     "There are a number of built in variables available within each instance of an object that can be used to control different aspects of how the instance is displayed, how it uses other assets, and how it reacts to collisions, etc... which are all listed here:":"对象的每个实例内都有多个内置变量，这些变量可用于控制实例的显示方式、如何使用其他资源以及它如何对冲突做出反应等等。 以下均列出：",
+    "There are a number of built-in variables available within each instance of an object that can be used to control different aspects of how the instance is displayed, how it uses other assets, and how it reacts to collisions, etc., which are all listed here:":"对象的每个实例中都有许多可用的内置变量，可用于控制实例的显示方式、使用其他资源的方式以及对碰撞的反应方式等不同方面，这些都是此处列出：",
+    "Variable Reference":"变量引用",
+    "You also have the possibility of&nbsp;{}deactivating{}&nbsp;instances, which means they won\u0027t process any of their events, although they will still exist within the game. You can read about how this works and the functions you can use on the {}Deactivating Instances{}&nbsp;page.":"您还可以 {} 停用 {} 实例，这意味着它们不会处理任何事件，尽管它们仍存在于游戏中。您可以在 {} 停用实例 {} 页面上了解其工作原理以及可以使用的功能。",
+    "You can create an instance of an object in a few ways:":"您可以通过几种方式创建对象的实例：",
     "{}Deactivating Instances{}":"{}停用实例{}",
     "{}Instance Variables{}":"{}实例变量{}",
-    "{}Instances{} are created from {}Objects{} and, once created, they can be changed and manipulated through GML code and GML Visual actions.&nbsp;The main instance functions related to instances that are available and most commonly used are:":"{}实例{}是从{}对象{}创建的，一旦创建，它们可以通过GML代码和GML可视化操作来更改和操作。与可用且最常用的实例相关的主要实例函数有："
+    "{}Instances{} are created from {}Objects{} and, once created, they can be changed and manipulated through GML code and GML Visual actions.&nbsp;The main instance functions related to instances that are available and most commonly used are:":"{}实例{}是从{}对象{}创建的，一旦创建，它们可以通过GML代码和GML可视化操作来更改和操作。与可用且最常用的实例相关的主要实例函数有：",
+    "{}Instances{} are created from {}Objects{} and, once created, they can be changed, manipulated and destroyed through {}GML Code{}&nbsp;and&nbsp;{}GML Visual{} actions.&nbsp;This page lists the main functions related to instances that are available in&nbsp;{}GameMaker{}.":"{} 实例 {} 是根据 {} 对象 {} 创建的，创建后，可以通过 {}GML 代码 {} 和 {}GML Visual{} 操作更改、操作和销毁它们。本页面列出了与 {}GameMaker{} 中可用的实例相关的主要功能。"
 }

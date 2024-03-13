@@ -2,5 +2,6 @@
     "The above code creates a local variable and uses it to store the number of instances of the object running the code in the room. If the number is less than 10, the instance then makes a copy of itself.":"上面的代码创建一个局部变量，并使用它来存储在房间中运行代码的对象的实例数量。如果数字小于10，则实例会复制自身。",
     "Whether to perform the new instance\u0027s Create event (true) or not (false).":"是否执行新实例的创建事件(true)或(false)。",
     "With this function you can \"clone\" an instance as this will create a new version of the instance running the code at its same position. The \"perf\" argument is used to instruct this new instance to perform the create event or not. This function returns the {}{}id{}{} of the new instance which can then be stored in a variable or used to access that instance.":"使用此函数，您可以\"克隆\"实例，因为这将创建一个新版本的实例，该实例在其相同位置运行代码。\"perf\"参数用于指示此新实例是否执行创建事件。此函数返回新实例的{}{}id{}{}，然后可以将其存储在变量中或用于访问该实例。",
-    "{}NOTE{}: If you choose not to perform the create event, you may encounter errors if the instance depends on any variables initialised in this event.":"{}注意{}：如果您选择不执行创建事件，则如果实例依赖于在此事件中初始化的任何变量，则可能会遇到错误。"
+    "{}NOTE{}: If you choose not to perform the create event, you may encounter errors if the instance depends on any variables initialised in this event.":"{}注意{}：如果您选择不执行创建事件，则如果实例依赖于在此事件中初始化的任何变量，则可能会遇到错误。",
+    "{}{}{}NOTE{}{}{} If you choose not to perform the create event, you may encounter errors if the instance depends on any variables initialised in this event.":"{}{}{} 注意{}{}{} 如果您选择不执行创建事件，并且实例依赖于此事件中初始化的任何变量，则可能会遇到错误。"
 }

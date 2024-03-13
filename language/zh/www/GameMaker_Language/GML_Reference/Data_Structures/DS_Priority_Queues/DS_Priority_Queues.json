@@ -3,5 +3,7 @@
     "DS&nbsp;Priority Queues":"DS 优先队列",
     "The following functions exist that deal with DS priority queues:":"存在以下处理DS优先级队列的函数：",
     "{}NOTE{}: As with all dynamic resources, data structures take up memory and so should {}always{} be destroyed when no longer needed to prevent memory leaks which will slow down and eventually crash your game.":"{}注意{}：与所有动态资源一样，数据结构占用内存，因此当不再需要防止内存泄漏时，应{}始终{}销毁，这将降低速度并最终导致游戏崩溃。",
-    "{}NOTE{}: If you need to check if a data structure exists, you can use the {}{}{}ds_exists(){}{}{} function.":"{}注意{}：如果需要检查是否存在数据结构，可以使用{}{}{}ds_exists(){}{}{}函数。"
+    "{}NOTE{}: If you need to check if a data structure exists, you can use the {}{}{}ds_exists(){}{}{} function.":"{}注意{}：如果需要检查是否存在数据结构，可以使用{}{}{}ds_exists(){}{}{}函数。",
+    "{}{}NOTE{}{}&nbsp;As with all dynamic resources, data structures take up memory and so should {}always{} be destroyed when no longer needed to prevent memory leaks which will slow down and eventually crash your game.":"{}{} 注意{}{} 与所有动态资源一样，数据结构也会占用内存，因此在不再需要时应 {} 始终 {} 销毁，以防止内存泄漏，否则会减慢游戏速度并最终崩溃。",
+    "{}{}NOTE{}{}&nbsp;If you need to check if a data structure exists, you can use the&nbsp;{}{}ds_exists{}{} function.":"{}{} 注意{}{} 如果您需要检查数据结构是否存在，可以使用 {}{}ds_exists{}{} 函数。"
 }

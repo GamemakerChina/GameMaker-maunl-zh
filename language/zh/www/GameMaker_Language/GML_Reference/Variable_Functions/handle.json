@@ -1,0 +1,10 @@
+{
+    "A handle is represented in a string with this format:&nbsp;{}{}\"ref&nbsp;&lt;type&gt;&nbsp;&lt;id&gt;\"{}{}.":"句柄以字符串形式表示，格式如下：{}{}\"ref &lt;type&gt; &lt;id&gt;\"{}{}。",
+    "The code above converts the handle of a sprite named&nbsp;{}spr_player{} to its string representation ({}handle_as_string{}), and then back into a handle ({}h{}). It then outputs each of the created instance variables in a debug message, along with its type. This prints the following:":"上面的代码将名为{}spr_player{}的精灵的句柄转换为其字符串表示形式({}handle_as_string{})，然后再转换回句柄({}h{})。然后，它在调试消息中输出每个创建的实例变量及其类型。这将打印以下内容：",
+    "The string representation of the handle, formatted as&nbsp;{}{}\"ref&nbsp;&lt;type&gt;&nbsp;&lt;id&gt;\"{}{}":"句柄的字符串表示形式，格式为{}{}\"ref &lt;type&gt; &lt;id&gt;\"{}{}",
+    "The values of the handle variables are implicitly converted to their string representation to display them.":"句柄变量的值会隐式转换为其字符串表示形式以显示它们。",
+    "This function parses a string to create a {}handle reference{}.":"此函数解析字符串以创建{}句柄引用{}。",
+    "You can see that the original reference is converted into a string, which is then parsed back as a reference, which can again be used in functions just like the original reference.":"您可以看到原始引用被转换为字符串，然后将其解析回作为引用，它可以再次像原始引用一样在函数中使用。",
+    "{}{}Handle{}{}&nbsp;(or&nbsp;{}{}undefined{}{} in case of an invalid string)":"{}{}Handle{}{}(如果字符串无效，则为{}{}undefined{}{})",
+    "{}{}NOTE{}{}&nbsp;You can use&nbsp;{}{}string{}{}&nbsp;to get the string representation of a handle and&nbsp;{}{}real{}{}&nbsp;to get the index number that it holds.":"{}{}注意{}{}您可以使用{}{}string{}{}获取句柄的字符串表示形式，并使用{}{}real{}{}获取它所保存的索引号。"
+}

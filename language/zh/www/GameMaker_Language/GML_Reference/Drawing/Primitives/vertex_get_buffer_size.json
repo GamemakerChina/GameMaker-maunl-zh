@@ -1,5 +1,8 @@
 {
+    "The above code gets the number of bytes used by the given vertex buffer and stores the value in the variable {}bufferBytes{}.":"上述代码获取给定顶点缓冲区使用的字节数，并将该值存储在变量 {}bufferBytes{} 中。",
     "The above code will get the number of bytes used by the vertex buffer given and store the value in the variable \"bufferBytes\".":"以上代码将获取给定顶点缓冲区使用的字节数，并将该值存储在变量bufferBytes中。",
     "The buffer to get the size of.":"要获取大小的缓冲区。",
+    "The vertex buffer to get the size of.":"要获取其大小的顶点缓冲区。",
+    "This function gets the size of the given vertex buffer in bytes.":"此函数获取给定顶点缓冲区的大小 (以字节为单位)。",
     "With this function you can get the size of the given vertex buffer in bytes.":"使用此函数可以获取给定顶点缓冲区的大小(以字节为单位)。"
 }

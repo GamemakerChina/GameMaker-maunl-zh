@@ -1,6 +1,6 @@
 {
     "A Nine Slice {}struct{} can be created using {}{}sprite_nineslice_create(){}{}, or retrieved from a sprite using {}{}sprite_get_nineslice(){}{}. This struct will contain properties that can be changed&nbsp;and applied to a sprite using {}{}sprite_set_nineslice(){}{}.":"可以使用{}{}sprite_nineslice_create(){}{}创建九宫格{0}结构{1}，或使用{}{}sprite_get_nineslice(){}{}从sprite中检索。 此结构将包含可以使用{}{}sprite_set_nineslice(){}{}更改并应用于 sprite 的属性。",
-    "If retrieved from a sprite, changing values in this struct {}will {}affect the original sprite.":"如果从sprite中检索，更改此结构{}中的值将{}影响原始sprite。",
+    "If retrieved from a sprite, changing values in this struct {}will {}affect the original sprite.":"如果从精灵中检索，更改此结构中的值将影响原始精灵。{}{}",
     "Nine Slice Edge Constant":"九宫格边缘常量",
     "Nine Slice Struct":"九宫格结构",
     "See {}this page{} for more information on the Nine Slice technique.":"有关九宫格技术的更多信息，请参阅{}本页{}。",

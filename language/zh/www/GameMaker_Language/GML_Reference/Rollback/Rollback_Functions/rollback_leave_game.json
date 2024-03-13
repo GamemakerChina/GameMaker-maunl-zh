@@ -1,0 +1,11 @@
+{
+    "After the player leaves a multiplayer session, GameMaker continues to execute all game code, however it returns to the \"pre-start\" state where you cannot create or modify managed instances.":"玩家离开多人游戏会话后，GameMaker 继续执行所有游戏代码，但它会返回到 \" 预启动 \" 状态，在该状态中您无法创建或修改托管实例。",
+    "Avoiding Errors":"避免错误",
+    "See:&nbsp;{}State Before Rollback Start{}":"请参阅：{} 回滚开始前的状态 {}",
+    "The code above makes the player leave the game when the Escape key is pressed.":"上面的代码使玩家在按下 Escape 键时离开游戏。",
+    "This function leaves the current multiplayer session, allowing the player to join or create a new game again.":"此功能离开当前多人游戏会话，允许玩家再次加入或创建新游戏。",
+    "This means you need to manually destroy your player instances on leaving a game, and pause any other game logic using&nbsp;{}rollback_game_running{}&nbsp;in a condition, to avoid errors.":"这意味着您需要在离开游戏时手动销毁玩家实例，并在条件中使用 {}rollback_game_running{} 暂停任何其他游戏逻辑，以避免错误。",
+    "Triggered Event":"触发事件",
+    "When a player leaves a game that you are present in, the {}Rollback Event{} event is triggered. See&nbsp;{}Rollback Events{}&nbsp;for more information.":"当玩家离开您所在的游戏时，会触发 {} 回滚事件 {} 事件。请参阅 {} 回滚事件 {} 了解更多信息。",
+    "When the host of a room leaves, ownership of that room is transferred to another player, so the game can continue. The game only ends when all the players have left.":"当房间的主人离开时，该房间的所有权将转移给另一个玩家，因此游戏可以继续。只有当所有玩家都离开时，游戏才结束。"
+}

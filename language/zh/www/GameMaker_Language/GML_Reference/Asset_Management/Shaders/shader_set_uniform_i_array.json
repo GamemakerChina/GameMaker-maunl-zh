@@ -3,5 +3,7 @@
     "The above code will get the handle of the shader constant \"cColourArray\" then set that constant to the given array.":"上面的代码将获取着色器常量\"cColourArray\"的句柄，然后将该常数设置为给定的数组。",
     "The handle of the shader constant to set.":"要设置的着色器常量的句柄。",
     "With this function you can set a shader constant to hold an array of values. You must previously have gotten the \"handle\" of the constant using the function {}{}shader_get_uniform(){}{}, and you will have to have previously initialised the array.":"使用此函数，可以设置着色器常量以保存值数组。您必须之前使用函数{}{}shader_get_uniform(){}{}获得常量的\"句柄\"，并且您必须事先初始化数组。",
+    "With this function you can set a shader constant to hold an array of values. You must previously have gotten the \"handle\" of the constant using the function {}{}shader_get_uniform(){}{}, and you will have to have previously initialised the array.{}{}":"使用此函数，您可以设置着色器常量来保存值数组。您之前必须使用函数 {}{}shader_get_uniform(){}{} 获取常量的 \" 句柄\"，并且之前必须初始化该数组。{}{}",
+    "{}{}NOTE{}{}&nbsp;All uniforms must be set {}after{} calling the function {}{}shader_set{}{}&nbsp;and {}before{} calling {}{}shader_reset{}{}.":"{}{} 注意{}{} 必须在调用函数 {}{}shader_set{}{}{4} 之后 {5} 和调用 {}{}shader_reset{}{}{10} 之前 {11} 设置所有 uniforms 。",
     "{}{}{}NOTE{}: All uniforms must be set {}after{} calling the function {}{}{}shader_set(){}{}{}, and before calling {}{}{}shader_reset(){}{}{}.":"{}{}{}注意{}：在调用函数{}{}{}shader_set(){}{}{} {4}之后{5}，在调用{}{}{}shader_reset(){}{}{}之前，必须设置所有 uniform 。"
 }

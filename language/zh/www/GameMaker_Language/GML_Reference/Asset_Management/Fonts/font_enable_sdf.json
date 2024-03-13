@@ -16,5 +16,6 @@
     "This function sets whether&nbsp;{}SDF Rendering{}&nbsp;for the given font is enabled or not.":"此函数用于设置是否启用给定字体的 {}SDF 渲染{}。",
     "Whether to enable SDF rendering for the font or not":"是否为字体启用SDF渲染",
     "{}{}NOTE{}{}&nbsp;SDF fonts are currently not supported on HTML5.":"{}{}注意{}{} HTML5 当前不支持 SDF 字体。",
-    "{}{}NOTE{}{}&nbsp;This function cannot be used on HTML5, as HTML5 does not support adding freetype fonts.":"{}{}注意{}{}此函数不能在HTML5上使用，因为HTML5不支持添加自由字体。"
+    "{}{}NOTE{}{}&nbsp;This function cannot be used on HTML5, as HTML5 does not support adding freetype fonts.":"{}{}注意{}{}此函数不能在HTML5上使用，因为HTML5不支持添加自由字体。",
+    "{}{}NOTE{}{}&nbsp;This function cannot be used on HTML5, as HTML5 does not support adding freetype fonts. However, SDF can still be used on HTML5 by enabling it for a font {}through the IDE{}.":"{}{} 注意{}{} 此函数无法在 HTML5 上使用，因为 HTML5 不支持添加 freetype 字体。不过，SDF 仍然可以在 HTML5 上使用，只需 {} 通过 IDE{} 启用字体即可。"
 }

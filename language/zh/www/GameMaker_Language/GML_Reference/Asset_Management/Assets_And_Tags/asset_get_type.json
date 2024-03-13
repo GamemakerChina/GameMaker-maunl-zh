@@ -1,4 +1,5 @@
 {
+    "One of the {}constants{} listed below will be returned.":"将返回下面列出的{}常量{}之一。",
     "The above code checks a dynamically created asset name to see if the asset is of the correct type. If it is not, then a debug message will be shown, otherwise the asset name is used to assign the asset to the instance.":"上面的代码检查一个动态创建的资源名称，以查看该资源的类型是否正确。如果不是，则将显示调试消息，否则将使用资源名称将资源分配给实例。",
     "The given name refers to a {}Sequence{}.":"给定的名称指的是{}序列{}。",
     "The given name refers to a {}font{}.":"给定的名称指的是{}字体{}。",
@@ -15,5 +16,7 @@
     "The given name refers to an {}Animation Curve{}.":"给定的名称指的是{}动画曲线{}。",
     "The given name refers to an {}object{}.":"给定的名称指的是{}对象{}。",
     "The name of the game asset to get the type of (a string).":"要获取 (字符串) 的类型的游戏资源的名称。",
+    "The name of&nbsp;or a reference to the game asset to get the type of.":"要获取其类型的游戏资产的名称或引用。",
+    "This function gets the type of asset being referenced from its name or handle.":"此函数从资产的名称或句柄获取所引用资产的类型。",
     "With this function you can get the type of asset being referenced from its name (a string). One of the {}constants{} listed below will be returned.":"使用此函数，您可以从其名称 (字符串) 获取被引用的资源类型。将返回下面列出的{}常量{}中的一个。"
 }

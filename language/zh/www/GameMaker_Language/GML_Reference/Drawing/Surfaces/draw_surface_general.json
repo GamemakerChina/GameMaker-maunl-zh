@@ -1,4 +1,5 @@
 {
+    "The alpha transparency to draw the surface with.":"用于绘制表面的 Alpha 透明度。",
     "The alpha transparency to draw the surface with..":"用于绘制表面的Alpha透明度...",
     "The colour of the bottom left corner of the surface.":"表面左下角的颜色。",
     "The colour of the bottom right corner of the surface.":"表面右下角的颜色。",
@@ -8,6 +9,7 @@
     "The horizontal scaling to draw the surface with.":"用于绘制表面的水平缩放。",
     "The left position in the surface of the part to be drawn.":"要绘制的零件表面中的左侧位置。",
     "The rotation or angle to draw the surface with.":"用于绘制表面的旋转或角度。",
+    "The surface to draw.":"要绘制的表面。",
     "The top position in the surface of the part to be drawn.":"要绘制的零件表面中的顶部位置。",
     "The unique ID value of the surface to draw.":"要绘制的表面的唯一Id值。",
     "The vertical scaling to draw the surface with.":"用于绘制表面的垂直缩放。",
@@ -15,8 +17,10 @@
     "The x position of where to draw the surface.":"绘制表面的x位置。",
     "The y position of where to draw the surface.":"绘制表面的y位置。",
     "This function combines the function {}{}draw_surface_ext(){}{} with the function {}{}draw_surface_part(){}{}, adding in some additional blending options so that each corner of the final surface part can be blended with an individual colour.":"此函数将函数{}{}draw_surface_ext(){}{}与函数{}{}draw_surface_part(){}{}结合在一起，添加了一些额外的混合选项，以便可以将最终表面零件的每个角点与单个颜色混合。",
+    "This function combines the function&nbsp;{}{}draw_surface_ext{}{} with the function {}{}draw_surface_part{}{}, adding in some additional blending options so that each corner of the final surface part can be blended with an individual colour.":"该函数将函数 {}{}draw_surface_ext{}{} 与函数 {}{}draw_surface_part{}{} 结合起来，添加了一些额外的混合选项，以便最终曲面部分的每个角都可以与单独的颜色混合。",
     "This will draw a 32x32 pixel area from 8x8 pixels into the surface. It will be stretched to double its usual width but half its usual height. It will be opaque, and upside down. The top area of the surface will be blended white and hence normal, but the bottom area will be black, meaning the surface will go from normal to silhouette downwards in a smooth gradient.":"这会将8 x 8像素的32 x 32像素区域绘制到表面中。它将被拉伸到通常宽度的两倍，但通常高度的一半。它将是不透明的，而且颠倒。表面的顶部区域将混合为白色，因此为法线，但底部区域将为黑色，这意味着表面将以平滑的梯度从法线向下移动到侧面影像。",
     "{}TIP{}&nbsp;How a surface appears depends on its contents, especially the alpha values inside the surface. A surface {}cleared{} with an alpha of 0 may appear different from a surface cleared with an alpha of 1, due to the way they blend with the background. Take care of this whenever you notice a difference in the way something renders on a custom surface as opposed to the {}{}application_surface{}{}.":"{}提示{}表面的显示方式取决于其内容，尤其是表面内部的Alpha值。Alpha为0的{}清除表面{}可能与Alpha为1的清除表面不同，因为它们与背景混合的方式不同。只要您注意到自定义表面上的渲染方式与{}{}application_surface{}{}的渲染方式有所不同，就要注意这一点。",
     "{}{}NOTE{} {}Gradient blending is not available for the HTML5 target unless WebGL is enabled.{}{}":"{}{}注意{}{}除非启用了WebGL，否则HTML5目标不能使用渐变混合。{}{}",
+    "{}{}NOTE{} {}Gradient blending is not available for the HTML5 target unless {}WebGL{} is enabled.{}{}":"{}{} 注意{}{} 除非启用了 {}WebGL{}，否则渐变混合不适用于 HTML5 目标。{}{}",
     "{}{}{}NOTE{}&nbsp;When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}{}{}注意{}使用表面时，由于表面存储在纹理内存中，因此表面可能随时停止存在。在直接引用表面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查表面是否存在。"
 }

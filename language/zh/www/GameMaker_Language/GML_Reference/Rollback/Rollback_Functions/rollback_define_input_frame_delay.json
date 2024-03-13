@@ -1,0 +1,8 @@
+{
+    "By default, your game will use an adaptive input delay, which is based on the latency between players. This will work for almost every game out there, however, some specific types of games (e.g. fighting games) may prefer to use a fixed input delay, instead of an adaptive delay that may change at any time.":"默认情况下，您的游戏将使用自适应输入延迟，该延迟基于玩家之间的延迟。这几乎适用于所有游戏，但是，某些特定类型的游戏 (例如格斗游戏) 可能更喜欢使用固定输入延迟，而不是可能随时改变的自适应延迟。",
+    "It\u0027s not recommended to change this unless you know exactly what you\u0027re doing. You can call this function at any time before and during a multiplayer game.":"除非您确切知道自己在做什么，否则不建议更改此设置。您可以在多人游戏之前和期间随时调用此函数。",
+    "The delay value specified must be in number of frames. If you specify {}-1{}, the game will revert to using an adaptive delay. The maximum delay you can set is {}10 frames{}.":"指定的延迟值必须以帧数为单位。如果您指定 {}-1{}，游戏将恢复使用自适应延迟。您可以设置的最大延迟为 {}10 帧 {}。",
+    "The number of frames to set as the fixed input delay, or {}-1{} to reset it to default.":"设置为固定输入延迟的帧数，或将其重置为默认值的 {}-1{}。",
+    "This function defines the fixed frame delay for local player inputs.":"此函数定义本地玩家输入的固定帧延迟。",
+    "You can define your frame delay value as a global variable, and use that when calling&nbsp;{}rollback_define_input_frame_delay(){}&nbsp;before a rollback game is started.":"您可以将帧延迟值定义为全局变量，并在回滚游戏开始之前调用 {}rollback_define_input_frame_delay(){} 时使用该变量。"
+}

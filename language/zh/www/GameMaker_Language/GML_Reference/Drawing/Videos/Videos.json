@@ -1,5 +1,6 @@
 {
     "Add a video file to the {}Included Files{} ({}/datafiles{} directory) of your project.":"将视频文件添加到项目的{}包含文件{}({}/datafiles{}目录)。",
+    "Add a video file to the {}Included Files{} ({}/{}datafiles{}{} directory) of your project.":"将视频文件添加到项目的 {} 包含文件 {}({}/{} 数据文件 {}{} 目录)。",
     "Async Callbacks":"异步回调",
     "Draw it in a Draw event using {}{}video_draw(){}{}. {} {}This functions draws the video to an internal surface, which it returns as part of its return array.{} {}You must draw that surface manually using {}{}draw_surface(){}{} for the video to appear. {} {}Drawing&nbsp;{}YUV Videos{}&nbsp;will require extra steps.{} {} {} {} ":"使用{}{}video_draw(){}{}在绘制事件中绘制它。{}{}此函数将视频绘制到内部表面，并将其作为返回数组的一部分返回。{}{}要显示视频，必须使用{}{}draw_surface(){}{}手动绘制该表面。{}{}绘制{} YUV  视频{}将需要额外的步骤。{}{}{}{}",
     "Follow these steps to load videos at runtime and play them:":"按照以下步骤在运行时加载和播放视频：",

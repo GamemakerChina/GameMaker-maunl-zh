@@ -1,0 +1,7 @@
+{
+    "Files added to a ZIP file are always compressed at the maximum compression level.":"添加到 ZIP 文件的文件始终以最大压缩级别进行压缩。",
+    "The ZIP file is automatically garbage-collected when it\u0027s no longer referenced. As long as it is referenced, it will continue to exist in memory and files can be added to it at any time, even after {}{}zip_save{}{} is called on it. However you can\u0027t add files into the ZIP while it\u0027s in the middle of being saved to disk.":"当 ZIP 文件不再被引用时，系统会自动对其进行垃圾回收。只要它被引用，它就会继续存在于内存中，并且可以随时向其中添加文件，即使在对其调用 {}{}zip_save{}{} 之后也是如此。但是，当 ZIP 正在保存到磁盘时，您无法将文件添加到 ZIP 中。",
+    "This creates a new ZIP file, adds two files to it (with the second file in a subdirectory called {}sounds/{}) and then saves the ZIP to disk as {}upload.zip{}.":"这会创建一个新的 ZIP 文件，向其中添加两个文件 (第二个文件位于名为 {}sounds/{} 的子目录中)，然后将该 ZIP 作为 {}upload.zip{} 保存到磁盘。",
+    "This function creates a new ZIP file and returns its reference. This ZIP file is stored in memory, where you can add files to it using&nbsp;{}{}zip_add_file{}{}, and save it to disk using&nbsp;{}{}zip_save{}{}.":"此函数创建一个新的 ZIP 文件并返回其引用。此 ZIP 文件存储在内存中，您可以使用 {}{}zip_add_file{}{} 将文件添加到其中，并使用 {}{}zip_save{}{} 将其保存到磁盘。",
+    "{}{}NOTE{}{}&nbsp;This functionality is not available for the HTML5 target platform.":"{}{} 注意 {}{} 此功能不适用于 HTML5 目标平台。"
+}

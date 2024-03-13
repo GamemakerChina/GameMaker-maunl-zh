@@ -1,6 +1,12 @@
 {
+    "In general, you do not need to use this to write or read files in the save area, as GameMaker automatically resolves paths to the save area when reading/writing files. For example, this:":"一般来说，您不需要使用它来写入或读取保存区域中的文件，因为 GameMaker 在读取 / 写入文件时会自动解析保存区域的路径。例如，这个：",
     "On the HTML5 target it will return an empty string.":"在HTML5目标上，它将返回一个空字符串。",
+    "Read:&nbsp;{}The File System{}":"阅读：{} 文件系统 {}",
+    "This directory may or may not be visible to other applications, depending on the platform.":"该目录对于其他应用程序可能是可见的，也可能是不可见的，具体取决于平台。",
     "This will store the directory for saving files to a variable for future use.":"这将存储用于将文件保存到变量以供将来使用的目录。",
+    "This {}read-only{} variable points to the area of local storage that is reserved for your game on the target device. See&nbsp;{}Save Area Locations{}.":"此 {} 只读 {} 变量指向在目标设备上为您的游戏保留的本地存储区域。请参阅 {} 保存区域位置 {}。",
     "This {}read-only{} variable will return the full path ID of the directory that is used by your game to save files to. This directory may or may not be visible to other applications, depending on the platform.":"此{}只读{}变量将返回游戏用于保存文件的目录的完整路径ID。此目录可能对其他应用程序可见，也可能不可见，具体取决于平台。",
-    "{}NOTE{}&nbsp;This variable exists purely for information and should {}not{} be used to get a file path or anything similar, as it will not work correctly across all platforms.":"{}注意{}此变量仅供参考，不应{}用于获取文件路径或任何类似内容，因为它不能在所有平台上正常工作。"
+    "would be better done as just this:":"最好这样做：",
+    "{}NOTE{}&nbsp;This variable exists purely for information and should {}not{} be used to get a file path or anything similar, as it will not work correctly across all platforms.":"{}注意{}此变量仅供参考，不应{}用于获取文件路径或任何类似内容，因为它不能在所有平台上正常工作。",
+    "{}{}NOTE{}{}&nbsp;On the HTML5 target it will return an empty string.":"{}{} 注意{}{} 在 HTML5 目标上，它将返回一个空字符串。"
 }

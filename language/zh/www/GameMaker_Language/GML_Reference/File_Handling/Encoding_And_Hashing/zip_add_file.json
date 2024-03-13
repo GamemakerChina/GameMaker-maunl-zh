@@ -1,0 +1,10 @@
+{
+    "A ZIP file created with&nbsp;{}{}zip_create{}{}":"使用 {}{}zip_create{}{} 创建的 ZIP 文件",
+    "If the call is successful, the function will return 0, otherwise it will throw a fatal error.":"如果调用成功，函数将返回 0，否则将抛出致命错误。",
+    "The destination file name to be created in the ZIP. Can include directories.":"要在 ZIP 中创建的目标文件名。可以包含目录。",
+    "The source file to be placed into the ZIP":"要放入 ZIP 的源文件",
+    "The {}src{} file is only loaded when&nbsp;{}{}zip_save{}{}&nbsp;is called later, so an invalid file will not throw an error during this call.":"{}src{} 文件仅在稍后调用 {}{}zip_save{}{} 时加载，因此无效文件在此调用期间不会引发错误。",
+    "This creates a new ZIP file, adds two files to it (with the second file in a subdirectory called {}sounds/{}) and then saves the ZIP to disk as {}upload.zip{}.":"这会创建一个新的 ZIP 文件，向其中添加两个文件 (第二个文件位于名为 {}sounds/{} 的子目录中)，然后将该 ZIP 作为 {}upload.zip{} 保存到磁盘。",
+    "This function is used to add a file into a ZIP file created with&nbsp;{}{}zip_create{}{}.":"此函数用于将文件添加到使用 {}{}zip_create{}{} 创建的 ZIP 文件中。",
+    "{}{}NOTE{}{}&nbsp;This functionality is not available for the HTML5 target platform.":"{}{} 注意{}{} 此功能不适用于 HTML5 目标平台。"
+}

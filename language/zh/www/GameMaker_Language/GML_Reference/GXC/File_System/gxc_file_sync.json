@@ -1,0 +1,8 @@
+{
+    "Because of the type of file system used by&nbsp;{}GameMaker{}&nbsp;when running on&nbsp;GX.games, the changes made by one game will not automatically be picked up by the other. To retrieve these changes and to {}synchronise{} the state of the file system in both games you call this function.":"由于 {}GameMaker{} 在 GX.games 上运行时使用的文件系统类型，一个游戏所做的更改不会自动被另一个游戏接受。要检索这些更改并 {} 同步 {} 两个游戏中文件系统的状态，您可以调用此函数。",
+    "The above code first creates a method in an object\u0027s Create event that shows a debug message and sets&nbsp;{}{}alarm{}[0]{} to 60 steps. In the Alarm event a file sync is performed with a call to&nbsp;{}{}gxc_file_sync{}{}&nbsp;and the alarm is set to countdown again.":"上面的代码首先在对象的 Create 事件中创建一个方法，该方法显示一条调试消息，并将 {}{}alarm{}[0]{} 设置为 60 个步骤。在闹钟事件中，通过调用 {}{}gxc_file_sync{}{} 执行文件同步，并且闹钟再次设置为倒计时。",
+    "The function takes a callback function that\u0027s called when the synchronisation has completed.":"该函数采用同步完成时调用的回调函数。",
+    "This&nbsp;{}asynchronous{}&nbsp;function synchronises the changes to the file system on the GX.games platform.":"此 {} 异步 {} 函数可同步 GX.games 平台上文件系统的更改。",
+    "You should call this function whenever more than one game, e.g. a Live Wallpaper {}and{} a Game Strip, writes to and reads from the file system and you want to get the changes made by the other game in the current one.":"当不止一场比赛时，您应该调用此函数，例如动态壁纸 {} 和 {} 游戏条向文件系统写入和读取，并且您希望获取当前游戏中其他游戏所做的更改。",
+    "{}{}OPTIONAL{}{}&nbsp;The callback method to execute when the sync is complete":"{}{} 可选{}{} 同步完成时执行的回调方法"
+}

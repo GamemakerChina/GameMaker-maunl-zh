@@ -3,5 +3,8 @@
     "The index of the camera to assign":"要指定的摄影机的索引",
     "The index of the room to set the view camera of":"要设置视图摄影机的房间的索引",
     "The index of the view port to assign the camera to":"要将摄影机指定给的视口的索引",
-    "With this function you can assign a camera to a specific viewport in a room other than the current one. You supply the room index, the view index (from 0 to 7) and then the index of the camera to use.":"使用此函数，可以将摄影机指定给房间中当前视口以外的特定视口。提供房间索引、视图索引(从 0 到 7)，然后提供要使用的摄影机的索引。"
+    "The room to set the view camera of":"设置摄像机的房间",
+    "This function assigns a camera to a specific viewport in a room other than the current one.":"此函数将摄像机分配给当前房间以外的房间中的特定视口。",
+    "With this function you can assign a camera to a specific viewport in a room other than the current one. You supply the room index, the view index (from 0 to 7) and then the index of the camera to use.":"使用此函数，可以将摄影机指定给房间中当前视口以外的特定视口。提供房间索引、视图索引(从 0 到 7)，然后提供要使用的摄影机的索引。",
+    "You supply the room index, the view index (from 0 to 7) and then the index of the camera to use.":"您提供房间索引、视图索引 (从 0 到 7)，然后提供要使用的摄像机的索引。"
 }

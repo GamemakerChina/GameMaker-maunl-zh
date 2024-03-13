@@ -8,6 +8,7 @@
     "The size of the array":"数组的大小",
     "The {}callback{} function supplied in the second argument should take 1 argument, which is the index of the current array element. It can return any type of value, which is stored in the array at that index.":"第二个参数中提供的{}回调{}函数应采用 1 个参数，这是当前数组元素的索引。它可以返回任何类型的值，这些值存储在该索引处的数组中。",
     "The {}callback{} function used to initialise each entry":"用于初始化每个条目的{}回调{}函数",
+    "This function creates an array of the given size. For each element in the new array, it calls the given callback function, and applies the return value to that element.":"该函数创建一个给定大小的数组。对于新数组中的每个元素，它调用给定的回调函数，并将返回值应用于该元素。",
     "Using this function you can initialise the array with values that change depending on the array index.":"使用此函数，您可以使用根据数组索引更改的值来初始化数组。",
     "Using this function you can initialise the array with values that depend on the array index.":"使用此函数，您可以使用依赖于数组索引的值初始化数组。",
     "{}Callback function{}{}Callback function{}":"{}回调函数{}{}回调函数{}",

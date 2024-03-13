@@ -1,11 +1,15 @@
 {
     "The ID of the surface to set as the drawing target.":"要设置为绘制目标的表面的ID。",
     "The above code will check to see if the user presses the \"S\" key on the keyboard and if they do it will save a part of the surface indexed in the variable \"surf\" to disc.":"上述代码将检查用户是否按下键盘上的 \"S\" 键，如果按下，则会将变量 \"surf\" 中索引的表面的一部分保存到光盘中。",
+    "The above code will check to see if the user presses the \"S\" key on the keyboard and if they do it will save a part of the surface indexed in the variable {}surf{} to disc.":"上面的代码将检查用户是否按下键盘上的 \"S\" 键，如果按下，则会将变量 {}surf{} 中索引的表面部分保存到光盘。",
     "The height of the part to save.":"要保存的零件的高度。",
     "The name of the saved image file.":"保存的图像文件的名称。",
     "The starting x position within the surface.":"表面内的起始x位置。",
     "The starting y position within the surface.":"表面内的起始y位置。",
+    "The surface to set as the drawing target.":"设置为绘图目标的表面。",
+    "The surface {}must{} be saved as a {}*.png{} format file, and the (x, y) position must be given as local coordinates to the surface, bearing in mind that the top left corner of the surface is always (0, 0).":"表面 {} 必须 {} 保存为 {}*.png{} 格式文件，并且 (x, y) 位置必须作为表面的本地坐标，请记住表面的左上角始终为 (0, 0)。",
     "The width of the part to save.":"要保存的零件的宽度。",
+    "This function saves part of a surface to disc using the given filename.":"此函数使用给定的文件名将表面的一部分保存到光盘。",
     "This function will save a part of a surface to disc using the given filename. The surface {}must{} be saved as a {}*.png{} format file, and the (x,y) position must be given as local coordinates to the surface, bearing in mind that the top left corner of the surface is always (0,0).":"此函数将使用给定的文件名将表面的一部分保存到光盘。{} 表面 {} 必须保存为 {}*.png{} 格式的文件，并且必须将 (x，y) 位置作为表面的局部坐标指定，同时请记住表面的左上角始终为 (0,0)。",
     "{}{}NOTE{}{}&nbsp;This function will only work with surfaces that use the&nbsp;{}{}surface_rgba8unorm{}{} (default) surface format.":"{}{}注意{}{} 此函数仅适用于使用 {}{}surface_rgba8unorm{}{} (默认)表面 格式的表面 。"
 }

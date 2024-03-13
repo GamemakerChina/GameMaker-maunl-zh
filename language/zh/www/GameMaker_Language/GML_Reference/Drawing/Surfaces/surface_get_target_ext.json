@@ -1,5 +1,8 @@
 {
+    "The above code first checks if the shader render target 0 has been set to a surface. If not, then one is assigned.":"上面的代码首先检查着色器渲染目标 0 是否已设置为表面。如果没有，则分配一个。",
     "The above code will first check and see if the shader render target 0 has been set to a surface, and if not, then one is assigned.":"以上代码将首先检查并查看着色器渲染目标0是否已设置为表面，如果未设置，则指定一个。",
     "The render target index to check (from 0 to 3).":"要检查的渲染目标索引(从0到3)。",
-    "This function will retrieve the surface ID assigned to one of the 4 render targets available to surfaces. You supply the index of the render target to check, and the function will return -1 if no surface is assigned, or an integer value &gt;= 0, representing the ID of the surface assigned (as returned by the function {}{}surface_create(){}{}).":"此函数将检索指定给表面可用的 4 个渲染目标之一的表面 ID。提供要检查的渲染目标的索引，如果未指定任何表面，则函数将返回 -1，或者整数值 \n &gt;= 0，表示指定的表面的 Id(由函数 {}{}surface_create(){}{} 返回)。"
+    "This function retrieves the surface assigned to one of the 4 render targets available to surfaces.":"此函数检索分配给表面可用的 4 个渲染目标之一的表面。",
+    "This function will retrieve the surface ID assigned to one of the 4 render targets available to surfaces. You supply the index of the render target to check, and the function will return -1 if no surface is assigned, or an integer value &gt;= 0, representing the ID of the surface assigned (as returned by the function {}{}surface_create(){}{}).":"此函数将检索指定给表面可用的 4 个渲染目标之一的表面 ID。提供要检查的渲染目标的索引，如果未指定任何表面，则函数将返回 -1，或者整数值 \n &gt;= 0，表示指定的表面的 Id(由函数 {}{}surface_create(){}{} 返回)。",
+    "You supply the index of the render target to check, and the function will return -1 if no surface is assigned, or an integer value &gt;= 0, representing the surface assigned (as returned by the functions&nbsp;{}{}surface_create{}{}&nbsp;/ {}{}surface_create_ext{}{}).":"您提供要检查的渲染目标的索引，如果未分配表面，则该函数将返回 -1，或者整数值 &gt;= 0，表示分配的表面 (由函数 {}{}surface_create{}{}/{}{}surface_create_ext{}{} 返回)。"
 }

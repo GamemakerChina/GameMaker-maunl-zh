@@ -1,0 +1,13 @@
+{
+    "Async Save/Load event":"异步保存 / 加载事件",
+    "If the call is successful, a request ID is returned, and later the Async&nbsp;{}Save / Load{}&nbsp;event is triggered where this ID can be checked. The {}async_load{} map in that event will contain the following keys:":"如果调用成功，则会返回请求 ID，稍后会触发异步 {} 保存 / 加载 {} 事件，可以在其中检查此 ID。该事件中的 {}async_load{} 映射将包含以下键：",
+    "Please read the&nbsp;{}{}zip_unzip{}{} page for file system limitations.":"请阅读 {}{}zip_unzip{}{} 页面了解文件系统限制。",
+    "The above code attempts to extract a ZIP file into the working directory. In the Async Save/Load event, it checks the status of that request, and prints a message to the output log if it failed.":"上面的代码尝试将 ZIP 文件提取到工作目录中。在异步保存 / 加载事件中，它检查该请求的状态，如果失败，则将消息打印到输出日志。",
+    "The function is the asynchronous equivalent of&nbsp;{}{}zip_unzip{}{}. It takes a path to a ZIP file, and the target directory where it should be extracted.":"该函数相当于 {}{}zip_unzip{}{} 的异步函数。它需要 ZIP 文件的路径以及解压该文件的目标目录。",
+    "The target directory to extract the files to":"将文件解压到的目标目录",
+    "The zip file to open":"要打开的 zip 文件",
+    "This function will trigger a fatal error if it\u0027s called between&nbsp;{}{}buffer_async_group_begin{}{}&nbsp;and&nbsp;{}{}buffer_async_group_end{}{}&nbsp;calls.":"如果在 {}{}buffer_async_group_begin{}{} 和 {}{}buffer_async_group_end{}{} 调用之间调用此函数，将会触发致命错误。",
+    "{}\"id\"{}: The request ID as returned by the original function call":"{}\"id\"{}：原始函数调用返回的请求 ID",
+    "{}\"status\"{}: {}0{} if the ZIP extracted successfully, {}-1{} if it failed":"{}\"status\"{}：如果 ZIP 解压成功，则为 {}0{}; 如果失败，则为 {}-1{}",
+    "{}{}NOTE{}{}&nbsp;This functionality is not available for the HTML5 target platform.":"{}{} 注意{}{} 此功能不适用于 HTML5 目标平台。"
+}

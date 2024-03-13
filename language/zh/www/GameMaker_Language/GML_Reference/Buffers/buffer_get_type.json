@@ -2,9 +2,13 @@
     "A buffer of fixed size.":"固定大小的缓冲区。",
     "A buffer that will \"grow\" dynamically as data is added":"一个缓冲区，将在添加数据时动态 \"增长\"",
     "A buffer where the data will \"wrap\". When the data being added reaches the limit of the buffer size, the overwrite will be placed back at the start of the buffer, and further writing will continue from that point.":"数据将 \"换行\" 的缓冲区。当正在添加的数据达到缓冲区大小的限制时，覆盖将被放回缓冲区的开始处，并且进一步的写入将从该点继续。",
+    "A special \"stripped\" buffer that is extremely fast to read/write to. Can only be used with {}buffer_u8{} {}data types{}, and {}must{} be 1 byte aligned.":"一种特殊的 \" 剥离 \" 缓冲区，读 / 写速度极快。只能与 {}buffer_u8{}{} 数据类型 {} 一起使用，并且 {} 必须 {} 按 1 字节对齐。",
     "A vertex buffer":"顶点缓冲区",
     "Special \"stripped\" buffer that is extremely fast to read/write to. Can only be used with {}buffer_u8{} {}data types{}, and {}must{} be 1 byte aligned.":"读取/写入速度极快的特殊 \"剥离\" 缓冲区。只能与 {}buffer_u8{} {}数据类型{}一起使用，而{}必须{}为1字节对齐。",
+    "The above code gets the type of the buffer stored in the variable {}buff{} and stores it in a variable.":"上面的代码获取变量 {}buff{} 中存储的缓冲区类型，并将其存储在变量中。",
     "The above code will get the type of buffer from the value indexed in the variable \"buff\" and store it in a variable.":"上面的代码将从变量 \"buff\" 中索引的值中获取缓冲区的类型，并将其存储在变量中。",
     "The index of the buffer to check.":"要检查的缓冲区的索引。",
+    "The return value will be one of the following constants:":"返回值将是以下常量之一：",
+    "This function returns the type of a given buffer.":"该函数返回给定缓冲区的类型。",
     "With this function you retrieve the type of buffer that is being&nbsp;referenced by a buffer ID value. The return value will be one of the following constants:":"使用此函数可以检索缓冲区 ID 值所引用的缓冲区类型。返回值将是以下常量之一："
 }

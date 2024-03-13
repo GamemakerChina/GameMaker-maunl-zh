@@ -1,5 +1,8 @@
 {
+    "This function draws the sprite assigned to the instance exactly as it would be drawn if the Draw event held no code or actions, and will reflect and changes that have been made to the&nbsp;{}Sprite Instance Variables{} in other events.":"此函数绘制分配给实例的精灵，与在 Draw 事件不包含任何代码或操作的情况下绘制的精灵完全相同，并且会反映对其他事件中的 {} 精灵实例变量 {} 所做的更改。",
     "This function draws the sprite assigned to the instance exactly as it would be drawn if the draw event held no code or actions, and will reflect and changes that have been made to the {}sprite variables{} in other events.":"此函数将绘制分配给实例的精灵，如果绘制事件未保留任何代码或操作，则绘制该精灵的方式与绘制该精灵的方式完全相同，并将反映和更改其他事件中的{}精灵变量{}。",
+    "This makes the instance draw itself with the properties defined by the built-in sprite variables.":"这使得实例使用内置精灵变量定义的属性来绘制自身。",
     "This makes the instance draw itself with the properties defined by the in built sprite variables.":"这将使实例使用由内置精灵变量定义的特性绘制自身。",
-    "{}NOTE{}: If the instance has no sprite assigned to it, this function will throw an error!":"{}注意{}:如果实例未分配精灵，则此函数将引发错误！"
+    "{}NOTE{}: If the instance has no sprite assigned to it, this function will throw an error!":"{}注意{}:如果实例未分配精灵，则此函数将引发错误！",
+    "{}{}NOTE{}{}&nbsp;This function performs the&nbsp;{}default draw{}.":"{}{} 注意{}{} 此函数执行 {} 默认绘制 {}。"
 }

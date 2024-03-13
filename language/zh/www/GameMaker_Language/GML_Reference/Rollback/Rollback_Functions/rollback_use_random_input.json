@@ -1,0 +1,5 @@
+{
+    "Specifies whether random input should be enabled ({}true{}) or disabled ({}false{}). By default, it\u0027s enabled.":"指定是应启用 ({}true{}) 还是禁用 ({}false{}) 随机输入。默认情况下，它是启用的。",
+    "The above code disables random input during Sync Test.":"上述代码在同步测试期间禁用随机输入。",
+    "When you play a game using {}Sync Test{}, all \"remote\" players receive random values for their {}defined inputs{}, as a basic way of testing. You can disable this behaviour by calling this function with {}false{} as its argument, and enable it again by specifying {}true{}.":"当您使用 {} 同步测试 {} 玩游戏时，所有 \" 远程 \" 玩家都会收到其 {} 定义输入 {} 的随机值，作为基本的测试方式。您可以通过使用 {}false{} 作为参数调用此函数来禁用此行为，并通过指定 {}true{} 再次启用它。"
+}

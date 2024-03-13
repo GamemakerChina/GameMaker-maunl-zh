@@ -1,4 +1,6 @@
 {
     "Tell {}GameMaker{} to accept 2D positional data (x and y) as part of the new vertex format being created.":"告诉{}GameMaker{}接受2D位置数据(x和y)作为正在创建的新顶点格式的一部分。",
-    "The above code will create a new vertex format with just colour and position values and then store the format id in the variable \"my_format\".":"上述代码将创建一个只有颜色和位置值的新顶点格式，然后将格式ID存储在变量\"my_format\"中。"
+    "The above code creates a new vertex format with just colour and position values and then stores the format&nbsp;in the variable {}my_format{}.":"上面的代码创建了一个仅包含颜色和位置值的新顶点格式，然后将该格式存储在变量 {}my_format{} 中。",
+    "The above code will create a new vertex format with just colour and position values and then store the format id in the variable \"my_format\".":"上述代码将创建一个只有颜色和位置值的新顶点格式，然后将格式ID存储在变量\"my_format\"中。",
+    "This function adds data for a 2D position (x and y) to the new vertex format being created.":"此函数将 2D 位置 (x 和 y) 的数据添加到正在创建的新顶点格式中。"
 }

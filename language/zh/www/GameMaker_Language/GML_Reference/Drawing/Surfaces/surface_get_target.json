@@ -1,6 +1,13 @@
 {
+    "A couple&nbsp;of values can be returned:&nbsp;":"可以返回几个值：",
+    "If no custom surface is set and the default application surface has also been disabled, then the function will return {}-1{}.":"如果未设置自定义界面并且默认应用程序界面也已禁用，则该函数将返回 {}-1{}。",
     "If no custom surface is set and the default application_surface has also been disabled, then the function will return -1.":"如果未设置自定义表面，并且也禁用了默认的application_surface，则函数将返回-1。",
+    "If no custom surface is set, but the default application surface is still enabled, then the function will return the application surface. However, if you\u0027ve been manipulating the application surface previously you might wish to if this still matches the current value of the&nbsp;{}{}application_surface{}{} variable.":"如果未设置自定义表面，但仍启用默认应用程序表面，则该函数将返回应用程序表面。但是，如果您之前一直在操作应用程序表面，那么您可能希望这仍然与 {}{}application_surface{}{} 变量的当前值匹配。",
     "If no custom surface is set, but the default application_surface is still enabled, then the function will typically return 0. However, if you have been manipulating the application_surface previously you might wish to check that the ID you got does not match the current value of the application_surface variable, in case this is no longer 0.":"如果未设置自定义表面，但仍启用默认application_surface，则该函数通常将返回0。但是，如果您以前一直在操作application_surface，则可能希望检查所获得的ID是否与application_surface变量的当前值不匹配(如果该值不再为0)。",
+    "If you created that surface using {}{}surface_create{}{}, then that surface will be returned.":"如果您使用 {}{}surface_create{}{} 创建该曲面，则将返回该曲面。",
+    "The above code checks to see if the current render target is a surface or not, resetting the drawing target if it is. The surface stored in the variable {}surf{} is then drawn.":"上面的代码检查当前渲染目标是否是表面，如果是，则重置绘图目标。然后绘制存储在变量 {}surf{} 中的表面。",
     "The above code will check to see if the current render target is a surface or not, and if it is, it resets the target then draws a surface.":"上述代码将检查当前渲染目标是否为表面，如果是，则会重置目标，然后绘制表面。",
-    "With this function you can get the ID of the current surface being targeted for drawing to. If you created that surface using {}{}surface_create(){}{}, then this will be the positive integer which is the unique ID for that surface":"使用此函数，可以获取要绘制到的当前表面的ID。如果使用{}{}surface_create(){}{}创建了该表面，则这将是正整数，它是该表面的唯一ID"
+    "This function gets the surface that\u0027s currently set as the drawing target.":"此函数获取当前设置为绘图目标的表面。",
+    "With this function you can get the ID of the current surface being targeted for drawing to. If you created that surface using {}{}surface_create(){}{}, then this will be the positive integer which is the unique ID for that surface":"使用此函数，可以获取要绘制到的当前表面的ID。如果使用{}{}surface_create(){}{}创建了该表面，则这将是正整数，它是该表面的唯一ID",
+    "{}{}Surface{}{}&nbsp;or -1 (if no target surface is set)":"{}{} 表面 {}{} 或 -1( 如果未设置目标表面)"
 }

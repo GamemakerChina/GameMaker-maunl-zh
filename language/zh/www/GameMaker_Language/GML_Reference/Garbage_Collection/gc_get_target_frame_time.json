@@ -1,4 +1,5 @@
 {
     "The above code checks the current frame time target for the garbage collector and if it is not 50 microseconds then it is set to this value.":"上面的代码检查垃圾收集器的当前帧时间目标，如果不是 50 微秒，则将其设置为该值。",
+    "With this function you can retrieve the current target frame value for the garbage collector. The value returned is in microseconds (where 1,000,000 microseconds equals one second) and the default target frame time is 100 microseconds. If you wish to change this value then you should use the function&nbsp;{}{}gc_target_frame_time(){}{}.":"使用此函数，您可以检索垃圾收集器的当前目标帧值。返回的值以微秒为单位 (其中 1,000,000 微秒等于一秒)，默认目标帧时间为 100 微秒。如果您想更改此值，则应使用函数 {}{}gc_target_frame_time(){}{}。",
     "With this function you can retrieve the current target frame value for the garbage collector. The value returned is in microseconds{}{} (where 1,000,000 microseconds equals one second) and the default target frame time is 100 microseconds. If you wish to change this value then you should use the function&nbsp;{}{}gc_target_frame_time(){}{}.{} {}":"使用此函数，您可以检索垃圾收集器的当前目标帧值。返回的值以微秒为单位{}{}(其中 1,000,000 微秒等于一秒)，默认目标帧时间为 100 微秒。如果你想更改这个值，那么你应该使用函数{}{}gc_target_frame_time(){}{}。{}{}"
 }

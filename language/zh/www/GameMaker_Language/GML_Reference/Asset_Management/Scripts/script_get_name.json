@@ -1,5 +1,7 @@
 {
+    "For more information about scripts, see {}The Script Editor{}.":"有关脚本的更多信息，请参阅 {} 脚本编辑器 {}。",
     "The above example code will store the name of the indicated script index in the variable \"scr_name\".":"上述示例代码将在变量\"scr_name\"中存储所指示脚本索引的名称。",
     "The index of the script that you want to get the name of.":"要获取其名称的脚本的索引。",
+    "This function will return the name {}as a string{} of the specified script asset. This name is the one that has been specified for the script in the Asset Browser of the main {}GameMaker{} window. This function also accepts {}script functions{} and {}method variables{}.":"此函数将返回指定脚本资源的名称 {} 作为字符串 {}。该名称是在 {}GameMaker{} 主窗口的资源浏览器中为脚本指定的名称。此函数还接受 {} 脚本函数 {} 和 {} 方法变量 {}。",
     "This function will return the name {}as a string{} of the specified script. This name is the one that has been specified for the script in the Asset Browser of the main {}GameMaker{} window. For more information about scripts, see {}The Script Editor{}.":"此函数将以指定脚本的字符串{}的形式返回名称{}。此名称是在主{}GameMaker{}窗口的\"资源浏览器\"中为脚本指定的名称。有关脚本的更多信息，请参阅{}脚本编辑器{}。"
 }

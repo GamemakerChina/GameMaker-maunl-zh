@@ -1,5 +1,8 @@
 {
     "The above code will loop through an array and set each entry to -1.":"上面的代码将循环遍历一个数组，并将每个条目设置为-1。",
     "The index of the array to check.":"要检查的数组的索引。",
-    "With this function you can get the length (number of entries) of an array dimension. You supply the array index value and the function will return an integer value representing the number of entries the array contains. This function can also be used for multi-dimension arrays, as long as you specify which dimension you want to get the length of when you supply the array index, following this pattern:":"使用此函数，您可以获得数组维度的长度 (条目数)。您提供数组索引值，该函数将返回一个整数值，表示数组包含的条目数。该函数也可以用于多维数组，只要您指定在提供数组索引时要获取的长度，就可以按照以下模式进行:"
+    "This function gets the length (number of entries) of an array dimension.":"此函数获取数组维度的长度(条目数)。",
+    "With this function you can get the length (number of entries) of an array dimension. You supply the array index value and the function will return an integer value representing the number of entries the array contains. This function can also be used for multi-dimension arrays, as long as you specify which dimension you want to get the length of when you supply the array index, following this pattern:":"使用此函数，您可以获得数组维度的长度 (条目数)。您提供数组索引值，该函数将返回一个整数值，表示数组包含的条目数。该函数也可以用于多维数组，只要您指定在提供数组索引时要获取的长度，就可以按照以下模式进行:",
+    "You supply the array index value and the function will return an integer value representing the number of entries the array contains. This function can also be used for multi-dimension arrays, as long as you specify which dimension you want to get the length of when you supply the array index, following this pattern:":"您提供数组索引值，该函数将返回一个整数值，表示数组包含的条目数。此函数也可用于多维数组，只要您在提供数组索引时指定要获取哪个维度的长度即可，遵循以下模式：",
+    "{}{}NOTE{}{}&nbsp;The function returns 0 in case a data type that\u0027s not an&nbsp;{}{}Array{}{} is passed to it.":"{}{}注意{}{}如果传递给函数的数据类型不是{}{}数组{}{}，则该函数将返回 0。"
 }

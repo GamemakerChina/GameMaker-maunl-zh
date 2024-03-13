@@ -1,0 +1,8 @@
+{
+    "The code above first enables the use of a borderless fullscreen window with a call to&nbsp;{}{}window_enable_borderless_fullscreen{}{}. It then switches to fullscreen using&nbsp;{}{}window_set_fullscreen{}{}.":"上面的代码首先通过调用 {}{}window_enable_borderless_fullscreen{}{} 来启用无边框全屏窗口。然后使用 {}{}window_set_fullscreen{}{} 切换到全屏。",
+    "This function enables&nbsp;{}the use of a fullscreen borderless window when&nbsp;{}{}window_set_fullscreen{}{} is called, or the&nbsp;{}Alt + Enter{} key combination is used to switch to fullscreen.{}":"此函数允许 {} 在调用 {}{}window_set_fullscreen{}{} 时使用全屏无边框窗口，或者使用 {}Alt + Enter{} 组合键切换到全屏。{}",
+    "When the game runs in a fullscreen borderless window, it still runs in a window, however {}GameMaker{}&nbsp;resizes&nbsp;the window so it covers the entire screen. With borderless fullscreen enabled,&nbsp;{}{}window_get_fullscreen{}{}&nbsp;also returns&nbsp;{}true{}.":"当游戏在全屏无边框窗口中运行时，它仍然在窗口中运行，但 {}GameMaker{} 会调整窗口大小，使其覆盖整个屏幕。启用无边框全屏后，{}{}window_get_fullscreen{}{} 也会返回 {}true{}。",
+    "Whether to enable a borderless window when in fullscreen mode ({}true{}) or not ({}false{})":"是否在全屏模式下启用无边框窗口 ({}true{}) 或不启用无边框窗口 ({}false{})",
+    "{}{}IMPORTANT{}{}&nbsp;You should call this function {}before{} switching to fullscreen using&nbsp;{}{}window_set_fullscreen{}{}, as this function won\u0027t change anything when already running in fullscreen.":"{}{} 重要信息{}{} 您应该在使用 {}{}window_set_fullscreen{}{} 切换到全屏 {4} 之前 {5} 调用此函数，因为当已经在全屏模式下运行时，此函数不会更改任何内容。",
+    "{}{}NOTE{}{}&nbsp;This function only works on Windows.":"{}{} 注意{}{} 此函数仅适用于 Windows。"
+}

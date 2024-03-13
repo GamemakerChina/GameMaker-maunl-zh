@@ -1,6 +1,10 @@
 {
+    "The above code adds a floating point value to the vertex data being defined.":"上面的代码将浮点值添加到正在定义的顶点数据中。",
     "The above code will add a floating point value to the vertex data being defined.":"上述代码将向正在定义的顶点数据添加浮点值。",
     "The buffer to write the information to.":"写入信息的缓冲区。",
     "The input value.":"输入值。",
+    "The vertex buffer must have been formatted correctly to accept this using the&nbsp;{}{}vertex_format_add_custom{}{} function.":"顶点缓冲区必须已正确格式化才能使用 {}{}vertex_format_add_custom{}{} 函数接受此设置。",
+    "The vertex buffer to write the information to.":"要写入信息的顶点缓冲区。",
+    "This function adds a floating point value to the vertex data.":"该函数将浮点值添加到顶点数据。",
     "This function will add a floating point value to the vertex data. The vertex must have been formatted correctly to accept this using the {}{}vertex_format_add_custom(){}{} function.":"此函数将向顶点数据添加浮点值。要使用{}{}vertex_format_add_custom(){}{}函数接受此操作，必须正确设置顶点的格式。"
 }

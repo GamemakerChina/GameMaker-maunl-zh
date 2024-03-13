@@ -5,10 +5,21 @@
     "A primitive made up of a individual lines in a list.":"由列表中的单个行组成的基元。",
     "A primitive made up of individual triangles in a list.":"由列表中的各个三角形组成的基元。",
     "For a visual example of the different base primitives available, see the image below:":"有关可用的不同基本基元的可视示例，请参见下图：",
+    "For a visual example of the different base primitives available, see the image below:&nbsp;":"有关可用的不同基本基元的视觉示例，请参见下图：",
+    "The above code submits the vertex buffer in the variable {}buff{} for drawing with the shader {}shader_prim{}, using a triangle list as the base primitive and the texture of the sprite for the instance running the code.":"上述代码将顶点缓冲区提交到变量 {}buff{} 中，以便使用着色器 {}shader_prim{} 进行绘制，使用三角形列表作为基本基元，并使用运行代码的实例的精灵纹理。",
     "The above code will submit the vertex buffer indexed in the variable \"buff\" for drawing with the shader \"shader_prim\", using a triangle list as the base primitive and the texture of the sprite for the instance running the code.":"上述代码将提交在变量\"buff\"中索引的顶点缓冲区，以便使用着色器\"shader_prim\"绘制，并使用三角形列表作为运行代码的实例的基元和sprite纹理。",
     "The buffer to use.":"要使用的缓冲区。",
+    "The number&nbsp;of vertices in the vertex buffer must be in accordance with the primitive type you\u0027re using.":"顶点缓冲区中的顶点数量必须与您使用的图元类型一致。",
     "The primitive base type.":"基本体基本类型。",
     "The texture to use (or -1 for no texture).":"要使用的纹理(或-1表示无纹理)。",
+    "The texture to use (or {}-1{} for no texture).":"要使用的纹理 (或 {}-1{} 表示无纹理)。",
+    "The vertex buffer to use.":"要使用的顶点缓冲区。",
+    "This function can only be used in the&nbsp;{}Draw Events{}.":"此函数只能在 {} 绘制事件 {} 中使用。",
+    "This function submits the contents of a vertex buffer to the graphics pipeline for use with a shader.":"此函数将顶点缓冲区的内容提交到图形管道以供着色器使用。",
+    "Usage Notes":"使用说明",
     "You can use this function to submit the contents of a vertex buffer to the graphics pipeline for use with a shader. You supply the buffer index to use, the base primitive type to use (see the constants below) and the texture that is to be used. The base primitive type is only used for assigning the order in which the vertexes that you stored in the buffer are drawn and connected, but the actual data used for each of the vertexes will be that which you defined when creating the vertex buffer.":"可以使用此函数将顶点缓冲区的内容提交到图形管线，以便与着色器一起使用。提供要使用的缓冲区索引、要使用的基本体类型(请参见下面的常量)和要使用的纹理。基本体类型仅用于指定绘制和连接存储在缓冲区中的顶点的顺序，但用于每个顶点的实际数据将是创建顶点缓冲区时定义的数据。",
-    "{}NOTE{}: This function can only be used in the {}Draw Event{}.":"{}注意{}：此函数只能在{}绘制事件{}中使用。"
+    "You can use&nbsp;{}{}vertex_submit_ext{}{}&nbsp;instead to submit only a range of vertices in the vertex buffer.":"您可以使用 {}{}vertex_submit_ext{}{} 来仅提交顶点缓冲区中的一系列顶点。",
+    "You supply the vertex buffer, the base primitive type (see the constants below) and the texture to be used. The base primitive type is only used for assigning the order in which the vertices that you stored in the buffer are drawn and connected, but the actual data used for each of the vertices will be that which you defined when creating the vertex buffer.":"您提供顶点缓冲区、基本基元类型 (请参阅下面的常量) 和要使用的纹理。基本基元类型仅用于指定绘制和连接缓冲区中存储的顶点的顺序，但每个顶点使用的实际数据将是您在创建顶点缓冲区时定义的数据。",
+    "{}NOTE{}: This function can only be used in the {}Draw Event{}.":"{}注意{}：此函数只能在{}绘制事件{}中使用。",
+    "{}{}WARNING{}{}&nbsp;When using a surface as the texture (returned by&nbsp;{}{}surface_get_texture{}{}), you should make sure that the surface itself exists ({}{}surface_exists{}{}).":"{}{} 警告{}{} 使用表面作为纹理 (由 {}{}surface_get_texture{}{} 返回) 时，应确保表面本身存在 ({}{}surface_exists{}{}) 。"
 }

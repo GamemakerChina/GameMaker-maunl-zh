@@ -1,9 +1,13 @@
 {
+    "The above code adds four values to the vertex data being defined.":"上面的代码将四个值添加到正在定义的顶点数据中。",
     "The above code will add four values to the vertex data being defined.":"上述代码将为正在定义的顶点数据添加四个值。",
     "The buffer to write the information to.":"写入信息的缓冲区。",
     "The first input value.":"第一个输入值。",
     "The fourth input value.":"第四个输入值。",
     "The second input value.":"第二个输入值。",
     "The third input value.":"第三个输入值。",
+    "The vertex buffer must have been formatted correctly to accept this using the {}{}vertex_format_add_custom{}{}&nbsp;function.":"顶点缓冲区必须已正确格式化才能使用 {}{}vertex_format_add_custom{}{} 函数接受此设置。",
+    "The vertex buffer to write the information to.":"要写入信息的顶点缓冲区。",
+    "This function adds four unsigned byte values (0 - 255) to the vertex data.":"此函数将四个无符号字节值 (0 - 255) 添加到顶点数据。",
     "This function will add four unsigned byte values (0 - 255) to the vertex data. The vertex must have been formatted correctly to accept this using the {}{}vertex_format_add_custom(){}{} function.":"此函数将向顶点数据添加四个无符号字节值(0-255 )。要使用{}{}vertex_format_add_custom(){}{}函数接受此操作，必须正确设置顶点的格式。"
 }

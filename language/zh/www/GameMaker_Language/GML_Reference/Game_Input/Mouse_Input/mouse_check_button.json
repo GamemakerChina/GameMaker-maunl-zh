@@ -11,6 +11,8 @@
     "The middle mouse button (this may not be valid for all target platforms)":"鼠标中键 (这可能不适用于所有目标平台)",
     "The right mouse button":"鼠标右键",
     "This function will return {}true{} if the mouse button being checked is held down or {}false{} if it is not. You supply the mouse button to check from one of the following constants:":"如果按住鼠标按钮，此函数将返回{}true{}，如果不按住鼠标按钮，则返回{}false{}。您提供鼠标按钮以从以下常量之一进行检查:",
+    "This function will return {}true{} if the mouse button being checked is held down or {}false{}&nbsp;if it is not.":"如果正在检查的鼠标按钮被按下，则该函数将返回 {}true{}，否则返回 {}false{}。",
     "This function will return {}true{} if the mouse button being checked is held down or {}false{}&nbsp;if it is not. You supply the mouse button to check from one of the following constants:":"如果按住鼠标按钮，此函数将返回{}true{}，如果不按住鼠标按钮，则返回{}false{}。您提供鼠标按钮以从以下常量之一进行检查:",
-    "Which mouse button constant to check for.":"要检查哪个鼠标按钮常数。"
+    "Which mouse button constant to check for.":"要检查哪个鼠标按钮常数。",
+    "You supply the mouse button to check from one of the following constants:":"您提供鼠标按钮来检查以下常量之一："
 }

@@ -2,5 +2,11 @@
     "Assets And Tags":"资源和标签",
     "For assets in general we have the following functions:":"对于一般资源，我们具有以下函数:",
     "For dealing with the Asset browser \"tags\" system, we have the following functions:":"对于处理资源浏览器 “标签” 系统，我们具有以下函数:",
-    "The functions listed here are specifically designed for getting information from any of the assets defined in the {}Asset Browser{}, as well as the tags that have been assigned to them. Tags are a very powerful tool, both in the Asset Browser and in your actual game code, as they can be read and created at run time, giving you additional ways to filter assets when your game is running and create conditional checks or \"parent\"-type systems outside of the object-based system.":"此处列出的函数是专门为从{}资源浏览器{}中定义的任何资源以及已分配给它们的标记中获取信息而设计的。标签是一个非常强大的工具，无论是在资源浏览器中还是在您的实际游戏代码中，因为它们可以在运行时读取和创建，为您提供其他方法来过滤游戏运行时的资源，并在基于对象的系统之外创建条件检查或 “父” 类型的系统。"
+    "Function Reference":"功能参考",
+    "General":"基本",
+    "Tags":"标签",
+    "Tags are a very powerful tool, both in&nbsp;{}The Asset Browser{} and in your actual game code, as they can be read and created at runtime, giving you additional ways to filter assets when your game is running and create conditional checks or \"parent\"-type systems outside of the {}object-based system{}.":"无论是在{}资产浏览器{}还是在您的实际游戏代码中，标签都是一个非常强大的工具，因为它们可以在运行时读取和创建，从而为您提供了在游戏运行时过滤资产以及创建条件检查或{}基于对象的系统{}之外的\"父\"类型系统。",
+    "The functions listed here are specifically designed for getting information from any of the assets defined in the {}Asset Browser{}, as well as the tags that have been assigned to them. Tags are a very powerful tool, both in the Asset Browser and in your actual game code, as they can be read and created at run time, giving you additional ways to filter assets when your game is running and create conditional checks or \"parent\"-type systems outside of the object-based system.":"此处列出的函数是专门为从{}资源浏览器{}中定义的任何资源以及已分配给它们的标记中获取信息而设计的。标签是一个非常强大的工具，无论是在资源浏览器中还是在您的实际游戏代码中，因为它们可以在运行时读取和创建，为您提供其他方法来过滤游戏运行时的资源，并在基于对象的系统之外创建条件检查或 “父” 类型的系统。",
+    "The functions listed here are specifically designed for getting information from any of the assets defined in {}The Asset Browser{}, as well as the tags that have been assigned to them.":"此处列出的函数专门用于从{}资产浏览器{}中定义的任何资产以及已分配给它们的标签获取信息。",
+    "{}Assets And Tags{}":"{}资产和标签{}"
 }

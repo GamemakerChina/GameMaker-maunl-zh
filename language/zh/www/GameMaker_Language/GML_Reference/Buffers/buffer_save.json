@@ -1,7 +1,11 @@
 {
     "Saves the current contents of the buffer with the id stored in the variable \"buff\" to a file.":"使用变量\" buff \"中存储的ID将缓冲区的当前内容保存到文件中。",
+    "The above code saves the current contents of the buffer stored in the variable {}buff{} to a file.":"上述代码将变量 {}buff{} 中存储的缓冲区的当前内容保存到文件中。",
+    "The buffer to save.":"要保存的缓冲区。",
     "The index of the buffer to save.":"要保存的缓冲区的索引。",
     "The name of the file to save as.":"要另存为的文件的名称。",
+    "This function saves the contents of a buffer to a file, ready to be read back into memory using the&nbsp;{}{}buffer_load{}{} function.":"此函数将缓冲区的内容保存到文件中，准备好使用 {}{}buffer_load{}{} 函数读回内存。",
     "With this function you can save the contents of a buffer to a file, ready to be read back into memory using the {}{}buffer_load(){}{} function.":"使用此函数，您可以将缓冲区的内容保存到文件中，准备使用{}{}buffer_load(){}{}函数读回内存。",
-    "{}NOTE{}: On HTML5 the contents of the buffer will be saved&nbsp;as base64 encoded strings when using this function.":"{}注意{}：在HTML5上，使用此函数时，缓冲区的内容将保存为Base64编码的字符串。"
+    "{}NOTE{}: On HTML5 the contents of the buffer will be saved&nbsp;as base64 encoded strings when using this function.":"{}注意{}：在HTML5上，使用此函数时，缓冲区的内容将保存为Base64编码的字符串。",
+    "{}{}NOTE{}{}&nbsp;On HTML5 the contents of the buffer will be saved&nbsp;as base64 encoded strings when using this function.":"{}{} 注意 {}{} 在 HTML5 上，使用此函数时，缓冲区的内容将保存为 base64 编码的字符串。"
 }

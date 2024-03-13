@@ -1,9 +1,18 @@
 {
+    "A&nbsp;{}{}Tile Map Element ID{}{}":"{}{} 平铺地图元素 ID{}{}",
+    "An array containing a combination of objects, instances, Tile Maps and the keywords {}all{}/{}other{}":"包含对象、实例、图块地图和关键字 {}all{}/{}other{} 组合的数组",
+    "In addition to objects and instances, the function also accepts:":"除了对象和实例之外，该函数还接受：",
+    "Passing an array allows you to check for collisions against multiple objects and/or Tile Maps in one call.":"传递数组允许您在一次调用中检查多个对象和 / 或图块地图的碰撞。",
+    "See:&nbsp;{}Collisions{}":"请参阅：{} 碰撞 {}",
     "The above code will check for a collision with instances of \"obj_Enemy\" and if there is one, it will reduce the \"hp\" variable by the amount stored in the colliding instance\u0027s \"dmg\" variable and then destroy the colliding instance.":"上面的代码将检查与\"obj_Enemy\"实例的冲突，如果存在冲突，它将将\"hp\"变量减少冲突实例的\"dmg\"变量中存储的量，然后销毁冲突实例。",
     "The object to check for instances of.":"要检查其实例的对象。",
+    "The special keywords {}all{} and {}other{}":"特殊关键字 {}all{} 和 {}other{}",
     "The x position to check for instances.":"要检查实例的X位置。",
     "The y position to check for instances.":"要检查实例的Y位置。",
     "This function will return the unique instance {}{}id{}{} of the object being collided, but if that is not needed it is slightly faster to use the function {}{}place_meeting(){}{}. This function also accepts the special keywords {}{}all{}{} and {}{}other{}{} and will return the {}keyword{} {}{}noone{}{} if no collision occurs, or the unique instance ID value of the instance found if a collision does occur.":"此函数将返回要碰撞的对象的唯一实例{}{}id{}{}，但如果不需要，则使用函数{}{}place_meeting(){}{}稍快一些。 此函数还接受特殊关键字{}{}all{}{}和{}{}other{}{}，如果没有发生冲突，将返回{}关键字{}{}{}noone{}{}，如果确实发生冲突，则返回找到的实例的唯一实例 ID 值。",
+    "This function will return the unique {}{}id{}{} of the instance being collided with, or the {}{}Tile Map Element ID{}{}&nbsp;of the tile map found, but if that is not needed it is slightly faster to use the function {}{}place_meeting(){}{}. If no collisions are found, {}{}noone{}{} is returned.":"此函数将返回发生碰撞的实例的唯一 {}{}id{}{}，或找到的图块地图的 {}{} 图块地图元素 ID{}{}，但如果不需要，则返回使用函数 {}{}place_meeting(){}{} 的速度稍快一些。如果未发现冲突，则返回 {}{}noone{}{}。",
     "This will work for precise collisions, but only if both the instance and the object being checked for have precise collision masks selected otherwise only bounding box collisions are applied.":"这将适用于精确碰撞，但仅当实例和要检查的对象都选择了精确碰撞遮罩时才适用，否则仅应用边界框碰撞。",
-    "With this function you can check a position for a collision with another instance or all instances of an object using the collision mask of the instance that runs the code for the check. When you use this you are effectively asking {}GameMaker{} to move the instance to the new position, check for a collision, move back and tell you if a collision was found or not.":"使用此函数，您可以使用为检查运行代码的实例的碰撞掩码来检查与另一个实例或对象的所有实例碰撞的位置。使用该选项时，实际上是要求{}GameMaker{}将实例移动到新位置，检查冲突，向后移动，并告诉您是否发现冲突。"
+    "With this function you can check a position for a collision with another instance or all instances of an object using the collision mask of the instance that runs the code for the check. When you use this you are effectively asking {}GameMaker{} to move the instance to the new position, check for a collision, move back and tell you if a collision was found or not.":"使用此函数，您可以使用为检查运行代码的实例的碰撞掩码来检查与另一个实例或对象的所有实例碰撞的位置。使用该选项时，实际上是要求{}GameMaker{}将实例移动到新位置，检查冲突，向后移动，并告诉您是否发现冲突。",
+    "{}An object, instance, tile map ID, keywords all/other, or array containing these items{}":"{} 对象、实例、图块地图 ID、所有 / 其他关键字或包含这些项目的数组 {}",
+    "{}{}Object Instance{}{}&nbsp;or&nbsp;{}{}Tile Map Element ID{}{} or {}{}noone{}{}":"{}{} 对象实例 {}{} 或 {}{} 平铺地图元素 ID{}{} 或 {}{} noone {}{}"
 }

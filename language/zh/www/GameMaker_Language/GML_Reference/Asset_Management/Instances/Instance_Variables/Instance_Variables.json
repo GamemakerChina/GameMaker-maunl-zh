@@ -2,6 +2,7 @@
     "Instance Variables":"实例变量",
     "Instances also have one general variable, or rather&nbsp;{}method{}, that can be defined to change how this instance is converted to&nbsp;{}string{}:&nbsp;{} &nbsp;":"实例还具有一个通用变量，或者更确切地说，{}方法{}，可以定义该变量以更改此实例转换为{}字符串{}的方式。",
     "Most instance variables can be set as well as read, permitting you to change the properties and behaviour of an instance simply by tweaking the value of a certain variable - you can prevent an instance from drawing, for example, by simply setting the {}visible{} built-in variable to {}false{}. Below you can find the different variables that are initialised for all instances of all objects in your game.":"大多数实例变量都可以设置和读取，允许您通过调整某个变量的值来更改实例的属性和行为，例如，只需将{}visible{}内置变量设置为{}false{}即可防止实例绘制。 下面可以找到为游戏中所有对象的所有实例初始化的不同变量。",
+    "Most instance variables can be set as well as read, permitting you to change the properties and behaviour of an instance simply by tweaking the value of a certain variable - you can prevent an instance from drawing, for example, by simply setting the&nbsp;{}{}visible{}{} built-in variable to {}false{}. Below you can find the different variables that are initialised for all instances of all objects in your game.":"大多数实例变量都可以设置和读取，允许您只需调整某个变量的值即可更改实例的属性和行为 - 您可以阻止实例绘制，例如，只需设置 {}{}visible{}{} 内置变量设置为 {}false{}。您可以在下面找到为游戏中所有对象的所有实例初始化的不同变量。",
     "Object Properties":"对象属性",
     "Sequences":"序列",
     "The following variable holds the unique index ID of the object that the instance was created from:":"以下变量保存创建实例的对象的唯一索引ID：",
@@ -14,6 +15,7 @@
     "These variables deal with the collision mask:":"这些变量处理碰撞掩码：",
     "These variables deal with the instance position and movement:":"这些变量处理实例位置和移动：",
     "When you create a new object, it will come with certain variables already initialised with default values. These variables we call {}instance variables{}, since they will be created for every instance you place of the object in your game rooms, and once an instance is created the values of these variables are unique to that instance and {}only{} that instance. Some of these variables you will use a lot, like {}x{} and {}y{}, while others are required less depending on what you want to do, but in general they are very useful and where possible you should be looking to use them rather than creating your own custom variables.":"创建新对象时，它将带有某些已用默认值初始化的变量。这些变量我们称为{}实例变量{}，因为它们将为您在游戏室中放置对象的每个实例创建，一旦创建实例，这些变量的值对于该实例是唯一的，并且只{}该实例{}。这些变量中，有些将使用很多，如{}x{}和{}y{}，而其他变量则不太需要，这取决于您想做什么，但通常它们非常有用，在可能的情况下，您应该考虑使用它们，而不是创建自己的自定义变量。",
+    "When you create a new object, it will come with certain variables already initialised with default values. These variables we call {}instance variables{}, since they will be created for every instance you place of the object in your game rooms, and once an instance is created the values of these variables are unique to that instance and {}only{} that instance. Some of these variables you will use a lot, like&nbsp;{}{}x{}{} and {}{}y{}{}, while others are required less depending on what you want to do, but in general they are very useful and where possible you should be looking to use them rather than creating your own custom variables.":"当您创建一个新对象时，它将附带某些已使用默认值初始化的变量。我们将这些变量称为 {} 实例变量 {}，因为将为您在游戏室中放置对象的每个实例创建它们，并且创建实例后，这些变量的值对于该实例来说是唯一的，并且 {} 仅 {} 那个实例。其中一些变量您会经常使用，例如 {}{}x{}{} 和 {}{}y{}{}，而其他变量则需要较少，具体取决于您想要执行的操作，但总的来说，它们非常有用有用，并且在可能的情况下您应该考虑使用它们而不是创建自己的自定义变量。",
     "toString&nbsp;Method":"toString 方法",
     "{}General Variables{}":"{}一般变量{}",
     "{}IMPORTANT{}&nbsp;If an instance is in a {}sequence{} then some of these variables - like&nbsp;{}{}image_xscale{}{}&nbsp;&nbsp;/&nbsp;{}{}image_yscale{}{}&nbsp;/ {}{}image_angle{}{}&nbsp;/&nbsp;{}{}x{}{}&nbsp;/&nbsp;{}{}y{}{}&nbsp;- will be&nbsp;overwritten when the sequence updates each step after starting to be played.":"{}重要{} 如果实例在{}序列{}中，当序列在开始播放后更新每个步骤时，将覆盖这些变量，如 {}{}image_xscale{}{} / {}{}image_yscale{}{} / {}{}image_angle{}{} / {}{}x{}{} / {}{}y{}{}。",
@@ -22,5 +24,6 @@
     "{}Paths{}":"{}路径{}",
     "{}Physics{}":"{}物理{}",
     "{}Sprite Properties{}":"{}Sprite 属性{}",
-    "{}Timelines{}":"{}时间线{}"
+    "{}Timelines{}":"{}时间线{}",
+    "{}{}IMPORTANT{}{}&nbsp;If an instance is in a {}sequence{} then some of these variables - like&nbsp;{}{}image_xscale{}{}&nbsp;/&nbsp;{}{}image_yscale{}{} /&nbsp;{}{}image_angle{}{} /&nbsp;{}{}x{}{} /&nbsp;{}{}y{}{}&nbsp;- will be&nbsp;overwritten when the sequence updates each step after starting to be played.":"{}{} 重要提示{}{} 如果实例位于 {} 序列 {} 中，则其中一些变量 - 例如 {}{}image_xscale{}{}/{}{}image_yscale{}{}/{}{}image_angle{}{}/{}{}x{}{}/{}{}y{}{}- 当序列在开始播放后更新每个步骤时将被覆盖。"
 }

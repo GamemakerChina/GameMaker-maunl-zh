@@ -1,7 +1,12 @@
 {
+    "The above code deletes the buffer stored in the variable {}player_buffer{} and then sets the variable to {}-1{}.":"上述代码删除变量 {}player_buffer{} 中存储的缓冲区，然后将该变量设置为 {}-1{}。",
     "The above code will delete the previously created buffer with the id stored in the variable \"player_buffer\" and then sets the variable to -1.":"上面的代码将删除先前创建的缓冲区，其ID存储在变量\"玩家_缓冲区\"中，然后将该变量设置为-1。",
+    "The buffer to delete.":"要删除的缓冲区。",
     "The index of the buffer to delete.":"要删除的缓冲区的索引。",
+    "This function deletes a buffer previously created using&nbsp;{}{}buffer_create{}{} from memory, releasing the resources used to create it and removing any data that it may currently contain.":"此函数从内存中删除先前使用 {}{}buffer_create{}{} 创建的缓冲区，释放用于创建它的资源并删除它当前可能包含的任何数据。",
     "With this function you can delete a buffer previously have created using the function {}{}buffer_create(){}{} from memory, releasing the resources used to create it and removing any data that it may currently contain.":"使用这个函数，您可以从内存中删除以前使用函数{}{}Buffer_create(){}{}创建的缓冲区，释放用于创建该缓冲区的资源，并删除当前可能包含的任何数据。",
     "{}NOTE{}: It\u0027s important to always remove any dynamically created resources from memory when you no longer need them to prevent memory leaks.":"{}注意{}：重要的是，当您不再需要任何动态创建的资源时，请始终从内存中删除它们，以防止内存泄漏。",
-    "{}{}IMPORTANT!{}{} When you create a buffer, the index value used to identify it is an integer value starting at 0. These indices are re-used by GameMaker, so a destroyed buffer index value may be used by a newly created one afterwards, and we recommend that you set any variable that holds a buffer&nbsp;index to -1 after having destroyed the buffer.":"{}{}重要！{}{}创建缓冲区时，用于标识缓冲区的索引值是从0开始的整数值。这些索引由GameMaker重新使用，因此被破坏的缓冲区索引值可以由新创建的缓冲区索引值使用。我们建议您在销毁缓冲区后，将保存缓冲区索引的任何变量设置为-1。"
+    "{}{}IMPORTANT!{}{} When you create a buffer, the index value used to identify it is an integer value starting at 0. These indices are re-used by GameMaker, so a destroyed buffer index value may be used by a newly created one afterwards, and we recommend that you set any variable that holds a buffer&nbsp;index to -1 after having destroyed the buffer.":"{}{}重要！{}{}创建缓冲区时，用于标识缓冲区的索引值是从0开始的整数值。这些索引由GameMaker重新使用，因此被破坏的缓冲区索引值可以由新创建的缓冲区索引值使用。我们建议您在销毁缓冲区后，将保存缓冲区索引的任何变量设置为-1。",
+    "{}{}IMPORTANT{}{}&nbsp;When you create a buffer, a reference to&nbsp;the new buffer is returned. After the buffer is destroyed, we recommend that you set the variable that holds a buffer&nbsp;reference to {}-1{}.":"{}{} 重要信息{}{} 创建缓冲区时，会返回对新缓冲区的引用。缓冲区被销毁后，我们建议您将保存缓冲区引用的变量设置为 {}-1{}。",
+    "{}{}{}NOTE{}{}{} It\u0027s important to always remove any dynamically created resources from memory when you no longer need them to prevent memory leaks.":"{}{}{} 注意{}{}{} 当您不再需要任何动态创建的资源时，务必从内存中删除它们，以防止内存泄漏，这一点很重要。"
 }

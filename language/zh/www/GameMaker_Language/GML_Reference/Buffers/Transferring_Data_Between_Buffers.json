@@ -1,0 +1,19 @@
+{
+    "A few things are specific to vertex buffers:&nbsp;":"有一些特定于顶点缓冲区的事情：",
+    "A vertex buffer is a special type of buffer. The vertex format determines what data is written to the buffer and in which order. You don\u0027t have to write the values directly, but can call functions such as&nbsp;{}{}vertex_position_3d{}{}, {}{}vertex_colour{}{},&nbsp;{}{}vertex_texcoord{}{}, etc.":"顶点缓冲区是一种特殊类型的缓冲区。顶点格式决定将哪些数据写入缓冲区以及以何种顺序写入。您不必直接写入值，但可以调用 {}{}vertex_position_3d{}{}、{}{}vertex_colour{}{}、{}{}vertex_texcoord{}{} 等函数。",
+    "At the lowest level, a buffer is a contiguous region in memory that consists of bytes. Using the functions&nbsp;{}{}buffer_read{}{}&nbsp;and&nbsp;{}{}buffer_write{}{}&nbsp;(and&nbsp;{}{}buffer_peek{}{},&nbsp;{}{}buffer_poke{}{}&nbsp;and {}{}buffer_fill{}{}) basic data types can be written into a buffer. On top of this, these basic data types can be combined to create data structures where each entry in the structure follows a given format.":"在最低级别，缓冲区是内存中由字节组成的连续区域。使用函数 {}{}buffer_read{}{} 和 {}{}buffer_write{}{}( 以及 {}{}buffer_peek{}{}、{}{}buffer_poke{}{} 和 {}{}buffer_fill{}{}) 基本数据类型可以写入缓冲区。除此之外，可以组合这些基本数据类型来创建数据结构，其中结构中的每个条目都遵循给定的格式。",
+    "Buffer to Buffer":"缓冲区到缓冲区",
+    "Buffer to&nbsp;Vertex Buffer":"缓冲区到顶点缓冲区",
+    "Each of the components of a&nbsp;colour attribute (R, G, B, A) is stored as an unsigned byte ({}buffer_u8{}).":"颜色属性的每个组成部分 (R、G、B、A) 均存储为无符号字节 ({}buffer_u8{})。",
+    "Items stored in a buffer in such a structured way all take up the same number&nbsp;of bytes. This is the number&nbsp;of bytes to move to go from&nbsp;one item to the next and is called the stride.":"以这种结构化方式存储在缓冲区中的项目都占用相同数量的字节。这是从一个项目移动到下一个项目所需的字节数，称为步幅。",
+    "Most components&nbsp;of the vertex attributes&nbsp;are stored as a 32bit float ({}buffer_f32{}).":"顶点属性的大多数组件都存储为 32 位浮点 ({}buffer_f32{})。",
+    "The following functions allow copying parts&nbsp;of data from&nbsp;one buffer to another:&nbsp;":"以下函数允许将部分数据从一个缓冲区复制到另一个缓冲区：",
+    "The following functions can be used to transfer data between buffers and vertex buffers and vice versa:&nbsp;":"以下函数可用于在缓冲区和顶点缓冲区之间传输数据，反之亦然：",
+    "The following schematic shows how the data in a vertex buffer maps to the data in a buffer, and the other way around:&nbsp;":"下图显示了顶点缓冲区中的数据如何映射到缓冲区中的数据，以及相反的方式：",
+    "The stride in this case is the size of the vertex format (and that of a vertex).":"在这种情况下，步幅是顶点格式 (以及顶点的大小) 的大小。",
+    "This page gives an&nbsp;overview&nbsp;of how you can transfer data between buffers and vertex buffers.":"本页概述了如何在缓冲区和顶点缓冲区之间传输数据。",
+    "{}Transferring Data Between Buffers{}":"{} 在缓冲区之间传输数据 {}",
+    "{}buffer_copy_stride{}: copies a contiguous block&nbsp;of bytes multiple times. You can use this to copy e.g. all positions, all colours, all UV\u0027s, etc.":"{}buffer_copy_stride{}：多次复制连续的字节块。您可以使用它来复制例如所有位置、所有颜色、所有 UV 等。",
+    "{}buffer_copy{}: copies a contiguous block&nbsp;of bytes&nbsp;once":"{}buffer_copy{}：复制连续的字节块一次",
+    "{}{}TIP{}{}&nbsp;You can use the function&nbsp;{}{}vertex_format_get_info{}{}&nbsp;to get information&nbsp;on how the data&nbsp;of a vertex in a given format is laid&nbsp;out in a buffer.":"{}{} 提示{}{} 您可以使用函数 {}{}vertex_format_get_info{}{} 获取有关给定格式的顶点数据如何在缓冲区中布局的信息。"
+}

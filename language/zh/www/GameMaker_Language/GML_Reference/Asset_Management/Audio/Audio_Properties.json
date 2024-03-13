@@ -1,6 +1,7 @@
 {
     "Asset":"资源",
     "Asset-level offset unless instance-level offset is given":"资源级别偏移量，除非给出实例级偏移量",
+    "Asset-level offset unless instance-level offset is passed to the {}audio_play_sound_*{} functions":"资产级偏移量，除非将实例级偏移量传递给{}audio_play_sound_*{}函数",
     "Emitter":"发射器",
     "Global/Listener":"全局/监听",
     "Group":"组",
@@ -10,9 +11,13 @@
     "Notes":"注意事项",
     "P{}asset{} * P{}emitter{} * P{}instance{}":"P{}资源{} * P{}发射器{} * P{}实例{}",
     "Result":"结果",
+    "The default asset-level gain is the value of the \"Volume\" slider in {}The Sound Editor{}:&nbsp;":"默认资源级增益是{}声音编辑器{}中\"音量\"滑块的值：",
     "The default asset-level gain is the value of the sound asset\u0027s \"Volume\" slider:&nbsp;":"默认的资源级别增益是声音资源的\"音量\"滑块的值： ",
     "The table below lists all applicable levels for the basic audio properties, and lists the functions you can use the set and get each property at each level.":"下表列出了基本音频属性的所有适用级别，并列出了您可以在每个级别使用设置和获取每个属性的函数。",
+    "The table below lists all applicable levels for the basic audio properties, and lists the functions you can use to&nbsp;set and get each property at each level.":"下表列出了基本音频属性的所有适用级别，并列出了可用于设置和获取每个级别的每个属性的函数。",
+    "This can still be changed in-game later by calling {}{}audio_sound_gain{}{}&nbsp;with the sound {}asset{} ID as the argument:&nbsp;":"稍后仍可以在游戏中更改此设置，方法是使用声音{4}资产{5}ID 作为参数调用{}{}audio_sound_gain{}{}：",
     "This page gives a detailed overview of the audio properties that&nbsp;{}GameMaker{}&nbsp;supports and the different \"levels\" at which you can set/change them.":"本页详细概述了 {}GameMaker{} 支持的音频属性以及您可以设置/更改这些属性的不同\"级别\"。",
+    "audio_sound_gain(snd_Explode, 0, 0);&nbsp; // Set the asset-level gain to 0 (new instances of this sound play muted)":"audio_sound_gain(snd_Explode, 0, 0); // 将资产级增益设置为 0(该声音的新实例静音)",
     "{}Audio Properties Overview{}":"{}音频属性概述{}",
     "{}This can still be changed in-game later by calling {}{}audio_sound_gain{}{}&nbsp;with the sound {}asset{} ID as the argument:&nbsp;":"{}以后仍可以在游戏中通过调用以声音{5}资源{6} ID 作为参数的 {}{}audio_sound_gain{}{} 来更改此设置： "
 }

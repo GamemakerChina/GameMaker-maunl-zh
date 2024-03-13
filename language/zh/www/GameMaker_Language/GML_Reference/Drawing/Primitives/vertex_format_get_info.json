@@ -1,0 +1,8 @@
+{
+    "An array&nbsp;of elements. Each array element is a struct containing the following:&nbsp;{} - usage ({}{}Vertex Usage Type Constant{}{}){} - type ({}{}Vertex Data Type Constant{}{}){} - size ({}{}Real{}{}){} -&nbsp;offset ({}{}Real{}{})":"元素数组。每个数组元素都是一个包含以下内容的结构体：{}- 用法 ({}{} 顶点使用类型常量 {}{}){}- 类型 ({}{} 顶点数据类型常量 {}{}){}- 大小 ({}{}Real{}{}){}- 偏移量 ({}{}Real{}{})",
+    "The above code first creates a custom vertex format and then gets the info using&nbsp;{}{}vertex_format_get_info{}{}. After that, the info is shown in a debug message.":"上面的代码首先创建自定义顶点格式，然后使用 {}{}vertex_format_get_info{}{} 获取信息。之后，该信息将显示在调试消息中。",
+    "The number&nbsp;of elements (vertex attributes) in a single vertex":"单个顶点中元素 (顶点属性) 的数量",
+    "The total size in bytes of a single vertex":"单个顶点的总大小 (以字节为单位)",
+    "The vertex format, as returned by&nbsp;{}{}vertex_format_end{}{}":"顶点格式，由 {}{}vertex_format_end{}{} 返回",
+    "This function returns a&nbsp;{}struct{} with information&nbsp;on a previously created {}vertex format{}.":"此函数返回一个 {} 结构体 {}，其中包含先前创建的 {} 顶点格式 {} 的信息。"
+}

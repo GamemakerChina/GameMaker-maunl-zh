@@ -1,3 +1,17 @@
 {
-    "Rollback Preferences":"玩家首选项"
+    "A preference can be of any type, e.g. a number, string, array, etc., but it\u0027s recommended to use a {}struct{}, which is the easiest way to store a collection of variables.":"首选项可以是任何类型，例如数字、字符串、数组等，但建议使用 {} 结构体 {}，这是存储变量集合的最简单方法。",
+    "Before the game has started, you can set the preferences for a player by calling {}{}rollback_set_player_prefs(){}{}&nbsp;/&nbsp;{}Set Player Prefs (Rollback){} on that player\u0027s client. These can later be read through {}{}rollback_get_player_prefs(){}{} / {}Get Player Prefs (Rollback){}, or the {}player_prefs{} variable in a player instance.":"在游戏开始之前，您可以通过在玩家客户端上调用 {}{}rollback_set_player_prefs(){}{}/{} 设置玩家首选项 (回滚 ){} 来设置该玩家的首选项。稍后可以通过 {}{}rollback_get_player_prefs(){}{}/{} 获取播放器首选项 (回滚 ){} 或播放器实例中的 {}player_prefs{} 变量读取这些内容。",
+    "Data Types and Limit":"数据类型和限制",
+    "First, enable preferences by calling {}{}rollback_use_player_prefs(){}{} / {}Use Player Prefs (Rollback){}. With this function you can optionally set the default preferences for all players.":"首先，通过调用 {}{}rollback_use_player_prefs(){}{}/{} 使用播放器首选项 (回滚 ){} 来启用首选项。通过此功能，您可以选择为所有玩家设置默认首选项。",
+    "How To Use Preferences":"如何使用首选项",
+    "If preferences were set before connecting, then on completing the connection, the last preferences set before connecting are sent to all players.":"如果在连接之前设置了首选项，则在完成连接时，连接之前设置的最后一个首选项将发送给所有玩家。",
+    "If you\u0027ve enabled preferences, and there are no default preferences set, then the game {}will not{} start unless the preferences for all players have been set.":"如果您已启用首选项，并且没有设置默认首选项，则游戏 {} 将不会 {} 启动，除非所有玩家的首选项均已设置。",
+    "In such a case, you can either call {}{}rollback_start_game(){}{} repeatedly in an alarm to try starting the game, or call it whenever the {}rollback_player_prefs{}&nbsp;{}Rollback Event{} is received.":"在这种情况下，您可以在闹钟中重复调用 {}{}rollback_start_game(){}{} 以尝试启动游戏，或者在收到 {}rollback_player_prefs{}{} 回滚事件 {} 时调用它。",
+    "Once you call that function, \"auto-start\" is disabled, meaning the game won\u0027t start even when all players have joined, and you\u0027ll have to start it manually with {}{}rollback_start_game(){}{} / {}Start Rollback Game{}.":"调用该函数后，\"自动启动 \" 将被禁用，这意味着即使所有玩家都加入，游戏也不会启动，您必须使用 {}{}rollback_start_game(){}{}/{} 开始回滚游戏 {}。",
+    "Rollback Event":"回滚事件",
+    "Rollback Preferences":"玩家首选项",
+    "Start Condition":"开始条件",
+    "The maximum size of a preference payload is 800 bytes, meaning the data you can send as a preference must be 800 bytes or less. If you\u0027re sending a struct, you can {}convert it to a JSON string{} and {}get its byte size{} to get an idea of its size. However, in most cases, structs sent directly (i.e. without being converted into JSON) will have a smaller size than their JSON equivalent, due to the way they are encoded internally.":"首选项有效负载的最大大小为 800 字节，这意味着您可以作为首选项发送的数据必须为 800 字节或更少。如果您要发送结构体，您可以 {} 将其转换为 JSON 字符串 {} 并 {} 获取其字节大小 {} 以了解其大小。但是，在大多数情况下，直接发送的结构 (即不转换为 JSON) 的大小将小于其等效 JSON，这是由于它们内部编码的方式所致。",
+    "When a player changes its preferences, everyone in the game receives a {}rollback_player_prefs{}&nbsp;{}Rollback Event{}. The player must be completely connected for the event to be sent.":"当玩家更改其首选项时，游戏中的每个人都会收到 {}rollback_player_prefs{}{} 回滚事件 {}。玩家必须完全连接才能发送事件。",
+    "You might want to allow each player to select a character, or customise its properties. Such properties can be set up as \"player preferences\".":"您可能希望允许每个玩家选择一个角色，或自定义其属性。这些属性可以设置为 \" 玩家偏好\"。"
 }

@@ -1,9 +1,14 @@
 {
     "On Android devices, calling {}game_end(){} will push the app into the background, but it will {}not{} close the app. This must be done by the user.":"在Android设备上，调用{}game_end(){}会将应用程序推入后台，但不会{}关闭应用程序。这必须由用户完成。",
+    "On Android devices, calling&nbsp;{}{}game_end{}{} will push the app into the background, but it will {}not{} close the app. This must be done by the user.":"在 Android 设备上，调用 {}{}game_end{}{} 会将应用推入后台，但 {} 不会 {} 关闭应用。这必须由用户完成。",
     "On HTML5 it will end the game, but leave the user staring at a blank draw canvas on the web page, and as such it isn\u0027t recommended that it be used on that target platform.":"在HTML5上，它将结束游戏，但让用户盯着网页上的空白画布，因此不建议在该目标平台上使用它。",
     "On Windows, Linux and macOS the function simply ends the game and closes the game window (the&nbsp;{}Game End Event{} will also be triggered).":"在Windows、Linux和macOS上，该函数只需结束游戏并关闭游戏窗口({}游戏结束事件{}也将被触发)。",
     "On all consoles, it may crash the game or at best fail silently,&nbsp;and it may also be a submission fail,&nbsp;so this function&nbsp;{}must not be used{}.":"在所有控制台上，它可能会使游戏崩溃，或者最好是静默失败，而且可能还会导致提交失败，因此不能使用此函数{}。",
     "On iOS it will do nothing and silently fail.":"在iOS上它将什么都不做，默默地失败。",
+    "This function ends the game and triggers the {}Game End Event{}.":"此函数结束游戏并触发 {} 游戏结束事件 {}。",
+    "This will not happen instantaneously, but rather at the end of the current step, so any code you have in the same step after this function has been called will still run.":"这不会立即发生，而是在当前步骤结束时发生，因此调用此函数后同一步骤中的任何代码仍将运行。",
     "This would end the game if the player presses the \"escape\" key.":"如果玩家按下\"逃逸\"键，这将结束游戏。",
-    "With this function you can end the game (and the {}Game End Event{} will be triggered). This will not happen instantaneously, but rather at the end of the current step, so any code you have in the same step after this function has been called will still run. Please note that this function has the following restrictions:":"使用此函数，您可以结束游戏(将触发{}游戏结束事件{})。这种情况不会立即发生，而是在当前步骤结束时发生，因此在调用此函数之后，您在同一步骤中拥有的任何代码仍将运行。请注意，此函数具有以下限制："
+    "Usage Notes":"使用说明",
+    "With this function you can end the game (and the {}Game End Event{} will be triggered). This will not happen instantaneously, but rather at the end of the current step, so any code you have in the same step after this function has been called will still run. Please note that this function has the following restrictions:":"使用此函数，您可以结束游戏(将触发{}游戏结束事件{})。这种情况不会立即发生，而是在当前步骤结束时发生，因此在调用此函数之后，您在同一步骤中拥有的任何代码仍将运行。请注意，此函数具有以下限制：",
+    "{}{}OPTIONAL{}{}&nbsp;The return code of the application, defaults to 0.":"{}{} 可选{}{} 应用程序的返回代码，默认为 0。"
 }

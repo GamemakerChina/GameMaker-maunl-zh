@@ -5,8 +5,10 @@
     "Keyboard Input":"键盘输入",
     "Mouse Input":"鼠标输入",
     "The fundamental thing that makes a game a {}game{} is the interaction with the player. This is achieved by a variety of means, with the keyboard and mouse on computers and through the touch screen and device tilting on mobile, oe even through a gamepad on all the platforms!":"使游戏成为{}游戏{}的基本要素是与玩家的互动。这是通过多种方式实现的，包括计算机上的键盘和鼠标，在移动设备上通过触摸屏和设备倾斜，甚至通过所有平台上的游戏手柄来实现！",
+    "The fundamental thing that makes a game a {}game{} is the interaction with the player. This is achieved by a variety of means, with the keyboard and mouse on computers and through the touch screen and device tilting on mobile, or even through a gamepad on all the platforms!":"使游戏成为 {} 游戏 {} 的根本在于与玩家的互动。这是通过多种方式实现的，在计算机上使用键盘和鼠标，在移动设备上通过触摸屏和设备倾斜，甚至通过所有平台上的游戏手柄！",
     "There are a great number of functions for game input and control in your&nbsp;games, and so they have been split into sections related to specific input methods to make it easier to find what you need. The available sections are:":"在你的游戏中有大量的游戏输入和控制函数，所以它们被分成与特定输入法相关的部分，以便更容易找到你需要的东西。可用的部分是:",
     "To begin with in {}GameMaker{} you would use the dedicated {}mouse or keyboard events{}&nbsp;on PCs or the {}gesture events{} on mobile, but sometimes you need more control than these events provide, or you want to include gamepad controls or multiple different control options. For that you can use the different game input functions to get which buttons or keys have been pressed or released as well as retrieve the touches on a screen or how much a gamepad joystick has been moved.":"首先在{}GameMaker{}中，您可以使用pc上的专用{}鼠标或键盘事件{}或移动设备上的{}手势事件{}，但有时您需要比这些事件提供的更多的控制权，或者您想要包括游戏手柄控件或多个不同的控件选项。为此，您可以使用不同的游戏输入函数来获取已按下或释放的按钮或键，以及检索屏幕上的触摸或移动了多少游戏手柄操纵杆。",
     "Virtual Keys And Virtual Keyboards":"虚拟按键和虚拟键盘",
-    "{}Device Input{}":"{}设备输入{}"
+    "{}Device Input{}":"{}设备输入{}",
+    "{}Game Input{}":"{} 游戏输入 {}"
 }

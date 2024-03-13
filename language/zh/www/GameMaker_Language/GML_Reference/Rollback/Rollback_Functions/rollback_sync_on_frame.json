@@ -1,0 +1,12 @@
+{
+    "Attempting to synchronise players with this function may cause a freeze. You must ensure that this function is not continuously called in a Step event.":"尝试使用此功能同步玩家可能会导致冻结。您必须确保该函数不会在 Step 事件中连续调用。",
+    "If all players are synchronised, it sets the {}winning_player{} variable. This results in the first condition becoming {}false{}, ensuring that {}rollback_sync_on_frame(){} is not called again.":"如果所有玩家都已同步，则会设置 {}winning_player{} 变量。这会导致第一个条件变为 {}false{}，确保不会再次调用 {}rollback_sync_on_frame(){}。",
+    "If both are true, it means the player should win. However, before doing that, it checks if all players are synchronised, to ensure that the state is correct.":"如果两者都为真，则意味着玩家应该获胜。但是，在执行此操作之前，它会检查所有玩家是否已同步，以确保状态正确。",
+    "If players are not synchronised on the current frame, it returns {}false{}, and attempts to synchronise all players.":"如果玩家在当前帧上未同步，则会返回 {}false{}，并尝试同步所有玩家。",
+    "Instead, use it as a toggle. See the example at the bottom of the page.":"相反，将其用作切换开关。请参阅页面底部的示例。",
+    "It checks if there is no winning player, and if the current player has the points required for winning.":"它检查是否没有获胜玩家，以及当前玩家是否具有获胜所需的积分。",
+    "The variable&nbsp;{}{}rollback_confirmed_frame{}{}&nbsp;is updated automatically when all players are synchronised.":"当所有玩家同步时，变量 {}{}rollback_confirmed_frame{}{} 会自动更新。",
+    "This code runs in a player object\u0027s Step event.":"此代码在玩家对象的 Step 事件中运行。",
+    "This function checks if all players are synchronised on the current frame, meaning their states are not based on predictions but on the actual data received from them. In such a case, it returns {}true{}.":"此函数检查所有玩家是否在当前帧上同步，这意味着他们的状态不是基于预测，而是基于从他们接收到的实际数据。在这种情况下，它会返回 {}true{}。",
+    "This means the function is used as a toggle, instead of running continuously every frame.":"这意味着该函数用作切换，而不是每帧连续运行。"
+}

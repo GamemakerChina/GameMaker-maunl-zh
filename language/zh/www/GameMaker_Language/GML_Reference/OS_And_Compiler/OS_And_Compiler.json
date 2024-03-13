@@ -1,4 +1,5 @@
 {
+    "Certain functions and constants are {}pre-compiled{} when you run your game (i.e.: they are used to define how the final game will be compiled), and some are also for use when the game has been compiled to get specific details about the runtime environment. Here you can find the full list of them:":"某些函数和常量会在您运行游戏时 {} 预编译 {}( 即：它们用于定义最终游戏的编译方式)，有些函数和常量也可在游戏编译后使用以获取具体细节关于运行时环境。您可以在这里找到它们的完整列表：",
     "Certain functions are {}pre-compiled{} when you run your game (ie: they are used to define how the final game will be compiled), and some are also for use when the game has been compiled to get specific details about the runtime environment. Here you can find the full list of these functions:":"某些函数在运行游戏时会被{}预编译{}(即: 它们用于定义最终游戏的编译方式)，并且某些函数也用于在编译游戏以获取有关运行时环境的特定详细信息时使用。在这里，您可以找到这些函数的完整列表:",
     "Clipboard":"剪贴板",
     "Extensions":"扩展",
@@ -6,6 +7,7 @@
     "OS And Compiler":"操作系统和编译器",
     "OS and Browser":"操作系统和浏览器",
     "On Windows, the resolution of the Windows thread scheduler is set to 1ms by default when your game runs.&nbsp;The following functions are available for retrieving and changing the resolution of the Windows thread scheduler at runtime:":"在Windows上，当您的游戏运行时，Windows线程调度程序的分辨率默认设置为1ms。以下函数可用于在运行时检索和更改Windows线程调度程序的分辨率:",
+    "Pre-compiled Functions and&nbsp;Constants":"预编译函数和常量",
     "Scheduler":"调度器",
     "Some targets also give you access to the clipboard to get and set information. For this&nbsp;{}GameMaker{} has the following functions:&nbsp;":"有些目标还允许您访问剪贴板以获取和设置信息。为此，{}GameMaker{}具有以下函数：",
     "The following functions and variables exist for you to use to get certain details about the operating system or browser that is running your game:":"以下函数和变量供您使用，以获取有关运行游戏的操作系统或浏览器的某些详细信息:",

@@ -3,5 +3,6 @@
     "The above code will build two new matrices and then push them onto the matrix stack. The world matrix is then set to the top of the stack, a sprite is drawn and the transforms are then popped from the stack.":"上面的代码将构建两个新矩阵，然后将它们压入矩阵堆栈。 然后将世界矩阵设置到堆栈的顶部，绘制一个精灵，然后从堆栈中弹出变换。",
     "The matrix to push to the stack":"要压入到堆栈的矩阵",
     "This function is used to push a new matrix to the top of the current matrix stack. It will first multiply the given matrix with the matrix currently at the top of the stack, and then push the resulting matrix to the stack.":"该函数用于将一个新矩阵压入当前矩阵栈的顶部。 它会先将给定的矩阵与当前位于栈顶的矩阵相乘，然后将得到的矩阵压入栈中。",
-    "This function is useful for applying multiple matrix transformations to your visuals without having to manually multiply various matrices together.":"此函数对于将多个矩阵转换应用于您的视觉效果非常有用，而无需手动将各种矩阵相乘。"
+    "This function is useful for applying multiple matrix transformations to your visuals without having to manually multiply various matrices together.":"此函数对于将多个矩阵转换应用于您的视觉效果非常有用，而无需手动将各种矩阵相乘。",
+    "{}{}NOTE{}{}&nbsp;The matrix stack has a maximum size of&nbsp;{}50{}&nbsp;items.":"{}{} 注意{}{} 矩阵堆栈的最大大小为 {}50{} 个项目。"
 }

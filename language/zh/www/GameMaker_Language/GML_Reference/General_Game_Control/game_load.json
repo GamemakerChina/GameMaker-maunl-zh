@@ -1,5 +1,8 @@
 {
+    "For more info, read the page on {}{}game_save{}{}.":"如需了解更多信息，请阅读有关 {}{}game_save{}{} 的页面。",
+    "Note that it will restore the version of the game that was used to create the save, so any updates made after it will not be visible.":"请注意，它将恢复用于创建保存的游戏版本，因此之后所做的任何更新都将不可见。",
     "The above code will load a previously saved game if a global variable is {}true{} when the player presses the \"L\" key.":"如果玩家按下\"L\"键时全局变量为{}true{}，则上述代码将加载先前保存的游戏。",
     "The name of the file to load from.":"要从中加载的文件的名称。",
-    "With this function you can load a game that has been previously saved using {}{}game_save(){}{}. Note that it will restore the version of the game that was used to create the save, so any updates made after it will not be visible. For more info, read the page on&nbsp;{}{}game_save(){}{}.":"使用此函数，您可以加载以前使用{}{}game_save(){}{}保存的游戏。请注意，它将恢复用于创建保存的游戏版本，因此之后所做的任何更新都将不可见。有关详细信息，请阅读{}{}game_save(){}{}页。"
+    "With this function you can load a game that has been previously saved using {}{}game_save(){}{}. Note that it will restore the version of the game that was used to create the save, so any updates made after it will not be visible. For more info, read the page on&nbsp;{}{}game_save(){}{}.":"使用此函数，您可以加载以前使用{}{}game_save(){}{}保存的游戏。请注意，它将恢复用于创建保存的游戏版本，因此之后所做的任何更新都将不可见。有关详细信息，请阅读{}{}game_save(){}{}页。",
+    "With this function you can load a game that has been previously saved using {}{}game_save{}{}.":"通过此函数，您可以加载之前使用 {}{}game_save{}{} 保存的游戏。"
 }

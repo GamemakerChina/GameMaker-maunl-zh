@@ -1,5 +1,6 @@
 {
     "The above code sets each particle emitted of the particle type indexed in the global variable \"Blood_Part\" to be only different shades of red.":"上述代码将在全局变量\"Blood_Part\"中索引的粒子类型发射的每个粒子设定为仅为不同的红色着色。",
+    "The above code sets each particle emitted of the particle type indexed in the global variable {}Blood_Part{}&nbsp;to be only different shades of red.":"上面的代码将全局变量 {}Blood_Part{} 中索引的粒子类型的每个发射粒子设置为仅不同深浅的红色。",
     "The index of the particle type to change.":"要更改的粒子类型的索引。",
     "The maximum the final colour\u0027s blue component can be.":"最终颜色的蓝色分量的最大值。",
     "The maximum the final colour\u0027s green component can be.":"最终颜色的绿色组件可以达到的最大值。",

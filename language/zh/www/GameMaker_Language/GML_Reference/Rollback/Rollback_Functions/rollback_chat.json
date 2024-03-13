@@ -1,0 +1,14 @@
+{
+    "How to Use?":"如何使用？",
+    "If the enter key is pressed locally, the {}{}keyboard_string{}{} value is sent to all players. That string is then cleared so a new message can be typed.":"如果在本地按下 Enter 键，则 {}{}keyboard_string{}{} 值将发送给所有玩家。然后该字符串被清除，以便可以输入新消息。",
+    "Rollback Event":"回滚事件",
+    "See the usage example at the bottom. Listen for received messages in the {}Rollback Event{} event.&nbsp;":"请参阅底部的使用示例。侦听 {} 回滚事件 {} 事件中收到的消息。",
+    "The message to send, as a string.":"要发送的消息，作为字符串。",
+    "This function is meant to be used \"locally\", and so would result from {}local input{}, not {}Rollback inputs{}.":"此函数旨在 \" 本地 \" 使用，因此将由 {} 本地输入 {} 生成，而不是由 {} 回滚输入 {} 生成。",
+    "This function is used to send a string message to other players.":"该函数用于向其他玩家发送字符串消息。",
+    "This will trigger&nbsp;the {}Rollback Event{} event when the message is received by all clients (including the sender).":"当所有客户端 (包括发送者) 收到消息时，这将触发 {}Rollback Event{} 事件。",
+    "When the second argument is not specified, the message is sent to all players, including the sender.":"当未指定第二个参数时，消息将发送给所有玩家，包括发送者。",
+    "You can specify a player ID in the second argument which is the player who will receive the message.":"您可以在第二个参数中指定玩家 ID，即将接收消息的玩家。",
+    "You specify a string to send, with a maximum {}size{} of 128 bytes.":"您指定要发送的字符串，最大 {} 大小 {} 为 128 字节。",
+    "{}OPTIONAL{}&nbsp;The ID of the player to which the message will be sent. Not specifying this argument, or specifying {}-1{}, sends the message to all players.":"{} 可选{} 消息将发送到的玩家的 ID。如果不指定此参数，或者指定 {}-1{}，则会将消息发送给所有玩家。"
+}

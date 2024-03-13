@@ -1,0 +1,6 @@
+{
+    "By default, a multiplayer game automatically starts when all players have joined.":"默认情况下，多人游戏会在所有玩家加入后自动开始。",
+    "Calling this function disables that auto-start behaviour, so the game waits for you to {}start it manually{}.":"调用此函数会禁用自动启动行为，因此游戏会等待您 {} 手动启动 {}。",
+    "If used, this function must run before the {}join{}/{}create{} function.":"如果使用，该函数必须在 {}join{}/{}create{} 函数之前运行。",
+    "The above code enables manual start, and then joins or creates a new multiplayer game.":"上面的代码启用手动启动，然后加入或创建一个新的多人游戏。"
+}

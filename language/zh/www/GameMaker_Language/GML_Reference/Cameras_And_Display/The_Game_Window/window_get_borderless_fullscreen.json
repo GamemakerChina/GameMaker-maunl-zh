@@ -1,0 +1,5 @@
+{
+    "The code above calls&nbsp;{}{}window_get_borderless_fullscreen{}{}&nbsp;to find out if borderless fullscreen is currently enabled. It then shows a debug message.":"上面的代码调用 {}{}window_get_borderless_fullscreen{}{} 来查明当前是否启用了无边框全屏。然后它会显示一条调试消息。",
+    "This function returns whether a {}borderless window{} for fullscreen mode is enabled or not.":"此函数返回是否启用全屏模式的 {} 无边框窗口 {}。",
+    "{}{}NOTE{}{}&nbsp;This function only works on Windows.":"{}{} 注意{}{} 此函数仅适用于 Windows。"
+}

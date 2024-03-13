@@ -1,7 +1,11 @@
 {
     "The above functions would be called in an extension to write some data to a GameMaker buffer (through its memory address),&nbsp;and then set the number of bytes that were written to it so the engine can read that data.":"将在扩展中调用上述函数，以将某些数据写入GameMaker缓冲区 (通过其内存地址)，然后设置写入到该缓冲区的字节数，以便引擎可以读取该数据。",
+    "The above functions would be called in an extension to write some data to a&nbsp;{}GameMaker{} buffer (through its memory address),&nbsp;and then set the number of bytes that were written to it so the engine can read that data.":"将在扩展中调用上述函数，以将一些数据写入 {}GameMaker{} 缓冲区 (通过其内存地址)，然后设置写入其中的字节数，以便引擎可以读取该数据。",
+    "The buffer to use.":"要使用的缓冲区。",
     "The index of the buffer to use.":"要使用的缓冲区的索引。",
     "The number of bytes to set as the \"used\" size.":"要设置为 \"已使用\" 大小的字节数。",
     "This function is primarily for use within extensions, and allows you to set the \"used\" size of the given buffer, which is the number of bytes that have been written to it.":"此函数主要用于扩展中，并允许您设置给定缓冲区的 \"已使用\" 大小，即已写入缓冲区的字节数。",
-    "When you write data to a buffer from an extension, GameMaker does not know how much of the buffer was filled by the extension code and is not able to read that data. This function can be called by the extension to tell the engine how many bytes of data was written to the buffer, so the engine can read that data.":"当您将数据从扩展写入缓冲区时，GameMaker不知道扩展代码填充了多少缓冲区，并且无法读取该数据。这个函数可以被扩展调用，告诉引擎有多少字节的数据被写入缓冲区，因此引擎可以读取该数据。"
+    "This function sets the \"used\" size of the given buffer, which is the number of bytes that have been written to it.&nbsp;It is primarily for use within extensions.":"该函数设置给定缓冲区的 \" 已使用 \" 大小，即已写入缓冲区的字节数。它主要用于扩展中。",
+    "When you write data to a buffer from an extension, GameMaker does not know how much of the buffer was filled by the extension code and is not able to read that data. This function can be called by the extension to tell the engine how many bytes of data was written to the buffer, so the engine can read that data.":"当您将数据从扩展写入缓冲区时，GameMaker不知道扩展代码填充了多少缓冲区，并且无法读取该数据。这个函数可以被扩展调用，告诉引擎有多少字节的数据被写入缓冲区，因此引擎可以读取该数据。",
+    "When you write data to a buffer from an extension,&nbsp;{}GameMaker{} doesn\u0027t know how much of the buffer was filled by the extension code and is not able to read that data. This function can be called by the extension to tell the engine how many bytes of data was written to the buffer, so the engine can read that data.":"当您从扩展程序将数据写入缓冲区时，{}GameMaker{} 不知道扩展程序代码填充了多少缓冲区，并且无法读取该数据。扩展可以调用此函数来告诉引擎有多少字节的数据已写入缓冲区，以便引擎可以读取该数据。"
 }

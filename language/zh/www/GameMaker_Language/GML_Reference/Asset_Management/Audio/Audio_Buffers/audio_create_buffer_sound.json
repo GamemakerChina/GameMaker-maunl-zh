@@ -15,5 +15,6 @@
     "The sample rate of the data in the buffer.":"缓冲区中数据的采样率。",
     "With this function you can create a new sound from the contents of a buffer.":"使用此函数，您可以从缓冲区的内容创建新的声音。",
     "You also need to supply the number of samples in the buffer and the channels that the sound requires. These channels are defined by one of the following constants:":"您还需要提供缓冲区中的采样数和声音所需的通道。这些通道由以下常数之一定义：",
-    "You can\u0027t delete the buffer if any sound has been created from it and the sound has not been freed up first. So you would free the sound(s) first, and&nbsp;{}then{} delete the buffer.":"如果已从缓冲区中创建了任何声音，并且该声音尚未首先释放，则无法删除该缓冲区。所以你应该先释放声音，然后{}再{}删除缓冲区。"
+    "You can\u0027t delete the buffer if any sound has been created from it and the sound has not been freed up first. So you would free the sound(s) first, and&nbsp;{}then{} delete the buffer.":"如果已从缓冲区中创建了任何声音，并且该声音尚未首先释放，则无法删除该缓冲区。所以你应该先释放声音，然后{}再{}删除缓冲区。",
+    "{}{}NOTE{}{}&nbsp;You cannot pass a buffer of the type {}{}buffer_grow{}{} into this function.":"{}{}注意{}{}您不能将{}{}buffer_grow{}{}类型的缓冲区传递到此函数中。"
 }

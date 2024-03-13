@@ -1,9 +1,11 @@
 {
     "Sets the game speed using frames per second.":"使用每秒帧数设置游戏速度。",
     "Sets the game speed using microseconds per frame.":"使用每帧的微秒数设置游戏速度。",
+    "So, for example, a game speed of 30 frames per second would be 33333 microseconds per game frame, which would then be expressed by this function as either:":"因此，例如，每秒 30 帧的游戏速度将是每游戏帧 33333 微秒，则该函数可将其表示为：",
     "So, for example, a game speed of 30 frames per second would be 33333 microseconds per game game frame, which would then be expressed by this function as either:":"因此，例如，每秒30帧的游戏速度将是每个游戏游戏帧3333微秒，然后该函数将表示为：",
     "The above code checks to see if the game is running in a browser and sets the game speed accordingly as an FPS value.":"上述代码检查游戏是否在浏览器中运行，并相应地将游戏速度设置为Fps值。",
     "The new game speed (as either FPS or MPF).":"新游戏速度(以Fps或Mpf表示)",
     "The type of method used to set the game speed (see the constants above).":"用于设置游戏速度的方法类型(参见上面的常量)。",
-    "This function can be used to set the game speed. You can set this in one of two ways - as either game frames per second (FPS) or as microseconds per game frame (MPF) - using one of the following two constants:":"该函数可用于设置游戏速度。您可以使用以下两个常量之一，通过以下两种方法之一进行设置：每秒游戏帧数(Fps)或每个游戏帧数(Mpf)："
+    "This function can be used to set the game speed. You can set this in one of two ways - as either game frames per second (FPS) or as microseconds per game frame (MPF) - using one of the following two constants:":"该函数可用于设置游戏速度。您可以使用以下两个常量之一，通过以下两种方法之一进行设置：每秒游戏帧数(Fps)或每个游戏帧数(Mpf)：",
+    "{}{}NOTE{}{}&nbsp;On Android, if the device\u0027s refresh rate cannot be set to&nbsp;the requested game speed,&nbsp;{}GameMaker{} will set it to an integer multiple&nbsp;of the requested game speed. If no multiple is available&nbsp;the highest refresh rate available is used and frames are skipped.":"{}{} 注意{}{} 在 Android 上，如果设备的刷新率无法设置为请求的游戏速度，{}GameMaker{} 会将其设置为请求的游戏速度的整数倍。如果没有多个可用，则使用可用的最高刷新率并跳过帧。"
 }

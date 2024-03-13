@@ -1,4 +1,7 @@
 {
+    "The above code draws a text in the GUI: it first gets the GUI width using&nbsp;{}{}display_get_gui_width{}{}&nbsp;and then sets the horizontal text alignment to {}fa_right{}, then draws a line of text using&nbsp;{}{}draw_text{}{}&nbsp;and finally resets the horizontal text alignment to its previous value.":"上面的代码在 GUI 中绘制文本：它首先使用 {}{}display_get_gui_width{}{} 获取 GUI 宽度，然后将水平文本对齐设置为 {}fa_right{}，然后使用 {}{}draw_text{}{} 绘制一行文本 并最终将水平文本对齐方式重置为其之前的值。",
     "The above code will set an advert to display at the top right-hand of the display.":"上述代码将设置一个广告显示在显示屏右上角。",
-    "With this function you can get the width (in pixels) of the GUI as used in the {}Draw GUI Event{}.":"使用此函数，您可以获取{}绘制 GUI 事件{}中使用的 GUI 的宽度(以像素为单位)。"
+    "This function gets the width (in pixels) of the GUI as used in the {}Draw GUI Event{}.":"此函数获取 {} 绘制 GUI 事件 {} 中使用的 GUI 宽度 (以像素为单位)。",
+    "With this function you can get the width (in pixels) of the GUI as used in the {}Draw GUI Event{}.":"使用此函数，您可以获取{}绘制 GUI 事件{}中使用的 GUI 的宽度(以像素为单位)。",
+    "{}{}NOTE{}{}&nbsp;When your {}{}application_surface{}{} is larger than the display\u0027s size (roughly), and you call this function before the current room\u0027s initialisation has finished, e.g. in a global script, a room\u0027s Creation Code or an instance\u0027s Create event, the value returned may not be accurate. For accurate results in such cases, call this in a Draw event.":"{}{} 注意{}{} 当您的 {}{}application_surface{}{} 大于显示器的尺寸 (大致) 时，并且您在当前房间初始化完成之前调用此函数，例如在全局脚本、房间的创建代码或实例的创建事件中，返回的值可能不准确。为了在这种情况下获得准确的结果，请在 Draw 事件中调用它。"
 }

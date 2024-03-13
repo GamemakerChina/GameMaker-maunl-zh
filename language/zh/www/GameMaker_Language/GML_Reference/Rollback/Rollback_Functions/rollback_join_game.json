@@ -1,0 +1,9 @@
+{
+    "Disabled by default ({}false{}). When enabled ({}true{}), the function doesn\u0027t join the game, but simply returns {}true{} if one can be joined, or {}false{} otherwise.{} {} This way you can use this function to only check if the player was invited. ":"默认情况下禁用 ({}false{})。启用 ({}true{}) 后，该函数不会加入游戏，但如果可以加入，则仅返回 {}true{}，否则返回 {}false{}。{}{} 这样您就可以使用此函数仅检查玩家是否被邀请。",
+    "For an extended example, see&nbsp;{}Create a Multiplayer Game{}.":"有关扩展示例，请参阅 {} 创建多人游戏 {}。",
+    "If a room was joined, it returns {}true{}, and if no game was joined, it returns {}false{}.":"如果已加入房间，则返回 {}true{}，如果未加入游戏，则返回 {}false{}。",
+    "The above code defines a player object, and then attempts to join a game. If it was not joined, it creates a new game instead, with a maximum of 2 players and Sync Test disabled.":"上面的代码定义了一个玩家对象，然后尝试加入游戏。如果未加入，则会创建一个新游戏，最多 2 名玩家并禁用同步测试。",
+    "The {}dry_run{} argument is optional, and when set to {}true{}, allows you to run the function without actually joining a game. This is used to check if a game can be joined without actually joining it.":"{}dry_run{} 参数是可选的，当设置为 {}true{} 时，您可以在不实际加入游戏的情况下运行该函数。这用于检查游戏是否可以在不实际加入的情况下加入。",
+    "This function attempts to join a game. You must be on a URL that contains the ID of the virtual room to join.":"该函数尝试加入游戏。您所在的 URL 必须包含要加入的虚拟房间的 ID。",
+    "When a new player joins a game that you are already present in, the {}Rollback Event{} event is triggered. See&nbsp;{}Rollback Events{}&nbsp;for more information.":"当新玩家加入您已经参与的游戏时，会触发 {} 回滚事件 {} 事件。请参阅 {} 回滚事件 {} 了解更多信息。"
+}

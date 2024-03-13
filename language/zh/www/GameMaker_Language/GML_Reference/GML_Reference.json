@@ -20,6 +20,7 @@
     "Physics":"物理",
     "Rollback Multiplayer":"滚动多人游戏",
     "Strings":"字符串",
+    "This section of the manual is a reference guide for the {}GameMaker{} Language (GML). You can find all the available functions documented here along with the required arguments and examples of code to show how they can be used. For information on how to use GML please see the {}GML Overview{}{} section of the manual.{}":"本手册的这一部分是 {}GameMaker{} 语言 (GML) 的参考指南。您可以找到此处记录的所有可用函数以及所需的参数和代码示例，以展示如何使用它们。有关如何使用 GML 的信息，请参阅手册的 {}GML 概述 {}{} 部分。{}",
     "Time Sources":"时间源",
     "Variable Functions":"变量函数",
     "Web And HTML5":"Web 和 HTML5",

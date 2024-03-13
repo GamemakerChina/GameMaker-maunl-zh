@@ -1,6 +1,7 @@
 {
     "Browser Type Constant":"浏览器类型常量",
     "Game is not being played in a browser":"游戏不在浏览器中进行",
+    "Game is not being played in a browser, or is being played through the GX.games target":"游戏未在浏览器中玩，或者正在通过 GX.games 目标玩",
     "Google Chrome":"Google Chrome (Chrome 浏览器)",
     "Internet Explorer":"Internet Explorer (IE浏览器)",
     "Internet Explorer on a mobile device":"移动设备上的 Internet Explorer 浏览器",
@@ -10,5 +11,6 @@
     "This {}read-only{} variable holds one of various constants (listed below) that&nbsp;{}GameMaker{} has to tell you which browser you are currently running the game in (if any).":"此 {}只读{} 变量包含各种常量之一(如下所列)，{}GameMaker{}必须告诉您当前在哪个浏览器中运行游戏(如果有)。",
     "Tizen mobile device browser":"Tizen 移动设备浏览器",
     "Unknown browser":"未知浏览器",
-    "Windows App":"Windows 应用"
+    "Windows App":"Windows 应用",
+    "{}{}NOTE{}{}&nbsp;The GX.games target, even though it runs on a browser, always returns {}browser_not_a_browser{}.":"{}{} 注意{}{}GX.games 目标即使在浏览器上运行，也始终返回 {}browser_not_a_browser{}。"
 }

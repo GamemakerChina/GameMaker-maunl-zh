@@ -4,14 +4,17 @@
     "The height of the part to be drawn, from top.":"要绘制的零件的高度(从顶部开始)。",
     "The horizontal scaling the part should be drawn with.":"应绘制零件的水平缩放比例。",
     "The left position in the surface of the part to be drawn.":"要绘制的零件表面中的左侧位置。",
+    "The surface to draw.":"要绘制的表面。",
     "The top position in the surface of the part to be drawn.":"要绘制的零件表面中的顶部位置。",
     "The unique ID value of the surface to draw.":"要绘制的表面的唯一Id值。",
     "The vertical scaling the part should be drawn with.":"应绘制零件的垂直缩放比例。",
     "The width of the part to be draw, from left.":"要绘制的零件的左侧宽度。",
     "The x position of where to draw the surface.":"绘制表面的x位置。",
     "The y position of where to draw the surface.":"绘制表面的y位置。",
+    "This function draws a part of the chosen surface at the given position following the same rules as per {}{}draw_surface_part{}{}, only now you can scale the part, blend a colour with it, or change its alpha when drawing it to the screen (the same as when drawing a surface with {}{}draw_surface_ext{}{}).":"此函数按照与 {}{}draw_surface_part{}{} 相同的规则在给定位置绘制所选曲面的一部分，只是现在您可以缩放该部分、与其混合颜色或在绘制时更改其 Alpha 到屏幕 (与使用 {}{}draw_surface_ext{}{} 绘制表面时相同)。",
     "This function will draw a part of the chosen surface at the given position following the same rules as per {}{}draw_surface_part(){}{}, only now you can scale the part, blend a colour with it, or change its alpha when drawing it to the screen (the same as when drawing a surface with {}{}draw_surface_ext(){}{}).":"此函数将按照与每个 {}{}draw_surface_part(){}{} 相同的规则在给定位置绘制所选表面的一部分，只是现在您可以缩放零件、与其混合颜色或在绘制到屏幕时更改其 Alpha(与使用 {}{}draw_surface_ext(){}{} 绘制表面时相同)。",
     "This will draw a 32x32 pixel area from 8x8 pixels into the surface indexed in the variable \"surf\". It will be stretched to double its usual width but half its usual height. It will be opaque and it will be blended with black (turning it into a silhouette).":"这将把8 x 8像素的32 x 32像素区域绘制到在可变\"冲浪\"中索引的表面中。它将被拉伸到通常宽度的两倍，但通常高度的一半。它将是不透明的，它将与黑色混合(将它变成一个轮廓)。",
+    "This will draw a 32x32 pixel area from 8x8 pixels into the surface indexed in the variable {}surf{}. It will be stretched to double its usual width but half its usual height. It will be opaque and it will be blended with black (turning it into a silhouette).":"这会将 8x8 像素的 32x32 像素区域绘制到变量 {}surf{} 中索引的表面中。它将被拉伸到通常宽度的两倍和通常高度的一半。它将是不透明的，并且将与黑色混合 (将其变成剪影)。",
     "{}TIP{}&nbsp;How a surface appears depends on its contents, especially the alpha values inside the surface. A surface {}cleared{} with an alpha of 0 may appear different from a surface cleared with an alpha of 1, due to the way they blend with the background. Take care of this whenever you notice a difference in the way something renders on a custom surface as opposed to the {}{}application_surface{}{}.":"{}提示{}表面的显示方式取决于其内容，尤其是表面内部的Alpha值。Alpha为0的{}清除表面{}可能与Alpha为1的清除表面不同，因为它们与背景混合的方式不同。只要您注意到自定义表面上的渲染方式与{}{}application_surface{}{}的渲染方式有所不同，就要注意这一点。",
     "{}{}{}NOTE{}&nbsp;When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}{}{}注意{}使用表面时，由于表面存储在纹理内存中，因此表面可能随时停止存在。在直接引用表面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查表面是否存在。"
 }

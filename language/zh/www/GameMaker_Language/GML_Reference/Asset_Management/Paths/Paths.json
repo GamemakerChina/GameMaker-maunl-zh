@@ -1,10 +1,16 @@
 {
+    "Basic":"基本的",
+    "Drawing":"绘制",
     "Each instance of an object also has a series of built-in variables designed to make using paths easier, and these variables are listed in the following section:":"对象的每个实例还具有一系列内置变量，旨在简化路径的使用，这些变量在以下部分中列出：",
     "Finally, it is possible to manipulate the contents of a path as well as create new paths when the game is running. The functions that enable these things and more are available from the following section:":"最后，当游戏运行时，可以操纵路径的内容以及创建新路径。以下部分提供了启用这些函数以及更多函数的函数：",
+    "Function Reference":"功能参考",
+    "Instance Variables":"实例变量",
     "Path Manipulation":"路径操作",
     "Path Variables":"路径变量",
     "Paths":"路径",
     "The following basic functions exist that deal with paths:":"存在以下处理路径的基本函数：",
     "To aid with debugging paths, you have a function to draw it to the screen too:":"为了帮助调试路径，您也可以使用一个函数将其绘制到屏幕上：",
-    "{}GameMaker{} has an extensive collection of functions and built-in variables for using paths within your game. This section deals with the basic ones that are used when dealing with paths that have previously been created in the {}Path Editor{}, but further functions exist that permit you to create your own paths using code, and to manipulate them in various ways.":"{}GameMaker{}拥有丰富的函数集合和内置变量，可用于在游戏中使用路径。本节介绍在处理以前在{}路径编辑器{}中创建的路径时使用的基本路径，但还有其他函数允许您使用代码创建自己的路径，并以各种方式操作它们。"
+    "Variable Reference":"变量引用",
+    "{}GameMaker{} has an extensive collection of functions and built-in variables for using paths within your game. This section deals with the basic ones that are used when dealing with paths that have previously been created in the {}Path Editor{}, but further functions exist that permit you to create your own paths using code, and to manipulate them in various ways.":"{}GameMaker{}拥有丰富的函数集合和内置变量，可用于在游戏中使用路径。本节介绍在处理以前在{}路径编辑器{}中创建的路径时使用的基本路径，但还有其他函数允许您使用代码创建自己的路径，并以各种方式操作它们。",
+    "{}GameMaker{} has an extensive collection of functions and built-in variables for using paths within your game. This section deals with the basic ones that are used when dealing with paths that have previously been created in {}The Path Editor{}, but further functions exist that permit you to create your own paths using code, and to manipulate them in various ways.":"{}GameMaker{}拥有大量函数和内置变量，可用于在游戏中使用路径。本部分介绍处理之前在{}路径编辑器{}中创建的路径时使用的基本功能，但还存在更多功能，允许您使用代码创建自己的路径，并以各种方式操作它们。"
 }

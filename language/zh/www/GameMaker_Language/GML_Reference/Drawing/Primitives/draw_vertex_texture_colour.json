@@ -1,11 +1,18 @@
 {
     "The above code will draw a 4 vertex triangle strip (making a rectangle) textured with the texture held in the \"tex\" variable, and the whole texture will be used to cover the completed primitive, and it will be blended with four different colours.":"上面的代码将绘制一个4顶点三角形条(制作一个矩形)纹理与\"text\"变量中保持的纹理，并且整个纹理将被用来覆盖完整的基元，并且它将与四种不同的颜色混合。",
+    "The above code will draw a 4 vertex triangle strip (making a rectangle) textured with the texture held in the {}_tex{}&nbsp;variable, and the whole texture will be used to cover the completed primitive, and it will be blended with four different colours.":"上面的代码将绘制一个 4 顶点三角形条 (形成一个矩形)，并使用 {}_tex{} 变量中保存的纹理进行纹理化，整个纹理将用于覆盖已完成的图元，并将与四种不同的纹理混合颜色。",
     "The alpha to draw this vertex with (0-1).":"使用(0-1 )绘制此顶点的Alpha。",
+    "The alpha to draw this vertex with (a value from 0 - 1).":"用于绘制此顶点的 alpha(0 - 1 之间的值)。",
     "The colour to blend with the texture at this vertex (-1 or {}c_white{} for no blending).":"与此顶点处的纹理混合的颜色(对于不混合，为-1或{}c_white{})。",
+    "The colour to blend with the texture at this vertex ({}-1{} or {}c_white{} for no blending).":"在此顶点与纹理混合的颜色 ({}-1{} 或 {}c_white{} 表示不混合)。",
     "The x coordinate of the vertex.":"顶点的x坐标。",
+    "The x coordinate within the texture (0 refers to the left edge of the sprite image, 1 refers to the right edge).":"纹理内的 x 坐标 (0 指精灵图像的左边缘，1 指右边缘)。",
     "The x coordinate within the texture.":"纹理中的x坐标。",
     "The y coordinate of the vertex.":"顶点的y坐标。",
+    "The y coordinate within the texture (0 refers the top edge of the sprite image, 1 refers the bottom edge).":"纹理内的 y 坐标 (0 指精灵图像的顶部边缘，1 指底部边缘)。",
     "The y coordinate within the texture.":"纹理内的y坐标。",
     "This function defines the position of a textured vertex for a primitive. The final look of the primitive will depend on the primitive type chosen to draw (See {}{}draw_primitive_begin(){}{} for more information), the order with which you add the vertices to it, the position of the start and end points that you give for the texture sample and the colour and alpha values that you have set. To maintain the texture appearance while changing only the alpha, a value of -1 (or {}c_white{}) may be used for the colour argument. To end and draw the primitive you must call {}{}draw_primitive_end(){}{}.":"此函数定义基本体的纹理顶点的位置。基本体的最终外观将取决于选择要绘制的基本体类型(有关详细信息，请参阅{}{}draw_primitive_begin(){}{})。添加顶点的顺序、为纹理采样提供的起点和终点的位置以及已设置的颜色和Alpha值。要在仅更改Alpha的同时保持纹理外观，请输入值of-1(或{}c_white{})可用于颜色参数。要结束并绘制基元，必须调用{}{}draw_primitive_end(){}{}。",
-    "{}{}NOTE{}{} For a texture to repeat it must be a power of two in size, ie: 32x32, 128x128, etc...":"{}{}注意{}{}要重复纹理，其大小必须为2的幂，即：32 x 32、128 x 128等..."
+    "This function defines the position of a textured vertex for a primitive. The final look of the primitive will depend on the primitive type chosen to draw (See&nbsp;{}{}draw_primitive_begin{}{} for more information), the order with which you add the vertices to it, the position of the start and end points that you give for the texture sample and the colour and alpha values that you have set. To maintain the texture appearance while changing only the alpha, a value of {}-1{} (or {}c_white{}) may be used for the colour argument. To end and draw the primitive you must call {}{}draw_primitive_end{}{}.":"该函数定义图元的纹理顶点的位置。图元的最终外观将取决于选择绘制的图元类型 (有关详细信息，请参阅 {}{}draw_primitive_begin{}{})、向其添加顶点的顺序、起点和终点的位置您为纹理样本提供的值以及您设置的颜色和 alpha 值。为了在仅更改 Alpha 的同时保持纹理外观，可以将值 {}-1{}( 或 {}c_white{}) 用于颜色参数。要结束并绘制图元，您必须调用 {}{}draw_primitive_end{}{}。",
+    "{}{}NOTE{}{} For a texture to repeat it must be a power of two in size, ie: 32x32, 128x128, etc...":"{}{}注意{}{}要重复纹理，其大小必须为2的幂，即：32 x 32、128 x 128等...",
+    "{}{}NOTE{}{}&nbsp;For a texture to repeat it must be a power of two in size, i.e.: 32x32, 128x128, etc.":"{}{} 注意{}{} 对于要重复的纹理，其大小必须是 2 的幂，即：32x32、128x128 等。"
 }

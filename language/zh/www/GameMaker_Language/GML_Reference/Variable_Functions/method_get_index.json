@@ -1,5 +1,8 @@
 {
     "The above code will check the script index for the method \"light_setup\" and then if it is not -1 it will output the script name to the console.":"上面的代码将检查方法 “light_setup” 的脚本索引，然后如果不是-1，则将脚本名称输出到控制台。",
+    "The above code will get the function index for the method {}light_setup{} and then if it is not {}undefined{} it will output the function\u0027s name to the console.":"上面的代码将获取方法{}light_setup{}的函数索引，然后如果它不是{}undefined{}，它将输出函数的名称到控制台。",
     "The method variable to check":"要检查的方法变量",
+    "This function gives you the&nbsp;{}{}Script Function{}{}&nbsp;reference for the given method. This can be used to retrieve the original function behind a method bound to an instance or a struct.":"此函数为您提供给定方法的 {}{} 脚本函数 {}{} 引用。此函数可用于检索绑定到实例或结构的方法后面的原始函数。",
+    "When an invalid value is passed (e.g. not a method), this returns {}undefined{}.":"当传递了一个无效的值(例如，不是一个方法)时，它返回{}undefined{}。",
     "With this function you can retrieve the {}Script{} index for the script where the method was defined. If the method was not defined in a script then the function will return -1, otherwise it will return the index value for the script.":"使用此函数，您可以检索定义方法的脚本的{}脚本{}索引。如果该方法未在脚本中定义，则该函数将返回-1，否则它将返回脚本的索引值。"
 }

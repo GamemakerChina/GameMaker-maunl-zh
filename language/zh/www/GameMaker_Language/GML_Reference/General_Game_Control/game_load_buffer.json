@@ -1,5 +1,8 @@
 {
     "The above code will load a previously saved game state from the buffer indexed in the variable \"save_buff\", only if the global variable is {}true{}, when the player presses the \"L\" key.":"只有当玩家按下\"L\"键时，全局变量为{}true{}时，上述代码才会从变量\"save_buff\"中索引的缓冲区加载先前保存的游戏状态。",
+    "The above code will load a previously saved game state from the buffer st{}{}ored{}{}&nbsp;in the variable {}save_buff{}, only if the global variable is {}true{}, when the player presses the \"L\" key.":"仅当全局变量为 {6}true{7} 且玩家按下 \"L\" 键时，上述代码才会从变量 {4}save_buff{5} 中{}{}存储{}{}的缓冲区加载先前保存的游戏状态。",
     "The buffer id to load from.":"要从中加载的缓冲区ID。",
+    "The buffer to load from.":"要从中加载的缓冲区。",
+    "This function loads a game state that has been saved previously. The game is loaded from a previously created \"grow\" buffer (see {}Buffers{}) and the buffer must have had a game state saved to it using the&nbsp;{}{}game_save_buffer{}{} function.":"该函数加载之前保存的游戏状态。游戏从之前创建的 \" 增长 \" 缓冲区 (请参阅 {} 缓冲区 {}) 加载，并且该缓冲区必须已使用 {}{}game_save_buffer{}{} 函数保存了游戏状态。",
     "With this function you can load a game state that has been saved previously. The game is loaded from a previously created \"grow\" buffer (see {}Buffers{}) and the buffer must have had a game state saved to it using {}{}game_save_buffer(){}{}&nbsp;function.":"使用此函数，您可以加载先前保存的游戏状态。游戏从以前创建的\"增长\"缓冲区中加载(请参阅{}缓冲区{})，并且必须使用{}{}game_save_buffer(){}{}函数将游戏状态保存到该缓冲区中。"
 }

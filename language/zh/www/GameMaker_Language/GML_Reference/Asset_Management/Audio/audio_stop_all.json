@@ -3,5 +3,6 @@
     "The above code checks the global variable {}SFX{}&nbsp;and if it returns {}false{}, it will stop all sounds that are currently playing.":"上面的代码检查全局变量 {}SFX{}，如果它返回 {}false{}，它将停止当前播放的所有声音。",
     "This function stops&nbsp;{}all{} sounds that are currently playing. This includes all sounds that have been paused using {}{}audio_pause_sound{}{}&nbsp;or&nbsp;{}{}audio_pause_all{}{}.":"此功能停止当前正在播放的{}所有{}声音。这包括使用 {}{}audio_pause_sound{}{} 或 {}{}audio_pause_all{}{} 暂停的所有声音。",
     "This function will stop {}all{} sounds that are currently playing.":"此函数将停止{}当前播放的所有{}声音。",
+    "This will also remove any queued buffers on {}audio buffer queues{}&nbsp;and run the {}Audio Playback{}&nbsp;event for each buffer removed, with the key {}\"queue_shutdown\"{} set to 1.":"这还将删除{}音频缓冲区队列{}上的所有排队缓冲区，并为每个删除的缓冲区运行{}音频播放{}事件，并将键\"{}\"queue_shutdown\"{}设置为 1。",
     "{}{}NOTE{}{}&nbsp;This function triggers an&nbsp;{}Audio Playback Ended{}&nbsp;Async Event for every sound instance that is affected by it.":"{}{}注意{}{} 此功能会为受其影响的每个声音实例触发{}音频播放结束{}异步事件。"
 }

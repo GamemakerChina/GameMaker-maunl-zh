@@ -1,12 +1,15 @@
 {
     "Physics Particle Data Flag Constant":"物理粒子数据标志常量",
+    "The (previously created) buffer to store the data.":"用于存储数据的 (先前创建的) 缓冲区。",
     "The (previously created) buffer to use to store the data.":"用于存储数据的(以前创建的)缓冲区。",
     "The above code gets the number of particles and creates a variable with the data flags to check, then checks to see if there are any particles in the room. If there are, a buffer is created and then filled with the particle data, which is checked and used to draw a sprite at the particle position.":"上面的代码获取粒子数，并创建一个带有要检查的数据标志的变量，然后检查房间中是否存在任何粒子。如果存在，将创建一个缓冲区，然后填充粒子数据，该数据将被检查并用于在粒子位置绘制精灵。",
+    "The buffer used must have been created previously using the function {}{}buffer_create{}{}, and should be of the \"grow\" type, with the size being approximately that of the expected return data. The flags are set using any of the constants given below, and you would use the {}bitwise {}or{}{}&nbsp; {}|{}&nbsp;to create a single flag value to get the desired information.":"使用的缓冲区必须是之前使用函数 {}{}buffer_create{}{} 创建的，并且应该是 \"grow\" 类型，其大小大约是预期返回数据的大小。使用下面给出的任意常量设置标志，您可以使用 {} 按位 {} 或 {}{}{}|{} 创建单个标志值来获取所需信息。",
     "The colour and alpha value (hexadecimal).":"颜色和 Alpha 值 (十六进制)。",
     "The flags to use to extract data about specific particle types.":"用于提取有关特定粒子类型的数据的标志。",
     "The flags value for the particle.":"粒子的标志值。",
     "The horizontal and vertical speed.":"水平和垂直速度。",
     "The particle category (as defined when you created the particle or group to which it belongs).":"粒子类别(在创建粒子或粒子所属的组时定义)。",
     "The x and y position of the particle.":"粒子的 X 和 Y 位置。",
+    "This function returns various pieces of information about each particle in the physics simulation using the given flags checked.":"该函数使用检查的给定标志返回有关物理模拟中每个粒子的各种信息。",
     "This function returns various pieces of information about each particle in the physics simulation using the given flags checked. The buffer used must have been created previously using the function {}{}buffer_create(){}{}, and should be of the \"grow\" type, with the size being approximately that of the expected return data. The flags are set using any of the constants given below, and you would use the {}bitwise {}or{}{} \"|\" to create a single flag value to get the desired information.":"此函数使用选中的给定标志返回有关物理模拟中每个粒子的各种信息。使用的缓冲区必须先前使用函数 {}{}buffer_create(){}{} 创建，并且应为 \"增长\" 类型，其大小大约为预期返回数据的大小。使用下面给出的任何常量设置标志，并使用 {} 位 {} 或 {}{}\"|\" 创建单个标志值以获取所需信息。"
 }

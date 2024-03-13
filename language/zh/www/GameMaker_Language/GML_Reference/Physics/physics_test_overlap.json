@@ -4,5 +4,6 @@
     "The object to check for":"要检查的对象",
     "The x position in the room to check":"要检查的房间中的 X 位置",
     "The y position in the room to check":"要检查的房间中的 Y 位置",
+    "This function can be used to check and see if a physical body (i.e.&nbsp;the fixture of an instance) overlaps, or {}will{} overlap, when rotated and placed at a given position in the room. the \"angle\" argument is the angle of rotation that the calling instance has (or will have) at the position to be checked, and the \"obj\" argument can be either a single instance id, and object index or the {}{}keywords{}{} {}all{} or {}other{}.":"此函数可用于检查物理主体 (即实例的固定装置) 在旋转并放置在房间中的给定位置时是否重叠或 {} 将 {} 重叠。 \"angle\" 参数是调用实例在要检查的位置具有 (或将具有) 的旋转角度，\"obj\" 参数可以是单个实例 ID、对象索引或 {}{} 关键字 {}{}{} 全部 {} 或 {} 其他 {}。",
     "This function can be used to check and see if a physical body (ie: the fixture of an instance) overlaps, or {}will{} overlap, when rotated and placed at a given position in the room. the \"angle\" argument is the angle of rotation that the calling instance has (or will have) at the position to be checked, and the \"obj\" argument can be either a single instance id, and object index or the {}{}keywords{}{} {}all{} or {}other{}.":"此函数可用于检查和查看物理主体 (即实例的装置) 是否重叠，或者在旋转并放置在房间中给定的位置时是否 {} 会 {} 重叠。\"angle\" 参数是调用实例在要检查的位置具有 (或将具有) 的旋转角度，而 \"obj\" 参数可以是单个实例 ID、对象索引或 {}{} 关键字 {}{}{}all{} 或 {}other{}。"
 }

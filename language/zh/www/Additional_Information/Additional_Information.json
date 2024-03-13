@@ -15,5 +15,6 @@
     "This section of the manual contain a collection of miscellaneous articles related to programming and the way the GameMaker Language works.&nbsp;The following articles are designed as companion articles to further expand your understanding of how GameMaker works and how to get the most from the different language features available:":"手册的这一部分包含了与编程和GameMaker语言工作方式相关的杂项文章。以下文章是作为配套文章设计的，旨在进一步扩展您对GameMaker工作方式的理解，以及如何从可用的不同语言功能中获得最大的好处:",
     "Type Tables":"类型表",
     "Vectors":"向量",
-    "White-space Characters":"空格字符"
+    "White-space Characters":"空格字符",
+    "{}Additional Information{}":"{} 附加信息 {}"
 }

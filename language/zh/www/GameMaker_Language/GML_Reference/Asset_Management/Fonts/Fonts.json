@@ -1,6 +1,7 @@
 {
     "A different texture is generated for the font\u0027s glyphs. At every texel, the texture stores the signed distance from the texel to the character. This leads to a couple of advantages:&nbsp;":"为字体的字形生成一个不同的纹理。在每一个字元上，纹理都存储了从字元到字符的签名距离。这导致了几个优点：",
     "A disadvantage of this is that scaling up text using regular fonts makes them look pixelated. To fix this, GameMaker provides an SDF rendering option for fonts added at runtime.":"这样做的一个缺点是，使用常规字体放大文本会使它们看起来像像素化。为了解决此问题，GameMaker 为在运行时添加的字体提供了 SDF 渲染选项。",
+    "A disadvantage of this is that scaling up text using regular fonts makes them look pixelated. To fix this,&nbsp;{}GameMaker{} provides an SDF rendering option for fonts added at runtime.":"这样做的缺点是使用常规字体放大文本会使它们看起来像素化。为了解决此问题，{}GameMaker{} 为运行时添加的字体提供了 SDF 渲染选项。",
     "Adding/Removing Fonts":"添加/删除字体",
     "Asset Info":"资源信息",
     "Configuration":"配置",

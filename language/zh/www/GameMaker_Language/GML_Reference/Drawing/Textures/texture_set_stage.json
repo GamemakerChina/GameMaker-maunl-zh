@@ -1,7 +1,11 @@
 {
     "The above code will get the {}handle{} for the sampler within the shader indexed as \"GlassShader\" and then set that shader constant to the given sprite texture.":"以上代码将获取着色器索引为\"GlassShader\"的采样器的{}句柄{}，然后将该着色器设置为给定精灵纹理的常量。",
+    "The above code will get the {}handle{} for the sampler within the shader indexed as {}GlassShader{}&nbsp;and then set that shader constant to the given sprite texture.":"上述代码将获取索引为 {}GlassShader{} 的着色器中采样器的 {0} 句柄 {1}，然后将该着色器常量设置为给定的精灵纹理。",
+    "The number of stage \"slots\" available will depend on the platform you are compiling to, with a maximum of 8 being available for Windows, Mac and Linux, but on lower end Android devices (for example) this number can be as low as 2. It is also worth noting that the first stage slot (1) is always used automatically by {}GameMaker{}.":"可用的阶段 \" 槽 \" 数量取决于您要编译的平台，Windows、Mac 和 Linux 最多可使用 8 个，但在低端 Android 设备上 (例如)，此数字可能低至 2 。还值得注意的是，第一阶段槽 (1) 始终由 {}GameMaker{} 自动使用。",
     "The texture \"slot\" to use.":"要使用的纹理\"槽\"。",
     "The texture to use.":"要使用的纹理。",
+    "This function will set the given stage \"slot\" a texture to be used.":"此函数将设置给定阶段 \" 槽 \" 要使用的纹理。",
     "This function will set the given stage \"slot\" a texture to be used. The number of stage \"slots\" available will depend on the platform you are compiling to, with a maximum of 8 being available for Windows, Mac and Linux, but on lower end Android devices (for example) this number can be as low as 2. It is also worth noting that the first stage slot (1) is always used automatically by {}GameMaker{}.":"此函数将为给定的舞台\"时隙\"设置要使用的纹理。可用的阶段\"插槽\"的数量将取决于您正在编译的平台，Windows、Mac和Linux最多可用8个，但在低端Android设备(例如)上，此数量可以低至2个。另外值得注意的是，{}GameMaker{}始终自动使用第一级插槽(1 )。",
-    "{}NOTE{}: This function will do nothing outside of the context of a running shader! See {}Shaders {}for more information.":"{}注意{}:此函数在运行着色器的上下文之外不会执行任何操作！有关详细信息，请参见{}着色器{}。"
+    "{}NOTE{}: This function will do nothing outside of the context of a running shader! See {}Shaders {}for more information.":"{}注意{}:此函数在运行着色器的上下文之外不会执行任何操作！有关详细信息，请参见{}着色器{}。",
+    "{}{}{}NOTE{}{}&nbsp;{}This function will do nothing outside of the context of a running shader! See&nbsp;{}Shaders{} for more information.":"{}{}{} 注意 {}{}{} 此函数在正在运行的着色器上下文之外不会执行任何操作！请参阅 {} 着色器 {} 了解更多信息。"
 }

@@ -1,4 +1,6 @@
 {
+    "The above code creates a new vertex format with just position and colour values and then stores the format in the variable {}my_format{}.":"上面的代码创建了一个仅包含位置和颜色值的新顶点格式，然后将该格式存储在变量 {}my_format{} 中。",
     "The above code will create a new vertex format with just colour and position values and then store the format id in the variable \"my_format\".":"上述代码将创建一个只有颜色和位置值的新顶点格式，然后将格式ID存储在变量\"my_format\"中。",
-    "This function must be called after defining any new vertex format. It returns the new format \"handle\" (index) which must be used in all further vertex functions that refer to this new format.":"定义任何新的顶点格式后，必须调用此函数。它返回新格式的\"handle\"(index)，该格式必须在引用此新格式的所有其他顶点函数中使用。"
+    "This function must be called after defining any new vertex format. It returns the new format \"handle\" (index) which must be used in all further vertex functions that refer to this new format.":"定义任何新的顶点格式后，必须调用此函数。它返回新格式的\"handle\"(index)，该格式必须在引用此新格式的所有其他顶点函数中使用。",
+    "This function returns the vertex format that was started with&nbsp;{}{}vertex_format_begin{}{}.":"此函数返回以 {}{}vertex_format_begin{}{} 开始的顶点格式。"
 }

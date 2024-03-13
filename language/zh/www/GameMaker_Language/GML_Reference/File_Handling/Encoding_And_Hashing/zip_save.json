@@ -1,0 +1,11 @@
+{
+    "A ZIP file created with&nbsp;{}{}zip_create{}{}":"使用 {}{}zip_create{}{} 创建的 ZIP 文件",
+    "If the call is successful, a request ID is returned, and later the Async&nbsp;{}Save / Load{}&nbsp;event is triggered where this ID can be checked. In case of an error, a fatal error is thrown.":"如果调用成功，则会返回请求 ID，稍后会触发异步 {} 保存 / 加载 {} 事件，可以在其中检查此 ID。如果发生错误，则会引发致命错误。",
+    "The file path that the ZIP will be saved as":"ZIP 将保存的文件路径",
+    "The {}async_load{} map in the Save / Load event will contain the following keys:":"Save / Load 事件中的 {}async_load{} 映射将包含以下键：",
+    "This creates a new ZIP file, adds two files to it (with the second file in a subdirectory called {}sounds/{}) and then saves the ZIP to disk as {}upload.zip{}.":"这会创建一个新的 ZIP 文件，向其中添加两个文件 (第二个文件位于名为 {}sounds/{} 的子目录中)，然后将该 ZIP 作为 {}upload.zip{} 保存到磁盘。",
+    "This function saves the ZIP file that you created with&nbsp;{}{}zip_create{}{}&nbsp;to the given file path.":"此函数将您使用 {}{}zip_create{}{} 创建的 ZIP 文件保存到给定的文件路径。",
+    "{}\"id\"{}: The request ID as returned by the original function call":"{}\"id\"{}：原始函数调用返回的请求 ID",
+    "{}\"status\"{}: {}0{} if the ZIP extracted successfully, {}-1{} if it failed":"{}\"status\"{}：如果 ZIP 解压成功，则为 {}0{}; 如果失败，则为 {}-1{}",
+    "{}{}NOTE{}{}&nbsp;This functionality is not available for the HTML5 target platform.":"{}{} 注意{}{} 此功能不适用于 HTML5 目标平台。"
+}

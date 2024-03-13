@@ -1,0 +1,7 @@
+{
+    "A struct containing input names as variables, and their assigned inputs as values.":"一个结构体，其中包含作为变量的输入名称以及作为值的指定输入。",
+    "For information on its use, see&nbsp;{}Mock Input{}.":"有关其使用的信息，请参阅 {} 模拟输入 {}。",
+    "The ID of the player to assign mock input to.":"要为其分配模拟输入的玩家的 ID。",
+    "The code above first defines the inputs for players. It then defines mock input for player 1, keeping the same input names but assigning different inputs. This way two people could play the game locally using the keyboard.":"上面的代码首先定义了玩家的输入。然后它为玩家 1 定义模拟输入，保持相同的输入名称但分配不同的输入。这样两个人就可以使用键盘在本地玩游戏了。",
+    "This function can be used during {}Sync Test{} to assign temporary \"mock\" input to the specified player. This overrides the {}controls defined{} for the player and any {}random input{} from Sync Test.":"此函数可在 {} 同步测试 {} 期间使用，将临时 \" 模拟 \" 输入分配给指定播放器。这会覆盖为播放器定义的 {} 控件 {} 以及来自同步测试的任何 {} 随机输入 {}。"
+}

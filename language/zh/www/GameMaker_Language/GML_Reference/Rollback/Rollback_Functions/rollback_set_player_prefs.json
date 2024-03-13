@@ -1,0 +1,9 @@
+{
+    "After {}enabling preferences{}, this function is used to set the preferences for the local player. This means the function must rely on {}local input{} and not {}Rollback input{}.":"{} 启用偏好设置 {} 后，此函数用于设置本地播放器的偏好设置。这意味着该函数必须依赖于 {} 本地输入 {} 而不是 {} 回滚输入 {}。",
+    "If used, this function must run before the game {}starts{}.":"如果使用，此函数必须在游戏 {} 开始 {} 之前运行。",
+    "Please read:&nbsp;{}Player Preferences{}{} {}":"请阅读：{} 玩家偏好设置 {}{}{}",
+    "The above code sets the preferences for the player, reading values from a \"customizer\" object, which would be unmanaged (local).":"上面的代码设置播放器的首选项，从 \" 定制器 \" 对象读取值，该对象将是非托管的 (本地)。",
+    "The preferences can be of any type. If default preferences are set, ensure you use the same data type and structure.":"首选项可以是任何类型。如果设置了默认首选项，请确保使用相同的数据类型和结构。",
+    "The preferences to set for the local player.":"为本地玩家设置的首选项。",
+    "When any player sets its preferences, everyone in the game receives a {}Rollback Event{}.":"当任何玩家设置其首选项时，游戏中的每个人都会收到一个 {} 回滚事件 {}。"
+}

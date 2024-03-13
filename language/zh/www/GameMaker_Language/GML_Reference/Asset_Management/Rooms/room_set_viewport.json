@@ -2,10 +2,15 @@
     "The height (in pixels) of the view port":"视口高度(单位：像素)",
     "The index of the room to set":"要设置的房间的索引",
     "The index of the view port to set":"要设置的视口的索引",
+    "The room to set":"设定的房间",
     "The visibility of the view port ({}true{} is visible, {}false{} is invisible)":"视口的可见性({}true{}可见，{}false{}不可见)",
     "The width (in pixels) of the view port":"视口的宽度(以像素为单位)",
     "The x position for the view port in the room":"房间中视口的X位置",
+    "The x position of the view port in the room":"房间中视口的 x 位置",
     "The y position of the view port in the room":"视口在房间中的Y位置",
+    "This function sets the view port properties for any room in your game {}except the current one{}.":"此函数设置游戏中 {} 除当前房间之外的任何房间 {} 的视口属性。",
     "This will set the view port [0] properties in the room indexed in the variable \"global.myroom\".":"这将设置变量\"global.myroom\"中索引的房间中的视图端口[ 0]属性。",
-    "With this function you can set the view port properties for any room in your game {}except the current one{}. You supply the room index to set the view port in, the view port index (from 0 to 7) and then whether the view port should be visible at the start of the room or not (set to {}true{} to make the port visible, and {}false{} otherwise). After that you set the x and y coordinate (corresponding to the top left position of the view port) and then the width and height in pixels.":"使用此函数，您可以为游戏中任何房间{}(当前房间{}除外)设置视口属性。 提供房间索引以在中设置视图端口，提供视图端口索引(从 0 到 7)，然后提供视图端口在房间开始是否可见(设置为{}true{}以使端口可见，否则设置为{}false{})。然后设置x和y坐标(对应于视图端口的左上角位置)，然后设置宽度和高度(以像素为单位)。"
+    "This will set the view port [0] properties in the room indexed in the variable {}global.myroom{}.":"这将设置变量 {}global.myroom{} 中索引的房间中的视口 [0] 属性。",
+    "With this function you can set the view port properties for any room in your game {}except the current one{}. You supply the room index to set the view port in, the view port index (from 0 to 7) and then whether the view port should be visible at the start of the room or not (set to {}true{} to make the port visible, and {}false{} otherwise). After that you set the x and y coordinate (corresponding to the top left position of the view port) and then the width and height in pixels.":"使用此函数，您可以为游戏中任何房间{}(当前房间{}除外)设置视口属性。 提供房间索引以在中设置视图端口，提供视图端口索引(从 0 到 7)，然后提供视图端口在房间开始是否可见(设置为{}true{}以使端口可见，否则设置为{}false{})。然后设置x和y坐标(对应于视图端口的左上角位置)，然后设置宽度和高度(以像素为单位)。",
+    "You supply the room index to set the view port in, the view port index (from 0 to 7) and then whether the view port should be visible at the start of the room or not (set to {}true{} to make the port visible, and {}false{} otherwise). After that you set the x and y coordinate (corresponding to the top left position of the view port) and then the width and height in pixels.":"您提供用于设置视口的房间索引、视口索引 (从 0 到 7)，以及视口是否应在房间开始处可见 (设置为 {}true{} 以使端口可见，否则为 {}false{})。之后，设置 x 和 y 坐标 (对应于视口的左上角位置)，然后设置宽度和高度 (以像素为单位)。"
 }

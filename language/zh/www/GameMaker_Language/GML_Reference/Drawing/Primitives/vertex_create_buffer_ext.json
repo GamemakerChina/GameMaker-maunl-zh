@@ -1,5 +1,8 @@
 {
     "As with the function {}{}vertex_create_buffer(){}{}, this function will create a new vertex buffer. This is a special {}grow{} buffer created by {}GameMaker{} which is pre-formatted for use when building primitives for use with shaders. You can specify an initial starting size for the buffer (in bytes) and it will return an index for the buffer which should then be used in all further calls to the buffer.":"与函数{}{}vertex_create_buffer(){}{}一样，此函数将创建新的顶点缓冲区。这是{}GameMaker{}创建的特殊{}增长{}缓冲区，已预先格式化，以便在构建用于着色器的基本体时使用。您可以指定缓冲区的初始起始大小(以字节为单位)，然后它将返回缓冲区的索引，该索引应用于对缓冲区的所有进一步调用。",
+    "The above code creates a new vertex buffer, initially 1MB in size, and store it in the variable {}v_buff{}.":"上述代码创建一个新的顶点缓冲区，最初大小为 1MB，并将其存储在变量 {}v_buff{} 中。",
     "The above code will create a new vertex buffer, initially 1MB in size, and store its handle in the variable \"v_buff\".":"上述代码将创建一个新的顶点缓冲区，最初大小为1MB，并将其句柄存储在变量\"v_buffe\"中。",
-    "The initial size of the buffer (in bytes).":"缓冲区的初始大小(字节)。"
+    "The initial size of the buffer (in bytes).":"缓冲区的初始大小(字节)。",
+    "This function creates a new vertex buffer and sets its initial size in bytes.":"该函数创建一个新的顶点缓冲区并设置其初始大小 (以字节为单位)。",
+    "This is a special {}grow{} buffer created by {}GameMaker{} which is pre-formatted for use when building primitives for use with shaders. You can specify an initial starting size for the buffer (in bytes) and it will return an index for the buffer which should then be used in all further calls to the buffer.":"这是由 {}GameMaker{} 创建的特殊 {}grow{} 缓冲区，已预先格式化，可在构建与着色器一起使用的基元时使用。您可以指定缓冲区的初始大小 (以字节为单位)，它将返回缓冲区的索引，然后在对缓冲区的所有进一步调用中使用该索引。"
 }

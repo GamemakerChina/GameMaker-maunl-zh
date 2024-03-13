@@ -3,5 +3,7 @@
     "This function will remove a directory with the given name in the save area.":"此函数将删除保存区域中具有给定名称的目录。",
     "This will check to see if the specified directory exists in the local data folder and, if it does, it is removed.":"这将检查指定的目录是否存在于本地数据文件夹中，如果存在，则将其删除。",
     "{}NOTE{}: This function will not work on HTML5 as you cannot create or remove directories in the browser local storage.":"{} 注意 {}：此函数不适用于 HTML5，因为您无法在浏览器本地存储中创建或删除目录。",
-    "{}{}{}WARNING!{} This function may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on the&nbsp;{}File System{}&nbsp;for more information.":"{}{}{} 警告！{} 由于 {}GameMaker{} 被沙盒化，此函数可能无法按您预期的那样工作！ 有关详细信息，请参阅 {} 文件系统 {} 部分。"
+    "{}{}{}NOTE{}{}&nbsp;{}This function will not work on HTML5 as you cannot create or remove directories in the browser local storage.{}{}":"{}{}{} 注意{}{}{} 此功能不适用于 HTML5，因为您无法在浏览器本地存储中创建或删除目录。{}{}",
+    "{}{}{}WARNING!{} This function may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on the&nbsp;{}File System{}&nbsp;for more information.":"{}{}{} 警告！{} 由于 {}GameMaker{} 被沙盒化，此函数可能无法按您预期的那样工作！ 有关详细信息，请参阅 {} 文件系统 {} 部分。",
+    "{}{}{}WARNING{}{}&nbsp;{}This may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on&nbsp;{}The File System{} for more information.":"{}{}{} 警告{}{}{} 由于 {}GameMaker{} 处于沙盒状态，这可能无法按您的预期工作！请参阅有关 {} 文件系统 {} 的部分了解更多信息。"
 }

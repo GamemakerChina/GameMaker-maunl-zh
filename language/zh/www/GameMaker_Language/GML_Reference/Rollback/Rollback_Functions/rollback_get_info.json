@@ -1,0 +1,11 @@
+{
+    "Sprite containing the player\u0027s avatar":"包含玩家头像的精灵",
+    "Tells whether the player is signed-into GX.games or not{} {} Will be {}\"Guest\"{} for guest users, and {}\"User\"{} for signed-in users ":"告知玩家是否已登录 GX.games{}{} 对于访客用户来说将是 {}\"Guest\"{}，对于登录用户来说是 {}\"User\"{}",
+    "The ID of the player for which information will be returned.":"将返回信息的玩家 ID。",
+    "The ID of the player on GX.games":"GX.games 上玩家的 ID",
+    "The function takes the ID of the player as an argument, and returns a struct with the following variables:":"该函数将玩家的 ID 作为参数，并返回一个包含以下变量的结构体：",
+    "The name of the player":"玩家姓名",
+    "The {}preferences{} set for the player":"为播放器设置的 {} 偏好设置 {}",
+    "This function returns a struct containing information about a player. This should only be used when managing player instances manually. If you\u0027re using&nbsp;{}{}rollback_define_player(){}{}, then each player instance will automatically receive this information as {}variables{}.":"该函数返回一个包含玩家信息的结构体。这只应在手动管理玩家实例时使用。如果您使用 {}{}rollback_define_player(){}{}，则每个播放器实例都会自动接收此信息作为 {} 变量 {}。",
+    "URL pointing to the player\u0027s avatar image":"指向玩家头像的 URL"
+}

@@ -1,5 +1,5 @@
 {
-    "The above code checks the type of audio indexed in the variable \"snd_Music_1\" and stores the returned value in the variable \"type\".":"上述代码检查在变量\" snd_音乐_1 \"中索引的音频的类型，并将返回值存储在变量\" type \"中。",
+    "The above code checks the type of audio indexed in the variable \"snd_Music_1\" and stores the returned value in the variable \"type\".":"上面的代码检查变量\"snd_Music_1\"中索引的音频类型，并将返回值存储在变量\"type\"中。",
     "The index of the sound to check.":"要检查的声音的索引。",
     "When adding audio to {}GameMaker{} it can be either {}streamed{} or {}in memory{}. If you need to know whether a given sound index is for streamed audio or not you can use this function which will return 1 for streamed, 0 for sound in memory, and -1 if there is any error or the index does not point to a valid sound resource.":"将音频添加到{}GameMaker{}时，它可以{}流式传输{}或{}在内存中{}。如果您需要知道给定的声音索引是否用于流式音频，您可以使用此函数，将为流返回1，为内存中的声音返回0，如果有任何错误或索引未指向有效的声音资源，则返回-1。"
 }

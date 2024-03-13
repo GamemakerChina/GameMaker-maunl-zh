@@ -1,0 +1,9 @@
+{
+    "Calling this function will disable auto-start, so you have to {}start the game{} manually. See:&nbsp;{}Manual vs. Auto Start{}":"调用此函数将禁用自动启动，因此您必须手动 {} 启动游戏 {}。请参阅：{} 手动启动与自动启动 {}",
+    "If used, this function must run before the {}join{}/{}create{} function.":"如果使用，该函数必须在 {}join{}/{}create{} 函数之前运行。",
+    "Please read:&nbsp;{}Player Preferences{}":"请阅读：{} 玩家偏好设置 {}",
+    "The above code enables player preferences, and sets the default preferences in a struct.":"上面的代码启用玩家首选项，并在结构中设置默认首选项。",
+    "The default preferences can be of any type. If you don\u0027t specify default preferences, then all players need to have {}preferences set{} before the game can start.":"默认首选项可以是任何类型。如果您不指定默认首选项，则所有玩家都需要先设置 {} 首选项 {}，然后才能开始游戏。",
+    "This function enables player preferences, and allows you to set the default preferences for all players.":"此功能启用玩家首选项，并允许您为所有玩家设置默认首选项。",
+    "{}OPTIONAL{} The default preferences to set for all players.":"{} 可选{} 为所有玩家设置的默认偏好设置。"
+}

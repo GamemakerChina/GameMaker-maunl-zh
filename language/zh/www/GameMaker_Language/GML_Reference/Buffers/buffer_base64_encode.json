@@ -1,7 +1,12 @@
 {
+    "Base64 is a commonly used encoding scheme that is often used for any media that needs to be stored or transferred over the internet as text, and renders the output unreadable to the human eye.":"Base64 是一种常用的编码方案，通常用于需要作为文本在互联网上存储或传输的任何媒体，并使输出对人眼来说无法读取。",
+    "The above code encodes the full data stored in the buffer stored in the variable {}buff{} and stores the returned string in a local variable {}_b_str{}.":"上述代码对存储在变量 {}buff{} 中的缓冲区中存储的完整数据进行编码，并将返回的字符串存储在局部变量 {}_b_str{} 中。",
     "The above code will create encode the full data stored in the buffer indexed by the variable \"buff\", and store the returned string in the local variable \"b_str\".":"上述代码将创建对存储在由变量\"buff\"索引的缓冲区中的完整数据进行编码，并将返回的字符串存储在局部变量\"b_str\"中。",
+    "The buffer to use.":"要使用的缓冲区。",
     "The data offset value.":"数据偏移值。",
     "The index of the buffer to use.":"要使用的缓冲区的索引。",
     "The size of the buffer.":"缓冲区的大小。",
-    "This function will convert the data from the given buffer into a base64 format encoded string. This is a commonly used encoding scheme that is often used for any media that needs to be stored or transferred over the internet as text, and renders the output unreadable to the human eye. To use this you need to specify an already created buffer, the offset value (which is the point within the buffer at which you wish to start encoding) as well as the size, in bytes, of the buffer memory to encode.":"此函数将给定缓冲区中的数据转换为 Base64 格式的编码字符串。这是一种常用的编码方案，通常用于需要以文本形式通过因特网存储或传输的任何媒体，并呈现人眼无法读取的输出。要使用它，您需要指定一个已经创建的缓冲区、偏移值 (即缓冲区中您希望开始编码的点) 以及要编码的缓冲区内存的大小 (以字节为单位)。"
+    "This function converts the data in the given buffer into a base64 encoded string.":"该函数将给定缓冲区中的数据转换为 Base64 编码的字符串。",
+    "This function will convert the data from the given buffer into a base64 format encoded string. This is a commonly used encoding scheme that is often used for any media that needs to be stored or transferred over the internet as text, and renders the output unreadable to the human eye. To use this you need to specify an already created buffer, the offset value (which is the point within the buffer at which you wish to start encoding) as well as the size, in bytes, of the buffer memory to encode.":"此函数将给定缓冲区中的数据转换为 Base64 格式的编码字符串。这是一种常用的编码方案，通常用于需要以文本形式通过因特网存储或传输的任何媒体，并呈现人眼无法读取的输出。要使用它，您需要指定一个已经创建的缓冲区、偏移值 (即缓冲区中您希望开始编码的点) 以及要编码的缓冲区内存的大小 (以字节为单位)。",
+    "To use this function you need to specify an already created buffer, the offset value (which is the point within the buffer at which you wish to start encoding) as well as the size, in bytes, of the buffer memory to encode.":"要使用此函数，您需要指定已创建的缓冲区、偏移值 (即缓冲区内您希望开始编码的点) 以及要编码的缓冲区内存的大小 (以字节为单位)。"
 }

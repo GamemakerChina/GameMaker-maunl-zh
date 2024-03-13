@@ -3,5 +3,6 @@
     "The above code will check the timing method and then if it\u0027s not set to {}tm_sleep{} it will be set to that and the sleep margin set to 20.":"上述代码将检查定时方法，如果未将其设置为 {}tm_sleep{}，则会将其设置为该值，并将 sleep margin 设置为20。",
     "The number of milliseconds for the sleep margin":"sleep margin 的毫秒数",
     "This function can be used to set the sleep margin value used for the render timing of your game, and requires a millisecond value. The default values are as follows:":"此函数可用于设置用于游戏渲染计时的 sleep margin 值，并且需要一个毫秒值。默认值如下：",
-    "{}NOTE{}: In addition to the Sleep Margin, you can further control your performance and power consumption on Windows by adjusting the {}thread scheduler\u0027s resolution{} at runtime.":"{}注意{}：除 sleep margin 外，您还可以通过在运行时调整{}线程调度程序的分辨率{}来进一步控制 Windows 上的性能和功耗。"
+    "{}NOTE{}: In addition to the Sleep Margin, you can further control your performance and power consumption on Windows by adjusting the {}thread scheduler\u0027s resolution{} at runtime.":"{}注意{}：除 sleep margin 外，您还可以通过在运行时调整{}线程调度程序的分辨率{}来进一步控制 Windows 上的性能和功耗。",
+    "{}{}{}NOTE{}{}{} In addition to the Sleep Margin, you can further control your performance and power consumption on Windows by adjusting the {}thread scheduler\u0027s resolution{} at runtime.":"{}{}{} 注意{}{}{} 除了睡眠裕度之外，您还可以通过在运行时调整 {} 线程调度程序的分辨率 {} 来进一步控制 Windows 上的性能和功耗。"
 }

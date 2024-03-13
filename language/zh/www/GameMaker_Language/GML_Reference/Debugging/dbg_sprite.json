@@ -7,5 +7,7 @@
     "The sprite\u0027s frame will change based&nbsp;on the value&nbsp;of {}{}image_index{}{}, and so is drawn animated in the sprite view. The sprite will also change whenever the instance\u0027s&nbsp;{}{}sprite_index{}{}&nbsp;changes.":"sprite的帧将根据{}{}image_index{}{}的值而改变，因此在sprite视图中以动画方式绘制。当实例的{}{}sprite_index{}{}改变时，sprite也会改变。",
     "This function creates a sprite view&nbsp;of the referenced sprite with the specified image index within the current debug section.":"这个函数在当前调试部分中创建一个指定图像索引的引用子画面的子画面视图。",
     "{}{}NOTE{}{}&nbsp;This debug control spans two columns.":"{}{}注意{} {}此调试控制跨越两列。",
-    "{}{}OPTIONAL{}{}&nbsp;The label to display next to the sprite view":"{}{}可选{}{}显示在精灵视图旁边的标签"
+    "{}{}OPTIONAL{}{}&nbsp;The height to draw the sprite at. If no width value is provided in the previous argument, the width is kept at its original value.{} {} Defaults to the sprite\u0027s height. ":"{}{} 可选{}{} 绘制精灵的高度。如果前面的参数中未提供宽度值，则宽度将保持其原始值。{}{} 默认为精灵的高度。",
+    "{}{}OPTIONAL{}{}&nbsp;The label to display next to the sprite view":"{}{}可选{}{}显示在精灵视图旁边的标签",
+    "{}{}OPTIONAL{}{}&nbsp;The width to draw the sprite at. If no height value is provided in the next argument, the sprite\u0027s aspect ratio is maintained and height is adjusted accordingly.{} {} Defaults to the sprite\u0027s width. ":"{}{} 可选{}{} 绘制精灵的宽度。如果下一个参数中未提供高度值，则保持精灵的宽高比并相应调整高度。{}{} 默认为精灵的宽度。"
 }

@@ -3,5 +3,6 @@
     "The above code creates a new DS queue&nbsp;and stores its index in the variable \"move_queue\". It then pushes a number of values onto the queue for future use.":"上述代码创建一个新的DS队列，并将其索引存储在变量\"move_queue\"中。然后将多个值推送到队列中以供将来使用。",
     "The id of the queue to add to.":"要添加到的队列的ID。",
     "The value to add to the queue.":"要添加到队列的值。",
+    "This function will add a value (real or string) onto the tail of the DS queue. The function can take a further 14 optional arguments (making a total of 15 possible additions), permitting you to add multiple values consecutively to the tail of the queue in a single call.":"该函数将在 DS 队列的尾部添加一个值 (实数或字符串)。该函数还可以采用另外 14 个可选参数 (总共 15 个可能的添加)，允许您在一次调用中将多个值连续添加到队列的尾部。",
     "This function will add a value (real or string) onto the tail of the {}DS queue{}. The function can take a further 14 optional arguments (making a total of 15 possible additions), permitting you to add multiple values consecutively to the tail of the queue in a single call.":"此函数将在{}DS队列{}的尾部添加一个值(实数或字符串)。此函数还可以使用14个可选参数(总共可添加15个参数)，允许您添加多个值在单个呼叫中连续到队列尾部。"
 }

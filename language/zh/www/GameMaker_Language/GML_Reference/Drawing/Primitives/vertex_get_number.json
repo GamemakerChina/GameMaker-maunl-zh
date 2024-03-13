@@ -1,5 +1,7 @@
 {
+    "The above code gets the number of vertices stored in the given vertex buffer in and stores the value in a variable {}v_num{}.":"上述代码获取给定顶点缓冲区中存储的顶点数，并将该值存储在变量 {}v_num{} 中。",
     "The above code will store the number of vertices stored in the given vertex buffer to a variable.":"上述代码将把存储在给定顶点缓冲区中的顶点数存储到变量中。",
     "The vertex buffer to check.":"要检查的顶点缓冲区。",
+    "This function returns the number of vertices defined in a given vertex buffer.":"此函数返回给定顶点缓冲区中定义的顶点数。",
     "With this function you can find out the number of individual vertices defined in any given vertex buffer.":"使用此函数可以查找在任何给定顶点缓冲区中定义的单个顶点的数量。"
 }

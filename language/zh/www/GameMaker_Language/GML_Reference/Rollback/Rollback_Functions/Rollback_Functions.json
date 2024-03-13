@@ -1,3 +1,7 @@
 {
-    "Rollback Functions":"回滚函数"
+    "Rollback Functions":"回滚函数",
+    "The following functions are provided for use during an active game:":"提供以下功能供在游戏进行期间使用：",
+    "The following functions are used for testing, or to enable/disable features related to testing:":"以下函数用于测试，或启用 / 禁用与测试相关的功能：",
+    "The following functions are used to define and get information for your game:":"以下函数用于定义和获取游戏信息：",
+    "The following functions are used to start, join or leave a multiplayer game:":"以下函数用于开始、加入或离开多人游戏："
 }

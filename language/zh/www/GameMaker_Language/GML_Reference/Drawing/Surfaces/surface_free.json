@@ -1,6 +1,11 @@
 {
     "The ID of the surface to be freed.":"要释放的表面的ID。",
     "The above code checks for a key press and if it detects one it frees the memory reserved for the surface indexed in the variable \"surf\" and then changes room.":"上述代码检查是否按键，如果检测到按键，它将释放为可变\"浏览\"中的索引表面保留的内存，然后更换空间。",
+    "The above code checks for a key press and if it detects one it frees the memory reserved for the surface indexed in the variable {}surf{} and then changes room.":"上述代码检查是否有按键按下，如果检测到按键，则释放为变量 {}surf{} 中索引的表面保留的内存，然后更改空间。",
+    "The surface to be freed.":"要释放的表面。",
+    "This function frees a surface from memory.":"此函数从内存中释放表面。",
     "When you are working with surfaces, you should always use this function whenever you are finished using them. Surfaces take up space in memory and so need to be removed, normally at the end of a room, but it can be done at any time depending on the use you put them to. Failure to do so can cause memory leaks which will eventually slow down and crash your game.":"在处理表面时，应始终在完成表面的使用后使用此函数。表面占用内存空间，因此需要移除，通常在房间的尽头，但可以随时移除，具体取决于您对表面的使用情况。如果不这样做，可能会导致内存泄漏，从而最终降低速度并使游戏崩溃。",
+    "When you are working with surfaces, you should always use this function whenever you are finished using them. Surfaces take up space in memory and so need to be removed, normally at the end of a room, but it can be done at any time depending on the use you put them to. Failure to do so can cause memory leaks which will eventually slow down and crash your game.{}{}":"当您使用表面时，每次使用完毕后都应该使用此功能。表面会占用内存空间，因此需要删除，通常是在房间的尽头，但可以随时删除，具体取决于您放置它们的用途。否则可能会导致内存泄漏，最终导致游戏速度减慢并崩溃。{}{}",
+    "{}{}NOTE{}{}&nbsp;When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using&nbsp;{}{}surface_exists{}{} {} {}before referencing them directly. ":"{}{} 注意{}{} 在处理表面时，由于表面存储在纹理内存中，因此它们可能随时不再存在。在直接引用表面之前，您应该 {} 始终 {} 使用 {}{}surface_exists{}{}{}{} 检查表面是否存在。",
     "{}{}{}NOTE{}: When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}{}{}注意{}：使用表面时，由于表面存储在纹理内存中，因此表面可能随时停止存在。在直接引用表面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查表面是否存在。"
 }

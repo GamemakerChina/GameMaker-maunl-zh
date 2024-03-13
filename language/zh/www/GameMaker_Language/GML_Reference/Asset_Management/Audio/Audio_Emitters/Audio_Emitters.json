@@ -41,6 +41,7 @@
     "Updating an emitter":"更新发射器",
     "Updating the listener":"更新侦听器",
     "Using audio emitters and listeners":"使用音频发射器和监听器",
+    "When working with {}Sequences{},&nbsp;{}GameMaker{}&nbsp;adds creates audio emitter for every audio track ({}seqtracktype_audio{}) in the sequence.&nbsp;The ID of these emitters can be found in the&nbsp;{}Sequence Instance\u0027s{}&nbsp;{}activeTracks[i].emitterIndex{}&nbsp;property.":"使用{}序列{}时，{}GameMaker{}添加为序列中的每个音轨({}seqtracktype_audio{}) 创建音频发射器。这些发射器的 ID 可以在{}序列实例的{}{}activeTracks[i].emitterIndex{}属性中找到。",
     "When working with {}Sequences{},&nbsp;{}GameMaker{}&nbsp;adds creates audio emitter for every audio track ({}{}seqtracktype_audio{}) in the sequence.&nbsp;{}The ID of these emitters can be found in the&nbsp;{}Sequence Instance\u0027s{}&nbsp;{}activeTracks[i].emitterIndex{}&nbsp;property.":"当使用{}序列{}时，{}GameMaker{}为序列中的每个音轨({}{}SeqTrackType_Audio{})添加和创建音频发射器。{}这些发射器的ID可以在{}序列实例的{}{}ActiveTracks[I]中找到。emitterIndex{}属性。",
     "When you are creating a top-down game it can be more interesting to make the listener\u0027s orientation follow the direction that the player (or any other \"listener\") is facing. That can be done by the following line of code:&nbsp;":"当您创建自上而下的游戏时，让听者的方向遵循玩家(或任何其他\"听众\")所面对的方向可能更有趣。这可以通过以下代码行实现：",
     "audio_emitter_velocity":"",

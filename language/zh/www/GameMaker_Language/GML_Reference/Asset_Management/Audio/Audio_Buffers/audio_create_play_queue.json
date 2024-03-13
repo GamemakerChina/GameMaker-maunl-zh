@@ -4,6 +4,7 @@
     "\"{}queue_shutdown{}\" - this is set to 0 during normal playback and 1 when the event is received because {}{}audio_free_play_queue(){}{} has been called. When this is set to 1, you don\u0027t want to queue up any further data.":"\"{}queue_shutdown{}\"在正常播放期间设置为 0，当收到事件时设置为 1，因为已调用{}{}audio_free_play_queue(){}{}。将其设置为 1 时，您不想将任何进一步数据排队。",
     "3D (5.1) audio.":"3D(5.1)音频。",
     "Mono (single channel) audio.":"单声道(单通道)音频。",
+    "Note that you should free up any audio queues created with this function when no longer required to prevent memory leaks using the function {}{}audio_free_play_queue(){}{}.":"请注意，当不再需要时，您应该使用函数{}{}audio_free_play_queue(){}{}释放使用此函数创建的任何音频队列，以防止内存泄漏。",
     "Stereo (dual channel) audio.":"立体声(双通道)音频。",
     "The above code creates a new audio queue and assigns its ID to a variable for future reference.":"上面的代码创建了一个新的音频队列，并将其ID分配给一个变量，以供将来参考。",
     "The channels to use from one of the constants listed above.":"使用上述常数之一的通道。",

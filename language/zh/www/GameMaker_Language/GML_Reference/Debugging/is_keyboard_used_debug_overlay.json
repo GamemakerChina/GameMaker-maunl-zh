@@ -1,0 +1,5 @@
+{
+    "The code example above updates the&nbsp;{}{}x{}{}&nbsp;and&nbsp;{}{}y{}{}&nbsp;of the instance based on the keyboard input, only if the Debug Overlay isn\u0027t receiving keyboard input (as checked using&nbsp;{}{}is_keyboard_used_debug_overlay{}{}).":"仅当调试叠加层未接收键盘输入时 (使用 {8}{9}is_keyboard_used_debug_overlay{10}{11} 检查)，上面的代码示例才会根据键盘输入更新实例的 {}{}x{}{} 和 {}{}y{}{}。",
+    "The keyboard is used by&nbsp;{}The Debug Overlay{}&nbsp;when the cursor is active in a control (a&nbsp;{}{}dbg_text_input{}{}, for example) or when you drag a window around by left-clicking and holding the mouse button.":"当光标在控件 (例如 {}{}dbg_text_input{}{}) 中处于活动状态或通过单击左键并按住鼠标来拖动窗口时，{0} 调试覆盖层 {1} 会使用键盘按钮。",
+    "This function returns {}true{} if the keyboard is used by the Debug Overlay, or {}false{} if it isn\u0027t.":"如果调试叠加层使用键盘，则此函数返回 {}true{}; 如果不使用键盘，则返回 {}false{}。"
+}

@@ -1,11 +1,14 @@
 {
     "The height at which to draw the surface.":"绘制表面的高度。",
+    "The surface to draw.":"要绘制的表面。",
     "The unique ID value of the surface to draw.":"要绘制的表面的唯一Id值。",
     "The width at which to draw the surface.":"绘制表面的宽度。",
     "The x position of where to draw the surface.":"绘制表面的x位置。",
     "The y position of where to draw the surface.":"绘制表面的y位置。",
     "This function simply takes a surface and stretches it over the given width and height so that it occupies the area. As with {}{}draw_surface(){}{} you can specify a surface and then the x / y position in the room for the surface to be drawn at and finally a width and a height (which must be pixel values).":"此函数只是采用一个表面，并将其拉伸到给定的宽度和高度上，以便占据该区域。对于{}{}draw_surface(){}{}，可以在房间中指定要绘制的表面的表面和x/y位置，最后指定宽度和高度(必须是像素值)。",
+    "This function simply takes a surface and stretches it over the given width and height so that it occupies the area. As with&nbsp;{}{}draw_surface{}{} you can specify a surface and then the (x, y) position in the room for the surface to be drawn at and finally a width and a height (which must be pixel values).":"该函数只是获取一个表面并将其拉伸到给定的宽度和高度，以便它占据该区域。与 {}{}draw_surface{}{} 一样，您可以指定一个表面，然后指定要绘制的表面在房间中的 (x, y) 位置，最后指定宽度和高度 (必须是像素值)。",
     "This will draw the surface indexed in the variable \"surf\" with its left corner at (10,10). Its width and height are both set to 100, which is how much space it will occupy regardless of the surface\u0027s actual width and height.":"这将绘制在变量\"floace\"中被索引的表面，其左角位于(10,10 )。它的宽度和高度都设置为100，即无论表面的实际宽度和高度如何，它都将占用多少空间。",
+    "This will draw the surface indexed in the variable {}surf{} with its left corner at (10, 10). Its width and height are both set to 100, which is how much space it will occupy regardless of the surface\u0027s actual width and height.":"这将绘制变量 {}surf{} 中索引的曲面，其左角位于 (10, 10)。它的宽度和高度都设置为 100，这是无论表面的实际宽度和高度如何，它都会占据多少空间。",
     "{}TIP{}&nbsp;How a surface appears depends on its contents, especially the alpha values inside the surface. A surface {}cleared{} with an alpha of 0 may appear different from a surface cleared with an alpha of 1, due to the way they blend with the background. Take care of this whenever you notice a difference in the way something renders on a custom surface as opposed to the {}{}application_surface{}{}.":"{}提示{}表面的显示方式取决于其内容，尤其是表面内部的Alpha值。Alpha为0的{}清除表面{}可能与Alpha为1的清除表面不同，因为它们与背景混合的方式不同。只要您注意到自定义表面上的渲染方式与{}{}application_surface{}{}的渲染方式有所不同，就要注意这一点。",
     "{}{}{}NOTE{}&nbsp;When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}{}{}注意{}使用表面时，由于表面存储在纹理内存中，因此表面可能随时停止存在。在直接引用表面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查表面是否存在。"
 }

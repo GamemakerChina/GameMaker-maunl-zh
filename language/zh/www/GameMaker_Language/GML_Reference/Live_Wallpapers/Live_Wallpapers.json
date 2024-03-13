@@ -1,7 +1,17 @@
 {
+    "Also see:&nbsp;{}Wallpaper Events{}":"另请参阅：{} 壁纸事件 {}",
     "Events":"事件",
     "For information on how to set these up, see the {}helpdesk article on GX Live Wallpapers{}.":"有关如何设置的信息，请参阅{} GX动态壁纸上的帮助台文章{}。",
     "Functions":"函数",
+    "Restrictions":"限制",
+    "The following functions are given for Live Wallpapers:":"动态壁纸具有以下功能：",
+    "The following restrictions apply to a Live Wallpaper, after being installed through the store:":"通过商店安装后，动态壁纸将受到以下限制：",
+    "This page lists functions for use with the Live Wallpaper functionality.":"此页面列出了与动态壁纸功能一起使用的功能。",
     "This page lists the functions for use with the Live Wallpaper functionality.":"此页面列出了与动态壁纸功能一起使用的功能。",
-    "{}Live Wallpapers{}":"{}动态壁纸{}"
+    "{}Extensions{}: Calls to DLL functions included in {}extensions{} are disabled (including&nbsp;{}{}external_call{}{},&nbsp;{}{}external_define{}{}, etc.)":"{} 扩展 {}：禁用对 {} 扩展 {} 中包含的 DLL 函数的调用 (包括 {}{}external_call{}{}、{}{}external_define{}{} 等)",
+    "{}File Access{}: The standard {}file sandbox{} applies; {}disabling sandbox{} does nothing":"{} 文件访问 {}：适用标准 {} 文件沙箱 {};{} 禁用沙盒 {} 不会执行任何操作",
+    "{}Live Wallpapers{}":"{}动态壁纸{}",
+    "{}Microphone{}: Disabled":"{} 麦克风 {}：已禁用",
+    "{}Mouse Input{}: Disabled by default, enabled with&nbsp;{}{}wallpaper_set_subscriptions{}{}":"{} 鼠标输入 {}：默认禁用，通过 {}{}wallpaper_set_subscriptions{}{} 启用",
+    "{}Networking{}: Completely disabled (including TCP, UDP, HTTP, etc.)":"{} 网络 {}：完全禁用 (包括 TCP、UDP、HTTP 等)"
 }

@@ -1,0 +1,14 @@
+{
+    "The code above first creates a new vertex format that consists&nbsp;of a 3D position attribute and a texture coordinate attribute. It then initialises a couple&nbsp;of temporary variables: a loop counter, the source buffer and the size in bytes&nbsp;of a single vertex. The {}(3 + 2){} refers to the three float values used to store a position and the two float values to store a UV coordinate. The buffer is then filled with some random values to create a total&nbsp;of 51 randomly positioned vertices,&nbsp;or 17 triangles, stored as {}pr_trianglelist{}&nbsp;(see {}{}Primitive Type Constant{}{}).&nbsp;After that, a new vertex buffer is created from the first 30 vertices in the buffer. Finally, the first three vertices in this vertex buffer are updated with a call to&nbsp;{}{}vertex_update_buffer_from_buffer{}{}; they are&nbsp;overwritten with the data&nbsp;of vertex index 40, 41 and 42 in the&nbsp;original buffer.":"上面的代码首先创建一个新的顶点格式，其中包含 3D 位置属性和纹理坐标属性。然后它初始化几个临时变量：循环计数器、源缓冲区和单个顶点的字节大小。{}(3 + 2){} 指的是用于存储位置的三个浮点值和用于存储 UV 坐标的两个浮点值。然后，缓冲区会填充一些随机值，以创建总共 51 个随机定位的顶点或 17 个三角形，并存储为 {}pr_trianglelist{}( 请参阅 {}{} 基元类型常量 {}{})。之后，从缓冲区中的前 30 个顶点创建一个新的顶点缓冲区。最后，通过调用 {}{}vertex_update_buffer_from_buffer{}{}; 更新此顶点缓冲区中的前三个顶点 ; 它们被原始缓冲区中顶点索引 40、41 和 42 的数据覆盖。",
+    "The data in the source buffer should be formatted the same as the destination vertex buffer\u0027s vertex format. If it\u0027s not, you may get unexpected&nbsp;or no results.":"源缓冲区中的数据的格式应与目标顶点缓冲区的顶点格式相同。如果不是，您可能会得到意想不到的结果或没有结果。",
+    "The source buffer to copy from":"要复制的源缓冲区",
+    "The vertex buffer to copy to":"要复制到的顶点缓冲区",
+    "The&nbsp;offset in the destination buffer to start writing the data":"开始写入数据的目标缓冲区中的偏移量",
+    "This function updates the contents&nbsp;of a vertex buffer using data in the given buffer.":"该函数使用给定缓冲区中的数据更新顶点缓冲区的内容。",
+    "Usage Notes":"使用说明",
+    "Writing data outside of the vertex buffer\u0027s current size will resize the vertex buffer as required.":"在顶点缓冲区当前大小之外写入数据将根据需要调整顶点缓冲区的大小。",
+    "You can use the function&nbsp;{}{}vertex_format_get_info{}{}&nbsp;to get the size and&nbsp;offset&nbsp;of an attribute.":"您可以使用函数 {}{}vertex_format_get_info{}{} 来获取属性的大小和偏移量。",
+    "{}{}IMPORTANT{}{}&nbsp;You cannot pass a&nbsp;{}frozen{}&nbsp;vertex buffer as the destination buffer.":"{}{} 重要信息{}{} 您无法将 {} 冻结 {} 顶点缓冲区作为目标缓冲区传递。",
+    "{}{}OPTIONAL{}{}&nbsp;The size of the data in bytes to copy from the source buffer. Defaults to -1. When -1 the whole buffer is copied.":"{}{} 可选{}{} 要从源缓冲区复制的数据大小 (以字节为单位)。默认为 -1。当 -1 时，复制整个缓冲区。",
+    "{}{}OPTIONAL{}{}&nbsp;The&nbsp;offset in bytes in the source buffer to start copying. Defaults to 0.":"{}{} 可选{}{} 开始复制的源缓冲区中的偏移量 (以字节为单位)。默认为 0。"
+}

@@ -1,10 +1,14 @@
 {
+    "Please note that there are cases when this function may not return the correct value for a {}method{}. Consider the following two function definitions written in a {}{}Script Asset{}{}:":"请注意，在某些情况下，此函数可能无法为 {} 方法 {} 返回正确的值。请考虑在 {}{} 脚本资产 {}{} 中编写的以下两个函数定义：",
     "Please note that there are cases when this function may not return the correct value for a {}method{}. Consider the following two function definitions:":"请注意，在某些情况下，此函数可能无法为{}方法{}返回正确的值。考虑以下两个函数定义:",
+    "Technically, these are both considered methods as they are binding a function to a variable, however calling&nbsp;{}{}typeof{}{}&nbsp;on function {}b{} will return \"ref\" and {}not {}\"method\", while calling it on {}a{} will return \"method\". This is due to the fact that methods created like the one for {}b{} are assigned script references ({}handles{}), since this is the way that the compiler recognises script&nbsp;functions.":"从技术上讲，它们都被视为方法，因为它们将函数绑定到变量，但是对函数 {4}b{5} 调用 {}{}typeof{}{} 将返回“ref”而 {} 不是 {}“方法”， 在 {}a{} 上调用它时将返回“method”。 这是因为为 {}b{} 创建的方法被分配了脚本引用（{} 句柄 {}），因为这是编译器识别脚本函数的方式。",
     "Technically, these are both considered methods as they are binding a function to an instance scope variable, however calling {}typeof(){} on function {}b{} will return \"number\" and {}not {}\"method\", while calling it on {}a{} will return \"method\". This is due to the fact that methods created like the one for {}b{}&nbsp;are assigned script indices (which are integer values), since this is the way that the compiler recognises script&nbsp;functions, even if the function was not defined in a script.":"从技术上讲，这两个都被认为是方法，因为它们将函数绑定到实例范围变量，但是在函数{}b{}上调用{}typeof(){}将返回 “number”，而{}不是{}“方法”，在{}上调用它时，一个{}将返回 “方法”。这是由于这样的事实，即为{}b{}创建的方法被分配脚本索引 (它们是整数值)，因为这是编译器识别脚本函数的方式，即使该函数不是在脚本中定义的。",
     "Technically, these are both considered methods as they are binding a function to an instance scope variable, however calling&nbsp;{}{}typeof{}{}&nbsp;on function {}b{} will return \"number\" and {}not {}\"method\", while calling it on {}a{} will return \"method\". This is due to the fact that methods created like the one for {}b{} are assigned script indices (which are integer values), since this is the way that the compiler recognises script&nbsp;functions, even if the function was not defined in a script.":"从技术上讲，这两个都被认为是方法，因为它们将函数绑定到实例范围变量，但是在函数{}b{}上调用{0}{1}typeof{2}{3}将返回 “number”，而{}不是{}“方法”，在{}a{}上调用它时，将返回 “方法”。这是由于这样的事实，即为{}b{}创建的方法被分配脚本索引 (它们是整数值)，因为这是编译器识别脚本函数的方式，即使该函数不是在脚本中定义的。",
     "The above code gets the data type held by the given global variable and returns the string to a local variable which is then used to output a message to the console.":"上面的代码获取给定全局变量持有的数据类型，并将字符串返回给本地变量，然后将其用于向控制台输出消息。",
+    "The possible return values are listed in the table below:":"下表列出了可能的返回值：",
     "The variable holds a 3 value vector":"三维向量",
     "The variable holds a 32bit integer":"变量保存一个32位整数",
+    "The variable holds a 32bit integer. This type isn\u0027t supported on HTML5.":"该变量保存32位整数。HTML5不支持此类型。",
     "The variable holds a 4 value vector":"4维向量",
     "The variable holds a 64 bit integer":"变量保存一个64位整数",
     "The variable holds a boolean ({}true{} / {}false{})":"变量保存一个布尔值 ({}true{}/{}false{})",
@@ -15,10 +19,13 @@
     "The variable holds a real (floating point) number - this can include {}NaN{} and {}infinity{}":"变量保存一个实数 (浮点数)-这可以包括{}NaN{}和{}infinity{}",
     "The variable holds a string":"变量保存一个字符串",
     "The variable holds a struct reference":"变量持有struct引用",
+    "The variable holds a {}handle{} reference":"该变量保存 {} 句柄 {} 引用",
     "The variable holds an instance reference":"变量保存一个实例引用",
     "The variable is undefined":"变量未定义",
     "The variable references an array":"变量引用数组",
     "The variable to get the data type of.":"获取的数据类型的变量。",
+    "This function returns the data type of any given variable as a string.":"此函数将任何给定变量的数据类型作为字符串返回。",
     "This function returns the data type of any given variable as a string. The possible return values are listed in the table below:":"此函数以字符串形式返回任何给定变量的数据类型。下表列出了可能的返回值:",
-    "Value is unknown. This should {}never{} be seen and signifies that something has gone wrong at the most basic level like a memory overwrite":"值未知。这应该{}永远不会被看到，并表示在最基本的级别上出现了问题，例如内存覆盖"
+    "Value is unknown. This should {}never{} be seen and signifies that something has gone wrong at the most basic level like a memory overwrite":"值未知。这应该{}永远不会被看到，并表示在最基本的级别上出现了问题，例如内存覆盖",
+    "{}{}String{}{} (see table above)":"{}{}String{}{}(参见上表)"
 }

@@ -1,5 +1,6 @@
 {
     "Returns the width of the texture with the given id, which is always a value within the range 0 - 1. This can then be used when mapping textures to models or primitives.":"返回给定ID的纹理宽度，该值始终在0-1范围内。然后，可以在将纹理映射到模型或基本体时使用此选项。",
     "The above code will get the width of the texture taken from a sprite asset.":"以上代码将获取从精灵资源获取的纹理宽度。",
-    "The texture page asset pointer to use":"要使用的纹理页面资源指针"
+    "The texture page asset pointer to use":"要使用的纹理页面资源指针",
+    "This function returns the width of the texture with the given ID, which is always a value within the range 0 - 1. This can then be used when mapping textures to models or primitives.":"此函数返回具有给定 ID 的纹理的宽度，该宽度始终是 0 - 1 范围内的值。然后可以在将纹理映射到模型或图元时使用该宽度。"
 }

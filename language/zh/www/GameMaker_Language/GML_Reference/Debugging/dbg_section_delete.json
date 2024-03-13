@@ -1,6 +1,7 @@
 {
     "A pointer to a debug section returned by&nbsp;{}{}dbg_section{}{}":"指向{}{}dbg_section{}{}返回的调试节的指针",
     "In the Space Key Pressed Event, the debug section is deleted using&nbsp;{}{}dbg_section_delete{}{}.":"在空格键按下事件中，使用{}{}dbg_section_delete{}{}删除调试部分。",
+    "The above code first creates a new debug section using {}{}dbg_section{}{}&nbsp;named \"Config\" in the Create event. Because no call to&nbsp;{}{}dbg_view{}{}&nbsp;was made before, the section is added to a debug view named {}\"Default\"{}.":"上面的代码首先在 Create 事件中使用名为 \"Config\" 的 {}{}dbg_section{}{} 创建一个新的调试部分。由于之前未调用 {}{}dbg_view{}{}，因此该部分会添加到名为 {}\"Default\"{} 的调试视图中。",
     "The above code first creates a new debug section using {}{}dbg_section{}{}&nbsp;named \"Config\" in the Create event. Because no call to&nbsp;{}{}dbg_view{}{}&nbsp;was made before, the section is added to a debug view named {}\"Default\"{}. The debug&nbsp;overlay is then shown using&nbsp;{}{}show_debug_overlay{}{}.":"上面的代码首先在Create事件中使用名为\"Config\"的{}{}dbg_section{}{}创建一个新的调试部分。由于之前未调用{}{}dbg_view{}{}，因此将该节添加到名为{}\"Default\"{}的调试视图中。然后使用{}{}show_debug_overlay{}{}显示调试覆盖。",
     "This function deletes a debug section that was previously added with&nbsp;{}{}dbg_section{}{}.":"此函数删除以前使用{}{}dbg_section{}{}添加的调试节。"
 }

@@ -1,5 +1,10 @@
 {
+    "It takes the room {}index{} (a real number) and {}not{} the room name (a string).":"它采用房间 {} 索引 {}( 实数) 而不是房间名称 (字符串)。",
     "The above code checks to see if the room indexed in the array \"global.rm[]\" exists and if it does it then goes to that room.":"上面的代码检查数组\"global.rm[]\"中索引的房间是否存在，如果它存在，则转到该房间。",
+    "The above code checks to see if the room indexed in the array {}global.rm{} exists and if it does it then goes to that room.":"上面的代码检查数组 {}global.rm{} 中索引的房间是否存在，如果存在则转到该房间。",
     "The index of the room to check.":"要检查的房间的索引。",
+    "The room to check.":"要检查的房间。",
+    "This function checks whether the given room exists or not.":"该函数检查给定房间是否存在。",
+    "This function is most useful when you are creating rooms dynamically using the function {}{}room_add{}{}, but you can also use the {}read-only{} variables&nbsp;{}{}room_first{}{} and&nbsp;{}{}room_last{}{} or the functions&nbsp;{}{}room_next{}{} and&nbsp;{}{}room_previous{}{} {}{} {}{}to get a specific room index, or provide a variable that has stored the index of any other room in your game. ":"当您使用函数 {}{}room_add{}{} 动态创建房间时，此函数非常有用，但您也可以使用 {} 只读 {} 变量 {}{}room_first{}{} 和 {}{}ro\u200B\u200Bom_last{}{} 或函数 {}{}room_next{}{} 和 {}{}room_previous{}{}{}{}{}{} 用于获取特定房间索引，或提供具有存储游戏中任何其他房间的索引。",
     "With this function you can check and see whether the room you specify exists or not. This function takes the room {}index{} (a real number) and {}not{} the room name (a string). This function is most useful when you are creating rooms dynamically using the function {}{}room_add(){}{}, but you can also use the {}read only{} variables {}{}room_first{}{} and {}{}room_last{}{} or the functions {}{}room_next(){}{} and {}{}room_previous(){}{} to get a specific room index, or provide a variable that has stored the index of any other room in your game.":"使用此函数，您可以检查并查看指定的房间是否存在。此函数取房间{}索引{}(实数)，{}不取{}房间名称(字符串)。当您使用函数{}{}room_add(){}{}动态创建房间时，此函数非常有用，但您也可以使用{}只读{}变量{}{}room_first{}{}和{}{}room_last{}{}或函数{}{}room_next(){}{}和{}{}room_previous(){}{}，或提供存储游戏中任何其他房间的索引的变量。"
 }

@@ -10,5 +10,6 @@
     "Usually the numbers are real numbers, but that doesn\u0027t always have to be the case. The following image shows in general how a matrix is constructed with four rows and four columns:":"通常这些数字都是实数，但并不总是如此。下图大致显示了矩阵是如何由四行四列构成的:",
     "{}Matrix Functions{}":"{}矩阵函数{}",
     "{}The top row is row 1, the leftmost column is column 1, and this matrix is a 4x4 matrix because it has four rows and four columns (other sized matrices can be constructed). In describing matrices, the format is always rows / columns, and each number that makes up a matrix is called an {}element{} of the matrix. The elements in a matrix have specific locations, described by their row and column position where the upper left corner of the matrix is row 1 column 1. In the above matrix example, the element at row 1 col 1 is the value \"1\". The element at row 2 column 3 is the value \"4.8\".":"{}最上面一行是第1行，最左边一列是第1列，这个矩阵是一个4x4矩阵，因为它有四行四列(可以构造其他大小的矩阵)。在描述矩阵时，格式总是行/列，组成矩阵的每个数字称为矩阵的{}元素{}。矩阵中的元素具有特定的位置，由它们的行和列位置描述，其中矩阵的左上角为第1行第1列。在上面的矩阵示例中，第1行 col1的元素是值“1”。第2行第3列的元素是值“4.8”。",
-    "{}{}IMPORTANT{}{}&nbsp;Matrices do not have their own datatype in&nbsp;{}GameMaker{}&nbsp;and are always stored in&nbsp;{}Arrays{}.":"{}{}重要{}{} 矩阵在 {}GameMaker{} 中没有自己的数据类型，始终存储在{}数组{}中。"
+    "{}{}IMPORTANT{}{}&nbsp;Matrices do not have their own datatype in&nbsp;{}GameMaker{}&nbsp;and are always stored in&nbsp;{}Arrays{}.":"{}{}重要{}{} 矩阵在 {}GameMaker{} 中没有自己的数据类型，始终存储在{}数组{}中。",
+    "{}{}NOTE{}{}&nbsp;The matrix stack has a maximum size of&nbsp;{}50{}&nbsp;items.":"{}{} 注意{}{} 矩阵堆栈的最大大小为 {}50{} 个项目。"
 }

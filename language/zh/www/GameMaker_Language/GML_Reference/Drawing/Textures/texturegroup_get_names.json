@@ -1,0 +1,5 @@
+{
+    "The above code gets the names&nbsp;of all texture groups using&nbsp;{}{}texturegroup_get_names{}{} and lists them in the debug&nbsp;output.":"上面的代码使用 {}{}texturegroup_get_names{}{} 获取所有纹理组的名称，并将它们列在调试输出中。",
+    "This function returns an array containing the names&nbsp;of all&nbsp;{}Texture Groups{}&nbsp;contained in the game.":"此函数返回一个数组，其中包含游戏中包含的所有 {} 纹理组 {} 的名称。",
+    "{}{}NOTE{}{}&nbsp;The texture group that&nbsp;{}GameMaker{}&nbsp;adds the fallback texture to is included.&nbsp;Empty texture groups&nbsp;may not be included as they\u0027re filtered by the asset compiler.":"{}{} 注意{}{} 包括 {}GameMaker{} 添加后备纹理的纹理组。空纹理组可能不包含在内，因为它们已被资源编译器过滤。"
+}

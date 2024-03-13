@@ -27,5 +27,6 @@
     "{}End Step{}: triggered just before the object end-step event. {}Important!{} If the sequence is paused then this event will not be triggered until the next step after the sequence starts playing again.":"{}步结束{}：在对象结束步骤事件之前触发。{}重要！{}如果序列暂停，则在序列再次开始播放后的下一步骤之前，不会触发此事件。",
     "{}Moments{}":"{}时刻{}",
     "{}NOTE{}: It\u0027s worth noting that in the above script the {}self{} identifier can be omitted and is only used to explicitly show the scope of the method variable being used for this example.":"{}注意{}：值得注意的是，在上面的脚本中，{}self{}标识符可以省略，并且仅用于显式显示用于此示例的方法变量的范围。",
-    "{}Step{}: triggered just before the usual object step event. {}Important!{} If the sequence is paused then this event will not be triggered until the next step after the sequence starts playing again.":"{}步{}：在通常的对象步骤事件之前触发。{}重要！{}如果序列暂停，则在序列再次开始播放后的下一步骤之前，不会触发此事件。"
+    "{}Step{}: triggered just before the usual object step event. {}Important!{} If the sequence is paused then this event will not be triggered until the next step after the sequence starts playing again.":"{}步{}：在通常的对象步骤事件之前触发。{}重要！{}如果序列暂停，则在序列再次开始播放后的下一步骤之前，不会触发此事件。",
+    "{}{}{}NOTE{}{}{} It\u0027s worth noting that in the above script the {}self{} identifier can be omitted and is only used to explicitly show the scope of the method variable being used for this example.":"{}{}{} 注意{}{}{} 值得注意的是，在上述脚本中，{}self{} 标识符可以省略，仅用于显式显示本示例中使用的方法变量的范围。"
 }

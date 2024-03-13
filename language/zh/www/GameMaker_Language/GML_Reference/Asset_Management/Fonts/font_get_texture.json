@@ -1,6 +1,10 @@
 {
     "The above code will get the texture pointer for the font indexed as \"fnt_Main\".":"上面的代码将获得索引为\"fnt_Main\"的字体的纹理指针。",
+    "The above code will get the texture pointer for the font indexed as {}fnt_Main{}.":"上述代码将获取索引为 {}fnt_Main{} 的字体的纹理指针。",
+    "The font to use.":"要使用的字体。",
     "The index of the font to use.":"要使用的字体的索引。",
+    "This function returns a special {}pointer{} for the font texture page.":"此函数返回字体纹理页面的特殊 {} 指针 {}。",
     "This function returns a special {}pointer{} for the font texture page. This value can then be used in other draw functions, particularly in general drawing when using {}primitives{}&nbsp;as well as the {}Shader{} functions. You can get more information about the returned texture page using the different {}texture_{} functions found {}here{}.":"此函数返回字体纹理页面的特殊{}指针{}。然后，可以在其他绘制函数中使用此值，特别是在使用{}图元{}以及{}着色器{}函数时的一般绘制中。您可以使用在{}此处{}找到的不同{}纹理_{}函数来获取有关返回纹理页面的更多信息。",
+    "This value can then be used in other draw functions, particularly in general drawing when using {}primitives{}&nbsp;as well as the {}Shader{} functions. You can get more information about the returned texture page using the different {}texture_*{} functions on the {}Textures{}&nbsp;page.":"然后，该值可用于其他绘制函数，特别是在使用 {} 基元 {} 以及 {} 着色器 {} 函数时的一般绘制中。您可以使用 {}Textures{} 页面上的不同 {}texture_*{} 函数获取有关返回的纹理页面的更多信息。",
     "{}NOTE{} On HTML5, this returns a struct instead of a texture pointer, as a pointer cannot be used on that platform. However this does not change the use of the returned value, as its usage in {}texture functions{} still remains the same.":"{}Note{}在 HTML5 上，这返回一个结构而不是纹理指针，因为指针不能在该平台上使用。然而，这并不改变返回值的使用，因为它在{}纹理函数{}中的使用仍然相同。"
 }

@@ -1,5 +1,6 @@
 {
     "Arguments":"参数",
+    "In this example, we create a callback function that creates a new enemy at a random position in the room. This function is then executed every 10 seconds by passing it to {}call_later{}. The last argument is set to {}true{} so the function keeps getting called every 10 seconds.":"在此示例中，我们创建一个回调函数，该函数在房间中的随机位置创建一个新敌人。然后将该函数传递给 {}call_later{}，每 10 秒执行一次。最后一个参数设置为 {}true{}，因此该函数每 10 秒就会被调用一次。",
     "In this example, we create a callback function that creates a new enemy at a random position in the room. This function is then executed every 10 seconds by passing it to {}call_later{}. The last argument is set to {}{}true{}{} so the function keeps getting called every 10 seconds.":"在本例中，我们创建了一个回调函数，该函数在房间中的随机位置创建了一个新的敌人。然后，通过将此函数传递给 {}call_later{}，每隔 10 秒执行一次此函数。最后一个参数设置为 {}{}true{}{}，因此此函数每隔 10 秒调用一次。",
     "In this example, we create a callback function that shows a debug message after five seconds have passed. After that, the underlying&nbsp;{}Time Source{}&nbsp;is destroyed.":"在本例中，我们将创建一个回调函数，该函数显示五秒后的调试消息。之后，下面的{}时间源{}被销毁。",
     "See:&nbsp;{}Time Source Units{}":"请参阅：{}时间源单位{}",
@@ -18,6 +19,7 @@
     "You must specify a \"callback\" {}method{} that is called when the&nbsp;{}Time Source{}&nbsp;expires.":"必须指定在{}时间源{}过期时调用的\"回调\"{0}方法{1}。",
     "{}Callback{}{}Callback{}":"{}回调{}{}回调{}",
     "{}IMPORTANT{} While this function returns an actual time source ID, this ID cannot be used with the time source functions, as the time sources used by&nbsp;{}call_later{} and&nbsp;{}call_cancel{} are \"invisible\" - they will not appear as children of any built-in time sources and cannot be used with other time source functions. They are, however, included in the time source count returned by {}debug_event(\"ResourceCou{}{}nts\"){}.":"{}重要{} 虽然此函数返回实际时间源 ID，但此 ID 不能与时间源函数一起使用，因为 {}call_later{} 和 {}call_cancel{} 使用的时间源是 \"不可见的\" - 它们不会显示为任何内置时间源的子代，也不能与其他时间源函数一起使用。但是，它们包括在 {}debug_event(\"ResourceCou{}{}nts\"){} 返回的时间源计数中。",
+    "{}IMPORTANT{} While this function returns an actual time source, it cannot be used with the time source functions, as the time sources used by&nbsp;{}call_later{} and&nbsp;{}call_cancel{} are \"invisible\" - they will not appear as children of any built-in time sources and cannot be used with other time source functions. They are, however, included in the time source count returned by {}debug_event(\"ResourceCou{}{}nts\"){}.":"{} 重要{} 虽然此函数返回实际时间源，但它不能与时间源函数一起使用，因为 {}call_later{} 和 {}call_cancel{} 使用的时间源是 \" 不可见的\" - 它们不会出现作为任何内置时间源的子级，不能与其他时间源函数一起使用。不过，它们包含在 {}debug_event(\"ResourceCou{}{}nts\"){} 返回的时间源计数中。",
     "{}Loop{}{}Loop{}":"{}循环{}{}循环{}",
     "{}OPTIONAL{}&nbsp;Whether to loop the&nbsp;{}Time Source{}&nbsp;(default is {}false{})":"{}可选{} 是否循环{}时间源{}(默认为 {}false{})",
     "{}Period{}{}Period{}":"{}时期{}{}时期{}",

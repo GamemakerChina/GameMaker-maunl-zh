@@ -1,0 +1,8 @@
+{
+    "Calling this function will trigger the {}Rollback Start{} event.":"调用此函数将触发 {}Rollback Start{} 事件。",
+    "If the Rollback game is not running, and Enter is pressed, this will start the game.":"如果回滚游戏没有运行，并且按下 Enter 键，这将开始游戏。",
+    "The system normally waits for all players to join before automatically starting the game. This function can be used to start the game early, before all players have joined.":"系统通常会等待所有玩家加入后自动开始游戏。此功能可用于在所有玩家加入之前提前开始游戏。",
+    "This allows the player to start the game manually before all players join.":"这允许玩家在所有玩家加入之前手动开始游戏。",
+    "This function forces the current multiplayer game to start, before all players have joined. You must first create a multiplayer game using&nbsp;{}{}rollback_create_game(){}{}.":"此功能强制当前多人游戏在所有玩家加入之前开始。您必须首先使用 {}{}rollback_create_game(){}{} 创建多人游戏。",
+    "You can call {}{}rollback_use_manual_start(){}{} to make Rollback wait for this function even after all players have joined.":"即使所有玩家都加入后，您也可以调用 {}{}rollback_use_manual_start(){}{} 来让 Rollback 等待此函数。"
+}

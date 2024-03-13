@@ -4,6 +4,7 @@
     "Sequence Direction Constant":"序列方向常数",
     "Sequence Instance Struct":"序列实例结构",
     "The ID of the particle system of this track (particle system tracks).":"此轨迹的粒子系统的ID(粒子系统轨迹)。",
+    "The ID of the sound instance that\u0027s playing on this track\u0027s emitter (audio tracks).":"在此轨道的发射器 (音轨) 上播放的声音实例的 ID。",
     "The Sequence Instance Struct":"序列实例结构",
     "The X origin of the asset for the track (all assets).":"轨迹资源的X原点(所有资源)。",
     "The Y origin of the asset for the track (all assets).":"轨迹资源的Y原点(所有资源)。",
@@ -39,5 +40,6 @@
     "This property will hold an array of \"evaluation\" structs containing information on the current state of each {}asset track{} in the sequence (graphics, sequence, audio etc...). These are the top-level tracks, and the array returned is {}read-only{}. For the contents of the asset track struct returned in each array entry, please see the section below.":"此属性将保存包含序列(图形、序列、音频等)中每个{}资源轨道{}的当前状态的信息的\"评估\"结构数组。这些是顶级轨迹，返回的数组为{}只读{}。 对于每个数组条目中返回的资源跟踪结构的内容，请参见以下部分。",
     "You can check this property to see if a sequence has been paused or not, and it will be {}true{} if it has, or {}false{} otherwise. This is a {}read-only{} property, but you can use the layer function {}{}layer_sequence_pause(){}{}&nbsp;to pause playback, and {}{}layer_sequence_play(){}{}&nbsp;to resume it again if required. You can also check this property using the layer function {}{}layer_sequence_is_paused(){}{}&nbsp;rather than check the property in the struct directly.":"您可以检查此属性以查看序列是否已暂停，如果已暂停，则为{}true{}，否则为{}false{}。这是一个{}只读{}属性，但是您可以使用层函数{}{}layer_sequence_pause(){}{}来暂停播放，并使用{}{}layer_sequence_play(){}\\{}来根据需要再次恢复播放。您还可以使用层函数{}{}layer_sequence_is_paused(){}{}来检查此属性，而不是直接检查结构中的属性。",
     "You can check this property to see if a sequence has finished playing or not, returning {}true{} if it is finished playing, and {}false{} otherwise. This is a {}read-only{} property, and will only ever return {}true{} for tracks that are not set to loop or ping-pong. You can also check this property using the layer function {}{}layer_sequence_is_finished(){}{}&nbsp;rather than check the property in the struct directly.":"您可以检查此属性以查看某个序列是否已完成播放，如果已播放完毕，则返回{}true{}，否则返回{}false{}。这是{}只读{}属性，仅对于未设置为循环或乒乓的曲目返回{}true{}。也可以使用层函数{}{}layer_sequence_is_finished(){}{}来检查此属性，而不是直接检查结构中的属性。",
+    "activeTracks Struct":"activeTracks 结构体",
     "{}{}IMPORTANT{}{}&nbsp;Although this property already exists in the sequence instance struct in the Sequence Create event, it is only filled with tracks after the first Sequence Begin Step event. So the first time you will find values in this struct is during the first iteration of the Sequence Step Event.":"{}{}IMPORTANT{}{}虽然此属性已存在于\"序列创建\"事件中的序列实例结构中，但仅在第一个\"序列开始步骤\"事件之后填充有轨迹。因此，首次在此结构中找到值是在序列步长事件的第一次迭代期间。"
 }

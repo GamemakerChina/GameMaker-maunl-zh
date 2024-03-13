@@ -13,5 +13,6 @@
     "{}Drawing and Miscellaneous{}":"{}绘制和其他{}",
     "{}NOTE{}&nbsp;For further information on importing skeletal animation sprites made with Spine, please see the section {}Importing Non-Bitmap Sprites{}.":"{}注意{}有关导入使用Spine制作的骨骼动画精灵的更多信息，请参见{}导入非位图精灵{}一节。",
     "{}Skins{}":"{}皮肤{}",
-    "{}Slots{}":"{}插槽{}"
+    "{}Slots{}":"{}插槽{}",
+    "{}{}IMPORTANT{}{}&nbsp;Most of the skeletal sprite functions {}do not{} take a sprite or instance reference, as they assume the skeletal sprite is assigned to the current instance (via the IDE or by setting the&nbsp;{}{}sprite_index{}{}). This means that running such functions under a different context (e.g. a global script, or in a constructor) will result in an error, as the current {}{}self{}{}&nbsp;will not have a skeletal sprite in such cases.":"{}{}重要{}{}大多数骨架精灵函数{}不{}采用精灵或实例引用，因为它们假定骨架精灵已分配给当前实例(通过 IDE 或通过设置{}{}sprite_index{}{})。这意味着在不同的上下文(例如全局脚本或构造函数)下运行此类函数将导致错误，因为在这种情况下当前的{}{}self{}{}将不具有骨架精灵。"
 }

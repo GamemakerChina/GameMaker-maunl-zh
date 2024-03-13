@@ -1,0 +1,7 @@
+{
+    "The code above gets all&nbsp;sprites in the game at the time the function is called and stores them in a temporary variable {}_arr_ids{}. Sprites that you added before using the {}sprite_add_*{} functions are also included.":"上面的代码在调用函数时获取游戏中的所有精灵，并将它们存储在临时变量{}_arr_ids{}中。您在使用{}sprite_add_*{}函数之前添加的精灵也包含在内。",
+    "The type&nbsp;of asset to return in the array":"数组中返回的资产类型",
+    "This function gets an array&nbsp;of references to assets of the given asset type.":"此函数获取对给定资产类型的资产的引用数组。",
+    "{}{}NOTE{}{}&nbsp;For the asset type&nbsp;{}asset_script{}&nbsp;the function returns both script assets (the&nbsp;ones you add to&nbsp;{}The Asset Browser{}) and the&nbsp;{}script functions{}&nbsp;they contain.":"{}{}注意{}{}对于资产类型{}asset_script{}，该函数返回脚本资产(您添加到{}资产浏览器{}的资产)及其包含的{}脚本函数{}。",
+    "{}{}NOTE{}{}&nbsp;The returned array contains assets that you added through {}The Asset Browser{} as well as&nbsp;assets that you added {}dynamically at runtime{}.":"{}{}注意{}{}返回的数组包含您通过{}资产浏览器{}添加的资产以及您{}在运行时动态{}添加的资产。"
+}

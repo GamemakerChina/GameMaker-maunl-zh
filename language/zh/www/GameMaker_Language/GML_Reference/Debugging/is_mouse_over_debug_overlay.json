@@ -1,0 +1,5 @@
+{
+    "The code example above first uses&nbsp;{}{}is_mouse_over_debug_overlay{}{}&nbsp;to check if the mouse is over any menu or window of {}The Debug Overlay{}. If it\u0027s not,&nbsp;{}{}keyboard_check_pressed{}{}&nbsp;is used to check if the {}Ctrl{} key was pressed. If that\u0027s the case, an instance of an object&nbsp;{}obj_enemy{} is created at the mouse position.":"上面的代码示例首先使用 {}{}is_mouse_over_debug_overlay{}{} 检查鼠标是否位于 {} 调试叠加层 {} 的任何菜单或窗口上。如果没有，则使用 {}{}keyboard_check_pressed{}{} 检查是否按下了 {}Ctrl{} 键。如果是这种情况，则会在鼠标位置创建对象 {}obj_enemy{} 的实例。",
+    "The mouse is over&nbsp;{}The Debug Overlay{}&nbsp;whenever it\u0027s over a menu or window.":"只要鼠标位于菜单或窗口上，鼠标就会位于 {} 调试叠加层 {} 上。",
+    "This function returns {}true{}&nbsp;{}if the mouse is over a debug overlay window or gadget, or is being used by the debug overlay in any other way (i.e. when dragging windows).{}":"如果鼠标位于调试叠加层窗口或小工具上方，或者调试叠加层以任何其他方式使用 (即拖动窗口时)，则此函数会返回 {}true{}。{}"
+}

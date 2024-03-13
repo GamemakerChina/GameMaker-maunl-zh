@@ -1,8 +1,12 @@
 {
     "For more information on events please see the section {}Object Events{}.":"有关事件的更多信息，请参阅{}对象事件{}部分。",
+    "Function Reference":"功能参考",
     "The following functions exist that deal with generating events:":"存在以下处理生成事件的函数：",
     "There are also a number of read only variables that can be used with the functions listed above which are particularly useful for debugging:":"还有许多只读变量可以与上面列出的函数一起使用，这些函数对于调试特别有用：",
+    "Variable Reference":"变量引用",
     "{}GameMaker{} is completely event driven, and all actions happen as the result of certain events that are triggered in a specific order or by a specific occurrence within the game. There are a number of different events, each one with a specific task or timing and some of them are even split into separate \"sub\" events. Normally these events are run by {}GameMaker{} when it detects an in-game trigger, or every game tick (as is the case with the step and draw events), but you can also apply an event to an instance in the current room from within a piece of code.":"{}GameMaker{} 完全是事件驱动的，所有动作都是以特定顺序或游戏中特定事件触发的特定事件的结果。有许多不同的事件，每个事件都有特定的任务或时间，其中一些甚至被分成单独的 \" 子 \" 事件。通常，这些事件是由 {}GameMaker{} 在检测到游戏中的触发器或每个游戏 Tick 时运行的 (就像步和绘制事件一样)，但您也可以在一段代码内将事件应用于当前房间中的实例。",
     "{}GameMaker{} is completely event driven, and that all actions happen as the result of certain events that are triggered in a specific order or by a specific occurrence within the game. There are a number of different events, each one with a specific task or timing and some of them are even split into separate \"sub\" events. Normally these events are run by {}GameMaker{} when it detects an in-game trigger, or every game tick (as is the case with the step and draw events), but you can also apply an event to an instance in the current room from within a piece of code.":"{}GameMaker{}完全是事件驱动的，所有动作都是以特定顺序或游戏内特定事件触发的特定事件的结果发生的。有许多不同的事件，每个事件都有特定的任务或时间安排，有些甚至被分成单独的\"子\"事件。通常，当{}GameMaker{}检测到一个游戏触发器或每个游戏滴答时，这些事件由{}GameMaker{}运行(步骤和绘制事件也是如此)，但您也可以从一段代码中将事件应用于当前房间中的实例。",
-    "{}Generating Object Events{}":"生成对象事件"
+    "{}Generating Object Events{}":"生成对象事件",
+    "{}{}NOTE{}{}&nbsp;For more information on events please see the section on&nbsp;{}Object Events{}.":"{}{} 注意{}{} 有关事件的更多信息，请参阅 {} 对象事件 {} 部分。",
+    "{}{}NOTE{}{}&nbsp;These variables are read-only.":"{}{} 注意{}{} 这些变量是只读的。"
 }

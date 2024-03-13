@@ -2,11 +2,13 @@
     "A debug section groups together multiple debug controls inside a debug view.":"调试部分将调试视图中的多个调试控件组合在一起。",
     "A debug section\u0027s contents can be copy-pasted to and from the clipboard as {}JSON{}&nbsp;using the {}Copy{} and {}Paste{} buttons.":"可以使用{}复制{}和{}粘贴{}按钮将调试部分的内容作为{0}JSON{1}复制粘贴到剪贴板或从剪贴板复制粘贴。",
     "Most controls span two columns, others only a single one ({}{}dbg_text{}{}&nbsp;and&nbsp;{}{}dbg_button{}{}).":"大多数控件跨两列，其他控件仅跨一列({}{}dbg_text{}{}和{}{}dbg_button{}{})。",
-    "The code above creates a new debug view using {}{}dbg_view{}{}&nbsp;named \"CustomDebugView\" and adds a new section \"Player Variables\" to it using&nbsp;{}{}dbg_section{}{}.":"上面的代码使用{}{}dbg_view{}{}创建了一个名为“CustomDebugView”的新调试视图，并使用{}{}dbg_section{}{}添加了一个新的部分“Player Variables”。",
+    "The code above creates a new debug view using {}{}dbg_view{}{}&nbsp;named \"CustomDebugView\" and adds a new section \"Player Variables\" to it using&nbsp;{}{}dbg_section{}{}.":"上面的代码使用 {}{}dbg_view{}{} 创建一个名为 \"CustomDebugView\" 的新调试视图，并使用 {}{}dbg_section{}{} 添加一个新部分 \"Player Variables\"。",
     "The name&nbsp;of the new debug section":"新调试节的名称",
+    "This function creates a section in the debug view last added with&nbsp;{}{}dbg_view{}{}&nbsp;and shows it in {}The Debug Overlay{}.":"此函数在最后添加 {}{}dbg_view{}{} 的调试视图中创建一个部分，并将其显示在 {} 调试叠加层 {} 中。",
     "This function creates a section in the debug view last added with&nbsp;{}{}dbg_view{}{}&nbsp;and sh{}ows it in {}The Debug Overlay{}{}.":"此函数在上次使用{}{}dbg_view{}{}添加的调试视图中创建一个节，并将其{}显示在{}调试覆盖{}{}中。",
     "Two single-column controls can be placed on the same row by calling&nbsp;{}{}dbg_same_line{}{}.":"通过调用{}{}dbg_same_line{}{}可以将两个单列控件放置在同一行上。",
     "Usage Notes":"用法注释",
     "{}{}Debug Section Pointer{}{}":"{}{}Debug Section Pointer{}{} （调试节指针）",
-    "{}{}NOTE{}{}&nbsp;If no debug view is active then the section is added to a new debug view named {}\"Default\"{}.":"{}{}注意{} {}如果没有调试视图处于活动状态，则该节将添加到名为{}\"Default\"{}的新调试视图中。"
+    "{}{}NOTE{}{}&nbsp;If no debug view is active then the section is added to a new debug view named {}\"Default\"{}.":"{}{}注意{} {}如果没有调试视图处于活动状态，则该节将添加到名为{}\"Default\"{}的新调试视图中。",
+    "{}{}OPTIONAL{}{}&nbsp;{}true{} if the section should be open when it\u0027s created, {}false{} if not (default is {}true{})":"{}{} 可选{}{} 如果该部分在创建时应打开，则为 {}true{}，否则为 {}false{}( 默认值为 {}true{})"
 }

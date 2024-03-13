@@ -1,4 +1,7 @@
 {
+    "The index of the particle system to change.":"要更改的粒子系统的索引。",
+    "The new alpha of the particle system.":"粒子系统的新alpha。",
+    "The new colour of the particle system.":"粒子系统的新颜色。",
     "This changes the colour of a particle system to red, with an alpha of 0.5.":"这会将粒子系统的颜色更改为红色，α值为 0.5。",
     "This function changes the blend colour and alpha that the given particle system is rendered with. This is similar to {}image_blend{}&nbsp;and {}image_alpha{}&nbsp;in instances.":"此函数更改渲染给定粒子系统的混合色和 Alpha。这与实例中的 {}image_blend{} 和 {}image_alpha{} 类似。"
 }

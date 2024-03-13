@@ -1,7 +1,9 @@
 {
+    "The (previously created) buffer to store the data.":"用于存储数据的 (先前创建的) 缓冲区。",
     "The (previously created) buffer to use to store the data.":"用于存储数据的(以前创建的)缓冲区。",
     "The above code gets the number of particles and creates a variable with the data flags to check, then checks to see if there are any particles in the room. If there are, a buffer is created and then filled with the particle data, which is checked and used to draw a sprite at the particle position.":"上面的代码获取粒子数，并创建一个带有要检查的数据标志的变量，然后检查房间中是否存在任何粒子。如果存在，将创建一个缓冲区，然后填充粒子数据，该数据将被检查并用于在粒子位置绘制精灵。",
     "The above code gets the position and velocity of the particle indexed by the variable \"part\" and stores the data in a number of variables.":"上述代码获取由变量 \"part\" 索引的粒子的位置和速度，并将数据存储在多个变量中。",
+    "The above code gets the position and velocity of the particle indexed by the variable {}part{} and stores the data in a number of variables.":"上面的代码获取由变量 {}part{} 索引的粒子的位置和速度，并将数据存储在多个变量中。",
     "The colour and alpha value (hexadecimal).":"颜色和 Alpha 值 (十六进制)。",
     "The flags to use to extract data about specific particle types.":"用于提取有关特定粒子类型的数据的标志。",
     "The flags value for the particle.":"粒子的标志值。",
@@ -9,6 +11,8 @@
     "The index (ID) of the particle to get the data from.":"从中获取数据的粒子的索引 (ID)。",
     "The particle category (as defined when you created the particle or group to which it belongs).":"粒子类别(在创建粒子或粒子所属的组时定义)。",
     "The particle category (as defined when you created the particle).":"粒子类别(在创建粒子时定义)。",
+    "The particle index (its ID) is that which was returned by the function {}{}physics_particle_create{}{}, and the buffer used must have been created previously using the function {}{}buffer_create{}{}. It should be of the \"grow\" type, with the size being approximately that of the expected return data. The flags themselves are set using the constants given below, and you would use the bitwise {}or{} \"|\" to create a single flag value to get the desired information.":"粒子索引 (其 ID) 是由函数 {}{}physicals_article_create{}{} 返回的索引，并且所使用的缓冲区必须是之前使用函数 {}{}buffer_create{}{} 创建的。它应该是 \"grow\" 类型，大小大约是预期返回数据的大小。标志本身使用下面给出的常量进行设置，您可以使用按位 {} 或 {}\"|\" 创建单个标志值以获得所需的信息。",
     "The x and y position of the particle.":"粒子的 X 和 Y 位置。",
+    "This function returns various pieces of information about a single particle in the physics simulation using the given flags checked.":"该函数使用检查的给定标志返回有关物理模拟中单个粒子的各种信息。",
     "This function returns various pieces of information about a single particle in the physics simulation using the given flags checked. The particle index (its ID) is that which was returned by the function {}{}physics_particle_create(){}{}, and the buffer used must have been created previously using the function {}{}buffer_create(){}{}. It should be of the \"grow\" type, with the size being approximately that of the expected return data. The flags themselves are set using the constants given below, and you would use the bitwise {}or{} \"|\" to create a single flag value to get the desired information.":"此函数使用选中的给定标志返回有关物理模拟中单个粒子的各种信息。粒子索引 (其 ID) 是 {}{}physics_particle_create(){}{} 函数返回的索引，所使用的缓冲区必须先使用函数 {}{}buffer_create(){}{} 创建。它应为 \" 增长 \" 类型，大小大约为预期返回数据的大小。标志本身使用下面给出的常量进行设置，您可以使用 位 {} 或 {}\"|\" 来创建单个标志值以获取所需的信息。"
 }

@@ -1,7 +1,9 @@
 {
+    "Optional values to be added to the stack, each one a new argument.":"要添加到堆栈中的可选值，每个值都是一个新参数。",
     "Optional values to be added to the stack.":"要添加到堆栈的可选值。",
     "The above code creates a new DS stack and stores its index in the variable \"move_stack\". It then pushes a number of values onto the stack for future use.":"上述代码创建一个新的DS堆栈，并将其索引存储在变量\"move_stack\"中。然后将多个值推送到堆栈上以供将来使用。",
     "The id of the data structure to push onto.":"要推送到的数据结构的ID。",
     "The value to push onto the stack.":"要推入堆栈的值。",
-    "This function will {}push{} (add) a value, which can be of any data type, onto the top of the stack. The function can take a further 14 optional arguments (making a total of 15 possible additions), permitting you to push multiple values consecutively to the stack in a single call.":"此函数将{}将{}(添加)一个可以是任何数据类型的值推送到堆栈顶部。此函数还可以使用14个可选参数(总共可添加15个参数)，允许您连续推送多个值在单个调用中访问堆栈。"
+    "This function will {}push{} (add) a value, which can be of any data type, onto the top of the stack. The function can take a further 14 optional arguments (making a total of 15 possible additions), permitting you to push multiple values consecutively to the stack in a single call.":"此函数将{}将{}(添加)一个可以是任何数据类型的值推送到堆栈顶部。此函数还可以使用14个可选参数(总共可添加15个参数)，允许您连续推送多个值在单个调用中访问堆栈。",
+    "This function will {}push{} (add) a value, which can be of any data type, onto the top of the stack. The function can take any number of additional arguments, permitting you to push multiple values consecutively to the stack in a single call.":"此函数会将任意数据类型的值 {} 推 {}( 添加) 到堆栈顶部。该函数可以接受任意数量的附加参数，允许您在一次调用中将多个值连续推入堆栈。"
 }

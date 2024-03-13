@@ -1,7 +1,11 @@
 {
     "The above code will draw a 4 vertex triangle strip (making a rectangle) textured with the texture held in the \"tex\" variable, and the whole texture will be used to cover the completed primitive.":"上面的代码将绘制一个4顶点三角形条纹(制作一个矩形)，纹理保存在\"tex\"变量中，并且整个纹理将覆盖完成的基元。",
+    "The above code will draw a 4 vertex triangle strip (making a rectangle) textured with the texture held in the {}_tex{}&nbsp;variable, and the whole texture will be used to cover the completed primitive.":"上面的代码将绘制一个 4 顶点三角形条 (形成一个矩形)，并使用 {}_tex{} 变量中保存的纹理进行纹理化，并且整个纹理将用于覆盖已完成的图元。",
     "The kind of primitive you are going to draw.":"你要画的那种基元。",
+    "The texture to use with the primitive ({}-1{} to use no texture)":"与基元一起使用的纹理 ({}-1{} 表示不使用纹理)",
     "The texture to use with the primitive.":"与基元一起使用的纹理。",
     "This function must be called before you define the vertices of a textured primitive. You must give the kind of primitive to use (see {}{}draw_primitive_begin(){}{} for more information) and the {}id{} of a texture to use, which can be a sprite or background image asset. This asset {}id{} can be gotten from the functions {}{}sprite_get_texture(){}{}, for example (use -1 for no texture).":"在定义纹理基元的顶点之前，必须调用此函数。您必须指定要使用的基元类型(有关详细信息，请参见{}{}draw_primitive_begin(){}{})和要使用的纹理的{}id{}，可以是精灵或背景图像资源。例如，可以从函数{}{}{}{}sprite_get_texture(){}{}获得此资源id(无纹理使用-1)。",
-    "{}{}NOTE{}{} For a texture to repeat it must be a power of two in size, ie: 32x32, 128x128, etc...":"{}{}注意{}{}要重复纹理，其大小必须为2的幂，即：32 x 32、128 x 128等..."
+    "This function must be called before you define the vertices of a textured primitive. You must give the kind of primitive to use (see&nbsp;{}{}draw_primitive_begin{}{} for more information) and the {}id{} of a texture to use, which can be that of a sprite asset or of a surface. This {}id{} can be retrieved from the function&nbsp;{}{}sprite_get_texture{}{}, for example (use {}-1{} for no texture).":"在定义纹理基元的顶点之前必须调用此函数。您必须提供要使用的图元类型 (有关详细信息，请参阅 {}{}draw_primitive_begin{}{}) 以及要使用的纹理的 {}id{}，该纹理可以是精灵资源或表面的 ID。例如，可以通过函数 {}{}sprite_get_texture{}{} 检索此 {6}id{7}( 如果没有纹理，则使用 {}-1{})。",
+    "{}{}NOTE{}{} For a texture to repeat it must be a power of two in size, ie: 32x32, 128x128, etc...":"{}{}注意{}{}要重复纹理，其大小必须为2的幂，即：32 x 32、128 x 128等...",
+    "{}{}NOTE{}{}&nbsp;For a texture to repeat it must be a power of two in size, i.e.: 32x32, 128x128, etc.":"{}{} 注意{}{} 对于要重复的纹理，其大小必须是 2 的幂，即：32x32、128x128 等。"
 }

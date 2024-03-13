@@ -7,7 +7,9 @@
     "The maximum possible value for the delay, expressed in {}delay_unit{}":"延迟的最大可能值，以{}delay_unit{}表示",
     "The minimum possible value for the delay, expressed in {}delay_unit{}":"延迟的最小可能值，以{}delay_unit{}表示",
     "The unit in which {}delay_min{} and {}delay_max{} are expressed":"表示{}delay_min{}和{}delay_max{}的单位",
+    "The value for the delay is chosen to be a random value between {}delay_min{} and {}delay_max{}.":"延迟值选择为 {}delay_min{} 和 {}delay_max{} 之间的随机值。",
     "The value for the delay is chosen t{}{}{}o be a rand{}{}{}om value between {}delay_min{} and {}delay_max{}.{}{}{}{}{}{}":"延迟的值被选择为{6}delay_min{7}和{8}delay_max{9}之间的随机值。",
+    "This function sets the delay before the particle emitter creates particles for the first time when it is in stream mode.":"该函数设置粒子发射器在流模式下第一次创建粒子之前的延迟。",
     "This functi{}on sets the delay bef{}ore the particle emitter creates particles f{}{}{}or the first time{}{}{} when it is in stream m{}ode.{}{}{}":"此函数设置粒子发射器创建粒子前的延迟或处于流模式时的第一次延迟。",
     "{}{}NOTE{}{}&nbsp;The countdown timer is paused when the emitter is disabled using&nbsp;{}{}part_emitter_enable{}{}.":"{}{}注意{}{}使用{}{}part_emitter_enable{}{}禁用发射器时，倒计时定时器暂停。"
 }

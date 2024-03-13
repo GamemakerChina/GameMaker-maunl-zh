@@ -4,6 +4,8 @@
     "The above code first creates a temporary struct {}_sound_params{}. It stores the settings to play a sound \"snd_shot\" with a priority of 20, a gain of 1.2 and a pitch of 2 on an existing emitter {}em_north_entrance{}. It then plays the sound with those settings using&nbsp;{}{}audio_play_sound_ext{}{}.":"上述代码首先创建一个临时结构 {}_sound_params{}。它存储在现有发射器上播放优先级为 20、增益为 1.2、音调为 2 的声音 \"snd_shot\" 的设置 {}em_north_entrance{}。然后使用 {}{}audio_play_sound_ext{}{} 播放具有这些设置的声音。",
     "The above code plays a sound \"snd_ambience\". The sound instance gets a default priority of 0 and won\u0027t be looped. All other sound properties are default as they haven\u0027t been provided in the struct.":"上面的代码播放声音 \"snd_ambience\"。声音实例的默认优先级为 0，不会循环。所有其他声音属性都是默认的，因为结构中没有提供这些属性。",
     "The full list of keys is as follows:&nbsp;":"完整的键值列表如下： ",
+    "The function takes its parameters as a&nbsp;{}struct{}. Depending on the parameters that you provide, the function behaves like&nbsp;{}{}audio_play_sound{}{},&nbsp;{}{}audio_play_sound_at{}{}&nbsp;or&nbsp;{}{}audio_play_sound_on{}{}.&nbsp;The only key that is strictly required in the struct is the {}sound{} key.":"该函数将其参数视为{}结构{}。根据您提供的参数，该函数的行为类似于{}{}audio_play_sound{}{}、{}{}audio_play_sound_at{}{}或{}{}audio_play_sound_on{}{}。该结构中唯一严格要求的键是{}sound{}键。",
+    "This function plays any sound asset in your game using any combination of parameters.":"此函数使用任意参数组合播放游戏中的任何声音资源。",
     "This function takes its parameters as a&nbsp;{}struct{}. Depending on the parameters that you provide, the function behaves like&nbsp;{}{}audio_play_sound{}{},&nbsp;{}{}audio_play_sound_at{}{}&nbsp;or&nbsp;{}{}audio_play_sound_on{}{}.&nbsp;The only key that is strictly required in the struct is the {}sound{} key.":"此函数将其参数作为{}结构{}。根据您提供的参数，该函数的行为类似于 {}{}audio_play_sound{}{}，{}{}audio_play_sound_at{}{} 或 {}{}audio_play_sound_on{}{}。结构中唯一严格要求的 {}sound{} 键是",
     "With this function you can play any sound asset in your game using any combination of parameters.":"使用此功能，您可以使用参数的任意组合在游戏中播放任何声音资源。",
     "{}emitter{} ({}{}Audio Emitter ID{}{},&nbsp;optional), defaults to undefined":"{}emitter{} ({}{}音频发射器 ID{}{}，可选)，默认为 undefined",
@@ -14,5 +16,6 @@
     "{}pitch{} ({}{}Real{}{},&nbsp;optional), defaults to 1.0":"{}pitch{} ({}{}实数{}{}，可选)，默认为 1.0",
     "{}position{} ({}{}Struct{}{},&nbsp;optional), defaults to undefined {} {}{}x{} ({}{}Real{}{}){} {}{}y{} ({}{}Real{}{}){} {}{}z{} ({}{}Real{}{}){} {}{}falloff_ref{} ({}{}Real{}{}){} {}{}falloff_max{} ({}{}Real{}{}){} {}{}falloff_factor{} ({}{}Real{}{}){} {} ":"{}position{} ({}{}结构{}{},&nbsp;可选), 默认为 undefined {} {}{}x{} ({}{}实数{}{}){} {}{}y{} ({}{}实数{}{}){} {}{}z{} ({}{}实数{}{}){} {}{}falloff_ref{} ({}{}实数{}{}){} {}{}falloff_max{} ({}{}实数{}{}){} {}{}falloff_factor{} ({}{}实数{}{}){} {} ",
     "{}priority{} ({}{}Real{}{},&nbsp;optional), defaults to 0":"{}priority{} ({}{}实数{}{}，可选)，默认为 0",
-    "{}sound{} ({}{}Sound Asset{}{}, required)":"{}sound{} ({}{}声音资源{}{}，必填)"
+    "{}sound{} ({}{}Sound Asset{}{}, required)":"{}sound{} ({}{}声音资源{}{}，必填)",
+    "{}{}NOTE{}{}&nbsp;An {}Audio Playback Ended{}&nbsp;event is triggered for the sound when it stops playing.":"{}{}注意{}{}当声音停止播放时，会触发一个{}音频播放结束{}事件。"
 }

@@ -1,5 +1,6 @@
 {
     "Note that you can find further information on instance variables here: {}Instance Variables{}.":"请注意，您可以在此处找到有关实例变量的更多信息：{}实例变量{}。",
     "Path Variables":"路径变量",
-    "The following variables are built-in to all instances when created and can be used to get information about a path, or to change certain properties:":"以下变量在创建时内置于所有实例中，可用于获取有关路径的信息或更改某些属性："
+    "The following variables are built-in to all instances when created and can be used to get information about a path, or to change certain properties:":"以下变量在创建时内置于所有实例中，可用于获取有关路径的信息或更改某些属性：",
+    "{}{}NOTE{}{}&nbsp;You can find further information on instance variables here: {}Instance Variables{}.":"{}{} 注意{}{} 您可以在此处找到有关实例变量的更多信息：{} 实例变量 {}。"
 }

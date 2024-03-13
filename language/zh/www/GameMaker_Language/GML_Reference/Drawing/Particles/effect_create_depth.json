@@ -21,5 +21,6 @@
     "The y position to create the effect at&nbsp;(unused by {}ef_rain{}&nbsp;and {}ef_snow{})":"创建效果的y位置({}ef_rain{}和{}ef_snow{}未使用)",
     "This function creates a simple particle effect at the given depth.":"该函数在给定深度处创建简单的粒子效果。",
     "You supply a depth value and a particle kind, along with its position, size and colour. The size takes three possible values: 0 (small), 1 (medium), or 2 (large).":"您可以提供深度值和粒子种类，沿着其位置、大小和颜色。大小采用三个可能的值：0(小)、1(中)或2(大)。",
-    "{}{}NOTE{}{}&nbsp;The effect types {}ef_rain{}&nbsp;and {}ef_snow{} don\u0027t use the x/y position (although you must still provide them).":"{}{}注意{}{}效果类型{}ef_rain{}和{}ef_snow{}不使用x/y位置(尽管您仍然必须提供它们)。"
+    "{}{}NOTE{}{}&nbsp;Depth values are approximate. If you try to draw things at depth values close to the maximum depth&nbsp;and minimum depth, they may not be drawn due to inaccuracies introduced by the calculations.":"{}{} 注意{}{} 深度值是近似值。如果您尝试以接近最大深度和最小深度的深度值绘制事物，则可能会由于计算引入的不准确性而无法绘制它们。",
+    "{}{}NOTE{}{}&nbsp;The effect types {}ef_rain{}&nbsp;and {}ef_snow{} don\u0027t use the x/y position (although you must still provide them).":"{}{}注意{}{} 效果类型{}ef_rain{}和{}ef_snow{}不使用x/y位置(尽管您仍然必须提供它们)。"
 }

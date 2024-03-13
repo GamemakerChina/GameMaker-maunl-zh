@@ -2,5 +2,5 @@
     "The above code checks the path point \"0\" of the path indexed by \"pth_Patrol\" to see if the speed is not equal to 100. If it is not then it sets the speed of that point to 100.":"上述代码检查由\"pth_Patrol\"索引的路径的路径点\"0\"，以查看速度是否不等于100。如果不是，则设置该点的速度为100。",
     "The index of the path to check.":"要检查的路径的索引。",
     "The point number to check.":"要检查的点编号。",
-    "With this function you can get the speed of the point (as defined in the {}Path Editor{} or when you dynamically add a path point using {}{}path_add_point(){}{}) expressed as a percentage. So, if you have a path point set to 50 in the path editor, this function would return 50 when used.":"使用此函数，可以获取以百分比表示的点速度(如{}路径编辑器{}中定义或使用{}{}path_add_point(){}{}动态添加路径点时)。因此，如果在路径编辑器中将路径点设置为50，该函数在使用时将返回50。"
+    "With this function you can get the speed of the point (as defined in the {}Path Editor{} or when you dynamically add a path point using {}{}path_add_point(){}{}) expressed as a percentage. So, if you have a path point set to 50 in the path editor, this function would return 50 when used.":"通过此函数，您可以获得以百分比表示的点的速度 (如 {} 路径编辑器 {} 中定义的或使用 {}{}path_add_point(){}{} 动态添加路径点时的速度)。因此，如果您在路径编辑器中将路径点设置为 50，则该函数在使用时将返回 50。"
 }

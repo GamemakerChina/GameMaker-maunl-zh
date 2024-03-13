@@ -5,5 +5,6 @@
     "There exists in {}GameMaker{} a number of functions that enable you to manipulate files of all types in different ways:":"在 {}GameMaker{} 中存在一些函数，允许你以不同的方式操作所有类型的文件:",
     "{}NOTE{}&nbsp;These functions are {}Windows{} and {}macOS{} only.":"{} 注意{} 这些函数仅适用于 {}Windows{} 和 {}macOS{}。",
     "{}NOTE{}&nbsp;These functions do not work on the actual files! They only deal with the strings related to the different path elements and should be used in conjunction with the other file functions.":"{}注意{} 这些函数对实际的文件不起作用!它们只处理与不同路径元素相关的字符串，应该与其他文件函数一起使用。",
-    "{}WARNING{}&nbsp;These function may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on {}The File System{} for more information.":"{}警告{} 由于 {}GameMaker{} 沙盒化，这些函数可能无法像您预期的那样工作！ 有关详细信息，请参阅 {} 文件系统 {} 部分。"
+    "{}WARNING{}&nbsp;These function may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on {}The File System{} for more information.":"{}警告{} 由于 {}GameMaker{} 沙盒化，这些函数可能无法像您预期的那样工作！ 有关详细信息，请参阅 {} 文件系统 {} 部分。",
+    "{}WARNING{}&nbsp;These functions may not work as you expect due to {}GameMaker{} being sandboxed! Please see the section on {}The File System{} for more information.":"{} 警告{} 由于 {}GameMaker{} 处于沙盒状态，这些函数可能无法按您的预期运行！请参阅有关 {} 文件系统 {} 的部分了解更多信息。"
 }

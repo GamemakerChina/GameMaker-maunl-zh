@@ -1,0 +1,15 @@
+{
+    "Currently you can only have up to 4 players in one game.":"目前一场游戏中最多只能有 4 名玩家。",
+    "For an extended example, see&nbsp;{}Create a Multiplayer Game{}.":"有关扩展示例，请参阅 {} 创建多人游戏 {}。",
+    "Getting region names":"获取区域名称",
+    "If you want to specify a default region, you will need the region strings. You can get them with an HTTP request to base API URL +&nbsp;{}/regions{}.":"如果要指定默认区域，则需要区域字符串。您可以通过对基本 API URL +{}/regions{} 的 HTTP 请求来获取它们。",
+    "The above code defines a player object, and then attempts to join a game. If it was not joined, it creates a new game instead, with a maximum of 2 players and Sync Test disabled.":"上面的代码定义了一个玩家对象，然后尝试加入游戏。如果未加入，则会创建一个新游戏，最多 2 名玩家并禁用同步测试。",
+    "The number of players that must be connected for the game to start. If {}{}rollback_define_player(){}{} is used, this is the number of instances that are automatically created.":"游戏开始之前必须连接的玩家数量。如果使用 {}{}rollback_define_player(){}{}，则这是自动创建的实例数。",
+    "This function hosts a new multiplayer game. It takes the number of players that must be connected for the game to start, and optionally allows you to disable {}Sync Test{}.":"此功能承载新的多人游戏。它需要一定数量的玩家才能开始游戏，并且可以选择允许您禁用 {} 同步测试 {}。",
+    "This requests the region list from GX.games, and in the {}Async - HTTP{} event, iterates through the list and stores all regions in a global array.":"这会从 GX.games 请求区域列表，并在 {} 异步 - HTTP{} 事件中迭代该列表并将所有区域存储在全局数组中。",
+    "When called with Sync Test disabled, the system waits for {}num_players{} amount of players to join before {}starting{} the game. Make sure to not create or modify any managed instances until the game starts.":"当在禁用同步测试的情况下调用时，系统会在 {} 开始 {} 游戏之前等待 {}num_players{} 名玩家加入。确保在游戏开始之前不要创建或修改任何托管实例。",
+    "{}OPTIONAL{} Specifies the default region where the virtual room will be created.&nbsp;See example at the bottom.":"{} 可选{} 指定将在其中创建虚拟房间的默认区域。请参阅底部的示例。",
+    "{}OPTIONAL{} Specifies whether Sync Test should be enabled, and is {}true{} by default. When set to {}false{}, online functionality is enabled.":"{} 可选{} 指定是否应启用同步测试，默认值为 {}true{}。当设置为 {}false{} 时，将启用在线功能。",
+    "{}TIP{}&nbsp;You can optionally force the game to start before all players have joined, by calling {}{}rollback_start_game(){}{}.":"{} 提示{} 您可以选\u200B\u200B择通过调用 {}{}rollback_start_game(){}{} 强制游戏在所有玩家加入之前开始。",
+    "{}WARNING{} It is not recommended to set a default region in this function unless you are allowing the player to select it through a menu.":"{} 警告{} 不建议在此函数中设置默认区域，除非您允许玩家通过菜单选择它。"
+}

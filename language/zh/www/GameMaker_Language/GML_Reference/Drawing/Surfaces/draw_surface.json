@@ -1,8 +1,11 @@
 {
     "The above code draws the surface indexed in \"surf\" at same position as camera view[0].":"上面的代码在照相机视图[ 0 ]的相同位置绘制\"浏览\"中的索引表面。",
+    "The above code draws the surface indexed in {}surf{} at same position as camera view[0].":"上述代码在与相机视图 [0] 相同的位置绘制在 {}surf{} 中索引的表面。",
+    "The surface to draw.":"要绘制的表面。",
     "The unique ID value of the surface to draw.":"要绘制的表面的唯一Id值。",
     "The x position of where to draw the surface.":"绘制表面的x位置。",
     "The y position of where to draw the surface.":"绘制表面的y位置。",
+    "This function draws a surface at a given position within the room, with the top left corner of the surface being drawn at the specified x/y position.":"此函数在房间内的给定位置绘制表面，并在指定的 x/y 位置绘制表面的左上角。",
     "With this function you can draw a surface at a given position within the room, with the top left corner of the surface being drawn at the specified x/y position.":"使用此函数，可以在房间内的给定位置绘制表面，并在指定的x/ y位置绘制表面的左上角。",
     "{}TIP{}&nbsp;How a surface appears depends on its contents, especially the alpha values inside the surface. A surface {}cleared{} with an alpha of 0 may appear different from a surface cleared with an alpha of 1, due to the way they blend with the background. Take care of this whenever you notice a difference in the way something renders on a custom surface as opposed to the {}{}application_surface{}{}.":"{}提示{}表面的显示方式取决于其内容，尤其是表面内部的Alpha值。Alpha为0的{}清除表面{}可能与Alpha为1的清除表面不同，因为它们与背景混合的方式不同。只要您注意到自定义表面上的渲染方式与{}{}application_surface{}{}的渲染方式有所不同，就要注意这一点。",
     "{}{}{}NOTE{}&nbsp;When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should {}ALWAYS{} check that a surface exists using {}{}{}surface_exists(){}{}{} before referencing them directly.":"{}{}{}注意{}使用表面时，由于表面存储在纹理内存中，因此表面可能随时停止存在。在直接引用表面之前，应该{}始终{}使用{}{}{}surface_exists(){}{}{}检查表面是否存在。"

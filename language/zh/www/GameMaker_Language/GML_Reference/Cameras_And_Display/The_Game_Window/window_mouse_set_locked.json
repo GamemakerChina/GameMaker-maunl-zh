@@ -1,0 +1,11 @@
+{
+    "Global Left Pressed Event":"",
+    "In the Gl{}obal Left Pressed and Gl{}obal Left Released events, the m{}ouse is set t{}o l{}ocked and unl{}ocked respectively, using&nbsp;{}{}window_mouse_set_locked{}{}.{}{}{}{}{}{}":"在全局左按下和全局左释放事件中，使用 {6}{7}window_mouse_set_locked{8}{9} 将鼠标分别设置为锁定和解锁。",
+    "In the Step event, the l{}ocked state&nbsp;{}of the mouse is checked using&nbsp;{}{}window_mouse_get_locked{}{}. If it is l{}ocked, the delta x ({}{}window_mouse_get_delta_x{}{}) and y ({}{}window_mouse_get_delta_y{}{}) are added t{}o the instance\u0027s x and y.{}{}{}{}":"在 Step 事件中，使用 {2}{3}window_mouse_get_locked{4}{5} 检查鼠标的锁定状态。如果它被锁定，则增量 x( {7}{8}window_mouse_get_delta_x{9}{10} ) 和 y( {11}{12}window_mouse_get_delta_y{13}{14} ) 将添加到实例的 x 和 y 中。",
+    "Mouse movement can still be read through the functions&nbsp;{}{}window_mouse_get_delta_x{}{}&nbsp;and&nbsp;{}{}window_mouse_get_delta_y{}{}.":"鼠标移动仍然可以通过函数 {}{}window_mouse_get_delta_x{}{} 和 {}{}window_mouse_get_delta_y{}{} 读取。",
+    "The above code adds the {}change{} in mouse position to the&nbsp;instance\u0027s position while the left mouse button is held down.":"上面的代码在按住鼠标左键的同时将鼠标位置的 {} 更改 {} 添加到实例的位置。",
+    "The cursor is set back to its previous \"visible\" state when mouse lock is disabled again, i.e. when the function is called with {}enable{} set to {}false{}.":"当再次禁用鼠标锁定时，即在将 {}enable{} 设置为 {}false{} 的情况下调用函数时，光标会恢复到之前的 \" 可见 \" 状态。",
+    "This function locks the mouse cursor in place inside the window, and makes it invisible.":"此功能将鼠标光标锁定在窗口内的适当位置，并使其不可见。",
+    "Whether to lock the mouse&nbsp;or not":"是否锁定鼠标",
+    "{}{}NOTE{}{}&nbsp;Use&nbsp;{}{}window_mouse_get_locked{}{}&nbsp;to get the locked state&nbsp;of the mouse.":"{}{} 注意{}{} 使用 {}{}window_mouse_get_locked{}{} 获取鼠标的锁定状态。"
+}

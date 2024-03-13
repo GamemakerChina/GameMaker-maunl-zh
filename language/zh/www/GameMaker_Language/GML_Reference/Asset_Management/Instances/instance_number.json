@@ -1,5 +1,6 @@
 {
     "The above code will check the number of instances that are created form the same object as the current instance and then if there are less than 50, create another one at a random position within the room.":"上面的代码将检查从与当前实例相同的对象创建的实例的数量，然后如果少于50个，则在房间内的随机位置创建另一个实例。",
+    "The object to get the number of instances of, or the keyword {}all{} to count all instances":"要获取其实例数量的对象，或使用关键字 {}all{} 来计算所有实例的数量",
     "The object to total the number of instances of.":"要合计其实例数的对象。",
     "With this function you can find out how many active instances of the specified object exists in the room. When checking using this function, if the object is a {}parent{}, then {}all child objects will also be included in the return value{}, and also note that those instances which have been deactivated with the {}instance deactivate{}&nbsp;functions will {}not{} be included in this check.":"使用此函数，可以找出房间中存在指定对象的活动实例数。使用此函数检查时，如果对象是{}父{}，则{}所有子对象也将包括在返回值{}中，并注意，已通过{}实例去激活{}函数停用的那些实例将不包括{}。"
 }

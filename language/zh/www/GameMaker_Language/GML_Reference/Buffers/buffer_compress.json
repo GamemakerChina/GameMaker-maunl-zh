@@ -1,7 +1,13 @@
 {
+    "The above code creates a buffer then populates it with the data from a string. This buffer is then compressed and saved, and both the source and compressed buffers are deleted.":"上面的代码创建一个缓冲区，然后用字符串中的数据填充它。然后压缩并保存该缓冲区，并删除源缓冲区和压缩缓冲区。",
     "The above code will create a buffer then populate it with the data from a string. This buffer is then compressed and saved, and both the source and compressed buffers are deleted":"上面的代码将创建一个缓冲区，然后用字符串中的数据填充它。然后将此缓冲区压缩并保存，并删除源缓冲区和压缩缓冲区",
+    "The buffer to compress.":"要压缩的缓冲区。",
+    "The function does not&nbsp;alter the original buffer.":"该函数不会改变原始缓冲区。",
     "The index of the buffer to compress.":"要压缩的缓冲区的索引。",
     "The offset within the buffer to compress (in bytes).":"要压缩的缓冲区内的偏移量 (以字节为单位)。",
     "The size of the buffer area to compress (in bytes).":"要压缩的缓冲区的大小 (以字节为单位)。",
-    "With this function you can compress part (or all) of a buffer using {}zlib compression{}. You supply the ID of the buffer to compress (as returned by {}{}buffer_create(){}{}), the offset within the buffer to use in bytes, and the size of the buffer data to compress (also in bytes). The function will return a new buffer ID value for the compressed buffer, or a value less than 0 if it has failed for any reason. This function will not alter the original buffer.":"使用此函数，您可以使用{}zlib 压缩{}压缩部分(或全部)缓冲区。提供要压缩的缓冲区ID(由{}{}buffer_create(){}{}返回)、要使用的缓冲区内偏移量(以字节为单位)以及要压缩的缓冲区数据大小(也以字节为单位)。该函数将为压缩缓冲区返回一个新的缓冲区Id值，如果由于任何原因失败，则返回一个小于0的值。此函数不会改变原始缓冲区。"
+    "This function compresses part (or all) of a buffer using {}zlib compression{}&nbsp;and returns a new buffer containing the compressed data.":"此函数使用 {}zlib 压缩 {} 压缩部分 (或全部) 缓冲区，并返回包含压缩数据的新缓冲区。",
+    "With this function you can compress part (or all) of a buffer using {}zlib compression{}. You supply the ID of the buffer to compress (as returned by {}{}buffer_create(){}{}), the offset within the buffer to use in bytes, and the size of the buffer data to compress (also in bytes). The function will return a new buffer ID value for the compressed buffer, or a value less than 0 if it has failed for any reason. This function will not alter the original buffer.":"使用此函数，您可以使用{}zlib 压缩{}压缩部分(或全部)缓冲区。提供要压缩的缓冲区ID(由{}{}buffer_create(){}{}返回)、要使用的缓冲区内偏移量(以字节为单位)以及要压缩的缓冲区数据大小(也以字节为单位)。该函数将为压缩缓冲区返回一个新的缓冲区Id值，如果由于任何原因失败，则返回一个小于0的值。此函数不会改变原始缓冲区。",
+    "You supply the buffer to compress (as returned by {}{}buffer_create{}{}), the offset within the buffer to use in bytes, and the size of the buffer data to compress (also in bytes). The function will return the compressed buffer as a new buffer, or {}-1{} if it has failed for any reason.":"您提供要压缩的缓冲区 (由 {}{}buffer_create{}{} 返回)、要使用的缓冲区内的偏移量 (以字节为单位) 以及要压缩的缓冲区数据的大小 (也以字节为单位)。该函数将返回压缩缓冲区作为新缓冲区，如果由于任何原因失败，则返回 {}-1{}。",
+    "{}{}Buffer{}{}&nbsp;or -1 in case anything went wrong":"{}{} Buffer {}{} 或 -1，以防出现问题"
 }

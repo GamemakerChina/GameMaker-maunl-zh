@@ -61,5 +61,6 @@
     "{}You can open both windows side-by-side by dragging and resizing them.":"{}您可以通过拖动和调整大小来并排打开这两个窗口。",
     "{}obj_game{}: This will manage your multiplayer game.":"{}obj_game{}: 这将管理您的多人游戏。",
     "{}obj_player{}: This will be your actual player object. Each connected player will have their own instance of this object that they can control.{} {} Assign your player sprite to the player object. ":"{}obj_player{}: 这将是您的实际玩家对象。每个连接的玩家都将拥有他们可以控制的该对象的自己的实例。{}{}将您的玩家精灵分配给玩家对象。",
+    "{}{}left{}, {}right{}, {}up{}, {}down{}, {}Z{}, {}X{}, {}C{}, {}space{}{}{} {} {}These indicate whether the key is held.{}&nbsp;{}*{}_pressed{}{} {}and {}{}*{}_released{}{} {}variants are also provided.{} ":"",
     "{}{}player_id{}{}&nbsp;is a built-in instance variable that stores the ID of the player instance.":"{}{}player_id{}{} 是一个内置的实例变量，存储玩家实例的ID。"
 }

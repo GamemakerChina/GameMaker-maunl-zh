@@ -1,5 +1,9 @@
 {
     "The above code first calculates the size of the buffer to create by multiplying the unsigned 8bit data type by 12 (since we will be using the buffer to hold 12 pieces of data), and then uses this value to set a fixed buffer to the correct size.":"上面的代码首先计算要创建的缓冲区的大小，方法是将无符号的 8 位数据类型乘以 12(因为我们将使用缓冲区保存 12 条数据)，然后使用该值将固定缓冲区设置为正确的大小。",
+    "The above code first calculates the size of the buffer to create by multiplying the unsigned 8bit data type by 12 (since we\u0027ll be using the buffer to hold 12 pieces of data, each 1 byte in size), and then uses this value to set a fixed buffer to the correct size.":"上面的代码首先通过将无符号 8 位数据类型乘以 12 来计算要创建的缓冲区的大小 (因为我们将使用缓冲区来保存 12 条数据，每条数据大小为 1 个字节)，然后使用该值将固定缓冲区设置为正确的大小。",
     "The type of data that is to be checked (see the list of constants {}here{}).":"要检查的数据类型(参见{}此处{}的常量列表)。",
-    "This function will return the size (in bytes) of the given&nbsp;{}{}Buffer Data Type Constant{}{} (listed {}here{}).":"此函数将返回给定{}{}缓冲区数据类型常量{}{}(此处列出{})的大小(以字节为单位)。"
+    "The type of data to be checked (see the list of constants {}here{}).":"要检查的数据类型 (请参阅 {} 此处 {} 的常量列表)。",
+    "This function returns the size (in bytes) of the given&nbsp;{}{}Buffer Data Type Constant{}{} (listed {}here{}).":"此函数返回给定的 {}{} 缓冲区数据类型常量 {}{}( 在 {} 此处 {} 列出) 的大小 (以字节为单位)。",
+    "This function will return the size (in bytes) of the given&nbsp;{}{}Buffer Data Type Constant{}{} (listed {}here{}).":"此函数将返回给定{}{}缓冲区数据类型常量{}{}(此处列出{})的大小(以字节为单位)。",
+    "{}{}NOTE{}{}&nbsp;{}The compiler{} may replace a call to this function with its value at compile-time when it detects that the value is constant.":"{}{} 注意{}{}{} 编译器 {} 在检测到该值是常量时，可能会在编译时用该函数的值替换对该函数的调用。"
 }

@@ -1,4 +1,6 @@
 {
     "All resources in {}GameMaker{} have a unique identifying number, and the {}path_index{} is a {}read-only{} variable that holds the index value for a given path asset that has been assigned to an instance using the {}{}path_start(){}{} function. If the instance has no path assigned, the variable will be set to -1.":"{}GameMaker{}中的所有资源都有唯一的标识号，{}path_index{}是一个{}只读{}变量，用于保存已使用{}{}path_start(){}{}函数分配给实例的给定路径资源的索引值。如果实例没有指定路径，变量将设置为-1。",
-    "The above code checks to see if a path has been assigned to the instance, and if not it starts a new path (assigning it to the {}path_index{} at the same time).":"上面的代码检查路径是否已分配给实例，如果没有，则启动一个新路径(同时将其分配给{}path_index{})。"
+    "The above code checks to see if a path has been assigned to the instance, and if not it starts a new path (assigning it to the {}path_index{} at the same time).":"上面的代码检查路径是否已分配给实例，如果没有，则启动一个新路径(同时将其分配给{}path_index{})。",
+    "The above code checks to see if a path has been assigned to the instance, and if not it starts a new path (assigning it to the&nbsp;{}{}path_index{}{}&nbsp;at the same time).":"上面的代码检查是否已将路径分配给实例，如果没有，则启动一个新路径 (同时将其分配给 {}{}path_index{}{})。",
+    "The variable&nbsp;{}{}path_index{}{} is a {}read-only{} variable that holds the index value for a given path asset that has been assigned to an instance using the&nbsp;{}{}path_start{}{}&nbsp;function. If the instance has no path assigned, the variable will be set to {}-1{}.":"变量 {}{}path_index{}{} 是一个 {} 只读 {} 变量，用于保存已使用 {}{}path_start{}{} 函数分配给实例的给定路径资源的索引值。如果实例未分配路径，则变量将设置为 {}-1{}。"
 }

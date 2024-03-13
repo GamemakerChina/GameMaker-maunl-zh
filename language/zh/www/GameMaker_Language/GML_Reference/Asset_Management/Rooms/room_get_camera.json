@@ -2,5 +2,8 @@
     "The above code assigns a camera in a newly created room to view port [0].":"上面的代码将新创建的房间中的摄像机分配给视口[0]。",
     "The index of the room to get the view camera of":"要获取其视图摄像机的房间的索引",
     "The index of the view port to get the camera of":"要获取其摄像机的视口的索引",
-    "With this function you can get the unique index ID of the camera assigned to a specific view in a room other than the current one. You give the room to use, the view port to use (from 0 to 7) and the function will return a camera index.":"使用此函数，可以获取指定给房间中特定视图而不是当前视图的摄影机的唯一索引 ID。指定要使用的房间、要使用的视图端口(从 0 到 7)，函数将返回相机索引。"
+    "The room to get the view camera of":"放置取景摄像头的房间",
+    "This function gets the unique index ID of the camera assigned to a specific view in a room other than the current one.":"此函数获取分配给当前房间以外的房间中特定视图的摄像机的唯一索引 ID。",
+    "With this function you can get the unique index ID of the camera assigned to a specific view in a room other than the current one. You give the room to use, the view port to use (from 0 to 7) and the function will return a camera index.":"使用此函数，可以获取指定给房间中特定视图而不是当前视图的摄影机的唯一索引 ID。指定要使用的房间、要使用的视图端口(从 0 到 7)，函数将返回相机索引。",
+    "You give the room to use, the view port to use (from 0 to 7) and the function will return a camera index.":"您指定要使用的空间、要使用的视口 (从 0 到 7)，该函数将返回相机索引。"
 }

@@ -1,4 +1,6 @@
 {
     "Tell {}GameMaker{} to accept texture position data (u and v) as part of the new vertex format being created.":"通知{}GameMaker{}接受纹理位置数据(u和v)作为正在创建的新顶点格式的一部分。",
-    "The above code will create a new vertex format with just texture and position values and then store the format id in the variable \"my_format\".":"上述代码将创建仅具有纹理和位置值的新顶点格式，然后将格式ID存储在变量\"my_format\"中。"
+    "The above code creates a new vertex format with just texture and position values and then stores the format in the variable {}my_format{}.":"上面的代码创建了一个仅包含纹理和位置值的新顶点格式，然后将该格式存储在变量 {}my_format{} 中。",
+    "The above code will create a new vertex format with just texture and position values and then store the format id in the variable \"my_format\".":"上述代码将创建仅具有纹理和位置值的新顶点格式，然后将格式ID存储在变量\"my_format\"中。",
+    "This function adds texture position data (u and v) as part of the new vertex format being created.":"此函数添加纹理位置数据 (u 和 v) 作为正在创建的新顶点格式的一部分。"
 }

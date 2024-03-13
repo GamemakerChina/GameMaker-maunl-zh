@@ -1,10 +1,14 @@
 {
     "Please read the {}{}buffer_load(){}{} page for platform-specific notes.":"请阅读{}{}buffer_load(){}{}页面，了解特定于平台的注意事项。",
+    "Please read the&nbsp;{}{}buffer_load{}{} page for platform-specific notes.":"请阅读 {}{}buffer_load{}{} 页面，了解特定于平台的说明。",
     "The above code will create a new \"grow\" buffer and then load in a part of the data saved in the file \"save.dat\" to it.":"上面的代码将创建一个新的 \"增长\" 缓冲区，然后将保存在文件 \"save.dat\" 中的一部分数据加载到其中。",
+    "The buffer to load into (destination).":"要加载到 (目标) 的缓冲区。",
     "The index of the buffer to load into (destination).":"要加载到 (目标) 中的缓冲区的索引。",
     "The length of the part of the source buffer to load (in bytes).":"要加载的源缓冲区部分的长度 (以字节为单位)。",
     "The name of the file to load from (source).":"要从 (源) 加载的文件的名称。",
     "The offset where to start putting the partial data in the destination buffer (in bytes).":"开始将部分数据放入目标缓冲区的偏移量 (以字节为单位)。",
     "The offset within the destination buffer to load to (in bytes).":"要加载到的目标缓冲区内的偏移量 (以字节为单位)。",
+    "This function loads some of the buffer data that was previously saved using the&nbsp;{}{}buffer_save{}{}&nbsp;functions into an existing buffer.":"此函数将之前使用 {}{}buffer_save{}{} 函数保存的一些缓冲区数据加载到现有缓冲区中。",
+    "You provide the previously created buffer to load into, the path to the&nbsp;file to load and the offset from the start of the buffer (in bytes) that you wish to start writing the data. The following arguments are for setting the length of the buffer data (in bytes) from the initial offset point that you wish to load and the offset point to load the data to in the buffer (again, in bytes).":"您提供先前创建的要加载的缓冲区、要加载的文件的路径以及距您希望开始写入数据的缓冲区开头的偏移量 (以字节为单位)。以下参数用于设置从您希望加载的初始偏移点开始的缓冲区数据长度 (以字节为单位) 以及将数据加载到缓冲区中的偏移点 (同样以字节为单位)。",
     "{}This function will load some of the buffer data that was previously saved using the {}{}{}buffer_save(){}{}{} functions into an existing buffer. You give the id of the previously created buffer to load into, then the saved buffer file to load, and then the offset from the start of the buffer (in bytes) that you wish to load the data from. The following arguments are for setting the length of the buffer data (in bytes) from the initial offset point that you wish to load and the offset point to load the data to in the buffer (again, in bytes).{}":"{}此函数将以前使用{}{}{}buffer_save(){}{}{}函数保存的一些缓冲区数据加载到现有缓冲区中。您给出要加载到的先前创建的缓冲区的id，然后给出要加载的保存的缓冲区文件，然后给出要从中加载数据的缓冲区开始的偏移量 (以字节为单位)。以下参数用于设置缓冲区数据的长度 (以字节为单位)，从您希望加载的初始偏移点和缓冲区中加载数据的偏移点 (同样以字节为单位)。{}"
 }

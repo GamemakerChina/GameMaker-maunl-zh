@@ -1,0 +1,17 @@
+{
+    "Finally, in the Draw event, {}vb2{} is drawn using&nbsp;{}{}vertex_submit{}{}.":"最后，在 Draw 事件中，使用 {}{}vertex_submit{}{} 绘制 {0}vb2{1}。",
+    "First, in the Create event, a vertex format identical to the&nbsp;{}Passthrough Vertex Format{}&nbsp;is created and stored in a variable {}vertex_format{}. Then, a new vertex buffer is created and filled with three vertices, according to the vertex format. After that, a second vertex buffer {}vb2{} is created and updated with the vertex data in {}vb{}&nbsp;using {}{}vertex_update_buffer_from_vertex{}{}. After the function call, the vertex data in {}vb2{} will be identical to that in {}vb{}.":"首先，在 Create 事件中，创建与 {} 直通顶点格式 {} 相同的顶点格式并将其存储在变量 {}vertex_format{} 中。然后，根据顶点格式创建一个新的顶点缓冲区并用三个顶点填充。之后，使用 {}{}vertex_update_buffer_from_vertex{}{} 创建第二个顶点缓冲区 {}vb2{}，并使用 {}vb{} 中的顶点数据进行更新。函数调用后，{}vb2{} 中的顶点数据将与 {}vb{} 中的相同。",
+    "If the destination vertex buffer never had any vertices added to it, the vertices will be added using the source buffer\u0027s vertex format.":"如果目标顶点缓冲区从未添加任何顶点，则将使用源缓冲区的顶点格式添加顶点。",
+    "The above code shows how to duplicate a vertex buffer\u0027s contents to another, newly created vertex buffer.":"上面的代码显示了如何将顶点缓冲区的内容复制到另一个新创建的顶点缓冲区。",
+    "The destination vertex buffer to copy vertices to":"将顶点复制到的目标顶点缓冲区",
+    "The destination vertex buffer\u0027s&nbsp;{}vertex format{}&nbsp;should have the same attributes as the source vertex buffer (its&nbsp;{}{}Vertex Format{}{}&nbsp;can be different).":"目标顶点缓冲区的 {} 顶点格式 {} 应与源顶点缓冲区具有相同的属性 (其 {}{} 顶点格式 {}{} 可以不同)。",
+    "The index&nbsp;of the first vertex in the destination vertex buffer to copy to":"要复制到的目标顶点缓冲区中第一个顶点的索引",
+    "The source vertex buffer to copy vertices from":"用于从中复制顶点的源顶点缓冲区",
+    "This function updates the contents&nbsp;of a vertex buffer using (part of) the contents&nbsp;of another vertex buffer.":"此函数使用另一个顶点缓冲区的 (部分) 内容来更新顶点缓冲区的内容。",
+    "Usage Notes":"使用说明",
+    "You can&nbsp;optionally provide the starting vertex and the number&nbsp;of vertices to copy.":"您可以选择提供起始顶点和要复制的顶点数。",
+    "{}Writing data outside of the vertex buffer\u0027s current size will resize the vertex buffer as required.{}":"{} 写入超出顶点缓冲区当前大小的数据将根据需要调整顶点缓冲区的大小。{}",
+    "{}{}IMPORTANT{}{}&nbsp;You cannot pass&nbsp;{}frozen{}&nbsp;vertex buffers into this function.":"{}{} 重要信息{}{} 您无法将 {} 冻结 {} 顶点缓冲区传递到此函数中。",
+    "{}{}OPTIONAL{}{}&nbsp;The index&nbsp;of the first vertex in the source vertex buffer to copy":"{}{} 可选{}{} 要复制的源顶点缓冲区中第一个顶点的索引",
+    "{}{}OPTIONAL{}{}&nbsp;The number&nbsp;of vertices to copy":"{}{} 可选{}{} 要复制的顶点数"
+}

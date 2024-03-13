@@ -5,5 +5,6 @@
     "This function will remove the last element in the given array, and return its value.&nbsp;If the array is empty, {}undefined{}&nbsp;is returned.":"此函数将删除给定数组中的最后一个元素，并返回其值。如果数组为空，则返回 {}undefined{}。",
     "This function will remove the last element in the given array, and return its value.&nbsp;If the array is empty,&nbsp;{}undefined{}&nbsp;is returned.":"此函数将删除给定数组中的最后一个元素，并返回其值。如果数组为空，则返回 {}undefined{}。",
     "To only read the last element in the array without removing it, use&nbsp;{}array_last{}.":"要只读取数组中的最后一个元素而不将其删除，请使用 {}array_last{}。",
+    "{}{}NOTE{}{}&nbsp;To only read the last element in the array without removing it, use&nbsp;{}{}array_last{}{}.":"{}{}注意{}{}要仅读取数组中的最后一个元素而不将其删除，请使用{}{}array_last{}{}。",
     "{}{}NOTE{}{}&nbsp;To only read the last element in the array without removing it, use&nbsp;{}{}array_last{}{}.{}{}":"{}{}注意{}{} 要只读取数组中的最后一个元素而不将其删除，请使用 {}{}array_last{}{}。{}{}"
 }

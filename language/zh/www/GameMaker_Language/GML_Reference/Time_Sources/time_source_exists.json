@@ -3,5 +3,6 @@
     "In that case, it destroys the&nbsp;{}Time Source{}.":"在这种情况下，它会销毁{}时间源{}。",
     "The&nbsp;{}Time Source{}&nbsp;to check":"要检查的{}时间源{}",
     "This code checks if a&nbsp;{}Time Source{}&nbsp;exists. If it does, it checks if the Space key was pressed.":"此代码检查{}时间源{}是否存在。如果是，则会检查是否按下了空格键。",
-    "This function returns whether the given ID is a valid {}Time Source{}.":"此函数返回给定 ID 是否为有效的{}时间源{}。"
+    "This function returns whether the given ID is a valid {}Time Source{}.":"此函数返回给定 ID 是否为有效的{}时间源{}。",
+    "This function returns whether the given variable holds a&nbsp;{}Time Source{}.":"此函数返回给定变量是否拥有 {} 时间源 {}。"
 }

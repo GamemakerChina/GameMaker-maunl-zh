@@ -1,0 +1,6 @@
+{
+    "Read about handles on the page for&nbsp;{}Data Types{}.":"了解 {} 数据类型 {} 页面上的句柄。",
+    "The above code checks a variable to see if it is a struct, and if the function returns {}true{}, the struct is deleted.":"上面的代码检查一个变量是否是一个结构体，如果函数返回 {}true{}，则删除该结构体。",
+    "The value to check.":"要检查的值。",
+    "This function checks if the supplied value is a handle. It returns {}true{} if it is, otherwise it&nbsp;returns&nbsp;{}false{}.":"此函数检查提供的值是否为句柄。如果是，则返回 {}true{}，否则返回 {}false{}。"
+}

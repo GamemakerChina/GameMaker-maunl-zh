@@ -2,5 +2,5 @@
     "Index of the mp_grid that is to be destroyed":"要销毁的mp_grid的索引",
     "The above code will destroy the mp_grid indexed in the variable \"grid\" if the variable \"timer\" is equal to 0, and then goto another room.":"如果变量\"计时器\"等于0，则上述代码将销毁在变量\"grid\"中索引的mp_grid，然后转到另一个房间。",
     "You can use this function to destroy the indicated mp_grid (as defined by the function {}{}mp_grid_create(){}{}) and free up the memory allocated it. It is {}essential{} that you call this whenever the MP grid is finished with or you could potentially get a memory leak, meaning that your game will slow down over time and eventually crash.":"您可以使用此函数销毁指示的mp_grid(由函数{}{}mp_grid_create(){}{})定义)，并释放分配给它的内存。{}必须{}在Mp网格结束时调用此命令，否则可能会导致内存泄漏，这意味着您的游戏将随着时间的推移而变慢，并最终崩溃。",
-    "{}NOTE{}: Using {}mp_grid_*{} functions on a grid after it has been destroyed will result in an error.":"{}注意{}:网格被破坏后，在其上使用{}mp_grid_*{}函数将导致错误。"
+    "{}NOTE{}: Using {}mp_grid_*{} functions on a grid after it has been destroyed will result in an error.":"{} 注意{}：在网格被销毁后，在网格上使用 {}mp_grid_*{} 函数会导致错误。"
 }

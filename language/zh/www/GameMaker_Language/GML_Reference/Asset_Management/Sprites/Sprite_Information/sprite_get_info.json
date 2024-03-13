@@ -84,14 +84,17 @@
     "This section contains information on variables included in the struct for Bitmap sprites (sprites that are not Spine or SWF type sprites).":"本节包含有关位图精灵 (不是 Spine 或 SWF 类型精灵) 的结构中包含的变量的信息。",
     "This section contains information on variables included in the struct for Spine sprites.":"本节包含有关 Spine 精灵的结构中包含的变量的信息。",
     "This section contains information on variables included in the struct for all kinds of&nbsp;sprites.":"本节包含有关所有精灵的结构中包含的变量的信息。",
+    "Whether the mask is \"Rectangle with rotation\" or not":"遮罩是否为\"旋转矩形\"",
     "{}Bitmap Sprite Data{}{}Bitmap Sprite Data{}":"{}位图精灵数据{}{}位图精灵数据{}",
     "{}General Sprite Data{}{}General Sprite Data{}":"{}通用精灵数据{}{}通用精灵数据{}",
     "{}Spine Sprite Data{}{}Spine Sprite Data{}":"{}Spine 精灵数据{}{}Spine 精灵数据{}",
     "{}These additional variables are available only for Spine sprites:{}":"{}以下附加变量仅适用于 Spine 精灵：{}",
     "{}This additional variable is available only for Bitmap (regular)&nbsp;sprites:{}":"{}此附加变量仅适用于位图(常规)精灵：{}",
+    "{}true{} if the sprite is marked as smooth, otherwise {}false{}{} (This can only be specified through {}{}sprite_add(){}{}&nbsp;or similar functions, and will be {}false{} for sprites created in the IDE) ":"如果精灵被标记为平滑，则为{}true{}，否则为{}false{}{}(这只能通过{}{}sprite_add(){}{}或类似函数指定，并且将为{}false{}对于在 IDE 中创建的精灵)",
     "{}true{} if the sprite is marked as smooth, otherwise {}false{}{} {}{}(This can only be specified through {}{}sprite_add(){}{}&nbsp;or similar functions, and will be {}false{} for sprites created in the IDE){}{}{}{} ":"如果精灵标记为平滑，则为{}true{}，否则为{}false{}{}{}{}(这只能通过{}{}sprite_add(){}{})或类似的函数来指定，并且对于在IDE中创建的精灵将为{}false{}){}{}{}{}",
     "{}true{} if the sprite is marked as transparent, otherwise {}false{}{} {}(This can only be specified through {}{}sprite_add(){}{}&nbsp;or similar functions, and will be {}false{} for sprites created in the IDE){} ":"如果精灵标记为透明，则为{}true{}，否则为{}false{}{}{}(这只能通过{}{}sprite_add(){}{}或类似的函数来指定，并且对于在IDE中创建的精灵将为{}false{}){}",
     "{}true{} if this sprite is marked as premultiplied, otherwise {}false{}":"如果此精灵标记为预乘，则为{}true{}，否则为{}false{}",
+    "{}true{} if this sprite uses a collision mask (either generated from a shape or the image itself), otherwise {}false{} (meaning it uses a bounding box)":"如果此精灵使用碰撞遮罩(从形状或图像本身生成)，则为{}true{}，否则为{}false{}(表示它使用边界框)",
     "{}true{} if this sprite uses a collision mask, otherwise {}false{}":"如果此精灵使用碰撞遮罩，则为{}true{}，否则为{}false{}",
     "{}{}NOTE{}{}&nbsp;Please consult the {}Spine documentation{} for more information regarding Spine\u0027s internal variables.":"{}{}注意{}{} 有关 Spine 内部变量的更多信息，请参考{} Spine 文档{}。"
 }
