@@ -1,5 +1,4 @@
 {
-    "\u0005?":"\uFFFD\uFFFD\uFFFD\fD\u0019\uFFFDve\uFFFDslLB-\uFFFD\uFFFDlV\uFFFD\\1\uFFFD\uFFFD\u000F\u001A\u0017\uFFFD\u000B\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDh\uFFFD\bN\uFFFD\u00035g\u02CF\uFFFD^\uFFFD^\uFFFD\uFFFD\u001BK\u000B\u000B\uFFFDvLB\u001F\uFFFD\uFFFD\uFFFD\f\u001B\uFFFDD\u0018\uFFFD\u0017\u0015n\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\f&\uFFFD/\u0027\uFFFD\uFFFDÅ\uFFFD\uFFFD\uFFFD\u05B1*\uFFFDJ8b0\uFFFDo\uFFFD\uFFFDLp\fF\uFFFD\uFFFDj\uFFFD`\u0001p\uFFFD^\u0012s\uFFFDN\uFFFD\uFFFD3U\u0010x\uFFFD@\uFFFD {\uFFFD填\u0334P\uFFFDOBIK\u000E\u0014\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDF\fs\uFFFD\uFFFD\uFFFD\uFFFD{J\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDiȅ\uFFFD",
     "Additional functions for the script can be added using the same format as shown above, one after the other within the script asset.":"可以使用如上所示的相同格式在脚本资源中一个接一个地添加脚本的附加函数。",
     "Also see:&nbsp;{}Script Functions vs. Methods{}":"另请参阅：{}脚本函数与方法{}",
     "Arguments passed into a function can also be accessed through the {}argumentN{} variables ({}argument0, argument1, etc.{}) or the {}{}argument[]{}{} array ({}argument[0], argument[1], etc.{}).":"还可以通过 {}argumentN{} 变量 ({}argument0、argument1 等 {}) 或 {}{}argument[]{}{} 数组 ({}argument[0] 、参数 [1] 等 {})。",
@@ -22,7 +21,6 @@
     "One final thing to note about script functions is that if you are developing for {}Web {}(ie: targeting {}HTML5{}), then there is an additional function protocol that you can use when adding functions to scripts, which is to prefix a function name with {}gmcallback_{}, for example:":"关于脚本函数，最后需要注意的一点是，如果您正在针对{}Web{}进行开发(即：以{}HTML5{}为目标)，则在向脚本添加函数时可以使用一个附加函数协议，即在函数名称前加上{}gmcallback_{}前缀，例如：",
     "Optional Arguments":"可选参数",
     "Parameters/Arguments":"参数/参数",
-    "P\uFFFDZ\uFFFD\u0010\uFFFD\uFFFD\uFFFD\uFFFD\u001Al\uFFFD\uFFFD\uFFFDv\uFFFDpE\uFFFD\uFFFD\u007F\uFFFD&M\uFFFD\uFFFD\uFFFD\u0000Mq\uFFFD\uFFFDR%F\uFFFD\u0011\u0013.\u001AAlK\u0013\uFFFDJ\u001AM\uFFFD\uFFFD)(\uFFFD9\uFFFDX쯄\uFFFDN\u0007\uFFFDvX\uFFFD\uFFFDx\uFFFDI\uFFFD\uFFFD\uFFFDf\uFFFDH\uFFFD<\uFFFD":"",
     "Return Value":"返回值",
     "Script Functions And Variables":"脚本函数和变量",
     "Script Names vs. Function Names":"脚本名称与函数名称",
@@ -50,9 +48,6 @@
     "You can define your own parameters/arguments for a function, which will be available to the function as local variables and can be used for any purpose within that function:":"您可以为函数定义自己的参数/参数，这些参数/参数将作为局部变量提供给函数，并且可用于该函数内的任何目的：",
     "You can get the number of arguments passed into the function using {}{}argument_count{}{}, thus allowing a variable number of arguments to be passed in.":"您可以使用{}{}argument_count{}{}获取传递到函数中的参数数量，从而允许传入可变数量的参数。",
     "You can now call this function with as many strings as you like, which will all be joined together.":"现在，您可以使用任意数量的字符串来调用此函数，这些字符串将全部连接在一起。",
-    "\\\u0027\b3\uFFFDw\uFFFD\u0011J\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD":"*\u0007c\uFFFD\uFFFDu\uFFFD\uFFFD@\uFFFD\uFFFD\uFFFD\u000E\uFFFD\uFFFD",
-    "w\u0006":"\u000B\uFFFD\uFFFD\u001E\u0019\uFFFD\uFFFD\uFFFDB@@m\u0004\t\uFFFD\uFFFD\uFFFD\uFFFD\u001B$E\uFFFD<\uFFFDK",
-    "y\uFFFD\u0019\uFFFD\u007F\uFFFD\u0027i\u001E\uFFFD\uFFFD~\uFFFD\uFFFD\uFFFD\uFFFD\u0001E*3#\uFFFD`j\u0007\uFFFDd\uFFFD\uFFFD\uFFFD\u0013±&ps6\uFFFD\uFFFD\uFFFD\u0017\uFFFDS\uFFFDQ\uFFFD\uFFFD\uFFFD\u0001":"",
     "{}NOTE{}&nbsp;Keep in mind that if your script is {}completely empty{}, it will not be loaded into the compiled game and will become non-existent; meaning that trying to reference such a script asset will crash your game. Note that this only applies to scripts that are completely empty, so even if your script only contains&nbsp;comments, it will still be included in the compiled game.":"{}注意{}请记住，如果您的脚本{}完全为空{}，则它不会加载到已编译的游戏中，并且将变得不存在;这意味着尝试引用此类脚本资源将使您的游戏崩溃。请注意，这仅适用于完全空的脚本，因此即使您的脚本仅包含注释，它仍然会包含在编译的游戏中。",
     "{}NOTE{}&nbsp;You can check this by using both forms in a script and then calling the runtime&nbsp;function {}typeof(){} on each of them. One will be classed as a \"number\" - since it returns a script index ID - and the other will be classed as a \"method\".":"{}注意{}您可以通过在脚本中使用这两种表单，然后对每个表单调用运行时函数{}typeof(){}来进行检查。一个将被归类为\"数字\" - 因为它返回脚本索引 ID - 另一个将被归类为\"方法\"。",
     "{}TIP{}&nbsp;You can omit arguments from function calls and they will default to {}undefined{}&nbsp;(or the default value for that argument as defined by the function).{} {} For example, writing&nbsp;{}my_func(0,,,1){} is the same as writing&nbsp;{}my_func(0, undefined, undefined, 1){}. ":"{}提示{}您可以省略函数调用中的参数，它们将默认为{}undefined{}(或函数定义的该参数的默认值)。{}{}例如，编写{}my_func(0 ,,,1){}与编写{}my_func(0, undefined, undefined, 1){}相同。",

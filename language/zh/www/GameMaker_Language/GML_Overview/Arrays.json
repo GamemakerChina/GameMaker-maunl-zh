@@ -1,5 +1,4 @@
 {
-    "\u0017\u0002\u001D\uFFFD\uFFFDa\uFFFD\uFFFD\u0027C\u0014\uFFFD]\uFFFD\uFFFD|\uFFFD\uFFFD\u0018\uFFFD\uFFFDCB\u0000K\uFFFD\uFFFD\uFFFD\uFFFD\u0002&\u0013P\uFFFD\uFFFD\uFFFDו\uFFFDcK\"\uFFFD\uFFFDu]\uFFFDԷ\uFFFD54\uFFFD":"",
     "&nbsp; &nbsp; &nbsp; &nbsp;Array Bounds":"数组界限",
     "&nbsp; &nbsp; &nbsp; &nbsp;Creating Arrays":"     创建数组",
     "&nbsp; &nbsp; &nbsp; &nbsp;Deleting Arrays":"删除数组",
@@ -56,13 +55,11 @@
     "You can now create an array and pass it into this function, which will modify the array:":"您现在可以创建一个数组并将其传递给此函数，该函数将修改该数组：",
     "You can pass arrays into&nbsp;{}script&nbsp;functions{} and {}method variables{} as arguments, and modify those arrays anywhere inside the function. Doing so will modify the original arrays as well.":"您可以将数组作为参数传递到{}脚本函数{}和{}方法变量{}中，并在函数内的任意位置修改这些数组。这样做也会修改原始数组。",
     "You should always take care to only access valid array positions, as trying to access a value outside of an array will also give an error. For example, this will cause the project to crash when run:":"您应该始终注意仅访问有效的数组位置，因为尝试访问数组外部的值也会出错。例如，这将导致项目在运行时崩溃：",
-    "l\uFFFD\u007F\uFFFD\uFFFD\u0006\uFFFD\u0005\uFFFD":"",
     "{}1-Dimensional Arrays{}{}1-Dimensional Arrays{}":"{}一维数组{}{}一维数组{}",
     "{}A basic array is classed as having 1 {}dimension{}, but you can have arrays with more than one dimension too. The sections below explain both types of arrays:{}":"{}基本数组被归类为具有 1 个{}维度{}，但您也可以拥有多个维度的数组。以下部分介绍了这两种类型的数组：{}",
     "{}Multi-Dimensional Arrays{}{}Multi-Dimensional Arrays{}":"{}多维数组{}{}多维数组{}",
     "{}NOTE{}: The HTML5 export is the exception to the above rule, and when targeting that you should initialise arrays in consecutive order from 0 upwards.":"{}注意{}：HTML5 导出是上述规则的例外，当定位时，您应该从 0 开始按连续顺序初始化数组。",
     "{}NOTE{}{}&nbsp;{}The above code is not necessary if you are not changing any of the array\u0027s values, but rather referencing them. Referencing an array will not copy it and will be faster to parse.":"{}注意{}{}{}如果您不更改任何数组的值，而是引用它们，则不需要上述代码。引用数组不会复制它，并且解析速度会更快。",
     "{}We now know what a 1-dimensional array is, but in {}GameMaker{} you can have arrays with multiple dimensions, which are essentially structured as an array inside an array inside an array... For example, the following is a {}2D{}&nbsp;(two-dimensional) array:{}":"{}我们现在知道什么是一维数组，但在{}GameMaker{}中，您可以拥有多个维度的数组，这些数组本质上的结构为数组内数组内数组...例如，以下是{}2D{}(二维)数组：{}",
-    "{}{}NOTE{}{}&nbsp;The above syntax only works for 2D arrays.":"{}{}注意{}{}以上语法仅适用于二维数组。",
-    "\uFFFD\"":"\uFFFD\u0016\uFFFDf\\9V\uFFFD\t\uFFFD\uFFFD\uFFFD\uFFFDw\uFFFD\uFFFD\u0016\uFFFD$I$:JD\uFFFD\uFFFD\uFFFD\uFFFDf\uFFFD\uFFFD\u000E\uFFFDF\u0004\u000F\u0001\uFFFD\uFFFDB\u0013\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u0016\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\u001E(%`P\uFFFDa=\uFFFD[b\uFFFDR\u001C\uFFFD\uFFFD\u0014\uFFFD\t\uFFFD\uFFFD\uFFFD"
+    "{}{}NOTE{}{}&nbsp;The above syntax only works for 2D arrays.":"{}{}注意{}{}以上语法仅适用于二维数组。"
 }

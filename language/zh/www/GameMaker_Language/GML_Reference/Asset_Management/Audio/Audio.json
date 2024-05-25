@@ -1,5 +1,4 @@
 {
-    "$²":">5\uFFFD\uFFFDK\t|\u0027\uFFFD\uFFFDN\uFFFDʂ\uFFFD\u0000)O:\uFFFD\uFFFD\u0018\uFFFDU\uFFFD\u000B\uFFFD\uFFFDݍ\uFFFD\uFFFD7\uFFFD\uFFFD+\u0010",
     "A sound can be looped by setting it to loop. This can either be done when playing the sound using any of the {}audio_play_sound_*{} functions:&nbsp;":"可以通过将声音设置为循环来使其循环播放。这可以在使用任意{}audio_play_sound_*{}函数播放声音时完成：",
     "Advanced Audio":"高级音频",
     "All sound assets, except for streamed audio, belong to a single {}audio group{}. Sounds in an audio group can be loaded and unloaded at the same time.":"所有声音资源(流式音频除外)都属于单个{}音频组{}。音频组中的声音可以同时加载和卸载。",
@@ -62,10 +61,5 @@
     "{}{}Offset/Track Position{}{}: This is the offset from the start of the audio track where it starts playing. If this value is set at the instance level, it overrides the value set at the asset level. By default this is 0 (i.e. no offset).":"{}{}偏移/轨道位置{}{}：这是距开始播放的音轨起点的偏移量。如果在实例级别设置该值，它将覆盖在资产级别设置的值。默认情况下，这是 0(即无偏移)。",
     "{}{}Pitch{}{}: This is a multiplier for the sound\u0027s pitch. The default value for pitch on all levels is set to 1.":"{}{}音调{}{}：这是声音音调的乘数。所有级别的音调默认值均设置为 1。",
     "{}{}TIP{}{}&nbsp;The maximum number of sound instances/voices is&nbsp;{}128{} by default. This can be changed using the function&nbsp;{}{}audio_channel_num{}{}.":"{}{}提示{}{}默认情况下，声音实例/声音的最大数量为{}128{}。可以使用函数{}{}audio_channel_num{}{}更改此值。",
-    "{}{}{}IMPORTANT{}{}{} When using audio on the HTML5 target, you should be aware that not all browsers support Web Audio and so may not play any sound for your project when run. You can get a general idea of Web Audio support from the following link: {}Can I Use Web Audio?{}.":"{}{}{}重要信息{}{}{}在 HTML5 目标上使用音频时，您应该注意并非所有浏览器都支持网络音频，因此在运行时可能不会为您的项目播放任何声音。您可以通过以下链接大致了解网络音频支持：{}我可以使用网络音频吗？{}。",
-    "\uFFFD/aC\uFFFDI\u00183\uFFFDݶ\uFFFD\u001Bi\uFFFD":"\u000B\uFFFD\uFFFD\uFFFDem\uFFFDSV\uFFFDg3ا5\uFFFD\uFFFD\u03F6\uFFFD\uFFFDL4\u0016\u000F\uFFFDAeh\uFFFD4\u001EY\uFFFD<U\uFFFD\uFFFDz\uFFFD&eC\uFFFD\uFFFD\u0005sy\uFFFD0\uFFFDH\u001A7\uFFFD\uFFFDX\uFFFDl\u001B\uFFFD\u0015\uFFFD\uFFFD/2\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD",
-    "\uFFFDE\uFFFD\uFFFD\uFFFD[\uFFFD\u001F\uFFFD\uFFFD\uFFFD\uFFFDXb\u0010\uFFFDڏ\uFFFDZ\uFFFDT":"",
-    "\uFFFDU\uFFFD":"\uFFFDېJ\uFFFD\u001E\uFFFD\uFFFDI\b賀\f\uFFFDw\uFFFDP۲",
-    "\uFFFDl\uFFFD\u007F\u0016HT\uFFFDq\uFFFD\uFFFD8iQ\uFFFD\uFFFD\uFFFD77eM\uFFFD\uFFFD4![\uFFFD\uFFFD4\uFFFD\uFFFD\uFFFD&w\uFFFD":"\uFFFD\uFFFDs\uFFFD\u00198\u0019\uFFFD\uFFFDO6%A=\uFFFDK\uFFFD\u001F\uFFFD(E\uFFFD\uFFFDU\u0010\uFFFDZX\u07FC7\uFFFDE\uFFFD\uFFFD_\uFFFDm",
-    "\uFFFD\uFFFD\uFFFD\u0004JN\uFFFD\u0005\\\uFFFDQ^\uFFFD\uFFFD\uFFFD\uFFFDr@k홮S(\uFFFD\uFFFD~G\uFFFD\u001C\uFFFD|\uFFFD\uFFFD\u0003\u0011\uFFFDD&E\uFFFD\uFFFD)\uFFFD\uFFFD\u0000\u001E\uFFFD{\uFFFD\u0017\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFD\uFFFD\uFFFD<y\u00077\u000151\uFFFD\u0005\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFD\uFFFD$ˣ\uFFFD3@\uFFFD\uFFFD\u001C3\uFFFD\uFFFD\u001E\uFFFD\u00151\"\u0004\uFFFDA\uFFFDpʪ\uFFFD#\uFFFD\u0005\uFFFD\u0019it":""
+    "{}{}{}IMPORTANT{}{}{} When using audio on the HTML5 target, you should be aware that not all browsers support Web Audio and so may not play any sound for your project when run. You can get a general idea of Web Audio support from the following link: {}Can I Use Web Audio?{}.":"{}{}{}重要信息{}{}{}在 HTML5 目标上使用音频时，您应该注意并非所有浏览器都支持网络音频，因此在运行时可能不会为您的项目播放任何声音。您可以通过以下链接大致了解网络音频支持：{}我可以使用网络音频吗？{}。"
 }

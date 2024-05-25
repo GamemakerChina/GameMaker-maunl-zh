@@ -1,5 +1,4 @@
 {
-    "\u0007u\uFFFD\uFFFD\u0002\uFFFD\uFFFD\uFFFD\uFFFD":"B\u0005$\uFFFDQ\uFFFD\uFFFD\u0013\uFFFD\uFFFD6",
     "A previous compile error has caused the compiler parse tree to not be created and thus the compiler has no program data to compile":"以前的编译错误导致编译器分析树未被创建，因此编译器没有要编译的程序数据",
     "A script or function has been called that the compiler does not recognise (this error is usually thrown by empty script asset references since the compiler will strip out these assets on compile)":"编译器无法识别的脚本或函数被调用(此错误通常由空脚本资源引用引发，因为编译器将在编译时剥离这些资源)",
     "Compile Errors":"编译错误",
