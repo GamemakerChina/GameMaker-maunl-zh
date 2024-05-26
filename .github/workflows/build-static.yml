@@ -54,9 +54,13 @@ jobs:
           pnpm run clean:temp
           cd ..
 
-      - name: Copy CNAME files
+      - name: Generate index.html
         run: |
-          cp patch/CNAME.static CNAME
+          cp build/index.htm build/index.html
+
+      - name: Add Azure Static Web workflow
+        run: |
+          cp --parents patch/azure-static-web-apps-static-method.yml build/.github/workflows/
 
       - name: Deploy to static branch
         uses: JamesIves/github-pages-deploy-action@releases/v4
