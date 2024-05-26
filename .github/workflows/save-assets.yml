@@ -1,0 +1,43 @@
+name: Save Images and Videos to manual-assets repo
+
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Prepare submodules
+        run: |
+          git submodule update --init --remote GMS2-Robohelp-en/
+
+      - name: Prepare environments
+        run: |
+          mkdir build
+          mkdir -p build/assets/Images
+          mkdir -p build/assets/Videos
+
+      - name: Copy images and videos
+        run: |
+          cp -r GMS2-Robohelp-en/assets/Images build/assets/Images
+          cp -r GMS2-Robohelp-en/assets/Videos build/assets/Videos
+
+      - name: Copy index.html
+        run: |
+          cd build
+          wget https://raw.githubusercontent.com/GamemakerChina/manual-assets/buildfiles/assets-index.html -O index.html
+
+      - name: Deploy to assets
+        uses: JamesIves/github-pages-deploy-action@releases/v4
+        with:
+          repository-name: GamemakerChina/manual-assets
+          token: ${{ secrets.ACCESS_TOKEN }}
+          branch: main
+          folder: build
