@@ -60,7 +60,8 @@ jobs:
 
       - name: Add Azure Static Web workflow
         run: |
-          cp --parents patch/azure-static-web-apps-static-method.yml build/.github/workflows/
+          mkdir build/.github/workflows/
+          cp patch/azure-static-web-apps-static-method.yml build/.github/workflows/
 
       - name: Deploy to static branch
         uses: JamesIves/github-pages-deploy-action@releases/v4
