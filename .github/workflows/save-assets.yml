@@ -33,6 +33,11 @@ jobs:
           cd build
           wget https://raw.githubusercontent.com/GamemakerChina/manual-assets/buildfiles/assets-index.html -O index.html
 
+      - name: Add Azure Static Web workflow
+        run: |
+          mkdir -p build/.github/workflows/
+          cp patch/azure-static-web-apps-assets.yml build/.github/workflows/
+      
       - name: Deploy to assets
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
