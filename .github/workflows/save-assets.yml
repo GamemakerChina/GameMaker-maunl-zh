@@ -21,8 +21,7 @@ jobs:
       - name: Prepare environments
         run: |
           mkdir build
-          mkdir -p build/assets/Images
-          mkdir -p build/assets/Videos
+          mkdir -p build/assets
 
       - name: Copy images and videos
         run: |
