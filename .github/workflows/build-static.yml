@@ -60,7 +60,7 @@ jobs:
 
       - name: Add Azure Static Web workflow
         run: |
-          mkdir build/.github/workflows/
+          mkdir -p build/.github/workflows/
           cp patch/azure-static-web-apps-static-method.yml build/.github/workflows/
 
       - name: Deploy to static branch
