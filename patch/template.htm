@@ -1,58 +1,59 @@
 {importHtml}
 
 <script>
+    let str;
+    removeHtml = function (str) {
+        str = str.replace(/(<([^>]+)>)/gi, "{}");
+        str = str.replace(/\r\n/g, "\n");
+        str = str.replace(/\n/g, "");
+        str = str.replace(/ {2,}/g, " ");
+        return str;
+    };
+    retHtml = function (str) {
+        let regex = /(<([^>]+)>)/gi;
+        return str.match(regex);
+    };
+    setTranslator = function (ele, json_name, attr) {
+        let html;
+        if (!attr) {
+            html = ele.html();
+        } else {
+            html = ele.attr(attr);
+        }
+        let key = removeHtml(html);
+        let val = json_name[key];
+        if (val != undefined && val.length) {
+            let f = retHtml(html);
+            let i = 0;
+            if (f)
+                f.forEach(function (v, k) {
+                    let tmp = val.replace("{" + i + "}", v);
+                    if (tmp === val) {
+                        val = val.replace("{}", v);
+                    } else {
+                        val = tmp;
+                    }
+                    i++;
+                });
+            if (!attr) {
+                ele.html(val);
+            } else {
+                ele.attr(attr, val);
+            }
+        }
+    };
 
-	removeHtml=function(str){
-		str=str.replace(/(<([^>]+)>)/ig, "{}");
-		str=str.replace(/\r\n/g, '\n');
-		str=str.replace(/\n/g, '');
-		str=str.replace(/ {2,}/g, ' ');
-		return str
-	}
-	retHtml=function(str){
-		var regex = /(<([^>]+)>)/ig
-		return str.match(regex);
-	}
-	setTranslator=function(ele,json,attr){
-		if(!attr){
-			var html=ele.html()
-		}else{
-			var html=ele.attr(attr)
-		}
-		var key=removeHtml(html)
-		var val=json[key]
-		if(val!=undefined && val.length){
-			var f=retHtml(html)
-			var i=0
-			if(f)f.forEach(function(v,k){
-				var tmp=val.replace("{"+i+"}",v)
-				if(tmp===val){
-					val=val.replace("{}",v)
-				}else{
-					val=tmp
-				}
-				i++
-			})
-			if(!attr){
-				ele.html(val)
-			}else{
-				ele.attr(attr,val)
-			}
-		}
-	}
+    noTranslationState = function () {
+        return window.localStorage.getItem("noTranslationState") == "true";
+    };
 
-	noTranslationState=function(){
-		return (window.localStorage.getItem("noTranslationState")=="true")
-	}
+    noTranslationStateToggle = function () {
+        window.localStorage.setItem("noTranslationState", !noTranslationState());
+    };
 
-	noTranslationStateToggle=function(){
-		window.localStorage.setItem("noTranslationState",!noTranslationState())
-	}
-
-	addNoTranslationStateButton=function(){
-
-		//html
-		var html=`
+    addNoTranslationStateButton = function () {
+        //html
+        let html = `
 		
 		<button style="
 			float: right;
@@ -75,72 +76,88 @@
     	event.stopPropagation();
 		"
 		>切换翻译</button>
-		`
+		`;
 
-		//意味着触发这段代码的地方处于主页
-		if($(".header").length){
-		$(".header").append(html)
-		}else{
-		//否则就是页内
-		$(".topic-header").append(html)
-		$(".topic-header button").css("position","relative").css("top","44px")
-		}
-	}
+        //意味着触发这段代码的地方处于主页
+        if ($(".header").length) {
+            $(".header").append(html);
+        } else {
+            //否则就是页内
+            $(".topic-header").append(html);
+            $(".topic-header button")
+                .css("position", "relative")
+                .css("top", "44px");
+        }
+    };
 
-	var json_global={global}
-	var json={json}
+    removeExtensionFromHash = function (path) {
+        let after = path
+            .replaceAll("#t=", "")
+            .replaceAll("%2F", "/")
+            .replaceAll(".htm", "");
+        return after
+    };
 
-	$(function(){
+	let json_global
+    let json_file = {json}
+    let get_json_global = $.ajax({
+        url: "/global.json",
+        type: "GET",
+        dataType: "json",
+        async: false,
+        success: function (data) {
+            json_global = data
+        },
+    });
 
-		//添加按钮
-		addNoTranslationStateButton()
-		//跳过翻译
-		if(noTranslationState())return false
+    $(function () {
+        //添加按钮
+        addNoTranslationStateButton();
+        //跳过翻译
+        if (noTranslationState()) return false;
 
-	//这么做只是为了方便移植修改
-	const css1="div.footer a,h4,caption"
-	const css2="p,h1,h2,h3,td,li,a,div.dropspotnote,figcaption"
-	const css3="th,.warning,.important,.optional"
+        //这么做只是为了方便移植修改
+        const css1 = "div.footer a,h4,caption";
+        const css2 = "p,h1,h2,h3,td,li,a,div.dropspotnote,figcaption";
+        const css3 = "th,.warning,.important,.optional";
 
-		$(css1).each(function(){
-			setTranslator($(this),json_global)
-		})
+        $(css1).each(function () {
+            setTranslator($(this), json_global);
+        });
 
-		$(css2).each(function(){
-			setTranslator($(this),json)
-		})
+        $(css2).each(function () {
+            setTranslator($(this), json_file);
+        });
 
-		$(css3).each(function(){
-			setTranslator($(this),json_global)
-		})
+        $(css3).each(function () {
+            setTranslator($(this), json_global);
+        });
 
-		//翻译主页
-		if($(".header").length){
-			window.setInterval(function(){
-				//翻译菜单
-				$("#toc-panel a:not('isTranslate')").each(function(){
-					//区别于main.js,这个不管有没有翻译都将添加标记
-					$(this).addClass("isTranslate")
-					setTranslator($(this),json_global)
-				})
-				//翻译术语表
-				$(".GlossDefinitionText:not('isTranslate')").each(function(){
-					$(this).addClass("isTranslate")
-					setTranslator($(this),json_global)
-				})
-			},250)
-			console.log("成功啦!现在正在疯狂翻译菜单中!")
-		}
+        //翻译主页
+        if ($(".header").length) {
+            window.setInterval(function () {
+                //翻译菜单
+                $("#toc-panel a:not('isTranslate')").each(function () {
+                    //区别于main.js,这个不管有没有翻译都将添加标记
+                    $(this).addClass("isTranslate");
+                    setTranslator($(this), json_global);
+                });
+                //翻译术语表
+                $(".GlossDefinitionText:not('isTranslate')").each(function () {
+                    $(this).addClass("isTranslate");
+                    setTranslator($(this), json_global);
+                });
+            }, 250);
+            console.log("成功啦!现在正在疯狂翻译菜单中!");
+        }
 
-		//翻译tooltip
-		$(".tooltip").each(function(){
-			setTranslator($(this),json_global,"title")
-		})
+        //翻译tooltip
+        $(".tooltip").each(function () {
+            setTranslator($(this), json_global, "title");
+        });
+    });
 
-	})
-
-	document.addEventListener('DOMContentLoaded', () => {
-		pangu.autoSpacingPage();
-	})
-
+    document.addEventListener("DOMContentLoaded", () => {
+        pangu.autoSpacingPage();
+    });
 </script>
