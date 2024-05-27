@@ -5,6 +5,6 @@
 [submodule "GameMakerManualExport"]
 	path = GameMakerManualExport
 	url = https://github.com/GamemakerChina/GameMakerManualExport.git
-[submodule "language/zh/assets"]
-	path = language/zh/assets
-	url = https://e.coding.net/YUNZL/gms2manual_zh/gm-images-zh.git
+# [submodule "language/zh/assets"]
+# 	path = language/zh/assets
+# 	url = https://e.coding.net/YUNZL/gms2manual_zh/gm-images-zh.git
