@@ -56,13 +56,10 @@ jobs:
           cp build/index.htm build/index.html
 
       - name: Minify all files
-        run: |
-          mkdir minify-tools
-          cd minify-tools
-          wget https://github.com/tdewolff/minify/releases/download/v2.20.32/minify_linux_amd64.tar.gz
-          tar -zxvf minify_linux_amd64.tar.gz
-          chmod +x minify
-          ./minify -a ../
+        uses: GamemakerChina/minify-js@3.1.1
+        with:
+          directory: 'build'
+          add_suffix: false
 
       - name: Add Azure Static Web workflow
         run: |
