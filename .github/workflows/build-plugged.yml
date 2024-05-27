@@ -51,6 +51,10 @@ jobs:
           pnpm run clean:temp
           cd ..
 
+      - name: Copy global.json
+        run: |
+          cp language/zh/global.json build/global.json
+
       - name: Minify all files
         run: |
           cd GameMakerManualExport
