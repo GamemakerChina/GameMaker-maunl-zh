@@ -17,6 +17,7 @@
     "{}Additional Tools{}{}Additional Tools{}":"{}其他工具{}{}其他工具{}",
     "{}As with the compiler errors, the syntax errors window will direct you to the object, the event and the specific lines that are giving the issue, and will often be shown with a brief explanation of what the error is.":"{}与编译器错误一样，语法错误窗口将引导您找到对象、事件和出现问题的特定行，并且通常会显示错误的简要说明。",
     "{}Debug Mode{}{}Debug Mode{}":"{}调试模式{}{}调试模式{}",
+    "{}Debugging{}":"{}调试{}",
     "{}Error Reporting{}{}Error Reporting{}":"{}错误报告{}{}错误报告{}",
     "{}Most compiler error messages follow the same outline, with a message stating the object that the error has occurred in, then the Event along with the line number, and then finally a short description of the error itself. This type of information being provided by the error reporting is very important as it detects and reports the syntax and language related bugs that are going to cause your finished game to crash, but it won\u0027t report more subtle bugs, nor does it give feedback on performance. For those types of things you should use Debug Mode (explained below).":"{}大多数编译器错误消息遵循相同的大纲，一条消息说明错误发生在哪个对象，然后是事件和行号，最后是错误本身的简短描述。错误报告提供的此类信息非常重要，因为它可以检测并报告语法和语言相关的错误，这些错误会导致你完成的游戏崩溃，但它不会报告更细微的错误，也不会提供性能反馈。对于这些类型的东西，你应该使用调试模式(如下所述)。"
 }

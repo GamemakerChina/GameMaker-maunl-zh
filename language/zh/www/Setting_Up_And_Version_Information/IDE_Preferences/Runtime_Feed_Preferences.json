@@ -1,5 +1,6 @@
 {
     "A couple of alternative IP addresses that you can use are 1.1.1.1 and 9.9.9.9.":"您可以使用的替代 IP 地址有 1.1.1.1 和 9.9.9.9。",
+    "Below that is a list of all the available runtimes.&nbsp;You can choose any one from this list (double-click) to set it as the \"running\" runtime used for compiling your projects.":"下面是所有可用运行库的列表。您可以从该列表中选择任何一个来将其设置为用于编译项目的\"运行\"运行库。",
     "Below that is a list of all the available runtimes.&nbsp;You can choose any one from this list to set it as the \"running\" runtime used for compiling your projects.":"下面是所有可用运行库的列表。您可以从该列表中选择任何一个来将其设置为用于编译项目的\"运行\"运行库。",
     "Click \"Apply\" to save the changes.&nbsp;{}GameMaker{}&nbsp;will test to see if it can get a valid DNS result from the given IP address. If not an error message will be shown:&nbsp;":"单击\"应用\"保存更改。 {}GameMaker{} 将测试是否可以从给定的 IP 地址获得有效的 DNS 结果。如果不是，将显示错误消息： ",
     "Clicking this will initiate the download and installation of the selected runtime (a status bar will be shown in the top right of the {}IDE{}). If&nbsp;{}Remember last selection of modules{}&nbsp;is set to \"No\" or \"Show Message\" you will first be shown the&nbsp;{}Runtime Modules Dialog{}&nbsp;where you can select the modules that should be included.":"单击此选项将启动所选运行时的下载和安装(状态栏将显示在 {}IDE{} 的右上角)。如果{}记住上次选择的模块{}设置为\"否\"或\"显示消息\"，您将首先看到{}运行时模块对话框{}，您可以在其中选择应该包括的模块。",
@@ -33,6 +34,7 @@
     "{}GameMaker{}&nbsp;allows you to use an alternative&nbsp;{}DNS{}&nbsp;server if you want to or in case you experience delays getting the updated RSS feeds.":"{}GameMaker{} 允许您使用替代 {}DNS{} 服务器，如果您愿意或在获取更新的 RSS 提要时遇到延迟。",
     "{}Here you can select, install and uninstall the different runtimes. At the top is the runtime currently in use, the date it was created, and its location on the hard drive.":"{}您可以在此处选择、安装和卸载不同的运行时。顶部是当前正在使用的运行时、创建它的日期以及它在硬盘上的位置。",
     "{}Runtime Feeds Preferences{}":"{}运行时源首选项{}",
+    "{}{}IMPORTANT{}{}&nbsp;Your IDE may not display older runtime versions that are not compatible with that IDE. If you already have such runtimes installed, double-clicking them will do nothing, however you can click on {}&nbsp;to delete them. Such older runtimes can be used alongside their matching IDE versions.":"{}{}重要{}{} 您的 IDE 不能显示与该 IDE 不兼容的旧运行时版本。如果您已经安装了这样的运行时，则双击它们不会执行任何操作，但是您可以单击 {}&nbsp;将其删除。这种较旧的运行时可以与其匹配的 IDE 版本一起使用。",
     "{}{}NOTE{}{} The current runtime version can be found in the Version Details displayed in the top-right corner of the IDE (see&nbsp;{}Start Page Elements{}).":"{}{}注意{}{} 当前运行时版本可在 IDE 右上角显示的版本详细信息中找到(请参阅{}起始页元素{})。",
     "{}{}NOTE{}{}&nbsp;If you leave the text field empty {}GameMaker{}&nbsp;will continue to use your system DNS settings.":"{}{}注意{}{} 如果您将文本字段留空，则 {}GameMaker{} 将继续使用您的系统 DNS 设置。"
 }
