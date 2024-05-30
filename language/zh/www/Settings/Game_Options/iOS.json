@@ -1,4 +1,5 @@
 {
+    "\"{}Min Version{}\" is the minimum version of iOS that the game can be played on.":"\"{}Min Version{}\" 是可以运行游戏的最低 iOS 版本。",
     "Allow flipped landscape&nbsp;orientation":"允许翻转横向方向",
     "Allow flipped portrait&nbsp;orientation":"允许翻转纵向方向",
     "Allow landscape&nbsp;orientation":"允许横向",
@@ -21,6 +22,7 @@
     "Next, you can check or un-check the option to {}Defer Home Indicator Output{}. When this is checked, the home bar will always be shown at low a alpha, and the first swipe wakes the bar and the second swipe takes you home. If the option is un-checked, then the bar is not shown in-game, but the first edge swipe will take you home. Default is un-checked.":"接下来，可以选中或取消选中{}延迟主指示器输出{}的选项。选中此选项后，主栏总是显示为低 alpha 值，第一次滑动会唤醒主栏，第二次滑动会带您回家。如果选项未选中，那么游戏中将不显示条形图，但是第一次边缘滑动将带您回到主页。默认为取消勾选。",
     "Portrait":"竖向",
     "The following&nbsp;guide contains more information&nbsp;on using CocoaPods, including manual installation and creation of the Podfile and Podfile.lock files:&nbsp;":"以下指南包含有关使用CocoaPods的更多信息，包括手动安装和创建Podfile和Podfile.lock文件：",
+    "The next thing to do is fill in the {}Build Settings{} for your game. To start with you set the allowed&nbsp;{}Orientation{}s that your game can be run on for the best user experience. The available options are:":"接下来要做的是填写游戏的{}构建设置{}。首先，您设置了游戏运行所允许的{}方向{}，以获得最佳用户体验。可用选项包括：",
     "The second thing to do is fill in the {}Build Settings{} for your game. To start with you set the allowed&nbsp;{}Orientation{}s that your game can be run on for the best user experience. The available options are:":"第二件事是填写游戏的{}构建设置{}。首先，您可以设置游戏可以运行的允许{}方向{}，以获得最佳用户体验。可用选项包括：",
     "The second thing to do is fill in the {}Product Information{} about your game, including its {}Display Name{}, its {}Bundle ID{} and the {}Version{} info. Note that the Bundle ID must be in the correct reverse URL format for the final build of the game to work correctly, EG: {}com.[Company].[GameName]{}. Here you can also give the {}Team Identifier{} that you wish to use for signing the final application that {}GameMaker{} creates for you. Setting it here will override the Team ID that you have supplied in the {}iOS Preferences{}.":"要做的第二件事是填写有关游戏的{}产品信息{} ，包括其{}显示名称{}、其{}Bundle ID {}和{}版本{}信息。注意，要使游戏的最终版本正确工作，包 ID 必须采用正确的反向 URL 格式，例如: {}com.[公司名].[游戏名]{}。这里还可以提供您希望用于为{} GameMaker {}为您创建的最终应用程序签名的{}团队标识符{}。在此处设置它将重写在{} iOS 首选项{}中提供的团队 ID。",
     "This section outlines the different options available to you that control how your iOS game projects will be compiled. The different sections are:":"本节概述了可用于控制如何编译您的 iOS 游戏项目的不同选项。不同的章节是:",

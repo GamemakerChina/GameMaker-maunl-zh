@@ -8,6 +8,7 @@
     "Runner &amp; Compiler":"运行器和编译器",
     "Texture Groups":"纹理组",
     "The Asset Editors":"资源编辑器",
+    "The File System":"文件系统",
     "The Room Manager":"房间管理器",
     "The following sections are all related to the different {}GameMaker{} windows and tools that will affect how your game is run and performs. In general, you will need to set up most of these on a per-game basis, but note that some are optional and not required (like {}Configurations{}), while the availability of others will depend on the licence that you have (like some of the {}Game options{}).":"以下各节内容都与不同的{} GameMaker {}窗口与工具有关，这些窗口和工具将会影响游戏的编译与运行方式。一般来讲，您需要在每个游戏的基础上设置其中的大部分，但请注意，有些是可选的，并非必需设置(如{}配置{}) ，而有些内容是否可用将取决于您拥有的许可证(例如{}游戏设置{}的一些选项)。"
 }

@@ -1,4 +1,5 @@
 {
+    "\"{}Min Version{}\" is the minimum version of tvOS that the game can be played on.":"\"{}Min Version{}\" 是可以运行游戏的最低 tvOS 版本。",
     "As mentioned in the section on Icons, you can use the {}Project Image Generator{} to create these images.":"如图标部分所述，可以使用{}项目图像生成器{}创建这些图像。",
     "Below that is the&nbsp;{}CocoaPods{}&nbsp;option. Check it to automate building using the {}CocoaPods{} dependency manager.&nbsp;For detailed information, see the following&nbsp;guide:":"下面是{}CocoaPods{}选项。选中它可以使用{}CocoaPods{}依赖管理器自动构建。有关详细信息，请参阅以下指南：",
     "Finally, you choose to {}Display a cursor{} or not. If checked, the OS will show a cursor whenever the mouse is moved (at the mouse position), and the cursor will fade out and disappear when the mouse is not moved for a period of time. If unchecked, then no cursor will be shown.":"最后，选择{}是否显示光标{}。如果选中此选项，当鼠标移动(在鼠标位置)时，操作系统将显示一个光标，当鼠标一段时间不移动时，光标将淡出并消失。如果未选中，则不显示光标。",
