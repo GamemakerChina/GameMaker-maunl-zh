@@ -15,13 +15,21 @@
     "The&nbsp;{}GameMaker{} compiler allows you to place Batch files (Windows) or Shell scripts (on macOS and Linux) in your project directory, and in the directory for each extension in your project.":"{}GameMaker {}编译器允许您将批处理文件(Windows)或 Shell 脚本(在 macOS 和 Linux 上)放在项目目录中，并放在项目中每个扩展的目录中。",
     "These script files are supported when building on all target platforms.":"在所有目标平台上构建时都支持这些脚本文件。",
     "This is executed after the asset compiler has been started for building the game":"这是在资源编译器已经开始构建游戏之后执行的",
+    "This is executed after the asset compiler has loaded the project files":"这是在资源编译器加载了项目文件之后执行的",
     "This is executed after the final packaging step has completed and the final ZIP file or store package has been prepared":"这是在最终打包步骤完成并准备好最终的 ZIP 文件或存储包之后执行的",
     "This is executed after the textures for your game have been generated. You can use this step to optimise your game textures manually.{} {} This script receives an environment variable called {}TexturesDir{}, which stores the path to the generated textures. ":"这是在游戏的纹理生成之后执行的。您可以使用此步骤手动优化游戏纹理。{}{}这个脚本接收一个名为 {}TexturesDir{} 的环境变量，它存储到生成的纹理的路径。",
+    "This is executed before the asset compiler has loaded the project files":"这在资源编译器加载项目文件之前执行",
+    "This is executed before the asset compiler is asked to build the game":"这是在要求资源编译器构建游戏之前执行的",
     "This is executed before the asset compiler is started for building the game":"这是在资源编译器开始构建游戏之前执行的",
     "This is executed before the final packaging step, which is when all files are ready but the final ZIP file or store package is about to be created":"这在最终打包步骤之前执行，最终打包步骤是所有文件都准备就绪但即将创建最终 ZIP 文件或存储包的时候",
     "This is executed before the game deployment is about to start":"这是在游戏部署即将开始之前执行的",
     "This is executed on the remote machine, when you are on a Windows machine and compiling remotely for macOS/iOS/tvOS or Ubuntu.":"当您在Windows机器上并为macOS/iOS/tvOS或Ubuntu远程编译时，这将在远程机器上执行。",
     "This is executed when the game is prepared and ready to run; after the script\u0027s execution the game is started":"这是在游戏准备好并准备运行时执行的。在脚本执行之后，游戏就开始了",
     "Version number:&nbsp;{}GMEXT_&lt;ExtensionName&gt;_version{}":"版本号:&nbsp;{}GMEXT_&lt;ExtensionName&gt;_version{}",
-    "You can retrieve the extension version and any of the extension options in the Batch files/Shell scripts:&nbsp;":"您可以在批处理文件/外壳脚本中检索扩展版本和任何扩展选项："
+    "You can retrieve the extension version and any of the extension options in the Batch files/Shell scripts:&nbsp;":"您可以在批处理文件/外壳脚本中检索扩展版本和任何扩展选项：",
+    "{}Android{} This is executed when the files necessary for the Android tools have been created, but before Gradle is called. You can use this step to access and modify the Android files yourself, before the Android tools compile it into a final executable.":"{}Android{} 这是在创建 Android 工具所需的文件时执行的，但在调用 Gradle 之前。您可以使用此步骤在 Android 工具将其编译为最终可执行文件之前自行访问和修改 Android 文件。",
+    "{}Only runs when creating a package/executable{}{} {} This is executed after the final packaging step has completed and the final ZIP file or store package has been prepared ":"{}仅在创建包/可执行文件时运行{}{}{}这在完成最终打包步骤并准备好最终ZIP文件或存储包后执行",
+    "{}Only runs when testing the game (\"Run\" or F5 in the IDE), not run when creating a package{}{} {} This is executed before the game deployment is about to start ":"{}仅在测试游戏时运行 (IDE 中的\"运行\"或 F5 键)，在创建软件包时不运行{}{}{}此操作在游戏部署即将开始之前执行",
+    "{}Only runs when testing the game (\"Run\" or F5 in the IDE), not run when creating a package{}{} {} This is executed when the game is prepared and ready to run; after the script\u0027s execution the game is started ":"{}仅在测试游戏时运行(IDE中的\"运行\"或 F5 键)，而不是在创建软件包时运行{}{}{}这在游戏准备就绪并准备运行时执行脚本执行后，游戏将启动",
+    "{}{}NOTE{}{}&nbsp;These steps are listed in the order that they are run, except for those under \"{}Platform-Specific Steps{}\".":"{}{}注意{}{} 这些步骤按运行顺序列出，但\"{}平台特定步骤{}\"下的除外。"
 }
