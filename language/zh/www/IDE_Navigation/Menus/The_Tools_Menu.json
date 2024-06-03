@@ -10,6 +10,7 @@
     "{}Generate Project Images{} - This opens the {}Generate Project Images{}&nbsp;window.":"{} 生成项目图像 {}- 这将打开 {} 生成项目图像&nbsp;{} 窗口。",
     "{}Import Local Package{} - Opens a file explorer window where you can then select a {}Local Asset Package{} and import it, either adding it to the current project, or creating a new project for it.":"{}导入本地包{} - 打开文件资源管理器窗口，然后您可以在其中选择一个{}本地资源包{}并将其导入，将其添加到当前项目，或为其创建一个新项目。",
     "{}Import Local Package{} - This opens a file explorer window where you can then select a {}Local Asset Package{} and import it, either adding it to the current project, or creating a new project for it.":"{} 导入本地包 {}- 这将打开一个文件资源管理器窗口，然后您可以在其中选择 {} 本地资产包 {} 并将其导入，将其添加到当前项目或为其创建新项目。",
+    "{}Project Tool{} - This opens the {}Project Tool{}, which performs conversions between current and older&nbsp;{}GameMaker{}&nbsp;project format versions.":"{} 项目工具 {}- 这将打开 {}项目工具{}，该工具可执行当前和旧 {}GameMaker{} 项目格式版本之间的转换。",
     "{}Project Tool{} - This opens the {}ProjectTool{}, which performs conversions between current and older&nbsp;{}GameMaker{}&nbsp;project format versions.":"{} 项目工具 {}- 这将打开 {}ProjectTool{}，该工具可执行当前和旧 {}GameMaker{} 项目格式版本之间的转换。",
     "{}Sound Mixer{} - This lets you view the&nbsp;{}Sound Mixer{} window.":"{} 混音器 {}- 此选项允许您查看 {} 混音器 {} 窗口。",
     "{}Sound Mixer{} - View the {}Sound Mixer{}&nbsp;window.":"{}混音器{} - 查看{}混音器{}窗口。",

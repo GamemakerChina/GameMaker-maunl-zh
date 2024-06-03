@@ -51,6 +51,7 @@
     "{}After opening an Inspector window, you can dock it anywhere in the IDE, or use it as a floating window:":"{}打开检查器窗口后，您可以将其停靠在 IDE 中的任何位置，或将其用作浮动窗口：",
     "{}NOTE{} When you apply a filter/effect to a non-FX layer using the Inspector, it will always be applied as a \"single layer\" effect, i.e. its effect will only be applied on that particular layer and not on other layers below it.":"{}注意{} 当您使用检查器将滤镜/效果应用于非FX层时，该滤镜/效果将始终作为\"单层\"效果应用，即其效果将仅应用于该特定层，而不会应用于其下的其他层。",
     "{}Note that a locked inspector window does not lock the editing of any values for the element being inspected. It simply locks the inspector to the selected element and you can continue to edit it at any time, even when the original element is not the main focus of the IDE.":"{}请注意，锁定的检查器窗口不会锁定正在检查的元素的任何值的编辑。它只是将检查器锁定到选定的元素，您可以随时继续编辑它，即使原始元素不是IDE的主要焦点也是如此。",
+    "{}The Inspector{}":"{}检查器{}",
     "{}This makes it possible to modify an object\u0027s properties and&nbsp;delete/change events while editing its code in fullscreen, and also set up&nbsp;Parenting, Variable Definitions, and more.":"{}这样可以在全屏编辑对象代码的同时修改对象的属性和删除/更改事件，还可以设置父子关系、变量定义等。",
     "{}{}NOTE{}{}&nbsp;When you apply a filter/effect to a non-FX layer using the Inspector, it will always be applied as a \"single layer\" effect, i.e. its effect will only be applied on that particular layer and not on other layers below it.":"{}{}注意{}{} 当您使用检视器将滤镜/效果应用到非特效层时，它将始终作为\"单层\"效果应用，即其效果将仅应用于该特定层，而不会应用于其下方的其他层。"
 }
