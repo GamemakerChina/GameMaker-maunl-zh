@@ -115,6 +115,7 @@
     "{}Sprites and Objects{}: {}Origin{}, {}Scale{}, {}Image Index{}, {}Image Speed{}, and {}Colour Multiply{}.":"{}精灵和对象{}：{}原点{}、{}比例{}、{}图像索引{}、{}图像速度{}和{}色彩倍增{}。",
     "{}Text{}: {}Origin, Scale, Colour Multiply, Character Spacing, Frame Size, Line Spacing, and Paragraph Spacing as well as SDF Effects.{}":"{}文本{}：{}原点、比例、颜色倍增、字符间距、帧大小、行距和段落间距以及SDF效果。{}",
     "{}Text{}: {}Origin, Scale, Colour Multiply, Character Spacing, Frame Size, Line Spacing, and Paragraph Spacing.{}":"{}文本{}：{}原点、比例、颜色倍增、字符间距、边框大小、行距和段落间距。{}",
+    "{}The Track Panel{}":"{}轨道面板{}",
     "{}Track Actions{}{}Track Actions{}":"{}轨道操作{}{}轨道操作{}",
     "{}Track Colour{}{}Track Colour{}":"{}轨道颜色{}{}轨道颜色{}",
     "{}Track Search{}{}Track Search{}":"{}轨道搜索{}{}轨道搜索{}",

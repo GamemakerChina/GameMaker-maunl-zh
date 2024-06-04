@@ -1,5 +1,6 @@
 {
     "A strip image contains multiple frames, laid out horizontally, starting from the left. The name of a strip image file must end with \"{}_stripN{}\", where \"{}N{}\" is the number of frames in the animation.":"条带图像包含多个帧，从左开始水平布局。条带图像文件的名称必须以 \"{}_stripN{}\" 结尾，其中 \"{}N{}\" 是动画中的帧数。",
+    "After importing, GameMaker will remove the \"_stripN\" part from the name of the sprite.":"导入后，GameMaker 将从精灵名称中删除 \"_stripN\" 部分。",
     "Fonts":"字体",
     "Saving Strip Images":"保存条带图像",
     "Such a strip image can be loaded at runtime using {}{}font_add_sprite(){}{}.":"这样的条带图像可以在运行时使用 {}{}font_add_sprite(){}{} 加载。",

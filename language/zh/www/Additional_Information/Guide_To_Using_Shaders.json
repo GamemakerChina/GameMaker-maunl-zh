@@ -72,6 +72,7 @@
     "{}Black And White Shader{}{}Black And White Shader{}":"{}黑白着色器{}{}黑白着色器{}",
     "{}Colour Overlay Shader{}{}Colour Overlay Shader{}":"{}颜色叠加着色器{}{}颜色叠加着色器{}",
     "{}For the fragment shader, you can imagine the same loop as before, but this time it goes over every single pixel in your sprite, giving you information such as location and color of that pixel. In your fragment shader code, you perform operations and calculations to determine the color of that pixel to get the effect you want. For example, if you want a shader to make your sprite be black and white, then you’d calculate which shade of grey each pixel needs to be to create the effect.":"{}在片段着色器中，你可以想象和以前一样的循环，但这次它会遍历你的子画面中的每一个像素，给你诸如像素的位置和颜色等信息。在片段着色器代码中，可以执行操作和计算来确定该像素的颜色，以获得所需的效果。例如，如果您希望着色器使您的精灵是黑色和白色，那么您需要计算每个像素需要的灰色阴影来创建效果。",
+    "{}Guide To Using Shaders{}":"{}着色器使用指南{}",
     "{}Not exactly what we expected!&nbsp;What we need to remember is that every sprite is ultimately a rectangle, so unless we consider transparency - which we haven\u0027t -&nbsp;this is the result we’ll get.":"{}不完全符合我们的预期！ 我们需要记住的是，每个精灵最终都是一个矩形，因此除非我们考虑透明度（我们没有考虑），否则这就是我们将得到的结果。",
     "{}Now that’s what we were after! We have replaced the color of every pixel with red, but have kept the alpha channel intact.":"{}这就是我们所追求的！ 我们将每个像素的颜色替换为红色，但保持 Alpha 通道完好无损。",
     "{}Now the shader is much more useful and reusable. It’s up to you to add more functionality if you need it to set the color (using the variable {}_color{}) during runtime.":"{}现在，着色器更加有用且可重用。 如果您需要在运行时设置颜色（使用变量 {}_color{}），您可以添加更多功能。",

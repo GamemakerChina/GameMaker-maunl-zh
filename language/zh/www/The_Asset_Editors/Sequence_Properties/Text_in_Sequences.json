@@ -51,6 +51,7 @@
     "{}Shadow Colour{}: This is the colour&nbsp;of the drop shadow.":"{}阴影颜色 (Shadow Colour){}：这是投影的颜色。",
     "{}Shadow Offset{}: This is the&nbsp;offset in pixels&nbsp;on the x and y axis of the drop shadow.":"{}阴影偏移 (Shadow Offset){}：这是投影的x轴和y轴上的偏移(以像素为单位)。",
     "{}Shadow Softness{}: This is the width of the drop shadow penumbra, which determines its \"softness\". It can range from 0 to 64.":"{}阴影柔和度 (Shadow Softness){}：这是投影半影的宽度，它决定了它的\"柔和度\"。它的范围可以从0到64。",
+    "{}Text in Sequences{}":"{}序列文本{}",
     "{}Text{}: This is the text that is displayed on your text track. You can enter multiple lines here, however empty lines will not be displayed.":"{}文本{}：这是显示在文本轨道上的文本。您可以在此处输入多行，但不会显示空行。",
     "{}Thickness{}: This is the number of pixels to modify the thickness&nbsp;of each {}glyph{}&nbsp;in the text. It can range from -32 to 32.":"{}粗细 (Thickness){}：这是修改文本中每个{}边框{}粗细的像素数。范围为-32到32。",
     "{}To edit the text for a track at any time, simply select that track, go into the Inspector and modify the {}Text{} field again.":"{}要随时编辑轨道的文本，只需选择该轨道，进入检查器，然后再次修改{}文本{}字段。",
