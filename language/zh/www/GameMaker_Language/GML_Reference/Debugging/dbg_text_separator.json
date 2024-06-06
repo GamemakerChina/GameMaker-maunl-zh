@@ -1,0 +1,8 @@
+{
+    "A string&nbsp;or a reference to a variable that can be converted to string, returned by&nbsp;{}{}ref_create{}{}, or an array containing references or strings":"一个字符串或对变量的引用，可以转换为字符串，由 {}{}ref_create{}{} 返回，或包含引用或字符串的数组",
+    "The above code first defines two strings and stores them in the variables {}separator_text{} and {}a_variable{}&nbsp;and also defines a counter variable that it stores in {}a_number{}. It then adds a debug section with three text separators underneath it, created using&nbsp;{}{}dbg_text_separator{}{}, each of them followed by four simple debug controls (added using {}{}dbg_text{}{}).":"上面的代码首先定义了两个字符串，并将它们存储在变量 {}separator_text{} 和 {}a_variable{} 中，还定义了一个计数器变量，并将其存储在 {}a_number{} 中。   {}{}dbg_text_separator{}{}，每个都后跟四个简单的调试控件 (使用   {}{}dbg_text{}{})。",
+    "The text is either taken from a string or from a reference to a variable that holds a variable that can be converted to string. The text can be multiline.":"文本可以从字符串中获取，也可以从对变量的引用中获取，该变量包含可转换为字符串的变量。文本可以是多行的。",
+    "This function adds a horizontal text separator between controls.":"此函数在控件之间添加水平文本分隔符。",
+    "You can also pass an array containing items of either type. The function will create a separator for each item in the array.":"你也可以传递一个包含两种类型的元素的数组。该函数将为数组中的每一个元素创建一个分隔符。",
+    "{}{}NOTE{}{}&nbsp;This control takes up a single column&nbsp;and cannot be shown&nbsp;on the same line with another single-column control.":"{}{} 注意{}{} 此控件占用一列，不能与另一个单列控件显示在同一行上。"
+}
