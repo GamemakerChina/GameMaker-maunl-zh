@@ -75,7 +75,7 @@ fsys.enum(path_manual,"*.htm",function(dirname,filename,fullpath,findData){
 		
 		var tmp_importHtml=string.replace(importHtml,"@{path}",path_base+"assets\import")
 		var tmp_importHtml=string.replace(tmp_importHtml,"@{global}",path_base+"assets\import\language\global.js")
-		var tmp_importHtml=string.replace(tmp_importHtml,"@{json}",path_base+"assets\import\language\"+p+".js")
+		var tmp_importHtml=string.replace(tmp_importHtml,"@{json}",path_base+"assets\import\language"+p+".js")
 		
 		//替换插入依赖js,css
 		var tmp_template=string.replace(
