@@ -1,5 +1,6 @@
 {
     "A reference to a variable created using&nbsp;{}{}ref_create{}{}":"对使用{}{}ref_create{}{}创建的变量的引用",
+    "A reference to a variable created using&nbsp;{}{}ref_create{}{}, or an array containing references":"对使用 {}{}ref_create{}{} 创建的变量的引用，或包含引用的数组",
     "By default, the text input modifies the variable referenced as a string variable. You can change this {}data type{} by setting the optional {}type{} parameter to one of the following values:&nbsp;":"默认情况下，文本输入修改作为字符串变量引用的变量。您可以通过将可选的 {}type{} 参数设置为以下值之一来更改此 {0} 数据类型 {1}：",
     "In the Create event of an object a couple of variables are first defined. They are assigned a real, another real and a string value. Then, a reference is created to each of these instance variables. After that, a text input is created using&nbsp;{}{}dbg_text_input{}{} to modify each of these variables through the reference to it. The function calls to&nbsp;{}{}dbg_text_input{}{}&nbsp;will&nbsp;bring up&nbsp;{}The Debug Overlay{},&nbsp;so no call to&nbsp;{}{}show_debug_overlay{}{}&nbsp;is required.":"在对象的 Create 事件中，首先定义几个变量。它们被分配一个实数、另一个实数和一个字符串值。然后，创建对每个实例变量的引用。之后，使用 {}{}dbg_text_input{}{} 创建文本输入，并通过对每个变量的引用来修改这些变量。对 {}{}dbg_text_input{}{} 的函数调用将调出 {} 调试叠加层 {}，因此无需调用 {}{}show_debug_overlay{}{}。",
     "In the object\u0027s Draw event a line of text is displayed using&nbsp;{}{}draw_text{}{}&nbsp;for each of the variables. Each line shows a descriptive text and the type of value between parentheses, followed by the value itself. Any change made in the text inputs will show in the drawn text.":"在对象的 Draw 事件中，使用每个变量的 {}{}draw_text{}{} 显示一行文本。每行显示描述性文本和括号之间的值类型，后跟值本身。文本输入中所做的任何更改都将显示在绘制的文本中。",
@@ -8,6 +9,7 @@
     "This code example shows how to use custom data types with the text input debug control.":"此代码示例演示如何将自定义数据类型与文本输入调试控件结合使用。",
     "This function creates a text field within the current debug section.":"此函数在当前调试部分中创建一个文本字段。",
     "This function creates a text field within the current debug section. You can use this to modify a string variable.":"此函数在当前调试部分中创建一个文本字段。您可以使用它来修改字符串变量。",
+    "You can also pass an array in the first argument, in which case the function will create a text field for each reference in the array.":"你也可以在第一个参数中传递一个数组，在这种情况下，函数将为数组中的每个引用创建一个文本字段。",
     "description = {}\"This description can be changed\"{};{} {}var{} _ref = {}ref_create{}({}self{}, {}\"description\"{});{} {}dbg_text_input{}(_ref, {}\"Enter the description here:\"{}); ":"description = {}\"此说明可以更改\"{};{} {}var{} _ref = {}ref_create{}({}self{}, {}\"描述\"{});{} {}dbg_text_input{}(_ref, {}\"在此处输入描述:\"{}); ",
     "{}\"f\"{}, {}\"r\"{} or {}\"g\"{}: a real number, for which&nbsp;{}{}typeof{}{}&nbsp;returns {}\"number\"{}":"{}\"f\"{}、{}\"r\"{} 或 {}\"g\"{}：实数，{}{}typeof{}{} 返回 {}\"number\"{}",
     "{}\"i\"{} or {}\"d\"{}: an integer, for which&nbsp;{}{}typeof{}{}&nbsp;returns {}\"int64\"{}":"{}\"i\"{} 或 {}\"d\"{}：一个整数，{}{}typeof{}{} 返回 {}\"int64\"{}",

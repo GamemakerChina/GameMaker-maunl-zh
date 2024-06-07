@@ -83,10 +83,10 @@
             $(".header").append(html);
         } else {
             //否则就是页内
-            $(".topic-header").append(html);
-            $(".topic-header button")
-                .css("position", "relative")
-                .css("top", "44px");
+            //$(".topic-header").append(html);
+            //$(".topic-header button")
+            //    .css("position", "relative")
+            //    .css("top", "44px");
         }
     };
 
@@ -97,18 +97,6 @@
             .replaceAll(".htm", "");
         return after
     };
-
-	let json_global
-    let json_file = {json}
-    let get_json_global = $.ajax({
-        url: "/global.json",
-        type: "GET",
-        dataType: "json",
-        async: false,
-        success: function (data) {
-            json_global = data
-        },
-    });
 
     $(function () {
         //添加按钮
@@ -126,7 +114,7 @@
         });
 
         $(css2).each(function () {
-            setTranslator($(this), json_file);
+            setTranslator($(this), json);
         });
 
         $(css3).each(function () {

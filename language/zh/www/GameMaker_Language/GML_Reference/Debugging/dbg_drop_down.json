@@ -1,9 +1,11 @@
 {
     "A comma-delimited string listing the&nbsp;options and,&nbsp;optionally, the integer value to use (e.g. {}\"Zero,One:10,Two:20\"{})":"一个逗号分隔的字符串，列出了选项和要使用的整数值(可选)(例如{}\"Zero,One:10,Two:20\"{})",
     "A reference to the variable, created using&nbsp;{}{}ref_create{}{}":"使用{}{}ref_create{}{}创建的变量引用",
+    "A reference to the variable, created&nbsp;using&nbsp;{}{}ref_create{}{}, or an array containing references":"使用 {}{}ref_create{}{} 创建的变量引用，或包含引用的数组",
     "The code above first set an instance variable {}difficulty{} that stores the game\u0027s difficulty level. It creates a reference to the variable using&nbsp;{}{}ref_create{}{}&nbsp;and creates a dropdown control using&nbsp;{}{}dbg_drop_down{}{} to change the variable through that reference. The {}specifier{} lists the four difficulty levels as {}\"Easy:0,Normal:1,Hard:2,Impossible:3\"{}.":"上面的代码首先设置了一个实例变量{}difficulty{}，用于存储游戏的难度级别。它使用{}{}ref_create{}{}创建对变量的引用，并使用{}{}dbg_drop_down{}{}创建下拉控件，以通过该引用更改变量。{}说明符{}列出了四个难度级别{}\"简单：0，普通：1，困难：2，不可能：3\"{}。",
     "The values and names for the drop down are specified as a comma-delimited string, where integer values can&nbsp;optionally be specified after a colon symbol. For example {}\"Zero,One:10,Two:20\"{} creates a 3 entry drop down that will set the variable to the value 0, 10&nbsp;or 20, depending&nbsp;on the selected&nbsp;option.":"下拉列表的值和名称指定为逗号分隔的字符串，其中可以在冒号符号后指定整数值。例如，{}\"Zero，One：10，Two：20\"{}创建一个3条目下拉列表，将变量设置为值0、10或20，具体取决于所选选项。",
     "This function creates a drop down control for an integer value within the current {}debug section{}.":"此函数为当前{}调试部分{}中的整数值创建下拉控件。",
+    "You can also pass an array as the first argument, and the function will create a drop down for each reference in the array.":"你也可以传递一个数组作为第一个参数，函数将为数组中的每个引用创建一个下拉列表。",
     "{}{}NOTE{}{}&nbsp;This debug control spans two columns.":"{}{}注意{} {}此调试控制跨越两列。",
     "{}{}OPTIONAL{}{}&nbsp;A label to show next to the dropdown":"{}{}可选{} {}下拉列表旁边显示的标签"
 }

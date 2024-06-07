@@ -7,7 +7,6 @@ if setting.group{
 	group="def"
 }
 
-
 //生成导入依赖的html
 	importHtml=""
 	//依赖js
@@ -31,16 +30,26 @@ if setting.group{
 			console.log("import:",p)
 		}
 	},);
+	//依赖json和global json
+	importHtml+=//<script type="text/javascript" src="{json}"></script>
+	importHtml+=//<script type="text/javascript" src="{global}"></script>
+
 
 //设置路径
 path_manual		= path+"GMS2-Robohelp-en/"
 path_build		= path+"build/"
 path_language	= path+"language/"+group+"/"
 
+
+
 //读取模板与全局内容
 var template=string.load(path+"/patch/template.htm")
 var json_global=string.load(fsys.path.canonicalize(path_language+"/global.json"))
+
+//将全局json储存
 if !json_global json_global="{}"
+json_global="json_global="+json_global
+string.save(fsys.path.canonicalize(path+"/build/assets/import/language/global.js"),json_global)
 
 //将内容注入文档
 fsys.enum(path_manual,"*.htm",function(dirname,filename,fullpath,findData){
@@ -52,23 +61,30 @@ fsys.enum(path_manual,"*.htm",function(dirname,filename,fullpath,findData){
 		//文档原html
 		var html=string.load(fullpath)
 		
-		var path_base=string.match(html,'src="(.*?)template/scripts')
+		var path_base=string.match(html,'src="(.*?)template/scripts')//基础路径
+		
+		//获取json文本
 		var json=string.load(fsys.path.canonicalize(path_language+"/www/"+p+".json"))
 		if !json json="{}"
+		json="json="+json
+		//保存json文本
+		string.save(fsys.path.canonicalize(path+"/build/assets/import/language/"+p+".js"),json)
+
+		//替换原文档基础路径
+		var tmp_template=string.replace(template,"@{path}",path_base)
 		
-		//替换基础路径
-		var tmp=string.replace(template,"@{path}",path_base)
-		//替换字典
-		var tmp=string.replace(tmp,"@{global}",json_global)
-		var tmp=string.replace(tmp,"@{json}",json)
+		var tmp_importHtml=string.replace(importHtml,"@{path}",path_base+"assets\import")
+		var tmp_importHtml=string.replace(tmp_importHtml,"@{global}",path_base+"assets\import\language\global.js")
+		var tmp_importHtml=string.replace(tmp_importHtml,"@{json}",path_base+"assets\import\language"+p+".js")
+		
 		//替换插入依赖js,css
-		var tmp=string.replace(
-			tmp,"@{importHtml}",
-			string.replace(importHtml,"@{path}",path_base+"assets\import")
+		var tmp_template=string.replace(
+			tmp_template,"@{importHtml}",
+			tmp_importHtml
 		)
 		
 		//加入
-		html=string.replace(html,"@<head>","<head>"+'\r\n'+tmp)
+		html=string.replace(html,"@<head>","<head>"+'\r\n'+tmp_template)
 		
 		console.log("patch:",p)
 		
@@ -78,11 +94,10 @@ fsys.enum(path_manual,"*.htm",function(dirname,filename,fullpath,findData){
 	}
 },);
 
-
 //复制import
 fsys.copy(
 	fsys.path.canonicalize(path+"/patch/import")
-	,fsys.path.canonicalize(path+"/build/assets/import")
+	,fsys.path.canonicalize(path+"/build/assets/")
 )
 console.log("copy:","!!!import!!!")
 
