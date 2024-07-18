@@ -1,0 +1,17 @@
+{
+    "Add both together (the default equation).":"将两者相加 (默认方程)。",
+    "Blend Mode Equation Constant":"混合模式方程常数",
+    "Subtract destination from source.":"从源中减去目的地。",
+    "Subtract source from destination.":"从目的地减去源。",
+    "The above code gets the current blend equation and if it is not {}bm_eq_add{} it is set to that constant.":"上述代码获取当前混合方程，如果它不是 {}bm_eq_add{}，则将其设置为该常量。",
+    "This function can be used to retrieve the current {}blend equation{} being used for drawing. The returned value will be one of the following constants (the default value is {}bm_eq_add{}):":"此函数可用于检索当前用于绘图的 {} 混合方程 {}。返回的值将为以下常量之一 (默认值为 {}bm_eq_add{})：",
+    "Use whichever value is larger.":"使用较大的值。",
+    "Use whichever value is smaller.":"使用较小的值。",
+    "destination - source":"目的地 - 来源",
+    "max(source, destination)":"最大 (源，目的地)",
+    "min(source, destination)":"最小 (源，目的地)",
+    "source + destination":"来源 + 目的地",
+    "source - destination":"来源 - 目的地",
+    "{}{}Blend Mode Equation Constant{}{}&nbsp;(see above for constants)":"{}{} 混合模式方程常数 {}{}( 有关常数，请参见上文)",
+    "{}{}IMPORTANT{}{}&nbsp;{}Blend factors{} are not applied when {}bm_eq_min{} or {}bm_eq_max{} is used as the blend equation, which is effectively the same as using&nbsp;{}bm_one{}&nbsp;as the factors.":"{}{} 重要{}{} 当使用 {}bm_eq_min{} 或 {}bm_eq_max{} 作为混合方程时，不会应用 {4} 混合因子 {5}，这与使用 {}bm_one{} 作为混合方程是相同的因子。"
+}

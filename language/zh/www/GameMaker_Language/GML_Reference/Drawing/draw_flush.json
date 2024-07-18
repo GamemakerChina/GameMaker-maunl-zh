@@ -1,4 +1,6 @@
 {
     "The above code flushes the draw pipeline.":"以上代码将刷新绘制管线。",
+    "This function flushes the entire draw pipeline.":"该函数刷新整个绘制管道。",
+    "This is a {}debug-only{} function and in general {}it should not be used{} unless indicated by a member of the {}GameMaker{}&nbsp;Support staff, as indiscriminate use will cause serious performance issues with your game.":"这是一个 {} 仅限调试 {} 的功能，一般来说，除非 {}GameMaker{} 支持人员指示，否则 {} 不应使用它 {}，因为不加区别地使用会导致游戏出现严重的性能问题。",
     "With this function you can flush the entire draw pipeline. This is a {}debug only{} function and in general {}it should not be used{} unless indicated by a member of the YoYo Games Support staff, as indiscriminate use will cause serious performance issues with your game.":"使用此功能，您可以刷新整个绘制管道。这是一个{}仅限调试的{}函数，{}通常不应使用{}，除非得到 YoYo Games 支持人员的指示，因为不加选择地使用会导致严重的游戏性能问题。"
 }

@@ -206,6 +206,7 @@
     "Enabled":"启用",
     "Encoding And Hashing":"编码和哈希",
     "Encoding transforms data into another format using a scheme that is publicly available so that it can easily be reversed. This is not the same as encryption, as it does not require a key to decode it. Encoding is generally used to either change the data into a format for eaiser use by a different system (like sending data to a server), or for making data unreadable to the human eye.":"编码使用公开可用的方案将数据转换为另一种格式，以便可以轻松地将其反转。这与加密不同，因为它不需要密钥对其进行解码。编码通常用于将数据更改为易于由其他系统使用的格式（例如，将数据发送到服务器），或用于使人眼无法读取的数据。",
+    "Equation":"方程",
     "Error":"错误(Error)",
     "Error Reporting":"错误报告",
     "Escape Sequence":"转义字符串",

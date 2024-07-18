@@ -1,0 +1,10 @@
+{
+    "(View) Frustum Culling":"(视图) 视锥体剔除",
+    "The above code enables sprite frustum culling in the Create event of an object.":"上面的代码在对象的 Create 事件中启用了精灵平截头体剔除。",
+    "The {}view frustum{} is the region of the game world that a camera sees.&nbsp;It is determined by the camera\u0027s position and orientation in the game world as well as by the projection it has set:&nbsp;":"{} 视锥体 {} 是相机看到的游戏世界区域。它由摄像机在游戏世界中的位置和方向以及它设置的投影决定：",
+    "This function sets whether (frustum) culling of sprites is enabled globally or not.":"此函数设置是否全局启用精灵 (视锥体) 剔除。",
+    "When enabled, sprites will be {}culled{}&nbsp;against the view frustum, i.e. they\u0027re not submitted to the GPU and aren\u0027t drawn when fully out of sight.":"启用后，精灵将针对视锥体进行 {} 剔除 {}，即它们不会提交给 GPU，并且在完全看不见时也不会进行绘制。",
+    "Whether to enable sprite culling globally":"是否全局启用精灵剔除",
+    "in case of a {}perspective{} {}projection{} it is a truncated pyramid shape.":"如果是 {} 透视 {}{} 投影 {}，则它是截棱锥形状。",
+    "in case of an {}orthographic projection{} it is a box shape.":"如果是 {} 正交投影 {}，则它是一个盒子形状。"
+}

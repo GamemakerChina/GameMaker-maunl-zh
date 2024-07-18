@@ -1,0 +1,23 @@
+{
+    "Add both together (the default equation).":"将两者相加 (默认方程)。",
+    "After the source and destination pixels are multiplied by the set {}factors{}, those two pixels now need to be mixed together to generate the final pixel value. By default, they are added together, meaning the final pixel is formed as: {}(source * factor) {}+{} (destination * factor){}.":"将源像素和目标像素乘以设置的 {} 因子 {} 后，现在需要将这两个像素混合在一起以生成最终像素值。默认情况下，它们会相加，这意味着最终像素的形式为：{}( 源 * 因子 ){}+{}( 目标 * 因子 ){}。",
+    "Blend Mode Equation Constant":"混合模式方程常数",
+    "Blend mode equation (see constants above).":"混合模式方程 (参见上面的常数)。",
+    "Guide To Using Blendmodes":"混合模式使用指南",
+    "Subtract destination from source.":"从源中减去目的地。",
+    "Subtract source from destination.":"从目的地减去源。",
+    "The blending here will function as the following: it will multiply the source pixel with the source alpha, and the destination pixel with 1 (keeping it the same as it was). It will then subtract the source from the destination.":"这里的混合将按如下方式运行：它将源像素与源 Alpha 相乘，并将目标像素与 1 相乘 (保持与原来相同)。然后它将从目标中减去源。",
+    "This changes the blend mode factors and then the equation, draws a circle and resets both the blend mode factors and equation (by switching to the normal blend mode) so they don\u0027t affect things drawn after this.":"这会更改混合模式因子，然后更改方程，绘制一个圆并重置混合模式因子和方程 (通过切换到正常混合模式)，以便它们不会影响此后绘制的内容。",
+    "To help you get the most from blend modes and to help understand how they work and how they affect the final image being drawn to the screen, we recommend that you read the following guide:":"为了帮助您充分利用混合模式并帮助了解它们的工作原理以及它们如何影响绘制到屏幕上的最终图像，我们建议您阅读以下指南：",
+    "Use whichever value is larger.":"使用较大的值。",
+    "Use whichever value is smaller.":"使用较小的值。",
+    "When {}GameMaker{} goes to draw a pixel there is a source colour (the colour of the pixel we\u0027re going to draw) and a destination colour&nbsp;(the colour that\u0027s already in the pixel we\u0027re drawing to), so the source and destination colours need to be processed to create the final pixel value.":"当 {}GameMaker{} 绘制像素时，会有一个源颜色 (我们要绘制的像素的颜色) 和一个目标颜色 (我们要绘制到的像素中已经存在的颜色)，因此需要处理源颜色和目标颜色以创建最终的像素值。",
+    "With this function, you can change how the final pixel is calculated from the source and destination, and you can choose between the following equations:":"使用此函数，您可以更改从源和目标计算最终像素的方式，并且可以在以下方程之间进行选择：",
+    "You can set different equations for the colour components (RGB) and the alpha component separately by calling&nbsp;{}{}gpu_set_blendequation_sepalpha{}{}.":"您可以通过调用 {}{}gpu_set_blendequation_sepalpha{}{} 分别为颜色分量 (RGB) 和 alpha 分量设置不同的方程。",
+    "destination - source":"目的地 - 来源",
+    "max(source, destination)":"最大 (源，目的地)",
+    "min(source, destination)":"最小 (源，目的地)",
+    "source + destination":"来源 + 目的地",
+    "source - destination":"来源 - 目的地",
+    "{}{}IMPORTANT{}{}&nbsp;{}Blend factors{} are not applied when {}bm_eq_min{} or {}bm_eq_max{} is used as the blend equation, which is effectively the same as using&nbsp;{}bm_one{}&nbsp;as the factors.":"{}{} 重要{}{} 当使用 {}bm_eq_min{} 或 {}bm_eq_max{} 作为混合方程时，不会应用 {4} 混合因子 {5}，这与使用 {}bm_one{} 作为混合方程是相同的因子。"
+}
