@@ -2,6 +2,7 @@
     "Building via Command Line":"通过命令行构建",
     "Command Line Parameters":"命令行参数",
     "Compiler Batch Files / Scripts":"编译器批处理文件/脚本",
+    "Compiler Optimisations":"编译器优化",
     "The following pages expand on the topics mentioned above:":"以下几页展开了上述主题：",
     "This section contains details on the runner and compiler, and how you can interact with them in various ways;&nbsp;such as building and testing your game via the command line,&nbsp;adding command line parameters before running your game and executing batch files at various stages of compilation.":"本节包含有关运行器和编译器的详细信息，以及如何以各种方式与它们进行交互；例如，通过命令行构建和测试游戏，在运行游戏之前添加命令行参数，以及在编译的各个阶段执行批处理文件。",
     "YoYo Compiler":"YoYo 编译器",

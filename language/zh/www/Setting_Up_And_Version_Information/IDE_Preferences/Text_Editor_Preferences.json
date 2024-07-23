@@ -22,6 +22,7 @@
     "{}Font Name{}: The name of the font to use (available fonts will depend on those installed on your system).":"{}字体名称{}：要使用的字体的名称(可用的字体取决于系统上安装的字体)。",
     "{}Highlight selection matches{}: This will lightly highlight any section of code that is duplicated elsewhere. So, if you select a function, for example, all instances of this function in the current code window will be highlighted too. Default is on.":"{}突出显示选择匹配项{}：这将略微突出显示在其他地方复制的任何代码段。因此，例如，如果选择一个函数，则当前代码窗口中该函数的所有实例也将突出显示。默认设置为启用。",
     "{}Keep tabs{}: If checked, this will keep tab key presses as tab characters - \u0027 {}\\t{}\u0027 - in the editor, while unchecked means that tabs are converted into spaces. Default is off.":"{}保留制表符{}：如果选中，将在编辑器中保持按下制表键为制表符-\u0027{}\\t{}\u0027，而不选中则表示制表符转换为空格。默认设置为禁用。",
+    "{}Legacy Code Editor{}&nbsp;Preferences":"{} 旧版代码编辑器 {} 首选项",
     "{}Match indent on new lines{}: Enable or disable auto-indentation for your code. Default is on, which will maintain any tabs set on a line when a new line is added.":"{}匹配新行的缩进{}：启用或禁用代码的自动缩进。默认设置为启用，这将在添加新行时保留行上设置的所有制表符。",
     "{}Minimum code window height{}: Set the minimum height (in pixels) permitted by the code window. Default value is 200.":"{}最小代码窗口高度{}：设置代码窗口允许的最小高度(以像素为单位)。默认值为 200。",
     "{}Minimum code window width{}: Set the minimum width (in pixels) permitted by the code window. Default value is 300.":"{}最小代码窗口宽度{}：设置代码窗口允许的最小宽度(以像素为单位)。默认值为 300。",
@@ -38,6 +39,7 @@
     "{}Style{}: The font style to use, like {}bold {}or {}italics {}(note that not all windows will permit the same styles and it will also depend on the font used).":"{}样式{}：要使用的字体样式，如{}粗体{}或{}斜体{}(请注意，并不是所有窗口都允许使用相同的样式，它还取决于所使用的字体)。",
     "{}Syntax checking delay (ms){}: The delay time (in milliseconds) before the syntax checker runs. This default value is 2000ms.":"{}语法检查延迟(毫秒){}：语法检查器运行前的延迟时间(毫秒)。此默认值为 2000ms。",
     "{}Tab size{}: The number of character spaces that pressing \"Tab\" should indent the code. Default is 4.":"{}制表符大小{}：按\"Tab\"键应缩进代码的字符空格数。默认值为4。",
+    "{}The {}Legacy Code Editor{}{}&nbsp;preferences{} are used to define how the different code/script editors look and feel. The main page has the following options:":"{}{} 旧版代码编辑器 {}{} 首选项 {} 用于定义不同代码 / 脚本编辑器的外观和风格。主页有以下选项：",
     "{}The {}Text Editors preferences{} are used to define how the different code/script editors look and feel. The main page has the following options:":"{}{}文本编辑器首选项{}用于定义不同的代码/脚本编辑器的外观和感觉。主页具有以下选项：",
     "{}Undo / Redo Stack Limit{}: Here you can set the Undo/Redo stack limit. Anything under 0 is essentially infinite (limited by the memory available) while positive values will limit the stack to that number, removing any action at the tail of the stack if the limit is reached. Default is -1.":"{}撤销/重做堆栈限制{}：您可以在此处设置撤消/重做堆栈限制。小于0的任何值本质上都是无限的(受可用内存的限制)，而正值会将堆栈限制为该数字，如果达到该限制，则删除堆栈尾部的所有操作。默认值为 -1。"
 }

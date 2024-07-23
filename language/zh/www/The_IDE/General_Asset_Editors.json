@@ -1,0 +1,7 @@
+{
+    "This includes the following:":"这包括以下内容：",
+    "This section covers tools used for asset editing within the IDE, which are not limited to any single type of&nbsp;{}The Asset Editors{}.":"本部分介绍用于在 IDE 中编辑资产的工具，这些工具不限于任何单一类型的 {} 资产编辑器 {}。",
+    "{}Both the&nbsp;{}Code Editor{}&nbsp;and the Inspector can be used together at the same time, using the Inspector to edit basic asset information, and the&nbsp;{}Code Editor{}&nbsp;to edit text documents in assets such as {}Objects{}, {}Scripts{}, {}Notes{}, etc.":"{}{} 代码编辑器 {} 和检查器可以同时一起使用，使用检查器编辑基本资产信息，使用 {} 代码编辑器 {} 编辑资产中的文本文档，例如 {} 对象 {}、{} 脚本 {}、{} 注释 {} 等。",
+    "{}General Asset Editors{}":"{} 常规资源编辑器 {}",
+    "{}{}NOTE{}{}&nbsp;The&nbsp;{}Code Editor{}&nbsp;is currently opt-in. Enable it in the&nbsp;{}Code Editor Preferences{}.{} {} While it is disabled, assets with text documents like {}Objects{}, {}Scripts{}, {}Notes{} etc. will open their respective editors, which make use of the&nbsp;{}Legacy Code Editor{}. ":"{}{} 注意{}{} 当前可选择加入 {} 代码编辑器 {}。在 {} 代码编辑器首选项 {} 中启用它。{}{} 禁用该功能后，包含 {} 对象 {}、{} 脚本 {}、{} 注释 {} 等文本文档的资源将打开其各自的编辑器，它使用 {} 旧版代码编辑器 {}。"
+}

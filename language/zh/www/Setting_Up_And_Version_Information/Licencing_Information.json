@@ -1,5 +1,6 @@
 {
     "Creating A YoYo Account":"创建一个 YoYo 账户",
+    "For information on the various&nbsp;{}GameMaker{}&nbsp;licences and obtaining them, see the links on&nbsp;{}Licencing &amp; Version Information{}.":"有关各种 {}GameMaker{} 许可证以及获取这些许可证的信息，请参阅 {} 许可与授权 {} 上的链接。版本信息 {}。",
     "If you require Proxy Support for your installation of {}GameMaker{}, this can be added simply by clicking the {}Proxy{}. This will bring up the following window:":"如果您需要为{}GameMaker{}安装代理支持，只需单击{}Proxy{}即可添加代理支持。这将打开以下窗口:",
     "If your proxy does require a username and/or password, then you\u0027ll need to add them in to the fields shown in the window above. Note that in these cases the username/password/proxy details will always be required, and that the proxy IP should also have the port added, ie: {}xx.xx.xx.xx:port{}.":"如果您的代理确实需要用户名和/或密码，那么您需要将它们添加到上面窗口中显示的字段中。注意，在这些情况下，总是需要用户名/密码/代理详细信息，代理IP还应该添加端口，例如:{}xx.xx.xx.xx:port{}。",
     "Legacy Sign In &amp; Proxy":"传统登录与代理",

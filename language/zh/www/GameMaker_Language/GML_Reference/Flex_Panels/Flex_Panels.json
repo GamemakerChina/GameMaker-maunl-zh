@@ -1,0 +1,15 @@
+{
+    "By setting up nodes inside nodes (inside nodes...), you can create a layout tree. Each node can have properties that define how large it is, how it should be positioned in relation to the nodes in its container, how its own child nodes should behave, and so on.":"通过在节点内部设置节点 (节点内部 ...)，您可以创建布局树。每个节点都可以具有定义其大小、相对于其容器中的节点应如何定位、其自己的子节点应如何表现等的属性。",
+    "Creating a layout is as simple as calling&nbsp;{}{}flexpanel_create_node{}{}&nbsp;and passing it a struct or a JSON string. That struct/JSON should define the properties of the root node and all nodes nested under the root node. The structure of that struct/JSON is {}outlined on this page{}.":"创建布局就像调用 {}{}flexpanel_create_node{}{} 并向其传递一个结构体或 JSON 字符串一样简单。该 struct/JSON 应该定义根节点以及嵌套在根节点下的所有节点的属性。{} 本页概述了该结构体 /JSON 的结构 {}。",
+    "Flex Panel Functions":"柔性面板功能",
+    "Flex Panel Struct Members":"柔性面板结构成员",
+    "How To Create Layouts":"如何创建布局",
+    "Overview":"概述",
+    "The&nbsp;{}Flex Panel{}&nbsp;functionality uses the {}Yoga{} library.":"{}柔性面板{} 功能使用 {}Yoga{} 库。",
+    "This section contains the following pages:":"本节包含以下页面：",
+    "This section details the usage of the&nbsp;{}Flex Panel{}&nbsp;runtime functions, which help you create UI layouts by handling all the logical calculations concerning where UI boxes are placed and how they behave.":"本部分详细介绍了 {}Flex Panel{} 运行时函数的用法，这些函数通过处理有关 UI 框放置位置及其行为方式的所有逻辑计算来帮助您创建 UI 布局。",
+    "You can specify as many options in that struct/JSON as you like, or you can call the function without passing a struct/JSON, which will create an empty node. You can later set properties on the node and insert/remove children by calling the&nbsp;{}Flex Panel Functions{}.":"您可以在该 struct/JSON 中指定任意多个选项，也可以在不传递 struct/JSON 的情况下调用该函数，这将创建一个空节点。您稍后可以通过调用 {}柔性面板函数 {} 来设置节点属性并插入 / 删除子节点。",
+    "You can use these functions to set up layouts consisting of {}nodes{}. Each node is a rectangular area and may contain other nodes, making a node a {}container{}.":"您可以使用这些函数来设置由 {} 节点 {} 组成的布局。每个节点都是一个矩形区域，并且可能包含其他节点，从而使节点成为 {} 容器 {}。",
+    "{}A layout tree can then be {}calculated according to a given canvas size{}, and the final positions and sizes of the nodes {}can be used{} anywhere you like (e.g. setting up your UI systems). There is no rendering or asset support in these functions and how you make use of this data is entirely up to you.":"{} 然后可以 {} 根据给定的画布尺寸计算 {} 布局树，并且节点的最终位置和尺寸 {} 可以 {} 在您喜欢的任何地方使用 (例如设置您的 UI 系统)。这些函数没有渲染或资源支持，如何使用这些数据完全取决于您。",
+    "{}Flex Panels{}":"{} 柔性面板 (Flex Panel){}"
+}

@@ -110,6 +110,7 @@
     "{}Snap Right{}":"{}置于右侧{}",
     "{}Snap Top{}":"{}置于顶部{}",
     "{}Sounds{}: {}Pitch {}and {}Volume as well as Bus and Audio Effects.{}":"{}声音{}：{}音高{}和{}音量以及总线和音频效果。{}",
+    "{}Sounds{}: {}Pitch {}and {}Volume, (emitter) Falloff settings as well as Bus and Audio Effects.{}":"{}声音 {}：{} 音调 {} 和 {} 音量、(发射器) 衰减设置以及总线和音频效果。{}",
     "{}Sounds{}: {}Pitch {}and {}Volume{}.":"{}声音{}：{}音高{}和{}音量{}。",
     "{}Split Window{}":"{}拆分窗口{}",
     "{}Sprites and Objects{}: {}Origin{}, {}Scale{}, {}Image Index{}, {}Image Speed{}, and {}Colour Multiply{}.":"{}精灵和对象{}：{}原点{}、{}比例{}、{}图像索引{}、{}图像速度{}和{}色彩倍增{}。",
@@ -123,5 +124,6 @@
     "{}Volume{}: The volume parameter only applies to {}sound {}asset tracks and can be used to set the gain of the sound (the actual sound asset gain won\u0027t be changed, as it\u0027s essentially an emitter that is used for the asset track in sequences). The volume value is calculated as a percentage, where 0% is no volume and 100% is full volume.":"{} 音量{}：音量参数仅适用于 {} 声音 {} 资源音轨，可用于设置声音的增益（实际的声音资源增益不会改变，因为它本质上是一个发射器，用于资源音轨的序列）。体积值以百分比计算，其中 0% 为无音量，100% 为满音量。",
     "{}What your sequences do are governed by the assets and parameters that have been added to the {}Track Panel{}. You can add a track to the editor by either:":"{}您的序列操作由已添加到{}轨道面板{}的资源和参数控制。您可以通过以下任一方式将轨道添加到编辑器：",
     "{}What your sequences do is governed by the assets and parameters that have been added to the {}Track Panel{}. You can add a track to the editor by either:":"{}您的序列操作由已添加到{}轨道面板{}的资源和参数控制。您可以通过以下任一方式将轨道添加到编辑器：",
-    "{}You\u0027ll notice too that in the image above you can use the arrow buttons on either side of the parameter key marker to quickly skip between key frames in the dope sheet too, without having to position the playhead manually.":"{}您也会注意到，在上面的图像中，您可以使用参数关键帧标记两侧的箭头按钮快速跳过关键帧表中的关键帧，而无需手动定位播放头。"
+    "{}You\u0027ll notice too that in the image above you can use the arrow buttons on either side of the parameter key marker to quickly skip between key frames in the dope sheet too, without having to position the playhead manually.":"{}您也会注意到，在上面的图像中，您可以使用参数关键帧标记两侧的箭头按钮快速跳过关键帧表中的关键帧，而无需手动定位播放头。",
+    "{}{}NOTE{}{}&nbsp;Some parameter tracks may have a \"link\" icon {}&nbsp;next to their values, which means they can be linked together. This is done by clicking the icon to enable/disable linking, and when enabled, editing one value will also set the other.":"{}{} 注意{}{} 某些参数轨道的值旁边可能有一个 \" 链接 \" 图标 {}，这意味着它们可以链接在一起。这是通过单击图标启用 / 禁用链接来完成的，启用后，编辑一个值也将设置另一个值。"
 }

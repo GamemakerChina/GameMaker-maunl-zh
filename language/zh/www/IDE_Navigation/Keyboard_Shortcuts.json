@@ -242,6 +242,8 @@
     "Global":"全局",
     "Global Redo":"全局重做",
     "Global Undo":"全局撤消",
+    "Globally search the next occurrence of the text to search":"全局搜索要搜索的文本的下一个匹配项",
+    "Globally search the previous occurrence of the text to search":"全局搜索要搜索的文本的上一个出现位置",
     "Go to a specific line":"转到特定行",
     "Go to a specific type":"转到特定类型",
     "Go to bookmark 0":"转到书签 0",

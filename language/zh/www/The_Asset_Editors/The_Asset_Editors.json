@@ -3,6 +3,7 @@
     "Extensions":"扩展",
     "Fonts":"字体",
     "Images":"图像",
+    "In the course of development you will need to use some - or even all - of these editors, and remembering what everything does can sometimes be a bit daunting. To help out, you can find each of the different editors listed below, and clicking any of them will take you to a page that explains in detail what it is and how to use it.":"在开发过程中，您将需要使用其中一些甚至全部编辑器，并且记住所有内容的作用有时可能会有点令人畏惧。为了提供帮助，您可以找到下面列出的每个不同的编辑器，单击其中任何一个都会将您带到一个页面，该页面详细解释了它是什么以及如何使用它。",
     "Notes":"笔记",
     "Objects":"物体",
     "Particle Systems":"粒子系统",
@@ -14,8 +15,10 @@
     "Sounds":"声音",
     "Sprites":"精灵",
     "The Asset Editors":"资源编辑器",
+    "There are also&nbsp;{}General Asset Editors{}&nbsp;which allow you to edit various types of assets.":"还有 {} 常规资源编辑器 {}，可让您编辑各种类型的资源。",
     "Tile Sets":"图块集合",
     "Timelines":"时间线",
+    "{}GameMaker{} has a number of different assets that you can create (in {}The Asset Browser{}) which you can edit using each of the specific asset editors listed below.":"{}GameMaker{} 拥有许多可供您创建的不同资源 (在 {} 资源浏览器 {} 中)，您可以使用下面列出的每个特定资源编辑器来编辑这些资源。",
     "{}GameMaker{} has a number of different editors which you can use to add, remove and edit the different assets that your game requires. In the course of development you will need to use some - or even all - of these editors, and remembering what everything does can sometimes be a bit daunting. To help out, you can find each of the different editors listed below, and clicking any of them will take you to a page that explains in detail what it is and how to use it.":"{}GameMaker{}有许多不同的编辑器，您可以使用它们来添加、删除和编辑游戏所需的不同资源。在开发过程中，您将需要使用一些——甚至全部——这些编辑器，并且记住每件事情所做的有时可能有点令人生畏。为了帮助解决这个问题，你可以找到下面列出的每一个不同的编辑器，点击其中的任何一个都会带你进入一个详细解释它是什么以及如何使用它的页面。",
     "{}The Asset Editors{}":"{}资源编辑器{}"
 }

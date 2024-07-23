@@ -196,6 +196,7 @@
     "{}You can find out more about adding scripts from the section on {}The Script Editor{}.":"{}你可以从{}脚本编辑器{}中找到有关添加脚本的详细信息。",
     "{}Zoom Controls{}{}Zoom Controls{}":"{}缩放控件{}{}缩放控件{}",
     "{}{}Asset List{}{}Asset List{}{}":"",
+    "{}{}IMPORTANT{}{}&nbsp;Timelines have been replaced by {}Sequences{} and currently only exist for legacy purposes. {}Moments can be programmed{} in a Sequence for functions to be executed at given frames in the Sequence.":"{}{} 重要{}{} 时间线已被 {} 序列 {} 取代，目前仅用于遗留目的。{} 可以在序列中对时刻进行编程 {}，以便在序列中的给定帧处执行函数。",
     "{}{}NOTE{}{}&nbsp;Assigning a tag to a folder group will {}not {}automatically assign it to the assets inside it.":"{}{}注意{}{}将标签分配给文件夹组将{}不会{}自动将其分配给其中的资源。",
     "{}{}NOTE{}{}&nbsp;If you are adding fonts to your game, make sure you have the licence necessary to re-distribute it, unless it is public domain or copyright free.":"{}{} 注意{}{} 如果您要在游戏中添加字体，请确保您拥有重新分发该字体所需的许可证，除非该字体属于公共领域或无版权。",
     "{}{}NOTE{}{}&nbsp;You can select folders and assets then click {}&nbsp;and drag them to move them out of - or into - any other folder group in the asset list. You can also delete any or all of the folder groups if they are not required, keeping the asset list tidy and only showing the required elements for the project.":"{}{}注意{}{} 您可以选择文件夹和资源，然后单击{}并将其拖出资源列表中的任何其他文件夹组或将其移出或移入资源列表中的任何其他文件夹组，如果不需要，也可以删除任何或所有文件夹组，从而保持资源列表整洁并仅显示项目所需的元素。",

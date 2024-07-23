@@ -1,7 +1,12 @@
 {
     "Additional IDE Tools":"附加 IDE 工具",
     "GameMaker\u0027s {}I{}ntegrated {}D{}evelopment {}E{}nvironment (or IDE) is the main interface where you create your games and make use of all functionality provided by the software. Essentially, the program itself --&nbsp;from the Start Screen to every editor window you use to make your game --&nbsp;is known and referred to as the {}IDE{} throughout the manual and various tutorials.":"GameMaker 的{}{}集成{}{}开发环境(或 IDE) 是创建游戏和利用软件提供的所有功能的主界面。从本质上讲，程序本身 -- 从开始屏幕到您用来制作游戏的每个编辑器窗口 -- 在手册和各种教程中被称为{}IDE{}。",
+    "General Asset Editors":"一般资产编辑器",
     "IDE Input And Navigation":"IDE 输入和导航",
     "Preferences And Features":"偏好及功能",
-    "The following sections cover information regarding the IDE:":"以下各节介绍有关 IDE 的信息："
+    "The following sections cover information regarding the IDE:":"以下各节介绍有关 IDE 的信息：",
+    "This covers navigating the IDE and all inputs you can use to make the best of the program":"这涵盖了 IDE 导航以及可用来充分利用该程序的所有输入",
+    "This covers other major parts of the IDE that are not covered by any of the previous categories":"这涵盖了前面任何类别未涵盖的 IDE 的其他主要部分",
+    "This covers&nbsp;{}The Code Editor{}&nbsp;and&nbsp;{}The Inspector{}, which together allow you to edit various assets to create your game":"其中包括 {} 代码编辑器 {} 和 {} 检查器 {}，它们一起允许您编辑各种资源来创建游戏",
+    "This section covers all the IDE and platform preferences, along with other minor IDE features":"本节涵盖所有 IDE 和平台首选项，以及其他次要 IDE 功能"
 }

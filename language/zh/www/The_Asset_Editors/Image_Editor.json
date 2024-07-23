@@ -86,6 +86,7 @@
     "{}Frame Information{}{}Frame Information{}":"{}帧信息{}{}帧信息{}",
     "{}Frame View{}{}Frame View{}":"{}帧视图{}{}帧视图{}",
     "{}From this window you can define the colour using any of the available sliders and gadgets, or you can input values directly for the {}ARGB{}&nbsp;values or {}HSV{} values.":"{}在此窗口中，您可以使用任何可用的滑块和小工具定义颜色，也可以直接为 {}ARGB{} 值或 {}HSV{} 值输入值。",
+    "{}GameMaker{} Features You Might Not Know About ":"您可能不知道的 {}GameMaker{} 功能",
     "{}Greyscale {}- Desaturate the image by a determined amount. You can choose to apply this to only the current layer, visible layers or all layers.{} {} ":"{} 灰度 {}- 按确定的量使图像去饱和。您可以选择仅将其应用于当前图层、可见图层或所有图层。{}{}",
     "{}Here you can name the layer as well as set the blend mode (the way that it should be \"mixed\" with the layers beneath), choosing from {}normal{}, {}additive{}, {}subtractive {}or {}multiply {}blends. Finally you can set the opacity (transparency) of the layer with a slider, but note that this is cumulative with the actual alpha value of individual pixels - for example, if you have pixels that are 50% opaque and set the layer opacity to 50%, the final pixels will be drawn at 25% opacity.":"{}您可以在此处命名图层并设置混合模式(它应该与下面的图层\"混合\")，选择{}正常{}、{}加法{}、{}减法{}或{}乘法{}混合。最后，您可以使用滑块设置图层的不透明度(透明度)，但请注意，这是使用单个像素的实际 Alpha 值累积的，例如，如果像素的不透明度为 50%，并将图层不透明度设置为 50%，则最终像素将以 25% 的不透明度绘制。",
     "{}Image{}{}Image{}":"{}图像{}{}图像{}",

@@ -8,6 +8,7 @@
     "Below you can find an overview of each of the features of the Sequence Editor, and at the bottom of this page are links to pages that explain the three main features mentioned above in more depth:":"您可以在下面找到序列编辑器的每个功能的概述，并且在此页面的底部是指向更深入地解释上述三个主要功能的页面的链接：",
     "Below you can find an overview of each of the features of the sequence editor, and at the bottom of this page are links to pages that explain the three main features mentioned above in more depth:":"下面您可以找到序列编辑器的每个功能的概述，并且在此页面的底部是指向页面的链接，这些页面更深入地解释了上述三个主要功能：",
     "Broadcast Messages":"广播消息",
+    "Broadcast Messages &amp; Moments":"广播消息和时刻",
     "Clipping Masks":"剪切蒙版",
     "Due to the initial complexity of the Sequence Editor, we have only given a brief overview of the features available here, but we have additional pages listed below that go into more depth about its features and how they can be used:":"由于序列编辑器的初始复杂性，我们只对此处提供的功能进行了简要概述，但下面列出了更多页面，这些页面更深入地介绍了序列编辑器的功能以及如何使用这些功能：",
     "Each asset added to the canvas can be manipulated in multiple ways - rotated, transformed, or translated - based on how you interact with it, as each asset will have a {}bounding box{} and {}transform {}gizmos{}{} as well as {}bounding box controls{}. All this is explained in more detail on the page about the {}Sequence Editor Canvas{}.":"添加到画布中的每个资源都可以基于与其交互的方式以多种方式进行操作(旋转、转换或转换)，因为每个资源将具有{}边界框{}和{}转换{}小工具{}{}以及{}边界框控件{}。所有这些都将在关于{}序列编辑器画布{}的页面上进行更详细的说明。",

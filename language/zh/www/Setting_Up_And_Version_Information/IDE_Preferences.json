@@ -6,8 +6,10 @@
     "Font Editor":"字体编辑器",
     "General":"常规",
     "However if you wish to reset the preferences you have changed, then you need to click the {}Restore Defaults{} button at the top of the window. Note that this will only restore the defaults for the section currently being edited.":"但是，如果要重置已更改的首选项，则需要单击窗口顶部的{}恢复默认设置{}按钮。请注意，这将仅恢复当前正在编辑的节的默认设置。",
+    "However, if you wish to reset the preferences you have changed, then you need to click the {}Restore Defaults{} button at the top of the window. Note that this will only restore the defaults for the section currently being edited.":"但是，如果您希望重置已更改的首选项，则需要点击窗口顶部的 {}Restore Defaults{} 按钮。请注意，这只会恢复当前正在编辑的部分的默认值。",
     "IDE Preferences":"IDE 首选项",
     "If, after changing the options here to customise {}GameMaker{} to your own tastes, you wish to back up the preferences that you have set you need to go to this folder on Windows:":"在将此处的选项更改为根据您自己的喜好定制 {}GameMaker{} 之后，如果您希望备份您已设置的首选项，则需要转到 Windows 上的此文件夹：",
+    "In this section we cover the IDE specific areas of the preferences window - for the individual target platforms please see the section on {}Platform Preferences{}. Note that after changing any preferences from this window you need to click the {}Apply {}button for them to take effect.":"在本部分中，我们将介绍首选项窗口的 IDE 特定区域 - 对于各个目标平台，请参阅 {} 平台首选项 {} 部分。请注意，从此窗口更改任何首选项后，您需要点击 {}Apply{} 按钮才能使它们生效。",
     "Language Preferences":"语言首选项",
     "Marketplace":"市场",
     "Object Editor":"对象编辑器",
@@ -26,6 +28,9 @@
     "{}Asset Browser{}":"{}资源浏览器{}",
     "{}Image Editor{}":"{}图像编辑器{}",
     "{}Once the Preferences window is open you will have the following different options (this list omits all platform specific preferences, for those, please see {}here{}):":"{}首选项窗口打开后，您将有以下不同的选项(此列表忽略所有特定于平台的首选项，有关这些选项，请参阅{}此处{})：",
+    "{}Once the Preferences window is open you will have the following different options (this list omits all platform-specific preferences, for those, please see {}Platform Preferences{}):":"{}首选项窗口打开后，您将看到以下不同的选项 (此列表省略了所有特定于平台的首选项，有关这些选项，请参阅 {} 平台首选项 {})：",
     "{}The {}Preferences Window{} is an essential part of {}GameMaker{}, as it is where you can set up and customise your experience using the IDE as well as set up any specific platform SDK\u0027s etc... In this section we cover the IDE specific areas of the preferences window - for the individual target platforms please see the section on {}Target Platform Preferences{}. Note that after changing any preferences from this window you need to click the {}Apply {}button for them to take effect.":"{}{} 首选项窗口 {} 是 {}GameMaker{} 的重要组成部分，因为您可以在其中使用 IDE 设置和定制您的体验，以及设置任何特定的平台 SDK 等。在本节中，我们将介绍首选项窗口的 IDE 特定区域-有关各个目标平台的信息，请参阅 {} 目标平台首选项 {} 一节。请注意，在从此窗口更改任何首选项后，您需要单击 {} 应用 {} 按钮才能使其生效。",
-    "{}Tile Set Editor{}":"{}图块图块集编辑器{}"
+    "{}The {}Preferences Window{} is an essential part of {}GameMaker{}, as it is where you can set up and customise your experience using the IDE as well as set up any specific platform SDK\u0027s, etc.":"{}首选项窗口 {} 是 {}GameMaker{} 的重要组成部分，因为您可以在其中使用 IDE 设置和自定义您的体验，以及设置任何特定平台 SDK 等。",
+    "{}Tile Set Editor{}":"{}图块图块集编辑器{}",
+    "{}{}NOTE{}{}&nbsp;In previous versions of&nbsp;{}GameMaker{} the {}.config{} folder was used instead of the&nbsp;{}{}Library/Application Support{}{}&nbsp;folder. {}GameMaker{}&nbsp;will automatically move the contents of the old folder to the new one upon login if the new folder doesn\u0027t exist yet.":"{}{} 注意{}{} 在之前版本的 {}GameMaker{} 中，使用的是 {}.config{} 文件夹，而不是 {}{} Library/Application Support {}{} 文件夹。如果新文件夹尚不存在，{}GameMaker{} 会在登录时自动将旧文件夹的内容移至新文件夹。"
 }

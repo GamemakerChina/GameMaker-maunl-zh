@@ -1,6 +1,7 @@
 {
     "For up-to-date information on GameMaker licences, please see the following page:":"有关 GameMaker 许可证的最新资料，请参阅以下网页:",
     "For up-to-date information on {}GameMaker{}&nbsp;licences, please see the following page:":"有关 {}GameMaker{} 许可证的最新信息，请参阅以下页面：",
+    "For up-to-date information on {}GameMaker{}&nbsp;licences, please see the following pages:":"有关 {}GameMaker{} 许可证的最新信息，请参阅以下页面：",
     "GameMaker Changelog":"GameMaker更新日志",
     "Installation Guide":"安装指南",
     "Licence Information":"许可资料",
@@ -10,6 +11,7 @@
     "Release Notes":"发行说明",
     "Required SDKs":"所需的 SDK",
     "There are various different versions of the licences that you can get for {}GameMaker{}, the choice of which will depend largely on the audience that you want to target as well as on whether you just want to have some fun making games or wish to sell and distribute them as well.":"{}GameMaker{}可以获得不同版本的许可证，选择哪种许可证很大程度上取决于你的目标用户，以及你只是想要创造一些有趣的游戏还是想要销售和发行游戏。",
+    "There are various versions of the licences that you can get for {}GameMaker{}, the choice of which will depend largely on the audience that you want to target as well as on whether you just want to have some fun making games or wish to sell and distribute them as well.":"您可以获得多种版本的 {}GameMaker{} 许可，选择哪个版本很大程度上取决于您想要定位的受众群体，以及您是只想享受制作游戏的乐趣还是希望也出售和分销它们。",
     "Updating Guide":"更新指引",
     "Which Licence Is Right For Me?":"哪个许可证适合我？"
 }
