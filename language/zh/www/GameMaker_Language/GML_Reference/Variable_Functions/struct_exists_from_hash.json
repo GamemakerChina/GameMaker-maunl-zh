@@ -1,0 +1,7 @@
+{
+    "The above code first creates two structs that store a point. Next, it gets the hash of the variable name \"z\" using {}{}variable_get_hash{}{}. After that, it checks both structs using&nbsp;{}{}struct_exists_from_hash{}{} to see if the variable exists. Finally, a debug message is shown for each of the structs.":"上述代码首先创建了两个存储点的结构体。接着，它使用 {}{}variable_get_hash{}{} 获取变量名称 \"z\" 的哈希值。之后，它使用 {}{}struct_exists_from_hash{}{} 检查这两个结构体以查看变量是否存在。最后，为每个结构体显示调试信息。",
+    "The hash value referring to the variable (as returned by&nbsp;{}{}variable_get_hash{}{})":"指向变量的哈希值（由 {}{}variable_get_hash{}{} 返回）",
+    "The struct to check":"要检查的结构体",
+    "This function returns whether the variable, referred to by the hash, exists in the given struct or not.":"此函数返回哈希所引用的变量是否存在于给定结构体中。",
+    "You can retrieve the hash of a variable using&nbsp;{}{}variable_get_hash{}{}.":"你可以使用 {}{}variable_get_hash{}{} 来检索变量的哈希值。"
+}

@@ -4,5 +4,6 @@
     "The {}delete{} operator is used to {}de-reference{} a {}struct{}, and has the following syntax:":"{}delete{} 运算符用于{}取消引用{} {}struct{}，语法如下：",
     "This struct will then be used in the instance events as usual, before finally being flagged for garbage collection in the {}Clean Up{} event, like this:":"然后，该结构将像往常一样在实例事件中使用，最后在 {}清理事件{}中被标记为垃圾回收，如下所示：",
     "What this means is that you call the delete operator along with the variable that holds a struct and it will remove the specific {}reference {}to the struct stored in the given variable (a reference is simply a value that points to the memory area that is storing the struct and its contents).&nbsp;If this reference was the last reference to the struct in your game, then the {}garbage collector{}&nbsp;will remove the struct from memory in a following {}iteration{}, typically at the very start of the next step.":"这意味着您调用 delete 运算符以及包含结构的变量，它将删除对存储在给定变量中的结构的特定{}引用{}（引用只是指向内存区域的值即存储结构及其内容）。如果此引用是您游戏中对该结构的最后引用，则{}垃圾收集器{}将从内存中接下来的{}迭代{}删除该结构，通常是在下一步的最开始。",
-    "{}NOTE{}:&nbsp;{}delete{} can only be used along with variables, and {}not{} expressions":"{}注意{}：{}delete{} 只能与变量一起使用，而{}不能{}是表达式"
+    "{}NOTE{}:&nbsp;{}delete{} can only be used along with variables, and {}not{} expressions":"{}注意{}：{}delete{} 只能与变量一起使用，而{}不能{}是表达式",
+    "{}{}NOTE{}{}&nbsp;{}delete{} can only be used along with variables, and {}not{} expressions.":"{}{}注意{}{}：{}delete{} 只能与变量一起使用，{}不能{} 与表达式一起使用。"
 }

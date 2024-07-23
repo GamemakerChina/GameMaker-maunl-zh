@@ -12,5 +12,6 @@
     "return":"return 返回",
     "throw":"throw 抛出",
     "try / catch / finally":"try / catch / finally 异常捕捉",
-    "while":"while 循环"
+    "while":"while 循环",
+    "{}Language Features{}":"{}语言特点{}"
 }

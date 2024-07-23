@@ -5,5 +5,6 @@
     "The hash&nbsp;of the variable to set (as returned by&nbsp;{}{}variable_get_hash{}{})":"要设置的变量的哈希(由 {}{}variable_get_hash{}{} 返回)",
     "The struct reference to set":"要设置的结构引用",
     "The value to assign to the struct variable":"要分配给结构变量的值",
-    "This function sets the value of the&nbsp;struct member referred to by the given hash, returned by an earlier call to&nbsp;{}{}variable_get_hash{}{}.":"此函数用于设置给定散列引用的结构成员的值，该值由先前调用 {}{}variable_get_hash{}{} 返回。"
+    "This function sets the value of the&nbsp;struct member referred to by the given hash, returned by an earlier call to&nbsp;{}{}variable_get_hash{}{}.":"此函数用于设置给定散列引用的结构成员的值，该值由先前调用 {}{}variable_get_hash{}{} 返回。",
+    "{}{}NOTE{}{}&nbsp;The compiler automatically replaces variable names that it detects cannot ever change while your game is running (i.e. they are {}constant at compile time{}) with their hash value. It can be useful to get the hash yourself if you only know the name of the variable that\u0027s accessed while your game is running (i.e. {}at runtime{}).&nbsp;See&nbsp;{}Compiler Optimisations{}.":"{}{}注意{}{}：编译器会自动将其检测到在游戏运行期间不会发生变化的变量名称（即，它们在编译时是 {}常量{}）替换为它们的哈希值。如果你只知道游戏运行时访问的变量的名称（即 {}运行时{}），获取哈希值可能会很有用。请参见 {}编译器优化{}。"
 }

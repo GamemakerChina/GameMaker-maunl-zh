@@ -6,6 +6,8 @@
     "This function clones the value you pass it and returns the new clone.":"此函数克隆您传递给它的值，并返回新的克隆。",
     "{}{}NOTE{}{}&nbsp;Built-in structs, such as the structs related to sequences and animation curves, cannot be cloned using this function.":"{}{}注意{}{} 无法使用此函数克隆内置结构体，例如与序列和动画曲线相关的结构体。",
     "{}{}NOTE{}{}&nbsp;The built-in&nbsp;{}Data Structures{}&nbsp;and&nbsp;{}Instances{}&nbsp;are {}not{} cloned; for this type of variable the actual value (data structure ID&nbsp;or instance ID, respectively) is written.":"{}{}注意{}{} 内置的{}数据结构{}和{}实例{}是{}未{}克隆的，对于此类型的变量写入实际值(分别为数据结构 ID 或实例 ID)。",
+    "{}{}NOTE{}{}&nbsp;When cloning a struct created using a Constructor, the new struct will also be an instance of the original Constructor.":"{}{}注意{}{}：当克隆使用构造函数创建的结构体时，新结构体也将是原始构造函数的一个实例。",
+    "{}{}NOTE{}{}&nbsp;When cloning a struct that contains a function whose {}self{} exists within the struct being cloned, a copy of the function will be created and bound to the new struct, mirroring the relationships of the original.":"{}{}注意{}{}：当克隆一个包含函数的结构体时，如果函数的 {}self{} 存在于被克隆的结构体中，将会创建该函数的副本并绑定到新结构体上，反映原始结构体的关系。",
     "{}{}OPTIONAL{}{}&nbsp;The maximum depth level to clone the variable, in case this is e.g. a nested struct. The default is 128, the maximum possible value.":"{}{}可选{}{} 克隆变量的最大深度级别，如果这是嵌套结构的话。默认值为 128，这是可能的最大值。",
     "{}{}OPTIONAL{}{}&nbsp;The maximum depth level to clone the variable, in case this is e.g. a nested struct. The default is {}128{}, the maximum possible value.":"{}{}可选{}{}克隆变量的最大深度级别，例如 嵌套结构。 默认值为 {}128{}，即最大可能值。"
 }

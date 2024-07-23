@@ -9,5 +9,6 @@
     "You pass in the struct reference to check, and each entry in the array will be a&nbsp;{}{}String{}{}&nbsp;of the variable names that the struct contains.":"传入要检查的结构体引用，数组中的每个条目都将是该结构体包含的变量名的 {}{}String{}。",
     "{}{}Array{}{} (each entry is a {}{}String{}{})":"{}{}Array{}{}(每个条目都是{}{}字符串{}{})",
     "{}{}NOTE{}{}&nbsp;In case the struct gets static variables from a chain or hierarchy of static structs you\u0027ll need to traverse the chain&nbsp;of static structs to get the names of {}all{} static variables.":"{}{} 注意 {}{} 如果结构从静态结构的链或层次结构中获取静态变量，则需要遍历静态结构的链以获取 {} 所有 {} 静态变量的名称。",
+    "{}{}NOTE{}{}&nbsp;The order of the variable names returned in the array is not guaranteed and may not match the order in which the struct variables were initialised. As such you should not rely on the order of the names returned.":"{}{}注意{}{}：数组中返回的变量名称的顺序是不保证的，可能与结构体变量初始化的顺序不匹配。因此，你不应依赖于返回名称的顺序。",
     "{}{}NOTE{}{}&nbsp;This function doesn\u0027t&nbsp;return the {}static{} variables&nbsp;of the struct. These belong to its&nbsp;{}Static Struct{}, that you can get using&nbsp;{}{}static_get{}{}.":"{}{} 注意 {}{} 此函数不返回结构的 {} 静态 {} 变量。 这些属于其 {} 静态结构 {}，您可以使用 {}{}static_get{}{} 获取。"
 }
