@@ -8,6 +8,7 @@
     "Every function has a \"static struct\", where its static variables are stored. You can get that struct using&nbsp;{}{}static_get{}{}:":"每个函数都有一个\"静态结构\"，其中存储了它的静态变量。您可以使用{}{}static_get{}{}获取该结构：",
     "Every struct created from the constructor accesses its static variables from that static struct.":"从构造函数创建的每个结构都从该静态结构访问其静态变量。",
     "For example, let\u0027s say you have a constructor {}item{}, and a constructor {}potion{}&nbsp;which is a child of&nbsp;{}item{}:":"例如，假设您有一个构造函数 {}item{}，以及一个构造函数 {}potion{}，它是 {}item{} 的子级：",
+    "For example:":"例如: \n",
     "How the Dot Operator Looks Up a Variable Name":"点运算符如何查找变量名称",
     "If the struct contains a non-static variable with that name, the dot operator returns that variable. If it doesn\u0027t, the dot operator returns the first variable in the static chain with that name, checking the current static struct, and then traversing back the entire static chain, if needed, until a variable with that name is encountered.&nbsp;If the variable name cannot be found anywhere in the static chain,&nbsp;{}GameMaker{}&nbsp;will throw an error.":"如果该结构包含具有该名称的非静态变量，则点运算符返回该变量。如果没有，点运算符返回静态\u200B\u200B链中具有该名称的第一个变量，检查当前静态结构，然后根据需要遍历整个静态链，直到遇到具有该名称的变量。如果在静态链中的任何位置都找不到变量名称，{}GameMaker{}将抛出错误。",
     "In certain situations you may want to access a static variable or method of the parent constructor from within the child constructor. To achieve this, you can go up the static chain and access the parent\u0027s static variable:&nbsp;":"在某些情况下，您可能希望从子构造函数中访问父构造函数的静态变量或方法。为了实现这一点，您可以沿着静态链向上访问父级的静态变量：",
