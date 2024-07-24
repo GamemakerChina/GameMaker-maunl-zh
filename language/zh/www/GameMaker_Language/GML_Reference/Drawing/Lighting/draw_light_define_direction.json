@@ -1,10 +1,14 @@
 {
     "The above code will enable lighting for the whole scene, then define a white directional light in the room space, and then finally turn that light on.":"以上代码将为整个场景启用照明，然后在房间空间中定义白色方向光，然后最终打开该光照。",
+    "The colour to use for the light (either a constant, a real or a hex value)":"用于灯光的颜色 (常数、实数或十六进制值)",
     "The colour to use for the light (either a constant, a real or a hex value).":"用于光照的颜色(常数、实数或十六进制值)。",
+    "The direction and intensity are set by the values input for the x, y and z unit vector (meaning that they must be between -1 and 1, where 1 or -1 is full intensity, and 0 is no intensity). The lights can also be given a colour, which will also affect the perceived intensity of the light as certain colours appear \"darker\" than others. You must also give the light an index number which is used in other functions to reference it.":"方向和强度由 x、y 和 z 单位向量的输入值设置 (这意味着它们必须介于 -1 和 1 之间，其中 1 或 -1 是完整强度，0 是无强度)。灯光还可以被赋予颜色，这也会影响灯光的感知强度，因为某些颜色看起来比其他颜色 \" 更暗\"。您还必须为灯光提供一个索引号，用于在其他函数中引用它。",
     "The index number of the light (arbitrary)":"光源的索引号(任意)",
     "The x component of the light vector":"光矢量的x分量",
     "The y component of the light vector":"光矢量的y分量",
     "The z component of the light vector":"光向量的z分量",
+    "This function defines a directional light.":"该函数定义了定向光。",
     "This function is for defining a directional light, where the direction and intensity are set by the values input for the x, y and z unit vector (meaning that they must be between -1 and 1, where 1 or -1 is full intensity, and 0 is no intensity). The lights can also be given a colour, which will also affect the perceived intensity of the light as certain colours appear \"darker\" than others. You must also give the light an index number which what will be used in other functions to reference it.":"此函数用于定义平行光，其中方向和强度由x、y和z单位向量的输入值设置(意味着它们必须介于-1和1之间，其中1或-1表示全强度，0表示无强度)。的光照也可以被赋予一种颜色，这也会影响感知到的光的强度，因为某些颜色看起来比其他颜色\"更深\"。您还必须为光照提供一个索引号，该索引号将用于其他函数中以供参考它。",
-    "{}NOTE{}: There are only 8 hardware lights available, so only 8 defined lights can be enabled at any one time (although more can be defined).":"{}注意{}：只有8个硬件指示灯可用，因此任何时候只能启用8个定义的指示灯(尽管可以定义更多)。"
+    "{}NOTE{}: There are only 8 hardware lights available, so only 8 defined lights can be enabled at any one time (although more can be defined).":"{}注意{}：只有8个硬件指示灯可用，因此任何时候只能启用8个定义的指示灯(尽管可以定义更多)。",
+    "{}{}NOTE{}{}&nbsp;There are only 8 hardware lights available, so only 8 defined lights can be enabled at any one time (although more can be defined).":"{}{} 注意{}{} 只有 8 个可用的硬件灯光，因此一次只能启用 8 个定义的灯光 (尽管可以定义更多灯光)。"
 }

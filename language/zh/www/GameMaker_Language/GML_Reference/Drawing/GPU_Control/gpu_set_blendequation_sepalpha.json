@@ -1,0 +1,15 @@
+{
+    "Add both together (the default equation).":"将两者相加 (默认方程)。",
+    "Blend mode equation used for RGB components.":"用于 RGB 分量的混合模式方程。",
+    "Blend mode equation used for the alpha component.":"用于 alpha 分量的混合模式方程。",
+    "Subtract destination from source.":"从源中减去目的地。",
+    "Subtract source from destination.":"从目的地减去源。",
+    "The blending here will function as the following: it will multiply the source pixel with the source alpha, and the destination pixel with 1 (keeping it the same as it was). It will then subtract the source RGB from the destination RGB, and use whichever alpha value is larger.":"这里的混合将按如下方式运行：它将源像素与源 Alpha 相乘，并将目标像素与 1 相乘 (保持与原来相同)。然后，它将从目标 RGB 中减去源 RGB，并使用较大的 alpha 值。",
+    "This changes the blend mode factors and then the equation, draws a circle and resets both the blend mode and equation (by switching to the normal blend mode) so they don\u0027t affect things drawn after this.":"这会更改混合模式因子，然后更改方程，绘制一个圆并重置混合模式和方程 (通过切换到正常混合模式)，以便它们不会影响此后绘制的内容。",
+    "This function is the same as&nbsp;{}{}gpu_set_blendequation{}{}, however it allows you to set two separate equations: the first one is used for the RGB components of the source and destination, and the second one is used for the alpha component.":"此函数与 {}{}gpu_set_blendequation{}{} 相同，但它允许您设置两个单独的方程：第一个用于源和目标的 RGB 分量，第二个用于 Alpha 成分。",
+    "To help you get the most from blend modes and to help understand how they work and how they affect the final image being drawn to the screen, we recommend that you read the following guide:":"为了帮助您充分利用混合模式并帮助了解它们的工作原理以及它们如何影响绘制到屏幕上的最终图像，我们建议您阅读以下指南：",
+    "Use whichever value is larger.":"使用较大的值。",
+    "Use whichever value is smaller.":"使用较小的值。",
+    "You can choose from the following equations for each:":"您可以从以下方程中为每个方程进行选择：",
+    "{}{}IMPORTANT{}{}&nbsp;{}Blend factors{} are not applied when {}bm_eq_min{} or {}bm_eq_max{} is used as the blend equation, which is effectively the same as using&nbsp;{}bm_one{}&nbsp;as the factors.":"{}{} 重要{}{} 当使用 {}bm_eq_min{} 或 {}bm_eq_max{} 作为混合方程时，不会应用 {} 混合因子{}，这实际上与使用 {}bm_one{} 作为混合方程相同的因素。"
+}

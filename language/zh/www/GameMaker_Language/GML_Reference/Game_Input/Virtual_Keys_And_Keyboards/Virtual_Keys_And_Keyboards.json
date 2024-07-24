@@ -9,11 +9,15 @@
     "Pop up the OS {}virtual keyboard{} and get input from that":"弹出 OS{}虚拟键盘{}然后从中获取输入",
     "The available virtual key functions are:":"可用的虚拟按键函数有：",
     "The available virtual keyboard functions are:":"可用的虚拟键盘函数包括：",
+    "Virtual Keyboard":"虚拟键盘",
+    "Virtual Keys":"虚拟按键",
     "Virtual Keys And Virtual Keyboards":"虚拟按键和虚拟键盘",
     "What you use will depend very much on the game and what you need, but in general you would use virtual keys when you want to have onscreen buttons for player control or for menus, while you\u0027d use the virtual keyboard when you need player input, like getting a name or setting a value.":"你使用什么在很大程度上取决于游戏和你需要什么，但总的来说，当你想让屏幕上的按钮用于玩家控制或菜单时，你会使用虚拟键盘，而当你需要玩家输入时，比如获取名字或设置值，你会使用虚拟键盘。",
     "{}{}NOTE{} {}These functions are only valid for the {}Android{} (including {}AndroidTV{}), and&nbsp;{}iOS {}(including {}tvOS{}) target platforms.":"{}{}注意{}{}这些函数仅对{}Android{}(包括{}AndroidTV{})和{}iOS{}(包括{}tvOS{})目标平台有效。",
     "{}{}NOTE{} {}These functions are only valid for the {}Xbox (GDK){},&nbsp;{}Android{} (including {}AndroidTV{}), and&nbsp;{}iOS {}(including {}tvOS{}) target platforms.":"{}{} 注意{}{} 这些函数仅适用于 {}Xbox(GDK){}、{}Android{}( 包括 {}AndroidTV{}) 和 {}iOS{}( 包括 {}tvOS{}) 目标平台。",
+    "{}{}NOTE{} {}These functions are only valid for the {}Xbox (GDK){},&nbsp;{}Android{} (including {}AndroidTV{}), and&nbsp;{}iOS {}(including {}tvOS{}) target platforms. On {}Windows{}, they can be used to enable or disable the use of IMEs.":"{}{} 注意{}{} 这些函数仅适用于 {}Xbox(GDK){}、{}Android{}( 包括 {}AndroidTV{}) 和 {}iOS{}( 包括 {}tvOS{}) 目标平台。在 {}Windows{} 上，它们可用于启用或禁用 IME。",
     "{}{}NOTE{}&nbsp;{}These functions will not work on the Windows, Ubuntu (Linux), nor the MacOS, target platforms using a touch screen, although they will receive mouse clicks as \"touches\".":"{}{}注意{}{}这些函数在 Windows、Ubuntu (Linux) 或 macOS 上不起作用，它们使用触摸屏的目标平台尽管会以 “触摸” 的形式收到鼠标点击。",
     "{}{}NOTE{}{}&nbsp;These functions are supported in the HTML5 and GX.games targets.":"{}{}注意{}{}HTML5和GX.games目标支持这些函数。",
+    "{}{}NOTE{}{}&nbsp;These functions are supported on the HTML5 and GX.games targets.":"{}{} 注意{}{}HTML5 和 GX.games 目标支持这些函数。",
     "{}{}When developing games for touchscreen devices, it\u0027s often important to get keyboard input from the user. When using {}GameMaker{} this can be done in one of two ways:":"{}{}在为触摸屏设备开发游戏时，从用户那里获取键盘输入通常很重要。使用{}GameMaker{}时，可以通过以下两种方式之一完成:"
 }

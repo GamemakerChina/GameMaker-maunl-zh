@@ -9,5 +9,6 @@
     "You can set the alarm array directly (and retrieve the current alarm value directly by using the array too), but under some circumstances this is not the most appropriate method, so you can also use the function {}{}alarm_set{}{}&nbsp;to set an alarm, and the function&nbsp;{}{}alarm_get{}{} to get the value of an alarm.":"您可以直接设置警报数组 (也可以直接使用数组获取当前警报值)，但在某些情况下这不是最合适的方法，因此您也可以使用函数 {}{}alarm_set{}{} 设置闹钟，函数 {}{}alarm_get{}{} 获取闹钟值。",
     "{}NOTE{}&nbsp;An alarm with no actions or code in it will not run. However, even with just a comment and no code, the alarm will count down.":"{}注意{}没有动作或代码的报警将不会运行。然而，即使只有一个注释，没有代码，警报也会倒计时。",
     "{}{}NOTE{}{}&nbsp;An alarm with no actions or code in it will not run. However, even with just a comment and no code, the alarm will count down.":"{}{} 注意{}{} 没有任何操作或代码的警报将不会运行。然而，即使只有注释而没有代码，警报也会倒计时。",
+    "{}{}NOTE{}{}&nbsp;This variable does not hold a real GML array, so you cannot run any {}array functions{} on it or serialise it (convert it to a string). The only operation you can run on it is accessing a value at an index, with the {}{}alarm{}[index]{} syntax.":"{}{} 注意{}{} 此变量不保存真正的 GML 数组，因此您无法对其运行任何 {} 数组函数 {} 或对其进行序列化 (将其转换为字符串)。您可以对其运行的唯一操作是使用 {}{}alarm{}[index]{} 语法访问索引处的值。",
     "{}{}Real{}{} (-1 if the alarm isn\u0027t running)":"{}{} Real {}{}( 如果闹钟未运行，则为 -1 )"
 }

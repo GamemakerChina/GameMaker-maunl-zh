@@ -1,0 +1,9 @@
+{
+    "Finally it applies the new alpha to the element. Each frame it moves closer to the target alpha.":"最后它将新的 alpha 应用于元素。每帧它都会更接近目标 Alpha。",
+    "It calculates a value between the current and the target alpha, moving the current alpha 10% ({}0.1{}) towards the target.":"它计算当前 alpha 和目标 alpha 之间的值，将当前 alpha 向目标移动 10%({}0.1{})。",
+    "Since this code is for a Step event, you should initialise the {}_text1_id{} variable in the Create event.":"由于此代码适用于 Step 事件，因此您应该在 Create 事件中初始化 {}_text1_id{} 变量。",
+    "The new alpha of the element":"元素的新 alpha",
+    "The text element ID, retrieved from&nbsp;{}{}layer_text_create{}{}&nbsp;or&nbsp;{}{}layer_text_get_id{}{}.":"文本元素 ID，从 {}{}layer_text_create{}{} 或 {}{}layer_text_get_id{}{} 检索。",
+    "This function changes the alpha (opacity) of the given Text Element. This is a value between 0 (invisible) and 1 (fully visible).":"此函数更改给定文本元素的 alpha(不透明度)。该值介于 0( 不可见) 和 1( 完全可见) 之间。",
+    "This gets the ID of the Text Element {}text1{} from the layer {}Assets{}, and gets its alpha. It sets the target alpha based on input, being {}1{} (visible) when space is held, and {}0{} (invisible) otherwise.":"这会从 {}Assets{} 层获取文本元素 {}text1{} 的 ID，并获取其 Alpha。它根据输入设置目标 Alpha，当保留空间时为 {}1{}( 可见)，否则为 {}0{}( 不可见)。"
+}

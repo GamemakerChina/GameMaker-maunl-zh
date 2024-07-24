@@ -16,6 +16,7 @@
     "The vertex buffer to use.":"要使用的顶点缓冲区。",
     "This function can only be used in the&nbsp;{}Draw Events{}.":"此函数只能在 {} 绘制事件 {} 中使用。",
     "This function submits a range of vertices in the given vertex buffer to the GPU for drawing.":"该函数将给定顶点缓冲区中的一系列顶点提交给 GPU 进行绘制。",
+    "Triangle fans ({}pr_trianglefan{}) are converted to {}pr_trianglelist{} internally on platforms that don\u0027t support them when you call this function.":"三角扇 ({}pr_trianglefan{}) \n当您调用此函数时，会在不支持它们的平台上内部转换为 {}pr_trianglelist{}。",
     "Usage Notes":"使用说明",
     "You can use&nbsp;{}{}vertex_submit{}{}&nbsp;if you need to submit the entire vertex buffer.":"如果您需要提交整个顶点缓冲区，可以使用 {}{}vertex_submit{}{}。",
     "{}{}WARNING{}{}&nbsp;When using a surface as the texture (returned by&nbsp;{}{}surface_get_texture{}{}), you should make sure that the surface itself exists ({}{}surface_exists{}{}).":"{}{} 警告{}{} 使用表面作为纹理 (由 {}{}surface_get_texture{}{} 返回) 时，应确保表面本身存在 ({}{}surface_exists{}{}) 。"

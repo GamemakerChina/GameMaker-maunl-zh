@@ -30,5 +30,6 @@
     "{}{}OPTIONAL{}{}&nbsp;The time (in seconds) to set the start point to. Values beyond the end of the sound are clamped to its length.":"{}{}可选{}{} 设置起始点的时间(以秒为单位)。超出声音末端的值被限制到其长度。",
     "{}{}OPTIONAL{}{}&nbsp;The time (in seconds) to set the start point to. Values longer than the length of the given sound are ignored.":"{}{}可选{}{} 设置起点的时间(以秒为单位)。超过给定声音长度的值将被忽略。",
     "{}{}OPTIONAL{}{}&nbsp;The time (in seconds) to start playing. Values beyond the end of the sound are clamped to its length. The default value is the asset-level offset, this value overrides it when provided.":"{}{}可选{}{}开始播放的时间(以秒为单位)。超出声音末尾的值将被限制在其长度内。默认值是资产级别偏移量，该值在提供时会覆盖它。",
+    "{}{}OPTIONAL{}{}&nbsp;The time (in seconds) to start playing. Values beyond the end of the sound are clamped to its length. The default value is the asset-level offset.":"{}{} 可选{}{} 开始播放的时间 (以秒为单位)。超出声音末尾的值将被限制在其长度内。默认值是资产级别的偏移量。",
     "{}{}OPTIONAL{}{}&nbsp;Value for the gain.":"{}{}可选{}{} 增益值。"
 }

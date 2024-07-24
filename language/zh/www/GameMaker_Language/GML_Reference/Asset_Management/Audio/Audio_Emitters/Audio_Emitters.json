@@ -49,5 +49,6 @@
     "{}GameMaker{}&nbsp;automatically updates the position of such an emitter. It does not update the velocity of an audio track emitter but this is something you can do yourself by calling&nbsp;{}audio_emitter_velocity{}&nbsp;in one of the {}Sequence Step Events{}.":"{}GameMaker{}自动更新此发射器的位置。它不更新音轨发射器的速度，但您可以通过在{}序列步骤事件{}之一中调用{}audio_emitter_velocity{}自行执行此操作。",
     "{}{}IMPORTANT{}{}&nbsp;That a sound is being \"played\" does not necessarily mean that it will be heard by the listener. Sounds that have stopped playing, that are too far away from the listener or that have a gain set that is too low (or that are played on an emitter that has a gain set that is too low) will not be audible.":"{}{}重要{}{}声音正在\"播放\"并不一定意味着收听者将听到该声音。停止播放的声音、离收听者太远的声音、或增益设置过低的声音(或在增益设置过低的发射器上播放的声音)将无法听到。",
     "{}{}NOTE{}{}&nbsp;If you want to make sure sounds can no longer be heard past the maximum distance you should set one of the falloff models that end in {}_scaled{}.":"{}{}注意{}{}如果要确保声音不再超过最大距离，则应设置以{}_scaled{}结尾的衰减模型之一。",
+    "{}{}NOTE{}{}&nbsp;The {}velocity{} of an audio emitter is expressed in {}pixels per step{}.":"{}{} 注意{}{} 音频发射器的 {} 速度 {} 以 {} 每步像素数 {} 表示。",
     "{}{}NOTE{}{}&nbsp;The {}velocity{} of an audio emitter is expressed in {}pixels per step{}.{}{}{}{}":"{}{}注意{}{}音频发射器的{}速度{}以每步{}像素表示{}。{}{}{}{}"
 }

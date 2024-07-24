@@ -1,0 +1,7 @@
+{
+    "See&nbsp;{}Bitwise Operators{}&nbsp;for detailed information on how to work with bitmask values.":"请参阅 {} 按位运算符 {}，了解有关如何使用位掩码值的详细信息。",
+    "The above code sets the stencil write mask to the hexadecimal value {}0xFF{}, or the decimal value 255, meaning that all bits can be written to.":"上面的代码将模板写入掩码设置为十六进制值 {}0xFF{} 或十进制值 255，这意味着所有位都可以写入。",
+    "The stencil write mask is used when writing values to the stencil buffer and defines for every bit whether it can be written to or not.":"模板写入掩码在将值写入模板缓冲区时使用，并定义每个位是否可以写入。",
+    "The write mask to use, a bitmask value of 8 bits.":"要使用的写掩码，8 位的位掩码值。",
+    "This function sets the stencil write mask.":"该函数设置模板写入掩码。"
+}

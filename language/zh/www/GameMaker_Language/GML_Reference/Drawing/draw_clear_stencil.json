@@ -1,0 +1,5 @@
+{
+    "The above code clears the stencil buffer to the value 1.":"上面的代码将模板缓冲区清除为值 1。",
+    "The value to clear the stencil buffer to. An integer value in the range [0, 255].":"清除模板缓冲区的值。 [0, 255] 范围内的整数值。",
+    "This function clears the stencil buffer of the {}current render target{} to the given stencil value, an integer value from 0 to 255.":"此函数将 {} 当前渲染目标 {} 的模板缓冲区清除为给定的模板值 (0 到 255 之间的整数值)。"
+}

@@ -1,5 +1,6 @@
 {
     "The above code will check to see if the game window is in focus or not, and if the function returns {}false{} a function will be called.":"以上代码将检查游戏窗口是否处于焦点状态，如果函数返回 {}false{}，将调用函数。",
     "With this function you can poll the window (or tab) state and if it loses focus the function will return {}false{} otherwise it will return {}true{}. In most cases you can simply use the {}{}os_is_paused(){}{}&nbsp;function to test this, but in some very specific cases (for example games on Chrome Apps) that function will not trigger, in which case you should use this function instead.":"使用此函数，您可以轮询窗口(或选项卡)状态，如果失去焦点，此函数将返回 {}false{}，否则将返回 {}true{}。在大多数情况下，您可以简单地使用 {}{}os_is_paused(){}{} 函数进行测试，但在某些非常特殊的情况下(例如 Chrome 应用程序上的游戏)，此函数将不会触发，在这种情况下，您应该改用此函数。",
-    "{}NOTE{}: This function is only valid for the HTML5, Windows, and MacOS.":"{}注意{}：此函数仅对 HTML5、Windows 和 MacOS 有效。"
+    "{}NOTE{}: This function is only valid for the HTML5, Windows, and MacOS.":"{}注意{}：此函数仅对 HTML5、Windows 和 MacOS 有效。",
+    "{}{}{}NOTE{}{}{} This function is only valid for the HTML5, Windows, and MacOS.":"{}{}{} 注意{}{}{} 此函数仅对 HTML5、Windows 和 MacOS 有效。"
 }

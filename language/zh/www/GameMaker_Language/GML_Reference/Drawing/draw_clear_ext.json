@@ -1,0 +1,9 @@
+{
+    "The above code calls&nbsp;{}{}draw_clear_ext{}{}&nbsp;to clear the colour to white, the alpha channel to 1, the depth buffer to 0 and the stencil buffer to 20.":"上面的代码调用 {}{}draw_clear_ext{}{} 将颜色清除为白色，将 Alpha 通道清除为 1，将深度缓冲区清除为 0，将模板缓冲区清除为 20。",
+    "{}This function clears the current render target along with the depth and stencil buffers.{}":"{} 此函数会清除当前渲染目标以及深度和模板缓冲区。{}",
+    "{}{}NOTE{}{}&nbsp;If all arguments are {}undefined{}&nbsp;the function does nothing.":"{}{} 注意{}{} 如果所有参数都 {}undefined{}，则该函数不执行任何操作。",
+    "{}{}OPTIONAL{}{}&nbsp;The alpha value to clear the alpha channel with. Use {}undefined{} to skip clearing the alpha channel. A value from 0 to 1 (inclusive). Must be specified if {}colour{} is specified.":"{}{} 可选{}{} 用于清除 Alpha 通道的 Alpha 值。使用 {}undefined{} 跳过清除 Alpha 通道。 0 到 1( 含) 之间的值。如果指定了 {} 颜色 {}，则必须指定。",
+    "{}{}OPTIONAL{}{}&nbsp;The colour to clear the current render target with. Use {}undefined{}&nbsp;to skip clearing the colour buffer. Must be specified if {}alpha{} is specified.":"{}{} 可选{}{} 用于清除当前渲染目标的颜色。使用 {}undefined{} 跳过清除颜色缓冲区的过程。如果指定了 {}alpha{}，则必须指定。",
+    "{}{}OPTIONAL{}{}&nbsp;The value to clear the current depth buffer with. Use {}undefined{} to skip clearing the depth buffer. A value from 0 (znear) to 1 (zfar) (inclusive).":"{}{} 可选{}{} 用于清除当前深度缓冲区的值。使用 {}undefined{} 跳过清除深度缓冲区。 0(znear) 到 1(zfar)( 含) 之间的值。",
+    "{}{}OPTIONAL{}{}&nbsp;The value to clear the current stencil buffer with. Use {}undefined{} to skip clearing the stencil buffer. An integer value from 0 to 255 (inclusive).":"{}{} 可选{}{} 用于清除当前模板缓冲区的值。使用 {}undefined{} 跳过清除模板缓冲区的过程。 0 到 255( 含) 之间的整数值。"
+}

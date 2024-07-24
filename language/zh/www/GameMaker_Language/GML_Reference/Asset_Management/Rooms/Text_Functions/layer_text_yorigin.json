@@ -1,0 +1,8 @@
+{
+    "It then sets its xorigin to {}0{} and yorigin to {}50{}, so it appears 50 pixels above the instance\u0027s position. This origin can later be changed to adjust the height of the text above the instance.":"然后，它将其 xorigin 设置为 {}0{}，将 yorigin 设置为 {}50{}，因此它显示在实例位置上方 50 像素处。稍后可以更改此原点以调整实例上方文本的高度。",
+    "The new Y origin of the element":"元素的新 Y 原点",
+    "The text element ID, retrieved from&nbsp;{}{}layer_text_create{}{}&nbsp;or&nbsp;{}{}layer_text_get_id{}{}.":"文本元素 ID，从 {}{}layer_text_create{}{} 或 {}{}layer_text_get_id{}{} 检索。",
+    "This function changes the Y origin of the given Text Element.":"此函数更改给定文本元素的 Y 原点。",
+    "This gets the ID of the Text Element {}text1{} from the layer {}Assets{}, and sets its position to the instance\u0027s position.":"这会从 {}Assets{} 层获取文本元素 {}text1{} 的 ID，并将其位置设置为实例的位置。",
+    "This is similar to the sprite origin, and is the point within the element that acts as the \"centre\" for rotation. It acts as a negative offset for the text.":"这与精灵原点类似，是元素内充当旋转 \" 中心 \" 的点。它充当文本的负偏移量。"
+}

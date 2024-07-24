@@ -1,4 +1,5 @@
 {
     "The above code checks for a press of the keyboard key \"P\" and if it detects one it sets the global variable \"Pause\" to {}true{} or false and then either pauses all sounds or restarts all previously paused sounds.":"上述代码检查是否按下键盘键\"P\"，如果检测到一个，则将全局变量\"暂停\"设置为{}true{}或假，然后暂停所有声音或重新启动所有先前暂停的声音。",
+    "The above code checks for a press of the keyboard key \"P\" and if it detects one it sets the global variable \"Pause\" to {}true{} or {}false{} and then either pauses all sounds or restarts all previously paused sounds.":"上述代码检查是否按下了键盘键 \"P\"，如果检测到按下，则将全局变量 \"Pause\" 设置为 {}true{} 或 {}false{}，然后暂停所有声音或重新启动之前暂停的所有声音声音。",
     "With this function you can pause all sounds that are currently playing.":"使用此函数，您可以暂停当前播放的所有声音。"
 }

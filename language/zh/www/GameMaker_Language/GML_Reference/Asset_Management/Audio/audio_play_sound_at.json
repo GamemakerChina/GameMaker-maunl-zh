@@ -30,5 +30,6 @@
     "{}{}OPTIONAL{}{}&nbsp;The bitmask data to set for the sound. On the HTML5 target&nbsp; this will have no effect as the target does not support more than one listener.":"{}{}可选{}{}为声音设置的位掩码数据。在 HTML5 目标上，这不会产生任何影响，因为该目标不支持多个侦听器。",
     "{}{}OPTIONAL{}{}&nbsp;The gain of the sound instance (defaults to 1).":"{}{}可选{}{}声音实例的增益(默认为 1)。",
     "{}{}OPTIONAL{}{}&nbsp;The pitch multiplier (defaults to 1).":"{}{}可选{}{}音调乘数(默认为 1)。",
-    "{}{}OPTIONAL{}{}&nbsp;The time (in seconds) to start playing. Values beyond the end of the sound are clamped to its length. The default value is the asset-level offset, this value overrides it when provided.":"{}{}可选{}{}开始播放的时间(以秒为单位)。超出声音末尾的值将被限制在其长度内。默认值是资产级别偏移量，该值在提供时会覆盖它。"
+    "{}{}OPTIONAL{}{}&nbsp;The time (in seconds) to start playing. Values beyond the end of the sound are clamped to its length. The default value is the asset-level offset, this value overrides it when provided.":"{}{}可选{}{}开始播放的时间(以秒为单位)。超出声音末尾的值将被限制在其长度内。默认值是资产级别偏移量，该值在提供时会覆盖它。",
+    "{}{}OPTIONAL{}{}&nbsp;The time (in seconds) to start playing. Values beyond the end of the sound are clamped to its length. The default value is the asset-level offset.":"{}{} 可选{}{} 开始播放的时间 (以秒为单位)。超出声音末尾的值将被限制在其长度内。默认值是资产级别的偏移量。"
 }

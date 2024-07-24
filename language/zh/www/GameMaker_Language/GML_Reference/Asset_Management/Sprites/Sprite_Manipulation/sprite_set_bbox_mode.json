@@ -7,5 +7,6 @@
     "{}Automatic {}- The bounding box will be calculated automatically, based on the tolerance setting for the sprite":"{}自动{}-将根据精灵的公差设置自动计算边界框。",
     "{}Full Image{} - The bounding box will be set to use the full width and height of the sprite, regardless of the tolerance and \"empty\" pixels":"{}完整图像{}-边界框将被设置为使用精灵的完整宽度和高度，而不考虑公差和“空”像素。",
     "{}Manual{} - The bounding box is being set manually to user defined values, which requires the use of the function {}{}sprite_set_bbox(){}{}":"{}手动{}-边界框被手动设置为用户定义的值，这需要使用函数{}{}sprite_set_bbox(){}{}",
+    "{}Manual{} - The bounding box is set manually to user defined values, specified either in&nbsp;{}{}sprite_collision_mask{}{}&nbsp;along with the mode, or separately in&nbsp;{}{}sprite_set_bbox{}{}":"{} 手动{}- 边界框手动设置为用户定义的值，可以在 {}{}sprite_collision_mask{}{} 中与模式一起指定，也可以在 {}{}sprite_set_bbox{}{} 中单独指定",
     "{}NOTE{}&nbsp;This function affects the sprite&nbsp;{}asset&nbsp;{}so that all further instances with this sprite will have the same bounding box mode.":"{}注意{}此函数影响sprite{}资源{}，以便此精灵的所有其他实例将具有相同的边界框模式。"
 }

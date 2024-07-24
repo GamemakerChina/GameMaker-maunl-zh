@@ -31,6 +31,7 @@
     "{}Outline{}{}Outline{}":"{}轮廓{}{}轮廓{}",
     "{}coreAlpha{}: The alpha of the core part of the font.":"{}coreAlpha{}：核心透明度,字体核心部分的alpha(透明度)。",
     "{}coreColour{}: The colour of the core part of the font (excluding any outlines, glows etc.).":"{}coreColour{}：核心颜色,字体核心部分的颜色(不包括任何轮廓、发光等)。",
+    "{}coreColour{}: The colour of the core part of the font (excluding any outlines, glows, etc.).":"{}coreColour{}：字体核心部分的颜色 (不包括任何轮廓、发光等)。",
     "{}dropShadowAlpha{}: The alpha of the shadow.":"{}dropShadowAlpha{}：影子的alpha(透明度)。",
     "{}dropShadowColour{}: The colour of the shadow.":"{}dropShadowColour{}：影子的颜色。",
     "{}dropShadowEnable{}:&nbsp;Enable or disable the Drop Shadow effect. {}Disabled{} by default.":"{}dropShadowEnable{}：启用或禁用投影效果。{}默认禁用{}。",

@@ -1,6 +1,7 @@
 {
     "Layer Element Type Constant":"层元素类型常量",
     "Note that this function is most useful when you have multiple different element types assigned to the one layer, and that you can get a list of all the elements on any given layer using the function {}{}layer_get_all_elements(){}{}.":"请注意，当有多个不同的元素类型分配给一个层时，此函数非常有用，并且可以使用函数{}{}layer_get_all_elements(){}{}获得任何给定层上所有元素的列表。",
+    "The above code gets the IDs for all the instance elements assigned to the layer of the instance running the code. The code then checks to see if any of the returned elements are sprite assets and if they are, they\u0027re destroyed.":"上面的代码获取分配给运行代码的实例层的所有实例元素的 ID。然后，代码检查返回的元素是否是精灵资产，如果是，则将其销毁。",
     "The above code gets the IDs for all the instance elements assigned to the layer of the instance running the code. The code then checks to see if any of the returned elements are sprite assets and if they then they are destroyed.":"上面的代码获取分配给运行代码的实例层的所有实例元素的ID.然后，代码检查是否有任何返回的元素是精灵资源，如果有，则将其销毁。",
     "The element does not exist or the ID value is erroneous.":"元素不存在或 ID 值错误。",
     "The element is a background.":"元素是背景。",

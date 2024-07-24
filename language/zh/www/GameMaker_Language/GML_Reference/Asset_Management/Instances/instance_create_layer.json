@@ -21,5 +21,6 @@
     "{}IMPORTANT{}&nbsp;There is a minimum and maximum layer depth of -16000 to 16000. Anything placed on a layer outside that range {}will not be drawn{} although all events will still run as normal.":"{}重要{}最小和最大层深度为-16000到16000。放置在该范围之外的图层上的任何内容都不会被绘制{}，尽管所有事件仍将正常运行。",
     "{}NOTE{}&nbsp;Variables from the struct are \"shallow-copied\" to the new instance, meaning any arrays, structs, and other resources are copied by reference and not duplicated.":"{}注意{}结构中的变量\"浅拷贝\"到新实例，这意味着通过引用复制任何数组、结构和其他资源，而不是复制。",
     "{}OPTIONAL{} A struct with variables to assign to the new instance":"{}OPTIONAL{}带变量的结构，可分配给新实例",
-    "{}{}IMPORTANT{}{}&nbsp;There is a minimum and maximum layer depth of&nbsp;{}-16000{} to {}16000{}. Anything placed on a layer outside that range will not be drawn although all events will still run as normal for anything on the layer.":"{}{} 重要提示{}{} 最小和最大层深度为 {}-16000{} 到 {}16000{}。放置在该范围之外的图层上的任何内容都不会被绘制，尽管该图层上任何内容的所有事件仍将正常运行。"
+    "{}{}IMPORTANT{}{}&nbsp;There is a minimum and maximum layer depth of&nbsp;{}-16000{} to {}16000{}. Anything placed on a layer outside that range will not be drawn although all events will still run as normal for anything on the layer.":"{}{} 重要提示{}{} 最小和最大层深度为 {}-16000{} 到 {}16000{}。放置在该范围之外的图层上的任何内容都不会被绘制，尽管该图层上任何内容的所有事件仍将正常运行。",
+    "{}{}NOTE{}{}&nbsp;This function behaves differently when you call it after calling a room-changing function in the same event. See the note on&nbsp;{}{}room_goto{}{}&nbsp;for details.":"{}{} 注意{}{} 当您在同一事件中调用房间更改函数后调用该函数时，该函数的行为会有所不同。有关详细信息，请参阅有关 {}{}room_goto{}{} 的注释。"
 }

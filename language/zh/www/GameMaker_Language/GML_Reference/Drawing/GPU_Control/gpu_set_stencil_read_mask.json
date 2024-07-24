@@ -1,0 +1,8 @@
+{
+    "By default, the stencil read mask is set to all ones, i.e. {}0b11111111{}&nbsp;so the stencil test becomes:&nbsp;":"默认情况下，模板读取掩码设置为全 1，即 {}0b11111111{}，因此模板测试变为：",
+    "See&nbsp;{}Bitwise Operators{}&nbsp;for more information on how to work with bitmask values.":"请参阅 {} 按位运算符 {}，了解有关如何使用位掩码值的更多信息。",
+    "The bitmask to use, a value in the range [0, 255], or, [{}0x00{}, {}0xFF{}].":"要使用的位掩码，范围为 [0, 255] 或 [{}0x00{},{}0xFF{}] 的值。",
+    "The code above sets the stencil read mask to all ones by passing the binary literal {}0b11111111{} as the parameter to the function.":"上面的代码通过将二进制文字 {}0b11111111{} 作为参数传递给函数，将模板读取掩码设置为全 1。",
+    "The stencil read mask is a bitmask of 8 bits that\u0027s&nbsp;bitwise AND-ed {}&amp;{} with both the stencil ref value and the current stencil value&nbsp;{}before{} the values are compared in the stencil test, i.e. only the bits in the read mask are compared:&nbsp;":"模板读取掩码是 8 位的位掩码，在模板测试中比较这些值之前 {} 与当前模板值进行按位与运算，即仅比较位在读取掩码中进行比较：",
+    "This function sets the stencil read mask.":"该函数设置模板读取掩码。"
+}

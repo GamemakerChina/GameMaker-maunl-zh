@@ -1,0 +1,6 @@
+{
+    "The above code calls&nbsp;{}{}surface_has_depth{}{} to check if the surface held in a variable {}surf_colour{} has a depth buffer and stores the result in a local variable {}_has_depth{}. If the surface has no depth buffer, a debug message is shown.":"上述代码调用 {}{}surface_has_depth{}{} 来检查变量 {}surf_colour{} 中保存的表面是否具有深度缓冲区，并将结果存储在局部变量 {}_has_depth{} 中。如果表面没有深度缓冲区，则会显示调试消息。",
+    "The surface to check":"要检查的表面",
+    "This function returns whether the given surface has a depth buffer (and by relation, a stencil buffer, as depth buffer creation needs to be enabled for stencil buffers to also be created).":"此函数返回给定表面是否具有深度缓冲区 (并且根据关系，返回模板缓冲区，因为需要启用深度缓冲区创建才能创建模板缓冲区)。",
+    "{}{}NOTE{}{}&nbsp;You can use&nbsp;{}{}surface_depth_disable{}{} to enable/disable whether surfaces are {}created{} with a depth buffer or not.":"{}{} 注意{}{} 您可以使用 {}{}surface_depth_disable{}{} 来启用 / 禁用是否使用深度缓冲区 {} 创建 {} 表面。"
+}

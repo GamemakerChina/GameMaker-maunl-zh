@@ -1,0 +1,8 @@
+{
+    "Since this code is for a Step event, you should initialise the {}_text1_id{} variable in the Create event.":"由于此代码适用于 Step 事件，因此您应该在 Create 事件中初始化 {}_text1_id{} 变量。",
+    "The new X scale of the Text Element.":"文本元素的新 X 比例。",
+    "The text element ID, retrieved from&nbsp;{}{}layer_text_create{}{}&nbsp;or&nbsp;{}{}layer_text_get_id{}{}.":"文本元素 ID，从 {}{}layer_text_create{}{} 或 {}{}layer_text_get_id{}{} 检索。",
+    "Then it gets the ID of the Text Element {}text1{} from the layer {}Assets{}, and gets its xscale and yscale. It applies each component back, with the zoom value added to it.":"然后，它从 {}Assets{} 层获取文本元素 {}text1{} 的 ID，并获取其 xscale 和 yscale。它将应用每个组件，并添加缩放值。",
+    "This function changes the horizontal scale of the given Text Element. 1 is the default scale.":"此函数更改给定文本元素的水平比例。 1 是默认比例。",
+    "This scales the Text Element based on input from the mouse wheel. It first gets the wheel\u0027s delta input, by subtracting an up scroll from a down scroll (returning {}1{} for up and {}-1{} for down). It multiplies that by {}0.1{} to slow down the scale change that takes place in one frame.":"这将根据鼠标滚轮的输入缩放文本元素。它首先通过从向下滚动中减去向上滚动来获取滚轮的增量输入 (向上滚动返回 {}1{}，向下滚动返回 {}-1{})。它将其乘以 {}0.1{} 以减慢一帧中发生的比例变化。"
+}

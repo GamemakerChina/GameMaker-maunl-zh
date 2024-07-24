@@ -1,16 +1,23 @@
 {
     "Light Type Constant":"光照类型常量",
+    "The above code will get the values used to define the light at index 1, then check the radius and if it is less than 200 it will be increased and the light radius set to the new value.":"上面的代码将获取用于定义索引 1 处灯光的值，然后检查半径，如果它小于 200，则会增加该半径，并将灯光半径设置为新值。",
     "The above code will get the values used to define the light indexed as \"1\", then check the radius and if it is less than 200 it will be increased and the light radius set to the new value.":"上述代码将获取用于将光源步进定义为\"1\"的值，然后检查半径，如果小于200，则会增加半径，并将光源半径设置为新值。",
     "The index number of the light (from 0 to 7)":"光照的索引号(从0到7)",
     "The light is a directional light":"光照是方向性光照",
     "The light is a point light":"光照是点光源",
     "The light type (element [1]) can be one of the following two constants:":"光照类型(element[ 1 ])可以是以下两个常量之一：",
     "This function will get the specified light parameters as an array with the following 6 elements -":"该函数将获得指定的光照参数，作为具有以下6个元素的数组-",
+    "This function will get the specified light parameters as an array with the following 6 elements:":"该函数将以数组形式获取指定的灯光参数，其中包含以下 6 个元素：",
     "[0] = enabled / disabled ({}true{} / {}false{})":"[0] = 启用 / 禁用 ({}true{}/{}false{})",
     "[1] =&nbsp;{}{}Light Type Constant{}{} (see table below)":"[1] = {}{}光照类型常数{}{}(参见下表)",
     "[2] = x position":"[2] = x 位置",
+    "[2] = x value":"[2] = x 值",
     "[3] = y position":"[3] = y 位置",
+    "[3] = y value":"[3] = y 值",
     "[4] = z position":"[4] = z 位置",
+    "[4] = z value":"[4] = z 值",
+    "[5] = light radius (only for point lights, will always be 1 for directional)":"[5] = 光半径 (仅适用于点光源，定向光源始终为 1)",
     "[5] = light radius (only for point lights, will be 0 for directional)":"[5] = 光照半径 (仅适用于点光源，对于定向光源为 0)",
-    "[6] = light colour (a real)":"[6] = 浅色 (实数)"
+    "[6] = light colour (a real)":"[6] = 浅色 (实数)",
+    "{}{}NOTE{}{}&nbsp;The x, y and z values store the light\u0027s {}position{} in case of a point light and the light\u0027s {}direction vector{} in case of a directional light.":"{}{} 注意{}{}x、y 和 z 值在点光源的情况下存储光源的 {} 位置 {}，在定向光源的情况下存储光源的 {} 方向矢量 {}。"
 }

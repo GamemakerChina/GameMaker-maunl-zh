@@ -1,0 +1,7 @@
+{
+    "Finally, it applies the positions back to the element, with 4 added to each component so it shifts its position every frame, moving down and right by 4 pixels each.":"最后，它将位置应用回元素，每个组件添加 4 个位置，因此每帧都会移动其位置，每个向下和向右移动 4 个像素。",
+    "It then performs a check on those coordinates, and if they reach one end of the room, they are set to the other end (e.g. going through the right boundary puts you at the left boundary, and so on).":"然后，它对这些坐标进行检查，如果它们到达房间的一端，则将它们设置到另一端 (例如，穿过右边界会将您置于左边界，依此类推)。",
+    "Since this code is for a Step event, you should initialise the {}_text1_id{} variable in the Create event.":"由于此代码适用于 Step 事件，因此您应该在 Create 事件中初始化 {}_text1_id{} 变量。",
+    "This function changes the X (horizontal) position of the given Text Element. Note that the text\u0027s X position will be offset by the element\u0027s {}xorigin{} value.":"此函数更改给定文本元素的 X(水平) 位置。请注意，文本的 X 位置将偏移元素的 {}xorigin{} 值。",
+    "This gets the ID of the Text Element {}text1{} from the layer {}Assets{}, and then gets its X and Y positions, storing them into a struct.":"这会从 {}Assets{} 层获取文本元素 {}text1{} 的 ID，然后获取其 X 和 Y 位置，并将它们存储到结构中。"
+}

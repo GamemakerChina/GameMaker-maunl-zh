@@ -1,0 +1,5 @@
+{
+    "The text element ID, retrieved from&nbsp;{}{}layer_text_create{}{}&nbsp;or&nbsp;{}{}layer_text_get_id{}{}.":"文本元素 ID，从 {}{}layer_text_create{}{} 或 {}{}layer_text_get_id{}{} 检索。",
+    "This function returns whether wrapping is enabled ({}true{}) or disabled ({}false{}) in the given Text Element.&nbsp;This can be changed with&nbsp;{}{}layer_text_wrap{}{}.":"此函数返回给定文本元素中是否启用 ({}true{}) 还是禁用 ({}false{}) 换行。可以使用 {}{}layer_text_wrap{}{} 更改此设置。",
+    "This gets the ID of the Text Element {}text1{} from the layer {}Assets{}, and gets the wrapping boolean value. It then reapplies the boolean value after flipping it, so if wrapping is disabled, it will be enabled, and vice versa.":"这会从 {}Assets{} 层获取文本元素 {}text1{} 的 ID，并获取包装布尔值。然后，它会在翻转后重新应用布尔值，因此，如果禁用换行，则会启用换行，反之亦然。"
+}

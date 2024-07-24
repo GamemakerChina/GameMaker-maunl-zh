@@ -1,0 +1,6 @@
+{
+    "It allows the game {}to detect when a controller connects or disconnects to the device in real time.{}":"它允许游戏 {} 实时检测控制器何时连接或断开与设备的连接。{}",
+    "The above code triggers device enumeration.":"上面的代码触发设备枚举。",
+    "This function&nbsp;forces the device enumeration that would take place in reaction to a bluetooth device change on Android, updating the list of connected devices.":"此函数强制进行设备枚举，以响应 Android 上的蓝牙设备更改，从而更新已连接设备的列表。",
+    "{}{}NOTE{}{}&nbsp;This function only works on Android.":"{}{} 注意{}{} 此函数仅适用于 Android。"
+}

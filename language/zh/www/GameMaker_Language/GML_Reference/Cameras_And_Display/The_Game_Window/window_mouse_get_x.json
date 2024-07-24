@@ -1,5 +1,6 @@
 {
     "The above code stores the current x axis window position of the mouse in the variable \"wx\".":"上述代码将鼠标的当前 X 轴窗口位置存储在变量 \"wx\" 中。",
     "With this function you can get the x position of the mouse cursor (in pixels) within the browser if it is an HTML5 game or within the display if it is a Windows, Ubuntu (Linux) or macOS game.":"使用此函数，如果是 HTML5 游戏，您可以在浏览器中获取鼠标光标的 X 位置(以像素为单位);如果是 Windows、Ubuntu 或 MacOS 游戏，您可以在显示器中获取鼠标光标的 X 位置(以像素为单位)。",
-    "{}NOTE{}: For regular mouse functions see the section on {}Mouse Input{}":"{}注意{}：有关常规鼠标函数，请参阅{}鼠标输入{}一节"
+    "{}NOTE{}: For regular mouse functions see the section on {}Mouse Input{}":"{}注意{}：有关常规鼠标函数，请参阅{}鼠标输入{}一节",
+    "{}{}{}NOTE{}{}{} For regular mouse functions see the section on {}Mouse Input{}.":"{}{}{} 注意{}{}{} 对于常规鼠标功能，请参阅 {} 鼠标输入 {} 部分。"
 }

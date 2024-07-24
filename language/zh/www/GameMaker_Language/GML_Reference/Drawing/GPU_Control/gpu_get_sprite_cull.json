@@ -1,0 +1,4 @@
+{
+    "The above code calls&nbsp;{}{}gpu_get_sprite_cull{}{}&nbsp;to retrieve whether sprites are currently culled against the view frustum when they\u0027re drawn. The value is stored in a temporary variable {}_cull_sprites{}.":"上面的代码调用 {}{}gpu_get_sprite_cull{}{} 来检索精灵在绘制时是否针对视锥体进行剔除。该值存储在临时变量 {}_cull_sprites{} 中。",
+    "This function returns whether (frustum) culling of sprites and tile maps is enabled or not. It is enabled by default.":"此函数返回是否启用精灵和图块地图的 (视锥体) 剔除。默认情况下它是启用的。"
+}

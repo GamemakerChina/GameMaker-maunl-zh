@@ -1,0 +1,12 @@
+{
+    "Decrements the stencil buffer value, clamping at 0.":"递减模板缓冲区值，固定为 0。",
+    "Decrements the stencil buffer value, wrapping to the maximum value at 0.":"递减模板缓冲区值，回绕到最大值 0。",
+    "Increments the stencil buffer value, clamping at the maximum value.":"增加模板缓冲区值，限制在最大值。",
+    "Increments the stencil buffer value, wrapping to 0 at the maximum value.":"增加模板缓冲区值，在最大值处回绕到 0。",
+    "Keeps the current value in the stencil buffer.":"将当前值保留在模板缓冲区中。",
+    "Performs a bitwise inversion on the current stencil buffer value.":"对当前模板缓冲区值执行按位反转。",
+    "Replaces the value in the buffer to the new stencil reference value.":"将缓冲区中的值替换为新的模板参考值。",
+    "Sets the stencil buffer value to 0.":"将模板缓冲区值设置为 0。",
+    "The default operation when the stencil test passes is {}{}stencilop_keep{}{}. You can change it to one of the following:":"模板测试通过时的默认操作是 {}{}stencilop_keep{}{}。您可以将其更改为以下之一：",
+    "This function sets the stencil operation to perform when the stencil test passes.":"此函数设置模板测试通过时要执行的模板操作。"
+}

@@ -5,8 +5,17 @@
     "The maximum the final colour\u0027s blue component can be.":"最终颜色的蓝色分量的最大值。",
     "The maximum the final colour\u0027s green component can be.":"最终颜色的绿色组件可以达到的最大值。",
     "The maximum the final colour\u0027s red component can be.":"最终颜色的红色分量的最大值。",
+    "The maximum value the final colour\u0027s blue component can have.":"最终颜色的蓝色分量可以具有的最大值。",
+    "The maximum value the final colour\u0027s green component can have.":"最终颜色的绿色分量可以具有的最大值。",
+    "The maximum value the final colour\u0027s red component can have.":"最终颜色的红色分量可以具有的最大值。",
     "The minimum the final colour\u0027s blue component can be.":"最终颜色的蓝色分量的最小值。",
     "The minimum the final colour\u0027s green component can be.":"最终颜色的绿色分量可以是最小值。",
     "The minimum the final colour\u0027s red component can be.":"最终颜色的红色分量的最小值。",
-    "With this function you can set the mix of red, green and blue colours for all particles created of the given type. You supply a minimum value and a maximum value for each of the three components and the particles created will have a random colour based on the given range of parameters. All values must be between 0 and 255.":"使用此函数，可以为创建的给定类型的所有粒子设定红色、绿色和蓝色的混合颜色。为三个组件中的每个组件提供最小值和最大值，创建的粒子将具有基于给定参数范围的随机颜色。所有值必须介于0和255之间。"
+    "The minimum value the final colour\u0027s blue component can have.":"最终颜色的蓝色分量可以具有的最小值。",
+    "The minimum value the final colour\u0027s green component can have.":"最终颜色的绿色分量可以具有的最小值。",
+    "The minimum value the final colour\u0027s red component can have.":"最终颜色的红色分量可以具有的最小值。",
+    "This function sets the mix of red, green and blue colours for all newly created particles of the given type.":"此函数为给定类型的所有新创建的粒子设置红色、绿色和蓝色的混合。",
+    "With this function you can set the mix of red, green and blue colours for all particles created of the given type. You supply a minimum value and a maximum value for each of the three components and the particles created will have a random colour based on the given range of parameters. All values must be between 0 and 255.":"使用此函数，可以为创建的给定类型的所有粒子设定红色、绿色和蓝色的混合颜色。为三个组件中的每个组件提供最小值和最大值，创建的粒子将具有基于给定参数范围的随机颜色。所有值必须介于0和255之间。",
+    "You supply a minimum value and a maximum value for each of the three components and the particles created will have a random colour based on the given range of parameters. All values must be between 0 and 255.":"您为三个组件中的每一个提供最小值和最大值，创建的粒子将具有基于给定参数范围的随机颜色。所有值必须介于 0 到 255 之间。",
+    "{}{}NOTE{}{}&nbsp;Existing particles of the given type are unaffected.":"{}{} 注意{}{} 给定类型的现有粒子不受影响。"
 }

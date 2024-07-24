@@ -1,0 +1,4 @@
+{
+    "The above code calls&nbsp;{}{}gpu_get_stencil_func{}{} to get the stencil function that\u0027s currently used and stores the result in a temporary variable {}_func{}.":"上述代码调用 {}{}gpu_get_stencil_func{}{} 来获取当前使用的模板函数，并将结果存储在临时变量 {}_func{} 中。",
+    "This function gets the comparison function currently used for comparisons in the stencil buffer.":"该函数获取当前用于模板缓冲区中比较的比较函数。"
+}

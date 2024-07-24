@@ -1,5 +1,6 @@
 {
     "Async Event Type Constant":"异步事件类型常量",
+    "Audio Playback Ended event":"音频播放结束事件",
     "Audio Playback event":"音频播放事件",
     "Audio Recording event":"录音事件",
     "Cloud event":"云事件",

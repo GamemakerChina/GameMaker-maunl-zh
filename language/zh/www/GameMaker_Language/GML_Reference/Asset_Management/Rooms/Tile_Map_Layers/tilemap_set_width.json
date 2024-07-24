@@ -2,5 +2,7 @@
     "The above code checks the width of a specific tile map and if it is not the correct size then the width is set.":"上面的代码检查特定图块贴图的宽度，如果其大小不正确，则设置该宽度。",
     "The unique ID value of the tile map element to set the width of":"图块映射元素的唯一ID值，用于设置",
     "The width value (in \"cells\")":"宽度值(以\"单元格\"表示)",
-    "This function can be used to resize a tile map element. You give the tile map element ID (which you get when you create a tile map element using {}{}layer_tilemap_create(){}{} or when you use the function {}{}layer_tilemap_get_id(){}{}), and the new width of the tile map in tile cells.":"此函数可用于调整图块贴图元素的大小。可以指定图块贴图元素 ID(使用{}{}layer_tilemap_create(){}{}或使用函数{}{}layer_tilemap_get_id(){}{}时获得的 ID)，以及图块单元格中图块贴图的新宽度。"
+    "This function can be used to resize a tile map element.":"此函数可用于调整图块地图元素的大小。",
+    "This function can be used to resize a tile map element. You give the tile map element ID (which you get when you create a tile map element using {}{}layer_tilemap_create(){}{} or when you use the function {}{}layer_tilemap_get_id(){}{}), and the new width of the tile map in tile cells.":"此函数可用于调整图块贴图元素的大小。可以指定图块贴图元素 ID(使用{}{}layer_tilemap_create(){}{}或使用函数{}{}layer_tilemap_get_id(){}{}时获得的 ID)，以及图块单元格中图块贴图的新宽度。",
+    "You give the tile map element ID (which you get when you create a tile map element using {}{}layer_tilemap_create(){}{} or when you use the function {}{}layer_tilemap_get_id(){}{}), and the new width of the tile map in tile cells.":"您提供图块地图元素 ID(在使用 {}{}layer_tilemap_create(){}{} 创建图块地图元素或使用函数 {}{}layer_tilemap_get_id(){}{} 时获得)，然后平铺单元格中平铺地图的新宽度。"
 }

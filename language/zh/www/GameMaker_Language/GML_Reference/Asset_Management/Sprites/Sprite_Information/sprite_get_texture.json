@@ -1,5 +1,6 @@
 {
     "The above code will draw a 4 vertex triangle strip textured with the texture held in the \"tex\" variable.":"上面的代码将绘制一个4顶点三角形条带纹理，纹理保存在“ tex ”变量中。",
+    "The above code will draw a 4 vertex triangle strip textured with the texture held in the {}tex{}&nbsp;variable.":"上面的代码将绘制一个 4 顶点三角形带，并使用 {}tex{} 变量中保存的纹理进行纹理化。",
     "The index of the sprite to use.":"要使用的精灵的索引。",
     "The sub-image of the sprite to use.":"要使用的精灵的子图像。",
     "This function returns a special {}pointer{} for the sprite on its texture page. This value can then be used in other draw functions, particularly in the {}2D primitive{}&nbsp;functions, as well as the {}Shader{}&nbsp;functions. You can get more information about the returned texture page using the different {}texture_{} functions found on the&nbsp;{}Textures{}&nbsp;page.":"此函数会为其纹理页面上的精灵返回一个特殊的{}指针{}。然后可以在其他绘制函数中使用该值，特别是在{}2D 图元{}函数以及{}Shader{}函数中。您可以使用{}Textures{}页面上的不同{}texture_{}函数获取有关返回的纹理页面的更多信息。",

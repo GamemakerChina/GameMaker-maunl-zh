@@ -1,0 +1,9 @@
+{
+    "The text element ID, retrieved from&nbsp;{}{}layer_text_create{}{}&nbsp;or&nbsp;{}{}layer_text_get_id{}{}.":"文本元素 ID，从 {}{}layer_text_create{}{} 或 {}{}layer_text_get_id{}{} 检索。",
+    "The text will be aligned to the bottom of the frame.":"文本将与框架底部对齐。",
+    "The text will be aligned to the top of the frame.":"文本将与框架顶部对齐。",
+    "The text will be centred vertically in the frame.":"文本将在框架中垂直居中。",
+    "This function changes the vertical alignment of the given Text Element. You can supply any one of the following constants:":"此函数更改给定文本元素的垂直对齐方式。您可以提供以下任一常量：",
+    "This gets the ID of the Text Element {}text1{} from the layer {}Assets{}, and stores its horizontal and vertical alignments into variables, before changing the alignments. These variables can later be used to reset the alignment values to what they were before they were changed here.":"这会从 {}Assets{} 层获取文本元素 {}text1{} 的 ID，并将其水平和垂直对齐方式存储到变量中，然后再更改对齐方式。这些变量稍后可用于将对齐值重置为在此处更改之前的值。",
+    "Vertical alignment to use":"使用的垂直对齐方式"
+}

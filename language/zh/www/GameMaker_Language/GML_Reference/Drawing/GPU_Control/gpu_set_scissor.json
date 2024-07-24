@@ -1,0 +1,10 @@
+{
+    "Coordinates are rounded to integers and are local to the render target region, i.e. {}(0, 0){}&nbsp;is the top-left corner of the surface you are drawing to.":"坐标四舍五入为整数，并且是渲染目标区域的本地坐标，即 {}(0, 0){} 是您要绘制的表面的左上角。",
+    "The X position of the scissor region, or a struct containing {}x{}, {}y{}, {}w{}, {}h{}":"剪刀区域的 X 位置，或包含 {}x{}、{}y{}、{}w{}、{}h{} 的结构体",
+    "This function defines a rectangular \"scissor\" region within the {}render target{}. Anything you draw after this function will only be output within the scissor region, essentially being cropped, as anything outside of it will be \"cut out\".":"此函数在 {} 渲染目标 {} 内定义一个矩形 \" 剪刀 \" 区域。在此函数之后绘制的任何内容都只会在剪刀区域内输出，本质上会被裁剪，因为剪裁区域之外的任何内容都会被 \" 剪掉\"。",
+    "This gets the current scissor region and stores it in a local variable. It then changes the scissor region, draws something, and resets the scissor region to what it was before the {}gpu_set_scissor(){} call.":"这会获取当前的剪刀区域并将其存储在局部变量中。然后，它会更改剪刀区域、绘制某些内容，并将剪刀区域重置为调用 {}gpu_set_scissor(){} 之前的状态。",
+    "{}{}NOTE{}{}&nbsp;Changing the surface target or viewport will reset the scissor region to cover the entirety of the new render target.":"{}{} 注意{}{} 更改表面目标\u200B\u200B或视口将重置剪刀区域以覆盖整个新渲染目标。",
+    "{}{}OPTIONAL{}{}&nbsp;The Y position of the scissor region, must be specified if first argument is not a struct":"{}{} 可选{}{} 如果第一个参数不是结构体，则必须指定剪刀区域的 Y 位置",
+    "{}{}OPTIONAL{}{}&nbsp;The height of the scissor region, must be specified if first argument is not a struct":"{}{} 可选{}{} 如果第一个参数不是结构体，则必须指定剪刀区域的高度",
+    "{}{}OPTIONAL{}{}&nbsp;The width of the scissor region, must be specified if first argument is not a struct":"{}{} 可选{}{} 如果第一个参数不是结构体，则必须指定剪刀区域的宽度"
+}

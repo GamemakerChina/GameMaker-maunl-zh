@@ -1,5 +1,6 @@
 {
     "Enable or disable all lighting ({}true{} or false)":"启用或禁用所有照明 ({}true{} 或 false)",
     "The above code will enable lighting for the whole scene, then define a white directional light in the room space, and then finally turn that light on.":"以上代码将为整个场景启用照明，然后在房间空间中定义白色方向光，然后最终打开该光照。",
-    "This function is used to enable all lighting effects. Default is disabled ({}false{}).":"此函数用于启用所有照明效果。默认设置为禁用({}false{})。"
+    "This function is used to enable all lighting effects. Default is disabled ({}false{}).":"此函数用于启用所有照明效果。默认设置为禁用({}false{})。",
+    "Whether to enable or disable all lighting ({}true{} or {}false{})":"是否启用或禁用所有照明 ({}true{} 或 {}false{})"
 }

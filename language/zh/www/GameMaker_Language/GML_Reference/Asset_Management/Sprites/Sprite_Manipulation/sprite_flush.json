@@ -1,5 +1,6 @@
 {
     "The above code flushes the sprite \"spr_Player_Aura\" from memory.":"上面的代码将精灵 \"spr_Player_Aura\" 从内存中清除。",
+    "The above code flushes the sprite {}spr_Player_Aura{}&nbsp;from memory.":"上述代码从内存中刷新精灵 {}spr_Player_Aura{}。",
     "The index (resource name) of the sprite asset to flush":"要刷新的精灵资源的索引(资源名称)",
     "This function removes the texture page for the given sprite from texture memory (VRAM). The texture will stay in RAM after being flushed.":"此函数从纹理内存(VRAM) 中删除给定精灵的纹理页。刷新后纹理将保留在 RAM 中。",
     "With this function you can remove the texture page for the given sprite from texture memory (VRAM). The texture will stay in RAM after being flushed.":"使用此函数，您可以从纹理内存(VRAM)中删除给定精灵的纹理页面。刷新后，纹理将保留在RAM中。",

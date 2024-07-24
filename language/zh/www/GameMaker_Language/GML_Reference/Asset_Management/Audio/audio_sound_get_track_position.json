@@ -1,7 +1,10 @@
 {
+    "For currently playing sounds (as returned by {}audio_play_sound_*{}): the current track position.":"对于当前播放的声音 (由 {}audio_play_sound_*{} 返回)：当前曲目位置。",
+    "For sound assets: the starting position (or offset) which is used when this sound is played using any of the {}audio_play_sound_*{} functions. This asset-level offset can be changed using&nbsp;{}{}audio_sound_set_track_position{}{}.":"对于声音资源：使用任意 {}audio_play_sound_*{} 函数播放此声音时使用的起始位置 (或偏移量)。可以使用 {}{}audio_sound_set_track_position{}{} 更改此资产级偏移量。",
     "The above code checks a track to get it\u0027s start position and if it\u0027s not 0 seconds it sets it to 0 seconds.":"上面的代码检查一个轨迹，以得到它的起始位置，如果它不是0秒，它将它设置为0秒。",
     "The above code checks a track to get its start position and if it\u0027s not 0 seconds it sets it to 0 seconds.":"上面的代码检查轨道以获取其起始位置，如果不是 0 秒，则将其设置为 0 秒。",
     "The function can take a&nbsp;{}{}Sound Asset{}{}&nbsp;or a sound instance.&nbsp;It returns:&nbsp;":"该函数可以采用{}{}声音资源{}{}或声音实例。它返回：",
+    "The function can take a&nbsp;{}{}Sound Asset{}{}&nbsp;or a {}{}Sound Instance ID{}{}.&nbsp;It returns:&nbsp;":"该函数可以采用 {}{} 声音资源 {}{} 或 {}{} 声音实例 ID{}{}。它返回：",
     "The index of the sound to get the play position of.":"声音的索引获取播放位置。",
     "The sound asset or instance to get the play position of.":"要获取播放位置的声音资源或实例。",
     "This function gets the position (in seconds) within the sound file for the sound to play from.":"此函数获取声音文件中播放声音的位置(以秒为单位)。",

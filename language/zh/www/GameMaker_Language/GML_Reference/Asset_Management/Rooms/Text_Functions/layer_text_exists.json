@@ -1,0 +1,6 @@
+{
+    "The layer to check.&nbsp;{}You can supply the layer name as a string, or the layer ID returned from a function like&nbsp;{}{}layer_get_id{}{}&nbsp;or&nbsp;{}{}layer_create{}{}.{}":"要检查的图层。{} 您可以以字符串形式提供层名称，或从 {}{}layer_get_id{}{} 或 {}{}layer_create{}{} 等函数返回的层 ID。{}",
+    "The text element ID, retrieved from&nbsp;{}{}layer_text_create{}{}&nbsp;or&nbsp;{}{}layer_text_get_id{}{}.":"文本元素 ID，从 {}{}layer_text_create{}{} 或 {}{}layer_text_get_id{}{} 检索。",
+    "This function checks whether the given Text Element exists on the given layer, and returns {}true{} or {}false{}.":"此函数检查给定文本元素是否存在于给定图层上，并返回 {}true{} 或 {}false{}。",
+    "This gets the ID of the Text Element {}text1{} from the {}Assets{} layer. It then checks whether that element exists, and if it does, it destroys it.":"这将从 {}Assets{} 层获取文本元素 {}text1{} 的 ID。然后它检查该元素是否存在，如果存在，则销毁它。"
+}

@@ -1,0 +1,4 @@
+{
+    "The code above gets the surface whose depth buffer is currently used for drawing and stores the result in a temporary variable {}_surf_depth{}.":"上面的代码获取当前用于绘制的深度缓冲区的表面，并将结果存储在临时变量 {}_surf_depth{} 中。",
+    "This function returns the surface whose depth buffer is currently used for drawing. A surface different than the current draw target can be set for depth when calling&nbsp;{}{}surface_set_target{}{}.":"该函数返回当前用于绘图的深度缓冲区的表面。调用 {}{}surface_set_target{}{} 时，可以设置与当前绘制目标不同的表面的深度。"
+}

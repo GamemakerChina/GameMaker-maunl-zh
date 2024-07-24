@@ -2,5 +2,6 @@
     "The above code retrieves the xborder and yborder values of the camera assigned to view port[0] and then checks this to see if it matches the given value. If it does not then the view camera is set to the given value.":"以上代码检索分配给 viewport[0] 的相机的水平边框(xborder)和垂直边框(yborder)值，然后检查该值是否与给定值匹配。如果没有，则将视图的相机设置为给定值。",
     "The unique camera ID value returned when you created the camera":"创建相机时返回的唯一相机 ID 值。",
     "This function can be used to retrieve the border value for object/instance following of the given camera along the y axis (vertical border). The return value will be in pixels.":"此函数可用于检索沿 Y 轴(垂直边框)跟随给定相机的对象/实例的边框值。返回值将以像素为单位。",
+    "This function can be used to retrieve the y (vertical) border value set for the given camera, which can be set in the room properties (see {}Object Following{}) or via the function {}{}camera_set_view_border{}{}). The return value will be in pixels.":"此函数可用于检索为给定相机设置的 y(垂直) 边框值，该值可在房间属性中设置 (请参阅 {} 对象跟随 {}) 或通过函数 {}{}camera_set_view_border{}{})。返回值将以像素为单位。",
     "This function can be used to retrieve the y (vertical) border value set for the given camera. The return value will be in pixels.":"此函数可用于检索为给定相机设置的 y(垂直) 边界值。返回值将以像素为单位。"
 }

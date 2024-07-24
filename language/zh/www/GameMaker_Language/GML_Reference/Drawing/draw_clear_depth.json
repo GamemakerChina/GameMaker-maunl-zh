@@ -1,0 +1,6 @@
+{
+    "The above code clears the depth buffer to a value of 1.":"上面的代码将深度缓冲区的值清除为 1。",
+    "The value 0 corresponds to znear, the value 1 corresponds to zfar.":"值 0 对应于 znear，值 1 对应于 zfar。",
+    "The value to clear the current render target\u0027s depth buffer to. A value ranging from 0 (representing znear) to 1 (representing zfar).":"将当前渲染目标的深度缓冲区清除到的值。值范围从 0( 代表 znear) 到 1( 代表 zfar)。",
+    "This function clears the depth buffer of the {}current render target{} to the given depth value, which can be a value from 0 to 1.":"此函数将 {} 当前渲染目标 {} 的深度缓冲区清除为给定深度值，该值可以是 0 到 1 之间的值。"
+}

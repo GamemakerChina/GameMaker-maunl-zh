@@ -19,5 +19,6 @@
     "This page gives a detailed overview of the audio properties that&nbsp;{}GameMaker{}&nbsp;supports and the different \"levels\" at which you can set/change them.":"本页详细概述了 {}GameMaker{} 支持的音频属性以及您可以设置/更改这些属性的不同\"级别\"。",
     "audio_sound_gain(snd_Explode, 0, 0);&nbsp; // Set the asset-level gain to 0 (new instances of this sound play muted)":"audio_sound_gain(snd_Explode, 0, 0); // 将资产级增益设置为 0(该声音的新实例静音)",
     "{}Audio Properties Overview{}":"{}音频属性概述{}",
-    "{}This can still be changed in-game later by calling {}{}audio_sound_gain{}{}&nbsp;with the sound {}asset{} ID as the argument:&nbsp;":"{}以后仍可以在游戏中通过调用以声音{5}资源{6} ID 作为参数的 {}{}audio_sound_gain{}{} 来更改此设置： "
+    "{}This can still be changed in-game later by calling {}{}audio_sound_gain{}{}&nbsp;with the sound {}asset{} ID as the argument:&nbsp;":"{}以后仍可以在游戏中通过调用以声音{5}资源{6} ID 作为参数的 {}{}audio_sound_gain{}{} 来更改此设置： ",
+    "{}{}NOTE{}{}&nbsp;A{}udio devices and/or operating systems can sometimes attempt to change the audio\u0027s amplitude&nbsp;{}in order to protect the user from what would otherwise be very loud sounds{}, for example by&nbsp;{}normalising&nbsp;{}the audio stream or by clipping the amplitude to 1.&nbsp;How this is handled is specific to the audio device or OS that\u0027s handling your game\u0027s audio. As a result, increasing gains might have an inconsistent effect.{}":"{}{} 注意{}{} 音{}频设备和 / 或操作系统有时会尝试更改音频的幅度 {} 以保护用户免受非常大的声音的影响 {}，例如，{} 标准化 {} 音频流或将幅度削波为 1。处理方式取决于处理游戏音频的音频设备或操作系统。因此，增加增益可能会产生不一致的效果。{}"
 }

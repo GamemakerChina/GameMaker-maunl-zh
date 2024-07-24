@@ -1,0 +1,4 @@
+{
+    "The code above first gets the current stencil fail operation and stores it in a temporary variable {}_op_current{}. It then sets the stencil fail operation to {}stencilop_replace{} with a call to&nbsp;{}{}gpu_set_stencil_fail{}{}. After that, it draws a disk of radius 10 at position (20, 20). Finally, it resets the stencil fail operation to the value stored in {}_op_current{}.":"上面的代码首先获取当前模板失败操作并将其存储在临时变量 {}_op_current{} 中。然后，它通过调用 {4}{5}gpu_set_stencil_fail{6}{7} 将模板失败操作设置为 {}stencilop_replace{}。之后，它在位置 (20, 20) 处绘制一个半径为 10 的圆盘。最后，它将模板失败操作重置为存储在 {}_op_current{} 中的值。",
+    "This function retrieves the stencil operation that\u0027s performed when the stencil test fails.":"此函数检索模板测试失败时执行的模板操作。"
+}

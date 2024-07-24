@@ -1,0 +1,6 @@
+{
+    "The new frame height of the element.":"元素的新框架高度。",
+    "The text element ID, retrieved from&nbsp;{}{}layer_text_create{}{}&nbsp;or&nbsp;{}{}layer_text_get_id{}{}.":"文本元素 ID，从 {}{}layer_text_create{}{} 或 {}{}layer_text_get_id{}{} 检索。",
+    "This function changes the frame height of the given Text Element.":"此函数更改给定文本元素的框架高度。",
+    "This gets the ID of the Text Element {}text1{} from the layer {}Assets{}, then sets its frame width to half the room\u0027s size, and the frame height to 64.":"这会从 {}Assets{} 层获取文本元素 {}text1{} 的 ID，然后将其框架宽度设置为房间大小的一半，并将框架高度设置为 64。"
+}

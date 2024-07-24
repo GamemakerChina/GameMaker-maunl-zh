@@ -1,10 +1,18 @@
 {
     "(View) Frustum Culling":"(视图) 视锥体剔除",
+    "Any sprites that are fully outside of the Camera View (or Frustum) are culled, i.e. not submitted to the GPU for drawing":"任何完全位于相机视图 (或视锥体) 之外的精灵都会被剔除，即不会提交给 GPU 进行绘制",
     "The above code enables sprite frustum culling in the Create event of an object.":"上面的代码在对象的 Create 事件中启用了精灵平截头体剔除。",
     "The {}view frustum{} is the region of the game world that a camera sees.&nbsp;It is determined by the camera\u0027s position and orientation in the game world as well as by the projection it has set:&nbsp;":"{} 视锥体 {} 是相机看到的游戏世界区域。它由摄像机在游戏世界中的位置和方向以及它设置的投影决定：",
+    "This function sets whether (frustum) culling of sprites and tile maps is enabled globally or not. It is enabled by default.":"此函数设置是否全局启用精灵和图块地图的 (视锥体) 剔除。默认情况下它是启用的。",
     "This function sets whether (frustum) culling of sprites is enabled globally or not.":"此函数设置是否全局启用精灵 (视锥体) 剔除。",
+    "Tile maps are culled in a different way than sprites: only&nbsp;{}the tiles in the tile map that fall into a rectangle defined by the intersection of the room borders and the viewport rectangle are drawn.{}":"图块地图的剔除方式与精灵不同：{} 仅绘制图块地图中落入由房间边界与视口矩形的交集定义的矩形内的图块。{}",
+    "To determine if a sprite is visible&nbsp;{}GameMaker{}&nbsp;calculates a sphere around the sprite and checks if this sphere is inside the view frustum. When the sphere is fully outside of it, the sprite must be, too, and is culled, i.e. not submitted for drawing.":"为了确定精灵是否可见，{}GameMaker{} 会计算精灵周围的球体并检查该球体是否位于视锥体内。当球体完全位于其外部时，精灵也必须位于其外部，并且被剔除，即不提交进行绘制。",
+    "View frustum culling is one type of visibility culling, where the CPU checks if a shape is inside the view frustum or not.":"视锥体剔除是可见性剔除的一种类型，其中 CPU 检查形状是否位于视锥体内部。",
+    "When enabled, sprites are checked against the view frustum on the CPU and {}culled{}&nbsp;(i.e. removed) if they\u0027re fully outside. Sprites that are culled are not submitted to the GPU (i.e. drawn).":"启用后，系统会根据 CPU 上的视锥体检查精灵，如果精灵完全位于外部，则将其 {} 剔除 {}( 即删除)。被剔除的精灵不会提交给 GPU(即绘制)。",
     "When enabled, sprites will be {}culled{}&nbsp;against the view frustum, i.e. they\u0027re not submitted to the GPU and aren\u0027t drawn when fully out of sight.":"启用后，精灵将针对视锥体进行 {} 剔除 {}，即它们不会提交给 GPU，并且在完全看不见时也不会进行绘制。",
     "Whether to enable sprite culling globally":"是否全局启用精灵剔除",
     "in case of a {}perspective{} {}projection{} it is a truncated pyramid shape.":"如果是 {} 透视 {}{} 投影 {}，则它是截棱锥形状。",
-    "in case of an {}orthographic projection{} it is a box shape.":"如果是 {} 正交投影 {}，则它是一个盒子形状。"
+    "in case of an {}orthographic projection{} it is a box shape.":"如果是 {} 正交投影 {}，则它是一个盒子形状。",
+    "{}{}NOTE{}{}&nbsp;Sprite culling applies to all sprites that are drawn in your game, either manually using the {}draw_sprite_*{} functions, as elements on asset layers or as part of sequences.":"{}{} 注意{}{} 精灵剔除适用于游戏中绘制的所有精灵，无论是使用 {}draw_sprite_*{} 函数手动绘制，还是作为资产层上的元素或作为序列的一部分。",
+    "{}{}NOTE{}{}&nbsp;The sprite\u0027s scale factor and the {}world matrix{} are taken into account when performing sprite culling.":"{}{} 注意 {}{} 执行精灵剔除时会考虑精灵的比例因子和 {} 世界矩阵 {}。"
 }

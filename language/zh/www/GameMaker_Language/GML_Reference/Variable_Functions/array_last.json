@@ -6,5 +6,6 @@
     "This function does not modify the array. To remove the last element of the array while reading it, use&nbsp;{}array_pop{}.":"此函数不修改数组。要在读取数组时删除该数组的最后一个元素，请使用 {}array_pop{}。",
     "This function returns the element at the top of the array, i.e. the last element at index {}{}array_length{}(array)-1{}.":"此函数返回数组顶部的元素，即在index {}{} array_length{}(array)-1{} 处的最后一个元素。",
     "This function returns the last element in the given array, i.e. the last element at index {}{}array_length{}(array)-1{}.":"此函数返回给定数组中的最后一个元素，即位于索引 {}{}array_length{}(array)-1{} 的最后一个元素。",
-    "{}{}Any{}{} (Any valid data type that an array can hold)":"{}{} Any {}{} (数组可以容纳的任何有效数据类型)"
+    "{}{}Any{}{} (Any valid data type that an array can hold)":"{}{} Any {}{} (数组可以容纳的任何有效数据类型)",
+    "{}{}Any{}{} (Any valid data type that an array can hold)&nbsp;or&nbsp;{}{}undefined{}{}&nbsp;{}if the array is empty{}":"{}{} 任何{}{}( 数组可以保存的任何有效数据类型) 或 {}{} 未定义 {}{}{} 如果数组为空 {}"
 }

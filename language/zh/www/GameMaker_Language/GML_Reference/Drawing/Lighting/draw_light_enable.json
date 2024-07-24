@@ -3,5 +3,6 @@
     "The above code will enable lighting for the whole scene, then define a white directional light in the room space, and then finally turn that light on.":"以上代码将为整个场景启用照明，然后在房间空间中定义白色方向光，然后最终打开该光照。",
     "The index number of the light (from 0 to 7)":"光照的索引号(从0到7)",
     "This function is used to enable a defined light. When you define a positional or a directional light you must assign it an index number which is then used by this function to switch the light on or off. Default is disabled ({}false{}).":"此函数用于启用定义的光照。定义位置光照或平行光时，必须为其指定一个索引号，然后该函数将使用该索引号来打开或关闭光照。默认设置为禁用({}false{})。",
-    "{}NOTE{}: There are only 8 hardware lights available, so only 8 defined lights can be enabled at any one time (although more can be defined).":"{}注意{}：只有8个硬件指示灯可用，因此任何时候只能启用8个定义的指示灯(尽管可以定义更多)。"
+    "{}NOTE{}: There are only 8 hardware lights available, so only 8 defined lights can be enabled at any one time (although more can be defined).":"{}注意{}：只有8个硬件指示灯可用，因此任何时候只能启用8个定义的指示灯(尽管可以定义更多)。",
+    "{}{}NOTE{}{}&nbsp;There are only 8 hardware lights available, so only 8 defined lights can be enabled at any one time (although more can be defined).":"{}{} 注意{}{} 只有 8 个可用的硬件灯光，因此一次只能启用 8 个定义的灯光 (尽管可以定义更多灯光)。"
 }

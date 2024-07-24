@@ -1,0 +1,8 @@
+{
+    "Finally it applies the new colour to the element. Each frame it moves closer to the target colour.":"最后它将新颜色应用于元素。每帧它都会更接近目标颜色。",
+    "It calculates a colour between the current and the target colour, moving the current colour 10% ({}0.1{}) towards the target.":"它计算当前颜色和目标颜色之间的颜色，将当前颜色向目标移动 10%({}0.1{})。",
+    "Since this code is for a Step event, you should initialise the {}_text1_id{} variable in the Create event.":"由于此代码适用于 Step 事件，因此您应该在 Create 事件中初始化 {}_text1_id{} 变量。",
+    "The text element ID, retrieved from&nbsp;{}{}layer_text_create{}{}&nbsp;or&nbsp;{}{}layer_text_get_id{}{}.":"文本元素 ID，从 {}{}layer_text_create{}{} 或 {}{}layer_text_get_id{}{} 检索。",
+    "This function returns the blend colour of the given Text Element.&nbsp;This can be changed with&nbsp;{}{}layer_text_blend{}{}.":"此函数返回给定文本元素的混合颜色。这可以通过 {}{}layer_text_blend{}{} 进行更改。",
+    "This gets the ID of the Text Element {}text1{} from the layer {}Assets{}, and gets its blend colour. It sets the target colour based on input, being red when space is held, and white otherwise.":"这会从 {}Assets{} 层获取文本元素 {}text1{} 的 ID，并获取其混合颜色。它根据输入设置目标颜色，当保留空格时为红色，否则为白色。"
+}

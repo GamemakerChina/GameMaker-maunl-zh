@@ -1,6 +1,7 @@
 {
     "By setting up nodes inside nodes (inside nodes...), you can create a layout tree. Each node can have properties that define how large it is, how it should be positioned in relation to the nodes in its container, how its own child nodes should behave, and so on.":"通过在节点内部设置节点 (节点内部 ...)，您可以创建布局树。每个节点都可以具有定义其大小、相对于其容器中的节点应如何定位、其自己的子节点应如何表现等的属性。",
     "Creating a layout is as simple as calling&nbsp;{}{}flexpanel_create_node{}{}&nbsp;and passing it a struct or a JSON string. That struct/JSON should define the properties of the root node and all nodes nested under the root node. The structure of that struct/JSON is {}outlined on this page{}.":"创建布局就像调用 {}{}flexpanel_create_node{}{} 并向其传递一个结构体或 JSON 字符串一样简单。该 struct/JSON 应该定义根节点以及嵌套在根节点下的所有节点的属性。{} 本页概述了该结构体 /JSON 的结构 {}。",
+    "Each node has styling properties, which define its position, size and behaviour within its container. You can specify these styling properties in the struct/JSON that you pass while creating a node, which are all listed here:&nbsp;{}Styling Properties{}.":"每个节点都有样式属性，这些属性定义其在其容器内的位置、大小和行为。您可以在创建节点时传递的 struct/JSON 中指定这些样式属性，这些属性均在此处列出：{} 样式属性 {}。",
     "Flex Panel Functions":"柔性面板功能",
     "Flex Panel Struct Members":"柔性面板结构成员",
     "How To Create Layouts":"如何创建布局",

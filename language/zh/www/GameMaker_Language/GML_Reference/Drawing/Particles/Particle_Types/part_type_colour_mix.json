@@ -1,7 +1,10 @@
 {
     "The above code will set the colour for each particle emitted of the particle type indexed in the global variable \"P_Damage\" to be a random mix between the colours red and yellow.":"上述代码将全局变量\"P_Damage\"中索引的粒子类型的每个发射粒子的颜色设置为红色和黄色之间的随机混合。",
+    "The above code will set the colour for each particle emitted of the particle type indexed in the global variable {}P_Damage{}&nbsp;to be a random mix between the colours red and yellow.":"上述代码会将全局变量 {}P_Damage{} 中索引的粒子类型的每个发射粒子的颜色设置为红色和黄色之间的随机混合。",
     "The first colour the blend will take from.":"混合将采用的第一种颜色。",
     "The index of the particle type to change.":"要更改的粒子类型的索引。",
     "The second colour the blend will take from.":"混合将使用的第二种颜色。",
-    "With this function you can set the given particle type to be a random blend of two colours.":"使用此函数，可以将给定的粒子类型设置为两种颜色的随机混合。"
+    "This function sets the colour of newly created particles of the given type to be a random blend of two colours.":"此函数将新创建的给定类型粒子的颜色设置为两种颜色的随机混合。",
+    "With this function you can set the given particle type to be a random blend of two colours.":"使用此函数，可以将给定的粒子类型设置为两种颜色的随机混合。",
+    "{}{}NOTE{}{}&nbsp;Existing particles of the given type are unaffected.":"{}{} 注意{}{} 给定类型的现有粒子不受影响。"
 }

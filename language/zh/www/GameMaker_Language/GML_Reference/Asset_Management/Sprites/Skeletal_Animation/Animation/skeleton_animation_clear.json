@@ -1,5 +1,10 @@
 {
+    "It can optionally reset the skeleton to its setup pose in a given amount of time.":"它可以选择在给定的时间内将骨架重置为其设置姿势。",
+    "The above code clears animation track 1 of the skeletal animation assigned to the current instance and resets it to its setup pose.":"上面的代码清除分配给当前实例的骨骼动画的动画轨道 1，并将其重置为其设置姿势。",
     "The above code will clear the animation track 1 if the right mouse button is pressed.":"如果按下鼠标右键，上面的代码将清除动画轨迹1。",
     "The animation track to clear.":"要清除的动画轨迹。",
-    "This function will clear the specified animation track of all animations, ready to be re-assigned.":"此函数将清除所有动画的指定动画轨迹，准备重新分配。"
+    "This function will clear the specified animation track of all animations, ready to be re-assigned.":"此函数将清除所有动画的指定动画轨迹，准备重新分配。",
+    "This function will clear the specified animation track of all animations, ready to be reassigned.":"该函数将清除指定动画轨道上的所有动画，准备重新分配。",
+    "{}{}OPTIONAL{}{}&nbsp;How long animating the skeleton to setup pose should take, in seconds.":"{}{} 可选{}{} 将骨架动画化以设置姿势需要多长时间 (以秒为单位)。",
+    "{}{}OPTIONAL{}{}&nbsp;Whether to reset the skeleton to its setup pose. Default is {}false{}.":"{}{} 可选{}{} 是否将骨架重置为其设置姿势。默认值为 {}false{}。"
 }

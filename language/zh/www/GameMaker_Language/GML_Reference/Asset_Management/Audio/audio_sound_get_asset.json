@@ -1,0 +1,6 @@
+{
+    "In the {}Create{} event, this plays a sound, storing its sound instance into a variable.":"在 {}Create{} 事件中，它会播放声音，并将其声音实例存储到变量中。",
+    "In the {}Key Press - Space{} event, it gets the asset used for playing the previously stored sound instance. If it returned a valid sound asset, another sound is playing using that same sound asset.":"在 {} 按键 - 空格 {} 事件中，它获取用于播放先前存储的声音实例的资源。如果它返回有效的声音资源，则正在使用同一声音资源播放另一个声音。",
+    "This function returns the&nbsp;{}{}Sound Asset{}{}&nbsp;that was used to play the given&nbsp;{}{}Sound Instance ID{}{}. The sound must be active (i.e. currently playing) for this function to return the correct value, otherwise it will return {}undefined{}.":"此函数返回用于播放给定 {}{} 声音实例 ID{}{} 的 {}{} 声音资源 {}{}。声音必须处于活动状态 (即当前正在播放)，此函数才能返回正确的值，否则它将返回 {}undefined{}。",
+    "This way, the asset that this function returns for a sound can be reused to play that same sound again.":"这样，该函数为声音返回的资源就可以重复使用来再次播放相同的声音。"
+}

@@ -3,6 +3,7 @@
     "For synchronised groups of audio, you also have the function {}{}audio_sync_group_debug(){}{}.":"对于同步音频组，您还具有函数{}{}audio_sync_group_debug(){}{}。",
     "The above code will switch on or off the audio debug overlay depending on whether the game is running in debug mode or not.":"根据游戏是否在调试模式下运行，上述代码将打开或关闭音频调试叠加。",
     "This function can be used to display debug information about the audio system, with {}true{} switching it on and {}false{} to switch it off. When you are debugging audio in this way, the overlay will show the following information:":"此函数可用于显示有关音频系统的调试信息，{}true{}打开它，{}false{}关闭它。以这种方式调试音频时，叠加将显示以下信息：",
+    "This function can be used to display debug information about the audio system, with {}true{} switching it on and {}false{}&nbsp;switching it off. Enabling this will display the&nbsp;{}Audio{}&nbsp;window of&nbsp;{}The Debug Overlay{}.":"此函数可用于显示有关音频系统的调试信息，{}true{} 将其打开，{}false{} 将其关闭。启用此功能将显示 {} 调试叠加层 {} 的 {} 音频 {} 窗口。",
     "{}Data Handle{} - The OpenAL buffer handle (shows the same value for multiple sounds with the same source handle)":"{}Data Handle{} - OpenAL缓冲区句柄(为具有相同源句柄的多个声音显示相同的值)",
     "{}Gain {}- The gain value for the audio (0 - 65536)":"{}Gain{} - 音频的增益值(0- 65536)",
     "{}Handle {}- The OpenAL source handle (unique for every sound played)":"{}Handle{} - OpenAL 源句柄(每个播放的声音都独一无二)",

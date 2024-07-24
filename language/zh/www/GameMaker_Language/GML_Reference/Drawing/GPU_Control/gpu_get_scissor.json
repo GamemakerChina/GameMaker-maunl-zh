@@ -1,0 +1,8 @@
+{
+    "The X position of the scissor region":"剪刀区域的 X 位置",
+    "The Y position of the scissor region":"剪刀区域的 Y 位置",
+    "The height of the scissor region":"剪刀区域的高度",
+    "The width of the scissor region":"剪刀区域的宽度",
+    "This function returns the current scissor region as a struct with the following members:":"此函数将当前剪刀区域作为具有以下成员的结构体返回：",
+    "This gets the current scissor region and stores it in a local variable. It then changes the scissor region, draws something, and resets the scissor region to what it was before the {}gpu_set_scissor(){} call.":"这会获取当前的剪刀区域并将其存储在局部变量中。然后，它会更改剪刀区域、绘制某些内容，并将剪刀区域重置为调用 {}gpu_set_scissor(){} 之前的状态。"
+}

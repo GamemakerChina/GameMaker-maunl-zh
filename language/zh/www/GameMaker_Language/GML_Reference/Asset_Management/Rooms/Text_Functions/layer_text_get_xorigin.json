@@ -1,0 +1,6 @@
+{
+    "It then draws an arrow at that position. That means this code would need to run in a Draw event for it to work. Keep in mind that you would ideally want to initialise the {}text1_id{} variable in the Create event.":"然后它在该位置绘制一个箭头。这意味着此代码需要在 Draw 事件中运行才能正常工作。请记住，您最好希望在 Create 事件中初始化 {}text1_id{} 变量。",
+    "The text element ID, retrieved from&nbsp;{}{}layer_text_create{}{}&nbsp;or&nbsp;{}{}layer_text_get_id{}{}.":"文本元素 ID，从 {}{}layer_text_create{}{} 或 {}{}layer_text_get_id{}{} 检索。",
+    "This function returns the X origin of the given Text Element.&nbsp;This can be changed with&nbsp;{}{}layer_text_xorigin{}{}.":"此函数返回给定文本元素的 X 原点。这可以通过 {}{}layer_text_xorigin{}{} 进行更改。",
+    "This gets the ID of the Text Element {}text1{} from the layer {}Assets{}, and then calculates the final position of the text by reading the X/Y coordinates of the element and subtracting the origin from them.":"这会从 {}Assets{} 层获取文本元素 {}text1{} 的 ID，然后通过读取元素的 X/Y 坐标并从中减去原点来计算文本的最终位置。"
+}

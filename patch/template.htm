@@ -105,9 +105,9 @@
         if (noTranslationState()) return false;
 
         //这么做只是为了方便移植修改
-        const css1 = "div.footer a,h4,caption";
-        const css2 = "p,h1,h2,h3,td,li,a,div.dropspotnote,figcaption";
-        const css3 = "th,.warning,.important,.optional";
+        const css1="div.footer a,h4,caption,blockquote"
+        const css2="p,h1,h2,h3,td,li,a,div.dropspotnote,figcaption,.expandtext"
+        const css3="th,.warning,.important,.optional"
 
         $(css1).each(function () {
             setTranslator($(this), json_global);

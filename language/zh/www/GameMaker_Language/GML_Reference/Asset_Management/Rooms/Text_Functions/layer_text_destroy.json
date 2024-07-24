@@ -1,0 +1,5 @@
+{
+    "The text element ID, retrieved from&nbsp;{}{}layer_text_create{}{}&nbsp;or&nbsp;{}{}layer_text_get_id{}{}.":"文本元素 ID，从 {}{}layer_text_create{}{} 或 {}{}layer_text_get_id{}{} 检索。",
+    "This function destroys the given Text Element.":"此函数会破坏给定的文本元素。",
+    "This gets the ID of the Text Element {}text1{} from the {}Assets{} layer. It then checks whether that element exists, and if it does, it destroys it.":"这将从 {}Assets{} 层获取文本元素 {}text1{} 的 ID。然后它检查该元素是否存在，如果存在，则销毁它。"
+}

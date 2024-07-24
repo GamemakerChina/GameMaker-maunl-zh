@@ -5,5 +5,7 @@
     "The first colour is that which all particles will start with, and the second colour is the one on which the particle will end with, and a smooth gradient change will occur to the colour over the particle\u0027s lifetime from one colour to the other.":"第一种颜色是所有粒子将开始的颜色，第二种颜色是粒子将结束的颜色，并且在粒子的寿命期间，颜色将发生从一种颜色到另一种颜色的平滑梯度变化。",
     "The index of the particle type to change.":"要更改的粒子类型的索引。",
     "This function can be used to set a two colour gradient for each particle created of the given type. The first colour is that which all particles will start with, and the second colour is the one on which the particle will end with, and a smooth gradient change will occur to the colour over the particles lifetime from one colour to the other.":"此函数可用于为给定类型创建的每个粒子设置两个颜色渐变。第一种颜色是所有粒子开始的颜色，第二种颜色是粒子结束的颜色，并且粒子寿命从一种颜色到另一种颜色的颜色将发生平滑的梯度变化。",
-    "This function sets a two colour gradient for each particle created of the given type.":"该函数为给定类型创建的每个粒子设置两种颜色的渐变。"
+    "This function sets a two colour gradient for each newly created particle of the given type.":"此函数为每个新创建的给定类型的粒子设置两种颜色渐变。",
+    "This function sets a two colour gradient for each particle created of the given type.":"该函数为给定类型创建的每个粒子设置两种颜色的渐变。",
+    "{}{}NOTE{}{}&nbsp;Existing particles of the given type are unaffected.":"{}{} 注意{}{} 给定类型的现有粒子不受影响。"
 }

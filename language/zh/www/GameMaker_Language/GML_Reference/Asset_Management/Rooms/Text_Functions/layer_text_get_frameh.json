@@ -1,0 +1,6 @@
+{
+    "The text element ID, retrieved from&nbsp;{}{}layer_text_create{}{}&nbsp;or&nbsp;{}{}layer_text_get_id{}{}.":"文本元素 ID，从 {}{}layer_text_create{}{} 或 {}{}layer_text_get_id{}{} 检索。",
+    "Then it draws a blue {}round rectangle{} that covers the entire frame. To ensure this appears behind the text, the Object Instance needs to be in a layer with a depth higher than the Asset Layer where the Text Element is placed.":"然后它会绘制一个覆盖整个框架的蓝色 {} 圆角矩形 {}。为了确保它出现在文本后面，对象实例需要位于比放置文本元素的资源层更深的层中。",
+    "This function returns the frame height of the given Text Element.&nbsp;This can be changed with&nbsp;{}{}layer_text_frameh{}{}.":"此函数返回给定文本元素的框架高度。可以使用 {}{}layer_text_frameh{}{} 更改此设置。",
+    "This gets the ID of the Text Element {}text1{} from the layer {}Assets{}, then gets its text position (by subtracting the element\u0027s origin from its X/Y position) and its frame width and height.":"这会从 {}Assets{} 层获取文本元素 {}text1{} 的 ID，然后获取其文本位置 (通过从其 X/Y 位置减去元素的原点) 及其框架宽度和高度。"
+}

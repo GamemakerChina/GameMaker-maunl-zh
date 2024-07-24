@@ -1,5 +1,7 @@
 {
     "The above code gets the tile map ID from the given layer and then gets the x and y cell position for the tile under the mouse. This position is then used to get the tile-data which is rotated and then used to set the tile again.":"上述代码从给定层获取块映射ID，然后在鼠标下获取块的x和y单元位置。然后，此位置用于获取旋转的图块数据，然后用于再次设置图块。",
+    "This function can be used to check whether in a given set of tile-data the tile has been rotated 90 degrees or not.":"此函数可用于检查给定的图块数据集中图块是否已旋转 90 度。",
     "This function can be used to check whether in a given set of tile-data the tile has been rotated 90 degrees or not. You give the tile-data, which can be retrieved using the function {}{}tilemap_get(){}{}, and the function will return {}true{} if the tile is rotated, or {}false{} if not.":"此函数可用于检查在给定图块数据集中，图块是否已旋转 90 度。提供了可以使用函数{}{}tilemap_get(){}{}检索的图块数据，如果块旋转，函数将返回{}true{}，否则返回{}false{}。",
+    "You give the tile data, which can be retrieved using the function {}{}tilemap_get(){}{}, and the function will return {}true{} if the tile is rotated, or {}false{} if not.":"您提供图块数据，可以使用函数 {}{}tilemap_get(){}{} 检索该数据，如果图块旋转，该函数将返回 {}true{}，否则返回 {}false{}。",
     "the tile-data to check":"要检查的图块数据"
 }

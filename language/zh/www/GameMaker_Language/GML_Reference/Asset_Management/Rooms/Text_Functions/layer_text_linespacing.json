@@ -1,0 +1,6 @@
+{
+    "The new line spacing for the element.":"元素的新行距。",
+    "The text element ID, retrieved from&nbsp;{}{}layer_text_create{}{}&nbsp;or&nbsp;{}{}layer_text_get_id{}{}.":"文本元素 ID，从 {}{}layer_text_create{}{} 或 {}{}layer_text_get_id{}{} 检索。",
+    "This function changes the line spacing of the given Text Element. This is the space (in pixels) added between each line in the displayed string.":"此函数更改给定文本元素的行距。这是显示字符串中每行之间添加的空格 (以像素为单位)。",
+    "This gets the ID of the Text Element {}text1{} from the layer {}Assets{},&nbsp;gets its line spacing value and applies it back, increased by 4.":"这会从 {}Assets{} 层获取文本元素 {}text1{} 的 ID，获取其行间距值并将其应用回来，增加 4。"
+}

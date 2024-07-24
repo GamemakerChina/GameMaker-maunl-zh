@@ -1,8 +1,11 @@
 {
     "The above code will get the handle of the shader constant \"u_vMatrix\" then set that constant to the current transform matrix.":"上面的代码将获得着色器常数\"u_vMatrix\"的句柄，然后将该常数设置为当前变换矩阵。",
+    "The above code will get the handle of the shader constant {}u_vMatrix{}&nbsp;then set that constant to the current transform matrix.":"上述代码将获取着色器常量 {}u_vMatrix{} 的句柄，然后将该常量设置为当前变换矩阵。",
     "The handle of the shader constant to set.":"要设置的着色器常量的句柄。",
+    "This function sets the value (or values) of a shader constant to the current transform matrix (as set using the {}Matrix Functions{}).":"此函数将着色器常量的一个或多个值设置为当前变换矩阵 (使用 {} 矩阵函数 {} 设置)。",
     "With this function you can set the value (or values) of a shader constant to the current transform matrix (as set using the {}Matrix Functions{}). You must previously have gotten the \"handle\" of the constant using the function {}{}shader_get_uniform(){}{}.":"使用此函数，可以将着色器常量的值设置为当前变换矩阵(使用{}矩阵函数{}设置)。 您必须之前使用函数{}{}shader_get_uniform(){}{}获得常量的\"句柄\"。",
     "With this function you can set the value (or values) of a shader constant to the current transform matrix (as set using the {}Matrix Functions{}). You must previously have gotten the \"handle\" of the constant using the function {}{}shader_get_uniform(){}{}.{}{}":"通过此函数，您可以将着色器常量的一个或多个值设置为当前变换矩阵 (使用 {} 矩阵函数 {} 设置)。您之前必须已使用函数 {}{}shader_get_uniform(){}{} 获取了常量的 \" 句柄\"。{}{}",
+    "You must previously have gotten the \"handle\" of the constant using the function {}{}shader_get_uniform{}{}.{}{}":"您之前必须已使用函数 {}{}shader_get_uniform{}{} 获取了常量的 \" 句柄\"。{}{}",
     "{}{}NOTE{}{}&nbsp;All uniforms must be set {}after{} calling the function {}{}shader_set{}{}&nbsp;and {}before{} calling {}{}shader_reset{}{}.":"{}{} 注意{}{} 必须在调用函数 {}{}shader_set{}{}{4} 之后 {5} 和调用 {}{}shader_reset{}{}{10} 之前 {11} 设置所有 uniforms 。",
     "{}{}{}NOTE{}: All uniforms must be set {}after{} calling the function {}{}{}shader_set(){}{}{}, and before calling {}{}{}shader_reset(){}{}{}.":"{}{}{}注意{}：在调用函数 {}{}{}shader_set(){}{}{}{4} 之后 {5}，在调用 {}{}{}shader_reset(){}{}{} 之前，必须设置所有 uniform 。"
 }

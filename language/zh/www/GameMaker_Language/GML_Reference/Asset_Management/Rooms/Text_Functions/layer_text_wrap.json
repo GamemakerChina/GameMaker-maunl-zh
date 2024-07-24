@@ -1,0 +1,6 @@
+{
+    "Enable ({}true{}) or disable ({}false{}) wrapping":"启用 ({}true{}) 或禁用 ({}false{}) 换行",
+    "The text element ID, retrieved from&nbsp;{}{}layer_text_create{}{}&nbsp;or&nbsp;{}{}layer_text_get_id{}{}.":"文本元素 ID，从 {}{}layer_text_create{}{} 或 {}{}layer_text_get_id{}{} 检索。",
+    "This function enables or disables wrapping of text in the given Text Element. When enabled, text is moved to the next line when the current line width exceeds the {}frame width{}.":"此函数启用或禁用给定文本元素中的文本换行。启用后，当当前行宽度超过 {} 框架宽度 {} 时，文本将移动到下一行。",
+    "This gets the ID of the Text Element {}text1{} from the layer {}Assets{}, and gets the wrapping boolean value. It then reapplies the boolean value after flipping it, so if wrapping is disabled, it will be enabled, and vice versa.":"这会从 {}Assets{} 层获取文本元素 {}text1{} 的 ID，并获取包装布尔值。然后，它会在翻转后重新应用布尔值，因此，如果禁用换行，则会启用换行，反之亦然。"
+}

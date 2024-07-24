@@ -1,0 +1,10 @@
+{
+    "The X position in the room where the text element should be created. Note that the actual X position where the text appears will be negatively offset by its {}xorigin{} value.":"应在房间中创建文本元素的 X 位置。请注意，文本出现的实际 X 位置将以其 {}xorigin{} 值进行负偏移。",
+    "The Y position in the room where the text element should be created. Note that the actual Y position where the text appears will be negatively offset by its {}yorigin{} value.":"应在房间中创建文本元素的 Y 位置。请注意，文本出现的实际 Y 位置将以其 {}yorigin{} 值进行负偏移。",
+    "The actual text string that appears on this element.":"出现在该元素上的实际文本字符串。",
+    "The font asset to use for rendering the text.":"用于渲染文本的字体资源。",
+    "The function will return -1 if the given layer does not exist.":"如果给定层不存在，该函数将返回 -1。",
+    "The layer where you want to create the element.&nbsp;{}You can supply the layer name as a string, or the layer ID returned from a function like&nbsp;{}{}layer_get_id{}{}&nbsp;or&nbsp;{}{}layer_create{}{}.{}":"您要在其中创建元素的层。{} 您可以以字符串形式提供层名称，或从 {}{}layer_get_id{}{} 或 {}{}layer_create{}{} 等函数返回的层 ID。{}",
+    "This creates a new Text Element in the {}Assets{} layer, at the instance\u0027s position, using the {}Font1{} font asset.":"这会使用 {}Font1{} 字体资源在实例位置的 {}Assets{} 层中创建一个新的文本元素。",
+    "This function creates a new Text Element in a room layer, and returns its element ID.":"此函数在房间图层中创建一个新的文本元素，并返回其元素 ID。"
+}

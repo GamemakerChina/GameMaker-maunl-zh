@@ -1,0 +1,4 @@
+{
+    "The above code gets the stencil operation that\u0027s performed&nbsp;{}when the stencil test passes but the depth test fails.{}":"上述代码获取当模板测试通过但深度测试失败时执行的模板操作。{}",
+    "This function gets the stencil operation that\u0027s executed&nbsp;{}when the stencil test passes but the depth test fails.{}":"此函数获取当模板测试通过但深度测试失败时执行的模板操作。{}"
+}

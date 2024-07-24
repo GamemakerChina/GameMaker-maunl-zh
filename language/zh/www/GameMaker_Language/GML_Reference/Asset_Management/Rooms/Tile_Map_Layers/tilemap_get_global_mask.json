@@ -1,4 +1,9 @@
 {
+    "For further information on global tile map bit masks, see the function {}{}tilemap_set_global_mask{}{}.":"有关全局图块地图位掩码的更多信息，请参阅函数 {}{}tilemap_set_global_mask{}{}。",
     "The above code gets the global mask value associated with all tile maps. If it is not the same as the value defined in the variable \"new_mask\", then it is set to that value.":"上述代码获得与所有图块贴图相关联的全局掩码值。如果它与变量\"new_mask\"中定义的值不同，则将其设置为该值。",
-    "This function can be used to retrieve the bit mask value for {}all{} tile maps, returning the current mask value or -1 if there is an error or 0 if no mask is specified. For further information on global tile map bit masks, see the function {}{}tilemap_set_global_mask(){}{}.":"此函数可用于检索{}all{}图块贴图的位掩码值，如果出现错误，则返回当前掩码值或-1;如果未指定掩码，则返回0。有关全局图块映射位掩码的更多信息，请参见函数{}{}tilemap_set_global_mask(){}{}。"
+    "The above code gets the global mask value associated with all tile maps. If it is not the same as the value defined in the variable {}_new_mask{}, then it is set to that value.":"上面的代码获取与所有瓦片地图关联的全局掩码值。如果它与变量 {}_new_mask{} 中定义的值不同，则将其设置为该值。",
+    "The function returns the current mask value or -1 if there is an error.":"该函数返回当前掩码值，如果出现错误，则返回 -1。",
+    "This function can be used to retrieve the bit mask value for {}all{} tile maps, returning the current mask value or -1 if there is an error or 0 if no mask is specified. For further information on global tile map bit masks, see the function {}{}tilemap_set_global_mask(){}{}.":"此函数可用于检索{}all{}图块贴图的位掩码值，如果出现错误，则返回当前掩码值或-1;如果未指定掩码，则返回0。有关全局图块映射位掩码的更多信息，请参见函数{}{}tilemap_set_global_mask(){}{}。",
+    "This function returns the global bit mask value, the one used for {}all{} tile maps.":"此函数返回全局位掩码值，该值用于 {} 所有 {} 图块地图。",
+    "{}{}Real{}{} (the global mask value or -1 in case of an error)":"{}{}Real{}{}( 全局掩码值，如果出现错误，则为 -1)"
 }

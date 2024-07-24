@@ -1,0 +1,5 @@
+{
+    "The above code gets the stencil operation that\u0027s used when the stencil test passes and stores it in a local variable {}_pass_op{} for further use.":"上述代码获取模板测试通过时使用的模板操作，并将其存储在局部变量 {}_pass_op{} 中以供进一步使用。",
+    "The default operation performed when the stencil test passes is {}stencilop_keep{}.":"模板测试通过时执行的默认操作是 {}stencilop_keep{}。",
+    "This function gets the operation that\u0027s performed on pixels for which the stencil test passes.":"此函数获取对模板测试通过的像素执行的操作。"
+}

@@ -1,4 +1,5 @@
 {
     "The above code will get the current ambient light colour and store it in a variable.":"上述代码将获得当前环境光颜色并存储在变量中。",
+    "This function returns the current colour used for ambient lighting.":"此函数返回用于环境照明的当前颜色。",
     "This function will return the current colour used for ambient lighting.":"此函数将返回用于环境照明的当前颜色。"
 }

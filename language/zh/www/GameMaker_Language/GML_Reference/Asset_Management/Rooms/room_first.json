@@ -1,4 +1,5 @@
 {
     "The above code will check the \"lives\" variable and if it is less than 1 go to the first room in the game.":"上面的代码将检查\" Lives \"变量，如果它小于1，则转到游戏中的第一个房间。",
-    "This {}read only{} variable returns the index of the very first room in the game (this is defined by the order in which the rooms appear in the {}Room Manager{} and {}not{} by the order in which they were created).":"此{}只读{}变量返回游戏中第一个房间的索引(这由房间在{}房间管理器{}中的显示顺序定义，而{}不是{}按创建房间的顺序定义)。"
+    "This {}read only{} variable returns the index of the very first room in the game (this is defined by the order in which the rooms appear in the {}Room Manager{} and {}not{} by the order in which they were created).":"此{}只读{}变量返回游戏中第一个房间的索引(这由房间在{}房间管理器{}中的显示顺序定义，而{}不是{}按创建房间的顺序定义)。",
+    "This {}read-only{} variable returns the index of the very first room in the game (this is defined by the order in which the rooms appear in the {}Room Manager{} and {}not{} by the order in which they were created).":"此 {} 只读 {} 变量返回游戏中第一个房间的索引 (这是由房间在 {} 房间管理器 {} 中出现的顺序定义的，而不是由它们是被创建的)。"
 }

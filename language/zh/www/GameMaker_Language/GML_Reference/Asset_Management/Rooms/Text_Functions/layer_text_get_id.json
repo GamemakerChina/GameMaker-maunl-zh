@@ -1,0 +1,7 @@
+{
+    "The layer to check.&nbsp;{}You can supply the layer name as a string, or the layer ID returned from a function like&nbsp;{}{}layer_get_id{}{}&nbsp;or&nbsp;{}{}layer_create{}{}.{}":"要检查的图层。{} 您可以以字符串形式提供层名称，或从 {}{}layer_get_id{}{} 或 {}{}layer_create{}{} 等函数返回的层 ID。{}",
+    "The name of the Text Element as a string, see image above.":"文本元素的名称作为字符串，请参见上图。",
+    "This function returns the ID of a Text Element which was placed in the Room Editor. This ID can be used in the&nbsp;{}Text Element Functions{}.":"此函数返回放置在房间编辑器中的文本元素的 ID。此 ID 可在 {} 文本元素函数 {} 中使用。",
+    "This gets the ID of the Text Element {}text1{} from the {}Assets{} layer. It then checks whether that element exists, and if it does, it destroys it.":"这将从 {}Assets{} 层获取文本元素 {}text1{} 的 ID。然后它检查该元素是否存在，如果存在，则销毁它。",
+    "You must provide a layer to check in, and the name of the text element as set in the Room Editor, as a string:":"您必须提供一个要签入的图层，以及在房间编辑器中设置的文本元素的名称 (作为字符串)："
+}

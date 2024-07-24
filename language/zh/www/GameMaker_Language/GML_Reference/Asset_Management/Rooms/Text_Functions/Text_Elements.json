@@ -1,0 +1,11 @@
+{
+    "Text Element Functions":"文本元素功能",
+    "Text Element Property Getters":"文本元素属性获取",
+    "Text Element Property Setters":"文本元素属性设置",
+    "The functions listed here allow you to create and modify Text Elements in room layers.":"此处列出的功能允许您在房间图层中创建和修改文本元素。",
+    "These functions let you create/destroy text elements, check if one exists, and get the ID of an element for use in functions.":"这些函数可让您创建 / 销毁文本元素，检查文本元素是否存在，并获取元素的 ID 以在函数中使用。",
+    "These functions let you modify any property of a text element, by providing its {}ID{}.":"这些函数可让您通过提供文本元素的 {}ID{} 来修改文本元素的任何属性。",
+    "These functions let you read any property from a text element, by providing its {}ID{}.":"这些函数可让您通过提供文本元素的 {}ID{} 来读取其任何属性。",
+    "{}Text Elements{}":"{} 文本元素 {}",
+    "{}You can place text in&nbsp;{}The Room Editor{}&nbsp;by creating an {}Asset Layer{}, and then dragging in a font asset or using the&nbsp;{}&nbsp;tool from the Layer Toolbox.&nbsp;The default text that appears on a new text element can be changed from the&nbsp;{}Room Editor Preferences{}.":"{} 您可以通过创建 {}Asset Layer{}，然后拖入字体资源或使用 Layer Toolbox 中的 {} 工具，将文本放置在 {}Room Editor{} 中。新文本元素上显示的默认文本可以通过 {} 房间编辑器首选项 {} 进行更改。"
+}

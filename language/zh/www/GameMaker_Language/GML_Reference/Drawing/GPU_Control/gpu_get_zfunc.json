@@ -10,5 +10,7 @@
     "Never":"从不",
     "Not Equal":"不等于",
     "The above code checks to see if the z-testing method is set to {}cmpfunc_greater{} and if not then it is set to that constant.":"以上代码检查z-测试方法是否设置为{}cmpfunc_greater{}，如果不是，则将其设置为该常量。",
+    "The value returned will be one of the following constants (the default value is {}{}cmpfunc_lessequal{}{}):":"返回的值将是以下常量之一 (默认值为 {}{}cmpfunc_lessequal{}{})：",
+    "This function can be used to retrieve the z comparison mode, i.e. the comparison to use for&nbsp;{}The Depth Test{}.":"此函数可用于检索 z 比较模式，即用于 {} 深度测试 {} 的比较。",
     "This function can be used to retrieve the z comparison mode. The value returned will be one of the following constants (the default value is {}cmpfunc_lessequal{}):":"此函数可用于检索Z比较模式。返回的值将是以下常量之一(默认值为{}cmpfunc_lessequal{})："
 }

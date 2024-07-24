@@ -1,0 +1,4 @@
+{
+    "The code above retrieves whether the stencil test is currently enabled with a call to&nbsp;{}{}gpu_get_stencil_enable{}{}&nbsp;and stores the result in a temporary variable {}_enabled{}.":"上述代码通过调用 {}{}gpu_get_stencil_enable{}{} 来检索当前是否启用了模板测试，并将结果存储在临时变量 {}_enabled{} 中。",
+    "This function returns whether the stencil test is currently enabled.":"此函数返回当前是否启用了模板测试。"
+}
