@@ -1,0 +1,7 @@
+{
+    "See:&nbsp;{}Border{} / {}{}flexpanel_node_style_set_border{}{}":"请参阅：{} 边框 {}/{}{}flexpanel_node_style_set_border{}{}",
+    "The edge to get the border for.":"获取边框的边缘。",
+    "The node to read.":"要读取的节点。",
+    "This function returns the border for the given edge(s)&nbsp;of a {}{}Flex Panel Node{}{}.":"此函数返回 {}{}Flex Panel 节点 {}{} 的给定边缘的边框。",
+    "This gets the general border of a node and stores it in a local variable.":"这获取节点的总体边界并将其存储在局部变量中。"
+}

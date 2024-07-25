@@ -1,0 +1,5 @@
+{
+    "The node to read.":"要读取的节点。",
+    "This function returns the {}flexWrap{} property of the given {}{}Flex Panel Node{}{}.":"此函数返回给定 {}{}Flex Panel 节点 {}{} 的 {0}flexWrap{1} 属性。",
+    "This gets the flex wrap value of a node and stores it in a local variable.":"这会获取节点的 Flex Wrap 值并将其存储在局部变量中。"
+}

@@ -1,0 +1,7 @@
+{
+    "See:&nbsp;{}Aspect Ratio{}":"请参阅：{} 宽高比 {}",
+    "The aspect ratio":"纵横比",
+    "The node to modify":"要修改的节点",
+    "This function sets the {}aspectRatio{} property of the given {}{}Flex Panel Node{}{}.":"此函数设置给定 {}{}Flex 面板节点 {}{} 的 {0}aspectRatio{1} 属性。",
+    "This sets the aspect ratio of a node to 1.":"这会将节点的纵横比设置为 1。"
+}

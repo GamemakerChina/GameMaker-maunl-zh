@@ -1,0 +1,6 @@
+{
+    "Read&nbsp;{}{}flexpanel_node_remove_child{}{}&nbsp;for information on how it affects each child node.":"请阅读 {}{}flexpanel_node_remove_child{}{}，了解它如何影响每个子节点的信息。",
+    "The node from which all children will be removed":"将删除所有子节点的节点",
+    "This function removes all direct children from the given node (but doesn\u0027t {}delete{} them).":"此函数会从给定节点中删除所有直接子节点 (但不会 {} 删除 {} 它们)。",
+    "This removes all children from the node {}n_root{}.":"这将从节点 {}n_root{} 中删除所有子节点。"
+}

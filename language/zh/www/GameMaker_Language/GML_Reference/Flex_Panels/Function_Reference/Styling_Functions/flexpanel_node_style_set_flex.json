@@ -1,0 +1,7 @@
+{
+    "See:&nbsp;{}Flex{}":"请参阅：{}柔性{}",
+    "The flex value to use":"使用的柔性值",
+    "The node to modify":"要修改的节点",
+    "This function sets the {}flex{} property of the given {}{}Flex Panel Node{}{}.":"此函数设置给定 {}{}Flex 面板节点 {}{} 的 {0}flex{1} 属性。",
+    "This sets the flex value of a node to -1, acting as the flex shrink value being set to 1.":"这会将节点的 Flex 值设置为 -1，相当于将 Flex 收缩值设置为 1。"
+}

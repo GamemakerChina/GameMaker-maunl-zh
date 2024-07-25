@@ -1,0 +1,7 @@
+{
+    "See:&nbsp;{}Padding{} / {}{}flexpanel_node_style_set_padding{}{}":"请参阅：{} 内边距 {}/{}{}flexpanel_node_style_set_padding{}{}",
+    "The edge to get the padding for.":"获取填充的边缘。",
+    "The node to read.":"要读取的节点。",
+    "This function returns the padding for the given edge(s)&nbsp;of a {}{}Flex Panel Node{}{}.":"此函数返回 {}{}Flex Panel 节点 {}{} 的给定边缘的填充。",
+    "This gets the general padding of a node and stores it in a local variable.":"这获取节点的一般填充并将其存储在局部变量中。"
+}

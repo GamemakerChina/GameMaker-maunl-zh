@@ -1,0 +1,9 @@
+{
+    "The container to insert into, i.e. the parent":"要插入的容器，即父容器",
+    "The container to insert, i.e. the child":"要插入的容器，即子容器",
+    "The index of the child within the parent, e.g. 0, 1, 2, etc.":"父级中子级的索引，例如 0、1、2 等",
+    "This creates a root node and then runs a&nbsp;{}repeat{}&nbsp;loop to insert several child nodes into the root node.":"这将创建一个根节点，然后运行 \u200B\u200B{}repeat{} 循环以将多个子节点插入到根节点中。",
+    "This function inserts the node {}node{}&nbsp;(second argument) into the node {}root{}&nbsp;(first argument) as a child.":"此函数将节点 {}node{}( 第二个参数) 作为子节点插入到节点 {}root{}( 第一个参数) 中。",
+    "You can use this index value to later retrieve the child node from the parent using&nbsp;{}{}flexpanel_node_get_child{}{}.":"您可以使用此索引值稍后使用 {}{}flexpanel_node_get_child{}{} 从父节点检索子节点。",
+    "You must provide its index, which controls where the child is placed in the parent\u0027s hierarchy, which will then affect its layout position (unless the child\u0027s&nbsp;{}Position Type{} is absolute). The index must start at 0 and must not be negative or greater than the number of children already in the parent node.":"您必须提供其索引，该索引控制子级在父级层次结构中的放置位置，从而影响其布局位置 (除非子级的 {} 位置类型 {} 是绝对的)。索引必须从 0 开始，并且不能为负数或大于父节点中已有的子节点数。"
+}

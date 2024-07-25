@@ -1,0 +1,8 @@
+{
+    "See:&nbsp;{}Min/Max Width and Height{}":"请参阅：{} 最小 / 最大宽度和高度 {}",
+    "The node to modify":"要修改的节点",
+    "The unit of the value":"数值单位",
+    "The value to use":"设置的值",
+    "This function sets the {}minWidth{} property of the given {}{}Flex Panel Node{}{}.":"此函数设置给定 {}{}Flex Panel 节点 {}{} 的 {0}minWidth{1} 属性。",
+    "This sets the minimum width of a node to 120px.":"这将节点的最小宽度设置为 120px。"
+}

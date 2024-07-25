@@ -1,0 +1,8 @@
+{
+    "If no {}data{} member was set when creating the node, it will have been initialised with an empty data struct, and the function will return that so you can populate it with members.":"如果在创建节点时未设置 {}data{} 成员，则该节点将使用空数据结构进行初始化，并且该函数将返回该数据结构，以便您可以使用成员填充它。",
+    "If the node was given a {}data{} member in its initial struct or JSON when {}it was created{}, this will return that.":"如果节点在 {} 创建 {} 时在其初始结构或 JSON 中被赋予了 {0}data{1} 成员，则这将返回该成员。",
+    "The node to get the data struct of":"获取数据结构的节点",
+    "The returned struct is&nbsp;{}not{}&nbsp;a copy of the node\u0027s data struct and is a reference to that struct directly, so modifying the struct will affect the data returned in future calls to this function on the same node.":"返回的结构 {} 不是 {} 节点数据结构的副本，而是直接对该结构的引用，因此修改该结构将影响将来在同一节点上调用此函数时返回的数据。",
+    "This function returns the data struct of a node.":"该函数返回节点的数据结构。",
+    "This gets the positional data and data struct of the node {}_node{}. Then it checks if it has an {}inst{} variable. If not, it creates an instance and stores that in the data struct as {}inst{}. If the variable already exists, it updates the instance stored in {}inst{}.":"这将获取节点 {}_node{} 的位置数据和数据结构。然后它检查是否有 {}inst{} 变量。如果没有，它会创建一个实例并将其存储在数据结构中作为 {}inst{}。如果该变量已存在，它将更新存储在 {}inst{} 中的实例。"
+}

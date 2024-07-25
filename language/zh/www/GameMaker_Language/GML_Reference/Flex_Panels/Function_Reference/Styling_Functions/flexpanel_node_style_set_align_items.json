@@ -1,0 +1,7 @@
+{
+    "See:&nbsp;{}Align Items{}":"请参阅：{} 对齐项目 {}",
+    "The alignment to use":"使用的对齐方式",
+    "The node to modify":"要修改的节点",
+    "This function sets the {}alignItems{} property of the given {}{}Flex Panel Node{}{}. It can be one of the following enum members:":"此函数设置给定 {}{}Flex Panel 节点 {}{} 的 {0}alignItems{1} 属性。它可以是以下枚举成员之一：",
+    "This sets the align items of a node to center.":"这将节点的对齐项目设置为居中。"
+}

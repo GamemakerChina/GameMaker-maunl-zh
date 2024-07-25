@@ -1,0 +1,7 @@
+{
+    "See:&nbsp;{}Flex Wrap{}":"请参阅：{}柔性换行{}",
+    "The node to modify":"要修改的节点",
+    "The wrap mode to use":"使用的换行模式",
+    "This enables wrapping for a node.":"这使得能够对节点进行包装。",
+    "This function sets the {}flexWrap{}&nbsp;property of the given {}{}Flex Panel Node{}{}.&nbsp;It can be one of the following enum members:":"此函数设置给定 {}{}Flex Panel 节点 {}{} 的 {0}flexWrap{1} 属性。它可以是以下枚举成员之一："
+}

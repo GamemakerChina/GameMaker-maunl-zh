@@ -1,0 +1,7 @@
+{
+    "See:&nbsp;{}Flex Grow{}":"请参阅：{}柔性扩大{}",
+    "The grow value":"扩大值",
+    "The node to modify":"要修改的节点",
+    "This function sets the {}flexGrow{} property of the given {}{}Flex Panel Node{}{}.":"此函数设置给定 {}{}Flex 面板节点 {}{} 的 {0}flexGrow{1} 属性。",
+    "This sets the flex grow value of a node to 1.":"这会将节点的 Flex Growth 值设置为 1。"
+}

@@ -1,4 +1,7 @@
 {
+    "For more information on epsilon, please see the function {}{}math_set_epsilon{}{}.":"有关 epsilon 的详细信息，请参阅函数 {}{}math_set_epsilon{}{}。",
+    "The default epsilon value is&nbsp;{}{}0.00001{}{}.":"默认 epsilon 值为 {}{}0.00001{}{}。",
+    "This function returns the current epsilon value.":"该函数返回当前的 epsilon 值。",
     "This function will return the current epsilon value for the target platform. For more information on epsilon, please see the function {}{}math_set_epsilon(){}{}.":"此函数将返回目标平台的当前 精度 值。 有关 epsilon 的更多信息，请参阅函数 {}{}math_set_epsilon(){}{}。",
     "This function will return the current epsilon value. For more information on epsilon, please see the function {}{}math_set_epsilon(){}{}.":"此函数将返回当前的精度值。有关精度的更多信息，请参见函数 {}{}math_set_epsilon(){}{}。",
     "This will retrieve the current epsilon value and store it in a local variable, which is then checked and a new epsilon set if required.":"这将检索当前的精度值并将其存储在局部变量中，然后检查该变量并在需要时设置新的精度。"

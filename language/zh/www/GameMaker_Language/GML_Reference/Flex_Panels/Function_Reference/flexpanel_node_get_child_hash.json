@@ -1,0 +1,6 @@
+{
+    "In the Create event, this gets the hash of the string {}\"weap\"{} and stores it in a variable. At a later point in time, it uses that hash to get a child node named {}\"weap\"{} from the node {}n_root{}.":"在 Create 事件中，它获取字符串 {}\"weap\"{} 的哈希值并将其存储在变量中。在稍后的某个时间点，它使用该哈希从节点 {}n_root{} 获取名为 {}\"weap\"{} 的子节点。",
+    "The name of the child or a {}hash{} of its name":"子项的名称或其名称的 {} 哈希 {}",
+    "The parent node from which the child will be retrieved":"将从中检索子节点的父节点",
+    "This function is the same as&nbsp;{}{}flexpanel_node_get_child{}{}, but it takes either the name of the child to look for or a {}hash{} of its name.":"此函数与 {}{}flexpanel_node_get_child{}{} 相同，但它需要查找子项的名称或其名称的 {} 哈希 {}。"
+}

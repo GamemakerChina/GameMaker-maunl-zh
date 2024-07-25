@@ -1,7 +1,10 @@
 {
     "Note that this will only detect lists that were added using the{}&nbsp;{}{}{}ds_map_add_list(){}{}{}&nbsp;{}function.":"请注意，这将仅检测使用{}{}{}{}ds_map_add_list(){}{}{}{}{}函数添加的列表。",
+    "The ID of the map to use.":"要使用的地图的 ID。",
+    "The above code loops through a DS map and checks to see if any of the keys in it are for a DS list. If they are, then the DS list is destroyed, and the at the end of the loop the DS map is destroyed too.":"上面的代码循环遍历 DS 映射并检查其中是否有任何键用于 DS 列表。如果是，则 DS 列表将被销毁，并且在循环结束时 DS 映射也将被销毁。",
     "The above code loops through a DS map and checks to see if any of the keys within it are for a DS list. If they are, then the DS list is destroyed, and the at the end of the loop the DS map is destroyed too.":"上述代码循环浏览DS映射并检查其中是否有任何密钥用于DS列表。如果是，则销毁DS列表，并且在循环结束时也销毁DS映射。",
     "The id of the map to use.":"要使用的映射的ID。",
     "The key to check.":"要把关的钥匙。",
-    "With this function you can check to see if a {}DS list{} is stored in the given map key. If the given key contains a DS list ID, then the function will return {}true{} otherwise it will return {}false{}.":"使用此函数，您可以检查{}DS列表{}是否存储在给定的映射键中。如果给定的密钥包含DS列表ID，则函数将返回{}true{}，否则将返回{}false{}。"
+    "With this function you can check to see if a {}DS list{} is stored in the given map key. If the given key contains a DS list ID, then the function will return {}true{} otherwise it will return {}false{}.":"使用此函数，您可以检查{}DS列表{}是否存储在给定的映射键中。如果给定的密钥包含DS列表ID，则函数将返回{}true{}，否则将返回{}false{}。",
+    "{}{}NOTE{}{}&nbsp;This will only detect lists that were added using the&nbsp;{}{}ds_map_add_list{}{} function.":"{}{} 注意{}{} 这只会检测使用 {}{}ds_map_add_list{}{} 函数添加的列表。"
 }

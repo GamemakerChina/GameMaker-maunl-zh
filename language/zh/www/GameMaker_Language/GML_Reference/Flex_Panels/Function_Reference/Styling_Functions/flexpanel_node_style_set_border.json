@@ -1,0 +1,8 @@
+{
+    "See:&nbsp;{}Border{}":"请参阅：{} 边框 {}",
+    "The edge to set the border for":"要设置边框的边缘",
+    "The node to modify":"要修改的节点",
+    "The size of the border":"边框的大小",
+    "This function sets the border&nbsp;for the given edge(s) of a {}{}Flex Panel Node{}{}.":"此函数设置 {}{}Flex Panel 节点 {}{} 的给定边缘的边框。",
+    "This sets the border of a node for all its edges to 10px.":"这会将节点所有边的边框设置为 10px。"
+}

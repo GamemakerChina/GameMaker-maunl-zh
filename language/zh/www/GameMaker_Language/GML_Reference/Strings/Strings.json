@@ -27,6 +27,7 @@
     "It is worth noting that there are certain conventions that you can use when creating strings, mostly concerned with using {}escape characters{}. These are characters that are preceded by a \"{}\\{}\" symbol. So, for example, if you wanted to put quotation marks within a string you would have something like this:":"值得注意的是，在创建字符串时可以使用某些约定，主要涉及使用{}转义字符{}。这些是前面带有“{}\\{}”符号的字符。例如，如果你想在一个字符串中加上引号，你可以这样做:",
     "Iteration":"重复",
     "Just using \"{}\\u00e2a{}\" would actually result in the Unicode character \"{}ส{}\" (essentially becoming \"{}\\ue2a{}\").{}{}":"只使用 \"{}\\u00e2a{}\" 实际上会产生 Unicode 字符 \"{}ส{}\"( 实质上变成 \"{}\\ue2a{}\")。",
+    "Lastly,&nbsp;{}GameMaker{}&nbsp;also provides a convenient way to convert&nbsp;{}structs{}&nbsp;and&nbsp;{}instances{}&nbsp;to a string representation by assigning them a {}toString method{}.":"最后，{}GameMaker{} 还提供了一种便捷的方法，通过为 {} 结构 {} 和 {} 实例 {} 分配一个 {}toString 方法 {}，将其转换为字符串表示形式。",
     "Lastly,&nbsp;{}GameMaker{}&nbsp;also provides a convenient way to convert&nbsp;{}structs{}&nbsp;and&nbsp;{}instances{}&nbsp;to a string representation by assigning them a&nbsp;{} {}.":"最后，{}GameMaker{} 还提供了一种便捷的方法来转换{}结构{}和{}实例{}到字符串表示形式，方法是为它们分配一个{}{}。",
     "Lastly,&nbsp;{}GameMaker{}&nbsp;also provides a convenient way to convert&nbsp;{}structs{}&nbsp;and&nbsp;{}instances{}&nbsp;to a string representation by assigning them a&nbsp;{}toString() Method{}.":"最后，{}GameMaker{} 还提供了一种便捷的方法来转换{}结构{}和{}实例{}到字符串表示形式，是为它们分配一个 {}toString() 方法{}。",
     "Manipulating Strings":"操作字符串",

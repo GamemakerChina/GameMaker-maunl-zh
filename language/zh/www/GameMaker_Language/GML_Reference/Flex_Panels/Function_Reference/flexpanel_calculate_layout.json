@@ -1,0 +1,13 @@
+{
+    "It is required that you run this function at least once before using the layout positions of a node, otherwise all positions for the node (and its child nodes) will be 0. You may run this function again for re-calculating layouts in case of a resolution change.":"在使用节点的布局位置之前，需要至少运行一次该函数，否则该节点 (及其子节点) 的所有位置都将为 0。如果出现以下情况，您可以再次运行该函数来重新计算布局分辨率改变。",
+    "The direction to use for all nodes":"用于所有节点的方向",
+    "The function takes a {}width{} and a {}height{}&nbsp;where the root node is \"placed\" for layout calculations. For example, if the root node has a {}width{} of {}\"100%\"{}, and the width you pass to this function is {}560{}, then the width of that root node canvas becomes 560 pixels.":"该函数采用根节点\"放置\"位置处的{}width{}和{}height{}以进行布局计算。例如，如果根节点的{}width{}为{}\"100%\"{}，并且您传递给此函数的宽度为{}560{}，则该根节点画布的宽度将变为560像素。",
+    "The height that the root node is calculated against":"计算根节点的高度",
+    "The node for which calculations are performed":"进行计算的节点",
+    "The width or height can be {}{}{}undefined{}{}{}, in which case it will extend indefinitely.":"宽度或高度可以是 {}{}{}undefined{}{}{}，在这种情况下，它将无限期地延伸。",
+    "The width that the root node is calculated against":"计算根节点的宽度",
+    "This calculates the layout for the node {}n_root{} within the room dimensions, using a left-to-right direction.":"这将使用从左到右的方向计算节点 {}n_root{} 在房间尺寸内的布局。",
+    "This function calculates the layout data for the given node and all of its children. The calculated layouts are returned with&nbsp;{}{}flexpanel_node_layout_get_position{}{}.":"此函数计算给定节点及其所有子节点的布局数据。计算出的布局通过 {}{}flexpanel_node_layout_get_position{}{} 返回。",
+    "You can see these dimensions as the final resolution of the canvas where your layout is active, e.g. when making a full-screen interface, these dimensions would be equal to your game window\u0027s size, or for an interface that is housed inside a small window within your game, they would be the dimensions of that window.":"您可以将这些尺寸视为布局处于活动状态的画布的最终分辨率，例如当制作全屏界面时，这些尺寸将等于游戏窗口的尺寸，或者对于位于游戏内小窗口内的界面，它们将是该窗口的尺寸。",
+    "You must choose whether the {}layout direction{} is left-to-right or right-to-left by passing a&nbsp;{}{}Flex Panel Layout Direction Constant{}{}.":"您必须通过传递 {}{}Flex 面板布局方向常量 {}{} 来选择 {} 布局方向 {} 是从左到右还是从右到左。"
+}

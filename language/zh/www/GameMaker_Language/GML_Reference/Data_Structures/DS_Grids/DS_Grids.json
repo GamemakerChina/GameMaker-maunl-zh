@@ -1,10 +1,12 @@
 {
+    "A DS grid is a type of{}&nbsp;{}array{} with 2 dimensions{}. You define the grid by setting its integer width and height, which sets the total number of \"cells\" within the grid (the width and height multiplied). These cells are then used to hold different data values (real numbers or strings).":"DS 网格是一种具有 2 维的{} {} 数组 {}。 您可以通过设置网格的整数宽度和高度来定义网格，这设置了网格内 \" 单元格 \" 的总数 (宽度和高度的乘积)。然后，这些单元格用于保存不同的数据值 (实数或字符串)。",
     "A DS grid is basically a type of{}&nbsp;{}array{} with 2 dimensions{}. You define the grid by setting its integer width and height, which then sets the total number of \"cells\" within the grid (the width and height multiplied) and these cells are then used to hold different data values (real numbers or strings).":"DS网格基本上是具有2个维度{}的{}{}数组{}的类型。您可以通过设置网格的整数宽度和高度来定义网格，然后设置网格中\"单元格\"的总数(宽度和高度的乘积)，这些单元格将用于保存不同的数据值(实数或字符串)。",
     "Apart from the specific functions listed below you can all use an {}expression{} (called an {}accessor{}) to add or modify the contents of your DS grid. This accessor looks similar to a 2D array with the following syntax:":"除了下面列出的特定函数外，您还可以使用 {} 表达式 {}( 称为 {} 访问器 {}) 来添加或修改 DS 网格的内容。此存取器类似于 2D 阵列，具有以下语法：",
     "DS Grids":"DS 网格",
     "Function Reference":"功能参考",
     "General":"基本",
     "MP Grid":"MP网格",
+    "Serialisation":"序列化",
     "Serialization":"序列化",
     "The following functions exist that deal with DS grids:":"存在以下处理DS网格的函数：",
     "When accessing DS grid data structures, you should always try to use {}integer values{} for the cell position, and all non-integer indices will be floored by {}GameMaker{} if you do not. If that is not what you require, then you will need to do the rounding yourself previously before passing the index that you wish to check.":"访问D的网格数据结构时，应始终尝试对单元格位置使用{}整数值{}，否则{}GameMaker{}将泛洪所有非整数索引。如果这不是您所需要的，那么在传递要检查的索引之前，您需要先进行舍入。",

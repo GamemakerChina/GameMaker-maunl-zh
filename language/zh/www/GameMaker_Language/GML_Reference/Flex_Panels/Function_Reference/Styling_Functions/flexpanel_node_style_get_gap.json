@@ -1,0 +1,7 @@
+{
+    "See:&nbsp;{}Gap{} / {}{}flexpanel_node_style_set_gap{}{}":"请参阅：{} 间距 {}/{}{}flexpanel_node_style_set_gap{}{}",
+    "The node to read.":"要读取的节点。",
+    "The specific gap property to check.":"要检查的具体间距属性。",
+    "This function returns the gap of the given {}{}Flex Panel Node{}{}&nbsp;for the specified gutter(s).":"此函数返回指定装订线的给定 {}{}Flex Panel 节点 {}{} 的间隙。",
+    "This gets the general gap of a node and stores it in a local variable.":"这获取节点的一般间隙并将其存储在局部变量中。"
+}

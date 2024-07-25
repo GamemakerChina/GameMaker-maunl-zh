@@ -1,0 +1,8 @@
+{
+    "Finally, the function is run for the root node, which will then be recursively executed for all of its child nodes as well.":"最后，该函数针对根节点运行，然后也将针对其所有子节点递归执行。",
+    "It then iterates through each child of the node and runs the same function for each child.":"然后，它迭代该节点的每个子节点，并为每个子节点运行相同的函数。",
+    "The parent node":"父节点",
+    "This function returns the number of children in the given node.":"该函数返回给定节点中的子节点数。",
+    "This function takes a node and a depth. It then gets the absolute positional data for the node and creates an&nbsp;{}{}Object Instance{}{}&nbsp;at the node\u0027s calculated position, giving the instance the node\u0027s name, width and height.":"该函数需要一个节点和一个深度。然后，它获取节点的绝对位置数据，并在节点的计算位置创建一个 {}{} 对象实例 {}{}，并为该实例提供节点的名称、宽度和高度。",
+    "You can use this value to iterate from {}0{} to the returned {}value - 1{}&nbsp;and retrieve each child node by passing the index value into&nbsp;{}{}flexpanel_node_get_child{}{}.":"您可以使用此值从 {}0{} 迭代到返回的 {} 值-1{}，并通过将索引值传递到 {}{}flexpanel_node_get_child{}{} 来检索每个子节点。"
+}

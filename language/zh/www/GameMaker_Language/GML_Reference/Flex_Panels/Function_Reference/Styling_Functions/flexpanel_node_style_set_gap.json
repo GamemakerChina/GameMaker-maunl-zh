@@ -1,0 +1,8 @@
+{
+    "See:&nbsp;{}Gap{}":"请参阅：{} 间距 {}",
+    "The gutter size":"设置的大小",
+    "The gutter to set":"要设置的间距",
+    "The node to modify":"要修改的节点",
+    "This function sets the gap size&nbsp;of the given {}{}Flex Panel Node{}{}. You must supply the gutter where the gap is applied:":"此函数设置给定 {}{}Flex Panel 节点 {}{} 的间隙大小。您必须提供应用间隙的装订线：",
+    "This sets the gap of a node for all gutters to 10px.":"这会将所有节点的间距设置为 10px。"
+}

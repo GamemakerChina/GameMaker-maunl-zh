@@ -1,0 +1,7 @@
+{
+    "See:&nbsp;{}Margin{} / {}{}flexpanel_node_style_set_margin{}{}":"请参阅：{} 边距 {}/{}{}flexpanel_node_style_set_margin{}{}",
+    "The edge to get the margin for.":"要获取边距的边。",
+    "The node to read.":"要读取的节点。",
+    "This function returns the margin for the given edge(s)&nbsp;of a {}{}Flex Panel Node{}{}.":"此函数返回 {}{}Flex Panel 节点 {}{} 的给定边缘的边距。",
+    "This gets the general margin of a node and stores it in a local variable.":"这获取节点的一般边距并将其存储在局部变量中。"
+}

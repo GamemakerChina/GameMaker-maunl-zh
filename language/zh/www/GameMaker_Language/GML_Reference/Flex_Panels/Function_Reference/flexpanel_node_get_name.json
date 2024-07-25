@@ -1,0 +1,6 @@
+{
+    "The node to get the name of":"要获取名称的节点",
+    "This function returns the name set for the given node. Will return&nbsp;{}{}{}undefined{}{}{}&nbsp;if no name was set.":"该函数返回给定节点的名称集。如果未设置名称，将返回 {}{}{}undefined{}{}{}。",
+    "This gets the name of the node {}_node{} and stores it in a local variable.":"这会获取节点 {}_node{} 的名称并将其存储在局部变量中。",
+    "This is originally set either through the {}name{} property in the {}initial struct{} or through {}{}flexpanel_node_set_name{}{}.":"它最初是通过 {2} 初始结构 {3} 中的 {}name{} 属性或通过 {}{}flexpanel_node_set_name{}{} 设置的。"
+}

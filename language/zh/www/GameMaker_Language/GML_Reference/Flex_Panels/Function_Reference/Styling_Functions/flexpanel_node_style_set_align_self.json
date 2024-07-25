@@ -1,0 +1,6 @@
+{
+    "The alignment to use":"使用的对齐方式",
+    "The node to modify":"要修改的节点",
+    "This function sets the {}alignSelf{} property of the given {}{}Flex Panel Node{}{}. You can pass a {}{}Flex Panel Alignment Constant{}{}.":"此函数设置给定 {}{}Flex Panel 节点 {}{} 的 {0}alignSelf{1} 属性。您可以传递 {}{}Flex 面板对齐常量 {}{}。",
+    "This sets the align self of a node to center.":"这将节点的对齐自身设置为居中。"
+}

@@ -1,0 +1,7 @@
+{
+    "See:&nbsp;{}Position Type{}":"请参阅：{} 属性类型 {}",
+    "The node to modify":"要修改的节点",
+    "The position type to set":"要设置的位置类型",
+    "This function sets the {}position{} property of the given {}{}Flex Panel Node{}{}. It can be one of the following enum members:":"此函数设置给定 {}{}Flex 面板节点 {}{} 的 {0}position{1} 属性。它可以是以下枚举成员之一：",
+    "This sets a node\u0027s position type to absolute, and then sets the left position to 20px and top position to 40px.":"这会将节点的位置类型设置为绝对，然后将左侧位置设置为 20px，顶部位置设置为 40px。"
+}

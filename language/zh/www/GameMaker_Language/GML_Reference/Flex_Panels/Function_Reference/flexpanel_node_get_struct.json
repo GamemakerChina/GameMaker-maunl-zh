@@ -1,0 +1,6 @@
+{
+    "The node to get the struct for":"要获取其结构的节点",
+    "This function returns all the properties of the given node and its children as a struct.":"该函数以结构体的形式返回给定节点及其子节点的所有属性。",
+    "This gets the struct for the node {}_node{} and creates a new node using the same data.":"这将获取节点 {}_node{} 的结构并使用相同的数据创建一个新节点。",
+    "This struct follows the {}structured described here{} and can be passed into&nbsp;{}{}flexpanel_create_node{}{} to create a new layout tree using the same properties.":"该结构遵循 {} 此处描述的结构 {}，并且可以传递到 {}{}flexpanel_create_node{}{} 以使用相同的属性创建新的布局树。"
+}

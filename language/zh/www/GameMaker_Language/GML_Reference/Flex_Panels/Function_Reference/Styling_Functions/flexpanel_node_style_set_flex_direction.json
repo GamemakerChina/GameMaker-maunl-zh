@@ -1,0 +1,7 @@
+{
+    "See:&nbsp;{}Flex Direction{}":"请参阅：{}柔性方向{}",
+    "The flex direction to set":"要设置的柔性方向",
+    "The node to modify":"要修改的节点",
+    "This function sets the {}flexDirection{} property of the given {}{}Flex Panel Node{}{}. It can be one of the following enum members:":"此函数设置给定 {}{}Flex 面板节点 {}{} 的 {0}flexDirection{1} 属性。它可以是以下枚举成员之一：",
+    "This sets the flex direction of a node to column.":"这将节点的柔性方向设置为列。"
+}

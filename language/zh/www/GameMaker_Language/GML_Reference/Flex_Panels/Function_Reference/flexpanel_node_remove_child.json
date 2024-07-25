@@ -1,0 +1,7 @@
+{
+    "After this, the child node will no longer be included in the layout tree where it was present, and effectively becomes the \"root\" of its own tree. You must either use this detached node on its own for {}calculations{}, insert it somewhere else in the same tree where it was, or place it in an entirely different tree.":"此后，子节点将不再包含在其所在的布局树中，并有效地成为其自己的树的 \" 根\"。您必须单独使用此分离节点进行 {} 计算 {}，将其插入同一树中的其他位置，或者将其放置在完全不同的树中。",
+    "The child node to remove from the parent":"要从父节点中删除的子节点",
+    "The parent node":"父节点",
+    "This function removes a node from its parent\u0027s child list (but doesn\u0027t {}delete{} it).":"此函数从其父级的子级列表中删除节点 (但不会 {} 删除 {})。",
+    "This gets the first child from the node {}n_root{} and removes it from its parent.":"这会从节点 {}n_root{} 获取第一个子节点，并将其从其父节点中删除。"
+}

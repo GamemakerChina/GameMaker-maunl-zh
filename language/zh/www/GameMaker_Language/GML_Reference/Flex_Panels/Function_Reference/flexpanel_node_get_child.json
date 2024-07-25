@@ -1,0 +1,12 @@
+{
+    "Either the index of the node or its name":"节点的索引或其名称",
+    "Finally, the function is run for the root node, which will then be recursively executed for all of its child nodes as well.":"最后，该函数针对根节点运行，然后也将针对其所有子节点递归执行。",
+    "It then iterates through each child of the node and runs the same function for each child.":"然后，它迭代该节点的每个子节点，并为每个子节点运行相同的函数。",
+    "The function accepts either of two kinds of values, which is used to look for the child:":"该函数接受两种值之一，用于查找子项：",
+    "The function will returned&nbsp;{}{}{}undefined{}{}{}&nbsp;if the child was not found (e.g. the index was out of range or name was not found).":"如果未找到子项 (例如索引超出范围或未找到名称)，该函数将返回 {}{}{}undefined{}{}{}。",
+    "The index of the child node, as passed into&nbsp;{}{}flexpanel_node_insert_child{}{}&nbsp;or a value from {}0{} to the value of&nbsp;{}{}{}flexpanel_node_get_num_children{}{}&nbsp;- 1{}":"子节点的索引，传递到 {}{}flexpanel_node_insert_child{}{} 或从 {}0{} 到 {}{}{}flexpanel_node_get_num_children{}{}- 1{} 的值",
+    "The name of the child node, which is originally set either through the {}name{} property in the {}initial struct{} or through {}{}flexpanel_node_set_name{}{}. This search is done recursively through all child nodes and the first matching node is returned.":"子节点的名称，最初通过 {} 初始结构 {} 中的 {0}name{1} 属性或通过 {}{}flexpanel_node_set_name{}{} 设置。此搜索通过所有子节点递归完成，并返回第一个匹配节点。",
+    "The parent node from which the child will be retrieved":"将从中检索子节点的父节点",
+    "This function looks for a child node in the given parent node and returns the child.":"该函数在给定的父节点中查找子节点并返回子节点。",
+    "This function takes a node and a depth. It then gets the absolute positional data for the node and creates an&nbsp;{}{}Object Instance{}{}&nbsp;at the node\u0027s calculated position, giving the instance the node\u0027s name, width and height.":"该函数需要一个节点和一个深度。然后，它获取节点的绝对位置数据，并在节点的计算位置创建一个 {}{} 对象实例 {}{}，并为该实例提供节点的名称、宽度和高度。"
+}

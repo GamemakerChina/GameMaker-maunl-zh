@@ -1,0 +1,8 @@
+{
+    "See:&nbsp;{}Width and Height{}":"请参阅：{} 宽度和高度 {}",
+    "The node to modify":"要修改的节点",
+    "The unit to use for the width":"用于宽度的单位",
+    "The width to set":"要设置的宽度",
+    "This function sets the {}width{} property of the given {}{}Flex Panel Node{}{}.":"此函数设置给定 {}{}Flex Panel 节点 {}{} 的 {0}width{1} 属性。",
+    "This sets the width of a node to 100%.":"这会将节点的宽度设置为 100%。"
+}

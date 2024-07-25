@@ -1,0 +1,6 @@
+{
+    "See:&nbsp;{}Min/Max Width and Height{} / {}{}flexpanel_node_style_set_min_height{}{}":"请参阅：{} 最小 / 最大宽度和高度 {}/{}{}flexpanel_node_style_set_min_height{}{}",
+    "The node to read.":"要读取的节点。",
+    "This function returns the {}minHeight{} property of the given {}{}Flex Panel Node{}{}.":"此函数返回给定 {}{}Flex Panel 节点 {}{} 的 {0}minHeight{1} 属性。",
+    "This gets the minimum height of a node and stores it in a local variable.":"这会获取节点的最小高度并将其存储在局部变量中。"
+}

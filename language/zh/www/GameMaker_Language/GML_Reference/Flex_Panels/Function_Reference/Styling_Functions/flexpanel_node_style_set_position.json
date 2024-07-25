@@ -1,0 +1,9 @@
+{
+    "See:&nbsp;{}Insets{}":"请参阅：{} 嵌入 {}",
+    "The edge to set the position for":"要设置位置的边缘",
+    "The node to modify":"要修改的节点",
+    "The unit of the value":"数值单位",
+    "The value to use":"设置的值",
+    "This function sets an inset position&nbsp;of the given {}{}Flex Panel Node{}{}. You must specify the edge to set the position for, the unit of the value (whether it\u0027s pixels or a percentage) and the value itself.":"此函数设置给定 {}{}Flex Panel 节点 {}{} 的插入位置。您必须指定要设置位置的边缘、值的单位 (无论是像素还是百分比) 以及值本身。",
+    "This sets a node\u0027s position type to absolute, and then sets the left position to 20px and top position to 40px.":"这会将节点的位置类型设置为绝对，然后将左侧位置设置为 20px，顶部位置设置为 40px。"
+}

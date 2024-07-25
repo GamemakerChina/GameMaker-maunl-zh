@@ -1,0 +1,13 @@
+{
+    "Getter functions for such properties, such as&nbsp;{}{}flexpanel_node_style_get_width{}{}, will return a struct with two members:":"此类属性的获取函数 (例如 {}{}flexpanel_node_style_get_width{}{}) 将返回一个包含两个成员的结构体：",
+    "Getters":"获取",
+    "Interprets the value as a percentage":"将值解释为百分比",
+    "Interprets the value as number of pixels":"将值解释为像素数",
+    "Setters":"设置",
+    "The unit of the value, one of the enum members in the table above":"值的单位，上表中的枚举成员之一",
+    "The value itself":"值本身",
+    "There are some properties that can take either an absolute pixel value or a percentage value. In a setter function, like&nbsp;{}{}flexpanel_node_style_set_width{}{}, you can specify the unit along with the value, using one of the following enum members:":"有些属性可以采用绝对像素值或百分比值。在设置函数 (例如 {}{}flexpanel_node_style_set_width{}{}) 中，您可以使用以下枚举成员之一指定单位和值：",
+    "This page lists all the styling functions provided for&nbsp;{}Flex Panel{}s. For general information on all styling properties, see&nbsp;{}Flex Panel Struct Members{}.":"本页列出了为 {}Flex Panel{} 提供的所有样式功能。有关所有样式属性的一般信息，请参阅 {}Flex Panel 结构成员 {}。",
+    "Units":"单位(Units)",
+    "Uses automatic sizing for properties that support it":"对支持它的属性使用自动调整大小"
+}

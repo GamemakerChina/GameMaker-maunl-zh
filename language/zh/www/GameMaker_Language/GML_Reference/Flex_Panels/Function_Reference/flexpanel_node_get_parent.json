@@ -1,0 +1,5 @@
+{
+    "The node to get the parent of":"要获取其父节点的节点",
+    "This function returns the parent node of the given node, or&nbsp;{}{}{}undefined{}{}{}&nbsp;if it has no parent.":"此函数返回给定节点的父节点，如果没有父节点，则返回 {}{}{}undefined{}{}{}。",
+    "This gets the parent of the node {}_node{} and stores it in a local variable.":"这会获取节点 {}_node{} 的父节点并将其存储在局部变量中。"
+}

@@ -1,0 +1,7 @@
+{
+    "See:&nbsp;{}Flex Basis{}":"请参阅：{} 柔性基础 {}",
+    "The node to modify":"要修改的节点",
+    "The unit of the value":"数值单位",
+    "The value to set":"要设置的值",
+    "This function sets the {}flexBasis{} property of the given {}{}Flex Panel Node{}{}.":"此函数设置给定 {}{}Flex Panel 节点 {}{} 的 {0}flexBasis{1} 属性。"
+}

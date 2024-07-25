@@ -1,0 +1,7 @@
+{
+    "See:&nbsp;{}Insets{} / {}{}flexpanel_node_style_set_position{}{}":"请参阅：{} 嵌入 {}/{}{}flexpanel_node_style_set_position{}{}",
+    "The edge to get the inset for.":"获取嵌入的边缘。",
+    "The node to read.":"要读取的节点。",
+    "This function returns the inset position&nbsp;for the given edge of a&nbsp;{}{}Flex Panel Node{}{}.":"此函数返回 {}{}Flex Panel 节点 {}{} 给定边缘的插入位置。",
+    "This gets the left inset position of a node and stores it in a local variable.":"这获取节点的左插入位置并将其存储在局部变量中。"
+}

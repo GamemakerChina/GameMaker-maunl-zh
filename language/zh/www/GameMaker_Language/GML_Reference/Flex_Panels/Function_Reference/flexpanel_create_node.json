@@ -1,0 +1,9 @@
+{
+    "The returned node can be {}inserted into another node{} as a child.":"返回的节点可以作为子节点 {} 插入另一个节点 {}。",
+    "This creates a node using a struct. That struct contains information on the properties of the root node and all of its nested children.":"这将使用结构创建一个节点。该结构包含有关根节点及其所有嵌套子节点的属性的信息。",
+    "This creates an empty node. You can later {}set properties{} on this and {}insert other nodes{} as children.":"这将创建一个空节点。您稍后可以为此 {} 设置属性 {} 并 {} 插入其他节点 {} 作为子节点。",
+    "This creates the same nodes as before, however this uses a JSON {}multi-line string{} instead of a struct.":"这会创建与之前相同的节点，但使用 JSON{} 多行字符串 {} 而不是结构体。",
+    "This function creates a new&nbsp;{}Flex Panel{}&nbsp;node.":"此函数创建一个新的 {}Flex Panel{} 节点。",
+    "You can optionally pass either a JSON string or a struct containing the node\u0027s properties, which are&nbsp;{}described here{}. These properties can also be set later using other&nbsp;{}Flex Panel Functions{}.":"您可以选择传递 JSON 字符串或包含节点属性的结构，{} 此处进行了描述 {}。稍后也可以使用其他 {}Flex 面板函数 {} 设置这些属性。",
+    "{}{}OPTIONAL{}{}&nbsp;Struct with node information or string containing JSON data, members described {}on this page{}":"{}{} 可选{}{} 具有节点信息或包含 JSON 数据的字符串的结构，{} 此页面 {} 中描述的成员"
+}

@@ -1,0 +1,7 @@
+{
+    "See:&nbsp;{}Justify Content{}":"请参阅：{} 主轴对齐 {}",
+    "The justification to use":"设置的主轴对齐",
+    "The node to modify":"要修改的节点",
+    "This function sets the {}justifyContent{} property of the given {}{}Flex Panel Node{}{}. It can be one of the following enum members:":"此函数设置给定 {}{}Flex Panel 节点 {}{} 的 {0}justifyContent{1} 属性。它可以是以下枚举成员之一：",
+    "This sets the justify content of a node to space-between.":"这将节点的对齐内容设置为space-between。"
+}

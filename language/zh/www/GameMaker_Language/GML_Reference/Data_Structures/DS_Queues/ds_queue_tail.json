@@ -1,5 +1,7 @@
 {
+    "The above code will read the tail value from the queue indexed in the variable \"control_queue\" and store the return value in the variable \"num\".":"上面的代码将从变量 \"control_queue\" 中索引的队列中读取尾部值，并将返回值存储在变量 \"num\" 中。",
     "The above code will read the value from the queue indexed in the variable \"control_queue\" and store the return value in the variable \"num\".":"上述代码将从变量\"control_queue\"中索引的队列读取值，并将返回值存储在变量\"number\"中。",
     "The id of the data structure to read from.":"要读取的数据结构的ID。",
-    "This function will only {}read{} the last value of the queue (that which is \"at the tail\"). It will not {}dequeue{} the value, meaning that it can still be read in the future by this function or the {}{}ds_queue_dequeue(){}{}.":"此函数将只读取{}队列的最后一个值(即\"尾部\")。它不会将值{}出列{}，这意味着此函数或{}{}ds_queue_dequeue(){}{}将来仍可以读取该值。"
+    "This function will only {}read{} the last value of the queue (that which is \"at the tail\"). It will not {}dequeue{} the value, meaning that it can still be read in the future by this function or the {}{}ds_queue_dequeue(){}{}.":"此函数将只读取{}队列的最后一个值(即\"尾部\")。它不会将值{}出列{}，这意味着此函数或{}{}ds_queue_dequeue(){}{}将来仍可以读取该值。",
+    "This function will only {}read{} the last value of the queue (that which is \"at the tail\"). It will not {}remove{}&nbsp;the value from the structure, meaning that it can be read again by calling this function. If the queue is empty then the function will return the constant {}undefined{}, otherwise it will return the value contained in the queue.":"此函数将仅 {} 读取 {} 队列的最后一个值 (\" 尾部 \")。它不会从结构中 {} 删除 {} 该值，这意味着可以通过调用此函数再次读取该值。如果队列为空，则该函数将返回常量 {}undefined{}，否则将返回队列中包含的值。"
 }

@@ -1,0 +1,6 @@
+{
+    "The node to delete":"要删除的节点",
+    "This deletes the node {}n_root{}&nbsp;and all of its children.":"这将删除节点 {}n_root{} 及其所有子节点。",
+    "This function deletes the given&nbsp;{}{}Flex Panel Node{}{}. You can choose whether it should also delete all of its child nodes, which it won\u0027t do by default.":"此函数删除给定的 {}{}Flex Panel 节点 {}{}。您可以选择是否也删除其所有子节点，默认情况下不会这样做。",
+    "{}{}OPTIONAL{}{}&nbsp;Whether to delete all child nodes ({}true{}) or not ({}false{}, default)":"{}{} 可选{}{} 是否删除所有子节点 ({}true{}) 或不删除所有子节点 ({}false{}，默认值)"
+}

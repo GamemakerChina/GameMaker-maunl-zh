@@ -1,7 +1,12 @@
 {
+    "The ID of the list to add to.":"要添加到的列表的 ID。",
+    "The above code first creates a new DS list and stores it in an instance variable {}list{}. It then adds a few values to the list add finally sets the last value (the third value at index 2) with a call to&nbsp;{}{}ds_list_set{}{}.":"上面的代码首先创建一个新的 DS 列表并将其存储在实例变量 {}list{} 中。然后，它向列表中添加一些值，最后通过调用 {}{}ds_list_set{}{} 设置最后一个值 (索引 2 处的第三个值)。",
     "The above code will add the value stored in the \"score\" variable into the list indexed in the variable \"sc_list\".":"上述代码将把存储在\"score\"变量中的值添加到变量\"sc_list\"中的索引列表中。",
     "The id of the list to add to.":"要添加到的列表的ID。",
     "The position within the list to set.":"要设置的列表中的位置。",
     "The value to set in the list.":"要在列表中设置的值。",
-    "This function can be used to set a previously added list entry. You give the list ID (as returned when you created the list) and the position within the list to set as well as the value to set it to. Note that if the entry being set is outside the bounds of the list (ie, you set list entry 20 but the current list only contains 10 entries) then the list will be filled to the given position and each entry will be set to 0. This function is the same as using the {}DS list accessor{}.":"此函数可用于设置先前添加的列表条目。提供列表ID(创建列表时返回的ID)、列表中要设置的位置以及要设置的值。请注意，如果正在设置的条目超出列表的范围(即，您将列表条目设置为20，但当前列表仅包含10个条目)，则列表将填充到给定位置，并且每个条目将设置为0。此函数与使用{}DS列表访问器{}相同。"
+    "This function can be used to set a previously added list entry. You give the list ID (as returned when you created the list) and the position within the list to set as well as the value to set it to. Note that if the entry being set is outside the bounds of the list (ie, you set list entry 20 but the current list only contains 10 entries) then the list will be filled to the given position and each entry will be set to 0. This function is the same as using the {}DS list accessor{}.":"此函数可用于设置先前添加的列表条目。提供列表ID(创建列表时返回的ID)、列表中要设置的位置以及要设置的值。请注意，如果正在设置的条目超出列表的范围(即，您将列表条目设置为20，但当前列表仅包含10个条目)，则列表将填充到给定位置，并且每个条目将设置为0。此函数与使用{}DS列表访问器{}相同。",
+    "This function can be used to set a previously added list entry.&nbsp;It does the same as the {}DS list accessor{}.":"该函数可用于设置先前添加的列表条目。它的作用与 {}DS 列表访问器 {} 相同。",
+    "You give the list ID (as returned when you created the list) and the position within the list to set as well as the value to set it to.":"您提供列表 ID(在创建列表时返回) 和列表中要设置的位置以及要设置的值。",
+    "{}{}NOTE{}{}&nbsp;If the entry being set is outside the bounds of the list (i.e., you set list entry 20 but the current list only contains 10 entries) then the list will be filled to the given position and each entry will be set to 0.":"{}{} 注意{}{} 如果所设置的条目超出了列表的范围 (即，您设置了列表条目 20，但当前列表仅包含 10 个条目)，则列表将被填充到给定位置，并且每个条目将被设置为 0。"
 }

@@ -1,5 +1,9 @@
 {
+    "If you multiply a number with itself, you get the square of that number, but sometimes you want to do the reverse and get the square root of a number. So to find what number has been multiplied with itself to get any given {}positive{} value we use this function. For example: {}sqrt(9){} will return 3 since 3 * 3 = 9.":"如果将一个数字与其自身相乘，则会得到该数字的平方，但有时您想要执行相反的操作并获得该数字的平方根。因此，为了查找哪个数字与其自身相乘以获得任何给定的 {} 正 {} 值，我们使用此函数。例如：{}sqrt(9){} 将返回 3，因为 3 * 3 = 9。",
     "If you multiply a number with itself, you get the square of that number, but sometimes you want to do the reverse and get the square root of a number. So to find what number has been multiplied with itself to get any given {}positive{} value we use this function. For example: {}sqrt(9){} will return 3 since 3*3=9.":"如果将一个数与它自身相乘，就会得到该数的平方，但有时你想反其道而行之，得到一个数的平方根。 因此，为了找到哪个数字与自身相乘以获得任何给定的{}正{}值，我们使用此函数。 例如：{}sqrt(9){} 将返回 3，因为 3*3=9。",
     "The above code will set the variable \"num\" to hold the square root of the value contained in \"exp\".":"上面的代码将设置变量“num”来保存“exp”中包含的值的平方根。",
-    "The number to get the square root of.":"要获取其平方根的数。"
+    "The above code will set the variable {}num{}&nbsp;to hold the square root of the value contained in {}val{}.":"上述代码将设置变量 {}num{} 以保存 {}val{} 中包含的值的平方根。",
+    "The number to get the square root of.":"要获取其平方根的数。",
+    "This function returns the square root of the given number.":"该函数返回给定数字的平方根。",
+    "{}{}NOTE{}{}&nbsp;Negative values greater than or equal to negative epsilon are clamped to 0, i.e. they are considered 0. See&nbsp;{}{}math_set_epsilon{}{}.":"{}{} 注意{}{} 大于或等于负 epsilon 的负值被限制为 0，即它们被视为 0。请参阅 {}{}math_set_epsilon{}{}。"
 }
