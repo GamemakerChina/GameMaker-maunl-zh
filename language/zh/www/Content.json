@@ -1,4 +1,5 @@
 {
+    "Additional Information":"附加信息",
     "Animation Curves":"动画曲线",
     "Audio Groups":"音频组",
     "Best Practices When Programming":"编程时的最佳实践",
@@ -72,6 +73,8 @@
     "The Output Window":"输出窗口",
     "The Particle System Editor":"粒子系统编辑器",
     "The Room Manager":"房间管理器",
+    "The following sections cover information about the&nbsp;{}GameMaker{}&nbsp;visual and scripting languages, and additional guides on using runtime features:":"以下章节涵盖了关于 <b class=\"score\" style=\"color:red;\">{0}</b>GameMaker<b class=\"score\" style=\"color:red;\">{1}</b> 视觉和脚本语言的信息，以及使用运行时功能的其他指南：",
+    "The following sections cover the tools available to you in the IDE for setting preferences, editing your project and assets, and configuring the&nbsp;{}GameMaker{}&nbsp;runner:":"以下章节介绍了在 IDE 中可用的工具，用于设置偏好、编辑项目和资源以及配置 <b class=\"score\" style=\"color:red;\">{0}</b>GameMaker<b class=\"score\" style=\"color:red;\">{1}</b> 运行器：\n",
     "This section covers an overview to GameMaker Language, and its two programming methods: Visual and Code.":"本节概述 GameMaker 语言及其两种编程方法：可视化和代码。",
     "This section is the obligatory first stop for using {}GameMaker{} and getting to grips with the contents of the IDE and how it works. You\u0027ll find that {}GameMaker{} is intuitive and simple to use, and even if you\u0027ve never used any tools like this before you shouldn\u0027t have any problems getting started and making games after reading through the {}Introduction{}&nbsp;and completing the {}Quick Start Guide {}(below). Once you have got to grips with the basics you can then move on to the more in-depth look at the components of {}GameMaker{} in the {}IDE {}sections below.":"本节是使用 {}GameMaker{} 的必经之路，让你掌握 IDE 的内容和它的工作方式。<br>你会发现 {}GameMaker{} 很直观，使用起来也很简单，即使你以前从未使用过这样的工具，<br>在读完 {} 简介 {} 和完成 {} 快速入门指南 {}（以下）后，开始制作游戏应该没有任何问题。<br>一旦你掌握了基础知识，你就可以在下面的 {}IDE{} 部分更深入地了解 {}GameMaker{} 的组成部分。",
     "Tile Sets":"图块集",
@@ -84,7 +87,7 @@
     "Vectors":"向量",
     "We also have a few extra pages with information on certain aspects of programing and using the GameMaker Language:":"我们还提供了一些额外的页面，其中包含有关编程和使用 GameMaker 语言的某些方面的信息：",
     "We also have a few extra pages with information on certain aspects of programming and using the GameMaker Language:":"我们还有一些额外的页面，其中包含了编程和使用 GameMaker 语言的某些方面的信息:",
-    "Welcome to the {}GameMaker{} user manual! This document is divided into three parts with the aim of getting you introduced to the interface and basic workings of {}GameMaker{} and general programming, before going on to more advanced usage and the functions available through our proprietary&nbsp;programming language GML (GameMaker Language).":"欢迎阅读 {}GameMaker{} 用户手册！本文档分为三个部分，旨在向您介绍 {}GameMaker{} 的界面和基本工作原理以及一般编程，然后再介绍我们专有的编程语言 GML(GameMaker 语言) 提供的更高级用法和功能。",
+    "Welcome to the {}GameMaker{} user manual! This document is divided into three parts with the aim of getting you introduced to the interface and basic workings of {}GameMaker{} and general programming, before going on to more advanced usage and the functions available through our proprietary&nbsp;programming language GML (GameMaker Language).":"欢迎查阅 {0}GameMaker{1} 用户手册！本文档分为三个部分，旨在帮助您熟悉 {2}GameMaker{3} 界面基础操作与通用编程概念，继而深入掌握通过我们专属编程语言 GML（GameMaker Language）实现的高级功能与应用。",
     "Welcome to the {}GameMaker{} user manual! This document is divided into three parts with the aim of getting you introduced to the interface and basic workings of {}GameMaker{} and general programming, before going on to more advanced usage and the functions available through our {}proprietary{}&nbsp;programming language GML (GameMaker Language).":"欢迎阅读 {}GameMaker{} 用户手册！本文档分为三个部分，目的是让您了解 {}GameMaker{} 的界面和基本工作原理以及通用编程，然后再介绍更高级的用法，以及通过我们的 {} 专有 {} 编程语言 GML(GameMaker Language) 提供的功能。",
     "What Is Programming?":"什么是编程？",
     "Workspaces":"工作空间",

@@ -91,3 +91,8 @@ translate_tts=function(str){
 	}
 }
 var http =inet.http();
+
+
+
+//AI翻译接口
+config=0

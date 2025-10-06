@@ -10,6 +10,7 @@
     "This page lists the functions for use with the Live Wallpaper functionality.":"此页面列出了与动态壁纸功能一起使用的功能。",
     "{}Extensions{}: Calls to DLL functions included in {}extensions{} are disabled (including&nbsp;{}{}external_call{}{},&nbsp;{}{}external_define{}{}, etc.)":"{} 扩展 {}：禁用对 {} 扩展 {} 中包含的 DLL 函数的调用 (包括 {}{}external_call{}{}、{}{}external_define{}{} 等)",
     "{}File Access{}: The standard {}file sandbox{} applies; {}disabling sandbox{} does nothing":"{} 文件访问 {}：适用标准 {} 文件沙箱 {};{} 禁用沙盒 {} 不会执行任何操作",
+    "{}Functions{}: None of the {}url_open*(){} functions will work":"<b class=\"score\" style=\"color:red;\">{0}</b> 函数 <b class=\"score\" style=\"color:red;\">{1}</b>：所有 <b class=\"score\" style=\"color:red;\">{2}</b>url_open*()<b class=\"score\" style=\"color:red;\">{3}</b> 函数均无法运行",
     "{}Live Wallpapers{}":"{}动态壁纸{}",
     "{}Microphone{}: Disabled":"{} 麦克风 {}：已禁用",
     "{}Mouse Input{}: Disabled by default, enabled with&nbsp;{}{}wallpaper_set_subscriptions{}{}":"{} 鼠标输入 {}：默认禁用，通过 {}{}wallpaper_set_subscriptions{}{} 启用",

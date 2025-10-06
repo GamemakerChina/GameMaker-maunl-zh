@@ -4,12 +4,15 @@
 import win.ui;
 import win.ui.menu;
 /*DSG{{*/
-mainForm = win.form(text="GameMaker Manual";right=1379;bottom=959)
-mainForm.add()
+mainForm = win.form(text="GameMaker Manual";right=1391;bottom=983)
+mainForm.add(
+tab={cls="tab";left=0;top=0;right=1392;bottom=984;db=1;dl=1;dr=1;dt=1;edge=1;z=1}
+)
 /*}}*/
 
 import console
 import fsys;
+import web.json
 
 loadcodex("\res\函数.aardio");
 
@@ -71,7 +74,10 @@ loadcodex("\res\翻译.aardio");
 loadcodex("\res\热键设置.aardio");
 
 import web.view;
-theView  = web.view(mainForm,,setting.chromeCondition);
+theView  = web.view(mainForm.tab.loadForm({text="main"}),,setting.chromeCondition);
+
+配置=mainForm.tab.loadForm("\dlg\配置.aardio")
+
 
 //关闭右键菜单
 theView.enableDefaultContextMenus(false) 
@@ -197,6 +203,9 @@ theView.export({
 		//console.log(ret)
 		if !ret ret=""
 		return ret
+	}
+	config=function(name,attr){
+		return 配置[name][attr]
 	}
 })
 

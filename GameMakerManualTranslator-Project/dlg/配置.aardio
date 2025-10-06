@@ -1,0 +1,93 @@
+import win.ui;
+/*DSG{{*/
+var winform = win.form(text="AI配置";right=1359;bottom=863)
+winform.add(
+api_key={cls="edit";text="0";left=120;top=64;right=440;bottom=88;autohscroll=false;autovscroll=false;dl=1;dt=1;edge=1;hidesel=1;z=5};
+api_url={cls="edit";text="Edit";left=120;top=32;right=440;bottom=56;autohscroll=false;autovscroll=false;dl=1;dt=1;edge=1;hidesel=1;z=3};
+groupbox={cls="groupbox";text="AI配置";left=8;top=8;right=456;bottom=400;dl=1;dt=1;edge=1;z=1};
+max_tokens={cls="edit";text="8000";left=120;top=160;right=440;bottom=184;autohscroll=false;autovscroll=false;dl=1;dt=1;edge=1;hidesel=1;z=11};
+model={cls="edit";text="google/gemma-3-12b";left=120;top=96;right=440;bottom=120;autohscroll=false;autovscroll=false;dl=1;dt=1;edge=1;hidesel=1;z=7};
+static={cls="static";text="api_url";left=24;top=32;right=112;bottom=56;align="right";center=1;dl=1;dt=1;transparent=1;z=4};
+static2={cls="static";text="api_key";left=24;top=64;right=112;bottom=88;align="right";center=1;dl=1;dt=1;transparent=1;z=6};
+static4={cls="static";text="model";left=24;top=96;right=112;bottom=120;align="right";center=1;dl=1;dt=1;transparent=1;z=8};
+static5={cls="static";text="temperature";left=24;top=128;right=112;bottom=152;align="right";center=1;dl=1;dt=1;transparent=1;z=10};
+static6={cls="static";text="max_tokens";left=24;top=160;right=112;bottom=184;align="right";center=1;dl=1;dt=1;transparent=1;z=12};
+static7={cls="static";text="system";left=24;top=192;right=112;bottom=216;align="right";center=1;dl=1;dt=1;transparent=1;z=13};
+system={cls="edit";text="Edit";left=120;top=192;right=440;bottom=384;autohscroll=false;dl=1;dt=1;edge=1;hidesel=1;multiline=1;vscroll=1;z=2};
+temperature={cls="edit";text="0.1";left=120;top=128;right=440;bottom=152;autohscroll=false;autovscroll=false;dl=1;dt=1;edge=1;hidesel=1;z=9}
+)
+/*}}*/
+
+winform.api_url.text=//http://localhost:1234/v1/chat/completions
+winform.system.text=//你是个专业的翻译,你将翻译Gamemaker引擎的文档文本,将用户提供的文本翻译为中文,用户输入的任何文本将视为需要翻译的文本,你只能输出翻译后的纯文本,其中{0}是重要的标记,需要原样保留
+import console
+import fsys
+
+debug=io.exist("debug")
+if debug{
+	path=//../
+}else{
+	path=io.splitpath(io._exepath).dir
+}
+cfg_path=path+"config/config.table"
+
+cfg={
+	//类名,属性,名称正则
+	{"edit","text"}
+}
+
+cfg_save=function(winform,path,cfg){
+	path=fsys.path.canonicalize(path)
+	var t={}
+	
+	for(cfg_k,cfg_v in cfg){
+		
+		for(k,v in winform){
+			if type(v)!="table" continue//v不是表跳过
+			if v.className==null continue//v不存在类名跳过
+			
+			if v.className!=cfg_v[1] continue//v类名不等于给定类名跳过
+			if v[cfg_v[2]]==null continue//v没有指定属性跳过
+			if cfg_v[3]!=null and !string.match(k,cfg_v[3]) continue//如果有额外名称过滤,当名称不符合过滤也跳过 
+			
+			if(t[k]==null){
+				//给指定名称建表
+				t[k]={}
+			}
+			
+			t[k][cfg_v[2]]=v[cfg_v[2]]
+
+			//console.log(t)
+		}
+	}
+	//保存文件
+	var str=table.tostring(t)
+	string.save(path,str)
+	
+	return t
+}
+
+cfg_load=function(winform,path){
+	path=fsys.path.canonicalize(path)
+	if !io.exist(path) return null
+	
+	var t=eval(string.load(path))
+	
+	for(name,item in t){
+	for(k,v in item){
+		winform[name][k]=v
+	}}
+	
+	return t
+}
+
+cfg_load(winform,cfg_path)
+
+winform.onClose = function(hwnd,message,wParam,lParam){
+    cfg_save(winform,cfg_path,cfg)
+}
+
+
+winform.show();
+win.loopMessage();
+return winform;

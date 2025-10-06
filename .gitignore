@@ -1,5 +1,6 @@
 GMS2-Robohelp-en/*
 build/*
+config/*
 node_modules
 
 token.struct

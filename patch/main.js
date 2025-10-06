@@ -89,11 +89,101 @@ qqq_translate_form_path=function(str){
 }
 
 qqq_translate_set=function(str){
+	//翻译后转义
+	str = str.replace("&amp; {0,}","&")
+	str = pangu.spacing(str)
 
-	$(".qqq_menu .new").html(pangu.spacing(str))
+	$(".qqq_menu .new").html(str)
 
 	qqq_hight_light()
 
+}
+
+qqq_stream_chat_completion=async function(url,data,fun){
+	url??="http://localhost:1234/v1/chat/completions"
+	data??={
+		"key" : "0",
+        "model": "google/gemma-3-12b",
+        "messages": [
+          { "role": "system", "content": "你是一个专业的翻译" },
+          { "role": "user", "content": "What day is it today?" }
+        ],
+        "temperature": 0.7,
+        "max_tokens": -1,
+        "stream": true
+      }
+	fun??=function(str){
+		qqq_translate_set(str)
+	}
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+		"Authorization": `Bearer ${data.key}`
+      },
+      body: JSON.stringify(data)
+    });
+	// 累计字符串，用于存储完整的响应数据
+    let accumulatedData = '';
+    // 获取响应体的读取器，用于流式读取响应数据
+    const reader = response.body.getReader();
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      const chunk = new TextDecoder().decode(value);
+      try {
+        // 处理每个分块，通常流式响应会以 data: 开头
+        const lines = chunk.split('\n').filter(line => line.trim().startsWith('data: '));
+        for (const line of lines) {
+          const dataStr = line.replace('data: ', '').trim();
+          if (dataStr === '[DONE]') break;
+          const data = JSON.parse(dataStr);
+          if (data.choices && data.choices.length > 0 && data.choices[0].delta?.content) {
+            //document.querySelector('div').appendChild(document.createTextNode(data.choices[0].delta.content));
+			// 累计当前分块的内容
+			accumulatedData += data.choices[0].delta.content;
+			fun(accumulatedData)
+          }
+        }
+      } catch (error) {
+        console.error('Error processing chunk:', error);
+      }
+    }
+  }
+
+qqq_AI_chat=async function(){
+
+	var url = "http://localhost:1234/v1/chat/completions"
+	var key = "0"
+	var model = "google/gemma-3-12b"
+
+	var url = await config("api_url","text")
+	var key = await config("api_key","text")
+	var model = await config("model","text")
+	var temperature = Number(await config("temperature","text"))
+	var max_tokens = Number(await config("max_tokens","text"))
+	var prompt=await config("system","text")
+
+	var content=$(".qqq_menu .old").html()
+	var size=content.split("{}").length-1
+	//替换{}为{0},{1}...
+	for (let i = 0; i < size; i++) {
+		content=content.replace('{}',"{"+i+"}")
+	}
+
+	qqq_stream_chat_completion(url,{
+		"key":key,
+		"model": model,
+		"messages": [
+		  { "role": "system", "content": prompt },
+		  { "role": "user", "content": content }
+		],
+		"temperature": temperature,
+		"max_tokens": max_tokens,
+		"stream": true
+	  },function(str){
+		qqq_translate_set(str)
+	  })
 }
 
 qqq_translate_patch=function(str){
@@ -335,6 +425,7 @@ html=`<div class="hide">
 				<br>
 				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_googleR()>谷歌翻译(转发)</button>
 				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_translate_googleR(1)>谷歌翻译(去标签转发)</button>
+				<button class="layui-btn  layui-btn-primary layui-btn-xs" onclick=qqq_AI_chat()>AI翻译</button>
 			</div>
 
 			<div class="layui-col-md6">
